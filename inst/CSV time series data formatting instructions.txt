@@ -1,0 +1,24 @@
+﻿CSV time series data formatting instructions
+
+
+When submitting IEA data, please submit a CSV file with the following column titles:
+ 
+year
+index
+SEup
+SElo
+metric
+timeseries
+ 
+year - the year.  this can also be a date if your data are sub yearly
+index - these are the data to graph.  Could be fish biomass  or el nino
+SEup - upper SE bound, if available
+SElo - lower SE bound, if available
+metric - descriptor of the index, eg CPUE kg/km2
+timeseries - the name of the time series, eg, Sealion pup count or aragonite saturation at station NH05
+ 
+This format will match the plotting function and allow for more easy automation or the report production.
+ 
+You can include multiple time series in one file, just name them differently in the time series column. 
+ 
+You can also include additional columns (SE, SD etc) or leave out any of the above except year,index, timeseries, and metric.

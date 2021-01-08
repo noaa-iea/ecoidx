@@ -1,0 +1,4402 @@
+---
+title: "CCIEA.Figures"
+output:
+  word_document: default
+---
+
+<!-- MAIN REPORT : BEGIN REPORT -->
+# document start
+```{r r-chunk-options, echo=FALSE, warning=FALSE}
+
+rm(list=ls())
+HomeFile = getwd()
+library(knitr) 
+knitr::opts_chunk$set(
+  fig.path = paste0(HomeFile,'/Figures/'),
+  cache.path = 'cache/graphics-', 
+  echo=FALSE,
+  include = TRUE,
+  dev='png',
+  dpi=300,
+  warning=FALSE
+  )
+
+
+
+```
+
+
+
+```{r update.for.current.year, echo=FALSE, warning=FALSE}
+# UPDATE FOR CURRENT YEAR  ####
+report.year="2020"   # That is, the year it is turned in.  So 2020 for a Feb 2020 report.
+main.folder = HomeFile
+data.loc = paste(main.folder,"/Time.series/",sep="")
+fig.loc = paste(main.folder,"/Figures/",sep="")
+cap.loc = paste(main.folder,"/Captions/",sep="")
+AltTxt = paste(main.folder,"/AltText/",sep="")
+
+# figure legend stuff 
+coda = " Lines, colors, and symbols are as in Fig.1."
+coda_hydro = " Error envelopes represent the 2.5% and 97.5% upper and lower credible intervals. Symbols to the right follow those in Fig. 1, but were evaluted based on whether the credible interval overlaped zero (slope of the 5-year trend) or the long-term mean (5-year mean)."
+
+library(rtf) # to output captions
+
+#####################################################
+# load time series plotting code #
+source(paste0(main.folder,"/load.data.r"))
+source(paste0(main.folder,'/PlotTimeSeries.R'))  
+source(paste0(main.folder,'/PlotDomoicAcid.R'))  
+source(paste0(main.folder,"/Quadplot_means.r",sep=""))
+source(paste0(main.folder,'/NormalizeTimeSeries.r'))
+source(paste0(main.folder,"/GetAreaWtdMeans.R" ))
+source(paste0(main.folder,"/QuadPlot.R" ))
+
+bg.polys = FALSE
+note.update.status = FALSE # plots "old data" on plot if it hasn't been updated from previous year
+
+### update date from website DO NOT USE ####
+# websitedownload ='no'  # yes or no
+# source('_UpdateIEADataFromWebsite.R')
+
+```
+
+
+# EXAMPLE FIGURE
+
+```{r ExampleFigure}
+graphics.off()
+jpeg(paste(fig.loc,"example-fig.jpg",sep=""), units='in', res=300, width=6, height=5)
+
+nf <- layout(matrix(c(1,3,
+                      2,3),
+                      2,2,byrow = TRUE), c(2,2), c(1,1), TRUE)
+
+layout.show(nf)
+X = 1:30
+# Y = Y2 = c(1.951787,1.631605,3.457652,1.503185,4.863015,6.274109,-1.016788,1.526880,3.908137,4.353510,3.631307,4.362584,3.683589,4.665410,2.294414,1.254683,2.647636,2.933235, 4.818184,6.043274,2.533987,1.564976,7.850845,9.314683,7.865794,10.216519,7.164671,11.329814,9.385541,10.176562)
+
+Y = Y2 = c(1.951787,1.631605,3.457652,NA,NA,NA,-1.016788,1.526880,3.908137,4.353510,3.631307,4.362584,3.683589,4.665410,2.294414,1.254683,2.647636,2.933235, 4.818184,6.043274,2.533987,1.564976,7.850845,9.314683,7.865794,10.216519,7.164671,11.329814,9.385541,10.176562)
+
+
+SElo = Y-2
+SEup = Y+2
+X = (1985+X)
+
+XY = data.frame(cbind(X,Y,Y2,SEup,SElo))
+colnames(XY) = cbind('year','index','Y2',"SEup","SElo")
+XY$timeseries="(a) Trend and recent mean"
+XY$metric = NA
+XY$type = "current.data"
+
+PlotTimeSeries(XY, Y2 = NA, LWD = 0.8, Pt.cex = 0.5)
+#legend("topleft","(a)", inset=-0.11, bty='n')
+
+# Y =  Y2 = c(0.8288388,0.3560032,4.3554672,0.3492971,-1.6653125,3.0814942,7.0659828,0.4611352,2.0977700,1.4968837,5.9732167,5.3339023,6.2231723,2.9405107,6.8632977,8.5882587,2.7173843,5.4305515,5.6159417,3.8396360,5.6711355,4.3574772,5.5107925,5.5223462,7.3474867,8.0262139,6.1562065,4.4223551,3.6068412,2.3166955)
+
+Y =  Y2 = c(0.8288388,0.3560032,4.3554672,0.3492971,0.5,1.06,2.2,0.4611352,2.0977700,1.4968837,5.9732167,5.3339023,6.2231723,2.9405107,6.8632977,8.5882587,2.7173843,NA,NA,3.8396360,NA,4.3574772,5.5107925,5.5223462,7.3474867,8.0262139,6.1562065,2.4223551,1.6068412,1.3166955)
+
+
+se = rnorm(length(X),0,2)
+SElo = Y-2
+SEup = Y+2
+XY = data.frame(cbind(X,Y,Y2,SEup,SElo))
+colnames(XY) = cbind('year','index','Y2',"SEup","SElo")
+XY$timeseries="(b) Threshold"
+XY$metric = NA
+XY$type = "current.data"
+
+PlotTimeSeries(XY, YLIM = c(0,NA), LWD = 0.8, Pt.cex = 0.7, threshold = 3, threshold.correct = TRUE, threshold.loc = 'below')
+#legend("topleft","(b)", inset=-0.11, bty='n')
+# reset
+SElo = NA
+SEup = NA
+Y2 = NA
+Ylab = NA
+
+x = c(1.3,1.1,0.5, -1.5,-0.6)
+y = c(2.1, -0.9, -1.5, 1.4, 0.5)
+COL = c('black','grey','red','blue','green')
+
+
+xerrors=NA; yerrors=NA
+QuadPlot_means(D1 = x, D2 = y, style=1, TitleCex = 0.9, PointCex = 1.5, Title = "(c) Sample quadplot", bg.polys=bg.polys, PlotLegend = NA, Lmar = 4.5)
+# legend("topleft","(c)", inset=c(-0.2, -0.2), bty='n')
+graphics.off()
+
+CAP = "(a) Sample time-series plot, with indicator data relative to the mean (black dotted horizontal line) and 1.0 s.d. (solid blue lines) of the full time series. Dotted black line indicates missing data, and points (when included) indicate data. Arrow at the right indicates if the trend over the evaluation period (shaded blue) was positive, negative or neutral. Symbol at the lower right indicates if the recent mean was greater than, less than, or within 1.0 s.d. of the long-term mean. When possible, times series indicate observation error (grey envelope), defined for each plot (e.g., s.d, s.e., 95% confidence intervals); (b) Sample time-series plot with the indicator plotted relative to a threshold value (blue line). Dashed lines indicate upper and lower observation error, again defined for each plot. Dotted black line indicates missing data; (c) Sample quadplot. Each point represents one normalized time series. The position of a point indicates if the times series was increasing or decreasing over the evaluation period and whether the mean recent years of the time series (recent trend) was above or below the long-term average (recent mean). Dashed lines represent 1.0 s.d. of the full time series."
+
+
+rtffile <- RTF(paste(cap.loc,"ExampleFigure.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+
+
+# CLIMATE AND OCEAN DRIVERS
+
+##Basin-scale indicators: ENSO, PDO, and NPG
+
+```{r basin-scale-climate, fig.width = 3.2, fig.height = 3.5}
+
+source('reset.DFs.R')
+
+website.update=FALSE
+if(website.update==TRUE){
+  
+download.file(url="http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_ONI.csvp?time%2CONI",
+              destfile=paste0(data.loc,"Climate and Ocean/oc_ONI.",report.year,".csv", sep=''))
+  
+download.file(url="http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_PDO.csvp?time%2CPDO",
+              destfile=paste0(data.loc,"Climate and Ocean/oc_PDO.",report.year,".csv", sep=''))
+
+download.file(url="http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_NPGO.csvp?time%2CNPGO",
+              destfile=paste0(data.loc,"Climate and Ocean/oc_NPGO.",report.year,".csv", sep=''))
+
+}
+
+DF1 = load.data("Climate and Ocean","oc_ONI")
+DF2 = load.data("Climate and Ocean","oc_PDO")
+DF3 = load.data("Climate and Ocean","oc_NPGO")
+
+start.year = 1981
+
+DF1 = DF1[DF1$year >= start.year,]
+DF2 = DF2[DF2$year >= start.year,]
+DF3 = DF3[DF3$year >= start.year,]
+
+DF1$metric = "ONI"
+DF2$metric = "PDO"
+DF3$metric = "NPGO"
+DF1$timeseries = "Monthly Ocean Nino Index"
+DF2$timeseries = "Monthly Pacific Decadal Oscillation Index"
+DF3$timeseries = "Monthly North Pacific Gyre Oscillation Index"
+
+source('minyr.maxyr.xlim.R')
+XLIM = c(as.character(1980), (substring(as.character(Sys.Date()),1,4)))
+XLIM = c(XLIM[1],as.character(as.numeric(XLIM[2])+1))
+BMAR = c(0.5, 0.5, 0)
+LWD = 0.5
+stats.years = 1981:2010
+PERIOD = 60
+te = 10
+mt = 2
+Y2 = NA
+TitleCex = 0.8
+par(mfrow=c(3,1))
+
+PlotTimeSeries(DF1, Y2=Y2, stats.years = stats.years, XLIM = XLIM, TitleCex = TitleCex, Y.axis.labels = c(-3,0,3),yminor =c(-1,-2,1,2), LWD = LWD,  PERIOD=PERIOD, TicsEvery = te, MinorTics = mt,  AltTxt = AltTxt)
+
+PlotTimeSeries(DF2, Y2=Y2, stats.years = stats.years, XLIM = XLIM, TitleCex = TitleCex, Y.axis.labels = c(-4,0,4),yminor =c(-1,-2,-3,1,2,3),LWD = LWD,  PERIOD=PERIOD, TicsEvery = te, MinorTics = mt, AltTxt = AltTxt)
+
+PlotTimeSeries(DF3, Y2=Y2, stats.years = stats.years, XLIM = XLIM, TitleCex = TitleCex, Y.axis.labels = c(-4,0,4),yminor =c(-1,-2,-3,1,2,3),LWD = LWD,  PERIOD=PERIOD, TicsEvery = te, MinorTics = mt,  AltTxt = AltTxt)
+
+CAP = paste0("Monthly values of the Ocean Nino Index (ONI), Pacific Decadal Oscillation (PDO), and the North Pacific Gyre Oscillation (NPGO) from ",start.year,"-",maxyr,". Mean and s.d. for ",stats.years[1],"-",stats.years[length(stats.years)]," not the full time series. ",coda)
+
+rtffile <- RTF(paste(cap.loc,"basin-scale-climate.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+## Dissolved oxygen
+
+```{r DO, fig.width = 3.2, fig.height = 2.0}
+
+source('reset.DFs.R')
+
+DF1 = load.data("Climate and Ocean", "oc_do_NH05")
+DF2 = load.data("Climate and Ocean", "oc_do_NH25")
+DF3 = load.data("Climate and Ocean", "oc_do_933_300")
+
+# for later....
+doNH05 = DF1
+doNH25 = DF2
+
+source('minyr.maxyr.xlim.R')
+
+th = 1.4
+YLIM = c(0,8)
+YL = c(0, 4.0, 8.0)
+YMINOR = c(2,6)
+te=10
+XLIM = c(1984,2020)
+
+DF3$yr = substring(DF3$year,1,4)
+DF3 = DF3[DF3$yr >= XLIM[1],]
+
+par(mfrow=c(2,1), mar=c(0,0,0,0))
+
+PlotTimeSeries(DF1,  XLIM=XLIM, YLIM=YLIM, TicsEvery=te,  Y.lab.drop = TRUE,  threshold=th, Title = "Dissolved oxygen at 50 m: NH05", AltTxt = AltTxt, AltTxt.file.name = "Dissolved oxygen at 50m NH05")
+
+PlotTimeSeries(DF3, XLIM=XLIM, YLIM=YLIM, TicsEvery=te, Y.lab.drop = TRUE, threshold=th, Title = "Dissolved oxygen at CalCOFI 93.30", AltTxt = AltTxt, AltTxt.file.name = "Dissolved oxygen at CalCOFI station 93.30")
+
+
+CAP = paste("Near-bottom dissolved oxygen off Newport, OR (Station NH05) and San Diego, CA (CalCOFI 93.30) through ", maxyr, ". The blue line is the hypoxic threshold of ", th," ml dissolved oxygen per liter. Dotted black line indicates missing data.",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"DO.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+
+```
+
+## Aragonite
+
+```{r aragonite, fig.width = 3.2, fig.height=2.0}
+# fig.width = 3.2, fig.height=3
+source('reset.DFs.R')
+DF1 = load.data("Climate and Ocean", "oc_arg_NH05")
+DF2 = load.data("Climate and Ocean", "oc_arg_NH25")
+
+# DFx = load.data("Climate and Ocean", "IEA_Aragonite Saturation_NH5_40m_NH25_150m")
+# DFx$index = as.numeric(DFx$index)
+# DF1 = DFx[DFx$timeseries == 'Aragonite Saturation' & DFx$Station == 'NH05',]
+# DF2 = DFx[DFx$timeseries == 'Aragonite Saturation' & DFx$Station == 'NH25',]
+
+source('minyr.maxyr.xlim.R')
+te = 5
+th = 1.0
+YLIM = c(0,3)
+par(mfrow=c(2,1), oma = c(0,0,0,0))
+
+PlotTimeSeries(DF1,  XLIM=XLIM, TicsEvery=te, YLIM=YLIM, Ylab = NA, threshold=th, Title = "Aragonite - 50 m: NH05", AltTxt = AltTxt, AltTxt.file.name = "Aragonite saturation state at 50m NH05")
+
+PlotTimeSeries(DF2,  XLIM=XLIM, TicsEvery=te, threshold=th, YLIM=YLIM, LWD = 1, Ylab = NA, Title = "Aragonite - 150 m: NH25", AltTxt = AltTxt, AltTxt.file.name = "Aragonite saturation state at 150m NH05")
+
+mtext(side=2, "Saturation state", outer = TRUE, line=-1)
+
+CAP = paste("Monthly aragonite saturation values off Newport, Oregon, ", minyr,"-",maxyr,". The blue line indicates aragonite saturation state = 1.0.",coda, sep="")
+
+library(rtf)
+rtffile <- RTF(paste(cap.loc,"aragonite.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+## Domoic acid
+
+```{r Domoic_Acid_Monthly_byState_Clams_and_Crabs, fig.width = 6.2, fig.height = 3}
+# note the plot function does the aggregation for monthly max
+source('reset.DFs.R')
+# NOTE - timeseries = Waterbody3
+DF = load.data("Domoic Acid", "DomoicAcid_All")
+DF$year = as.POSIXct(DF$year)
+DF1 = DF[DF$species %in% c('Razor clam','Dungeness crab'),]
+DF1$species = as.character(DF1$species)
+source('minyr.maxyr.xlim.R')
+
+par(mfrow = c(2,2), mar = c(2,2,1,1), oma=c(0,1,0,0))
+
+regions = c("WA Coast", "OR Coast",  "NCA", "CCA") # for plot order
+th=20
+limx =  c(1990,2020)
+spp = c('Razor clam', "Dungeness crab")
+spp.lc = c('razor clam', "Dungeness crab")
+THRESH = c(20,30)
+COL = c("darkgrey", "black")
+
+Title = c("WA Coast", "OR Coast",  "Northern CA", "Central CA")
+
+
+for(i in 1:length(regions)){
+  if(i == 4){plot.legend = TRUE}else{plot.legend = NA}
+  Plot_Domoic_Acid_Monthly(Data.File =  DF1[DF1$Waterbody3 == regions[i],], 
+                           Xlim = limx, Ylab = NA, Ymax = 400, alt.X.axis = -0.5,
+                           Ymajor = c(0,200,400), Yminor = c(100, 300), AxisCex = 0.8, 
+                           spp = spp, THRESH = THRESH, COL = COL, 
+                           Date = 'year', Location = 'Waterbody3', DA='index',
+                           Species = 'species', Title = Title [i], TitleCex = 0.8, 
+                           plot.legend = plot.legend, legend.cex = 0.7,
+                           legend.inset = c(0.025,0))
+
+}
+
+mtext(side=2, "Monthly max (ppm)", outer= TRUE, line = 0)
+
+CAP = paste0("Monthly maximum domoic acid concentration (ppm) in razor clams (gray) and Dungeness crab viscera (black) through ", maxyr, " for WA, OR, northern CA (Del Norte to Humboldt counties), and central CA (Sonoma to San Luis Obispo counties). Horizontal dashed lines are the management thresholds of ", THRESH[1], " ppm (clams in gray) and ", THRESH[2], " ppm (crabs in black).")
+
+rtffile <- RTF(paste(cap.loc,"Domoic_Acid_Monthly_byState_Clams_and_Crabs.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+### Domoic acid by "county"
+
+#### Washington
+
+```{r DomoicAcid.WA, fig.width = 6.2, fig.height = 3}
+source('reset.DFs.R')
+
+DF = load.data("Domoic Acid", "DomoicAcid_All")
+DF$year = as.POSIXct(DF$year)
+
+# get just relevant spp
+DF1 = DF[DF$species %in% c('Razor clam','Dungeness crab'),]
+DF1$species = as.character(DF1$species)
+DF1$Waterbody <- as.character(DF1$Waterbody)
+DF1$Waterbody[DF1$Waterbody == "Jefferson Coast"] <- "Jefferson County"
+DF1$Waterbody[DF1$Waterbody == "Grays Harbor"] <- "Grays Harbor County"
+DF1$Waterbody[DF1$Waterbody == "Grays Harbor Coast"] <- "Grays Harbor County"
+DF1$Waterbody[DF1$Waterbody == "Willapa Bay"] <- "Pacific County"
+DF1$Waterbody[DF1$Waterbody == "Pacific County Coast"] <- "Pacific County"
+
+
+# note the plot function does the aggregation for monthly max
+
+source('minyr.maxyr.xlim.R')
+par(mfrow = c(2,2), mar = c(2,3,2,1), oma = c(0,1,0,0), ps = 10, cex.main = 1.2, cex.lab = 1, cex.axis = 1)
+
+
+
+regions = c("Jefferson County", "Grays Harbor County", "Pacific County" )
+
+XLIM = c(1990,2020)
+spp = c('Razor clam', "Dungeness crab")
+
+THRESH = c(20,30)
+COL = c("grey", "black")
+l.inset = c(0,0)
+
+Plot_Domoic_Acid_Monthly(Data.File = subset(DF1, DF1$Waterbody == regions[1]), 
+                          Xlim = XLIM, Ylab = NA, Ymax = 300,Title = regions[1], 
+                          spp = spp, THRESH = THRESH, COL = COL, Date = 'year', 
+                          Location = 'Waterbody', DA='index', Species = 'species', 
+                          plot.legend = NA, alt.X.axis = -0.5,
+                          Ymajor = c(0,150, 300), Yminor = c(50, 100, 200, 250) )
+Plot_Domoic_Acid_Monthly(Data.File = subset(DF1, DF1$Waterbody == regions[2]), 
+                          Xlim = XLIM, Ylab = NA, Ymax = 300, Title = regions[2], 
+                          spp = spp, THRESH = THRESH, COL = COL, Date = 'year', 
+                          Location = 'Waterbody', DA='index', Species = 'species', 
+                          plot.legend = NA, alt.X.axis = -0.5,
+                         Ymajor = c(0,150, 300), Yminor = c(50, 100, 200, 250) )
+Plot_Domoic_Acid_Monthly(Data.File = subset(DF1, DF1$Waterbody == regions[3]), 
+                          Xlim = XLIM, Ylab = NA, Ymax = 300,Title = regions[3], 
+                          spp = spp, THRESH = THRESH, COL = COL, Date = 'year', 
+                          Location = 'Waterbody', DA='index', Species = 'species', 
+                          legend.cex = 0.8, legend.inset = l.inset,alt.X.axis = -0.5,
+                          Ymajor = c(0,150, 300), Yminor = c(50, 100, 200, 250) )
+
+
+  
+mtext(side=2, "Monthly max (ppm)", outer=TRUE, line=0)
+
+CAP = paste0("Monthly maximum domoic acid concentration (ppm) in razor clams (gray) and Dungeness crab viscera (black) through ", maxyr," by coastal counties in Washington State (north to south). Horizontal dashed lines are the management thresholds of 20 ppm (clams, in gray) and 30 ppm (crab viscera, in black). Lines, colors, and symbols are as in Fig.1. Data compiled by the Washington Department of Health (WDOH) from samples collected and analyzed by a variety of local, tribal, and state partners.")
+
+rtffile <- RTF(paste(cap.loc,"DomoicAcid.WA.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+#### Oregon
+
+```{r DomoicAcid.OR, fig.width = 6.2, fig.height = 5.0}
+source('reset.DFs.R')
+
+DF = load.data("Domoic Acid", "DomoicAcid_All")
+DF$year = as.POSIXct(DF$year)
+DF1 = DF[DF$species %in% c('Razor clam','Dungeness crab'),]
+DF1$species = as.character(DF1$species)
+# note the plot function does the aggregation for monthly max
+source('minyr.maxyr.xlim.R')
+par(mfrow = c(4,2), mar = c(2,3,1,1), oma = c(0,0,0,0))
+
+regions = c("Clatsop", "Tillamook", "Lincoln", "Lane" ,"Douglas","Coos", "Curry" )
+
+for(i in 1:length(regions)){
+  DF2 = DF1[DF1$Waterbody == regions[i],]
+  if(i == 4){plot.legend = TRUE}else{plot.legend =NA}
+  Plot_Domoic_Acid_Monthly(Data.File =  DF2, Xlim = c(1990,2020), Ylab = NA, Ymax = 350, 
+                           spp = c("Razor clam", "Dungeness crab"),alt.X.axis = -0.5,
+                           THRESH = c(20, 30), COL = c('grey','black'),
+                           Date = 'year', Location = 'Waterbody', DA='index', 
+                           Species = 'species', Ymajor = c(0, 300),Yminor = c(100, 200), 
+                           plot.legend = plot.legend, legend.inset = c(0,-0.18))
+  
+}
+mtext(side=2, "Monthly max (ppm)", outer=TRUE, line=-1)
+
+CAP = paste("Monthly maximum domoic acid concentration (ppm) in razor clams (gray) and Dungeness crab viscera (black) through ", maxyr, " by coastal counties in Oregon State (north to south). Horizontal dashed lines are the management thresholds of 20 ppm (clams, in gray) and 30 ppm (crab viscera, in black). Lines, colors, and symbols are as in Fig.1. Razor clam tissue sampling is conducted twice monthly from multiple sites across the Oregon coast, year-round, and domoic acid concentrations are determined from analyses conducted by the Oregon Department of Agriculture (ODA) using High Pressure Liquid Chromatography (HPLC).")
+
+rtffile <- RTF(paste(cap.loc,"DomoicAcid.OR.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+#### California
+
+```{r DomoicAcid.CA, fig.width = 6.2, fig.height = 3}
+source('reset.DFs.R')
+
+DF = load.data("Domoic Acid", "DomoicAcid_All")
+DF$Date = as.POSIXct(DF$yr.mo)
+DF$pecies = as.character(DF$species)
+# note the plot function does the aggregation for monthly max
+DF1 = DF
+source('minyr.maxyr.xlim.R')
+par(mfrow = c(2,2), mar = c(2,3,1,1), oma = c(0,0,0,0))
+l.inset = c(0,0)
+
+Ymajor = c(0, 200, 400)
+
+Plot_Domoic_Acid_Monthly(Data.File =  DF[DF$Waterbody3 == "NCA",], 
+                          Xlim = c(1990,2020),Ylab = NA, AxisCex = 0.8,
+                          Ymax = 405, Ymajor = c(0, 200, 400), alt.X.axis = -0.5,
+                          Yminor = c(100, 300), Title = "Northern CA",
+                          spp = c("Razor clam", "Dungeness crab"),
+                          THRESH = c(20, 30), COL = c('grey','black'),
+                          Date = 'Date', Location = 'Waterbody3', DA='index', 
+                          Species = 'species', legend.inset = l.inset)
+
+Plot_Domoic_Acid_Monthly(Data.File =  DF[DF$Waterbody3 == "CCA",], 
+                          Xlim = c(1990,2020),Ylab = NA, AxisCex = 0.8,
+                          Ymax = 230, Ymajor = c(0, 100, 200), alt.X.axis = -0.5,
+                          Yminor = c(50, 150), Title = "Central CA", 
+                          spp = c("Razor clam", "Dungeness crab"),
+                          THRESH = c(20, 30), COL = c('grey','black'),
+                          Location = 'Waterbody3', DA='index', 
+                          Species = 'species', legend.inset = l.inset)  
+
+Plot_Domoic_Acid_Monthly(Data.File =  DF[DF$Waterbody3 == "SCA",], 
+                          Xlim = c(1990,2020),Ylab = NA, AxisCex = 0.8,
+                          Ymax = 605, Ymajor = c(0, 300,600), alt.X.axis = -0.5,
+                          Yminor = c(100, 200, 400, 500), 
+                          Title = "Southern CA",
+                          spp = c("Rock crab", "Spiny lobster"),
+                          THRESH = c(20, 30), COL = c('grey','black'),
+                          Location = 'Waterbody3', DA='index', 
+                          Species = 'species', legend.inset = l.inset)
+
+
+mtext(side=2, "Monthly max (ppm)", outer=TRUE, line=-1)
+
+CAP = paste("Monthly maximum domoic acid concentration (ppm) in razor clams (gray) and Dungeness crab viscera (black) through", maxyr, "in northern California (NCA; Del Norte south to Humboldt counties) and central California (CCA; Sonoma south to San Luis Obispo counties). Few to no razor clams or Dungeness crab occur in southern CA (SCA), where rock crab (gray) and spiny lobster (black) are typically monitored for domoic acid. Horizontal dashed lines are the management thresholds of 20 ppm (clams, in gray) and 30 ppm (crab viscera, in black). Lines, colors, and symbols are as in Fig.1 Data compiled by the California Department of Public Health (CDPH) from samples collected by a variety of local, tribal, and state partners and analyzed by CDPH's Food and Drug Laboratory Branch using High Pressure Liquid Chromatography (HPLC).")
+
+rtffile <- RTF(paste(cap.loc,"DomoicAcid.CA.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+
+## Basin scale indicators - Seasonal plots
+
+### Some math
+
+```{r monthly-to-season}
+#calulate winter/summer values for climate drivers, aragonite and dissolved O2
+nino = load.data("Climate and Ocean","oc_ONI")
+pdo = load.data("Climate and Ocean","oc_PDO")
+npgo = load.data("Climate and Ocean","oc_NPGO")
+
+# DFx = load.data("Climate and Ocean", "IEA_Aragonite Saturation_NH5_40m_NH25_150m")
+# DFx$index = as.numeric(DFx$index)
+# doNH05 = DFx[DFx$timeseries == 'Oxygen' & DFx$Station == 'NH05',c('year','index','timeseries','metric','type')]
+# doNH25 = DFx[DFx$timeseries == 'Oxygen' & DFx$Station == 'NH25',c('year','index','timeseries','metric','type')]
+
+doNH05 = load.data("Climate and Ocean","oc_do_NH05")
+doNH25 = load.data("Climate and Ocean","oc_do_NH25")
+do9090 = load.data("Climate and Ocean","oc_do_900.900")
+do9090 = do9090[,c('year','index','timeseries','metric','type')]
+do9330 = load.data("Climate and Ocean","oc_do_933.300")
+do9330 = do9330[,c('year','index','timeseries','metric','type')]
+
+aragNH05 = load.data("Climate and Ocean", "oc_arg_NH05")
+aragNH25 = load.data("Climate and Ocean", "oc_arg_NH25")
+# aragNH05 = DFx[DFx$timeseries == 'Aragonite Saturation' & DFx$Station == 'NH05',c('year','index','timeseries','metric','type')]
+# aragNH25 = DFx[DFx$timeseries == 'Aragonite Saturation' & DFx$Station == 'NH25',c('year','index','timeseries','metric','type')]
+
+# colnames(aragNH05)=colnames(aragNH25)=colnames(doNH05)=colnames(doNH25) = c('year','month','index','timeseries', 'type')
+aragNH25$metric = aragNH05$metric = "Omega"
+doNH05$metric = doNH25$metric = "ml/L"
+
+Dfiles = c("nino","pdo","npgo", "aragNH25",'aragNH05','doNH05', 'doNH25','do9090','do9330')
+
+for(i in 1:length(Dfiles)){
+  #print(Dfiles[i])
+  x = get(Dfiles[i])
+  x$yr = as.numeric(substring(x$year, 1,4))
+  x$month = as.numeric(substring(x$year, 6,7))
+  x$season = ifelse(x$month %in% c(1,2,3),"winter",ifelse(x$month %in% c(7,8,9), 'summer','other'))
+  x$n = 1
+  seas = c('winter','summer')
+  for(k in 1:2){
+    xx = aggregate(index~yr , data=x[x$season==seas[k],], FUN='mean')
+    xx.sd = aggregate(index~yr, data=x[x$season==seas[k],], FUN='sd')
+    xx.n = aggregate(n~yr, data=x[x$season==seas[k],], FUN='sum')
+    colnames(xx) = c('year','index')
+    se = data.frame(cbind(xx.sd$yr, xx.sd$index[match(xx.sd$yr,xx.n$yr)],
+                          xx.n$n[match(xx.sd$yr,xx.n$yr)]))
+    colnames(se) = c('yr','sd','n')
+    se$se = se$sd/sqrt(se$n)
+    xx$SEup = xx$index + se$se[match(xx$year, se$yr)]
+    xx$SElo = xx$index - se$se[match(xx$year, se$yr)]
+    
+    xx$SEup = ifelse(is.na(xx$SEup)==TRUE,xx$index,xx$SEup)
+    xx$SElo = ifelse(is.na(xx$SElo)==TRUE,xx$index,xx$SElo)
+    xx$metric = x$metric[1]
+    xx$type = x$type[1]
+    new.name = paste(Dfiles[i],seas[k],sep="_")
+    assign(new.name, xx)
+  }
+}
+
+```
+
+### enso
+
+```{r nino-season, fig.width = 3.2, fig.height = 2.0}
+source("reset.DFs.R")
+
+DF1 = nino_winter
+DF2 = nino_summer
+source('minyr.maxyr.xlim.R')
+# XLIM = c(as.character(1950), substring(as.character(Sys.Date()),1,4))
+te = 20
+mt = 5
+YLIM = c(-2, 3)
+  
+par(mfrow=c(2,1), mar=c(0,0,0,0))
+
+PlotTimeSeries(DF1, Ylab= "ONI", YLIM = YLIM, Title = "Winter ONI", XLIM=XLIM,TicsEvery = te, MinorTics = 5, Y.axis.labels = c(-3,0,3), yminor = c(-2, -1, 1, 2), AltTxt = AltTxt)
+
+PlotTimeSeries(DF2, Ylab= "ONI", YLIM = YLIM, Title = "Summer ONI", XLIM=XLIM,TicsEvery = te, MinorTics = 5, Y.axis.labels = c(-3,0,3), yminor = c(-2, -1, 1, 2),AltTxt = AltTxt)
+CAP = paste0('Winter (top, Jan-Mar) and Summer (bottom, July-Sep) values of the Ocean Nino Index from ',minyr,'-',maxyr,". ", coda)
+
+rtffile <- RTF(paste(cap.loc,"nino.season.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### pdo
+
+```{r pdo-season, fig.width = 3.2, fig.height = 2.0}
+source("reset.DFs.R")
+
+DF1 = pdo_winter
+DF2 = pdo_summer
+
+source('minyr.maxyr.xlim.R')
+# XLIM = c(as.character(1950), substring(as.character(Sys.Date()),1,4))
+te = 30
+mt =5
+#XLIM = c(1899,NA)
+par(mfrow=c(2,1), mar=c(0,0,0,0))
+PlotTimeSeries(DF1, Y.lab.drop = TRUE, Ylab= "PDO", Title = "Winter PDO", XLIM=XLIM,TicsEvery = te, MinorTics=mt, AltTxt = AltTxt, Xaxis.cex = 0.8)
+PlotTimeSeries(DF2, Y.lab.drop = TRUE, Ylab= "PDO", Title = "Summer PDO", XLIM=XLIM,TicsEvery = te,  MinorTics=mt, AltTxt = AltTxt, Xaxis.cex = 0.8)
+
+seasonal.pdo.maxyr = maxyr
+TicsEvery = NA
+CAP = paste0('Winter (top, Jan-Mar) and Summer (bottom, July-Sep) values of the Pacific Decadal Oscillation Index ',minyr,'-',maxyr,". ", coda)
+
+rtffile <- RTF(paste(cap.loc,"pdo.season.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### npgo
+
+```{r npgo-season, fig.width = 3.2, fig.height = 2.0}
+source("reset.DFs.R")
+
+DF1 = npgo_winter
+DF2 = npgo_summer
+source('minyr.maxyr.xlim.R')
+XLIM = c(as.character(1950), as.character(2020))
+te = 20
+mt = 5
+# PlotTimeSeries(X,Y,Y2, SEup, SElo, plotpoints,XLIM, YLIM, Xlab, Ylab, Xangle, TicsEvery, MinorTics, TicsEvery, MinorTics, Title, ALPHA, PERIOD, ComputerType, AltTxt) 
+par(mfrow=c(2,1), mar=c(0,0,0,0))
+
+PlotTimeSeries(DF1, Y.lab.drop = TRUE, Ylab= "NPGO", Title = "Winter NPGO", XLIM=XLIM,TicsEvery = te, MinorTics=mt, AltTxt = AltTxt)
+
+PlotTimeSeries(DF2, Y.lab.drop = TRUE, Ylab= "NPGO", Title = "Summer NPGO", XLIM=XLIM, TicsEvery = te, MinorTics=mt, AltTxt = AltTxt)
+
+CAP = paste0('Winter (top, Jan-Mar) and Summer (bottom, July-Sep) values of the North Pacific Gyre Oscillation Index from ',minyr,'-',maxyr,". ", coda)
+
+rtffile <- RTF(paste(cap.loc,"npgo.season.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### sti - lusi - tumi
+
+```{r sti_lusi_tumi_iea_ts, fig.width=6.2, fig.height=6}
+source("reset.DFs.R")
+
+DF1 = sti = load.data("Climate and Ocean",'oc_sti_A_error')
+DF2 = lusi = load.data("Climate and Ocean",'oc_lusi_A_error')
+DF3 = tumi = load.data("Climate and Ocean",'oc_tumi_A_error')
+tumi$index = tumi$index/1000
+tumi$SEup = tumi$SEup/1000
+tumi$SElo = tumi$SElo/1000
+# tumi$metric = "TUMI (x10^3 m^3/s/100m coastline)"
+tumi$metric = "TUMI"
+source('minyr.maxyr.xlim.R')
+
+te = 20
+mt = 5
+ Arrow.cex = 1.3
+
+sti.x = levels(sti$timeseries)
+par(mfcol = c(6,3))
+lat = c(48, 45, 42, 39, 36, 33)
+for(i in 1:length(levels(sti$timeseries))){
+  DF =  sti[sti$lat==lat[i],]
+  tx = ifelse(i==1, as.character(DF$metric[1]),NA)
+  Ylab = paste(DF$lat[1],"N")
+  PlotTimeSeries(DF, Title=tx, Ylab=Ylab, YLIM = c(0,200),  Arrow.cex = Arrow.cex, TicsEvery = te, 
+                 MinorTics = mt, AltTxt = AltTxt, AltTxt.file.name = paste0(DF$metric[1],"-",lat[i],'.doc'))
+}
+for(i in 1:length(levels(lusi$timeseries))){
+  DF =  lusi[lusi$lat==lat[i],]
+  tx = ifelse(i==1, as.character(DF$metric[1]),NA)
+  Ylab = paste(DF$lat[1],"N")
+  PlotTimeSeries(DF, Title=tx, Ylab=NA, YLIM = c(0,400), Arrow.cex = Arrow.cex, TicsEvery = te, 
+                 MinorTics = mt, AltTxt = AltTxt, AltTxt.file.name = paste0(DF$metric[1],"-",lat[i],'.doc'))
+}
+for(i in 1:length(levels(tumi$timeseries))){
+  DF =  tumi[tumi$lat==lat[i],]
+  tx = ifelse(i==1, as.character(DF$metric[1]),NA)
+  Ylab = paste(DF$lat[1],"N")
+  PlotTimeSeries(DF, Title=tx, TitleCex = 0.8, Ylab=NA, YLIM = c(0,60), Arrow.cex = Arrow.cex, TicsEvery = te,
+                 MinorTics = mt, AltTxt = AltTxt, AltTxt.file.name = paste0(DF$metric[1],"-",lat[i],'.doc'))
+}
+CAP = paste('NEED CAPTION TEXT from ', minyr, " to ",maxyr,". ", coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"sti_lusi_tumi_iea_ts.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+### Disolved oxygen
+
+```{r DOwinter, fig.width = 3.2, fig.height = 3.0}
+source("reset.DFs.R")
+
+DF1 = doNH05_winter
+DF2 = doNH25_winter
+DF3 = do9090_winter
+DF4 = do9330_winter
+
+source('minyr.maxyr.xlim.R')
+# XLIM = c(as.character(1950), as.character(XLIM2))
+te = 20
+th=1.4
+tcex=1.0
+LWD = 0.6
+Pt.cex = 0.5
+# PlotTimeSeries(X,Y,Y2, SEup, SElo, plotpoints,XLIM, YLIM, Xlab, Ylab, Xangle, TicsEvery, MinorTics, TicsEvery, MinorTics, Title, ALPHA, PERIOD, ComputerType, AltTxt) 
+par(mfrow=c(4,1), mar=c(0,0,0,0))
+YLIM=c(0,8)
+
+PlotTimeSeries(DF1, Y.lab.drop = TRUE, YLIM=YLIM, Ylab= "ml/L", LWD = LWD, Pt.cex = Pt.cex, threshold=th, Title = "Winter DO at 50 m: NH05", TicsEvery = te, XLIM = XLIM, AltTxt =  AltTxt, AltTxt.file.name = "Winter DO at 50  NH05")
+
+PlotTimeSeries(DF2, Y.lab.drop = TRUE, YLIM=YLIM, Ylab= "ml/L", LWD = LWD, Pt.cex = Pt.cex, threshold=th, Title = "Winter DO at 150 m: NH25", TicsEvery = te, XLIM = XLIM, AltTxt =  AltTxt, AltTxt.file.name = "Winter DO at 150 m NH25")
+
+PlotTimeSeries(DF3, Y.lab.drop = TRUE, YLIM=YLIM, Ylab= "ml/L", LWD = LWD, Pt.cex = Pt.cex, threshold=th, Title = "Winter DO at 150 m: CalCOFI 90.90", TicsEvery = te, XLIM = XLIM, AltTxt =  AltTxt, AltTxt.file.name = "Winter DO at 150 m CalCOFI 90.90")
+
+PlotTimeSeries(DF4, Y.lab.drop = TRUE, YLIM=YLIM, Ylab= "ml/L", LWD = LWD, Pt.cex = Pt.cex, threshold=th, Title = "Winter DO at 150 m: CalCOFI 93.30",  TicsEvery = te, XLIM = XLIM, AltTxt =  AltTxt, AltTxt, AltTxt.file.name = "Winter DO at 150 m CalCOFI 93.30")
+
+do.winter.maxyr = maxyr
+oreg.do.winter.min = min(DF1$year, na.rm = TRUE)
+oreg.do.winter.max = max(DF1$year, na.rm = TRUE)
+ca.do.winter.min = min(DF2$year, DF3$year, na.rm = TRUE)
+ca.do.winter.max = max(DF2$year, DF3$year, na.rm = TRUE)
+#TicsEvery = NA
+
+CAP = paste('Winter (top, Jan-Mar) dissolved oxygen (DO) at 150 m depth off of Oregon, ', oreg.do.winter.min,'-', oreg.do.winter.max,' and southern California, ', ca.do.winter.min, '-',ca.do.winter.max,'. Stations NH25 and 93.30 are < 50 km from the shore; station 90.90 is >300 km from shore. Blue line indicates hypoxic threshold of 1.4 ml O2 per L. ',coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"DOwinter.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+```{r DOsummer, fig.width = 3.2, fig.height = 3.0}
+source("reset.DFs.R")
+
+DF1 = doNH05_summer
+DF2 = doNH25_summer
+DF3 = do9090_summer
+DF4 = do9330_summer
+
+source('minyr.maxyr.xlim.R')
+te=20
+th=1.4
+par(mfrow=c(4,1), mar=c(0,0,0,0))
+tcex=0.8
+Pt.cex = 0.5
+LWD = 0.6
+YLIM=c(0,5)
+Y.axis.labels = c(0, 2, 4)
+yminor = c(1,3)
+
+PlotTimeSeries(DF1, YLIM=YLIM, threshold=th, Ylab= "ml/L", Title = "Summer DO at 50 m: NH05", Y.axis.labels = Y.axis.labels, yminor = yminor, LWD = LWD, Pt.cex = Pt.cex, TicsEvery = te, XLIM = XLIM, AltTxt =  AltTxt, AltTxt.file.name ="Summer DO at 50 m NH05")
+
+PlotTimeSeries(DF2, YLIM=YLIM, threshold=th, Ylab= "ml/L", Title = "Summer DO at 150 m: NH25", Y.axis.labels = Y.axis.labels, yminor = yminor, LWD = LWD, Pt.cex = Pt.cex,  TicsEvery = te, XLIM = XLIM, AltTxt =  AltTxt, AltTxt.file.name ="Summer DO at 150 m NH25")
+
+PlotTimeSeries(DF3, YLIM=YLIM, threshold=th, Ylab= "ml/L", Title = "Summer DO at 150 m: CalCOFI 90.90", Y.axis.labels = Y.axis.labels, yminor = yminor, LWD = LWD, Pt.cex = Pt.cex, TicsEvery = te, XLIM = XLIM, AltTxt =  AltTxt, AltTxt.file.name ="Summer DO at 150 m CalCOFI 90.90")
+
+PlotTimeSeries(DF4, YLIM=YLIM, threshold=th, Ylab= "ml/L", Title = "Summer DO at 150 m: CalCOFI 93.30", LWD = LWD, Y.axis.labels = Y.axis.labels, yminor = yminor, Pt.cex = Pt.cex,  TicsEvery = te, XLIM = XLIM, AltTxt =  AltTxt, AltTxt.file.name ="Summer DO at 150 m CalCOFI 93.30")
+
+do.summer.maxyr = maxyr
+oreg.do.summer.min = min(DF1$year, na.rm = TRUE)
+oreg.do.summer.max = max(DF1$year, na.rm = TRUE)
+ca.do.summer.min = min(DF2$year, DF3$year, na.rm = TRUE)
+ca.do.summer.max = max(DF2$year, DF3$year, na.rm = TRUE)
+
+CAP = paste('Summer (Jul-Sep) dissolved oxygen (DO) at 50-m and 150 m depth off of Oregon, ', oreg.do.winter.min,'-', oreg.do.winter.max,' and southern California, ', ca.do.winter.min, '-',ca.do.winter.max,'. Stations NH05, NH25 and 93.30 are < 50 km from the shore; station 90.90 is >300 km from shore. Blue line indicates hypoxic threshold of 1.4 ml O2 per L. ',coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"DOsummer.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### Aragonite
+
+```{r arag.winter, fig.width = 3.2, fig.height = 2.0}
+source("reset.DFs.R")
+
+DF1 = aragNH05_winter
+DF2 = aragNH25_winter
+
+source('minyr.maxyr.xlim.R')
+YLIM = c(0,2)
+te=5
+th=1
+par(mfrow=c(2,1),oma=c(0,0,0,0))
+XLIM = c(1998,NA)
+
+PlotTimeSeries(DF1, TicsEvery=te, threshold = th, Title= "Winter - 40m NH05", YLIM=YLIM, XLIM=XLIM, AltTxt = AltTxt)
+
+PlotTimeSeries(DF2,  TicsEvery=te,  threshold = th, Title= "Winter - 150m NH25", YLIM=YLIM, XLIM=XLIM, AltTxt =  AltTxt)
+
+mtext("Aragonite saturation", side=2, outer=TRUE, line=-1.5)
+
+CAP = paste('Winter (Jan-Mar) aragonite saturation values at two stations off of Newport, OR, ', minyr, '-',maxyr,'. The blue line indicates aragonite saturation state = 1.0. Dotted lines indicate +/- 1.0 s.e. ',coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"arag.winter.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+```{r arag.summer, fig.width = 3.2, fig.height = 2.0}
+source("reset.DFs.R")
+
+DF1 = aragNH05_summer
+DF2 = aragNH25_summer
+
+source('minyr.maxyr.xlim.R')
+te=5
+th=1
+XLIM = c(1998,NA)
+YLIM=c(0,2)
+par(mfrow=c(2,1), oma=c(0,0,0,0))
+
+PlotTimeSeries(DF1, TicsEvery=te, threshold=th, Title = "Summer - 40 m NH05", XLIM=XLIM, YLIM=YLIM, AltTxt =  AltTxt)
+PlotTimeSeries(DF2, TicsEvery=te, threshold = th, Title = "Summer - 150 m NH25", XLIM=XLIM, YLIM=YLIM,AltTxt =  AltTxt)
+
+mtext("     Aragonite saturation", side=2, outer=TRUE, line=-1.2)
+CAP = paste('Summer aragonite saturation values at two stations off of Newport, OR, ',minyr,'-',maxyr,'. The blue line indicates aragonite saturation state = 1.0. Dotted lines indicate +/- 1.0 s.e. ', coda, sep = "")
+
+rtffile <- RTF(paste(cap.loc,"arag.summer.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+## Habitat compressibility index
+
+### Montly
+
+```{r HabitatCompressionIndexMonthly, fig.width = 3.2, fig.height = 1.5}
+source("reset.DFs.R")
+
+DF1 = load.data("Climate and Ocean",'ei_hci_M')
+
+source('minyr.maxyr.xlim.R')
+
+PlotTimeSeries(DF1, XLIM=c(1979,NA),TicsEvery = 10, Y2 = NA, MinorTics=1, PERIOD = 60, Ylab = "Habitat area", YLIM = c(0,NA), AltTxt = AltTxt)
+
+CAP = paste0('Monthly habitat compression index (SST < 12C, x100 km^2) for ', minyr, "-", maxyr, ".", coda)
+
+rtffile <- RTF(paste(cap.loc,"HabitatCompressionIndexMonthly.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+### Winter spring
+
+```{r HabitatCompressionIndexWinterSpring, fig.width = 3.2, fig.height = 2}
+
+source("reset.DFs.R")
+
+# convert to spring only
+DF = load.data("Climate and Ocean",'ei_hci_M')
+DF$month = as.numeric(substring(DF$year,6,7))
+DF$yr = substring(DF$year,1,4)
+
+# winter
+DF0 = DF[DF$month %in% c(1,2,3),]
+
+DF1 = aggregate(index ~ yr + index + metric + timeseries, data = DF0, FUN = mean)
+DF1$year = as.POSIXct(paste(DF1$yr,"01","01", sep="-"))
+
+DFvar = aggregate(index ~ yr +  metric + timeseries, data = DF0, FUN = var)
+DFvar$year = as.POSIXct(paste(DFvar$yr,"01","01", sep="-"))
+DF1$var = DFvar$index[match(DF1$year, DFvar$year)]
+# 
+DF0$n = 1
+DFn = aggregate(n ~ yr + metric + timeseries, data = DF0, FUN = sum)
+DFn$year = as.POSIXct(paste(DFn$yr,"01","01", sep="-"))
+DF1$n = DFn$n[match(DF1$year, DFn$year)]
+DF1$sd = sqrt(DF1$var)
+DF1$se = DF1$sd/sqrt(DF1$n)
+
+DF1$SEup = DF1$index + DF1$se
+DF1$SElo = DF1$index - DF1$se
+
+# change the name because it will be over written
+DFwinter = DF1
+
+# spring
+
+DF0 = DF[DF$month %in% c(4,5,6),]
+
+DF1 = aggregate(index ~ yr + index + metric + timeseries, data = DF0, FUN = mean)
+DF1$year = as.POSIXct(paste(DF1$yr,"01","01", sep="-"))
+
+DFvar = aggregate(index ~ yr +  metric + timeseries, data = DF0, FUN = var)
+DFvar$year = as.POSIXct(paste(DFvar$yr,"01","01", sep="-"))
+DF1$var = DFvar$index[match(DF1$year, DFvar$year)]
+# 
+DF0$n = 1
+DFn = aggregate(n ~ yr + metric + timeseries, data = DF0, FUN = sum)
+DFn$year = as.POSIXct(paste(DFn$yr,"01","01", sep="-"))
+DF1$n = DFn$n[match(DF1$year, DFn$year)]
+DF1$sd = sqrt(DF1$var)
+DF1$se = DF1$sd/sqrt(DF1$n)
+
+DF1$SEup = DF1$index + DF1$se
+DF1$SElo = DF1$index - DF1$se
+
+DFspring = DF1
+
+# change the name for the minyr.maxyr.xlim function
+DF1 = DFwinter
+DF2 = DFspring
+
+source('minyr.maxyr.xlim.R')
+
+# PlotTimeSeries(DF1)
+par(mfrow = c(2,1))
+Y.axis.labels = c(0,400,800)
+yminor = c(200,600)
+
+PlotTimeSeries(DFwinter, XLIM=c(1978,NA),TicsEvery = 10, Y2 = NA, MinorTics=1, 
+               Y.axis.labels = Y.axis.labels, yminor = yminor, 
+               PERIOD = 5, Ylab = "Habitat area", YLIM = c(0,NA), 
+               Title = "Winter habitat compression index", AltTxt = AltTxt)
+
+PlotTimeSeries(DFspring, XLIM=c(1978,NA),TicsEvery = 10, Y2 = NA, MinorTics=1, 
+               Y.axis.labels = Y.axis.labels, yminor = yminor, 
+               PERIOD = 5, Ylab = "Habitat area", YLIM = c(0,NA), 
+               Title = "Spring habitat compression index", AltTxt = AltTxt)
+
+CAP = paste0('Mean winter (Jan - March) and spring (April - June) habitat compression index (SST < 12C, x100 km^2) for ', minyr, "-", maxyr, ". Error envelope indicates +/- 1.0 s.e.", coda)
+
+rtffile <- RTF(paste(cap.loc,"HabitatCompressionIndexWinterSpring.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+
+# HYDROLOGICAL INDICATORS
+
+## ECOREGION
+## Process Ecoregion data - quadplots
+
+First modify the main data file for Ecoregions.  This is the file that contains the "stats output" from Stu.
+
+```{r fix.ecoreg.flow}
+df0 = data.frame(read.table(paste(data.loc,"StreamFlow/allPlotInfoEcoregion.2020.csv", sep=""), header=TRUE, sep=","))
+
+DFflow_ereg = df0
+
+# set up colors for significance
+DFflow_ereg$Sig_mean = NA  # same as significantL
+DFflow_ereg$Sig_trend = NA # same as significanR
+
+
+DFflow_ereg$Sig_trend <- ifelse(
+    DFflow_ereg$Year3_0.5quant < 0 & DFflow_ereg$Year3_0.975quant < 0 , 'negative','not_sig')
+
+DFflow_ereg$Sig_trend <- ifelse(
+    DFflow_ereg$Year3_0.5quant > 0 & DFflow_ereg$Year3_0.025quant > 0 , 'positive',DFflow_ereg$Sig_trend)
+
+DFflow_ereg$Sig_mean <- ifelse(
+    DFflow_ereg$periodx_0.5quant < 0 & DFflow_ereg$periodx_0.975quant < 0 , 'negative','not_sig')
+
+DFflow_ereg$Sig_mean <- ifelse(
+    DFflow_ereg$periodx_0.5quant > 0 & DFflow_ereg$periodx_0.025quant > 0 , 'positive', 
+    DFflow_ereg$Sig_mean)
+DFflow_ereg$Col_mean <- ifelse(DFflow_ereg$Sig_mean == "not_sig", 'grey', 'black')
+DFflow_ereg$Col_trend <- ifelse(DFflow_ereg$Sig_trend == "not_sig", 'grey', 'black')
+
+# for legends/captions
+source('reset.DFs.R')
+DF1 = load.data('StreamFlow','allTimeSeriesEcoReg')
+source('minyr.maxyr.xlim.R')
+steam.maxyr = maxyr
+
+```
+
+## Ecoregion figures - quadplots
+
+
+
+
+## Process Ecoregion data - timeseries
+## Times-series plots - Ecoregion
+
+This chunk brings the stats info into the timeseries files for Ecoregion.
+
+```{r fix.flow.ecoregion.timeseries}
+# bring in info from other file 
+source("reset.DFs.R")
+
+df0 = load.data('StreamFlow','allTimeSeriesEcoReg')
+df0$id = paste0(df0$REGION, df0$RESPONSE)
+DFflow_ereg$id = paste0(DFflow_ereg$REGION, DFflow_ereg$RESPONSE)
+df0$Sig_trend <- DFflow_ereg$Sig_trend[match(df0$id, DFflow_ereg$id)]
+df0$Sig_mean <- DFflow_ereg$Sig_mean[match(df0$id, DFflow_ereg$id)]
+
+
+# DFflow_ereg[DFflow_ereg$REGION == 'SW' ,]
+
+```
+
+### Temp
+
+```{r stream.temp.ecoregion, fig.width = 3.2, fig.height = 5}
+source("reset.DFs.R")
+# df0 = load.data('StreamFlow','allTimeSeriesEcoReg')
+
+df = df0[df0$RESPONSE=="AugMeanMax",]
+df$metric = "Temp (deg C)"
+df$SEup = df$NINESEVENFIVEquant
+df$SElo =df$ZEROTWOFIVEquant
+df$mean = df$index
+df$index = df$FIVEquant
+df$timeseries = df$Ecoregion
+
+DF1 = df[df$timeseries=='Salish Sea & WA Coast',]
+DF2 = df[df$timeseries=='Columbia Glaciated',]
+DF3 = df[df$timeseries=='Columbia Unglaciated',]
+DF4 = df[df$timeseries=='OR & N CA Coast',]
+DF5 = df[df$timeseries=='Sacramento - San Joaquin\n& S CA Bight',]
+DF5$timeseries = 'Sacramento - San Joaquin & S CA Bight'
+
+## bring in significance info from above 
+
+source('minyr.maxyr.xlim.R')
+#XLIM = c(1950, XLIM2)
+
+par(mfrow=c(5,1))
+DFlist = list(DF1, DF2, DF3 ,DF4, DF5)
+
+for(i in 1:length(DFlist)){
+ DFx = DFlist[[i]]
+ PlotTimeSeries(DFx, XLIM = XLIM, YLIM=c(15,25), TicsEvery=10, TitleCex = 0.8,
+                sig.trend = DFx$Sig_trend, sig.mean = DFx$Sig_mean,  
+                Bmar = 0, Tmar =.6, AltTxt = AltTxt)
+}
+#
+CAP = paste0("Mean maximum stream temperature in August  measured at 466 USGS gauges in six ecoregions from ",minyr,"-",maxyr,". Gages include both regulated (subject to hydropower operations) and unregulated systems, although trends were similar when these systems were examined separately.", coda_hydro)
+
+rtffile <- RTF(paste(cap.loc,"stream.temp.ecoregion.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+### Flow - 1d max
+
+```{r streamflow1.ecoregion, fig.width = 6.2, fig.height = 2.5}
+source("reset.DFs.R")
+
+#df0 = load.data('StreamFlow','allTimeSeriesEcoReg')
+df = df0[df0$RESPONSE=="1daymax",]
+df$metric = "1-day max"
+df$SEup = df$NINESEVENFIVEquant
+df$SElo =df$ZEROTWOFIVEquant
+df$mean = df$index
+df$index = df$FIVEquant
+df$timeseries = df$Ecoregion
+
+DF1 = df[df$timeseries=='Salish Sea & WA Coast',]
+DF2 = df[df$timeseries=='Columbia Glaciated',]
+DF3 = df[df$timeseries=='Columbia Unglaciated',]
+DF4 = df[df$timeseries=='OR & N CA Coast',]
+DF5 = df[df$timeseries=='Sacramento - San Joaquin',]
+DF6 = df[df$timeseries=='S CA Bight',]
+
+source('minyr.maxyr.xlim.R')
+te = 10
+par(mfrow=c(3,2))
+YLIM = c(-3, 3)
+Ymajor = c(-3,0,3)
+Yminor = c(-2, -1, 1, 2)
+
+PlotTimeSeries(DF1, XLIM = XLIM, YLIM=YLIM, sig.trend = DF1$Sig_trend, sig.mean = DF1$Sig_mean, TicsEvery=te, AltTxt = AltTxt, Rmar = 0.75, Y.axis.labels = Ymajor, yminor = Yminor)
+PlotTimeSeries(DF2, XLIM = XLIM, YLIM=YLIM, Y.axis.labels = Ymajor, yminor = Yminor, sig.trend = DF2$Sig_trend, sig.mean = DF2$Sig_mean, TicsEvery=te, AltTxt = AltTxt, Lmar = 4.25)
+PlotTimeSeries(DF3, XLIM = XLIM, YLIM=YLIM, Y.axis.labels = Ymajor, yminor = Yminor, sig.trend = DF3$Sig_trend, sig.mean = DF3$Sig_mean, TicsEvery=te, AltTxt = AltTxt, Rmar = 0.75)
+PlotTimeSeries(DF4, XLIM = XLIM, YLIM=YLIM, Y.axis.labels = Ymajor, yminor = Yminor, sig.trend = DF4$Sig_trend, sig.mean = DF4$Sig_mean, TicsEvery=te, AltTxt = AltTxt, Lmar = 4.25)
+PlotTimeSeries(DF5, XLIM = XLIM, YLIM=YLIM, Y.axis.labels = Ymajor, yminor = Yminor, sig.trend = DF5$Sig_trend, sig.mean = DF5$Sig_mean, TicsEvery=te, AltTxt = AltTxt, Rmar = 0.75)
+PlotTimeSeries(DF6, XLIM = XLIM, YLIM=YLIM, Y.axis.labels = Ymajor, yminor = Yminor, sig.trend = DF6$Sig_trend, sig.mean = DF6$Sig_mean, TicsEvery=te, AltTxt = AltTxt, Lmar = 4.25)
+
+#
+CAP = paste0("Anomalies of the 1-day maximum streamflow measured at 213 gauges in six ecoregions for ",minyr,"-",maxyr,". Gages include both regulated (subject to hydropower operations) and unregulated systems, although trends were similar when these systems were examined separately.", coda_hydro)
+
+rtffile <- RTF(paste(cap.loc,"streamflow1.ecoregion.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+### Flow - 7d min
+
+```{r streamflow7.ecoregion, fig.width = 6.2, fig.height = 2.5}
+source("reset.DFs.R")
+
+# df0 = load.data('StreamFlow','allTimeSeriesEcoReg')
+df = df0[df0$RESPONSE=="7daymin",]
+df$metric = "7-day min"
+
+df$SEup = df$NINESEVENFIVEquant
+df$SElo =df$ZEROTWOFIVEquant
+df$mean = df$index
+df$index = df$FIVEquant
+df$timeseries = df$Ecoregion
+
+DF1 = df[df$timeseries=='Salish Sea & WA Coast',]
+DF2 = df[df$timeseries=='Columbia Glaciated',]
+DF3 = df[df$timeseries=='Columbia Unglaciated',]
+DF4 = df[df$timeseries=='OR & N CA Coast',]
+DF5 = df[df$timeseries=='Sacramento - San Joaquin',]
+DF6 = df[df$timeseries=='S CA Bight',]
+
+source('minyr.maxyr.xlim.R')
+te = 10
+par(mfrow=c(3,2))
+YLIM=c(-3,3)
+
+Ymajor = c(-3,0,3)
+Yminor = c(-2, -1, 1, 2)
+PlotTimeSeries(DF1, XLIM = XLIM, YLIM=YLIM, Y.axis.labels = Ymajor, yminor = Yminor, sig.trend = DF1$Sig_trend, sig.mean = DF1$Sig_mean, TicsEvery=te, AltTxt = AltTxt, Rmar = 0.75)
+PlotTimeSeries(DF2, XLIM = XLIM, YLIM=YLIM, Y.axis.labels = Ymajor, yminor = Yminor, sig.trend = DF2$Sig_trend, sig.mean = DF2$Sig_mean, TicsEvery=te, AltTxt = AltTxt, Lmar = 4.25)
+PlotTimeSeries(DF3, XLIM = XLIM, YLIM=YLIM, Y.axis.labels = Ymajor, yminor = Yminor, sig.trend = DF3$Sig_trend, sig.mean = DF3$Sig_mean, TicsEvery=te, AltTxt = AltTxt, Rmar = 0.75)
+PlotTimeSeries(DF4, XLIM = XLIM, YLIM=YLIM, Y.axis.labels = Ymajor, yminor = Yminor, sig.trend = DF4$Sig_trend, sig.mean = DF4$Sig_mean, TicsEvery=te, AltTxt = AltTxt, Lmar = 4.25)
+PlotTimeSeries(DF5, XLIM = XLIM, YLIM=YLIM, Y.axis.labels = Ymajor, yminor = Yminor, sig.trend = DF5$Sig_trend, sig.mean = DF5$Sig_mean, TicsEvery=te, AltTxt = AltTxt, Rmar = 0.75)
+PlotTimeSeries(DF6, XLIM = XLIM, YLIM=YLIM, Y.axis.labels = Ymajor, yminor = Yminor, sig.trend = DF6$Sig_trend, sig.mean = DF6$Sig_mean, TicsEvery=te, AltTxt = AltTxt, Lmar = 4.25)
+
+#
+CAP = paste0("Anomalies of the 7-day minimum streamflow measured at 213 gauges in six ecoregions for ",minyr,"-",maxyr,". Gages include both regulated (subject to hydropower operations) and unregulated systems, although trends were similar when these systems were examined separately.", coda_hydro)
+
+rtffile <- RTF(paste(cap.loc,"streamflow7.ecoregion.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+```{r snowwater, fig.height=5, fig.width = 3.2}  
+source('reset.DFs.R')
+
+# df0 = load.data('StreamFlow','allTimeSeriesEcoReg')
+
+df = df0[df0$RESPONSE=="Snowpack",]
+df$metric = "Apr 1st anom."
+df$SEup = df$NINESEVENFIVEquant
+df$SElo =df$ZEROTWOFIVEquant
+df$mean = df$index
+df$index = df$FIVEquant
+df$timeseries = df$Ecoregion
+
+x = as.character(df$timeseries)
+x = as.factor(x)
+
+
+DF1 = df[df$timeseries=='Salish Sea & WA Coast',]
+DF2 = df[df$timeseries=='Columbia Glaciated',]
+DF3 = df[df$timeseries=='Columbia Unglaciated',]
+DF4 = df[df$timeseries=='OR & N CA Coast',]
+DF5 = df[df$timeseries=='Sacramento - San Joaquin',]
+# DF6 = df[df$timeseries=='S CA Bight',]
+
+source('minyr.maxyr.xlim.R')
+
+par(mfcol=c(5,1))
+XLIM = c(1979, 2020)
+DFL = list(DF1, DF2, DF3, DF4, DF5)
+
+for(i in 1:length(DFL)){
+  df = DFL[[i]]
+  df = df[df$year > XLIM[1]+2,]
+  if(i == 3){Ylab = "April 1st anomaly"}else{Ylab = NA}
+  PlotTimeSeries(df, XLIM = XLIM, YLIM=c(-3,3), Ylab = Ylab, TitleCex = 0.8, TicsEvery=10, MinorTics=2,
+                 sig.trend = df$Sig_trend, sig.mean = df$Sig_mean,
+                 Y.axis.labels = c(-3, 0 ,3), yminor = c(-2, -1, 1 , 2),
+                 AltTxt = AltTxt)
+}
+
+
+# keep snw.max min they are used in next chunks
+snw.maxyr = maxyr
+snw.minry = minyr
+CAP = paste0("Anomalies of April 1st snow-water equivalent (SWE) in five freshwater ecoregions of the CCE through ", snw.maxyr,". Ecoregions are mapped in Fig. 2.1.", coda_hydro)
+
+rtffile <- RTF(paste(cap.loc,"snowwater.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+## ESU 
+
+## Process flow data - quadplots
+```{r fix.esu.flow}
+
+df0 = data.frame(read.table(paste(data.loc,"StreamFlow/allPlotInfoESU.2020.csv", sep=""), header=TRUE, sep=","))
+
+DFflow_ESU = df0
+
+# set up colors for significance
+DFflow_ESU$Sig_mean = NA  # same as significantL
+DFflow_ESU$Sig_trend = NA # same as significanR
+
+
+DFflow_ESU$Sig_trend <- ifelse(
+    DFflow_ESU$Year3_0.5quant < 0 & DFflow_ESU$Year3_0.975quant < 0 , 'negative','not_sig')
+
+DFflow_ESU$Sig_trend <- ifelse(
+    DFflow_ESU$Year3_0.5quant > 0 & DFflow_ESU$Year3_0.025quant > 0 , 'positive',DFflow_ESU$Sig_trend)
+
+DFflow_ESU$Sig_mean <- ifelse(
+    DFflow_ESU$periodx_0.5quant < 0 & DFflow_ESU$periodx_0.975quant < 0 , 'negative','not_sig')
+
+DFflow_ESU$Sig_mean <- ifelse(
+    DFflow_ESU$periodx_0.5quant > 0 & DFflow_ESU$periodx_0.025quant > 0 , 'positive', 
+    DFflow_ESU$Sig_mean)
+DFflow_ESU$Col_mean <- ifelse(DFflow_ESU$Sig_mean == "not_sig", 'grey', 'black')
+DFflow_ESU$Col_trend <- ifelse(DFflow_ESU$Sig_trend == "not_sig", 'grey', 'black')
+
+
+```
+
+This figure is used in the report
+
+### FLow - ESU - Quadplots
+```{r flow.esu, fig.width=6.2, fig.height=2.8}
+
+source('reset.DFs.R')
+
+# df0 = data.frame(read.table(paste(data.loc,"StreamFlow/allPlotInfoESU.2020.csv", sep=""), header=TRUE, sep=","))
+# df0$significantL = as.character(df0$significantL)
+# df0$significantL[df0$significantL=="gray50"]<-"gray50"
+# df0$significantR = as.character(df0$significantR)
+# df0$significantR[df0$significantR=="gray50"]<-"gray50"
+
+df0 = DFflow_ESU
+
+par(mfrow = c(1,3))
+Names= data.frame(matrix(c(
+"U Columbia Sp (CG)", "CKUCS",
+"Puget Sound (SS)", "CKPUG",
+"WA Coast (SS)", "CKWAC",
+"U Columbia Su F (CG)","CKUCF",
+"Snake R F (CU)","CKSRF",
+"L Columbia R (CU)", "CKLCR",
+#"Deschutes R Su F (CU)", 'XXXXXXX',
+"M Columbia Sp (CG, CU)","CKMCS",
+"Snake R Sp Su (CU)", "CKSRS",
+"U Williamette R (CU)" ,"CKUWR",
+"OR Coast (ONCC)","CKORC",
+"S OR N CA Coast (ONCC)","CKSNC",
+"U Klamath Trinity R (ONCC)", "CKUKT",
+"CA Coast (ONCC)", "CKCAC",
+"Sacramento W (SSJ)","CKSAC",
+"C Valley Sp (SSJ)", "CKCVS",
+"C Valley F LF (SSJ)", "CKCVF"
+), byrow = TRUE, ncol=2))
+colnames(Names) = c('esu', 'ESU')
+Names$order = 1:nrow(Names)
+
+df0$names = Names$esu[match(df0$ESU, Names$ESU)]
+df0$order = Names$order[match(df0$ESU, Names$ESU)]
+bg.color = colorRampPalette(c("blue", "green","white","yellow","red"))( 16 )
+ol.color="black"
+Symbol = c(21,22,23,24,25)
+### one day max 
+df = df0[df0$RESPONSE=="1daymax",]
+df = df[order(df$order), ]
+no.esus= nrow(df)
+
+Xlim = c(-0.5, 0.5)
+
+QuadPlot_means(
+  D1 = df$Year3_0.5quant,
+  D2 = df$periodx_0.5quant,
+  SE.d1.lo = df$Year3_0.025quant,
+  SE.d1.up = df$Year3_0.975quant,
+  SE.d2.lo = df$periodx_0.025quant,
+  SE.d2.up = df$periodx_0.975quant,
+  d1.col = df$Col_trend,
+  d2.col = df$Col_mean,
+  Xlim = Xlim,
+  plot.type = 2,
+  rng = 1.1,
+  flip.colors = TRUE,
+  bg.polys = bg.polys,
+  Title="1-day max flow",
+  TitleCex = 0.9,
+  TextCex = 0.6,
+  AxisCex=0.7,
+  PointCex = 1,
+  #Ylab="Long-term status",
+  Symbol=Symbol,
+  bg.color=bg.color,
+  ol.color=ol.color,
+  PlotLegend = NA,
+  TextOffset = 0.2,
+  Rmar= 0
+)
+
+
+######## seven day minimum 
+
+df = df0[df0$RESPONSE=="7daymin",]
+df = df[order(df$order), ]
+#no.esus= nrow(df)
+
+QuadPlot_means(
+  D1 = df$Year3_0.5quant,
+  D2 = df$periodx_0.5quant,
+  SE.d1.lo = df$Year3_0.025quant,
+  SE.d1.up = df$Year3_0.975quant,
+  SE.d2.lo = df$periodx_0.025quant,
+  SE.d2.up = df$periodx_0.975quant,
+  d1.col = df$Col_trend,
+  d2.col = df$Col_mean,
+  Xlim = Xlim,
+  plot.type = 2,
+  bg.polys = bg.polys,
+  rng = 1.1,
+  Title="7-day min flow",
+  TitleCex = 0.9,
+  PointCex = 1,
+  TextCex = 0.6,
+  AxisCex = 0.7,
+  Symbol=Symbol,
+  bg.color=bg.color,
+  ol.color=ol.color,
+  PlotLegend = FALSE,
+  TextOffset = 0.2,
+  Rmar= 0
+)
+
+plot(1:16,1:16, xaxt='n',yaxt='n', pch='', bty="n", xlab=NA, ylab=NA)
+legend('topleft',legend=df$names, pt.bg = bg.color, col=ol.color, pch = Symbol, bty = 'n', cex=0.7, pt.cex=0.7, inset=c(-0.3,-0.1))
+
+
+PERIOD = 5
+CAP = paste0("Recent (",PERIOD,"-year) trend and average of anomalies in maximum and minimum flow in ",no.esus," freshwater Chinook salmon ESUs in the CCE through ",steam.maxyr,". Symbols of ESUs are color-coded from north (blue) to south (orange).  Error bars represent the 2.5% and 97.5% upper and lower credible intervals. Grey error bars overlap zero.  Heavy black error bars differed from zero.")
+
+rtffile <- RTF(paste(cap.loc,"flow.esu.doc",sep = ""))  # this can be an .rtf or a .doc
+ addParagraph(rtffile, CAP)
+ done(rtffile)
+```
+
+### Process ESU data - time series 
+
+```{r fix.flow.esu.timeseries}
+# bring in info from other file 
+source("reset.DFs.R")
+
+df0 = load.data('StreamFlow','allTimeSeriesESU')
+df0$id = paste0(df0$REGION, df0$RESPONSE)
+DFflow_ESU$id = paste0(DFflow_ESU$REGION, DFflow_ESU$RESPONSE)
+df0$Sig_trend <- DFflow_ESU$Sig_trend[match(df0$id, DFflow_ESU$id)]
+df0$Sig_mean <- DFflow_ESU$Sig_mean[match(df0$id, DFflow_ESU$id)]
+
+```
+
+
+### Flow ESU 1d max
+
+```{r streamflow1.esu, fig.width = 6.2, fig.height = 8}
+source("reset.DFs.R")
+
+
+# df0 = load.data('StreamFlow','allTimeSeriesESU')
+df1 = df0[df0$RESPONSE == '1daymax',]
+df1$metric = "One-day max"
+# no.esus = 16 #length(levels(df1$timeseries))
+
+df1$SEup = df1$X0.975quant
+df1$SElo =df1$X0.025quant
+df1$mean = df1$index
+df1$index = df1$X0.5quant
+
+# fix time series names
+esu = data.frame(matrix(
+  c("CKCAC", "CA Coast (ONCC)",
+  "CKCVF", "C Valley F LF (SSJ)", 
+  "CKCVS", "C Valley Sp (SSJ)",
+  "CKWAC","WA Coast (SS)",
+  "CKLCR", "L Columbia R (CU)",
+  "CKMCS", "M Columbia Sp (CG, CU)",
+  "CKORC", "OR Coast (ONCC)",
+  "CKPUG", "Puget Sound (SS)",
+  "CKSAC", "Sacramento W (SSJ)",
+  "CKSNC", "S OR N CA Coast (ONCC)",
+  "CKSRF", "Snake R F (CU)", 
+  "CKSRS", "Snake R Sp Su (CU)", 
+  "CKUCF", "U Columbia Su F (CG)",
+  "CKUCS", "U Columbia Sp (CG)",
+  "CKUKT", "U Klamath Trinity R (ONCC)",
+  "CKUWR", "U Williamette R (CU)"), byrow=TRUE, ncol=2))
+colnames(esu) = c('region','esu')
+no.esus = nrow(esu)
+
+df1$timeseries = esu$esu[match(df1$REGION, esu$region)]
+
+DF1 = df1[df1$timeseries=="U Columbia Sp (CG)",]
+DF2 = df1[df1$timeseries=="Puget Sound (SS)",]
+DF3 = df1[df1$timeseries=="WA Coast (SS)",]
+DF4 = df1[df1$timeseries=="U Columbia Su F (CG)",]
+DF5 = df1[df1$timeseries=="Snake R F (CU)",]
+DF6 = df1[df1$timeseries=="L Columbia R (CU)",]
+DF7 = df1[df1$timeseries=="Deschutes R Su F (CU)",]
+DF8 = df1[df1$timeseries=="M Columbia Sp (CG, CU)",]
+DF9 = df1[df1$timeseries=="Snake R Sp Su (CU)",]
+DF10 = df1[df1$timeseries=="U Williamette R (CU)",]
+DF11 = df1[df1$timeseries=="OR Coast (ONCC)",]
+DF12 = df1[df1$timeseries=="S OR N CA Coast (ONCC)",]
+DF13 = df1[df1$timeseries=="U Klamath Trinity R (ONCC)",]
+DF14 = df1[df1$timeseries=="CA Coast (ONCC)",]
+DF15 = df1[df1$timeseries=="Sacramento W (SSJ)",]
+DF16 = df1[df1$timeseries=="C Valley Sp (SSJ)",]
+DF17 = df1[df1$timeseries=="C Valley F LF (SSJ)",]
+
+source('minyr.maxyr.xlim.R')
+TicsEvery = 10
+Ylab = NA
+te = 10
+YLIM=c(-2,4)
+# No DF7
+
+DFList = list(DF1,DF2,DF3,DF4,DF5,DF6,DF8,DF9,DF10,DF11,DF12,DF13,DF14,DF15,DF16,DF17)
+
+par(mfrow=c(8,2), oma=c(0,0,0,0))
+
+for(i in 1:length(DFList)){
+  DFx = DFList[[i]]
+  PlotTimeSeries(DFx, XLIM = XLIM, YLIM=YLIM, sig.trend = DFx$Sig_trend, sig.mean = DFx$Sig_mean, TicsEvery=te, Ylab=NA, AltTxt = AltTxt)
+}
+
+mtext(side=2, "One-day maximum flow anomaly", outer=TRUE, line = -1)
+
+CAP = paste0("Anomalies of the 1-day maximum streamflow measured at 213 gauges in ",no.esus,"Chinook salmon ESUs for ",minyr,"-",maxyr,".  Gages include both regulated (subject to hydropower operations) and unregulated systems, although trends were similar when these systems were examined separately. ", coda_hydro)
+
+rtffile <- RTF(paste(cap.loc,"streamflow1.esu.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+### Flow ESU 7d min
+
+```{r streamflow7.esu, fig.width = 6.2, fig.height = 8}
+source("reset.DFs.R")
+
+# df0 = load.data('StreamFlow','allTimeSeriesESU')
+df1 = df0[df0$RESPONSE == '7daymin',]
+df1$metric = "Seven-day min"
+# no.esus = 16 #length(levels(df1$timeseries))
+
+df1$SEup = df1$X0.975quant
+df1$SElo =df1$X0.025quant
+df1$mean = df1$index
+df1$index = df1$X0.5quant
+
+# fix time series names
+# fix time series names
+esu = data.frame(matrix(
+  c("CKCAC", "CA Coast (ONCC)",
+  "CKCVF", "C Valley F LF (SSJ)", 
+  "CKCVS", "C Valley Sp (SSJ)",
+  "CKWAC","WA Coast (SS)",
+  "CKLCR", "L Columbia R (CU)",
+  "CKMCS", "M Columbia Sp (CG, CU)",
+  "CKORC", "OR Coast (ONCC)",
+  "CKPUG", "Puget Sound (SS)",
+  "CKSAC", "Sacramento W (SSJ)",
+  "CKSNC", "S OR N CA Coast (ONCC)",
+  "CKSRF", "Snake R F (CU)", 
+  "CKSRS", "Snake R Sp Su (CU)", 
+  "CKUCF", "U Columbia Su F (CG)",
+  "CKUCS", "U Columbia Sp (CG)",
+  "CKUKT", "U Klamath Trinity R (ONCC)",
+  "CKUWR", "U Williamette R (CU)"), byrow=TRUE, ncol=2))
+colnames(esu) = c('region','esu')
+no.esus = nrow(esu)
+
+df1$timeseries = esu$esu[match(df1$REGION, esu$region)]
+
+DF1 = df1[df1$timeseries=="U Columbia Sp (CG)",]
+DF2 = df1[df1$timeseries=="Puget Sound (SS)",]
+DF3 = df1[df1$timeseries=="WA Coast (SS)",]
+DF4 = df1[df1$timeseries=="U Columbia Su F (CG)",]
+DF5 = df1[df1$timeseries=="Snake R F (CU)",]
+DF6 = df1[df1$timeseries=="L Columbia R (CU)",]
+# DF7 = df1[df1$timeseries=="Deschutes R Su F (CU)",]
+DF8 = df1[df1$timeseries=="M Columbia Sp (CG, CU)",]
+DF9 = df1[df1$timeseries=="Snake R Sp Su (CU)",]
+DF10 = df1[df1$timeseries=="U Williamette R (CU)",]
+DF11 = df1[df1$timeseries=="OR Coast (ONCC)",]
+DF12 = df1[df1$timeseries=="S OR N CA Coast (ONCC)",]
+DF13 = df1[df1$timeseries=="U Klamath Trinity R (ONCC)",]
+DF14 = df1[df1$timeseries=="CA Coast (ONCC)",]
+DF15 = df1[df1$timeseries=="Sacramento W (SSJ)",]
+DF16 = df1[df1$timeseries=="C Valley Sp (SSJ)",]
+DF17 = df1[df1$timeseries=="C Valley F LF (SSJ)",]
+
+source('minyr.maxyr.xlim.R')
+TicsEvery = 10
+
+Ylab = NA
+te = 10
+YLIM = c(-2,4)
+
+DFList = list(DF1,DF2,DF3,DF4,DF5,DF6,DF8,DF9,DF10,DF11,DF12,DF13,DF14,DF15,DF16,DF17)
+
+par(mfrow=c(8,2), oma=c(0,0,0,0))
+
+for(i in 1:length(DFList)){
+  DFx = DFList[[i]]
+  PlotTimeSeries(DFx, XLIM = XLIM, YLIM=YLIM, sig.trend = DFx$Sig_trend, sig.mean = DFx$Sig_mean, TicsEvery=te, Ylab=NA, AltTxt = AltTxt)
+}
+
+mtext(side=2, "Seven-day minimum flow anomaly", outer=TRUE, line = -1)
+
+CAP = paste0("Anomalies of the 7-day minimum streamflow measured at 213 gauges in ",no.esus,"Chinook salmon ESUs for ",minyr,"-",maxyr,". Gages include both regulated (subject to hydropower operations) and unregulated systems, although trends were similar when these systems were examined separately. ", coda_hydro)
+
+rtffile <- RTF(paste(cap.loc,"streamflow7.esu.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+
+# FOCAL COMPONENTS OF ECOLOGICAL INTEGRITY
+
+## Northern Copepod Biomass Anomaly
+
+```{r copepods, fig.width = 3.2, fig.height=2.0}  
+source('reset.DFs.R')
+
+copepods = load.data("/Ecological Integrity","IEA_NoSoCopeAnom")
+
+DF1 = copepods[, c('year','month','NorthernBiomassAnomaly','type'),]
+colnames(DF1) = c('year','month','index','type')
+DF1$timeseries = "Northen copepods"
+DF1$metric = "Biomass anomaly"
+
+DF2 = copepods[, c('year','month','SouthernBiomassAnomaly','type'),]
+colnames(DF2) = c('year','month','index','type')
+DF2$timeseries = "Southern copepods"
+DF2$metric = "Biomass anomaly"
+
+source('minyr.maxyr.xlim.R')
+
+par(mfrow=c(2,1), oma = c(0,0,0,0))
+
+PlotTimeSeries(DF1,Y2 = NA, Y.lab.drop = TRUE, Title =  "Northern copepods", Ylab = NA, TicsEvery = 5, Pt.cex = 0.1, PERIOD = 60, AltTxt =  AltTxt) 
+
+PlotTimeSeries(DF2,Y2 = NA, Y.lab.drop = TRUE, Title =   "Southern copepods", Ylab = NA,TicsEvery = 5, Pt.cex = 0.1, PERIOD = 60, AltTxt = AltTxt)
+#PlotTimeSeries(DF3,Title =   "Species richness anomaly", TicsEvery = te, PERIOD = 60, AltTxt = AltTxt)
+mtext(side=2, "BIomass anomaly", outer=TRUE, line = -1.5)
+
+Ylab=NA
+TicsEvery = NA
+
+CAP = paste0("Monthly northern and southern copepod biomass anomalies from station NH05 ",minyr,"-",maxyr,".")
+
+rtffile <- RTF(paste(cap.loc,"copepods.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+## Krill 
+
+```{r KrillLength, fig.height=1.5, fig.width = 3.2}
+source('reset.DFs.R')
+DF1 = load.data("Ecological Integrity","THL.EpacificaLengthTable")
+source('minyr.maxyr.xlim.R')
+DF1$SEup = DF1$index + DF1$SD
+DF1$SElo = DF1$index - DF1$SD
+
+PlotTimeSeries(DF1, YLIM = c(0,NA),Ylab = "Length (mm)", TicsEvery = 5, AltTxt = AltTxt, PERIOD=60)
+
+Ylab=NA
+TicsEvery = NA
+
+CAP = paste0("Mean krill carapace length (mm) off of Trinidad Head, CA from ",minyr,"-",maxyr,". Grey envelope indicates +/- 1.0 s.d. ", coda)
+
+rtffile <- RTF(paste(cap.loc,"KrillLength.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+## Regional Forage Availability
+
+### north
+```{r forageN, fig.width=4, fig.height=2.7}
+source('reset.DFs.R')
+
+DF1 = load.data("Forage",'NCC.ForageJellies')
+
+plot.order = c(
+         'Juvenile chum',
+         'Yearling Chinook',
+         'Subyearling Chinook',
+         'Yearling Coho',
+         'Yearling sockeye',
+         "Pompano" ,
+         'Market squid',
+         'Aequorea Water Jelly',
+         'Chrysaora Sea Nettle',
+         "Egg yolk jelly",
+         "Moon jelly"
+         )
+
+source('minyr.maxyr.xlim.R')
+
+bg.color= c( rep('black',5), rep('white',3) , rep('grey',3) )
+ol.color= 'black'
+Symbol = c(21,22,23,24,25,23,22,25,21,22,23)
+
+
+source('minyr.maxyr.xlim.R')
+
+PERIOD = 5
+QuadPlot(dframe=DF1,
+  PERIOD=PERIOD,
+  style=1,
+  plot.type=1,
+  bg.polys = bg.polys,
+  Title = "Northern California Current",
+  # TitleCex = 1.5,
+  Symbol=Symbol,
+  bg.color=bg.color,
+  ol.color=ol.color,
+  LegendCex = 0.8,
+  # LegendPointCex = 1.5,
+  Label=plot.order,
+  AltTxt = AltTxt
+ )
+
+CAP = paste("Recent (",PERIOD,"-year) trend and average of key forage species in the northern California Current Ecosystem through ",maxyr,". ",coda,sep="")
+
+rtffile <- RTF(paste(cap.loc,"forageN.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+### central
+
+```{r forageC, fig.width=4, fig.height=2.8}
+source('reset.DFs.R')
+
+DF1 = load.data("Forage",'CCC.Forage')
+
+
+source('minyr.maxyr.xlim.R')
+
+
+plot.order = c("Adult sardine",
+               "Adult anchovy",
+               "YOY sardine",
+               "YOY anchovy",
+               "YOY Pacific hake",
+               "YOY rockfish",
+               "YOY sanddabs",
+               "Myctophids",
+               "Market squid",
+               "Krill",
+               "Aurelia",
+               "Chrysaora", 
+               "Pyrosomes")
+
+
+bg.color = c('black','black',NA,NA,NA,NA,NA,'black',rep('grey',5))
+ol.color = "black"
+Symbol=c(21,24,21,24,22,23,25,21,21,25,24,23,22)
+
+PERIOD =5
+QuadPlot(dframe=DF1,
+  Name=DF1$timeseries,
+  PERIOD=PERIOD,
+  style=1,
+  plot.type=1,
+  bg.polys = bg.polys,
+  Title = "Central California Current",
+  # TitleCex = 1.5,
+  Symbol=Symbol,
+  bg.color=bg.color,
+  ol.color=ol.color,
+  LegendCex = 0.8,
+  # LegendPointCex = 1.5,
+  Label=plot.order,
+  AltTxt = AltTxt
+ )
+
+
+
+CAP = paste("Recent (",PERIOD,"-year) trend and average of key forage species in the central California Current Ecosystem through ",maxyr,". ",coda,sep="")
+
+rtffile <- RTF(paste(cap.loc,"forageC.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+
+
+```
+
+### south
+
+```{r forageS, fig.width=4, fig.height=2.8}
+source('reset.DFs.R')
+
+df = load.data("Forage",'SCC.forage')
+
+
+DF1 = df[df$timeseries=="Sardinops.sagax", ] 
+DF2 = df[df$timeseries=="Engraulis.mordax", ] 
+DF3 = df[df$timeseries=="Merluccius.productus", ] 
+DF4 = df[df$timeseries=="Sebastes.spp", ]
+DF5 = df[df$timeseries=="Trachurus.symmetricus", ] 
+DF6 = df[df$timeseries=="Citharichthys1", ] 
+DF7 = df[df$timeseries=="Doryteuthis.opalescens", ]
+DF8 = df[df$timeseries=="Southern.mesopelagics", ]
+
+DF1$timeseries = 'Sardine'
+DF2$timeseries = 'Anchovy'
+DF3$timeseries = 'Hake'
+DF4$timeseries = 'Rockfishes'
+DF5$timeseries = 'Jack mackerel'
+DF6$timeseries = 'Sanddab'
+DF7$timeseries = 'Market squid'
+DF8$timeseries = 'Southern mesopelagics'
+
+plot.order= c('Sardine',
+         'Anchovy',
+         'Hake',
+         'Rockfishes',
+         'Jack mackerel',
+         'Sanddab',
+         'Southern mesopelagics',
+         'Market squid')
+
+DF = rbind(DF1[,c('year','index','type','timeseries','metric')],
+           DF2[,c('year','index','type','timeseries','metric')],
+           DF3[,c('year','index','type','timeseries','metric')],
+           DF4[,c('year','index','type','timeseries','metric')],
+           DF5[,c('year','index','type','timeseries','metric')],
+           DF6[,c('year','index','type','timeseries','metric')],
+           DF7[,c('year','index','type','timeseries','metric')],
+           DF8[,c('year','index','type','timeseries','metric')])
+DF$timeseries = as.factor(as.character(DF$timeseries))
+
+
+bg.color=c('black','black',NA,NA,NA,NA,'grey','grey')
+ol.color="black"
+Symbol=c(21,24,21,22,25,24,21,24)
+
+PERIOD=5
+
+QuadPlot(dframe=DF,
+  PERIOD=PERIOD,
+  style=1,
+  plot.type=1,
+  bg.polys = bg.polys,
+  Title = "Southern California Current",
+  # TitleCex = 1.5,
+  Symbol=Symbol,
+  bg.color=bg.color,
+  ol.color=ol.color,
+  LegendCex = 0.8,
+  # LegendPointCex = 1.5,
+  Label=plot.order,
+  Rmar = 6.9,
+  Tmar = 1.2,
+  AltTxt = AltTxt
+ )
+
+
+source('minyr.maxyr.xlim.R')
+
+CAP = paste("Recent (",PERIOD,"-year) trend and average of the larvae of key forage species in the southern California Current Ecosystem through ",maxyr,". ",coda,sep="")
+
+rtffile <- RTF(paste(cap.loc,"forageS.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+## Forage - time series
+
+### North
+
+```{r Nforage.ts, fig.width = 6.2, fig.height = 7}
+source("reset.DFs.R")
+
+DF1 = load.data("Forage",'NCC.ForageJellies')
+DF1$timeseries = as.character(DF1$timeseries)
+DF1$timeseries[DF1$timeseries == 'Aequorea Water Jelly'] <- 'Aequorea water jelly'
+DF1$timeseries[DF1$timeseries == 'Chrysaora Sea Nettle'] <- 'Chrysaora sea nettle'
+
+source('minyr.maxyr.xlim.R')
+
+plot.order = c(
+         'Juvenile chum',
+         'Yearling Chinook',
+         'Subyearling Chinook',
+         'Yearling Coho',
+         'Yearling sockeye',
+         "Pompano",
+         'Market squid',
+         'NA',
+         'Aequorea water jelly',
+         'Chrysaora sea nettle',
+         'Egg yolk jelly',
+         "Moon jelly")
+
+source('minyr.maxyr.xlim.R')
+par(mfrow = c(6,2))
+lmar = rep(c(3.5,4.25),10)
+rmar = rep(c(0.75, 0),10)
+Ymajor = list(c(0, 0.2, 0.4, 0.6),
+              c(0, 0.2, 0.4, 0.6),
+              c(0, 0.2, 0.4, 0.6),
+              c(0, 0.2, 0.4, 0.6),
+              c(0, 0.1,0.2),
+              c(0,0.05,0.10,0.15),
+              c(0, 0.5, 1.0, 1.5),
+              c(1),
+              c(0,1,2,3),
+              c(0, 0.5, 1.0, 1.5),
+              c(0,0.05, 0.10),
+              c(0,0.05,0.10,0.15)
+)
+
+
+
+
+for(i in 1:length(plot.order)){
+  print(i)
+  DF = DF1[DF1$timeseries==plot.order[i],]
+  # if(i %in% c(1,3,5,10)){GG = TRUE}else{GG = FALSE}
+  if(i == 8){plot(1:5,1:5, pch = '', bty = 'n', xlab = NA, ylab = NA, xaxt='n', yaxt='n')}else{
+  PlotTimeSeries(DF, Ylab = "CPUE", XLIM=XLIM, YLIM = c(0,NA), 
+                 Y.axis.labels = Ymajor[[i]], 
+                 Title=DF$timeseries[1], TicsEvery=5, AltTxt =  AltTxt, 
+                 Rmar = rmar[i], Lmar = lmar[i])}
+}
+
+
+CAP = paste0("Geometric mean CPUEs (Log10(no/km + 1)) of key forage groups in the Northern CCE, from surface trawls conducted as part of the NMFS Juvenile Salmon Ocean Ecology Survey, ",minyr, '-' ,maxyr,'.', coda)
+
+rtffile <- RTF(paste(cap.loc,"Nforage.ts.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### Central
+
+```{r Cforage.ts, fig.width = 6.2, fig.height = 6}
+source("reset.DFs.R")
+
+df = load.data("Forage",'CCC.Forage')
+df$SE[is.na(df$SE)] <- 0
+df$SEup = df$index + df$SE
+df$SElo = df$index - df$SE
+DF1 = df
+source('minyr.maxyr.xlim.R')
+
+DF1$timeseries = as.character(DF1$timeseries)
+DF1$timeseries[DF1$timeseries == 'Aurelia'] <- 'Aurelia moon jelly'
+DF1$timeseries[DF1$timeseries == 'Chrysaora'] <- 'Chrysaora sea nettle'
+
+plot.order = c("Adult sardine",
+               "Adult anchovy",
+               "YOY sardine",
+               "YOY anchovy",
+               "YOY Pacific hake",
+               "YOY rockfish",
+               "YOY sanddabs",
+               "Myctophids",
+               "Market squid",
+               "Krill",
+               "Aurelia moon jelly",
+               "Chrysaora sea nettle", 
+               "Pyrosomes")
+
+
+source('minyr.maxyr.xlim.R')
+
+Ymajor = list(YM1 = c(0,1,2),
+              YM2 = c(0,3,6),
+              YM3 = c(0,1,2),
+              YM4 = c(0,3,6),
+              YM5 = c(0,2,4),
+              YM6 = c(0,3,6),
+              YM7 = c(0,3,6),
+              YM8 = c(0,2,4),
+              YM9 = c(0,3,6),
+              YM10= c(0,6,12),
+              YM11= c(0,1,2),
+              YM12= c(0,3,6),
+              YM13= c(0,4,8)
+)
+
+par(mfrow = c(7,2))
+lmar = rep(c(3.5,4.25),10)
+rmar = rep(c(0.75, 0),10)
+XLIM = c(1989,2020)
+for(i in 1:length(plot.order)){
+  DF = DF1[DF1$timeseries==plot.order[i],]
+  print(i)
+  
+  PlotTimeSeries(DF, Ylab = "CPUE", XLIM=XLIM, YLIM = c(0,NA), Xaxis.cex = 0.8,
+                 Y.axis.labels =Ymajor[[i]], 
+                 Title=DF$timeseries[1], TicsEvery=5, AltTxt =  AltTxt, 
+                 Rmar = rmar[i], Lmar=lmar[i])
+}
+
+
+#
+
+CAP = paste0("Geometric mean CPUEs (mean (ln catch+1)) of key forage groups in the Central CCE, from the SWFSC Rockfish Recruitment and Ecosystem Assessment during ", minyr, "-", maxyr, ".", coda," Shaded errors in these figures represent standard deviations of log transformed catches.", sep='')
+
+rtffile <- RTF(paste(cap.loc,"Cforage.ts.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### South 
+
+```{r Sforage.ts, fig.width = 6.2, fig.height = 3.5}
+source("reset.DFs.R")
+
+df = load.data("Forage",'SCC.forage')
+
+DF1 = df[df$timeseries=="Sardinops.sagax", ] 
+DF2 = df[df$timeseries=="Engraulis.mordax", ] 
+DF3 = df[df$timeseries=="Merluccius.productus", ] 
+DF4 = df[df$timeseries=="Sebastes.spp", ]
+DF5 = df[df$timeseries=="Trachurus.symmetricus", ] 
+DF6 = df[df$timeseries=="Citharichthys1", ] 
+DF7 = df[df$timeseries=="Southern.mesopelagics", ] 
+DF8 = df[df$timeseries=="Doryteuthis.opalescens", ] 
+
+
+Name = c('Sardine',
+         'Anchovy',
+         'Hake',
+         'Rockfishes',
+         'Jack mackerel',
+         'Sanddab',
+         'Southern mesopelagics',
+         'Market squid')
+
+source('minyr.maxyr.xlim.R')
+te = 10
+par(oma=c(0,1,0,0))
+Ylab = "CPUE"
+
+par(mfrow=c(4,2))
+
+PlotTimeSeries(DF1,Ylab = Ylab, XLIM=XLIM, Title = Name[1],   TicsEvery=te, 
+               Y.axis.labels = c(0,2,4), yminor=c(1,3),
+               AltTxt =  AltTxt, Rmar = 0.75)
+PlotTimeSeries(DF2,Ylab = Ylab, XLIM=XLIM, Title = Name[2],   TicsEvery=te, 
+               Y.axis.labels=c(0,3,6), yminor = c(1,2,4,5),
+               AltTxt =  AltTxt, Lmar=4.25)
+PlotTimeSeries(DF3,Ylab = Ylab, XLIM=XLIM, Title = Name[3],   TicsEvery=te, 
+               Y.axis.labels = c(0,2,4), yminor=c(1,3),
+               AltTxt =  AltTxt, Rmar = 0.75)
+PlotTimeSeries(DF4,Ylab = Ylab, XLIM=XLIM, Title = Name[4],   TicsEvery=te, 
+               Y.axis.labels = c(0,2,4), yminor=c(1,3),
+               AltTxt =  AltTxt, Lmar=4.25)
+PlotTimeSeries(DF5,Ylab = Ylab, XLIM=XLIM, Title = Name[5],   TicsEvery=te, 
+                Y.axis.labels = c(0,2,4), yminor=c(1,3),
+               AltTxt =  AltTxt, Rmar = 0.75)
+PlotTimeSeries(DF6, Ylab = Ylab, XLIM=XLIM, Title = Name[6],   
+               Y.axis.labels = c(0,1,2), #yminor=c(1,3),
+               TicsEvery=te, AltTxt =  AltTxt, Lmar=4.25)
+PlotTimeSeries(DF7,Ylab = Ylab, YLIM = c(1,4), XLIM=XLIM, Title = Name[7],   TicsEvery=te, 
+               Y.axis.labels = c(0,2,4), yminor=c(1,3),
+               AltTxt =  AltTxt, Rmar = 0.75)
+PlotTimeSeries(DF8,Ylab = Ylab, XLIM=XLIM, Title = Name[8],   TicsEvery=te, 
+               Y.axis.labels = c(0,0.3,0.6), yminor=c(0.1,0.2,0.4,0.5),
+               AltTxt =  AltTxt, Lmar = 4.25)
+#mtext("log abundance index (ln x+1)", side = 2 , line=-2, outer=TRUE)
+
+CAP = paste0("Mean abundance (ln(abundance+1)) of the larvae of key forage species in the southern CCE, from spring CalCOFI surveys during ", minyr, '-', maxyr, ".", coda)
+
+rtffile <- RTF(paste(cap.loc,"Sforage.ts.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+
+
+# HIGHLY MIGRATORY SPECIES
+```{r HMS, fig.width=6.2, fig.height=2.5}
+# 9 , 3
+# par(mfrow = c(1,3))
+# # spawning potential ####
+# source('reset.DFs.R')
+# 
+# df = load.data("HMS", "HMS_IEA_Indices")
+# DFb = df[df$data.type=='spawning biomass',]
+# 
+# x = aggregate(year ~ timeseries, data=DFb, FUN=max)
+# 
+# name.order = c('Bluefin tuna',
+#          'Yellowfin tuna',
+#          'Albacore',
+#          'Bigeye tuna',
+#          'Skipjack tuna',
+#          'Blue marlin',
+#          'Western central Pacific swordfish',
+#          'Eastern Pacific swordfish')
+# 
+# bg.color=c('blue','yellow','red','green','black',NA,NA,NA,NA)
+# ol.color=c('black','black','black','black','black','blue','red','blue','blue')
+# Symbol=c(22, 24,23,25,22,1,2,6,7)
+# 
+# #DFb$timeseries = as.factor(as.character(DFb$timeseries))
+# PERIOD = 5
+# 
+#  QuadPlot(dframe=DFb,
+#    PERIOD=PERIOD,
+#    style=1,
+#    plot.type=1,
+#    Title = "Biomass",
+#    Symbol=Symbol,
+#    bg.polys = bg.polys,
+#    bg.color=bg.color,
+#    ol.color=ol.color,
+#    Label=name.order,
+#    PlotLegend = FALSE,
+#    # PointCex=3,
+#    # PS=14,
+#    # TitleCex=1.25,
+#    TextCex = 0.7 ,
+#    rng = 2.3)
+# 
+# #######
+# 
+# ### recruitment ####
+# 
+# DFr = df[df$data.type=='recruitment',]
+# DFr = DFr[DFr$timeseries != "Eastern Pacific swordfish",]
+# DFr$timeseries = as.factor(as.character(DFr$timeseries))
+# 
+# name.order = c('Bluefin tuna',
+#          'Yellowfin tuna',
+#          'Albacore',
+#          'Bigeye tuna',
+#          'Skipjack tuna',
+#          'Blue marlin',
+#          'Western central Pacific swordfish')
+# 
+#  QuadPlot(dframe=DFr,
+#   PERIOD=PERIOD,
+#   style=1,
+#   plot.type=1,
+#   bg.polys=bg.polys,
+#   Title = "Recruitment",
+#   Symbol=Symbol,
+#   bg.color=bg.color,
+#   ol.color=ol.color,
+#   Label=name.order,
+#   PlotLegend = FALSE,
+#   # PointCex=3,
+#   # PS=14,
+#   # TitleCex=1.25,
+#   TextCex = 0.7,
+#   rng = 3.4)
+# 
+# Name = c('Bluefin tuna',
+#          'Yellowfin tuna',
+#          'Albacore',
+#          'Bigeye tuna',
+#          'Skipjack tuna',
+#          'Blue marlin',
+#          'W.C. Pacific swordfish',
+#          'E. Pacific swordfish')
+# 
+# plot(1:10,1:10, xaxt='n',yaxt='n', pch='', bty="n", xlab=NA, ylab=NA)
+# legend('topleft',legend=Name, pt.bg = bg.color, col=ol.color, pch = Symbol, bty = 'n', cex=0.8, pt.cex=1)
+# 
+# CAP = paste("Recent trend and average of biomass and recruitment for highly migratory species (HMS) in the California current from the 2014-2016 stock assessments. Data are total biomass for swordfish, relative biomass for skipjack, spawning biomass for bluefin, and female spawning biomass for all other species. ",coda,sep="")
+# 
+# 
+# rtffile <- RTF(paste(cap.loc,"HMS.doc",sep = ""))  # this can be an .rtf or a .doc
+# addParagraph(rtffile, CAP)
+# done(rtffile)
+
+```
+
+## Biomass - time series
+```{r HMS.biomass, fig.width = 6.2, fig.height=5.0}
+par(mfrow = c(4,2))
+source("reset.DFs.R")
+
+df = load.data("HMS", "HMS_IEA_Indices")
+DFb = df[df$data.type=='spawning biomass',]
+DFb$SElo = DFb$index - DFb$SD
+DFb$SEup = DFb$index + DFb$SD
+
+
+### biomass ####
+DF1 = DFb[DFb$timeseries=="Bluefin tuna",]
+DF1$index = DF1$index/1000
+DF1$SEup = DF1$SEup/1000
+DF1$SElo= DF1$SElo/1000
+DF1$metric = "mt x 1000"
+
+DF2 =  DFb[DFb$timeseries=="Yellowfin tuna",]
+DF2$index = DF2$index/100
+DF2$SEup = DF2$SEup/100
+DF2$SElo= DF2$SElo/100
+DF2$metric = "Index x 100"
+
+DF3 = DFb[DFb$timeseries=="Albacore",]
+DF3$index = DF3$index/1000
+DF3$SEup = DF3$SEup/1000
+DF3$SElo= DF3$SElo/1000
+DF3$metric = "mt x 1000"
+
+DF4 =  DFb[DFb$timeseries=="Bigeye tuna",]
+DF4$index = DF4$index/1000
+DF4$SEup = DF4$SEup/1000
+DF4$SElo= DF4$SElo/1000
+DF4$metric = "mt x 1000"
+
+DF5 =  DFb[DFb$timeseries=="Skipjack tuna",]
+DF5$metric = "Rel. biomass"
+
+DF6 = DFb[DFb$timeseries=="Blue marlin",]
+DF6$index = DF6$index/1000
+DF6$SEup = DF6$SEup/1000
+DF6$SElo= DF6$SElo/1000
+DF6$metric = "mt x 1000"
+
+DF7 =  DFb[DFb$timeseries=="Eastern Pacific swordfish",]
+DF7$index = DF7$index/1000
+DF7$SEup = DF7$SEup/1000
+DF7$SElo= DF7$SElo/1000
+DF7$metric = "mt x 1000"
+
+DF8 =  DFb[DFb$timeseries=="Western central Pacific swordfish",]
+DF8$index = DF8$index/1000
+DF8$SEup = DF8$SEup/1000
+DF8$SElo= DF8$SElo/1000
+DF8$metric = "mt x 1000"
+
+source('minyr.maxyr.xlim.R')
+
+YLIM = c(0,NA)
+
+PERIOD = 5
+
+x = paste0("DF",1:8)
+k1 = seq(2,8,2)
+k2 = seq(1,8,2)
+
+Ymajor = list( c(0,150,300),
+               c(0,100,200),
+               c(0,100,200),
+               c(0,200,400),
+               c(0,2,4),
+               c(0,50,100),
+               c(0,50,100),
+               c(0,30,60)
+               )
+
+
+for(i in 1:length(x)){
+  XX = get(x[i])
+  LMAR = if(i %in% k1){LMAR = 4.25}else{LMAR = 3.5}
+  RMAR = if(i %in% k2){RMAR = 0.75}else{RMAR = 0}
+  PlotTimeSeries(XX, PERIOD = PERIOD,XLIM=XLIM, YLIM = YLIM, Y.axis.labels = Ymajor[[i]], 
+                 TicsEvery=10, AltTxt = AltTxt, Rmar = RMAR, Lmar = LMAR, Xaxis.cex = 0.8  )
+  
+}
+
+CAP = paste("Biomass for highly migratory species (HMS) in the California current to ", maxyr,". ",coda,sep="")
+
+rtffile <- RTF(paste(cap.loc,"HMS.biomass.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+
+## Recruitment 
+```{r HMSrecruitment, fig.width = 6.2, fig.height=3.5}
+source("reset.DFs.R")
+
+par(mfrow=c(3,2))
+
+df = load.data("HMS", "HMS_IEA_Indices")
+DFr = df[df$data.type=='recruitment',]
+DFr$SElo = DFr$index - DFr$SD
+DFr$SEup = DFr$index + DFr$SD
+
+### recruitment ####
+DF1 = DFr[DFr$timeseries=="Bluefin tuna",]
+DF1$index = DF1$index/1000
+DF1$SEup = DF1$SEup/1000
+DF1$SElo= DF1$SElo/1000
+DF1$metric = "No x 10^6"
+
+DF2 = DFr[DFr$timeseries=="Yellowfin tuna",]
+DF2$index = DF2$index/1000
+DF2$SEup = DF2$SEup/1000
+DF2$SElo= DF2$SElo/1000
+DF2$metric = "No x 10^6"
+
+DF3 = DFr[DFr$timeseries=="Albacore",]
+DF3$index = DF3$index/1000
+DF3$SEup = DF3$SEup/1000
+DF3$SElo= DF3$SElo/1000
+DF3$metric = "No x 10^6"
+
+DF4 = DFr[DFr$timeseries=="Bigeye tuna",]
+DF4$index = DF4$index/1000
+DF4$SEup = DF4$SEup/1000
+DF4$SElo= DF4$SElo/1000
+DF4$metric = "No x 10^6"
+
+DF5 = DFr[DFr$timeseries=="Skipjack tuna",]
+DF5$metric = "Index"
+
+DF6 = DFr[DFr$timeseries=="Blue marlin",]
+DF6$index = DF6$index/1000
+DF6$SEup = DF6$SEup/1000
+DF6$SElo= DF6$SElo/1000
+DF6$metric = "No x 10^6"
+
+source('minyr.maxyr.xlim.R')
+te = 10
+PERIOD = 5
+Xaxis.cex = 0.8
+
+PlotTimeSeries(DF1, PERIOD=PERIOD, XLIM=XLIM, TicsEvery=te, 
+               Y.axis.labels = c(0,20,40), yminor = c(10,30),
+               AltTxt = AltTxt, Rmar = 0.75, Xaxis.cex =Xaxis.cex)
+PlotTimeSeries(DF2, PERIOD=PERIOD, XLIM=XLIM, TicsEvery=te, 
+               Y.axis.labels = c(0,750, 1500), yminor = c(250,500,1000, 1250),
+               AltTxt = AltTxt, Ylab_line = 3, Lmar=4.255, Xaxis.cex =Xaxis.cex)
+PlotTimeSeries(DF3, PERIOD=PERIOD, XLIM=XLIM, TicsEvery=te, 
+               Y.axis.labels = c(0,200,400), yminor = c(100,300),
+               AltTxt = AltTxt, Rmar = 0.75, Xaxis.cex =Xaxis.cex)
+PlotTimeSeries(DF4, PERIOD=PERIOD, XLIM=XLIM, TicsEvery=te, 
+               Y.axis.labels = c(0,30,60), yminor = c(10,20, 40,50),
+               AltTxt = AltTxt, Ylab_line = 3,Lmar=4.255, Xaxis.cex =Xaxis.cex)
+PlotTimeSeries(DF5, PERIOD=PERIOD, XLIM=XLIM, TicsEvery=te, 
+               Y.axis.labels = c(0,1.5,3.0), yminor = c(0.5,1.0,2.0,2.5),
+               AltTxt = AltTxt, Rmar = 0.75, Xaxis.cex =Xaxis.cex)
+PlotTimeSeries(DF6, PERIOD=PERIOD, XLIM=XLIM, TicsEvery=te, AltTxt = AltTxt, Ylab_line = 3,Lmar=4.255, Xaxis.cex =Xaxis.cex)
+
+CAP = paste("Recruitment for highly migratory species (HMS) in the California current through ", maxyr,". ",coda,sep="")
+
+rtffile <- RTF(paste(cap.loc,"HMS.recuitment.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+# SALMON
+
+## Escapement - quadplot
+
+```{r salmon-escapement, fig.width = 4, fig.height=2.8}
+# fig.width=6.2, fig.height=4.25
+source('reset.DFs.R')
+
+# df0 = load.data("Salmon","WAORIDChinookAbund")
+df0 = load.data("Salmon","ChinookAbund")
+DF1 = df0[df0$timeseries=="UpperColumbia Spr",]
+DF1$timeseries = "Upper Columbia Spr"
+DF2 = df0[df0$timeseries=="Snake Spr-Sum",]
+DF3 = df0[df0$timeseries=="Snake Fall",]
+DF4 = df0[df0$timeseries=="Willamette Spr",]
+DF5 = df0[df0$timeseries=="Lower Columbia R",]
+DF5$timeseries = "Lower Columbia"
+
+df = load.data("Salmon","CASalmonEscapement")
+DF6 = df[df$timeseries=="Klamath Fall",]
+DF7 = df[df$timeseries=="s.OR-n.CA Coast",]
+# DF8 = df[df$timeseries=="California Coast",]
+DF9 = df[df$timeseries=="Central Valley Spr",]
+DF10 = df[df$timeseries=="Central Valley Fall",]
+DF11 = df[df$timeseries=="Central Valley Win",]
+DF12 = df[df$timeseries=="Central Valley Late",]
+
+name.order = c(as.character(DF1$timeseries[1]),
+         as.character(DF2$timeseries[1]),
+         as.character(DF3$timeseries[1]),
+         as.character(DF4$timeseries[1]),
+         as.character(DF5$timeseries[1]),
+         as.character(DF6$timeseries[1]),
+         as.character(DF7$timeseries[1]),
+         # as.character(DF8$timeseries[1]),
+         as.character(DF9$timeseries[1]),
+         as.character(DF10$timeseries[1]),
+         as.character(DF11$timeseries[1]),
+         as.character(DF12$timeseries[1])
+         )
+
+DF = rbind(DF1[,c('year','index','type','timeseries','metric')],
+            DF2[,c('year','index','type','timeseries','metric')],
+            DF3[,c('year','index','type','timeseries','metric')],
+            DF4[,c('year','index','type','timeseries','metric')],
+            DF5[,c('year','index','type','timeseries','metric')],
+            DF6[,c('year','index','type','timeseries','metric')],
+            DF7[,c('year','index','type','timeseries','metric')],
+            # DF8[,c('year','index','type','timeseries','metric')],
+            DF9[,c('year','index','type','timeseries','metric')],
+            DF10[,c('year','index','type','timeseries','metric')],
+            DF11[,c('year','index','type','timeseries','metric')],
+            DF12[,c('year','index','type','timeseries','metric')])
+#DF$timeseries = as.factor(as.character(DF$timeseries))
+
+bg.color = c(rep('blue',5),rep('yellow',2),rep('red',4))
+# bg.color = c(rep('blue',5),rep('yellow',3),rep('red',4))
+ol.color=c('black')
+Symbol = c(21:25,21,24,25,21,23,24,25)
+PERIOD = 10
+
+ QuadPlot(dframe=DF,
+  PERIOD=PERIOD,
+  style=1,
+  plot.type=1,
+  bg.polys=bg.polys,
+  Title = "Chinook salmon escapement",
+  #TitleCex = 1.4,
+  Label= name.order,
+  bg.color = bg.color,
+  # PointCex=1,
+  # TextCex=0.8,
+  l.color,
+  # LegendCex=0.8,
+  # LegendPointCex = 1,
+  Symbol = Symbol,
+  AltTxt = AltTxt)
+ 
+ ##########
+
+source('minyr.maxyr.xlim.R')
+
+CAP = paste("Recent (",PERIOD,"-year) trend and average of Chinook salmon escapement through ", maxyr, ". Recent trend indicates the escapement trend from ", maxyr-PERIOD, "-" ,maxyr, ". Recent average is mean natural escapement (includes hatchery strays) from ",maxyr-PERIOD,"-",maxyr,". " ,coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"salmon-escapement.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+## Juvenile time series
+```{r salmon.juv.ts, fig.width = 3.2, fig.height=2.5}
+source('reset.DFs.R')
+
+df0 = load.data("Salmon","AtSeaJuvSalmonSurvey")
+df0 = df0[,c('year','index',"SE","timeseries",'metric','type')]
+df0$SEup = df0$index + df0$SE
+df0$SElo = df0$index - df0$SE
+DF1 = df0[df0$timeseries == "SubYear_Chin_Mean",]
+DF2 = df0[df0$timeseries == "Year_Chin_Mean",]
+DF3 = df0[df0$timeseries == "Year_Coho_Mean",]
+
+DF1$timeseries = 'Chinook - subyearling'
+DF2$timeseries = 'Chinook - yearling'
+DF3$timeseries = 'Coho - yearling'
+DF1$metric = DF2$metric = DF3$metric = "CPUE"
+
+source('minyr.maxyr.xlim.R')
+
+YLIM = c(NA,0.6)
+par(mfrow=c(3,1))
+Y.axis.labels = c(0, 0.3, 0.6)
+yminor = c(0.1, 0.2,0.4,0.5)
+
+PlotTimeSeries(DF1, XLIM=XLIM, YLIM=YLIM, Y.axis.labels = Y.axis.labels, yminor = yminor, AltTxt = AltTxt)
+PlotTimeSeries(DF2, XLIM=XLIM, YLIM=YLIM, Y.axis.labels = Y.axis.labels, yminor = yminor, AltTxt = AltTxt)
+PlotTimeSeries(DF3, XLIM=XLIM, YLIM=YLIM, Y.axis.labels = Y.axis.labels, yminor = yminor, AltTxt = AltTxt)
+
+CAP = paste("At sea juvenile salmon catch (Log10(no/km + 1)) from ",minyr," to ",maxyr," for Chinook and coho salmon. ",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"salmon.juv.ts.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+## Chinook time series
+
+```{r chinook.ts, fig.width = 6.2, fig.height = 3.0}
+source("reset.DFs.R")
+
+df = load.data("Salmon","CASalmonEscapement")
+DF1 = df[df$timeseries=="s.OR-n.CA Coast",]
+DF2 = df[df$timeseries=="California Coast",]
+DF3 = df[df$timeseries=="Klamath Fall",]
+DF4 = df[df$timeseries=="Central Valley Spr",]
+DF5 = df[df$timeseries=="Central Valley Fall",]
+DF6 = df[df$timeseries=="Central Valley Win",]
+DF7 = df[df$timeseries=="Central Valley Late",]
+
+source('minyr.maxyr.xlim.R')
+te = 10
+PERIOD=10
+Ylab = NA
+Xaxis.cex = 0.8
+Rmar = 0
+Lmar = 3
+YLIM = c(-2,4)
+par(mfrow=c(4,2), oma=c(0,0,0,0))
+
+Y.axis.labels = c(-3,0,3)
+yminor = c(-2,-1,1,2)
+
+
+PlotTimeSeries(DF1, Ylab = Ylab, Y.axis.labels = Y.axis.labels, ymin=yminor,   XLIM=XLIM, YLIM=YLIM, PERIOD=PERIOD, TicsEvery = te, AltTxt =  AltTxt, Xaxis.cex = Xaxis.cex)
+PlotTimeSeries(DF2, Ylab = Ylab, Y.axis.labels = Y.axis.labels, ymin=yminor,   XLIM=XLIM, YLIM=YLIM, PERIOD=PERIOD, TicsEvery = te, AltTxt =  AltTxt, Xaxis.cex = Xaxis.cex)
+PlotTimeSeries(DF3, Ylab = Ylab, Y.axis.labels = Y.axis.labels, ymin=yminor,    XLIM=XLIM, YLIM=YLIM, PERIOD=PERIOD, TicsEvery = te, AltTxt =  AltTxt, Xaxis.cex = Xaxis.cex)
+plot(1:10,1:10, xaxt='n', yaxt="n", bty='n', pch="", ylab=NA)
+PlotTimeSeries(DF4, Ylab = Ylab, Y.axis.labels = Y.axis.labels, ymin=yminor,    XLIM=XLIM, YLIM=YLIM, PERIOD=PERIOD, TicsEvery = te, AltTxt =  AltTxt, Xaxis.cex = Xaxis.cex)
+PlotTimeSeries(DF5, Ylab = Ylab, Y.axis.labels = Y.axis.labels, ymin=yminor,    XLIM=XLIM, YLIM=YLIM, PERIOD=PERIOD, TicsEvery = te, AltTxt =  AltTxt, Xaxis.cex = Xaxis.cex)
+PlotTimeSeries(DF6, Ylab = Ylab, Y.axis.labels = Y.axis.labels, ymin=yminor,    XLIM=XLIM, YLIM=YLIM, PERIOD=PERIOD, TicsEvery = te, AltTxt =  AltTxt, Xaxis.cex = Xaxis.cex)
+PlotTimeSeries(DF7, Ylab = Ylab, Y.axis.labels = Y.axis.labels, ymin=yminor,    XLIM=XLIM, YLIM=YLIM, PERIOD=PERIOD, TicsEvery = te, AltTxt =  AltTxt, Xaxis.cex = Xaxis.cex)
+
+mtext("Escapement anomaly", side=2, outer=TRUE, line = -1)
+TicsEvery = NA
+Ylab = NA
+
+CAP = paste("Anomalies of escapement of wild Chinook salmon in California watersheds through ",  maxyr, ". ", coda, sep='')
+
+rtffile <- RTF(paste(cap.loc,"chinook.ts.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+## State level escapements
+
+### Washington - Oregon
+
+```{r chinook.waor.ts, fig.width = 6.2, fig.height = 2.5}
+source("reset.DFs.R")
+df0 = load.data("Salmon","ChinookAbund")
+# df0 = load.data("Salmon","WAORIDChinookAbund")
+DF1 = df0[df0$timeseries=="Snake Spr-Sum",]
+DF2 = df0[df0$timeseries=="Snake Fall",]
+DF3 = df0[df0$timeseries=="Willamette Spr",]
+DF4 = df0[df0$timeseries=="UpperColumbia Spr",]
+DF4$timeseries = "Upper Columbia Spr"
+DF5 = df0[df0$timeseries=="Lower Columbia R",]
+
+source('minyr.maxyr.xlim.R')
+TicsEvery = 10
+PERIOD=10
+Ylab = NA
+YLIM = c(-2,4)
+Xaxis.cex = 0.8
+par(mfrow=c(3,2), oma=c(0,0,0,0))
+XLIM = c(1969, 2020)
+
+PlotTimeSeries(DF1, Ylab=Ylab, XLIM=XLIM, YLIM = YLIM, PERIOD=PERIOD,
+               Y.axis.labels =c(-3,0,3), yminor = c(-2,-1,0,1,2),
+               AltTxt = AltTxt, Xaxis.cex = Xaxis.cex)
+PlotTimeSeries(DF2, Ylab=Ylab, XLIM=XLIM, YLIM = YLIM, PERIOD=PERIOD,
+               Y.axis.labels =c(-3,0,3), yminor = c(-2,-1,0,1,2),
+               AltTxt = AltTxt, Xaxis.cex = Xaxis.cex)
+PlotTimeSeries(DF3, Ylab=Ylab, XLIM=XLIM, YLIM = YLIM, PERIOD=PERIOD,
+               Y.axis.labels =c(-3,0,3), yminor = c(-2,-1,0,1,2),
+               AltTxt = AltTxt, Xaxis.cex = Xaxis.cex)
+plot(1:10,1:10, xaxt='n', yaxt="n", bty='n', pch="", ylab=NA)
+PlotTimeSeries(DF4, Ylab=Ylab, XLIM=XLIM, YLIM = YLIM, PERIOD=PERIOD,
+               Y.axis.labels =c(-3,0,3), yminor = c(-2,-1,0,1,2),
+               AltTxt = AltTxt, Xaxis.cex = Xaxis.cex)
+PlotTimeSeries(DF5, Ylab=Ylab, XLIM=XLIM, YLIM = YLIM, PERIOD=PERIOD,
+               Y.axis.labels =c(-3,0,3), yminor = c(-2,-1,0,1,2),
+               AltTxt = AltTxt, Xaxis.cex = Xaxis.cex)
+mtext("Escapement anomaly", side=2, outer=TRUE, line = -1)
+
+
+CAP = paste("Anomalies of escapement of wild Chinook salmon in Washington, Oregon, and Idaho watersheds through ", maxyr, ". ", coda, sep="")
+
+
+rtffile <- RTF(paste(cap.loc,"chinook.waor.ts.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+# MARINE MAMMALS 
+## Sealions
+```{r sealions, fig.width = 3.2, fig.height=2.5}
+source('reset.DFs.R')
+
+DF1 = load.data("Marine Mammals","cciea_MM_pup_count_MelinUpdate") # pup.count
+DF1$index = DF1$inde/1000
+DF1$SEup = DF1$index + DF1$SE/1000
+DF1$SElo = DF1$index - DF1$SE/1000
+DF2 = load.data("Marine Mammals","cciea_MM_pup_weight index_MelinUpdate")
+#DF2$SEup = DF2$index + DF2$SE
+#DF2$SElo = DF2$index - DF2$SE
+DF3 = load.data("Marine Mammals","cciea_MM_pup_growth_MelinUpdate")
+#DF3$SEup = DF3$index + DF3$SE
+#DF3$SElo = DF3$index - DF3$SE
+
+source('minyr.maxyr.xlim.R')
+
+par(mfcol=c(2,1))
+te = 5
+LWD = 2
+Pt.cex = 0.8
+
+PlotTimeSeries(DF1, Ylab = "1000's", Title =  "Sea lion pup count", XLIM = XLIM, YLIM = c(0,NA), TicsEvery=te, LWD = 2, Pt.cex = Pt.cex, AltTxt =  AltTxt) 
+
+#PlotTimeSeries(DF2, Ylab =  "Kg", Title = "Pup weight anomaly", XLIM = XLIM,  TicsEvery=te, AltTxt =  AltTxt) 
+
+PlotTimeSeries(DF3, Ylab =  "Kg/day", Title = "Pup growth rate", XLIM = XLIM,  TicsEvery=te, LWD = LWD, Pt.cex = Pt.cex, AltTxt =  AltTxt) 
+
+TicsEvery = NA
+
+CAP = paste("California sea lion pup counts, and estimated mean daily growth rate of female pups between 4-7 months on San Miguel Island for the ", minyr,"-",maxyr," cohorts.",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"sealions.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+t### sealion diet
+
+```{r SealionDiet.ts, fig.width = 6.2, fig.height=3}
+source('reset.DFs.R')
+
+DF1 = load.data("Marine Mammals","cciea_MM_ADF California sea lion_diet_Melin_long") 
+source('minyr.maxyr.xlim.R')
+
+names = c("Juvenile rockfishes",
+          "Mackerels",
+          "Market squid",
+          "Northern anchovy", 
+          "Pacific hake",
+          "Pacific sardine")
+par(mfrow=c(3,2))
+
+for(i in 1:length(names)){
+  DF = DF1[DF1$timeseries == names[i],]
+  RMAR = 0.5 #ifelse(i %in% c(2,3,5,6), 5, 3.5)
+  PlotTimeSeries(DF, Rmar = RMAR, XLIM=XLIM, YLIM = c(0,1), 
+                 Y.axis.labels = c(0, 0.5, 1.0), yminor = c(0.25, 0.75),
+                 Ylab = "Frequency")
+}
+
+
+
+CAP = paste("Diets of california sea lion pups on San Miguel Island for ", minyr,"-",maxyr," cohorts.",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"SealionDiet.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+
+# SEABIRDS
+
+## Density timeseries
+
+```{r seabird.density, fig.width=6.3, fig.height=3}
+source("reset.DFs.R") 
+seabirdsNCC = load.data("Seabirds","Seabird - No CC at-sea densities")
+seabirdsCCC = load.data("Seabirds","Seabird - Ce CC at-sea densities")
+seabirdsSCC = load.data("Seabirds","Seabird - So CC at-sea densities")
+
+DF1 = seabirdsNCC[seabirdsNCC$timeseries=='Sooty shearwater  Jun - NCC',]
+DF2 = seabirdsNCC[seabirdsNCC$timeseries=='Cassins auklet  Jun - NCC',]
+DF3 = seabirdsNCC[seabirdsNCC$timeseries=='Common murre  Jun - NCC',]
+
+DF4 = seabirdsCCC[seabirdsCCC$timeseries=='Sooty shearwater  Summer - Ce CC',]
+DF5 = seabirdsCCC[seabirdsCCC$timeseries=='Cassins auklet  Summer - Ce CC',]
+DF6 = seabirdsCCC[seabirdsCCC$timeseries=='Common murre  Summer - Ce CC',]
+
+DF7 = seabirdsSCC[seabirdsSCC$timeseries=='Sooty shearwater  Spring - So CC',]
+DF8 = seabirdsSCC[seabirdsSCC$timeseries=='Cassins auklet  Spring - So CC',]
+DF9 = seabirdsSCC[seabirdsSCC$timeseries=='Common murre  Spring - So CC',]
+
+source('minyr.maxyr.xlim.R')
+
+par(mfrow=c(3,3), oma=c(0,1,0,0))
+
+DFlist = list(DF1, DF2, DF3, DF4, DF5, DF6, DF7, DF8, DF9)
+TITLE = c("Sooty shearwater NCC",
+          "Cassin's auklet NCC",
+          "Common murre NCC",
+          "Sooty shearwater CCC",
+          "Cassin's auklet CCC",
+          "Common murre CCC",
+          "Sooty shearwater SCC",
+          "Cassin's auklet SCC",
+          "Common murre SCC")
+for(i in 1:length(DFlist)){
+  DFx = DFlist[[i]]
+  PlotTimeSeries(DFx, Ylab=NA, XLIM = XLIM, YLIM=c(-2,2),
+                 Y.axis.labels = c(-2,0,2), yminor = c(-1,1),
+                 Xaxis.cex = 0.7, Lmar = 2.5, Arrow.cex = 0.9,
+                 Title = TITLE[i], TitleCex = 0.8, TicsEvery=10, AltTxt =  AltTxt) 
+}
+
+mtext("Density anomaly", side=2, outer=TRUE)
+
+CAP = paste("Anomalies in the summer at-sea densities of sooty shearwaters, Cassin's auklets and common mures in the north, central, and southern California current through ",maxyr,". Data are shipboard counts, transformed as ln(bird density/km2 +1) and expressed as an anomaly relative to the long-term mean. Seabird abundance data from the Northern CCE were collected and provided by Dr. Jeannette Zamon (NOAA). Seabird abundance data from the Central and Southern CCE are collected on SWFSC Rockfish Recruitment and Ecosystem Assessment and CalCOFI surveys, respectively, and are provided by Dr. Bill Sydeman. ",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"seabirds.densisty.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+## Density quadplot
+
+```{r seabirdsQuad, fig.width = 4, fig.height=2.8}
+source('reset.DFs.R')
+
+seabirdsNCC = load.data("Seabirds","Seabird - No CC at-sea densities")
+seabirdsCCC = load.data("Seabirds","Seabird - Ce CC at-sea densities")
+seabirdsSCC = load.data("Seabirds","Seabird - So CC at-sea densities")
+
+seabirdsNCC$timeseries = as.character(seabirdsNCC$timeseries)
+seabirdsCCC$timeseries = as.character(seabirdsCCC$timeseries)
+seabirdsSCC$timeseries = as.character(seabirdsSCC$timeseries)
+
+DF1 = seabirdsNCC[seabirdsNCC$timeseries=='Sooty shearwater  Jun - NCC',]
+DF2 = seabirdsNCC[seabirdsNCC$timeseries=='Cassins auklet  Jun - NCC',]
+DF3 = seabirdsNCC[seabirdsNCC$timeseries=='Common murre  Jun - NCC',]
+
+DF4 = seabirdsCCC[seabirdsCCC$timeseries=='Sooty shearwater  Summer - Ce CC',]
+DF5 = seabirdsCCC[seabirdsCCC$timeseries=='Cassins auklet  Summer - Ce CC',]
+DF6 = seabirdsCCC[seabirdsCCC$timeseries=='Common murre  Summer - Ce CC',]
+
+DF7 = seabirdsSCC[seabirdsSCC$timeseries=='Sooty shearwater  Spring - So CC',]
+DF8 = seabirdsSCC[seabirdsSCC$timeseries=='Cassins auklet  Spring - So CC',]
+DF9 = seabirdsSCC[seabirdsSCC$timeseries=='Common murre  Spring - So CC',]
+
+# change names
+
+DF1$timeseries[DF1$timeseries=='Sooty shearwater  Jun - NCC'] = 'Shearwaters NCC'
+DF2$timeseries[DF2$timeseries=='Cassins auklet  Jun - NCC'] ="Auklets NCC"
+DF3$timeseries[DF3$timeseries=='Common murre  Jun - NCC'] = "Murre NCC"
+
+DF4$timeseries[DF4$timeseries=='Sooty shearwater  Summer - Ce CC'] = "Shearwaters CCC"
+DF5$timeseries[DF5$timeseries=='Cassins auklet  Summer - Ce CC'] = "Auklets CCC"
+DF6$timeseries[DF6$timeseries=='Common murre  Summer - Ce CC'] = "Murre CCC"
+
+DF7$timeseries[DF7$timeseries=='Sooty shearwater  Spring - So CC'] = "Shearwaters SCC"
+DF8$timeseries[DF8$timeseries=='Cassins auklet  Spring - So CC'] = "Auklets SCC"
+DF9$timeseries[DF9$timeseries=='Common murre  Spring - So CC'] = "Murre SCC"
+
+DF = rbind(DF1[,c('year','index','type','timeseries','metric')],
+            DF2[,c('year','index','type','timeseries','metric')],
+            DF3[,c('year','index','type','timeseries','metric')],
+            DF4[,c('year','index','type','timeseries','metric')],
+            DF5[,c('year','index','type','timeseries','metric')],
+            DF6[,c('year','index','type','timeseries','metric')],
+            DF7[,c('year','index','type','timeseries','metric')],
+            DF8[,c('year','index','type','timeseries','metric')],
+            DF9[,c('year','index','type','timeseries','metric')])
+            
+# DF$timeseries = as.factor(as.character(DF$timeseries))
+
+source('minyr.maxyr.xlim.R')
+
+bg.color= c(rep('blue',3),rep('yellow',3),rep('red',3))
+# ol.color= c()
+Symbol = c(22,24,21)
+name.order = c(
+         "Shearwaters NCC",
+         "Auklets NCC",
+         "Murre NCC",
+         "Shearwaters CCC",
+         "Auklets CCC",
+         "Murre CCC",
+         "Shearwaters SCC",
+         "Auklets SCC",
+         "Murre SCC"#,
+         )
+
+PERIOD=5
+ QuadPlot(dframe=DF,
+  PERIOD=PERIOD,
+  style=1,
+  plot.type=1,
+  bg.polys = bg.polys,
+  Title = "At-sea seabird densites",
+  # TitleCex = 1.4,
+  Label = name.order,
+  Symbol = Symbol,
+  bg.color=bg.color,
+  AltTxt = AltTxt)
+ 
+
+CAP = paste("Recent (",PERIOD,"-year) trend and average of seabird at-sea densities during the spring in the California Current in three regions through ",maxyr,". ",coda,sep="")
+
+rtffile <- RTF(paste(cap.loc,"seabirdsQuad.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+## At sea densities
+
+```{r seabirds.ts, fig.height=3, fig.width = 6.4}
+source("reset.DFs.R") 
+seabirdsNCC = load.data("Seabirds","Seabird - No CC at-sea densities")
+seabirdsCCC = load.data("Seabirds","Seabird - Ce CC at-sea densities")
+seabirdsSCC = load.data("Seabirds","Seabird - So CC at-sea densities")
+
+DF1 = seabirdsNCC[seabirdsNCC$timeseries=='Sooty shearwater  Jun - NCC',]
+DF2 = seabirdsNCC[seabirdsNCC$timeseries=='Cassins auklet  Jun - NCC',]
+DF3 = seabirdsNCC[seabirdsNCC$timeseries=='Common murre  Jun - NCC',]
+
+DF4 = seabirdsCCC[seabirdsCCC$timeseries=='Sooty shearwater  Summer - Ce CC',]
+DF5 = seabirdsCCC[seabirdsCCC$timeseries=='Cassins auklet  Summer - Ce CC',]
+DF6 = seabirdsCCC[seabirdsCCC$timeseries=='Common murre  Summer - Ce CC',]
+
+DF7 = seabirdsSCC[seabirdsSCC$timeseries=='Sooty shearwater  Spring - So CC',]
+DF8 = seabirdsSCC[seabirdsSCC$timeseries=='Cassins auklet  Spring - So CC',]
+DF9 = seabirdsSCC[seabirdsSCC$timeseries=='Common murre  Spring - So CC',]
+
+source('minyr.maxyr.xlim.R')
+#XLIM = c(as.character(1985), as.character(XLIM2))
+
+par(mfrow=c(3,3), oma=c(0,1,0,0))
+
+DFlist = list(DF1, DF2, DF3, DF4, DF5, DF6, DF7, DF8, DF9)
+TITLE = c("Sooty shearwater NCC",
+          "Cassin's auklet NCC",
+          "Common murre NCC",
+          "Sooty shearwater CCC",
+          "Cassin's auklet CCC",
+          "Common murre CCC",
+          "Sooty shearwater SCC",
+          "Cassin's auklet SCC",
+          "Common murre SCC")
+for(i in 1:length(DFlist)){
+  DFx = DFlist[[i]]
+  PlotTimeSeries(DFx, Ylab=NA, XLIM = XLIM, YLIM=c(-2,2),
+                 Y.axis.labels = c(-2,0,2), yminor = c(-1,1),
+                 Xaxis.cex = 0.7, Lmar = 2.5, Arrow.cex = 0.9,
+                 Title = TITLE[i], TicsEvery=10, AltTxt =  AltTxt) 
+}
+
+mtext("Density anomaly", side=2, outer=TRUE)
+
+CAP = paste("Anomalies in the summer at-sea densities of sooty shearwaters, Cassin's auklets and common mures in the north, central, and southern California current through ",maxyr,". Data are shipboard counts, transformed as ln(bird density/km2 +1) and expressed as an anomaly relative to the long-term mean. Seabird abundance data from the Northern CCE were collected and provided by Dr. Jeannette Zamon (NOAA). Seabird abundance data from the Central and Southern CCE are collected on SWFSC Rockfish Recruitment and Ecosystem Assessment and CalCOFI surveys, respectively, and are provided by Dr. Bill Sydeman. ",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"seabirds.ts.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+## Diet
+
+### Anchovy size
+
+```{r SeabirdDiet.anchovy.size, fig.width = 3.2, fig.height=1.5}
+source("reset.DFs.R")
+
+DF1 = load.data("Seabirds","Seabird - Ano Neuvo RHAU anchovy length")
+DF1$metric = "Fork length (mm)"
+DF1$SEup = DF1$index + DF1$SD
+DF1$SElo = DF1$index - DF1$SD
+
+source('minyr.maxyr.xlim.R')
+te = 5
+
+PlotTimeSeries(DF1, XLIM = XLIM, YLIM = c(0,NA), TicsEvery = te, AltTxt =  AltTxt) 
+
+CAP = paste("Fork length of anchovy brought to rhinoceros auklet chicks at Ano Nuevo from ",minyr, '-',maxyr,". Error envelope shows +/- 1.0 s.d. Data provided by Oikonos/Point Blue (ryan@oikonos.org).",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"SeabirdDiet.anchovy.size.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+### Ano nuevo
+
+```{r SeabirdDiet.an, fig.width = 6.2, fig.height=2.0}
+source("reset.DFs.R")
+
+diet = load.data("Seabirds","Seabird - Ano Neuvo RHAU diet")
+diet$metric = "Proportion"
+
+DF1 = diet[diet$timeseries=="Northern anchovy",]
+DF2 = diet[diet$timeseries=="Rockfish juveniles",]
+DF3 = diet[diet$timeseries=="Market squid",]
+DF4 = diet[diet$timeseries=="Pacific saury",]
+
+DF1$index = DF1$index*100
+DF2$index = DF2$index*100
+DF3$index = DF3$index*100
+DF4$index = DF4$index*100
+
+source('minyr.maxyr.xlim.R')
+
+par(mfcol=c(2,2), oma=c(0,1,0,0))
+YLIM = c(0,100)
+PlotTimeSeries(DF1, XLIM = XLIM,  YLIM = YLIM, AltTxt =  AltTxt, Ylab=NA) 
+PlotTimeSeries(DF2, XLIM = XLIM,  YLIM = YLIM, AltTxt =  AltTxt, Ylab=NA)
+PlotTimeSeries(DF3, XLIM = XLIM,  YLIM = YLIM, AltTxt =  AltTxt, Ylab=NA)
+PlotTimeSeries(DF4, XLIM = XLIM,  YLIM = YLIM, AltTxt =  AltTxt, Ylab=NA) 
+mtext(side=2, "% of auklet chick diet", outer=TRUE)
+
+seabirds.maxyr = maxyr
+CAP = paste("Rhinoceros auklet chick diets at Ano Neuvo through ",seabirds.maxyr,". Data provided by Oikonos/Point Blue (ryan@oikonos.org). ",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"SeabirdDiet.an.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### Destruction island
+
+```{r SeabirdDiet.di, fig.width = 6.2, fig.height=2.0}
+source("reset.DFs.R")
+
+diet = load.data("Seabirds","Seabird - Destruction Island RHAU diet")
+#diet$index = diet$index/100
+
+DF1 = diet[diet$timeseries=="Northern anchovy",]
+DF2 = diet[diet$timeseries=="Pacific herring",]
+DF3 = diet[diet$timeseries=="Rockfish juveniles",]
+DF4 = diet[diet$timeseries=="Smelts",]
+
+DF1$index = DF1$index*100
+DF2$index = DF2$index*100
+DF3$index = DF3$index*100
+DF4$index = DF4$index*100
+
+source('minyr.maxyr.xlim.R')
+XLIM = c(as.character(2007), as.character(yr))
+te = 5
+par(mfcol=c(2,2), oma=c(0,1,0,0))
+YLIM = c(0, 100)
+PlotTimeSeries(DF1, XLIM = XLIM,  TicsEvery=te, YLIM = YLIM,  AltTxt =  AltTxt, Ylab=NA) 
+PlotTimeSeries(DF2, XLIM = XLIM,  TicsEvery=te, YLIM = YLIM,  AltTxt =  AltTxt, Ylab=NA)
+PlotTimeSeries(DF3, XLIM = XLIM,  TicsEvery=te, YLIM = YLIM,  AltTxt =  AltTxt, Ylab=NA)
+PlotTimeSeries(DF4, XLIM = XLIM,  TicsEvery=te, YLIM = YLIM,  AltTxt =  AltTxt, Ylab=NA) 
+mtext(side=2, "% of auklet chick diet", outer=TRUE)
+
+seabirds.maxyr = maxyr
+CAP = paste("Rhinoceros auklet chick diets at Destruction Island through ",seabirds.maxyr,". Rhinoceros auklet chick diets at Destruction Island through 2017. Lines and symbols as in Fig. 1. Data courtesy of the Washington Rhinoceros Auklet Ecology Project (scott.pearson@dfw.wa.gov). ",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"SeabirdDiet.di.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### Yaquina head
+
+```{r SeabirdDiet.yh, fig.width = 6.2, fig.height=2.5}
+source("reset.DFs.R")
+
+diet = load.data("Seabirds","Seabird - Yaquina Head diet COMU")
+diet$index = diet$index/100
+
+DF1 = diet[diet$timeseries=="Smelts",]
+DF2 = diet[diet$timeseries=="Herring and sardines",]
+DF3 = diet[diet$timeseries=="Pacific sandlance",]
+DF4 = diet[diet$timeseries=="Flatfishes",]
+DF5 = diet[diet$timeseries=="Rockfish juveniles",]
+
+DF1$index = DF1$index*100
+DF2$index = DF2$index*100
+DF3$index = DF3$index*100
+DF4$index = DF4$index*100
+DF5$index = DF5$index*100
+
+source('minyr.maxyr.xlim.R')
+te = 5
+par(mfcol=c(3,2))
+YLIM = c(0,100)
+PlotTimeSeries(DF1, XLIM = XLIM,    TicsEvery = te, YLIM = YLIM, AltTxt =  AltTxt, Ylab=NA) 
+PlotTimeSeries(DF2, XLIM = XLIM,    TicsEvery = te, YLIM = YLIM,  AltTxt =  AltTxt,Ylab="% of diet")
+PlotTimeSeries(DF3, XLIM = XLIM,    TicsEvery = te, YLIM = YLIM,  AltTxt =  AltTxt, Ylab=NA)
+PlotTimeSeries(DF4, XLIM = XLIM,    TicsEvery = te, YLIM = YLIM,  AltTxt =  AltTxt, Ylab=NA) 
+PlotTimeSeries(DF5, XLIM = XLIM,    TicsEvery = te, YLIM = YLIM,  AltTxt =  AltTxt, Ylab=NA) 
+
+seabirds.maxyr = maxyr
+CAP = paste("Common murre chick diets at Yaquina Head through ",seabirds.maxyr,". Data provided by the Yaquina Head Seabird Colony Monitoring Project (rob.suryan@noaa.gov). ",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"SeabirdDiet.yh.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+### Farallones
+
+```{r SeabirdDiet.far, fig.width = 6.2, fig.height=6}
+source("reset.DFs.R")
+
+brac = load.data("Seabirds","Seabird - SE Farallon diet BRAC")
+caau = load.data("Seabirds","Seabird - SE Farallon diet CAAU")
+comu = load.data("Seabirds","Seabird - SE Farallon diet COMU")
+pigu = load.data("Seabirds","Seabird - SE Farallon diet PIGU")
+rhau = load.data("Seabirds","Seabird - SE Farallon diet RHAU")
+
+DF1 = data.frame(rbind(brac, caau, rhau, comu, pigu))
+
+DF1$id = paste0(DF1$timeseries,DF1$metric)
+# set plot order here
+ID = c("Northern anchovy% BRAC diet", 
+       "Rockfish juveniles% BRAC diet", 
+       
+       "Northern anchovy% RHAU diet",
+       "Rockfish juveniles% RHAU diet",
+       
+       "Northern anchovy% COMU diet",
+       "Rockfish juveniles% COMU diet",
+       
+       "Salmon juveniles% COMU diet",
+       "Rockfish juveniles% PIGU diet" ,
+       
+       "Euphausia pacifica% CAAU diet",
+       "Thysanoessa spinifera% CAAU diet")
+      
+source('minyr.maxyr.xlim.R')
+
+par(mfrow=c(5,2))
+YLIM = c(0,1)
+
+for(i in 1:length(ID)){
+  DFx = DF1[DF1$id ==ID[i],]
+  DFx$index = DFx$index*100
+  PlotTimeSeries(DFx, XLIM = XLIM, Xaxis.cex = 0.8, TicsEvery = 10, YLIM = c(0,100), Rmar = 1, AltTxt =  AltTxt) 
+
+}
+
+
+seabirds.maxyr = maxyr
+CAP = paste0("Southeast Farallon Island seabird diets ",seabirds.maxyr,". BRAC = Brandt' cormorant; CAAU = Cassin's auklet; COMU = common murre; PIGU = pigeon guillemot; RHAU = rhinoceros auklet.",coda)
+
+rtffile <- RTF(paste(cap.loc,"SeabirdDiet.far.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+## Productivity
+
+```{r SeabirdProductivity.far, fig.width = 3.2, fig.height=6}
+source("reset.DFs.R")
+
+DF1 = load.data("Seabirds","Seabird - SE Farallon productivity")
+DF1$timeseries = as.character(DF1$timeseries)
+DF1$timeseries[DF1$timeseries == "Brandts cormorant"] <- "Brandt's cormorant"
+DF1$timeseries[DF1$timeseries == "Cassins auklet"] <- "Cassin's auklet"
+ID = levels(as.factor(DF1$timeseries))
+
+
+source('minyr.maxyr.xlim.R')
+
+par(mfcol=c(5,1), oma = c(0,0,0,0))
+YLIM = c(0,1)
+
+for(i in 1:length(ID)){
+  DFx = DF1[DF1$timeseries ==ID[i],]
+  if(i == 5){Y.axis.labels = c(-0.4,0,0.4); yminor = c(-0.2,0.2)}else{Y.axis.labels = NA}
+  PlotTimeSeries(DFx, XLIM = XLIM, TicsEvery = 10, 
+                 Y.axis.labels = Y.axis.labels,
+                  Xaxis.cex = 0.8, Ylab = NA, AltTxt =  AltTxt) 
+
+}
+mtext(side=2, "Productivity anomaly", outer=TRUE, line=-1)
+
+seabirdsP.maxyr = maxyr
+CAP = paste("Standardized productivity anomalies (annual productivity, defined as the annual number of chicks fledged per pair of breeding adults, minus the long-term mean) for five seabird species breeding on Southeast Farallon Island through ",seabirdsP.maxyr,". ",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"SeabirdProductivity.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+```
+
+### Mortality
+
+```{r SeabirdMortality-COASST, fig.width = 6.2, fig.height=2.0}
+source("reset.DFs.R")
+
+df = load.data("Seabirds","Seabird - COASST beached birds")
+
+DF1 = df[df$timeseries=="Cassins auklet (Oct - Feb)",]
+DF1$timeseries = "Cassin's auklet (Oct - Feb)"
+DF2 = df[df$timeseries=="Common murre (Jun- Dec)",]
+DF3 = df[df$timeseries=="Northern fulmar (Oct - Feb)",]
+DF4 = df[df$timeseries=="Sooty shearwater (May - Oct)",]
+
+source('minyr.maxyr.xlim.R')
+
+par(mfcol=c(2,2), oma=c(0,1,0,0))
+te = 5
+
+YLIM = c(0,NA) # c(0,8)
+Y.axis.labels = c(0,4,8)
+yminor = c(2,6)
+
+PlotTimeSeries(DF1, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y2 = DF1$Y2, Y.outlier = DF1$Y.outlier, 
+               Y.axis.labels = Y.axis.labels, yminor = yminor,
+               AltTxt =  AltTxt, Ylab=NA) 
+
+PlotTimeSeries(DF2, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y.axis.labels = Y.axis.labels, yminor = yminor,
+               Y2 = DF2$Y2, Y.outlier = DF2$Y.outlier, AltTxt =  AltTxt, Ylab=NA) 
+
+PlotTimeSeries(DF3, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y.axis.labels = Y.axis.labels, yminor = yminor,
+               Y2 = DF3$Y2, Y.outlier = DF3$Y.outlier, AltTxt =  AltTxt, Ylab=NA)
+
+PlotTimeSeries(DF4, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y.axis.labels = c(0, 0.25, 0.5), 
+               Y2 = DF4$Y2, Y.outlier = DF4$Y.outlier, AltTxt =  AltTxt, Ylab=NA)
+
+mtext(side=2, "Encounter rate (dead birds/km)", cex=1, outer=TRUE)
+
+seabirds.maxyr = maxyr
+CAP = paste("Encounter rate of dead birds on beaches of Washington, Oregon and northern California through ",seabirds.maxyr,"."," The mean and trend of the last five years is evaluated versus the mean and s.d. of the full time series but with the outliers removed.  Open circles indicate outliers.  The dashed lines indicate upper and lower s.d. of the full time series with outliers removed.  Blue shaded box indicates the evaluation period and the upper an lower s.d. of the full time series with the outliers included. Data provided by the Coastal Observation and Seabird Survey Team (https://depts.washington.edu/coasst/).", sep="")
+
+rtffile <- RTF(paste(cap.loc,"SeabirdMortality.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+NOte to self.  The North and Central mortalities are graphed separately here and combined below. They are the same data plotted two ways.
+
+```{r SeabirdMortality_Central, fig.width = 6.2, fig.height=3}
+source("reset.DFs.R")
+
+df = load.data("Seabirds","Seabird - BeachCombers beached birds Central")
+
+DF1 = df[df$timeseries=="Brandts Cormorant(Apr - Nov) Central",]
+DF1$timeseries = "Brandt's Cormorant (Apr - Nov) Central"
+
+DF2 = df[df$timeseries=="Cassins auklet (Oct - Feb) Central",]
+DF2$timeseries = "Cassin's auklet (Oct - Feb) Central"
+
+DF3 = df[df$timeseries=="Common murre (Jun- Dec) Central",]
+
+DF4 = df[df$timeseries=="Northern fulmar (Oct - Feb) Central",]
+DF5 = df[df$timeseries=="Sooty shearwater (May - Oct) Central",]
+
+
+source('minyr.maxyr.xlim.R')
+
+par(mfcol=c(3,2), oma=c(0,0,0,0))
+te = 5
+
+YLIM = c(0,NA) # c(0,8)
+
+PlotTimeSeries(DF1, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y.axis.labels = c(0,1.5,3),
+               Y2 = DF1$Y2, Y.outlier = DF1$Y.outlier, AltTxt =  AltTxt, Ylab=NA) 
+
+PlotTimeSeries(DF2, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y.axis.labels = c(0,0.3,0.6),
+               Y2 = DF2$Y2, Y.outlier = DF2$Y.outlier, AltTxt =  AltTxt, Ylab=NA) 
+
+PlotTimeSeries(DF3, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y.axis.labels = c(0,5,10),
+               Y2 = DF3$Y2, Y.outlier = DF3$Y.outlier, AltTxt =  AltTxt, Ylab=NA)
+
+PlotTimeSeries(DF4, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y.axis.labels = c(0,1.5,3),
+               Y2 = DF4$Y2, Y.outlier = DF4$Y.outlier, AltTxt =  AltTxt, Ylab=NA)
+
+PlotTimeSeries(DF5, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y.axis.labels = c(0,0.5,1),
+               Y2 = DF5$Y2, Y.outlier = DF5$Y.outlier, AltTxt =  AltTxt, Ylab=NA)
+
+mtext(side=2, "Encounter rate (dead birds/km)", cex=1, outer=TRUE, line = -1 )
+
+seabirds.maxyr = maxyr
+CAP = paste("Encounter rate of dead birds CENTRAL XXXXXXXX ",seabirds.maxyr,"."," The mean and trend of the last five years is evaluated versus the mean and s.d. of the full time series but with the outliers removed.  Open circles indicate outliers.  The dashed lines indicate upper and lower s.d. of the full time series with outliers removed.  Blue shaded box indicates the evaluation period and the upper an lower s.d. of the full time series with the outliers included.", sep="")
+
+rtffile <- RTF(paste(cap.loc,"SeabirdMortalityBCCentral.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+
+```{r SeabirdMortality_North, fig.width = 6.2, fig.height=3}
+source("reset.DFs.R")
+
+df = load.data("Seabirds","Seabird - BeachCombers beached birds North")
+
+DF1 = df[df$timeseries=="Brandts Cormorant(Apr - Nov) North",]
+DF1$timeseries = "Brandt's Cormorant (Apr - Nov) North"
+
+DF2 = df[df$timeseries=="Cassins auklet (Oct - Feb) North",]
+DF2$timeseries = "Cassin's auklet (Oct - Feb) North"
+
+DF3 = df[df$timeseries=="Common murre (Jun- Dec) North",]
+
+DF4 = df[df$timeseries=="Northern fulmar (Oct - Feb) North",]
+DF5 = df[df$timeseries=="Sooty shearwater (May - Oct) North",]
+
+
+source('minyr.maxyr.xlim.R')
+
+par(mfcol=c(3,2), oma=c(0,0,0,0))
+te = 5
+
+YLIM = c(0,NA) # c(0,8)
+
+PlotTimeSeries(DF1, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y2 = DF1$Y2, Y.outlier = DF1$Y.outlier, 
+               Y.axis.labels = c(0,8,16), yminor = c(4,12),
+               AltTxt =  AltTxt, Ylab=NA) 
+
+PlotTimeSeries(DF2, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y2 = DF2$Y2, Y.outlier = DF2$Y.outlier, 
+               Y.axis.labels = c(0,3,6), yminor = c(1,2,4,5),
+               AltTxt =  AltTxt,  Ylab=NA) 
+
+PlotTimeSeries(DF3,  Y.lab.drop = TRUE, XLIM = XLIM, YLIM=YLIM, TicsEvery = te,
+               Y2 = DF3$Y2, Y.outlier = DF3$Y.outlier, 
+               AltTxt =  AltTxt, Ylab=NA)
+
+PlotTimeSeries(DF4, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y2 = DF4$Y2, Y.outlier = DF4$Y.outlier,
+               Y.axis.labels = c(0,8,16), yminor = c(4,12),
+               AltTxt =  AltTxt, Ylab=NA)
+
+PlotTimeSeries(DF5,  Y.lab.drop = TRUE, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y2 = DF5$Y2, Y.outlier = DF5$Y.outlier, 
+               AltTxt =  AltTxt, Ylab=NA)
+
+mtext(side=2, "Encounter rate (dead birds/km)", cex=1, outer=TRUE, line = -1)
+
+seabirds.maxyr = maxyr
+CAP = paste("Encounter rate of dead birds on NORTH XXXXXXX ",seabirds.maxyr,"."," The mean and trend of the last five years is evaluated versus the mean and s.d. of the full time series but with the outliers removed.  Open circles indicate outliers.  The dashed lines indicate upper and lower s.d. of the full time series with outliers removed.  Blue shaded box indicates the evaluation period and the upper an lower s.d. of the full time series with the outliers included.", sep="")
+
+rtffile <- RTF(paste(cap.loc,"SeabirdMortalityBCNorth.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+```{r SeabirdMortality_BeachCombers_Combined, fig.width = 6.2, fig.height=4}
+source("reset.DFs.R")
+
+df = load.data("Seabirds","Seabird - BeachCombers beached birds Central")
+
+DF1 = df[df$timeseries=="Brandts Cormorant(Apr - Nov) Central",]
+DF1$timeseries = "Brandt's Cormorant (Apr - Nov) Central"
+
+DF2 = df[df$timeseries=="Cassins auklet (Oct - Feb) Central",]
+DF2$timeseries = "Cassin's auklet (Oct - Feb) Central"
+
+DF3 = df[df$timeseries=="Common murre (Jun- Dec) Central",]
+
+DF4 = df[df$timeseries=="Northern fulmar (Oct - Feb) Central",]
+DF5 = df[df$timeseries=="Sooty shearwater (May - Oct) Central",]
+
+df2 = load.data("Seabirds","Seabird - BeachCombers beached birds North")
+
+DF6 = df2[df2$timeseries=="Brandts Cormorant(Apr - Nov) North",]
+DF6$timeseries = "Brandt's Cormorant (Apr - Nov) North"
+
+DF7 = df2[df2$timeseries=="Cassins auklet (Oct - Feb) North",]
+DF7$timeseries = "Cassin's auklet (Oct - Feb) North"
+
+DF8 = df2[df2$timeseries=="Common murre (Jun- Dec) North",]
+
+DF9 = df2[df2$timeseries=="Northern fulmar (Oct - Feb) North",]
+DF10 = df2[df2$timeseries=="Sooty shearwater (May - Oct) North",]
+
+
+source('minyr.maxyr.xlim.R')
+
+par(mfcol=c(5,2), oma=c(0,0,0,0))
+te = 5
+
+YLIM = c(0,NA) # c(0,8)
+
+
+
+#### north
+
+PlotTimeSeries(DF6, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y2 = DF6$Y2, Y.outlier = DF6$Y.outlier,
+               Y.axis.labels = c(0,8,16), yminor = c(4,12),
+               AltTxt =  AltTxt, Ylab=NA) 
+
+PlotTimeSeries(DF7, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y2 = DF7$Y2, Y.outlier = DF7$Y.outlier,
+               Y.axis.labels = c(0,3,6), yminor = c(1,2,5,4),
+               AltTxt =  AltTxt, Ylab=NA) 
+
+PlotTimeSeries(DF8, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y2 = DF8$Y2, Y.outlier = DF8$Y.outlier,
+               Y.axis.labels = c(0,20,40), yminor = c(10,30),
+               AltTxt =  AltTxt, Ylab=NA)
+
+PlotTimeSeries(DF9, XLIM = XLIM, YLIM=YLIM, TicsEvery = te,
+               Y.axis.labels = c(0,8,16), yminor = c(4,12),
+               Y2 = DF9$Y2, Y.outlier = DF9$Y.outlier, 
+               AltTxt =  AltTxt, Ylab=NA)
+
+PlotTimeSeries(DF10, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y2 = DF10$Y2, Y.outlier = DF10$Y.outlier,
+               Y.axis.labels = c(0,4,8), yminor = c(2,6),
+               AltTxt =  AltTxt, Ylab=NA)
+
+
+### central
+PlotTimeSeries(DF1, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y2 = DF1$Y2, Y.outlier = DF1$Y.outlier, 
+               Y.axis.labels = c(0,2,4), yminor = c(1,3),
+               AltTxt =  AltTxt, Lmar=4, Ylab=NA) 
+
+PlotTimeSeries(DF2, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y2 = DF2$Y2, Y.outlier = DF2$Y.outlier, 
+               Y.axis.labels = c(0,0.3, 0.6), yminor = c(0.2,0.4),
+               AltTxt =  AltTxt, Lmar=4, Ylab=NA) 
+
+PlotTimeSeries(DF3, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, Y2 = DF3$Y2, Y.outlier = DF3$Y.outlier, AltTxt =  AltTxt, Lmar=4, Ylab=NA)
+
+PlotTimeSeries(DF4, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, 
+               Y2 = DF4$Y2, Y.outlier = DF4$Y.outlier, 
+               Y.axis.labels = c(0,2,4), yminor = c(1,3),
+               AltTxt =  AltTxt, Lmar=4, Ylab=NA)
+
+PlotTimeSeries(DF5, XLIM = XLIM, YLIM=YLIM, TicsEvery = te, Y2 = DF5$Y2, Y.outlier = DF5$Y.outlier, AltTxt =  AltTxt, Lmar=4, Ylab=NA)
+
+mtext(side=2, "Encounter rate (dead birds/km)", cex=1, outer=TRUE, line= -1)
+
+seabirds.maxyr = maxyr
+CAP = paste("Encounter rate of dead birds on west coast beaches through ",seabirds.maxyr,"."," The mean and trend of the last five years is evaluated versus the mean and s.d. of the full time series but with the outliers removed.  Open circles indicate outliers.  The blue box indicates the upper and lower s.d. of the full time series with outliers removed.  Dotted lines indicate the evaluation period and the upper an lower s.d. of the full time series with the outliers included. Data from BeachCombers.org", sep="")
+
+rtffile <- RTF(paste(cap.loc,"SeabirdMortality_BeachCombers.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+```{r SeabirdMortality_BeachWatch, fig.width = 6.2, fig.height=3}
+source("reset.DFs.R")
+
+df = load.data("Seabirds","Seabird - BeachWatch beached birds")
+
+DF1 = df[df$timeseries=="Brandts cormorant (Apr - Nov)",]
+DF1$timeseries = "Brandt's Cormorant (Apr - Nov)"
+
+DF2 = df[df$timeseries=="Cassins auklet (Oct - Feb)",]
+DF2$timeseries = "Cassin's auklet (Oct - Feb)"
+
+DF3 = df[df$timeseries=="Common murre (Jun- Dec)",]
+
+DF4 = df[df$timeseries=="Northern fulmar (Oct - Feb)",]
+DF5 = df[df$timeseries=="Sooty shearwater (May - Oct)",]
+
+source('minyr.maxyr.xlim.R')
+
+par(mfcol=c(3,2), oma=c(0,0,0,0))
+
+YLIM = c(0,NA) # c(0,8)
+
+DFlist = list(DF1, DF2, DF3, DF4, DF5)
+Ymajor = list(c(0, 0.03, 0.06),
+              c(0, 0.1, 0.2),
+              c(0, 0.2, 0.4),
+              c(0, 0.002, 0.004),
+              c(0, 0.01, 0.02))
+
+for(i in 1:length(DFlist)){
+  DFx = DFlist[[i]]
+  PlotTimeSeries(DFx, XLIM = XLIM, YLIM=YLIM, 
+                 Ylab=NA, TicsEvery = 5, Y2 = DFx$Y2, Y.outlier = DFx$Y.outlier,
+                 Y.axis.labels = Ymajor[[i]],
+                 TitleCex = 0.8,  AltTxt =  AltTxt) 
+  
+}
+
+mtext(side=2, "Encounter rate (dead birds/km)", cex=1, outer=TRUE, line = -1)
+
+seabirds.maxyr = maxyr
+CAP = paste0("Encounter rate of bird carcasses on beaches in north-central California through ",maxyr,"."," The mean and trend of the last five years is evaluated versus the mean and s.d. of the full time series but with the outliers removed.  Open circles indicate outliers.  The blue box indicates the upper and lower s.d. of the full time series with outliers removed.  Dotted lines indicate the evaluation period and the upper an lower s.d. of the full time series with the outliers included. Annual data for Cassin's auklet and northern fulmar are calculated through February of the following year. Data provided by BeachWatch (https://farallones.noaa.gov/science/beachwatch.html).")
+
+rtffile <- RTF(paste(cap.loc,"SeabirdMortality_BeachWatch.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+
+
+
+# HUMAN ACTIVITIES
+## Coastwide Landings by Major Fisheries
+```{r landings, fig.width = 6.2, fig.height=4.5} 
+
+source('reset.DFs.R')
+
+df = load.data("Human Activities","species_landings")
+df = df[grep("Landings", df$metric),]
+df$metric = "mt x 1000"
+
+
+DF1 =df[df$timeseries=="Total fisheries coastwide",]  #totallandings
+DF2 = df[df$timeseries=="Recreational coastwide",]  #reclandings
+DF3 = df[df$timeseries=="Salmon commercial coastwide",]  #salmonlandings
+DF4 = df[df$timeseries=="Salmon recreational coastwide",]  #salmonlandings
+DF4$metric = "1000's fish"
+DF5 = df[df$timeseries=="Groundfish, no hake coastwide",]# GFlandings
+DF6 = df[df$timeseries=="Pacific hake coastwide",]  # hake
+DF7 = df[df$timeseries=="Coastal pelagic spp, no squid coastwide",]  #coastalpelagics
+DF8 = df[df$timeseries=="Market squid coastwide",]  #coastalpelagics # squid
+DF9 = df[df$timeseries=="Shrimp coastwide",]  #shrimplandings
+DF10 = df[df$timeseries=="Crab coastwide",]  #crablandings
+DF11 = df[df$timeseries=="Highly migratory species coastwide",] 
+DF12 = df[df$timeseries=="Other species coastwide",]  #salmonlandings
+
+source('minyr.maxyr.xlim.R')
+par(mfrow=c(6,2))
+
+DFList = list(DF1, DF2, DF3, DF4, DF5, DF6, DF7, DF8, DF9 ,DF10 , DF11, DF12)
+
+YMAJORL = list(YM1 = c(300,450,600),
+              YM2 = c(4, 6, 8),
+              YM3 = c(0, 20, 40),
+              YM4 = c(0, 400, 800),
+              YM5 = c(0, 75, 150),
+              YM6 = c(0, 200, 400),
+              YM7 = c(0, 75, 150),
+              YM8 = c(0, 75, 150),
+              YM9 = c(0, 30, 60),
+              YM10 = c(0, 30, 60),
+              YM11 = c(0, 30, 60),
+              YM12 = c(0, 20, 40))
+
+
+
+yminorL = list(ym1 = c(350,400,500,550),
+              ym2 = c(5,7),
+              ym3 = c(10,30),
+              ym4 = c(200, 600),
+              ym5 = c(25,50, 100, 125),
+              ym6 = c(100, 300),
+              ym7 = c(25,50, 100, 125),
+              ym8 = c(25,50, 100, 125),
+              ym9 = c(10, 20, 40, 50),
+              ym10= c(10, 20, 40, 50),
+              ym11 = c(10, 20, 40, 50),
+              ym12 = c(10,30)
+              )
+
+
+for(i in 1:length(DFList)){
+  DFx = DFList[[i]]
+  if(i %in% seq(2, length(DFList),2)){Lmar = 5}else{Lmar = 3.5}
+  Ymajor = YMAJORL[[i]]
+  Yminor = yminorL[[i]]
+  YLIM = c(0, NA)
+  if(i==1){YLIM = c(300,NA)}
+  if(i==2){YLIM = c(4,8)}
+  
+  PlotTimeSeries(DFx, XLIM = c(1981,NA),YLIM= YLIM,TitleCex = 0.8, 
+                 Ylab.cex = 0.8, Y.axis.labels = Ymajor, yminor = Yminor,
+                 Lmar= Lmar) #, AltTxt =  AltTxt) 
+}
+
+CAP = paste("Annual landings of West Coast commercial (data from PacFIN) and recreational (data from RecFin) fisheries, including total landings across all fisheries from ",minyr,"-",maxyr,".",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"landings.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+## State by state landings
+
+### California
+
+```{r CAlandings, fig.width = 6.2, fig.height = 4.5} 
+source("reset.DFs.R")
+
+df = load.data("Human Activities","species_landings")
+# df = df[grep("Landings", df$metric),]
+df$metric = "mt x 1000"
+
+DF1 =df[df$timeseries=="Total fisheries CA",]  #totallandings
+DF2 = df[df$timeseries=="Recreational CA",]  #reclandings
+DF3 = df[df$timeseries=="Salmon commercial CA",]  #salmonlandings
+DF4 = df[df$timeseries=="Salmon recreational CA",]  #salmonlandings
+DF4$metric = "1000's fish"
+DF5 = df[df$timeseries=="Groundfish, no hake CA",]# GFlandings
+DF6 = df[df$timeseries=="Pacific hake CA",]  # hake
+DF7 = df[df$timeseries=="Coastal pelagic spp, no squid CA",]  #coastalpelagics
+DF8 = df[df$timeseries=="Market squid CA",]  #coastalpelagics # squid
+DF9 = df[df$timeseries=="Shrimp CA",]  #shrimplandings
+DF10 = df[df$timeseries=="Crab CA",]  #crablandings
+DF11 = df[df$timeseries=="Highly migratory species CA",] 
+DF12 = df[df$timeseries=="Other species CA",]  #salmonlandings
+
+source('minyr.maxyr.xlim.R')
+
+par(mfrow=c(6,2),mar=c(0,0,0,0))
+te = 10
+ylim=c(0,NA)
+DFList = list(DF1, DF2, DF3, DF4, DF5, DF6, DF7, DF8, DF9 ,DF10 , DF11, DF12)
+Ymajor = list(c(0,200,400),
+              c(0,3,6),
+              c(0,4,8),
+              c(0,200,400),
+              c(0,30,60),
+              c(0,75,150),
+              c(0,75,150),
+              c(0,75,150),
+              c(0,5,10),
+              c(0,10,20),
+              c(0,30,60),
+              c(0,15,30))
+
+for(i in 1:length(DFList)){
+  DFx = DFList[[i]]
+  if(i %in% seq(2, length(DFList),2)){Lmar = 5}else{Lmar = 3.5}
+  PlotTimeSeries(DFx, XLIM = c(1981,NA),YLIM= c(0, NA),
+                 Y.axis.labels = Ymajor[[i]],
+                 TitleCex = 0.8, Ylab.cex = 0.8, Lmar= Lmar, AltTxt =  AltTxt) 
+} 
+
+CAP = paste("Annual landings of West Coast commercial (data from PacFIN) and recreational (data from RecFin) fisheries, including total landings across all fisheries from ", minyr, '-', maxyr, " in California (CA). Lines, colors, and symbols as in Fig. 1.")
+
+rtffile <- RTF(paste(cap.loc,"CAlandings.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### Oregon
+
+```{r ORlandings, fig.width = 6.2, fig.height = 4.5} 
+
+source("reset.DFs.R")
+df = load.data("Human Activities","species_landings")
+# df = df[grep("Landings", df$metric),]
+df$metric = "mt x 1000"
+
+DF1 =df[df$timeseries=="Total fisheries OR",]  #totallandings
+DF2 = df[df$timeseries=="Recreational OR",]  #reclandings
+DF3 = df[df$timeseries=="Salmon commercial OR",]  #salmonlandings
+DF4 = df[df$timeseries=="Salmon recreational OR",]  #salmonlandings
+DF4$metric = "1000's fish"
+DF5 = df[df$timeseries=="Groundfish, no hake OR",]# GFlandings
+DF6 = df[df$timeseries=="Pacific hake OR",]  # hake
+DF7 = df[df$timeseries=="Coastal pelagic spp, no squid OR",]  #coastalpelagics
+DF8 = df[df$timeseries=="Market squid OR",]  #coastalpelagics # squid
+DF9 = df[df$timeseries=="Shrimp OR",]  #shrimplandings
+DF10 = df[df$timeseries=="Crab OR",]  #crablandings
+DF11 = df[df$timeseries=="Highly migratory species OR",] 
+DF12 = df[df$timeseries=="Other species OR",]  #salmonlandings
+
+source('minyr.maxyr.xlim.R')
+
+par(mfrow=c(6,2),mar=c(0,0,0,0))
+
+te=10
+ylim=c(0,NA)
+
+DFList = list(DF1, DF2, DF3, DF4, DF5, DF6, DF7, DF8, DF9 ,DF10 , DF11, DF12)
+
+Ymajor = list(c(0,150,300),
+              c(0, 0.75,1.5),
+              c(0,5,10),
+              c(0,200,400),
+              c(0,30,60),
+              c(0,150,300),
+              c(0,30,60),
+              c(0,2,4),
+              c(0,15,30),
+              c(0,10,20),
+              c(0,3,6),
+              c(0,3,6)
+)
+
+for(i in 1:length(DFList)){
+  DFx = DFList[[i]]
+  if(i %in% seq(2, length(DFList),2)){Lmar = 5}else{Lmar = 3.5}
+  PlotTimeSeries(DFx, XLIM = c(1981,NA),YLIM= c(0, NA),TitleCex = 0.8, 
+                 Ylab.cex = 0.8, Y.axis.labels = Ymajor[[i]],
+                 Lmar= Lmar, AltTxt =  AltTxt) 
+}  
+
+TicsEvery=NA
+CAP = paste("Annual landings of West Coast commercial (data from PacFIN) and recreational (data from RecFin) fisheries, including total landings across all fisheries from ",minyr, "-",maxyr, " in Oregon (OR). Lines, colors, and symbols as in Fig. 1.")
+
+rtffile <- RTF(paste(cap.loc,"ORlandings.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### Washington
+
+```{r WAlandings, fig.width = 6.2, fig.height = 4.5} 
+source("reset.DFs.R")
+df = load.data("Human Activities","species_landings")
+# df = df[grep("Landings", df$metric),]
+df$metric = "mt x 1000"
+
+DF1 =df[df$timeseries=="Total fisheries WA",]  #totallandings
+DF2 = df[df$timeseries=="Recreational WA",]  #reclandings
+DF3 = df[df$timeseries=="Salmon commercial WA",]  #salmonlandings
+DF4 = df[df$timeseries=="Salmon recreational WA",]  #salmonlandings
+DF4$metric = "1000's fish"
+DF5 = df[df$timeseries=="Groundfish, no hake WA",]# GFlandings
+DF6 = df[df$timeseries=="Pacific hake WA",]  # hake
+DF7 = df[df$timeseries=="Coastal pelagic spp, no squid WA",]  #coastalpelagics
+DF8 = df[df$timeseries=="Market squid WA",]  #coastalpelagics # squid
+DF9 = df[df$timeseries=="Shrimp WA",]  #shrimplandings
+DF10 = df[df$timeseries=="Crab WA",]  #crablandings
+DF11 = df[df$timeseries=="Highly migratory species WA",] 
+DF12 = df[df$timeseries=="Other species WA",]  #salmonlandings
+
+source('minyr.maxyr.xlim.R')
+te=10
+par(mfrow=c(6,2))
+
+ylim=c(0,NA)
+
+DFList = list(DF1, DF2, DF3, DF4, DF5, DF6, DF7, DF8, DF9 ,DF10 , DF11, DF12)
+Ymajor = list(c(0,100,200),
+               c(0,1,2),
+               c(0,15,30),
+               c(0,200,400),
+               c(0,20,40),
+               c(0,75,150),
+               c(0,20,40),
+               c(NA,NA,NA),
+               c(0,10,20),
+               c(0,10,20),
+               c(0,10,20),
+               c(0,5,10))
+for(i in 1:length(DFList)){
+  
+  if(i %in% seq(2, length(DFList),2)){Lmar = 5}else{Lmar = 3.5}
+  if(i == 8){plot(1:10,1:10, xaxt="n", yaxt="n", pch="", bty="n", ylab=NA, bg=NULL)}else{
+    DFx = DFList[[i]]
+    PlotTimeSeries(DFx, XLIM = c(1981,NA),YLIM= c(0, NA),
+                   Y.axis.labels = Ymajor[[i]],
+                   TitleCex = 0.8, Ylab.cex = 0.8, Lmar= Lmar, AltTxt =  AltTxt) 
+  }
+} 
+
+# TicsEvery=NA
+CAP = paste("Annual landings of West Coast commercial (data from PacFIN) and recreational (data from RecFin) fisheries, including total landings across all fisheries from ", minyr, "-", maxyr, " in Washington (WA). Lines, colors, and symbols as in Fig. 1.")
+
+rtffile <- RTF(paste(cap.loc,"WAlandings.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+
+## Fisheries Revienues by state
+
+### Coastwide
+
+```{r revenue, fig.width = 6.2, fig.height = 6} 
+source("reset.DFs.R")
+
+df = load.data("Human Activities","revenue")
+# df = df[grep("Revenue", df$metric),]
+
+
+DF1 = df[df$timeseries == "Commercial fisheries coastwide",] # totallandings
+DF2 = df[df$timeseries == "Highly migratory species coastwide",] # hmslandings
+DF3 = df[df$timeseries == "Salmon coastwide",] # salmonlandings
+DF4 = df[df$timeseries == "Other species coastwide",] # reclandings
+DF5 = df[df$timeseries == "Groundfish, no hake coastwide",] # groundfish
+DF6 = df[df$timeseries == "Pacific hake coastwide",] # hake
+DF7 = df[df$timeseries == "Coastal pelagic spp, no squid coastwide",] # coastalpelagics
+DF8 = df[df$timeseries == "Market squid coastwide",] # squid
+DF9 = df[df$timeseries == "Shrimp coastwide",] # shrimplandings
+DF10 = df[df$timeseries == "Crab coastwide",] # crablandings
+
+source('minyr.maxyr.xlim.R')
+
+Ylab = NA
+ylim=c(0,NA)
+
+par(mfrow=c(5,2),mar=c(0,0,0,0))
+te = 10
+Ylab = "Millions $"
+Xaxis.cex = 0.9
+
+DFList = list(DF1, DF2, DF3, DF4, DF5, DF6, DF7, DF8, DF9 ,DF10 )
+Ymajor = list(c(0,500,1000),
+              c(0,50,100,150),
+              c(0,200,400),
+              c(0,50,100,150),
+              c(0,100,200),
+              c(0,40,80),
+              c(0,40,80),
+              c(0,30,60, 90),
+              c(0,50,100,150),
+              c(0,100,200,300))
+
+for(i in 1:length(DFList)){
+  
+  if(i %in% seq(2, length(DFList),2)){Lmar = 5}else{Lmar = 3.5}
+  DFx = DFList[[i]]
+  PlotTimeSeries(DFx, XLIM = c(1981,NA),YLIM= c(0, NA),TitleCex = 0.8, Xaxis.cex = 0.9,
+                 Y.axis.labels = Ymajor[[i]],  
+                 Ylab = "Millions $",Ylab.cex = 0.8, Lmar= Lmar, AltTxt =  AltTxt) 
+}
+
+CAP = paste("Annual revenue (Ex-vessel value in 2015 dollars) of West Coast commercial fisheries (data from PacFin) from ", minyr, "-", maxyr, ". Pacific hake revenue includes shore-side and at-sea hake revenue values from PacFIN, NORPAC (North Pacific Groundfish Observer Program) and NMFS Office of Science & Technology. ", coda, sep = "")
+
+rtffile <- RTF(paste(cap.loc,"revenue.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### California
+
+```{r CArevenue, fig.width = 6.2, fig.height = 6} 
+source("reset.DFs.R")
+
+df = load.data("Human Activities","revenue")
+# df = df[grep("Revenue", df$metric),]
+
+DF1 = df[df$timeseries == "Commercial fisheries CA",] # totallandings
+DF2 = df[df$timeseries == "Highly migratory species CA",] # hmslandings
+DF3 = df[df$timeseries == "Salmon CA",] # salmonlandings
+DF4 = df[df$timeseries == "Other species CA",] # reclandings
+DF5 = df[df$timeseries == "Groundfish, no hake CA",] # groundfish
+DF6 = df[df$timeseries == "Pacific hake CA",] # hake
+DF7 = df[df$timeseries == "Coastal pelagic spp, no squid CA",] # coastalpelagics
+DF8 = df[df$timeseries == "Market squid CA",] # squid
+DF9 = df[df$timeseries == "Shrimp CA",] # shrimplandings
+DF10 = df[df$timeseries == "Crab CA",] # crablandings
+
+source('minyr.maxyr.xlim.R')
+DFList = list(DF1, DF2, DF3, DF4, DF5, DF6, DF7, DF8, DF9 ,DF10 )
+ylim=c(0, NA)
+Ylab = "Millions $"
+te = 10 
+par(mfrow=c(5,2),mar=c(0,0,0,0))
+Ymajor = list(c(0,200,400),
+              c(0,50,100,150),
+              c(0,50,100),
+              c(0,30,60,90),
+              c(0,30,60,90),
+              c(0,1,2),
+              c(0,30,60,90),
+              c(0,30,60,90),
+              c(0,10,20),
+              c(0,50,100,150)
+              )
+
+
+for(i in 1:length(DFList)){
+  
+  if(i %in% seq(2, length(DFList),2)){Lmar = 5}else{Lmar = 3.5}
+  DFx = DFList[[i]]
+  PlotTimeSeries(DFx, XLIM = c(1981,NA),YLIM= c(0, NA),TitleCex = 0.8, Xaxis.cex = 0.9,
+                   Ylab = "Millions $",Ylab.cex = 0.8, Y.axis.labels = Ymajor[[i]],
+                 Lmar= Lmar, AltTxt =  AltTxt) 
+}
+
+
+Ylab=NA
+TicsEvery=NA
+
+CAP = paste("Annual revenue (Ex-vessel value in 2015 dollars) of West Coast commercial fisheries in California (CA) (data from PacFin) from ", minyr, "-", maxyr, ". Pacific hake revenue includes shore-side and at-sea hake revenue values from PacFIN, NORPAC (North Pacific Groundfish Observer Program) and NMFS Office of Science & Technology. ", coda, sep = "")
+
+rtffile <- RTF(paste(cap.loc,"CArevenue.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### Oregon 
+
+```{r ORrevenue, fig.width = 6.2, fig.height = 6} 
+source("reset.DFs.R")
+df = load.data("Human Activities","revenue")
+# df = df[grep("Revenue", df$metric),]
+
+DF1 = df[df$timeseries == "Commercial fisheries OR",] # totallandings
+DF2 = df[df$timeseries == "Highly migratory species OR",] # hmslandings
+DF3 = df[df$timeseries == "Salmon OR",] # salmonlandings
+DF4 = df[df$timeseries == "Other species OR",] # reclandings
+DF5 = df[df$timeseries == "Groundfish, no hake OR",] # groundfish
+DF6 = df[df$timeseries == "Pacific hake OR",] # hake
+DF7 = df[df$timeseries == "Coastal pelagic spp, no squid OR",] # coastalpelagics
+DF8 = df[df$timeseries == "Market squid OR",] # squid
+DF9 = df[df$timeseries == "Shrimp OR",] # shrimplandings
+DF10 = df[df$timeseries == "Crab OR",] # crablandings
+
+source('minyr.maxyr.xlim.R')
+DFList = list(DF1, DF2, DF3, DF4, DF5, DF6, DF7, DF8, DF9 ,DF10 )
+ylim=c(0, NA)
+Ylab = "Millions $"
+te = 10 
+par(mfrow=c(5,2),mar=c(0,0,0,0))
+
+Ymajor = list(c(0,100,200,300),
+              c(0,10,20,30),
+              c(0,30,60,90),
+              c(0,5,10),
+              c(0,20,40,60),
+              c(0,20,40,60),
+              c(0,5,10,15),
+              c(0,2,4),
+              c(0,30,60,90),
+              c(0,30,60,90)
+              )
+
+for(i in 1:length(DFList)){
+  if(i %in% seq(2, length(DFList),2)){Lmar = 5}else{Lmar = 3.5}
+  DFx = DFList[[i]]
+  PlotTimeSeries(DFx, XLIM = c(1981,NA),YLIM= c(0, NA), Y.axis.labels = Ymajor[[i]],
+                 TitleCex = 0.8, Xaxis.cex = 0.9,
+                Ylab = "Millions $",Ylab.cex = 0.8, Lmar= Lmar, AltTxt =  AltTxt) 
+}
+
+Ylab=NA
+TicsEvery=NA
+CAP = paste("Annual revenue (Ex-vessel value in 2015 dollars) of West Coast commercial fisheries in Oregon (OR) (data from PacFin) from ", minyr, "-", maxyr, ". Pacific hake revenue includes shore-side and at-sea hake revenue values from PacFIN, NORPAC (North Pacific Groundfish Observer Program) and NMFS Office of Science & Technology. ", coda, sep = "")
+
+rtffile <- RTF(paste(cap.loc,"ORrevenue.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### Washington
+
+```{r WArevenue, fig.width = 6.2, fig.height = 6} 
+source("reset.DFs.R")
+
+
+df = load.data("Human Activities","revenue")
+# df = df[grep("Revenue", df$metric),]
+
+DF1 = df[df$timeseries == "Commercial fisheries WA",] # totallandings
+DF2 = df[df$timeseries == "Highly migratory species WA",] # hmslandings
+DF3 = df[df$timeseries == "Salmon WA",] # salmonlandings
+DF4 = df[df$timeseries == "Other species WA",] # reclandings
+DF5 = df[df$timeseries == "Groundfish, no hake WA",] # groundfish
+DF6 = df[df$timeseries == "Pacific hake WA",] # hake
+DF7 = df[df$timeseries == "Coastal pelagic spp, no squid WA",] # coastalpelagics
+DF8 = df[df$timeseries == "Market squid WA",] # squid
+DF9 = df[df$timeseries == "Shrimp WA",] # shrimplandings
+DF10 = df[df$timeseries == "Crab WA",] # crablandings
+
+source('minyr.maxyr.xlim.R')
+DFList = list(DF1, DF2, DF3, DF4, DF5, DF6, DF7, DF8, DF9 ,DF10 )
+ylim=c(0, NA)
+Ylab = "Millions $"
+te = 10 
+par(mfrow=c(5,2),mar=c(0,0,0,0))
+
+Ymajor = list(c(0,200,400),
+              c(0,20,40),
+              c(0,100,200),
+              c(0,10,20),
+              c(0,30,60),
+              c(0,20,40),
+              c(0,5,10),
+              c(NA,NA,NA),
+              c(0,20,40),
+              c(0,50,100,150))
+
+for(i in 1:length(DFList)){
+  if(i %in% seq(2, length(DFList),2)){Lmar = 5}else{Lmar = 3.5}
+  if(i == 8){plot(1:10,1:10, xaxt="n", yaxt="n", pch="", bty="n", ylab =  NA, bg=NULL)}else{
+    DFx = DFList[[i]]
+    PlotTimeSeries(DFx, XLIM = c(1981,NA),YLIM= c(0, NA), Ylab =  "Millions $", TitleCex = 0.8, Ylab.cex = 0.8, Lmar= Lmar, AltTxt =  AltTxt, Y.axis.labels=Ymajor[[i]]) 
+  }
+} 
+
+
+CAP = paste("Annual revenue (Ex-vessel value in 2015 dollars) of West Coast commercial fisheries in Washington (WA) (data from PacFin) from ", minyr, "-", maxyr, ". Pacific hake revenue includes shore-side and at-sea hake revenue values from PacFIN, NORPAC (North Pacific Groundfish Observer Program) and NMFS Office of Science & Technology. ", coda, sep = "")
+
+rtffile <- RTF(paste(cap.loc,"WArevenue.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+##  Fishing gear contact with the sea floor
+
+```{r gearcontact, fig.width = 3.2, fig.height=1.5}
+source("reset.DFs.R")
+
+# these are all incorrect.  Currently for coastwise.
+df = load.data("Human Activities",'nonfisheries')
+DF1 = df[df$timeseries=="Gear contact with seafloor habitat (weighted) Coastwide",]
+
+df = load.data("Human Activities","nonfisheries")
+DF1 = df[df$timeseries == 'Bottom trawl contact with seafloor habitat',]
+source('minyr.maxyr.xlim.R')
+
+PlotTimeSeries(DF1, TicsEvery=5, XLIM=XLIM, AltTxt = AltTxt)
+
+CAP = paste0("Weighted distance (1000s km) of fishing gear contact with the seafloor habitat across the entire CCE (top; " ,minyr, "-", maxyr,") and within each ecoregion (bottom three panels; 2002-",maxyr,"). Lines, colors and symbols as in Fig. 1.")
+
+rtffile <- RTF(paste(cap.loc,"gearcontact.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+##  Non-fisheries human activity indicators
+
+### Nutrients
+
+```{r nutrients, fig.width = 3.2, fig.height = 1.5} 
+source("reset.DFs.R")
+
+df = load.data("Human Activities","nonfisheries")
+DF1 = df[df$timeseries=="Nutrient input",]
+source('minyr.maxyr.xlim.R')
+
+par(mfcol=c(1,1))
+
+PlotTimeSeries(DF1, Ylab = "Normalized sum", Title = "Nutrient input", TicsEvery = 20, MinorTics=5, XLIM=XLIM, AltTxt)
+
+Ylab=NA
+TicsEvery=NA
+CAP = paste("Normalized index of the sum of nitrogen and phosphorus applied as fertilizers in WA, OR and CA watersheds that drain into the CCE from ", minyr, "-", maxyr, "." , coda, sep="")
+
+
+rtffile <- RTF(paste(cap.loc,"nutrients.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+### Aquaculture 
+```{r aquaculture, fig.width = 3.2, fig.height=2.0} 
+source('reset.DFs.R')
+
+df = load.data("Human Activities","nonfisheries")
+
+DF1 = df[df$timeseries=="Shellfish aquaculture",]
+DF2 = df[df$timeseries=="Finfish aquaculture",]
+YLIM = c(0,14)
+source('minyr.maxyr.xlim.R')
+
+par(mfcol=c(2,1))
+PlotTimeSeries(DF1, Ylab = "mt x1000", Title = "Shellfish aquaculture",XLIM = XLIM, YLIM = YLIM,AltTxt =  AltTxt) 
+PlotTimeSeries(DF2, Ylab = "mt x1000", XLIM = XLIM, YLIM = YLIM, Title = "Finfish aquaculture", AltTxt =  AltTxt)
+
+CAP = paste("Aquaculture production of shellfish (clams, mussels, oysters) and finfish (Atlantic salmon) in CCE waters from ",minyr,"-",maxyr,".",coda, sep="")
+
+
+rtffile <- RTF(paste(cap.loc,"aquaculture.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+
+rm(YLIM)
+```
+
+### Seafood Demand
+
+```{r seafood, fig.width = 3.2, fig.height=2.0} 
+source('reset.DFs.R')
+
+df = load.data("Human Activities","nonfisheries")
+
+DF1 = df[df$timeseries=="Seafood demand (total)",] # seafooddemand
+DF2 = df[df$timeseries=="Seafood demand (per capita)",]# seafooddemandPC
+
+source('minyr.maxyr.xlim.R')
+te=20
+
+par(mfcol=c(2,1))
+PlotTimeSeries(DF1, YLIM = c(0,NA), Ylab =  "mt x 10^6", Title =  "Seafood consumption (total)", TicsEvery = te, AltTxt =  AltTxt) 
+PlotTimeSeries(DF2, Y.lab.drop = TRUE, YLIM = c(0,NA),Ylab =  "Per capita use (kg)",Title = "Seafood consumption (per capita)", TicsEvery = te, AltTxt =  AltTxt)
+
+CAP = paste("Total (metric tons) and per capita use (kg) of fisheries products in the U.S., ",minyr,"-",maxyr,".",coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"seafood.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+# NON-FISHING ACTIVITIES 
+## Human Wellbeing
+## Social Vulnerability
+
+
+```{r shipping, fig.width = 3.2, fig.height = 1.5} 
+source('reset.DFs.R')
+
+# these are all incorrect.  Currently for coastwise.
+df = load.data("Human Activities","nonfisheries")
+DF1 = df[df$timeseries=="Commercial shipping activity",]
+source('minyr.maxyr.xlim.R')
+par(mfcol=c(1,1))
+
+PlotTimeSeries(DF1, XLIM = c(NA, 2020), YLIM =  c(0,NA), TicsEvery=5, Title = "Commercial shipping activity", AltTxt = AltTxt)
+
+Ylab=NA
+TicsEvery=NA
+CAP = paste("Distance transited by commercial shipping vessels in the CCE from ", minyr, "-", maxyr, ". ",coda, sep='')
+
+rtffile <- RTF(paste(cap.loc,"shipping.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+
+```{r oilgas, fig.width = 3.2, fig.height = 1.5} 
+source('reset.DFs.R')
+
+df = load.data("Human Activities","nonfisheries")
+DF1 = df[df$timeseries=="Offshore oil and gas activity",]
+
+source('minyr.maxyr.xlim.R')
+par(mfcol=c(1,1))
+
+PlotTimeSeries(DF1, Ylab =  "Oil & gas production", Title = "Offshore oil and gas activity", XLIM=XLIM, TicsEvery=10, MinorTics=2, AltTxt =  AltTxt)
+
+Ylab=NA
+TicsEvery=NA
+CAP = paste("Normalize index of the sum of oil and gas production from offshore wells in CA from ", minyr, "-", maxyr, ". ", coda, sep='')
+
+rtffile <- RTF(paste(cap.loc,"oilgas.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+
+## Fleet Diversity Indices
+
+```{r VesselDiversification}
+
+CAP =" Trends in average diversification for US West Coast and Alaskan fishing vessels with over $5K in average revenues (top left) and for vessels in the 2016 West Coast Fleet with over $5K in average revenues, broken out by state (top right), by average gross revenue classes (bottom left) and by vessel length classes (bottom right)."
+
+rtffile <- RTF(paste(cap.loc,"VesselDiversification.doc",sep = ""))  # this can be an .rtf or a .doc
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+
+
+
+```{r monthlyupwelling}
+# 
+# CAP = "Monthly means of daily upwelling index (top) and anomalies (bottom) for Jan 2012–Sep 2016. Shaded areas denote positive (upwelling-favorable) values in upper panel, and positive anomalies (generally greater than normal upwelling) in lower panel. Anomalies are relative to 1967–2015 monthly means. Units are in m3 s-1 per 100 m of coastline. Daily upwelling index data obtained from http://upwell.pfeg.noaa.gov/erddap/."
+# 
+# rtffile <- RTF(paste(cap.loc,"monthlyupwelling.doc",sep = ""))  # this can be an .rtf or a .doc
+# addParagraph(rtffile, CAP)
+# done(rtffile)
+```
+
+# 
+
+
+
+# DEMERSAL COMMUNITY STRUCTURE 
+
+## Crab - Finfish
+
+```{r crabfinfish, fig.width = 3.2, fig.height = 2.0}
+source("reset.DFs.R")
+df = load.data('Ecological Integrity','Crab.to.Fish.Ratio')
+
+DF1 = df[df$timeseries=='Crab:Finfish ratio - North',]
+DF2 = df[df$timeseries=='Crab:Finfish ratio - South',]
+
+source('minyr.maxyr.xlim.R')
+te = 5
+
+YLIM = c(0, 0.6)
+Ylab = "Biomass ratio"
+par(mfrow=c(2,1))
+PlotTimeSeries(DF1, Title = "Crab:Fish - north", YLIM=YLIM, Ylab= "Biomass ratio", XLIM=c(2002,XLIM[2]), TicsEvery = te, AltTxt = AltTxt, AltTxt.file.name = "Crab_Fish_north")
+
+PlotTimeSeries(DF2, Title = "Crab:Fish - south", YLIM=YLIM, Ylab = "Biomass ratio", XLIM=c(2002,XLIM[2]), TicsEvery = te, AltTxt = AltTxt, AltTxt.file.name = "Crab_Fish_south")
+
+cranfinfish_ts_min = substring(min(DF1$year, DF2$year,DF3$year,DF4$year, na.rm = TRUE),1,4)
+cranfinfish_ts_max = substring(max(DF1$year, DF2$year,DF3$year,DF4$year, na.rm = TRUE),1,4)
+CAP = paste("Ratio of crab biomass to finfish biomass for the NMFS West Coast Groundfish Trawl Survey through ", cranfinfish_ts_max, ". ", coda, sep="")
+
+rtffile <- RTF(paste(cap.loc,"crabfinfish.doc",sep = ""))  
+addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+# OLD STUFF NO LONGER USED
+
+```{r Domoic_Acid_WA.old, fig.width = 6.2, fig.height = 2.5}
+# fig.width = 6, fig.height = 4.25
+# source('reset.DFs.R')
+# 
+# DF = load.data("Domoic Acid", "WDOH DA Result")
+# # rename stuff
+# DF$timeseries = NA
+# DF$timeseries[grep("Quinault",DF$SiteName)] = "Quinault"
+# DF$timeseries[grep("Copalis",DF$SiteName)] = "Copalis"
+# DF$timeseries[grep("Mocrocks",DF$SiteName)] = "Mocrocks"
+# DF$timeseries[grep("Twin Harbors",DF$SiteName)] = "Twin Harbors"
+# DF$timeseries[grep("Willapa Spits",DF$SiteName)] = "Willapa Spits"
+# DF$timeseries[grep("Long Beach",DF$SiteName)] = "Long Beach"
+# 
+# # get monthly max
+# DF$metric = "Domoic acid (ppm)"
+# DF$index = as.numeric(as.character(DF$index))
+# DF$Date =  DF$year
+# DF$Month = substring(DF$Date,6,7)
+# DF$year = paste0(substring(DF$Date,1,7),"-15")
+# DFx = aggregate(index ~ year + Month + metric + timeseries + Waterbody + type , data=DF, FUN=max)
+# DFx = DFx[order(DFx$year),]
+# DF1 = DFx
+# DF1$metric = "Monthly max (ppm)"
+# 
+# write.table(DF1, "Monthly_DomoicAcid_bySite.csv", col.names = TRUE, row.names = FALSE, sep=',')
+# 
+# source('minyr.maxyr.xlim.R')
+# 
+# par(mfrow=c(3,2))
+# th = 20
+# sites = c("Quinault", "Copalis","Mocrocks","Twin Harbors","Willapa Spits","Long Beach")
+# 
+# for(i in 1:6){
+#   DFp = DF1[DF1$timeseries == sites[i],]
+#   if(i == 3){YLAB = DF1$metric[1]}else{YLAB = NA}
+#   PlotTimeSeries(DFp, Ylab = YLAB, YLIM=c(0,200), Y.lab.drop = TRUE, TicsEvery = 5, 
+#                  threshold=20, threshold.loc = "above", 
+#                  AltTxt = AltTxt, AltTxt.file.name = paste("Demoic Acid", sites[i]), XLIM = c(1990,2020))
+#   
+# }
+# 
+# CAP = paste("Monthly maximum domoic acid concentration (ppm) in razor clams through ", maxyr, ". The blue line is the managment threshhold of ", th," ppm.",coda, sep="")
+# 
+# rtffile <- RTF(paste(cap.loc,"Domoic_Acid.monthly.olddoc",sep = ""))  # this can be an .rtf or a .doc
+# addParagraph(rtffile, CAP)
+# done(rtffile)
+```
+
+```{r Domoic_Acid_Monthly_byState, fig.width = 6.2, fig.height = 2}
+# 
+# source('reset.DFs.R')
+# # NOTE - timeseries = Waterbody3
+# 
+# 
+# DF0 = load.data("Domoic Acid", "DomoicAcid_All")
+# DF1 = aggregate(index ~ yr.mo + species + timeseries + metric + type, data=DF0, FUN = max)
+# DF1$year = as.POSIXct(as.character(DF1$yr.mo))
+# source('minyr.maxyr.xlim.R')
+# 
+# 
+# 
+# par(mfrow = c(2,2), oma=c(0,0,0,0))
+# 
+# regions = c("WA Coast", "OR Coast",  "NCA", "CCA") # for plot order
+# th=20
+# 
+# for(i in 1:length(regions)){
+#   # subset specific data
+#   DFx = DF1[DF1$species=='Razor clam' & DF1$timeseries == regions[i],]
+#   # expand to include NAs for non sampled months
+#   yr = minyr:maxyr
+#   mo = 1:12
+#   for(k in 1:length(yr)){
+#     ymd = paste(yr[k],mo,15, sep = "-")
+#     if(k==1){YMD = ymd}else{YMD = cbind(YMD, ymd)}
+#   } # end k
+#   YMD = data.frame(as.POSIXct(YMD))
+#   colnames(YMD) <- 'year'
+#   YMD$index = DFx$index[match(YMD$year, DFx$year)]
+#   YMD$timeseries = regions[i]
+#   YMD$metric = "Monthly max (ppm)"
+#   YMD$type = DFx$type[1]
+#   # replace blanks with zeros to make prettier plots
+#   # YMD$index[is.na(YMD$index)] <- 0
+#   PlotTimeSeries(YMD, XLIM = c(NA, maxyr+1), Y2 = NA, Ylab = NA, YLIM = c(0,NA), Pt.cex = 0.01, threshold = th, threshold.loc = "above", threshold.correct=TRUE, AltTxt = NA)
+# 
+# } # end i
+# mtext(side=2, "Monthly max (ppm)", outer= TRUE, line = -1)
+# 
+# CAP = paste("Monthly maximum domoic acid concentration (ppm) in razor clams through ", maxyr, " for WA, OR, northern CA and central CA coast. The blue line is the managment threshhold of ", th," ppm. Dotted lines indicate missing data",coda, sep="")
+# 
+# rtffile <- RTF(paste(cap.loc,"Domoic_Acid_Monthly_byState.doc",sep = ""))  # this can be an .rtf or a .doc
+# addParagraph(rtffile, CAP)
+done(rtffile)
+```
+
+```{r disturbance, fig.width = 3.2,fig.height=2} 
+# source('reset.DFs.R')
+# 
+# DF1 = load.data("old.data","disturbance")
+# minyr = 1999 #as.numeric(substring(min(DF1$year,DF2$year,DF3$year, DF4$year,DF5$year,DF6$year,DF7$year,DF8$year,DF9$year,DF10$year,na.rm = TRUE),1,4))
+# DF1$year = substring(DF1$year,1,10)
+# source('minyr.maxyr.xlim.R')
+# XLIM = c(1981, NA)
+# 
+# par(mfcol=c(1,1),mar=c(0,0,2,0))
+# 
+# PlotTimeSeries(DF1, Ylab =  "Landings (1000s mt)", Title =  "Bottom contact PLACEHOLDER", AltTxt =  AltTxt, XLIM = XLIM, TicsEvery = 5) 
+# TicsEvery = NA
+# 
+# CAP = paste("Cumulative weighted distance of fishing gear contact with bottom habitat across the entire CCE,", minyr,"-",maxyr,".",coda,sep="")
+# 
+# rtffile <- RTF(paste(cap.loc,"disturbance.doc",sep = ""))  # this can be an .rtf or a .doc
+# addParagraph(rtffile, CAP)
+# done(rtffile)
+
+```
+
+```{r swe.1d.7d, fig.width=6.2, fig.height=5.5}
+
+# par(mfrow=c(2,2))
+# source('reset.DFs.R')
+# 
+# df = DFflow[DFflow$RESPONSE=="1daymax",]  # need to run fix.stream.input above
+# no.esus = nrow(df)
+# 
+# 
+# df0 = data.frame(read.table(paste(data.loc,"StreamFlow/allPlotInfo.2019.csv", sep=""), header=TRUE, sep=","))
+# no.esus = nrow(df0)
+# df0$Ecoregion = as.character(df0$Ecoregion)
+# df0$Ecoregion[df0$Ecoregion=="Sacramento - San Joaquin\n& S CA Bight"]<- "Sacr-S.Jaoquin & SCA Bight"
+# df0$Ecoregion[df0$Ecoregion=="S CA Bight"]<- "SCA Bight"
+# df0$Ecoregion[df0$Ecoregion=="OR & N CA Coast"]<- "OR & NCA Coast"
+# df0$significantL = as.character(df0$significantL)
+# df0$significantL[df0$significantL=="gray50"]<-"gray30"
+# df0$significantR = as.character(df0$significantR)
+# df0$significantR[df0$significantR=="gray50"]<-"gray30"
+# 
+# ### temp
+# df = df0[df0$RESPONSE=="AugMeanMax",]
+# name.order = c('Salish Sea & WA Coast',
+#           'Columbia Glaciated',
+#           'Columbia Unglaciated',
+#           'OR & N CA Coast',
+#           'Sacr-S.Jauquin & SCA Bight')
+# xx = data.frame(name.order)
+# xx$order = 1:length(name.order)
+# df$order = xx$order[match(df$Ecoregion,xx$name.order)]
+# df = df[order(df$order),]
+# 
+# 
+# x = as.character(df$Ecoregion)
+# bg.color=c('blue','green','white','yellow','orange')
+# ol.color=c('black','black','black','black','red')
+# Symbol=c(rep(21,5,NA))
+# 
+# QuadPlot_means(
+#   D1 = df$Year3_0.5quant,
+#   D2 = df$periodx_0.5quant,
+#   SE.d1.lo = df$Year3_0.025quant,
+#   SE.d1.up = df$Year3_0.975quant,
+#   SE.d2.lo = df$periodx_0.025quant,
+#   SE.d2.up = df$periodx_0.975quant,
+#   d1.col = df$significantR,
+#   d2.col = df$significantL,
+#   Label = df$Ecoregion,
+#   plot.type = 2,
+#   flip.colors = TRUE,
+#   bg.polys = bg.polys,
+#   style=1,
+#   PointCex=1.5,
+#   rng=1.75,
+#   Title = "Mean max August temp",
+#   # TitleCex=1.1,
+#   TextCex = 0.8,
+#   bg.color=bg.color,
+#   ol.color = ol.color,
+#   PlotLegend = NA,
+#   Symbol=21
+#   )
+# 
+# ### one day max 
+# df = df0[df0$RESPONSE=="1daymax",]
+# name.order = c('Salish Sea & WA Coast',
+#           'Columbia Glaciated',
+#           'Columbia Unglaciated',
+#           'OR & N CA Coast',
+#           'Sacr-S.Jauquin & SCA Bight')
+# xx = data.frame(name.order)
+# xx$order = 1:length(name.order)
+# df$order = xx$order[match(df$Ecoregion,xx$name.order)]
+# df = df[order(df$order),]
+# x = as.character(df$Ecoregion)
+# bg.color=c('blue','green','white','yellow','orange','red')
+# ol.color='black'
+# # ol.color=c('black')
+# Symbol=21
+# 
+# QuadPlot_means(
+#   D1 = df$Year3_0.5quant,
+#   D2 = df$periodx_0.5quant,
+#   SE.d1.lo = df$Year3_0.025quant,
+#   SE.d1.up = df$Year3_0.975quant,
+#   SE.d2.lo = df$periodx_0.025quant,
+#   SE.d2.up = df$periodx_0.975quant,
+#   d1.col = df$significantR,
+#   d2.col = df$significantL,
+#   Label = df$Ecoregion,
+#   plot.type = 2,
+#   style=1,
+#   flip.colors=TRUE,
+#   bg.polys = bg.polys,
+#   PointCex=1.5,
+#   rng=1.1,
+#   Title = "One day max flow",
+#   # TitleCex=1.25,
+#   TextCex = 0.8,
+#   bg.color=bg.color,
+#   ol.color = ol.color,
+#   Symbol=21,
+#   PlotLegend = NA)
+# 
+# df = df0[df0$RESPONSE=="7daymin",]
+# name.order = c('Salish Sea & WA Coast',
+#           'Columbia Glaciated',
+#           'Columbia Unglaciated',
+#           'OR & N CA Coast',
+#           'Sacr-S.Jauquin',
+#           'SCA Bight')
+# xx = data.frame(name.order)
+# xx$order = 1:length(name.order)
+# df$order = xx$order[match(df$Ecoregion,xx$name.order)]
+# df = df[order(df$order),]
+# x = as.character(df$Ecoregion)
+# 
+# QuadPlot_means(
+#   D1 = df$Year3_0.5quant,
+#   D2 = df$periodx_0.5quant,
+#   SE.d1.lo = df$Year3_0.025quant,
+#   SE.d1.up = df$Year3_0.975quant,
+#   SE.d2.lo = df$periodx_0.025quant,
+#   SE.d2.up = df$periodx_0.975quant,
+#   d1.col = df$significantR,
+#   d2.col = df$significantL,
+#   Label = df$Ecoregion,
+#   style=1,
+#   plot.type = 2,
+#   bg.polys = bg.polys,
+#   rng=1.1,
+#   PointCex=1.5,
+#   Title = "Seven day min flow",
+#   bg.color=bg.color,
+#   ol.color = ol.color,
+#   Symbol=21,
+#   # TitleCex=1.25,
+#   TextCex = 0.8,
+#   PlotLegend = NA
+# )
+# ##### legend
+# 
+# plot(1:7,1:7, xaxt='n',yaxt='n', pch='', bty="n", xlab=NA, ylab=NA)
+# name.order = c('Salish Sea & WA Coast',
+#           'Columbia Glaciated',
+#           'Columbia Unglaciated',
+#           'OR & N CA Coast',
+#           'Sacr-S.Jauquin & SCA Bight',
+#           'Sacr-S.Jauquin',
+#           'SCA Bight')
+# bg.color=c('blue','green','white','yellow','orange','orange','red')
+# ol.color=c('black','black','black','black','red', 'black','black')
+# Names = name.order
+# legend('left',legend=Names, 
+#        pt.bg = bg.color, 
+#        col=ol.color, 
+#        pch = Symbol, bty = 'n', cex=0.9, pt.cex=1.25, inset= 0)
+# 
+# PERIOD = 5
+# CAP = paste("Recent (",PERIOD,"-year) trend and average of anomalies of mean maximum August temperature,1-day maximum flow, and 7-day minimum flow in ",no.esus," freshwater ecoregions of the CCE through ",snw.maxyr,". Symbols of ESUs are color-coded from north (blue) to south (orange).  Error bars represent the 2.5% and 97.5% upper and lower credible intervals. Grey error bars overlap zero.  Heavy black error bars differed from zero. Note that for the 1-day max flow, the OR Coast errors did not overlap zero for the short-term trend but are difficult to see because they are very small. ",coda,sep="")
+# rtffile <- RTF(paste(cap.loc,"swe.1d.7d.doc",sep = ""))  # this can be an .rtf or a .doc
+# addParagraph(rtffile, CAP)
+done(rtffile)
+
+
+```
+
+### Stream flow by ecoregion
+
+```{r flow.ecoregion, fig.width=6.2, fig.height=2.5}
+# par(mfrow = c(1,3))
+# # one day
+# source('reset.DFs.R')
+# 
+# # df0 = data.frame(read.table(paste(data.loc,"StreamFlow/allPlotInfo.2019.csv", sep=""), header=TRUE, sep=","))
+# 
+# df = DFflow_ereg[DFflow_ereg$RESPONSE=="1daymax",]  # need to run fix.stream.input above
+# no.esus = nrow(df)
+# bg.color=c('blue','green','white','yellow','orange','red')
+# ol.color=c('black')
+# Symbol=21
+# 
+# ## sort plot order 
+# name.order = c('Salish Sea & WA Coast',
+#           'Columbia Glaciated',
+#           'Columbia Unglaciated',
+#           'OR & N CA Coast',
+#           'Sacramento - San Joaquin',
+#           'S CA Bight'
+#           )
+# 
+# xx = data.frame(name.order)
+# xx$order = 1:length(name.order)
+# df$order = xx$order[match(df$Ecoregion,xx$name.order)]
+# df = df[order(df$order),]
+# x = as.character(df$Ecoregion)
+# 
+# QuadPlot_means(
+#   D1 = df$Year3_0.5quant,
+#   D2 = df$periodx_0.5quant,
+#   SE.d1.lo = df$Year3_0.025quant,
+#   SE.d1.up = df$Year3_0.975quant,
+#   SE.d2.lo = df$periodx_0.025quant,
+#   SE.d2.up = df$periodx_0.975quant,
+#    d1.col = df$Col_trend,
+#   d2.col = df$Col_mean,
+#   # error.lwd = 1,
+#   Label = df$Ecoregion,
+#   plot.type = 2,
+#   bg.polys = bg.polys,
+#   style=1,
+#   flip.colors=TRUE,
+#   rng=1.0,
+#   Title = "One day max flow",
+#   TitleCex = 0.9,
+#   PointCex = 1,
+#   TextCex = 0.6,
+#   AxisCex = 0.8,
+#   bg.color=bg.color,
+#   ol.color = ol.color,
+#   Symbol=21,
+#   TextOffset = 0.2,
+#   PlotLegend = NA,
+#   Rmar = 0)
+# 
+# 
+# ### quad seven day
+# source('reset.DFs.R')
+# 
+# df = DFflow_ereg[DFflow_ereg$RESPONSE=="7daymin",]
+# xx = data.frame(name.order)
+# xx$order = 1:length(name.order)
+# df$order = xx$order[match(df$Ecoregion,xx$name.order)]
+# df = df[order(df$order),]
+# x = as.character(df$Ecoregion)
+# #screen(2)
+# QuadPlot_means(
+#   D1 = df$Year3_0.5quant,
+#   D2 = df$periodx_0.5quant,
+#   SE.d1.lo = df$Year3_0.025quant,
+#   SE.d1.up = df$Year3_0.975quant,
+#   SE.d2.lo = df$periodx_0.025quant,
+#   SE.d2.up = df$periodx_0.975quant,
+#   d1.col = df$Col_3yr,
+#   d2.col = df$Col_per,
+#   # error.lwd = 1,
+#   Label = df$Ecoregion,
+#   style=1,
+#   plot.type = 2,
+#   bg.polys = bg.polys,
+#   rng=1.0,
+#   Title = "Seven day min flow",
+#   bg.color=bg.color,
+#   ol.color = ol.color,
+#   Symbol=21,
+#   TitleCex = 0.9,
+#   PointCex = 1,
+#   TextCex = 0.6,
+#   AxisCex = 0.8,
+#   TextOffset = 0.2,
+#   PlotLegend = NA,
+#   Rmar = 0
+# )
+# 
+# plot(df$Year3_0.5quant,df$periodx_0.5quant, xaxt='n',yaxt='n', pch='', bty="n", xlab=NA, ylab=NA)
+# legend('topleft',legend=df$Ecoregion, pt.bg = bg.color, col=ol.color, pch = Symbol, bty = 'n', cex=0.8, pt.cex=1)
+# 
+# PERIOD = 5
+# CAP = paste0("Recent (",PERIOD,"-year) trend and average of anomalies in maximum and minimum flow in ",no.esus," freshwater ecoregions of the CCE through ",steam.maxyr,". Symbols of ecoregions are color-coded from north (blue) to south (orange).  Error bars represent the 2.5% and 97.5% upper and lower credible intervals. Grey error bars overlap zero.  Heavy black error bars differed from zero.")
+# 
+# rtffile <- RTF(paste(cap.loc,"flow.ecoregion.doc",sep = ""))  # this can be an .rtf or a .doc
+# addParagraph(rtffile, CAP)
+# done(rtffile)
+```
+
+### Stream temperature by Ecoregion
+
+```{r stream.temp, fig.width=4.0, fig.height=2.8}
+#par(mfrow = c(1,3))
+# source('reset.DFs.R')
+# df = DFflow_ereg[DFflow_ereg$RESPONSE=="AugMeanMax",]  # need to run fix.stream.input above
+# 
+# no.esus = nrow(df)
+# 
+# x = as.character(df$Ecoregion)
+# bg.color=c('blue','green','white','yellow','orange','red')
+# ol.color=c('black','black','black','black','red')
+# Symbol=c(rep(21,5,NA))
+# 
+# name.order = c('Salish Sea & WA Coast',
+#           'Columbia Glaciated',
+#           'Columbia Unglaciated',
+#           'OR & N CA Coast',
+#           'Sacr-S.Jauquin & SCA Bight')
+# xx = data.frame(name.order)
+# xx$order = 1:length(name.order)
+# df$order = xx$order[match(df$Ecoregion,xx$name.order)]
+# df = df[order(df$order),]
+# 
+# QuadPlot_means(
+#   D1 = df$Year3_0.5quant,
+#   D2 = df$periodx_0.5quant,
+#   SE.d1.lo = df$Year3_0.025quant,
+#   SE.d1.up = df$Year3_0.975quant,
+#   SE.d2.lo = df$periodx_0.025quant,
+#   SE.d2.up = df$periodx_0.975quant,
+#   d1.col = df$Col_trend,
+#   d2.col = df$Col_mean,
+#   Label = df$Ecoregion,
+#   plot.type = 2,
+#   rng = 1.7,
+#   flip.colors = TRUE,
+#   bg.polys = bg.polys,
+#   style=1,
+#   PointCex=1.25,
+#   AxisCex=0.8,
+#   TextCex=0.7,
+#   Title = "August temperature",
+#   bg.color=bg.color,
+#   ol.color = ol.color,
+#   LegendPointCex = 1.25,
+#   Symbol=21,
+#   Rmar = 8.3,
+#   Tmar = 1.1
+#   )
+# 
+# PERIOD = 5
+# CAP = paste0("Recent (",PERIOD,"-year) trend and average of mean maximum August temperature in  ",no.esus," freshwater ecoregions of the CCE through ",steam.maxyr,". Symbols of ESUs are color-coded from north (blue) to south (orange).  Error bars represent the 2.5% and 97.5% upper and lower credible intervals. Grey error bars overlap zero.  Heavy black error bars differed from zero. ")
+# 
+# rtffile <- RTF(paste(cap.loc,"stream.temp.doc",sep = ""))  # this can be an .rtf or a .doc
+# addParagraph(rtffile, CAP)
+# done(rtffile)
+```
