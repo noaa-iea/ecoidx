@@ -2,6 +2,8 @@
 title: "CCIEA.Figures"
 output:
   word_document: default
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- MAIN REPORT : BEGIN REPORT -->
@@ -36,6 +38,11 @@ fig.loc = paste(main.folder,"/Figures/",sep="")
 cap.loc = paste(main.folder,"/Captions/",sep="")
 AltTxt = paste(main.folder,"/AltText/",sep="")
 
+R_folder <- here::here("R")
+dir.create(fig.loc, showWarnings = F)
+dir.create(cap.loc, showWarnings = F)
+dir.create(data.loc, showWarnings = F)
+
 # figure legend stuff 
 coda = " Lines, colors, and symbols are as in Fig.1."
 coda_hydro = " Error envelopes represent the 2.5% and 97.5% upper and lower credible intervals. Symbols to the right follow those in Fig. 1, but were evaluted based on whether the credible interval overlaped zero (slope of the 5-year trend) or the long-term mean (5-year mean)."
@@ -44,13 +51,13 @@ library(rtf) # to output captions
 
 #####################################################
 # load time series plotting code #
-source(paste0(main.folder,"/load.data.r"))
-source(paste0(main.folder,'/PlotTimeSeries.R'))  
-source(paste0(main.folder,'/PlotDomoicAcid.R'))  
-source(paste0(main.folder,"/Quadplot_means.r",sep=""))
-source(paste0(main.folder,'/NormalizeTimeSeries.r'))
-source(paste0(main.folder,"/GetAreaWtdMeans.R" ))
-source(paste0(main.folder,"/QuadPlot.R" ))
+#source(paste0(main.folder,"/load.data.r")) # MISSING
+source(paste0(R_folder,'/PlotTimeSeries.R'))  
+source(paste0(R_folder,'/PlotDomoicAcid.R'))  
+source(paste0(R_folder,"/Quadplot_means.r",sep=""))
+source(paste0(R_folder,'/NormalizeTimeSeries.r'))
+#source(paste0(R_folder,"/GetAreaWtdMeans.R" )) # MISSING
+source(paste0(R_folder,"/QuadPlot.R" ))
 
 bg.polys = FALSE
 note.update.status = FALSE # plots "old data" on plot if it hasn't been updated from previous year
@@ -127,10 +134,10 @@ graphics.off()
 CAP = "(a) Sample time-series plot, with indicator data relative to the mean (black dotted horizontal line) and 1.0 s.d. (solid blue lines) of the full time series. Dotted black line indicates missing data, and points (when included) indicate data. Arrow at the right indicates if the trend over the evaluation period (shaded blue) was positive, negative or neutral. Symbol at the lower right indicates if the recent mean was greater than, less than, or within 1.0 s.d. of the long-term mean. When possible, times series indicate observation error (grey envelope), defined for each plot (e.g., s.d, s.e., 95% confidence intervals); (b) Sample time-series plot with the indicator plotted relative to a threshold value (blue line). Dashed lines indicate upper and lower observation error, again defined for each plot. Dotted black line indicates missing data; (c) Sample quadplot. Each point represents one normalized time series. The position of a point indicates if the times series was increasing or decreasing over the evaluation period and whether the mean recent years of the time series (recent trend) was above or below the long-term average (recent mean). Dashed lines represent 1.0 s.d. of the full time series."
 
 
+# TODO: show this in more typical Rmarkdown to docx manner
 rtffile <- RTF(paste(cap.loc,"ExampleFigure.doc",sep = ""))  # this can be an .rtf or a .doc
 addParagraph(rtffile, CAP)
 done(rtffile)
-
 ```
 
 
@@ -141,13 +148,37 @@ done(rtffile)
 
 ```{r basin-scale-climate, fig.width = 3.2, fig.height = 3.5}
 
-source('reset.DFs.R')
+#source('reset.DFs.R') # MISSING
 
 website.update=FALSE
-if(website.update==TRUE){
+# if(website.update==TRUE){
+
+
+library(glue)
+
+dir_oc <- file.path(data.loc,"Climate and Ocean")
+dir.create(dir_oc, showWarnings = F)
+
+lst_oc <- list(
+  ONI = list(
+    csv = glue("{dir_oc}/oc_ONI.{report.year}.csv"),
+    url = "http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_ONI.csvp?time%2CONI"),
+  PDO = list(
+    csv = glue("{dir_oc}/oc_PDO.{report.year}.csv"),
+    url = "http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_PDO.csvp?time%2CPDO"),
+  PDO = list(
+    csv = glue("{dir_oc}/oc_PDO.{report.year}.csv"),
+    url = "http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_PDO.csvp?time%2CPDO"))
+)
+oc_ONI_csv  <- glue("{dir_oc}/oc_ONI.{report.year}.csv")
+oc_PDO_csv  <- glue("{dir_oc}/oc_PDO.{report.year}.csv")
+oc_NPGO_csv <- glue("{dir_oc}/oc_NPGO.{report.year}.csv")
+
+if(!all(file.exists(oc_ONI_csv, oc_PDO_csv)) | website.update==TRUE){
   
-download.file(url="http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_ONI.csvp?time%2CONI",
-              destfile=paste0(data.loc,"Climate and Ocean/oc_ONI.",report.year,".csv", sep=''))
+download.file(
+  url      = "http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_ONI.csvp?time%2CONI", 
+  destfile = oc_ONI_csv)
   
 download.file(url="http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_PDO.csvp?time%2CPDO",
               destfile=paste0(data.loc,"Climate and Ocean/oc_PDO.",report.year,".csv", sep=''))

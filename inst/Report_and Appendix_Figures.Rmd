@@ -37,7 +37,7 @@ library(rtf) # to output captions
 
 #####################################################
 # load time series plotting code #
-source(paste0(main.folder,"/load.data.r"))
+# source(paste0(main.folder,"/load.data.r")) # MISSING
 source(paste0(main.folder,'/PlotTimeSeries.R'))  
 source(paste0(main.folder,'/PlotDomoicAcid.R'))  
 source(paste0(main.folder,"/Quadplot_means.r",sep=""))
