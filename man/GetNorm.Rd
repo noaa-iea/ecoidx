@@ -7,7 +7,11 @@
 GetNorm(X, Y, Name)
 }
 \arguments{
-\item{Name}{}
+\item{X}{time as year, year-month or year-month-day}
+
+\item{Y}{value to plot over time}
+
+\item{Name}{title of plot}
 }
 \value{
 

@@ -11,7 +11,8 @@ editor_options:
 ```{r r-chunk-options, echo=FALSE, warning=FALSE}
 
 rm(list=ls())
-HomeFile = getwd()
+#HomeFile = getwd()
+HomeFile = here::here("inst")
 library(knitr) 
 knitr::opts_chunk$set(
   fig.path = paste0(HomeFile,'/Figures/'),
@@ -113,6 +114,7 @@ XY$timeseries="(b) Threshold"
 XY$metric = NA
 XY$type = "current.data"
 
+source("R/PlotTimeSeries.R")
 PlotTimeSeries(XY, YLIM = c(0,NA), LWD = 0.8, Pt.cex = 0.7, threshold = 3, threshold.correct = TRUE, threshold.loc = 'below')
 #legend("topleft","(b)", inset=-0.11, bty='n')
 # reset
@@ -159,6 +161,7 @@ library(glue)
 dir_oc <- file.path(data.loc,"Climate and Ocean")
 dir.create(dir_oc, showWarnings = F)
 
+# TODO: use rerddap::
 lst_oc <- list(
   ONI = list(
     csv = glue("{dir_oc}/oc_ONI.{report.year}.csv"),
@@ -166,38 +169,78 @@ lst_oc <- list(
   PDO = list(
     csv = glue("{dir_oc}/oc_PDO.{report.year}.csv"),
     url = "http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_PDO.csvp?time%2CPDO"),
-  PDO = list(
-    csv = glue("{dir_oc}/oc_PDO.{report.year}.csv"),
-    url = "http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_PDO.csvp?time%2CPDO"))
-)
-oc_ONI_csv  <- glue("{dir_oc}/oc_ONI.{report.year}.csv")
-oc_PDO_csv  <- glue("{dir_oc}/oc_PDO.{report.year}.csv")
-oc_NPGO_csv <- glue("{dir_oc}/oc_NPGO.{report.year}.csv")
+  NPGO = list(
+    csv = glue("{dir_oc}/oc_NPGO.{report.year}.csv"),
+    url = "http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_NPGO.csvp?time%2CNPGO"))
+  oc_do_NH05 = list(
+    csv = glue("{dir_oc}/oc_do_NH05.{report.year}.csv"),
+    url = "http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_oc_do_NH05.csvp?time%2CNPGO"))
 
-if(!all(file.exists(oc_ONI_csv, oc_PDO_csv)) | website.update==TRUE){
+for (idx in names(lst_oc)){ # idx = names(lst_oc)[1]
+  csv <- lst_oc[[idx]]$csv
+  url <- lst_oc[[idx]]$url
   
-download.file(
-  url      = "http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_ONI.csvp?time%2CONI", 
-  destfile = oc_ONI_csv)
+  if(!file.exists(csv) | website.update){
+    download.file(url, destfile = csv)
+  }
+}
+
+
+library(librarian)
+shelf(dplyr, lubridate, readr)
+
+load.data <- function(dir, pfx){
+  # dir = "Climate and Ocean"; pfx = "oc_ONI"
   
-download.file(url="http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_PDO.csvp?time%2CPDO",
-              destfile=paste0(data.loc,"Climate and Ocean/oc_PDO.",report.year,".csv", sep=''))
-
-download.file(url="http://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_OC_NPGO.csvp?time%2CNPGO",
-              destfile=paste0(data.loc,"Climate and Ocean/oc_NPGO.",report.year,".csv", sep=''))
-
+  # hidden arguments:
+  #   data.loc
+  #   report.year
+  
+  csv = glue("{data.loc}{dir}/{pfx}.{report.year}.csv")
+  
+  # compare DF1 w/ XY example
+# tibble(XY)
+#    year index    Y2  SEup    SElo timeseries    metric type        
+#   <dbl> <dbl> <dbl> <dbl>   <dbl> <chr>         <lgl>  <chr>       
+# 1  1986 0.829 0.829  2.83 -1.17   (b) Threshold NA     current.data
+# 2  1987 0.356 0.356  2.36 -1.64   (b) Threshold NA     current.data
+# DF1
+ #   `time (UTC)`           ONI  year metric timeseries              
+ #   <dttm>               <dbl> <dbl> <chr>  <chr>                   
+ # 1 1981-01-01 00:00:00 -0.26   1981 ONI    Monthly Ocean Nino Index
+ # 2 1981-02-01 00:00:00 -0.5    1981 ONI    Monthly Ocean Nino Index
+# TODO: load.data()
+# - summarize by year, with SEup, SElo, index = ONI
+  
+  d <- read_csv(csv) %>% 
+    mutate(
+      year = year(`time (UTC)`)) %>% 
+    # rename(v = 2) %>% 
+    rename(index = 2) # %>% 
+    # group_by(year) %>% 
+    # summarize(
+    #   index  = mean(v, na.rm = T),
+    #   v_sd   = sd(v, na.rm = T)) %>% 
+    # mutate(
+    #   SEup = index + v_sd,
+    #   SElo = index - v_sd) %>% 
+    # select(-v_sd)
+  d
 }
 
 DF1 = load.data("Climate and Ocean","oc_ONI")
 DF2 = load.data("Climate and Ocean","oc_PDO")
 DF3 = load.data("Climate and Ocean","oc_NPGO")
 
+# TODO: add filtering by year below into load.data()
 start.year = 1981
+maxyr <- max(DF1$year)
 
 DF1 = DF1[DF1$year >= start.year,]
 DF2 = DF2[DF2$year >= start.year,]
 DF3 = DF3[DF3$year >= start.year,]
 
+# TODO: add metric from pfx in load.data()
 DF1$metric = "ONI"
 DF2$metric = "PDO"
 DF3$metric = "NPGO"
@@ -205,7 +248,7 @@ DF1$timeseries = "Monthly Ocean Nino Index"
 DF2$timeseries = "Monthly Pacific Decadal Oscillation Index"
 DF3$timeseries = "Monthly North Pacific Gyre Oscillation Index"
 
-source('minyr.maxyr.xlim.R')
+# source('minyr.maxyr.xlim.R') # MISSING
 XLIM = c(as.character(1980), (substring(as.character(Sys.Date()),1,4)))
 XLIM = c(XLIM[1],as.character(as.numeric(XLIM[2])+1))
 BMAR = c(0.5, 0.5, 0)
@@ -217,7 +260,10 @@ mt = 2
 Y2 = NA
 TitleCex = 0.8
 par(mfrow=c(3,1))
+# par(mfrow=c(1,1))
 
+
+source("R/PlotTimeSeries.R")
 PlotTimeSeries(DF1, Y2=Y2, stats.years = stats.years, XLIM = XLIM, TitleCex = TitleCex, Y.axis.labels = c(-3,0,3),yminor =c(-1,-2,1,2), LWD = LWD,  PERIOD=PERIOD, TicsEvery = te, MinorTics = mt,  AltTxt = AltTxt)
 
 PlotTimeSeries(DF2, Y2=Y2, stats.years = stats.years, XLIM = XLIM, TitleCex = TitleCex, Y.axis.labels = c(-4,0,4),yminor =c(-1,-2,-3,1,2,3),LWD = LWD,  PERIOD=PERIOD, TicsEvery = te, MinorTics = mt, AltTxt = AltTxt)
@@ -231,11 +277,75 @@ addParagraph(rtffile, CAP)
 done(rtffile)
 
 ```
+
+### rerddap aside
+
+```{r}
+if (!require(librarian)){
+  install.packages("librarian")
+  library(librarian)
+}
+shelf(
+  DT, rerddap)
+
+Sys.setenv(RERDDAP_DEFAULT_URL = "https://oceanview.pfeg.noaa.gov/erddap")
+ed_tbls <- ed_search("cciea", which = "tabledap")
+
+
+datatable(ed_tbls$info)
+
+get_erddap_cciea_data <- function(dir, pfx){
+  # dir = "Climate and Ocean"; pfx = "oc_ONI"
+  
+  # hidden arguments:
+  #   data.loc
+  #   report.year
+  
+  csv = glue("{data.loc}{dir}/{pfx}.{report.year}.csv")
+  
+  # compare DF1 w/ XY example
+  # tibble(XY)
+  #    year index    Y2  SEup    SElo timeseries    metric type        
+  #   <dbl> <dbl> <dbl> <dbl>   <dbl> <chr>         <lgl>  <chr>       
+  # 1  1986 0.829 0.829  2.83 -1.17   (b) Threshold NA     current.data
+  # 2  1987 0.356 0.356  2.36 -1.64   (b) Threshold NA     current.data
+  # DF1
+   #   `time (UTC)`           ONI  year metric timeseries              
+   #   <dttm>               <dbl> <dbl> <chr>  <chr>                   
+   # 1 1981-01-01 00:00:00 -0.26   1981 ONI    Monthly Ocean Nino Index
+   # 2 1981-02-01 00:00:00 -0.5    1981 ONI    Monthly Ocean Nino Index
+  # TODO: load.data()
+  # - summarize by year, with SEup, SElo, index = ONI
+  
+  d <- read_csv(csv) %>% 
+    mutate(
+      year = year(`time (UTC)`)) %>% 
+    # rename(v = 2) %>% 
+    rename(index = 2) # %>% 
+    # group_by(year) %>% 
+    # summarize(
+    #   index  = mean(v, na.rm = T),
+    #   v_sd   = sd(v, na.rm = T)) %>% 
+    # mutate(
+    #   SEup = index + v_sd,
+    #   SElo = index - v_sd) %>% 
+    # select(-v_sd)
+  d
+}
+
+d_oc_ONI = get_erddap_cciea_data("oc_ONI")
+
+DF2 = load.data("Climate and Ocean","oc_PDO")
+DF3 = load.data("Climate and Ocean","oc_NPGO")
+
+```
+
+
 ## Dissolved oxygen
 
 ```{r DO, fig.width = 3.2, fig.height = 2.0}
 
-source('reset.DFs.R')
+#source('reset.DFs.R') # MISSING
 
 DF1 = load.data("Climate and Ocean", "oc_do_NH05")
 DF2 = load.data("Climate and Ocean", "oc_do_NH25")

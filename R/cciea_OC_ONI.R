@@ -1,0 +1,12 @@
+#' Oceanic Nino Index
+#'
+#' Oceanic Nino Index From NOAA Climate Prediction Center (CPC). Three month running mean of NOAA ERSST.V4 SST anomalies in the Nino 3.4 region (5N-5S, 120-170W), based on changing base period which onsist of multiple centered 30-year base periods. These 30-year base periods will be used to calculate the anomalies for successive 5-year periods in the historical record.  Data from: https://www.cpc.ncep.noaa.gov/data/indices/
+#'
+#' @format A data frame with 851 rows and 2 variables:
+#' \describe{
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-6.31152E8, 1.6041888E9]}
+#'   \item{ONI}{Oceanic Nino Index () [-2.03, 2.64]}
+#' }
+#' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_ONI/index.html}
+#' @concept dataset_erddap
+"cciea_OC_ONI"

@@ -1,0 +1,13 @@
+#' Coho Abundance, Oregon/Washington
+#'
+#' Source Data: Various; see Wells et al. 2014, Table S5. For Oregon and Washington ESUs, data were obtained from the NWFSC's "Salmon Population Summary" database (https://www.webapps.nwfsc.noaa.gov/sps), with additional data for Oregon Coast coho salmon (Oregon Department of Fish and Wildlife, https://oregonstate.edu/dept/ODFW/spawn/data.htm), and from PFMC (2012) for the Upper Columbia Summer/Fall-run Chinook Salmon. Additional Calculations: Abundance indices are calculated as longterm anomalies (observed mean/standard deviation) of annual escapement by natural origin coho salmon in the lower Columbia River ESU (Clackamas and Sandy Rivers; see Wells et al. 2014, Table S5). Data series for multiple subpopulations were standardized by subtracting the series mean and dividing by the series standard deviation. If a consolidated index for the stock was needed we computed an annual weighted average of the standardized series, with weights proportional to the average abundance for each subpopulation.
+#'
+#' @format A data frame with 69 rows and 3 variables:
+#' \describe{
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [0.0, 1.3885344E9]}
+#'   \item{population}{Population/Season () []}
+#'   \item{abundance_anomaly}{Abundance anomaly (observed mean/standard deviation) () [-1.214305, 1.844207]}
+#' }
+#' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_SM_ORWA_CO_ABND/index.html}
+#' @concept dataset_erddap
+"cciea_SM_ORWA_CO_ABND"

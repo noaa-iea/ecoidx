@@ -1,0 +1,13 @@
+#' Coastal community social vulnerability index score
+#'
+#' Source Data: Community social vulnerability index (CSVI) data were provided by Dr. Karma Norman (NOAA), and are derived from the American Community Survey (ACS) associated with the US Census (https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml).  Although decennial census data represent an estimate at a specific date, the ACS data are period estimates, collected over an entire year and are potentially averaged over varying time periods, depending on the size of the geographic area (U.S. Census Bureau, 2009).  Given that communities of interest include geographic areas with populations less than 20,000, ACS data at the Census-Designate Place level or for place-based communities, are averaged over a five-year period., Additional Calculations:  The Community Social Vulnerability Index (CSVI) is derived from social vulnerability indices (e.g., personal disruption, poverty, population composition, housing characteristics, housing disruption, labor force structure, and natural resource labor force).
+#'
+#' @format A data frame with 170 rows and 3 variables:
+#' \describe{
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.230768E9, 1.4832288E9]}
+#'   \item{social_vulnerability_index}{Social Vulnerability Index () [-6.8948, 13.67]}
+#'   \item{location}{Location () []}
+#' }
+#' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HD_Soc_Vuln_Indx/index.html}
+#' @concept dataset_erddap
+"cciea_HD_Soc_Vuln_Indx"

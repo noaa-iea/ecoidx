@@ -1,0 +1,14 @@
+#' Copepod Indices, Northern California Current
+#'
+#' Source Data: Dr. Bill Peterson, NOAA (bill.peterson@noaa.gov); https://www.nwfsc.noaa.gov/research/divisions/fe/estuarine/oeip/index.cfm Additional Calculations: Copepod species richness anomaly: Monthly anomaly of copepod species richness in the Northern California Current off Newport, Oregon, 1996-present.; Total Copepod Biomass: Total biomass of copepods off Newport, Oregon, 1996-present.; Southern copepod biomass anomaly 44.6N: Monthly anomalies of the southern copepod biomass from 1996-present in waters off Newport, OR. See Fisher et al. 2015 for methods.; Copepod Community Composition Index: Monthly anomaly of the copepod community composition off Newport, Oregon, 1996-present from MDS. See Keister et al. 2011 for methods.; Northern copepod biomass anomaly 44.6N: Monthly anomalies of the northern copepod biomass from 1996-present in waters off Newport, OR. See Fisher et al. 2015 for methods.;
+#'
+#' @format A data frame with 269 rows and 4 variables:
+#' \describe{
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.335872E8, 1.567296E9]}
+#'   \item{copepod_species_richness_anomaly}{Copepod species richness anomaly (anomaly) [-7.194445, 11.20833]}
+#'   \item{northern_copepod_biomass_anomaly}{Northern copepod biomass anomaly 44.6N (mg C -m3) [-1.578972, 1.050465]}
+#'   \item{southern_copepod_biomass_anomaly}{Southern copepod biomass anomaly 44.6N (mg C -m3) [-0.6561004, 0.8060746]}
+#' }
+#' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_COP/index.html}
+#' @concept dataset_erddap
+"cciea_EI_COP"

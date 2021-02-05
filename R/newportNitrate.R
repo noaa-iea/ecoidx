@@ -1,0 +1,14 @@
+#' Newport Hydrographic Line Nitrate, NH25
+#'
+#' Newport Hydrographic Line Nitrate, NH25
+#'
+#' @format A data frame with 166 rows and 4 variables:
+#' \describe{
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0997856E9, 1.4998176E9]}
+#'   \item{station}{Station () []}
+#'   \item{depth}{Depth (m) [150, 150]}
+#'   \item{nitrate}{Nitrate (no3+no2) () [4.5802, 36.2214]}
+#' }
+#' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/newportNitrate/index.html}
+#' @concept dataset_erddap
+"newportNitrate"

@@ -1,0 +1,13 @@
+#' Coastal community fishery dependence index
+#'
+#' Source Data: Fishery dependence data were provided by Dr. Karma Norman (NOAA), and are derived from state reported fish ticket data as maintained by the Pacific Fishery Information Network (PacFIN) (https://pacfin.psmfc.org/). Additional Calculations: The fishing dependence composite index is based on commercial fishing engagement (a measure of the fishing activity in a community) and commercial fishing reliance (fishing activity relative to population size).
+#'
+#' @format A data frame with 100 rows and 3 variables:
+#' \describe{
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [9.466848E8, 1.3885344E9]}
+#'   \item{fishing_dependence}{Fishery Dependence Index () [-0.279896, 32.81]}
+#'   \item{location}{Location () []}
+#' }
+#' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HD_Fish_Dep/index.html}
+#' @concept dataset_erddap
+"cciea_HD_Fish_Dep"

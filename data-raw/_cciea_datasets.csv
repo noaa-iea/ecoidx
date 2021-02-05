@@ -1,0 +1,88 @@
+title,dataset_id
+CCIEA Anthropogenic Drivers,cciea_AC
+Dissolved Oxygen,cciea_OC_DO
+Oceanic Nino Index,cciea_OC_ONI
+Seabird Prey Size,cciea_B_LEN
+Seabird diet,cciea_B_AS_DIET
+Aragonite Saturation,cciea_OC_ARG
+"Chinook Abundance, OR/WA/ID",cciea_SM_ORWA_CH_ABND
+Coastal pelagics-Simp,cciea_EI_CP_SIMP
+Coastal pelagics-Spp No,cciea_EI_CP_SPNO
+"Coho Abundance, California",cciea_SM_CA_CO_ABND
+Groundfish Abundance Index,cciea_GF_ABND
+Groundfish Simpson diversity,cciea_EI_SIMP
+Groundfish Stock Status,cciea_GF_STAT
+Groundfish species richness,cciea_EI_SP_RICH
+Habitat Compression Index,cciea_EI_HCI
+Highly Migratory Species,cciea_HMS
+Multivariate ENSO Index,cciea_OC_MEI
+North Pacific High Area,cciea_OC_NPH
+Scavenger biomass ratio,cciea_EI_SCAV_RAT
+Seabird Productivity,cciea_B_PR_ANOM
+Seabird beached mortality,cciea_B_B_MORT
+Snow Water Equivalent,cciea_HB_SWE
+Whale Entanglements,cciea_EI_WH_ENT
+California Current Cetacean Abundance,cciea_MM_cetacean
+"Chinook Abundance, California",cciea_SM_CA_CH_ABND
+"Chinook Condition, California",cciea_SM_CA_CH_CND
+"Chinook Condition, Oregon/Washington",cciea_SM_ORWA_CH_CND
+"Coho Abundance, Oregon/Washington",cciea_SM_ORWA_CO_ABND
+"Coho Condition, Oregon/Washington",cciea_SM_ORWA_CO_CND
+Commercial Fishing Engagement Index,cciea_HD_Fish_Eng
+Commercial Fishing Reliance Index,cciea_HD_Fish_Rel
+Euphausia pacifica (krill) lengths,cciea_EI_KRILLEN
+Finfish scavengers:total biomass ratio,cciea_EI_CRAB_FINF
+Groundfish mean trophic level,cciea_EI_MTL
+"Jellyfish Biomass, Central Californial",cciea_EI_JELLY_CC
+Monthly Mean Crab Landings 1990-2015,cciea_AC_mn
+North Pacific Gyre Oscillation Index,cciea_OC_NPGO
+Northern copepod biomass anomaly 44.6N,cciea_OC_CBAN
+Pacific Decadal Oscillation Index,cciea_OC_PDO
+Relative humpback whale abundance,cciea_MM_HB_REL
+SST Buoy 46014 (39.2N 124.0W),cciea_OC_SST2
+SST Buoy 46025 (33.7N 119.1W),cciea_OC_SST3
+SST Buoy 46050 (44.6N 124.5W),cciea_OC_SST1
+Seabird at-sea density anomaly,cciea_B_AS_DENS
+Southern copepod biomass anomaly 44.6N,cciea_OC_CBAS
+Spring Transition Index (STI),cciea_OC_STI
+Total Upwelling Magnitude Index (TUMI),cciea_OC_TUMI
+"Upwelling Index, 33N 119W, monthly",cciea_OC_UI3
+"Upwelling Index, 39N 125W, monthly",cciea_OC_UI2
+"Upwelling Index, 45N 125W, monthly",cciea_OC_UI1
+California Current Marine Heatwave Event List,cciea_OC_MHW_EV
+"California Current Marine Heatwave, Daily",cciea_OC_MHW
+Coastal community fishery dependence index,cciea_HD_Fish_Dep
+Coastal community social vulnerability index,cciea_HD_Soc_Vuln
+"Copepod Indices, Northern California Current",cciea_EI_COP
+Extratropical-based Northern Oscillation Index,cciea_OC_NOI
+"Forage Biomass, California Current Central",cciea_EI_FBC
+"Forage Biomass, California Current North",cciea_EI_FBN
+"Forage Biomass, California Current South",cciea_EI_FBS
+"Jellyfish Biomass, Oregon and Washington",cciea_EI_JELLY_OW
+Length of Upwelling Season Index (LUSI),cciea_OC_LUSI
+Meridional Wind Buoy 46014 (39.2N 124.0W),cciea_OC_VWND2
+Meridional Wind Buoy 46025 (33.7N 119.1W),cciea_OC_VWND3
+Meridional Wind Buoy 46050 (44.6N 124.5W),cciea_OC_VWND1
+Monthly Coastal Upwelling Transport Index (CUTI),cciea_OC_CUTI
+Monthly Sea Level: San Diego CA (32.7N 117.2W),cciea_OC_SL3
+Monthly Sea Level: South Beach OR (44.6N 124.0W),cciea_OC_SL1
+"North Pacific High Area, January - February Mean",cciea_OC_NPH_JF
+Streamflow - Annual 1-day maximum flow anomaly,cciea_HB_FLO1
+Streamflow - Annual 7-day minimum flow anomaly,cciea_HB_FLO7
+Coastal community social vulnerability index score,cciea_HD_Soc_Vuln_Indx
+Monthly Sea Level: San Francisco CA (37.8N 122.5W),cciea_OC_SL2
+"Personal use landings data, Washington and California",cciea_HD_PU
+"Rockfish Recruitment and Ecosystem Assessement Survey, Biodiversity: CCIEA format",cciea_EI_RREAS_diversity_list
+Streamflow - August Mean Maximum stream temperature,cciea_HB_AUGMX
+"California sea lion pup survey, San Miguel Island, California.",cciea_MM_pup_count
+"Domoic acid levels in razor clams and other species, West Coast",cciea_EI_DOMACID
+Monthly Biologically Effective Upwelling Transport Index (BEUTI),cciea_OC_BEUTI
+"Monthly Maximum Domoic acid levels in dungeness crab, West Coast",cciea_EI_DOMACID_MON_crab
+"Monthly Maximum Domoic acid levels in razor clams, West Coast",cciea_EI_DOMACID_MON_clam
+"Streamflow - Annual 1-day maximum flow anomaly, Chinook ESU's",cciea_HB_FLO1_CH
+"Streamflow - Annual 7-day minimum flow anomaly, Chinook ESU's",cciea_HB_FLO7_CH
+Annual Effective Shannon Index (ESI) for various fleet groupings and West Coast Ports,cciea_HD_ESI_VESS
+"Rockfish Recruitment and Ecosystem Assessement Survey, Biodiversity: Grid format",cciea_EI_RREAS_diversity_grid
+"Newport Hydrographic Line Nitrate, NH25",newportNitrate
+"Newport Hydrographic Line Dissolved Oxygen and Aragonite Saturation, NH05 and NH25",newportDOArag
+"Newport Hydrographic Line CTD Data, NH05 and NH25",newportCTD

@@ -14,4 +14,5 @@
 #' }
 #'
 #' @details Example for more info: More information available at \url{https://noaa-edab.github.io/tech-doc/aquaculture.html}
+#' @concept dataset_other
 "groundfish"

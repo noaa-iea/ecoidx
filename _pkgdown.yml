@@ -1,0 +1,15 @@
+reference:
+- title: Plot
+  contents:
+  - has_concept("plot")
+- title: Other
+  contents:
+  - lacks_concepts(c("dataset_erddap", "dataset_other", "plot"))
+- title: Datasets, other
+  desc:  Datasets from the California Current Integrated Ecosystem Assessment (CCIEA) ERDDAP server
+  contents:
+  - has_concept("dataset_other")
+- title: Datasets, ERDDAP
+  desc:  Datasets from the ERDDAP server labeled with the California Current Integrated Ecosystem Assessment (CCIEA)
+  contents:
+  - has_concept("dataset_erddap")

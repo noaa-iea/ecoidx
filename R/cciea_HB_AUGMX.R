@@ -1,0 +1,15 @@
+#' Streamflow - August Mean Maximum stream temperature
+#'
+#' Streamflow is measured using active USGS gages (https://waterdata.usgs.gov/nwis/sw) with records that meet or exceed 30 years in duration.Average daily values from 213 gages were used to calculate annual 7-day minimum flows.  These indicators correspond to flow parameters to which salmon populations are most sensitive.  Standardized anomalies of time series from individual gages were then averaged to obtain weighted averages for ecoregions (for which HUC-8 area served as a weighting factor) and for the entire California current (weighted by ecoregion area).
+#'
+#' @format A data frame with 160 rows and 5 variables:
+#' \describe{
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
+#'   \item{aug_mean_max}{August Mean Maximum stream temperature - SW Ecoregion (Annual Anomaly) [14.58439, 23.83713]}
+#'   \item{Seup}{95% credible interval upper bound (Annual Anomaly) [15.41781, 25.0773]}
+#'   \item{Selo}{95% credible interval lower bound (Annual Anomaly) [13.74289, 22.58993]}
+#'   \item{location}{Location () []}
+#' }
+#' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HB_AUGMX/index.html}
+#' @concept dataset_erddap
+"cciea_HB_AUGMX"

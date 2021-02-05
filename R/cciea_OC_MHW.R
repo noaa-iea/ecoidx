@@ -1,0 +1,19 @@
+#' California Current Marine Heatwave, Daily
+#'
+#' Marine heatwaves, or MHWs, occur when ocean temperatures are much warmer than usual for an extended period of time; they are specifically defined by differences in expected temperatures for the location and time of year. MHWs are a growing field of study worldwide because of their effects on ecosystem structure, biodiversity, and regional economies. Developed by oceanographers from NOAA Fisheries' Southwest Fisheries Science Center as an experimental tool for natural resource managers, the California Current MHW Tracker is a program designed to understand, describe, and provide a historical context for the 2014-16 blob. It also produces a range of indices that could help forecast or predict future MHWs expected to impact our coast.
+#'
+#' @format A data frame with 14166 rows and 9 variables:
+#' \describe{
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.786912E8, 1.6025904E9]}
+#'   \item{area_1}{Area of MHW Feature 1 (km^2) [-999.0, 9759084.0]}
+#'   \item{intensity_1}{Intensity of MHW Feature 1 (STDEVs from normal) [0.5671552, 3.806598]}
+#'   \item{area_2}{Area of MHW Feature 2 (km^2) [-999.0, 3410075.0]}
+#'   \item{intensity_2}{Intensity of MHW Feature 2 (STDEVs from normal) [0.0, 3.764146]}
+#'   \item{area_3}{Area of MHW Feature 3 (km^2) [-999.0, 1570442.0]}
+#'   \item{intensity_3}{Intensity of MHW Feature 3 (STDEVs from normal) [-0.1109982, 3.856909]}
+#'   \item{area_4}{Area of MHW Feature 4 (km^2) [-999.0, 798923.1]}
+#'   \item{intensity_4}{Intensity of MHW Feature 4 (STDEVs from normal) [-0.1767007, 3.873491]}
+#' }
+#' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_MHW/index.html}
+#' @concept dataset_erddap
+"cciea_OC_MHW"
