@@ -256,7 +256,7 @@ plot_ts <- function(
         x = x_max + x_rng/20, y = y_avg_lo,
         label = fontawesome(icons[["recent_avg"]][[recent_avg]]),
         family='fontawesome-webfont',  size=icon_size),
-      theme(plot.margin = unit(c(0.5, 1.5, 0.5, 0.5), "lines")),
+      theme(plot.margin = unit(c(0.1, 1.1, 0.1, 0.1), "lines")),
       coord_cartesian(clip = "off"))
   }
 
@@ -268,8 +268,8 @@ plot_ts <- function(
     geom_line(data = d, aes({{x}}, {{y}})) +
     geom_point(color = color_pts) +
     insert_x_ticks() +
-    insert_icons() +
-    theme_plot(base_size = font_size)
+    theme_plot(base_size = font_size) +
+    insert_icons()
 
   attr(g, "caption") <- glue(caption)
   g
@@ -314,7 +314,7 @@ theme_iea <- function(
       axis.title       = element_blank(),
       axis.line = element_line(
         colour = "black", size = rel(1)), legend.key = element_blank(),
-      plot.margin = unit(c(0.1, 0.1, 0.1, 0.1), "cm"),
+      plot.margin = unit(c(0.1, 0.1, 0.1, 0.1), "cm"), # top, right, bottom, left
       strip.background = element_blank(), complete = TRUE)
 }
 
