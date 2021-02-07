@@ -3,7 +3,7 @@ title: "ecoidx"
 output: 
   github_document:
     html_preview: true
-    df_print: tibble # kable # tibble
+    df_print: kable # tibble
 ---
 
 ```{r setup, include=FALSE}
@@ -50,7 +50,7 @@ You can also embed plots, for example:
 
 ```{r}
 # example time series dataset
-ts1
+head(ts1, 6)
 
 # defaults to include all options
 g <- plot_ts(ts1)
