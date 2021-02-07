@@ -282,11 +282,15 @@ plot_ts <- function(
 #'
 #' @examples
 #' library(ggplot2)
-#' p1 <- ggplot(mtcars) +
-#'   geom_point(aes(x = wt, y = mpg, colour = gear))
-#' p1
-#' p1 + theme_classic()
-#' p1 + theme_iea()
+#'
+#' # default ggplot2 theme
+#' plot_ts(ts1) + theme_gray()
+#'
+#' # slimmed down ggplot2 theme
+#' plot_ts(ts1) + theme_classic()
+#'
+#' # this custom IEA theme, the default theme to plot_ts()
+#' plot_ts(ts1, theme_plot = theme_iea)
 theme_iea <- function(
   base_size = 14, base_family = "", base_line_size = base_size/28,
   base_rect_size = base_size/28){

@@ -159,10 +159,14 @@ Additionally dropped x and y axis labels, reduced plot margin.</p>
 
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
-    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>ggplot2</span>)
-<span class='no'>p1</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span>(<span class='no'>mtcars</span>) +
-  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span>(<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span>(<span class='kw'>x</span> <span class='kw'>=</span> <span class='no'>wt</span>, <span class='kw'>y</span> <span class='kw'>=</span> <span class='no'>mpg</span>, <span class='kw'>colour</span> <span class='kw'>=</span> <span class='no'>gear</span>))
-<span class='no'>p1</span></div><div class='img'><img src='theme_iea-1.png' alt='' width='700' height='433' /></div><div class='input'><span class='no'>p1</span> + <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggtheme.html'>theme_classic</a></span>()</div><div class='img'><img src='theme_iea-2.png' alt='' width='700' height='433' /></div><div class='input'><span class='no'>p1</span> + <span class='fu'>theme_iea</span>()</div><div class='img'><img src='theme_iea-3.png' alt='' width='700' height='433' /></div></pre>
+    <pre class="examples"><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>ggplot2</span>)</div><div class='output co'>#&gt; <span class='message'>Want to understand how all the pieces fit together? Read R for Data</span>
+#&gt; <span class='message'>Science: https://r4ds.had.co.nz/</span></div><div class='input'>
+<span class='co'># default ggplot2 theme</span>
+<span class='fu'><a href='plot_ts.html'>plot_ts</a></span>(<span class='no'>ts1</span>) + <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggtheme.html'>theme_gray</a></span>()</div><div class='img'><img src='theme_iea-1.png' alt='' width='700' height='433' /></div><div class='input'>
+<span class='co'># slimmed down ggplot2 theme</span>
+<span class='fu'><a href='plot_ts.html'>plot_ts</a></span>(<span class='no'>ts1</span>) + <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggtheme.html'>theme_classic</a></span>()</div><div class='img'><img src='theme_iea-2.png' alt='' width='700' height='433' /></div><div class='input'>
+<span class='co'># this custom IEA theme, the default theme to plot_ts()</span>
+<span class='fu'><a href='plot_ts.html'>plot_ts</a></span>(<span class='no'>ts1</span>, <span class='kw'>theme_plot</span> <span class='kw'>=</span> <span class='no'>theme_iea</span>)</div><div class='img'><img src='theme_iea-3.png' alt='' width='700' height='433' /></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
