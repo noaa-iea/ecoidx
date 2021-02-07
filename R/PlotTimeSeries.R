@@ -1,4 +1,4 @@
-#' Plot time series
+#' Plot time series (original)
 #'
 #' This function will plot the time series data.  See the initial portion of the function for parts that you can alter.
 #'
