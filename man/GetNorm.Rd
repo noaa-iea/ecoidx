@@ -2,7 +2,7 @@
 % Please edit documentation in R/NormalizeTimeSeries.R
 \name{GetNorm}
 \alias{GetNorm}
-\title{Normalize Time Series}
+\title{Normalize Time Series, original}
 \usage{
 GetNorm(X, Y, Name)
 }
@@ -17,5 +17,11 @@ GetNorm(X, Y, Name)
 
 }
 \description{
-Normalize Time Series
+This function will normalize multiple time series and produce the quadplot.
+Your data need three columns: year, index, time series name.
 }
+\details{
+Example command: QuadPlot(MyData$year, MyData$index, MyData$timeseries)
+file made: 2018-10-23
+}
+\concept{plot_original}

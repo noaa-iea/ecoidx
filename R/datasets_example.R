@@ -1,3 +1,22 @@
+#' Groundfish diversity
+#'
+#' Description...
+#'
+#' @format Format with columns...
+#'
+#' \itemize{
+#'     \item year: ...
+#'     \item index: ...
+#'     \item SEup: ...
+#'     \item SElo: ...
+#'     \item timeseries: ...
+#'     \item metric: ...
+#' }
+#'
+#' @details Example for more info: More information available at \url{https://noaa-edab.github.io/tech-doc/aquaculture.html}
+#' @concept dataset_example
+"groundfish"
+
 #' TimeSeries1 example dataset
 #'
 #' Example of time series data to be used by \code{\link{plot_ts}}
@@ -14,5 +33,7 @@
 #' }
 #'
 #' @details Example for more info: More information available at \url{https://noaa-edab.github.io/tech-doc/aquaculture.html}
-#' @concept dataset_other
+#' @concept dataset_example
 "ts1"
+
+

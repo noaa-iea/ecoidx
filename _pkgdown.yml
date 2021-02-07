@@ -1,15 +1,20 @@
 reference:
 - title: Plot
+  desc: New R plotting functions using ggplot2 and tidyverse approaches
   contents:
   - has_concept("plot")
-- title: Other
+- title: Plot, original
+  desc: Original base R plotting functions from Nick Tolimieri
   contents:
-  - lacks_concepts(c("dataset_erddap", "dataset_other", "plot"))
-- title: Datasets, other
-  desc:  Datasets from the California Current Integrated Ecosystem Assessment (CCIEA) ERDDAP server
+  - has_concept("plot_original")
+- title: Datasets, example
+  desc:  Datasets to be used as examples
   contents:
-  - has_concept("dataset_other")
+  - has_concept("dataset_example")
 - title: Datasets, ERDDAP
-  desc:  Datasets from the ERDDAP server labeled with the California Current Integrated Ecosystem Assessment (CCIEA)
+  desc:  Datasets from [ERDDAP searching "cciea"](https://oceanview.pfeg.noaa.gov/erddap/search/index.html?page=1&itemsPerPage=1000&searchFor=cciea) specific to the California Current Integrated Ecosystem Assessment (CCIEA)
   contents:
   - has_concept("dataset_erddap")
+- title: Other
+  contents:
+  - lacks_concepts(c("dataset_erddap", "dataset_example", "plot", "plot_original"))

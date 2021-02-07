@@ -1,4 +1,10 @@
-#' Normalize Time Series
+#' Normalize Time Series, original
+#'
+#' This function will normalize multiple time series and produce the quadplot.
+#' Your data need three columns: year, index, time series name.
+#'
+#' Example command: QuadPlot(MyData$year, MyData$index, MyData$timeseries)
+#' file made: 2018-10-23
 #'
 #' @param X time as year, year-month or year-month-day
 #' @param Y value to plot over time
@@ -6,8 +12,7 @@
 #'
 #' @return
 #' @export
-#'
-#' @examples
+#' @concept plot_original
 GetNorm <- function(X,Y,Name){
   #X = x_1  # for testing code
   #Y = y_1  # for testing code

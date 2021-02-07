@@ -102,19 +102,19 @@ plot_ts <- function(
 
   captions <- list(
     recent_trend = list(
-      "→" = "The index changed by less than one standard deviation of the full time series over the last {x_recent} {units_recent}.",
-      "↗" = "The index increased by more than one standard deviation of the full time series over the last {x_recent} {units_recent}.",
-      "↘" = "The index decreased by more than one standard deviation of the full time series over the last {x_recent} {units_recent}."),
+      "→" = "The index changed by less than one standard deviation of the full time series over the last {x_recent} {units_recent} (indicated by icon: →).",
+      "↗" = "The index increased by more than one standard deviation of the full time series over the last {x_recent} {units_recent} (indicated by icon: ↗).",
+      "↘" = "The index decreased by more than one standard deviation of the full time series over the last {x_recent} {units_recent} (indicated by icon: ↘)."),
     recent_avg = list(
-      "o" = "The mean of the last {x_recent} {units_recent} was within one standard deviation of the long-term mean.",
-      "+" = "The mean of the last {x_recent} {units_recent} was more than one standard deviation below the mean of the full time series.",
-      "-" = "The mean of the last {x_recent} {units_recent} was less than one standard deviation above the mean of the full time series."))
+      "o" = "The mean of the last {x_recent} {units_recent} was within one standard deviation of the long-term mean (indicated by icon: o).",
+      "+" = "The mean of the last {x_recent} {units_recent} was more than one standard deviation below the mean of the full time series (indicated by icon: +).",
+      "-" = "The mean of the last {x_recent} {units_recent} was less than one standard deviation above the mean of the full time series (indicated by icon: -)."))
 
   has_hilo   <- all(c(enexpr(y_lo), enexpr(y_hi)) %in% names(d))
   has_recent <- !(is.null(x_recent) || is.na(x_recent))
 
   if (!has_recent & add_icons){
-    warning("Incompatible arguments: add_icons = TRUE without supplying x_recent. Setting add_icons = F")
+    warning("Incompatible arguments: add_icons = TRUE without supplying x_recent. Setting add_icons = F.")
     add_icons = F
   }
 
@@ -130,23 +130,23 @@ plot_ts <- function(
   caption  <- character(0)
 
   if (has_recent){
-    # run regression on last 5 years
-    # check if the change is greater or less than one sd of full time series
-
     d_r <- d %>%
       filter({{x}} > max({{x}}, na.rm=T) - x_recent)
 
     y_recent_avg <- pull(d_r, {{y}}) %>% mean(na.rm = T)
 
+    # run linear model (lm) regression on recent years
     m_formula <- glue("{enexpr(y)} ~ {enexpr(x)}") %>% as.formula()
     m   <- lm(m_formula, d_r)
     d_r <- modelr::add_predictions(d_r, m, var = "pred")
 
+    # get recent trend as difference between first and last recent years of lm prediction
     y_recent_pred_dif <- d_r %>%
       filter({{x}} %in% c(min({{x}}), max({{x}}))) %>%
       pull(pred) %>%
       diff()
 
+    # compare recent trend with long-term standard deviation
     recent_trend <- ifelse(
       abs(y_recent_pred_dif) - y_sd < 0,
       "→",
@@ -155,6 +155,7 @@ plot_ts <- function(
         "↗",
         "↘"))
 
+    # compare recent average with long-term standard deviation
     recent_avg <- ifelse(
       abs(y_recent_avg) - y_sd < 0,
       "o",
@@ -216,6 +217,21 @@ plot_ts <- function(
           color = alpha(color_avg, alpha_avg))))
   }
 
+  insert_x_ticks <- function(){
+    if (x_rng > 40)
+      stop("Whoah! The insert_x_ticks() subfunction of plot_ts() hasn't yet considered a range beyond 40 for x, which is presumably in years.")
+
+    # add minor ticks for all years, keep labels every 5 years and double tick size
+    list(
+      scale_x_continuous(
+        breaks = seq(x_min, x_max),
+        labels = ifelse(x_v %% 5 == 0, x_v, ""),
+        limits = c(x_min, x_max)),
+      theme(
+        axis.ticks.x = element_line(
+          size = ifelse(x_v %% 5 == 0, 1, 0.5))))
+  }
+
   insert_icons <- function(){
     if (!add_icons)
       return(list())
@@ -251,16 +267,9 @@ plot_ts <- function(
     geom_line(linetype = "dashed") +
     geom_line(data = d, aes({{x}}, {{y}})) +
     geom_point(color = color_pts) +
-    theme_plot(base_size = font_size) +
-    # add minor ticks for all years, keep labels every 5 years
-    scale_x_continuous(
-      breaks = seq(x_min, x_max),
-      labels = ifelse(x_v %% 5 == 0, x_v, ""),
-      limits = c(x_min, x_max)) +
+    insert_x_ticks() +
     insert_icons() +
-    theme(
-      axis.ticks.x = element_line(
-        size = ifelse(x_v %% 5 == 0, 1, 0.5)))
+    theme_plot(base_size = font_size)
 
   attr(g, "caption") <- glue(caption)
   g

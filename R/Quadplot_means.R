@@ -1,4 +1,4 @@
-#' Quadplot means
+#' Quadplot means, original
 #'
 #' Makes a quadplot but does NOT standardize data first. Requires that you use NormalizeTimeSeries separately.
 #'
@@ -58,8 +58,7 @@
 #'
 #' @return
 #' @export
-#'
-#' @examples
+#' @concept plot_original
 QuadPlot_means<-function(
   DATA=NULL,
   D1=NA, # short term trend (5yr)

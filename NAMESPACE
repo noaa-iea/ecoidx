@@ -2,6 +2,8 @@
 
 export(GetNorm)
 export(PlotTimeSeries)
+export(Plot_Domoic_Acid_Monthly)
+export(QuadPlot)
 export(QuadPlot_means)
 export(plot_ts)
 export(theme_iea)

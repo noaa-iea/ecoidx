@@ -2,8 +2,7 @@
 title: "ecoidx"
 output: 
   github_document:
-    html_preview: true
-    df_print: kable # tibble
+    df_print: kable
 ---
 
 ```{r setup, include=FALSE}
@@ -44,31 +43,39 @@ Or look at the [Reference](./reference/index.html#section-datasets-erddap).
 
 The ERDDAP datasets are "evergreen" and preferred. These are loaded for convenience, especially for quickly trying out the data wrangling and plotting functions.
 
-## Plotting
+## Plot
 
-You can also embed plots, for example:
+Here's an example of using the `plot_ts()` function, starting the an example timeseries dataset `ts1`.
 
 ```{r}
-# example time series dataset
-head(ts1, 6)
+# example time series dataset with some NAs to show dashed line between non-NA values
+head(ts1, 8)
 
 # defaults to include all options
 g <- plot_ts(ts1)
 g
+
+# show the caption attributed to the returned ggplot object
 cat(attr(g, "caption"))
 
-# without SElo or SEhi
+# without SElo or SEhi columns, just year and index
 g <- plot_ts(ts1[,c("year","index")])
 g
+
+# same caption as previously, since defaults to x_recent=5 and add_avg=T
 cat(attr(g, "caption"))
 
-# without x_recent, add_avg, add_icons
+# without default x_recent, add_avg, or add_icons
 g <- plot_ts(ts1, x_recent=NA, add_icons=F, add_avg=F)
 g
+
+# no caption, since missing x_recent and add_avg
 cat(attr(g, "caption")) # empty caption without x_recent
 ```
 
 ## Developer
+
+This section is only meant for developers wishing to contribute or understand how this R package and website were built using `devtools`, `usethis` and `pkgdown` R packages.
 
 ### One time
 

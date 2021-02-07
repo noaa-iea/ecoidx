@@ -2,7 +2,7 @@
 % Please edit documentation in R/PlotTimeSeries.R
 \name{PlotTimeSeries}
 \alias{PlotTimeSeries}
-\title{Plot time series (original)}
+\title{Plot time series, original}
 \usage{
 PlotTimeSeries(
   dframe = NA,
@@ -161,7 +161,4 @@ There are special plots for Seabirds: For seabird plots you must include both Y2
 For seabird mortality, Y is all the data, Y2 is data with outliers removed, Y.outlier are just the outliers.
 Trends are evaluated with the outliers removed.
 }
-\examples{
-PlotTimeSeries
-}
-\concept{plot}
+\concept{plot_original}

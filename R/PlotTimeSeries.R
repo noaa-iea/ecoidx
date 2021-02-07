@@ -1,4 +1,4 @@
-#' Plot time series (original)
+#' Plot time series, original
 #'
 #' This function will plot the time series data.  See the initial portion of the function for parts that you can alter.
 #'
@@ -60,9 +60,7 @@
 #' @return
 #' @export
 #'
-#' @concept plot
-#' @examples
-#' PlotTimeSeries
+#' @concept plot_original
 PlotTimeSeries <-function(
   dframe=NA,
   X = NA,
