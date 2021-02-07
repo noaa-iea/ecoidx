@@ -1,6 +1,9 @@
 ---
 title: "ecoidx"
-output: github_document
+output: 
+  github_document:
+    html_preview: true
+    df_print: tibble # kable # tibble
 ---
 
 ```{r setup, include=FALSE}
