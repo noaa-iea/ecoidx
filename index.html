@@ -101,20 +101,20 @@
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># example time series dataset</span>
 <span class="va">ts1</span></code></pre></div>
-<div class="sourceCode" id="cb5"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="co">## # A tibble: 30 x 8</span></span>
+<div class="sourceCode" id="cb5"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="co">## [90m# A tibble: 30 x 8[39m</span></span>
 <span id="cb5-2"><a href="#cb5-2"></a><span class="co">##     year index    Y2    SElo   SEup timeseries                metric type       </span></span>
-<span id="cb5-3"><a href="#cb5-3"></a><span class="co">##    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;                     &lt;lgl&gt;  &lt;chr&gt;      </span></span>
-<span id="cb5-4"><a href="#cb5-4"></a><span class="co">##  1  1986  1.95  1.95 -0.0482  3.95  (a) Trend and recent mean NA     current.da…</span></span>
-<span id="cb5-5"><a href="#cb5-5"></a><span class="co">##  2  1987  1.63  1.63 -0.368   3.63  (a) Trend and recent mean NA     current.da…</span></span>
-<span id="cb5-6"><a href="#cb5-6"></a><span class="co">##  3  1988  3.46  3.46  1.46    5.46  (a) Trend and recent mean NA     current.da…</span></span>
-<span id="cb5-7"><a href="#cb5-7"></a><span class="co">##  4  1989 NA    NA    NA      NA     (a) Trend and recent mean NA     current.da…</span></span>
-<span id="cb5-8"><a href="#cb5-8"></a><span class="co">##  5  1990 NA    NA    NA      NA     (a) Trend and recent mean NA     current.da…</span></span>
-<span id="cb5-9"><a href="#cb5-9"></a><span class="co">##  6  1991 NA    NA    NA      NA     (a) Trend and recent mean NA     current.da…</span></span>
-<span id="cb5-10"><a href="#cb5-10"></a><span class="co">##  7  1992 -1.02 -1.02 -3.02    0.983 (a) Trend and recent mean NA     current.da…</span></span>
-<span id="cb5-11"><a href="#cb5-11"></a><span class="co">##  8  1993  1.53  1.53 -0.473   3.53  (a) Trend and recent mean NA     current.da…</span></span>
-<span id="cb5-12"><a href="#cb5-12"></a><span class="co">##  9  1994  3.91  3.91  1.91    5.91  (a) Trend and recent mean NA     current.da…</span></span>
-<span id="cb5-13"><a href="#cb5-13"></a><span class="co">## 10  1995  4.35  4.35  2.35    6.35  (a) Trend and recent mean NA     current.da…</span></span>
-<span id="cb5-14"><a href="#cb5-14"></a><span class="co">## # … with 20 more rows</span></span></code></pre></div>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="co">##    [3m[90m&lt;dbl&gt;[39m[23m [3m[90m&lt;dbl&gt;[39m[23m [3m[90m&lt;dbl&gt;[39m[23m   [3m[90m&lt;dbl&gt;[39m[23m  [3m[90m&lt;dbl&gt;[39m[23m [3m[90m&lt;chr&gt;[39m[23m                     [3m[90m&lt;lgl&gt;[39m[23m  [3m[90m&lt;chr&gt;[39m[23m      </span></span>
+<span id="cb5-4"><a href="#cb5-4"></a><span class="co">## [90m 1[39m  [4m1[24m986  1.95  1.95 -[31m0[39m[31m.[39m[31m0[39m[31m48[4m2[24m[39m  3.95  (a) Trend and recent mean [31mNA[39m     current.da…</span></span>
+<span id="cb5-5"><a href="#cb5-5"></a><span class="co">## [90m 2[39m  [4m1[24m987  1.63  1.63 -[31m0[39m[31m.[39m[31m368[39m   3.63  (a) Trend and recent mean [31mNA[39m     current.da…</span></span>
+<span id="cb5-6"><a href="#cb5-6"></a><span class="co">## [90m 3[39m  [4m1[24m988  3.46  3.46  1.46    5.46  (a) Trend and recent mean [31mNA[39m     current.da…</span></span>
+<span id="cb5-7"><a href="#cb5-7"></a><span class="co">## [90m 4[39m  [4m1[24m989 [31mNA[39m    [31mNA[39m    [31mNA[39m      [31mNA[39m     (a) Trend and recent mean [31mNA[39m     current.da…</span></span>
+<span id="cb5-8"><a href="#cb5-8"></a><span class="co">## [90m 5[39m  [4m1[24m990 [31mNA[39m    [31mNA[39m    [31mNA[39m      [31mNA[39m     (a) Trend and recent mean [31mNA[39m     current.da…</span></span>
+<span id="cb5-9"><a href="#cb5-9"></a><span class="co">## [90m 6[39m  [4m1[24m991 [31mNA[39m    [31mNA[39m    [31mNA[39m      [31mNA[39m     (a) Trend and recent mean [31mNA[39m     current.da…</span></span>
+<span id="cb5-10"><a href="#cb5-10"></a><span class="co">## [90m 7[39m  [4m1[24m992 -[31m1[39m[31m.[39m[31m0[39m[31m2[39m -[31m1[39m[31m.[39m[31m0[39m[31m2[39m -[31m3[39m[31m.[39m[31m0[39m[31m2[39m    0.983 (a) Trend and recent mean [31mNA[39m     current.da…</span></span>
+<span id="cb5-11"><a href="#cb5-11"></a><span class="co">## [90m 8[39m  [4m1[24m993  1.53  1.53 -[31m0[39m[31m.[39m[31m473[39m   3.53  (a) Trend and recent mean [31mNA[39m     current.da…</span></span>
+<span id="cb5-12"><a href="#cb5-12"></a><span class="co">## [90m 9[39m  [4m1[24m994  3.91  3.91  1.91    5.91  (a) Trend and recent mean [31mNA[39m     current.da…</span></span>
+<span id="cb5-13"><a href="#cb5-13"></a><span class="co">## [90m10[39m  [4m1[24m995  4.35  4.35  2.35    6.35  (a) Trend and recent mean [31mNA[39m     current.da…</span></span>
+<span id="cb5-14"><a href="#cb5-14"></a><span class="co">## [90m# … with 20 more rows[39m</span></span></code></pre></div>
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># defaults to include all options</span>
 <span class="va">g</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/plot_ts.html">plot_ts</a></span><span class="op">(</span><span class="va">ts1</span><span class="op">)</span>
@@ -148,6 +148,7 @@
 <p>Setup Github Actions to update documentation upon <code>git push</code> into <code>gh-pages</code> branch:</p>
 <div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_github_action.html">use_github_action</a></span><span class="op">(</span><span class="st">"pkgdown"</span><span class="op">)</span></code></pre></div>
+<p>Modified the <a href="https://github.com/marinebon/ecoidx/blame/8095d4a294e41987b039ab80e2791757dd37eb8c/.github/workflows/pkgdown.yaml#L38-L49">.github/workflows/pkgdown.yaml</a> to run <code><a href="https://devtools.r-lib.org//reference/document.html">devtools::document()</a></code> before <code><a href="https://pkgdown.r-lib.org/reference/build_site.html">pkgdown::build_site()</a></code> with 2 lines highlighted.</p>
 </div>
 <div id="load-dataset" class="section level3">
 <h3 class="hasAnchor">
