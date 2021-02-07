@@ -97,22 +97,27 @@ provided. Include \strong{icons} in the right-hand margin for recent trend (→,
 The attribute \code{caption} includes a textual summary.
 }
 \examples{
-# example time series dataset
+# example time series dataset with some NAs to show dashed line between non-NA values
 ts1
 
-# defaults to include all options
+# defaults to include all options data frame contains x, y, SElo, SEhi
 g <- plot_ts(ts1)
 g
+
+# show the caption attributed to the returned ggplot object
 cat(attr(g, "caption"))
 
-# without SElo or SEhi
+# without SElo or SEhi columns, just year and index
 g <- plot_ts(ts1[,c("year","index")])
 g
+
+# same caption as previously, since defaults to x_recent=5 and add_avg=T
 cat(attr(g, "caption"))
 
-# without x_recent, add_avg, add_icons
+# without default x_recent, add_avg, or add_icons
 g <- plot_ts(ts1, x_recent=NA, add_icons=F, add_avg=F)
 g
+# no caption, since missing x_recent and add_avg
 cat(attr(g, "caption")) # empty caption without x_recent
 
 }
