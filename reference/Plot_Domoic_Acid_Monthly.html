@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Normalize Time Series, original — GetNorm • ecoidx</title>
+<title>Plot domoic acid monthly, original — Plot_Domoic_Acid_Monthly • ecoidx</title>
 
 
 <!-- jquery -->
@@ -39,9 +39,8 @@
 
 
 
-<meta property="og:title" content="Normalize Time Series, original — GetNorm" />
-<meta property="og:description" content="This function will normalize multiple time series and produce the quadplot.
-Your data need three columns: year, index, time series name." />
+<meta property="og:title" content="Plot domoic acid monthly, original — Plot_Domoic_Acid_Monthly" />
+<meta property="og:description" content="Plot domoic acid monthly, original" />
 
 
 
@@ -112,32 +111,105 @@ Your data need three columns: year, index, time series name." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Normalize Time Series, original</h1>
-    <small class="dont-index">Source: <a href='https://github.com/marinebon/ecoidx/blob/master/R/NormalizeTimeSeries.R'><code>R/NormalizeTimeSeries.R</code></a></small>
-    <div class="hidden name"><code>GetNorm.Rd</code></div>
+    <h1>Plot domoic acid monthly, original</h1>
+    <small class="dont-index">Source: <a href='https://github.com/marinebon/ecoidx/blob/master/R/PlotDomoicAcid.R'><code>R/PlotDomoicAcid.R</code></a></small>
+    <div class="hidden name"><code>Plot_Domoic_Acid_Monthly.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>This function will normalize multiple time series and produce the quadplot.
-Your data need three columns: year, index, time series name.</p>
+    <p>Plot domoic acid monthly, original</p>
     </div>
 
-    <pre class="usage"><span class='fu'>GetNorm</span><span class='op'>(</span><span class='va'>X</span>, <span class='va'>Y</span>, <span class='va'>Name</span><span class='op'>)</span></pre>
+    <pre class="usage"><span class='fu'>Plot_Domoic_Acid_Monthly</span><span class='op'>(</span>
+  Data.File <span class='op'>=</span> <span class='cn'>NA</span>,
+  Date <span class='op'>=</span> <span class='st'>"Date"</span>,
+  Location <span class='op'>=</span> <span class='st'>"Waterbody"</span>,
+  DA <span class='op'>=</span> <span class='st'>"DA.ppm"</span>,
+  Species <span class='op'>=</span> <span class='st'>"Species"</span>,
+  spp <span class='op'>=</span> <span class='cn'>NA</span>,
+  THRESH <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>30</span>, <span class='fl'>20</span><span class='op'>)</span>,
+  COL <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"black"</span>, <span class='st'>"darkgrey"</span><span class='op'>)</span>,
+  Xlim <span class='op'>=</span> <span class='cn'>NA</span>,
+  Ylab <span class='op'>=</span> <span class='st'>"Monthly max (ppm)"</span>,
+  Ymax <span class='op'>=</span> <span class='cn'>NA</span>,
+  Title <span class='op'>=</span> <span class='cn'>NA</span>,
+  LegendLoc <span class='op'>=</span> <span class='st'>"topleft"</span>,
+  legend.cex <span class='op'>=</span> <span class='fl'>0.8</span>,
+  legend.inset <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>0</span><span class='op'>)</span>,
+  pt.cex <span class='op'>=</span> <span class='fl'>0.1</span>,
+  LWD <span class='op'>=</span> <span class='fl'>1</span>
+<span class='op'>)</span></pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>X</th>
-      <td><p>time as year, year-month or year-month-day</p></td>
+      <th>Data.File</th>
+      <td><p>...</p></td>
     </tr>
     <tr>
-      <th>Y</th>
-      <td><p>value to plot over time</p></td>
+      <th>Date</th>
+      <td><p>...</p></td>
     </tr>
     <tr>
-      <th>Name</th>
-      <td><p>title of plot</p></td>
+      <th>Location</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>DA</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>Species</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>spp</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>THRESH</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>COL</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>Xlim</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>Ylab</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>Ymax</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>Title</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>LegendLoc</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>legend.cex</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>legend.inset</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>pt.cex</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>LWD</th>
+      <td><p>...</p></td>
     </tr>
     </table>
 
@@ -146,10 +218,6 @@ Your data need three columns: year, index, time series name.</p>
     
 
 
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
-
-    <p>Example command: QuadPlot(MyData$year, MyData$index, MyData$timeseries)
-file made: 2018-10-23</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Quadplot means, original — QuadPlot_means • ecoidx</title>
+<title>QuadPlot, original — QuadPlot • ecoidx</title>
 
 
 <!-- jquery -->
@@ -39,8 +39,8 @@
 
 
 
-<meta property="og:title" content="Quadplot means, original — QuadPlot_means" />
-<meta property="og:description" content="Makes a quadplot but does NOT standardize data first. Requires that you use NormalizeTimeSeries separately." />
+<meta property="og:title" content="QuadPlot, original — QuadPlot" />
+<meta property="og:description" content="QuadPlot, original" />
 
 
 
@@ -111,30 +111,24 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Quadplot means, original</h1>
-    <small class="dont-index">Source: <a href='https://github.com/marinebon/ecoidx/blob/master/R/Quadplot_means.R'><code>R/Quadplot_means.R</code></a></small>
-    <div class="hidden name"><code>QuadPlot_means.Rd</code></div>
+    <h1>QuadPlot, original</h1>
+    <small class="dont-index">Source: <a href='https://github.com/marinebon/ecoidx/blob/master/R/QuadPlot.R'><code>R/QuadPlot.R</code></a></small>
+    <div class="hidden name"><code>QuadPlot.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Makes a quadplot but does NOT standardize data first. Requires that you use NormalizeTimeSeries separately.</p>
+    <p>QuadPlot, original</p>
     </div>
 
-    <pre class="usage"><span class='fu'>QuadPlot_means</span><span class='op'>(</span>
-  DATA <span class='op'>=</span> <span class='cn'>NULL</span>,
-  D1 <span class='op'>=</span> <span class='cn'>NA</span>,
-  D2 <span class='op'>=</span> <span class='cn'>NA</span>,
-  SE.d1.up <span class='op'>=</span> <span class='cn'>NULL</span>,
-  SE.d1.lo <span class='op'>=</span> <span class='cn'>NULL</span>,
-  SE.d2.up <span class='op'>=</span> <span class='cn'>NULL</span>,
-  SE.d2.lo <span class='op'>=</span> <span class='cn'>NULL</span>,
-  SE.d1 <span class='op'>=</span> <span class='cn'>NULL</span>,
-  SE.d2 <span class='op'>=</span> <span class='cn'>NULL</span>,
+    <pre class="usage"><span class='fu'>QuadPlot</span><span class='op'>(</span>
+  dframe <span class='op'>=</span> <span class='cn'>NULL</span>,
+  X <span class='op'>=</span> <span class='cn'>NA</span>,
+  Y <span class='op'>=</span> <span class='cn'>NA</span>,
+  Name <span class='op'>=</span> <span class='cn'>NA</span>,
+  PERIOD <span class='op'>=</span> <span class='fl'>5</span>,
   d1.col <span class='op'>=</span> <span class='cn'>NULL</span>,
   d2.col <span class='op'>=</span> <span class='cn'>NULL</span>,
   rng <span class='op'>=</span> <span class='cn'>NULL</span>,
-  Xlim <span class='op'>=</span> <span class='cn'>NA</span>,
-  Ylim <span class='op'>=</span> <span class='cn'>NA</span>,
   Title <span class='op'>=</span> <span class='cn'>NA</span>,
   plot.type <span class='op'>=</span> <span class='fl'>1</span>,
   style <span class='op'>=</span> <span class='fl'>1</span>,
@@ -142,10 +136,12 @@
   bg.polys <span class='op'>=</span> <span class='cn'>FALSE</span>,
   Xlab <span class='op'>=</span> <span class='cn'>NULL</span>,
   Ylab <span class='op'>=</span> <span class='cn'>NULL</span>,
-  Label <span class='op'>=</span> <span class='cn'>NA</span>,
+  Label <span class='op'>=</span> <span class='cn'>NULL</span>,
   Symbol <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>21</span>, <span class='fl'>21</span>, <span class='fl'>21</span>, <span class='fl'>21</span>, <span class='fl'>21</span>, <span class='fl'>24</span>, <span class='fl'>24</span>, <span class='fl'>24</span>, <span class='fl'>24</span>, <span class='fl'>24</span>, <span class='fl'>25</span>, <span class='fl'>25</span>, <span class='fl'>25</span>, <span class='fl'>25</span>, <span class='fl'>25</span><span class='op'>)</span>,
   bg.color <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='st'>"black"</span>, <span class='st'>"white"</span>, <span class='st'>"grey"</span>, <span class='st'>"red"</span>, <span class='st'>"blue"</span><span class='op'>)</span>,
   ol.color <span class='op'>=</span> <span class='st'>"black"</span>,
+  Xlim <span class='op'>=</span> <span class='cn'>NA</span>,
+  Ylim <span class='op'>=</span> <span class='cn'>NA</span>,
   AxisCex <span class='op'>=</span> <span class='fl'>0.9</span>,
   LabelCex <span class='op'>=</span> <span class='fl'>0.9</span>,
   XYLabCex <span class='op'>=</span> <span class='fl'>0.9</span>,
@@ -154,14 +150,13 @@
   TitleCex <span class='op'>=</span> <span class='fl'>1</span>,
   TextCex <span class='op'>=</span> <span class='fl'>0.8</span>,
   PointCex <span class='op'>=</span> <span class='fl'>1</span>,
-  error.lwd <span class='op'>=</span> <span class='cn'>NA</span>,
-  PERIOD <span class='op'>=</span> <span class='fl'>5</span>,
   Period.Label <span class='op'>=</span> <span class='st'>"Years"</span>,
   Bmar <span class='op'>=</span> <span class='cn'>NA</span>,
   Lmar <span class='op'>=</span> <span class='cn'>NA</span>,
   Tmar <span class='op'>=</span> <span class='cn'>NA</span>,
   Rmar <span class='op'>=</span> <span class='cn'>NA</span>,
   AltTxt <span class='op'>=</span> <span class='cn'>NA</span>,
+  l.inset <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>0</span>, <span class='fl'>0</span><span class='op'>)</span>,
   TextOffset <span class='op'>=</span> <span class='fl'>0.5</span>,
   PlotLegend <span class='op'>=</span> <span class='cn'>NULL</span>
 <span class='op'>)</span></pre>
@@ -170,43 +165,23 @@
     <table class="ref-arguments">
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
-      <th>DATA</th>
+      <th>dframe</th>
       <td><p>...</p></td>
     </tr>
     <tr>
-      <th>D1</th>
+      <th>X</th>
       <td><p>...</p></td>
     </tr>
     <tr>
-      <th>D2</th>
+      <th>Y</th>
       <td><p>...</p></td>
     </tr>
     <tr>
-      <th>SE.d1.up</th>
+      <th>Name</th>
       <td><p>...</p></td>
     </tr>
     <tr>
-      <th>SE.d1.lo</th>
-      <td><p>...</p></td>
-    </tr>
-    <tr>
-      <th>SE.d2.up</th>
-      <td><p>...</p></td>
-    </tr>
-    <tr>
-      <th>SE.d2.lo</th>
-      <td><p>...</p></td>
-    </tr>
-    <tr>
-      <th>SE.d1</th>
-      <td><p>...</p></td>
-    </tr>
-    <tr>
-      <th>SE.d2</th>
-      <td><p>...</p></td>
-    </tr>
-    <tr>
-      <th>d1.col</th>
+      <th>PERIOD</th>
       <td><p>...</p></td>
     </tr>
     <tr>
@@ -215,14 +190,6 @@
     </tr>
     <tr>
       <th>rng</th>
-      <td><p>...</p></td>
-    </tr>
-    <tr>
-      <th>Xlim</th>
-      <td><p>...</p></td>
-    </tr>
-    <tr>
-      <th>Ylim</th>
       <td><p>...</p></td>
     </tr>
     <tr>
@@ -270,6 +237,14 @@
       <td><p>...</p></td>
     </tr>
     <tr>
+      <th>Xlim</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
+      <th>Ylim</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
       <th>AxisCex</th>
       <td><p>...</p></td>
     </tr>
@@ -302,14 +277,6 @@
       <td><p>...</p></td>
     </tr>
     <tr>
-      <th>error.lwd</th>
-      <td><p>...</p></td>
-    </tr>
-    <tr>
-      <th>PERIOD</th>
-      <td><p>...</p></td>
-    </tr>
-    <tr>
       <th>Period.Label</th>
       <td><p>...</p></td>
     </tr>
@@ -334,6 +301,10 @@
       <td><p>...</p></td>
     </tr>
     <tr>
+      <th>l.inset</th>
+      <td><p>...</p></td>
+    </tr>
+    <tr>
       <th>TextOffset</th>
       <td><p>...</p></td>
     </tr>
@@ -348,17 +319,6 @@
     
 
 
-    <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
-
-    <p>x = short term trend
-y = mean over the evaluation period
-the data come out of the normalization in this format
-style 1 will graph them as x,y
-style 2 will swap the axes internally to y, x.
-this is done to maintain some formatting between some different codes
-CAN plot standard errors but not clear what they should be at present.
-no alt text for standard errors.
-PlotLegend can be used to turn the Legend on or Off.  (TRUE or FALSE)</p>
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
