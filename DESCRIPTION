@@ -1,5 +1,5 @@
 Package: ecoidx
-Title: What the Package Does (One Line, Title Case)
+Title: Marine ecological indicators R package for CA Current IEA
 Version: 0.1.0
 URL: https://marinebon.org/ecoidx,
     https://github.com/marinebon/ecoidx
