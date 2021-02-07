@@ -7,8 +7,8 @@
 \format{
 A data frame with 851 rows and 2 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{-6.31152E8, 1.6041888E9}}
-\item{ONI}{Oceanic Nino Index () \link{-2.03, 2.64}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-6.31152E8, 1.6041888E9]}
+\item{ONI}{Oceanic Nino Index () [-2.03, 2.64]}
 }
 }
 \source{

@@ -7,11 +7,11 @@
 \format{
 A data frame with 39 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{1.0413792E9, 1.4200704E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0413792E9, 1.4200704E9]}
 \item{population}{Population () []}
-\item{biomass_ratio}{ () \link{0.1095965, 0.3513092}}
-\item{Seup}{Confidence Interval, Upper () \link{0.1182098, 0.3672911}}
-\item{Selo}{Confidence Interval, Lower () \link{0.1009832, 0.3353272}}
+\item{biomass_ratio}{ () [0.1095965, 0.3513092]}
+\item{Seup}{Confidence Interval, Upper () [0.1182098, 0.3672911]}
+\item{Selo}{Confidence Interval, Lower () [0.1009832, 0.3353272]}
 }
 }
 \source{

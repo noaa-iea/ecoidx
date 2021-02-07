@@ -7,8 +7,8 @@
 \format{
 A data frame with 170 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{1.230768E9, 1.4832288E9}}
-\item{social_vulnerability_index}{Social Vulnerability Index () \link{-6.8948, 13.67}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.230768E9, 1.4832288E9]}
+\item{social_vulnerability_index}{Social Vulnerability Index () [-6.8948, 13.67]}
 \item{location}{Location () []}
 }
 }

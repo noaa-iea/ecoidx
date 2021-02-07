@@ -7,10 +7,10 @@
 \format{
 A data frame with 65 rows and 4 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{1.262304E8, 1.3885344E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.262304E8, 1.3885344E9]}
 \item{population}{Population/Season () []}
-\item{cond_pct_nat}{Proportion of natural fish to total fish returning () \link{0.9189854, 99.35072}}
-\item{cond_pop_gr}{Proportional change in abundance between cohorts () \link{0.4980789, 2.20522}}
+\item{cond_pct_nat}{Proportion of natural fish to total fish returning () [0.9189854, 99.35072]}
+\item{cond_pop_gr}{Proportional change in abundance between cohorts () [0.4980789, 2.20522]}
 }
 }
 \source{

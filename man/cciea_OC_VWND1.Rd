@@ -7,8 +7,8 @@
 \format{
 A data frame with 301 rows and 2 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{6.889536E8, 1.6121376E9}}
-\item{vwnd}{Wind Speed, Meridional (m s-1) \link{-6.163844, 8.036128}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.889536E8, 1.6121376E9]}
+\item{vwnd}{Wind Speed, Meridional (m s-1) [-6.163844, 8.036128]}
 }
 }
 \source{

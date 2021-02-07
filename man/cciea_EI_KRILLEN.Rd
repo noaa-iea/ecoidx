@@ -7,11 +7,11 @@
 \format{
 A data frame with 126 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{1.19448E9, 1.5661728E9}}
-\item{mean_length}{Carapace Length (mm) \link{7.457964, 17.27011}}
-\item{std_dev}{Standard Deviation (mm) \link{0.0, 3.874455}}
-\item{Seup}{Confidence Interval, Upper () \link{8.44838, 19.4095}}
-\item{Selo}{Confidence Interval, Lower () \link{6.331795, 15.25163}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.19448E9, 1.5661728E9]}
+\item{mean_length}{Carapace Length (mm) [7.457964, 17.27011]}
+\item{std_dev}{Standard Deviation (mm) [0.0, 3.874455]}
+\item{Seup}{Confidence Interval, Upper () [8.44838, 19.4095]}
+\item{Selo}{Confidence Interval, Lower () [6.331795, 15.25163]}
 }
 }
 \source{

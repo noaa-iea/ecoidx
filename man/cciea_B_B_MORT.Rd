@@ -7,8 +7,8 @@
 \format{
 A data frame with 527 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{7.573824E8, 1.5463008E9}}
-\item{encounter_rate}{Encounter Rate () \link{0.0, 31.652}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [7.573824E8, 1.5463008E9]}
+\item{encounter_rate}{Encounter Rate () [0.0, 31.652]}
 \item{species_cohort}{Species (region, season) () []}
 }
 }

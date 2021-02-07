@@ -7,14 +7,14 @@
 \format{
 A data frame with 413 rows and 8 variables:
 \describe{
-\item{time}{Start time (seconds since 1970-01-01T00:00:00Z) \link{3.874176E8, 1.6003872E9}}
+\item{time}{Start time (seconds since 1970-01-01T00:00:00Z) [3.874176E8, 1.6003872E9]}
 \item{blob_id}{Blob Id () []}
-\item{max_area}{Maximum Area (km^2) \link{402937.0, 9759080.0}}
-\item{duration}{Duration (days) \link{0, 757}}
-\item{max_intensity}{Maximum Intensity (STDEVs from normal) \link{1.43471, 2.56513}}
-\item{mean_intensity}{Mean Intensity (STDEVs from normal) \link{1.43471, 2.41716}}
-\item{min_dist_to_coast}{Minimum distance to coast (km) \link{5.95226, 2772.68}}
-\item{max_index}{Maximum MHW index () \link{0.0, 0.771722}}
+\item{max_area}{Maximum Area (km^2) [402937.0, 9759080.0]}
+\item{duration}{Duration (days) [0, 757]}
+\item{max_intensity}{Maximum Intensity (STDEVs from normal) [1.43471, 2.56513]}
+\item{mean_intensity}{Mean Intensity (STDEVs from normal) [1.43471, 2.41716]}
+\item{min_dist_to_coast}{Minimum distance to coast (km) [5.95226, 2772.68]}
+\item{max_index}{Maximum MHW index () [0.0, 0.771722]}
 }
 }
 \source{

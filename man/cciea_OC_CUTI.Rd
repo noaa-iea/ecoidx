@@ -7,9 +7,9 @@
 \format{
 A data frame with 1191 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{5.679936E8, 1.6094592E9}}
-\item{cuti}{Coastal Upwelling Transport Index (m^2 s^(-1)) \link{-1.252, 2.751}}
-\item{latitude}{Latitude (degrees_north) \link{33, 45}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [5.679936E8, 1.6094592E9]}
+\item{cuti}{Coastal Upwelling Transport Index (m^2 s^(-1)) [-1.252, 2.751]}
+\item{latitude}{Latitude (degrees_north) [33, 45]}
 }
 }
 \source{

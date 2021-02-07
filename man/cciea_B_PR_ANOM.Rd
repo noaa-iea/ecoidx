@@ -7,8 +7,8 @@
 \format{
 A data frame with 229 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{3.1536E7, 1.5463008E9}}
-\item{productivity_anomaly}{Productivity Anomaly () \link{-1.405, 1.425}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.1536E7, 1.5463008E9]}
+\item{productivity_anomaly}{Productivity Anomaly () [-1.405, 1.425]}
 \item{species_cohort}{Species cohort () []}
 }
 }

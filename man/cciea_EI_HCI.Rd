@@ -7,11 +7,11 @@
 \format{
 A data frame with 492 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{3.155328E8, 1.6067808E9}}
-\item{hci_regn1}{Habitat Compression Index, 43.5-48N (fraction below monthly threshold) \link{0.0, 1.0}}
-\item{hci_regn2}{Habitat Compression Index, 40-43.5N (fraction below monthly threshold) \link{0.0, 1.0}}
-\item{hci_regn3}{Habitat Compression Index, 35.5-40N (fraction below monthly threshold) \link{0.0, 1.0}}
-\item{hci_regn4}{Habitat Compression Index, 30-35.5N (fraction below monthly threshold) \link{0.0, 0.9744409}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.155328E8, 1.6067808E9]}
+\item{hci_regn1}{Habitat Compression Index, 43.5-48N (fraction below monthly threshold) [0.0, 1.0]}
+\item{hci_regn2}{Habitat Compression Index, 40-43.5N (fraction below monthly threshold) [0.0, 1.0]}
+\item{hci_regn3}{Habitat Compression Index, 35.5-40N (fraction below monthly threshold) [0.0, 1.0]}
+\item{hci_regn4}{Habitat Compression Index, 30-35.5N (fraction below monthly threshold) [0.0, 0.9744409]}
 }
 }
 \source{

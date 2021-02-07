@@ -7,10 +7,10 @@
 \format{
 A data frame with 269 rows and 4 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{8.335872E8, 1.567296E9}}
-\item{copepod_species_richness_anomaly}{Copepod species richness anomaly (anomaly) \link{-7.194445, 11.20833}}
-\item{northern_copepod_biomass_anomaly}{Northern copepod biomass anomaly 44.6N (mg C -m3) \link{-1.578972, 1.050465}}
-\item{southern_copepod_biomass_anomaly}{Southern copepod biomass anomaly 44.6N (mg C -m3) \link{-0.6561004, 0.8060746}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.335872E8, 1.567296E9]}
+\item{copepod_species_richness_anomaly}{Copepod species richness anomaly (anomaly) [-7.194445, 11.20833]}
+\item{northern_copepod_biomass_anomaly}{Northern copepod biomass anomaly 44.6N (mg C -m3) [-1.578972, 1.050465]}
+\item{southern_copepod_biomass_anomaly}{Southern copepod biomass anomaly 44.6N (mg C -m3) [-0.6561004, 0.8060746]}
 }
 }
 \source{

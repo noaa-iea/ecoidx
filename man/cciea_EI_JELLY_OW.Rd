@@ -7,9 +7,9 @@
 \format{
 A data frame with 36 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{9.151488E8, 1.4516064E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [9.151488E8, 1.4516064E9]}
 \item{species_group}{Species Group () []}
-\item{mean_cpue}{Mean CPUE (ln(catch+1)) \link{0.48, 10919.47}}
+\item{mean_cpue}{Mean CPUE (ln(catch+1)) [0.48, 10919.47]}
 }
 }
 \source{

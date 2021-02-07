@@ -7,9 +7,9 @@
 \format{
 A data frame with 253 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{0.0, 1.4516064E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [0.0, 1.4516064E9]}
 \item{population}{Population () []}
-\item{condition}{ (Population growth rate) \link{-1.41059, 4.28817}}
+\item{condition}{ (Population growth rate) [-1.41059, 4.28817]}
 }
 }
 \source{

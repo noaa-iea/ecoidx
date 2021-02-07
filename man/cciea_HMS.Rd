@@ -7,35 +7,35 @@
 \format{
 A data frame with 66 rows and 29 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{-5.99616E8, 1.4516064E9}}
-\item{albacore_tuna_recruitment}{Albacore tuna recruitment () \link{126232.0, 307587.0}}
-\item{albacore_tuna_spawning_stock_biomass}{Albacore tuna spawning stock biomass () \link{69427.6, 139481.0}}
-\item{bigeye_tuna_recruitment}{Bigeye tuna recruitment () \link{9697.0, 39444.0}}
-\item{bigeye_tuna_spawning_stock_biomass}{Bigeye tuna spawning stock biomass () \link{72327.0, 271970.0}}
-\item{bluefin_tuna_recruitment}{Bluefin tuna recruitment () \link{3465.0, 34011.0}}
-\item{bluefin_tuna_spawning_stock_biomass}{Bluefin tuna spawning stock biomass () \link{11445.0, 160005.0}}
-\item{blue_marlin_recruitment}{Blue marlin recruitment () \link{589.3, 1181.18}}
-\item{blue_marlin_spawning_stock_biomass}{Blue marlin spawning stock biomass () \link{20972.0, 71806.5}}
-\item{skipjack_tuna_recruitment_relative_index}{Skipjack tuna recruitment index () \link{0.4760525, 2.503387}}
-\item{skipjack_tuna_relative_biomass_index}{Skipjack tuna relative biomass index () \link{0.4711875, 2.244901}}
-\item{swordfish_eastern_pacific_exploitable_total_biomass}{Eastern Pacific exploitable swordfish total biomass () \link{31510.0, 67070.0}}
-\item{swordfish_western_central_pacific_exploitable_total_biomass}{Western Central Pacific exploitable swordfish total biomass () \link{60200.0, 121300.0}}
-\item{yellowfin_tuna_recruitment}{Yellowfin tuna recruitment () \link{286403.0, 1319180.0}}
-\item{yellowfin_tuna_spawning_stock_biomass_index}{Yellowfin tuna spawning stock biomass index () \link{2403.63, 9929.03}}
-\item{albacore_tuna_recruitment_se}{Albacore tuna recruitment standard deviation () \link{38513.9, 120441.0}}
-\item{albacore_tuna_spawning_stock_biomass_se}{Albacore tuna spawning stock biomass standard deviation () \link{27236.0, 55372.7}}
-\item{bigeye_tuna_recruitment_se}{Bigeye tuna recruitment standard deviation () \link{2058.0, 8498.0}}
-\item{bigeye_tuna_spawning_stock_biomass_se}{Bigeye tuna spawning stock biomass standard deviation () \link{23433.0, 76812.0}}
-\item{bluefin_tuna_recruitment_se}{Bluefin tuna recruitment standard deviation () \link{620.0, 5302.0}}
-\item{bluefin_tuna_spawning_stock_biomass_se}{Bluefin tuna spawning stock biomass standard deviation () \link{2337.0, 58187.0}}
-\item{blue_marlin_recruitment_se}{Blue marlin recruitment standard deviation () \link{37.27, 221.6}}
-\item{blue_marlin_spawning_stock_biomass_se}{Blue marlin spawning stock biomass standard deviation () \link{2576.58, 19780.7}}
-\item{skipjack_tuna_recruitment_relative_index_se}{Skipjack tuna recruitment index standard deviation () \link{0.0, 0.0}}
-\item{skipjack_tuna_relative_biomass_index_se}{Skipjack tuna relative biomass index standard deviation () \link{0.0, 0.0}}
-\item{swordfish_eastern_pacific_exploitable_total_biomass_se}{Eastern Pacific exploitable swordfish total biomass standard deviation () \link{11050.0, 22520.0}}
-\item{swordfish_western_central_pacific_exploitable_total_biomass_se}{Western Central Pacific exploitable swordfish total biomass standard deviation () \link{14810.0, 30900.0}}
-\item{yellowfin_tuna_recruitment_se}{Yellowfin tuna recruitment standard deviation () \link{21845.0, 257967.0}}
-\item{yellowfin_tuna_spawning_stock_biomass_index_se}{Yellowfin tuna spawning stock biomass index standard deviation () \link{128.5, 461.61}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-5.99616E8, 1.4516064E9]}
+\item{albacore_tuna_recruitment}{Albacore tuna recruitment () [126232.0, 307587.0]}
+\item{albacore_tuna_spawning_stock_biomass}{Albacore tuna spawning stock biomass () [69427.6, 139481.0]}
+\item{bigeye_tuna_recruitment}{Bigeye tuna recruitment () [9697.0, 39444.0]}
+\item{bigeye_tuna_spawning_stock_biomass}{Bigeye tuna spawning stock biomass () [72327.0, 271970.0]}
+\item{bluefin_tuna_recruitment}{Bluefin tuna recruitment () [3465.0, 34011.0]}
+\item{bluefin_tuna_spawning_stock_biomass}{Bluefin tuna spawning stock biomass () [11445.0, 160005.0]}
+\item{blue_marlin_recruitment}{Blue marlin recruitment () [589.3, 1181.18]}
+\item{blue_marlin_spawning_stock_biomass}{Blue marlin spawning stock biomass () [20972.0, 71806.5]}
+\item{skipjack_tuna_recruitment_relative_index}{Skipjack tuna recruitment index () [0.4760525, 2.503387]}
+\item{skipjack_tuna_relative_biomass_index}{Skipjack tuna relative biomass index () [0.4711875, 2.244901]}
+\item{swordfish_eastern_pacific_exploitable_total_biomass}{Eastern Pacific exploitable swordfish total biomass () [31510.0, 67070.0]}
+\item{swordfish_western_central_pacific_exploitable_total_biomass}{Western Central Pacific exploitable swordfish total biomass () [60200.0, 121300.0]}
+\item{yellowfin_tuna_recruitment}{Yellowfin tuna recruitment () [286403.0, 1319180.0]}
+\item{yellowfin_tuna_spawning_stock_biomass_index}{Yellowfin tuna spawning stock biomass index () [2403.63, 9929.03]}
+\item{albacore_tuna_recruitment_se}{Albacore tuna recruitment standard deviation () [38513.9, 120441.0]}
+\item{albacore_tuna_spawning_stock_biomass_se}{Albacore tuna spawning stock biomass standard deviation () [27236.0, 55372.7]}
+\item{bigeye_tuna_recruitment_se}{Bigeye tuna recruitment standard deviation () [2058.0, 8498.0]}
+\item{bigeye_tuna_spawning_stock_biomass_se}{Bigeye tuna spawning stock biomass standard deviation () [23433.0, 76812.0]}
+\item{bluefin_tuna_recruitment_se}{Bluefin tuna recruitment standard deviation () [620.0, 5302.0]}
+\item{bluefin_tuna_spawning_stock_biomass_se}{Bluefin tuna spawning stock biomass standard deviation () [2337.0, 58187.0]}
+\item{blue_marlin_recruitment_se}{Blue marlin recruitment standard deviation () [37.27, 221.6]}
+\item{blue_marlin_spawning_stock_biomass_se}{Blue marlin spawning stock biomass standard deviation () [2576.58, 19780.7]}
+\item{skipjack_tuna_recruitment_relative_index_se}{Skipjack tuna recruitment index standard deviation () [0.0, 0.0]}
+\item{skipjack_tuna_relative_biomass_index_se}{Skipjack tuna relative biomass index standard deviation () [0.0, 0.0]}
+\item{swordfish_eastern_pacific_exploitable_total_biomass_se}{Eastern Pacific exploitable swordfish total biomass standard deviation () [11050.0, 22520.0]}
+\item{swordfish_western_central_pacific_exploitable_total_biomass_se}{Western Central Pacific exploitable swordfish total biomass standard deviation () [14810.0, 30900.0]}
+\item{yellowfin_tuna_recruitment_se}{Yellowfin tuna recruitment standard deviation () [21845.0, 257967.0]}
+\item{yellowfin_tuna_spawning_stock_biomass_index_se}{Yellowfin tuna spawning stock biomass index standard deviation () [128.5, 461.61]}
 }
 }
 \source{

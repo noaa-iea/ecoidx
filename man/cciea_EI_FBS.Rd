@@ -7,9 +7,9 @@
 \format{
 A data frame with 350 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{2.524608E8, 1.5463008E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [2.524608E8, 1.5463008E9]}
 \item{species_group}{Species Group () []}
-\item{relative_abundance}{Relative abundance (ln(abundance+1)) \link{0.0, 4.627175}}
+\item{relative_abundance}{Relative abundance (ln(abundance+1)) [0.0, 4.627175]}
 }
 }
 \source{

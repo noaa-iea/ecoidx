@@ -7,8 +7,8 @@
 \format{
 A data frame with 1452 rows and 2 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{-2.2089888E9, 1.6067808E9}}
-\item{PDO}{PDO Index () \link{-3.6, 3.51}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-2.2089888E9, 1.6067808E9]}
+\item{PDO}{PDO Index () [-3.6, 3.51]}
 }
 }
 \source{

@@ -7,8 +7,8 @@
 \format{
 A data frame with 50 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{6.31152E8, 1.3885344E9}}
-\item{personal_catch}{Personal Catch (tons) \link{22.825, 3579.716}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.31152E8, 1.3885344E9]}
+\item{personal_catch}{Personal Catch (tons) [22.825, 3579.716]}
 \item{use_type}{Use Type () []}
 }
 }

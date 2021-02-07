@@ -7,10 +7,10 @@
 \format{
 A data frame with 160 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{3.471552E8, 1.5147648E9}}
-\item{aug_mean_max}{August Mean Maximum stream temperature - SW Ecoregion (Annual Anomaly) \link{14.58439, 23.83713}}
-\item{Seup}{95\% credible interval upper bound (Annual Anomaly) \link{15.41781, 25.0773}}
-\item{Selo}{95\% credible interval lower bound (Annual Anomaly) \link{13.74289, 22.58993}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
+\item{aug_mean_max}{August Mean Maximum stream temperature - SW Ecoregion (Annual Anomaly) [14.58439, 23.83713]}
+\item{Seup}{95\% credible interval upper bound (Annual Anomaly) [15.41781, 25.0773]}
+\item{Selo}{95\% credible interval lower bound (Annual Anomaly) [13.74289, 22.58993]}
 \item{location}{Location () []}
 }
 }

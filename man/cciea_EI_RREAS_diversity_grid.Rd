@@ -7,16 +7,16 @@
 \format{
 A data frame with 87 rows and 10 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{6.31152E8, 1.5147648E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.31152E8, 1.5147648E9]}
 \item{taxa}{Taxa () []}
-\item{abundance}{Total Abundance (ln(CPUE + 1)) \link{1.390595, 12.2398}}
-\item{abundance_error}{Abundance Error (ln(CPUE + 1)) \link{1.744331, 13.34593}}
-\item{richness}{Species Richness (number of species) \link{1.5, 21.98214}}
-\item{richness_error}{Species Richness Error (number of species) \link{1.453661, 7.003501}}
-\item{diversity}{Shannon-Weaver Diversity () \link{0.0696443, 1.690858}}
-\item{diversity_error}{Shannon-Weaver Diversity Error () \link{0.1325587, 0.8078451}}
-\item{evenness}{Pielou's Evenness () \link{0.03166048, 0.7764255}}
-\item{evenness_error}{Pielou's Evenness Error () \link{0.05746754, 0.4711267}}
+\item{abundance}{Total Abundance (ln(CPUE + 1)) [1.390595, 12.2398]}
+\item{abundance_error}{Abundance Error (ln(CPUE + 1)) [1.744331, 13.34593]}
+\item{richness}{Species Richness (number of species) [1.5, 21.98214]}
+\item{richness_error}{Species Richness Error (number of species) [1.453661, 7.003501]}
+\item{diversity}{Shannon-Weaver Diversity () [0.0696443, 1.690858]}
+\item{diversity_error}{Shannon-Weaver Diversity Error () [0.1325587, 0.8078451]}
+\item{evenness}{Pielou's Evenness () [0.03166048, 0.7764255]}
+\item{evenness_error}{Pielou's Evenness Error () [0.05746754, 0.4711267]}
 }
 }
 \source{

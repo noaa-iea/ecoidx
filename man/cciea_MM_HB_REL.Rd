@@ -7,9 +7,9 @@
 \format{
 A data frame with 26 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{8.204544E8, 1.5463008E9}}
-\item{humpback_rate}{Relative humpback abundance (index) \link{0.0, 17.2}}
-\item{humpback_anomaly}{Relative humpback abundance anomaly (index) \link{-6.3381, 10.8619}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.204544E8, 1.5463008E9]}
+\item{humpback_rate}{Relative humpback abundance (index) [0.0, 17.2]}
+\item{humpback_anomaly}{Relative humpback abundance anomaly (index) [-6.3381, 10.8619]}
 }
 }
 \source{

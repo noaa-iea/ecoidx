@@ -7,8 +7,8 @@
 \format{
 A data frame with 1330 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{3.471552E8, 1.5147648E9}}
-\item{average_ESI}{Average ESI (Average ESI) \link{1.23, 9.44}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
+\item{average_ESI}{Average ESI (Average ESI) [1.23, 9.44]}
 \item{vessel_category}{Vessel category () []}
 }
 }

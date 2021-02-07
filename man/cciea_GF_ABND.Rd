@@ -7,9 +7,9 @@
 \format{
 A data frame with 130 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{1.0413792E9, 1.4200704E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0413792E9, 1.4200704E9]}
 \item{species_group}{Species Group () []}
-\item{abundance_index}{ (abundance index) \link{297.1226, 138590.0}}
+\item{abundance_index}{ (abundance index) [297.1226, 138590.0]}
 }
 }
 \source{

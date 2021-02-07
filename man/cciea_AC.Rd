@@ -7,101 +7,101 @@
 \format{
 A data frame with 75 rows and 95 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{-7.889184E8, 1.5463008E9}}
-\item{shipping_distance_traveled}{Commercial shipping - distance (Millions of km) \link{17.68676, 31.40238}}
-\item{finfish_production}{Finfish Aquaculture (1000s mt) \link{0.01149992, 10.43139}}
-\item{fertilizer_applications}{Nutrient Input (Normalized index) \link{-1.867494, 1.818944}}
-\item{oil_gas_production}{Oil And Gas Activity (Normalized index) \link{-2.330674, 1.640257}}
-\item{consumption_fish}{Seafood consumption (total) (Millions of metric tons) \link{4.482482, 10.0965}}
-\item{consumption_per_cap}{Seafood consumption (per capita) (kg) \link{20.95595, 39.28107}}
-\item{shellfish_production}{Shellfish Aquaculture (metric tons) \link{5.537665, 11.91462}}
-\item{habitat_modification}{Bottom trawl contact with seafloor habitat (weighted) (Weighted 1000s km) \link{76.4527, 373.32}}
-\item{groundfish_landings_wa}{Groundfish landings (w/o hake) WA (1000s metric tons) \link{3.268318, 30.97578}}
-\item{cps_landings_coastwide}{Coastal pelagic species (w/o squid) landings coastwide (1000s metric tons) \link{10.70933, 146.6982}}
-\item{cps_landings_ca}{Coastal pelagic species (w/o squid) landings CA (1000s metric tons) \link{9.179026, 116.2179}}
-\item{cps_landings_or}{Coastal pelagic species (w/o squid) landings OR (1000s metric tons) \link{0.1021285, 45.57781}}
-\item{cps_landings_wa}{Coastal pelagic species (w/o squid) landings WA (1000s metric tons) \link{0.4017799, 36.98861}}
-\item{crab_landings_coastwide}{Crab landings coastwide (1000s metric tons) \link{4.784686, 41.72063}}
-\item{crab_landings_ca}{Crab landings CA (1000s metric tons) \link{1.777526, 15.26942}}
-\item{crab_landings_or}{Crab landings OR (1000s metric tons) \link{1.720652, 15.29602}}
-\item{crab_landings_wa}{Crab landings WA (1000s metric tons) \link{1.286507, 14.47761}}
-\item{groundfish_landings_coastwide}{Groundfish landings (w/o hake) coastwide (1000s metric tons) \link{23.25325, 124.748}}
-\item{groundfish_landings_ca}{Groundfish landings (w/o hake) CA (1000s metric tons) \link{5.847436, 52.65097}}
-\item{groundfish_landings_or}{Groundfish landings (w/o hake) OR (1000s metric tons) \link{9.699529, 41.12125}}
-\item{hms_landings_coastwide}{Highly migratory species landings coastwide (1000s metric tons) \link{7.694124, 54.95815}}
-\item{hms_landings_ca}{Highly migratory species landings CA (1000s metric tons) \link{0.6113654, 52.93386}}
-\item{hms_landings_or}{Highly migratory species landings OR (1000s metric tons) \link{0.4897378, 4.879423}}
-\item{hms_landings_wa}{Highly migratory species landings WA (1000s metric tons) \link{0.06658192, 10.78039}}
-\item{squid_landings_coastwide}{Market squid landings coastwide (1000s metric tons) \link{0.9934503, 130.8523}}
-\item{squid_landings_ca}{Market squid landings CA (1000s metric tons) \link{0.5640231, 130.8447}}
-\item{squid_landings_or}{Market squid landings OR (1000s metric tons) \link{0.0, 3.196166}}
-\item{other_species_landings_coastwide}{Other species landings coastwide (1000s metric tons) \link{6.098473, 37.44385}}
-\item{other_species_landings_ca}{Other species landings CA (1000s metric tons) \link{2.922818, 26.98719}}
-\item{other_species_landings_or}{Other species landings OR (1000s metric tons) \link{0.4558114, 4.70202}}
-\item{other_species_landings_wa}{Other species landings WA (1000s metric tons) \link{1.004735, 7.22235}}
-\item{total_fisheries_landings_wa}{Total Fisheries landings WA (1000s metric tons) \link{72.43497, 177.1616}}
-\item{pacific_hake_landings_coastwide}{Pacific hake landings coastwide (1000s metric tons) \link{69.49753, 354.2313}}
-\item{pacific_hake_landings_ca}{Pacific hake landings CA (1000s metric tons) \link{0.003771167, 135.1784}}
-\item{pacific_hake_landings_or}{Pacific hake landings OR (1000s metric tons) \link{14.8115, 241.9501}}
-\item{pacific_hake_landings_wa}{Pacific hake landings WA (1000s metric tons) \link{6.960765, 142.5702}}
-\item{recreational_landings_coastwide}{Recreational landings coastwide (1000s metric tons) \link{5.09321, 8.838449}}
-\item{recreational_landings_ca}{Recreational landings CA (1000s metric tons) \link{3.214205, 6.593854}}
-\item{recreational_landings_or}{Recreational landings OR (1000s metric tons) \link{0.555653, 1.268657}}
-\item{recreational_landings_wa}{Recreational landings WA (1000s metric tons) \link{0.4506299, 1.24569}}
-\item{salmon_com_landings_coastwide}{Salmon commercial landings coastwide (1000s metric tons) \link{5.131682, 37.98297}}
-\item{salmon_com_landings_ca}{Salmon commercial landings CA (1000s metric tons) \link{6.09329E-4, 7.70475}}
-\item{salmon_com_landings_or}{Salmon commercial landings OR (1000s metric tons) \link{0.4526994, 8.078773}}
-\item{salmon_com_landings_wa}{Salmon commercial landings WA (1000s metric tons) \link{3.318938, 29.93654}}
-\item{salmon_rec_landings_coastwide}{Salmon recreational landings coastwide (1000s fish) \link{47.0, 774.0}}
-\item{salmon_rec_landings_ca}{Salmon recreational landings CA (1000s fish) \link{0.0, 398.0}}
-\item{salmon_rec_landings_or}{Salmon recreational landings OR (1000s fish) \link{6.0, 305.0}}
-\item{salmon_rec_landings_wa}{Salmon recreational landings WA (1000s fish) \link{23.0, 323.0}}
-\item{shrimp_landings_coastwide}{Shrimp landings coastwide (1000s metric tons) \link{5.660932, 47.73951}}
-\item{shrimp_landings_ca}{Shrimp landings CA (1000s metric tons) \link{0.5452471, 9.112365}}
-\item{shrimp_landings_or}{Shrimp landings OR (1000s metric tons) \link{2.249487, 24.30083}}
-\item{shrimp_landings_wa}{Shrimp landings WA (1000s metric tons) \link{1.424119, 19.11796}}
-\item{total_fisheries_landings_coastwide}{Total Fisheries landings coastwide (1000s metric tons) \link{337.4346, 569.5687}}
-\item{total_fisheries_landings_ca}{Total Fisheries landings CA (1000s metric tons) \link{51.71044, 302.277}}
-\item{total_fisheries_landings_or}{Total Fisheries landings OR (1000s metric tons) \link{68.72131, 290.9759}}
-\item{groundfish_revenue_coastwide}{Groundfish revenue (w/o hake) coastwide (Millions $ (year 2015)) \link{52.97257, 163.5798}}
-\item{cps_revenue_coastwide}{Coastal pelagic species (w/o squid) revenue coastwide (Millions $ (year 2015)) \link{2.481962, 67.00124}}
-\item{shrimp_revenue_coastwide}{Shrimp revenue coastwide (Millions $ (year 2015)) \link{15.77684, 109.9221}}
-\item{salmon_revenue_coastwide}{Salmon revenue coastwide (Millions $ (year 2015)) \link{22.38714, 335.2793}}
-\item{other_species_revenue_coastwide}{Other species revenue coastwide (Millions $ (year 2015)) \link{28.03679, 105.3409}}
-\item{pacific_hake_revenue_coastwide}{Pacific hake revenue coastwide (Millions $ (year 2015)) \link{0.9633493, 74.55263}}
-\item{squid_revenue_coastwide}{Market squid revenue coastwide (Millions $ (year 2015)) \link{1.237159, 83.42967}}
-\item{crab_revenue_coastwide}{Crab revenue coastwide (Millions $ (year 2015)) \link{28.39146, 247.6923}}
-\item{hms_revenue_coastwide}{Highly migratory species revenue coastwide (Millions $ (year 2015)) \link{24.45324, 151.4093}}
-\item{total_fisheries_revenue_coastwide}{Commercial fisheries revenue coastwide (Millions $ (year 2015)) \link{361.1931, 858.0573}}
-\item{groundfish_revenue_ca}{Groundfish revenue (w/o hake) CA (Millions $ (year 2015)) \link{17.22728, 73.89497}}
-\item{cps_revenue_ca}{Coastal pelagic species (w/o squid) revenue CA (Millions $ (year 2015)) \link{2.157374, 64.81139}}
-\item{shrimp_revenue_ca}{Shrimp revenue CA (Millions $ (year 2015)) \link{4.883509, 19.83477}}
-\item{salmon_revenue_ca}{Salmon revenue CA (Millions $ (year 2015)) \link{0.0, 90.68086}}
-\item{other_species_revenue_ca}{Other species revenue CA (Millions $ (year 2015)) \link{22.35475, 81.14681}}
-\item{pacific_hake_revenue_ca}{Pacific hake revenue CA (Millions $ (year 2015)) \link{1.7603E-4, 2.298333}}
-\item{squid_revenue_ca}{Market squid revenue CA (Millions $ (year 2015)) \link{0.7450277, 83.42967}}
-\item{crab_revenue_ca}{Crab revenue CA (Millions $ (year 2015)) \link{10.57268, 109.2162}}
-\item{hms_revenue_ca}{Highly migratory species revenue CA (Millions $ (year 2015)) \link{2.774751, 145.0685}}
-\item{total_fisheries_revenue_ca}{Commercial fisheries revenue CA (Millions $ (year 2015)) \link{134.3722, 363.4424}}
-\item{groundfish_revenue_or}{Groundfish revenue (w/o hake) OR (Millions $ (year 2015)) \link{19.44821, 54.411}}
-\item{cps_revenue_or}{Coastal pelagic species (w/o squid) revenue OR (Millions $ (year 2015)) \link{0.006917352, 10.19605}}
-\item{shrimp_revenue_or}{Shrimp revenue OR (Millions $ (year 2015)) \link{5.57979, 68.78595}}
-\item{salmon_revenue_or}{Salmon revenue OR (Millions $ (year 2015)) \link{2.516938, 84.31818}}
-\item{other_species_revenue_or}{Other species revenue OR (Millions $ (year 2015)) \link{1.256084, 10.05517}}
-\item{pacific_hake_revenue_or}{Pacific hake revenue OR (Millions $ (year 2015)) \link{1.79066E-4, 58.99173}}
-\item{squid_revenue_or}{Market squid revenue OR (Millions $ (year 2015)) \link{0.0, 3.12914}}
-\item{crab_revenue_or}{Crab revenue OR (Millions $ (year 2015)) \link{10.856, 75.87123}}
-\item{hms_revenue_or}{Highly migratory species revenue OR (Millions $ (year 2015)) \link{1.828291, 21.32934}}
-\item{total_fisheries_revenue_or}{Commercial fisheries revenue OR (Millions $ (year 2015)) \link{82.86972, 211.2898}}
-\item{groundfish_revenue_wa}{Groundfish revenue (w/o hake) WA (Millions $ (year 2015)) \link{8.452095, 41.17684}}
-\item{cps_revenue_wa}{Coastal pelagic species (w/o squid) revenue WA (Millions $ (year 2015)) \link{0.2302786, 9.370674}}
-\item{shrimp_revenue_wa}{Shrimp revenue WA (Millions $ (year 2015)) \link{4.136456, 35.50843}}
-\item{salmon_revenue_wa}{Salmon revenue WA (Millions $ (year 2015)) \link{7.821066, 182.577}}
-\item{other_species_revenue_wa}{Other species revenue WA (Millions $ (year 2015)) \link{2.017696, 17.0246}}
-\item{pacific_hake_revenue_wa}{Pacific hake revenue WA (Millions $ (year 2015)) \link{0.02971284, 38.29011}}
-\item{crab_revenue_wa}{Crab revenue WA (Millions $ (year 2015)) \link{6.962783, 104.1098}}
-\item{hms_revenue_wa}{Highly migratory species revenue WA (Millions $ (year 2015)) \link{0.2235326, 31.69628}}
-\item{total_fisheries_revenue_wa}{Commercial Fisheries revenue WA (Millions $ (year 2015)) \link{127.8284, 306.4503}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-7.889184E8, 1.5463008E9]}
+\item{shipping_distance_traveled}{Commercial shipping - distance (Millions of km) [17.68676, 31.40238]}
+\item{finfish_production}{Finfish Aquaculture (1000s mt) [0.01149992, 10.43139]}
+\item{fertilizer_applications}{Nutrient Input (Normalized index) [-1.867494, 1.818944]}
+\item{oil_gas_production}{Oil And Gas Activity (Normalized index) [-2.330674, 1.640257]}
+\item{consumption_fish}{Seafood consumption (total) (Millions of metric tons) [4.482482, 10.0965]}
+\item{consumption_per_cap}{Seafood consumption (per capita) (kg) [20.95595, 39.28107]}
+\item{shellfish_production}{Shellfish Aquaculture (metric tons) [5.537665, 11.91462]}
+\item{habitat_modification}{Bottom trawl contact with seafloor habitat (weighted) (Weighted 1000s km) [76.4527, 373.32]}
+\item{groundfish_landings_wa}{Groundfish landings (w/o hake) WA (1000s metric tons) [3.268318, 30.97578]}
+\item{cps_landings_coastwide}{Coastal pelagic species (w/o squid) landings coastwide (1000s metric tons) [10.70933, 146.6982]}
+\item{cps_landings_ca}{Coastal pelagic species (w/o squid) landings CA (1000s metric tons) [9.179026, 116.2179]}
+\item{cps_landings_or}{Coastal pelagic species (w/o squid) landings OR (1000s metric tons) [0.1021285, 45.57781]}
+\item{cps_landings_wa}{Coastal pelagic species (w/o squid) landings WA (1000s metric tons) [0.4017799, 36.98861]}
+\item{crab_landings_coastwide}{Crab landings coastwide (1000s metric tons) [4.784686, 41.72063]}
+\item{crab_landings_ca}{Crab landings CA (1000s metric tons) [1.777526, 15.26942]}
+\item{crab_landings_or}{Crab landings OR (1000s metric tons) [1.720652, 15.29602]}
+\item{crab_landings_wa}{Crab landings WA (1000s metric tons) [1.286507, 14.47761]}
+\item{groundfish_landings_coastwide}{Groundfish landings (w/o hake) coastwide (1000s metric tons) [23.25325, 124.748]}
+\item{groundfish_landings_ca}{Groundfish landings (w/o hake) CA (1000s metric tons) [5.847436, 52.65097]}
+\item{groundfish_landings_or}{Groundfish landings (w/o hake) OR (1000s metric tons) [9.699529, 41.12125]}
+\item{hms_landings_coastwide}{Highly migratory species landings coastwide (1000s metric tons) [7.694124, 54.95815]}
+\item{hms_landings_ca}{Highly migratory species landings CA (1000s metric tons) [0.6113654, 52.93386]}
+\item{hms_landings_or}{Highly migratory species landings OR (1000s metric tons) [0.4897378, 4.879423]}
+\item{hms_landings_wa}{Highly migratory species landings WA (1000s metric tons) [0.06658192, 10.78039]}
+\item{squid_landings_coastwide}{Market squid landings coastwide (1000s metric tons) [0.9934503, 130.8523]}
+\item{squid_landings_ca}{Market squid landings CA (1000s metric tons) [0.5640231, 130.8447]}
+\item{squid_landings_or}{Market squid landings OR (1000s metric tons) [0.0, 3.196166]}
+\item{other_species_landings_coastwide}{Other species landings coastwide (1000s metric tons) [6.098473, 37.44385]}
+\item{other_species_landings_ca}{Other species landings CA (1000s metric tons) [2.922818, 26.98719]}
+\item{other_species_landings_or}{Other species landings OR (1000s metric tons) [0.4558114, 4.70202]}
+\item{other_species_landings_wa}{Other species landings WA (1000s metric tons) [1.004735, 7.22235]}
+\item{total_fisheries_landings_wa}{Total Fisheries landings WA (1000s metric tons) [72.43497, 177.1616]}
+\item{pacific_hake_landings_coastwide}{Pacific hake landings coastwide (1000s metric tons) [69.49753, 354.2313]}
+\item{pacific_hake_landings_ca}{Pacific hake landings CA (1000s metric tons) [0.003771167, 135.1784]}
+\item{pacific_hake_landings_or}{Pacific hake landings OR (1000s metric tons) [14.8115, 241.9501]}
+\item{pacific_hake_landings_wa}{Pacific hake landings WA (1000s metric tons) [6.960765, 142.5702]}
+\item{recreational_landings_coastwide}{Recreational landings coastwide (1000s metric tons) [5.09321, 8.838449]}
+\item{recreational_landings_ca}{Recreational landings CA (1000s metric tons) [3.214205, 6.593854]}
+\item{recreational_landings_or}{Recreational landings OR (1000s metric tons) [0.555653, 1.268657]}
+\item{recreational_landings_wa}{Recreational landings WA (1000s metric tons) [0.4506299, 1.24569]}
+\item{salmon_com_landings_coastwide}{Salmon commercial landings coastwide (1000s metric tons) [5.131682, 37.98297]}
+\item{salmon_com_landings_ca}{Salmon commercial landings CA (1000s metric tons) [6.09329E-4, 7.70475]}
+\item{salmon_com_landings_or}{Salmon commercial landings OR (1000s metric tons) [0.4526994, 8.078773]}
+\item{salmon_com_landings_wa}{Salmon commercial landings WA (1000s metric tons) [3.318938, 29.93654]}
+\item{salmon_rec_landings_coastwide}{Salmon recreational landings coastwide (1000s fish) [47.0, 774.0]}
+\item{salmon_rec_landings_ca}{Salmon recreational landings CA (1000s fish) [0.0, 398.0]}
+\item{salmon_rec_landings_or}{Salmon recreational landings OR (1000s fish) [6.0, 305.0]}
+\item{salmon_rec_landings_wa}{Salmon recreational landings WA (1000s fish) [23.0, 323.0]}
+\item{shrimp_landings_coastwide}{Shrimp landings coastwide (1000s metric tons) [5.660932, 47.73951]}
+\item{shrimp_landings_ca}{Shrimp landings CA (1000s metric tons) [0.5452471, 9.112365]}
+\item{shrimp_landings_or}{Shrimp landings OR (1000s metric tons) [2.249487, 24.30083]}
+\item{shrimp_landings_wa}{Shrimp landings WA (1000s metric tons) [1.424119, 19.11796]}
+\item{total_fisheries_landings_coastwide}{Total Fisheries landings coastwide (1000s metric tons) [337.4346, 569.5687]}
+\item{total_fisheries_landings_ca}{Total Fisheries landings CA (1000s metric tons) [51.71044, 302.277]}
+\item{total_fisheries_landings_or}{Total Fisheries landings OR (1000s metric tons) [68.72131, 290.9759]}
+\item{groundfish_revenue_coastwide}{Groundfish revenue (w/o hake) coastwide (Millions $ (year 2015)) [52.97257, 163.5798]}
+\item{cps_revenue_coastwide}{Coastal pelagic species (w/o squid) revenue coastwide (Millions $ (year 2015)) [2.481962, 67.00124]}
+\item{shrimp_revenue_coastwide}{Shrimp revenue coastwide (Millions $ (year 2015)) [15.77684, 109.9221]}
+\item{salmon_revenue_coastwide}{Salmon revenue coastwide (Millions $ (year 2015)) [22.38714, 335.2793]}
+\item{other_species_revenue_coastwide}{Other species revenue coastwide (Millions $ (year 2015)) [28.03679, 105.3409]}
+\item{pacific_hake_revenue_coastwide}{Pacific hake revenue coastwide (Millions $ (year 2015)) [0.9633493, 74.55263]}
+\item{squid_revenue_coastwide}{Market squid revenue coastwide (Millions $ (year 2015)) [1.237159, 83.42967]}
+\item{crab_revenue_coastwide}{Crab revenue coastwide (Millions $ (year 2015)) [28.39146, 247.6923]}
+\item{hms_revenue_coastwide}{Highly migratory species revenue coastwide (Millions $ (year 2015)) [24.45324, 151.4093]}
+\item{total_fisheries_revenue_coastwide}{Commercial fisheries revenue coastwide (Millions $ (year 2015)) [361.1931, 858.0573]}
+\item{groundfish_revenue_ca}{Groundfish revenue (w/o hake) CA (Millions $ (year 2015)) [17.22728, 73.89497]}
+\item{cps_revenue_ca}{Coastal pelagic species (w/o squid) revenue CA (Millions $ (year 2015)) [2.157374, 64.81139]}
+\item{shrimp_revenue_ca}{Shrimp revenue CA (Millions $ (year 2015)) [4.883509, 19.83477]}
+\item{salmon_revenue_ca}{Salmon revenue CA (Millions $ (year 2015)) [0.0, 90.68086]}
+\item{other_species_revenue_ca}{Other species revenue CA (Millions $ (year 2015)) [22.35475, 81.14681]}
+\item{pacific_hake_revenue_ca}{Pacific hake revenue CA (Millions $ (year 2015)) [1.7603E-4, 2.298333]}
+\item{squid_revenue_ca}{Market squid revenue CA (Millions $ (year 2015)) [0.7450277, 83.42967]}
+\item{crab_revenue_ca}{Crab revenue CA (Millions $ (year 2015)) [10.57268, 109.2162]}
+\item{hms_revenue_ca}{Highly migratory species revenue CA (Millions $ (year 2015)) [2.774751, 145.0685]}
+\item{total_fisheries_revenue_ca}{Commercial fisheries revenue CA (Millions $ (year 2015)) [134.3722, 363.4424]}
+\item{groundfish_revenue_or}{Groundfish revenue (w/o hake) OR (Millions $ (year 2015)) [19.44821, 54.411]}
+\item{cps_revenue_or}{Coastal pelagic species (w/o squid) revenue OR (Millions $ (year 2015)) [0.006917352, 10.19605]}
+\item{shrimp_revenue_or}{Shrimp revenue OR (Millions $ (year 2015)) [5.57979, 68.78595]}
+\item{salmon_revenue_or}{Salmon revenue OR (Millions $ (year 2015)) [2.516938, 84.31818]}
+\item{other_species_revenue_or}{Other species revenue OR (Millions $ (year 2015)) [1.256084, 10.05517]}
+\item{pacific_hake_revenue_or}{Pacific hake revenue OR (Millions $ (year 2015)) [1.79066E-4, 58.99173]}
+\item{squid_revenue_or}{Market squid revenue OR (Millions $ (year 2015)) [0.0, 3.12914]}
+\item{crab_revenue_or}{Crab revenue OR (Millions $ (year 2015)) [10.856, 75.87123]}
+\item{hms_revenue_or}{Highly migratory species revenue OR (Millions $ (year 2015)) [1.828291, 21.32934]}
+\item{total_fisheries_revenue_or}{Commercial fisheries revenue OR (Millions $ (year 2015)) [82.86972, 211.2898]}
+\item{groundfish_revenue_wa}{Groundfish revenue (w/o hake) WA (Millions $ (year 2015)) [8.452095, 41.17684]}
+\item{cps_revenue_wa}{Coastal pelagic species (w/o squid) revenue WA (Millions $ (year 2015)) [0.2302786, 9.370674]}
+\item{shrimp_revenue_wa}{Shrimp revenue WA (Millions $ (year 2015)) [4.136456, 35.50843]}
+\item{salmon_revenue_wa}{Salmon revenue WA (Millions $ (year 2015)) [7.821066, 182.577]}
+\item{other_species_revenue_wa}{Other species revenue WA (Millions $ (year 2015)) [2.017696, 17.0246]}
+\item{pacific_hake_revenue_wa}{Pacific hake revenue WA (Millions $ (year 2015)) [0.02971284, 38.29011]}
+\item{crab_revenue_wa}{Crab revenue WA (Millions $ (year 2015)) [6.962783, 104.1098]}
+\item{hms_revenue_wa}{Highly migratory species revenue WA (Millions $ (year 2015)) [0.2235326, 31.69628]}
+\item{total_fisheries_revenue_wa}{Commercial Fisheries revenue WA (Millions $ (year 2015)) [127.8284, 306.4503]}
 }
 }
 \source{

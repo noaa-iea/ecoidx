@@ -7,9 +7,9 @@
 \format{
 A data frame with 4260 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{-6.31152E8, 1.6067808E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-6.31152E8, 1.6067808E9]}
 \item{location}{Location () []}
-\item{dissolved_oxygen}{ (ml/L) \link{0.62, 6.66876}}
+\item{dissolved_oxygen}{ (ml/L) [0.62, 6.66876]}
 }
 }
 \source{

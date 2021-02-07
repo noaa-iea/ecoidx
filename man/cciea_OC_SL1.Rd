@@ -7,12 +7,12 @@
 \format{
 A data frame with 588 rows and 7 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{-9.34848E7, 1.4501376E9}}
-\item{sea_level}{Sea Level (mm) \link{2522.033, 3236.0}}
-\item{std_error}{Standard Error (mm) \link{0.0, 0.0}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.34848E7, 1.4501376E9]}
+\item{sea_level}{Sea Level (mm) [2522.033, 3236.0]}
+\item{std_error}{Standard Error (mm) [0.0, 0.0]}
 \item{station}{ () []}
-\item{latitude}{Latitude (degrees_north) \link{44.6, 44.6}}
-\item{longitude}{Longitude (degrees_east) \link{124.0, 124.0}}
+\item{latitude}{Latitude (degrees_north) [44.6, 44.6]}
+\item{longitude}{Longitude (degrees_east) [124.0, 124.0]}
 \item{depth}{Depth (m) []}
 }
 }

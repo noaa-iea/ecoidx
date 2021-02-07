@@ -2,7 +2,7 @@
 % Please edit documentation in R/PlotTimeSeries.R
 \name{PlotTimeSeries}
 \alias{PlotTimeSeries}
-\title{Plot time series}
+\title{Plot time series (original)}
 \usage{
 PlotTimeSeries(
   dframe = NA,
@@ -56,23 +56,23 @@ PlotTimeSeries(
 \arguments{
 \item{dframe}{expected column names are: "year", "index", "timeseries", "metric","SEup", "SElo", "SE"}
 
-\item{X}{...}
+\item{X}{column name, typically "year", to plot on x axis}
 
-\item{Y}{...}
+\item{Y}{column name, typically "index", to plot on y axis}
 
 \item{Y2}{...}
 
 \item{Y.outlier}{...}
 
-\item{threshold}{...}
+\item{threshold}{threshold value}
 
 \item{threshold.loc}{...}
 
 \item{threshold.correct}{...}
 
-\item{sig.trend}{...}
+\item{sig.trend}{significant trend}
 
-\item{sig.mean}{...}
+\item{sig.mean}{significant mean}
 
 \item{stats.years}{...}
 

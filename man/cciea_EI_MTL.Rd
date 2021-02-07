@@ -7,11 +7,11 @@
 \format{
 A data frame with 48 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{1.0413792E9, 1.5147648E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0413792E9, 1.5147648E9]}
 \item{population}{Population () []}
-\item{mean_trophic_level}{ () \link{3.614351, 3.773371}}
-\item{Seup}{Confidence Interval, Upper () \link{3.623129, 3.786633}}
-\item{Selo}{Confidence Interval, Lower () \link{3.605017, 3.760109}}
+\item{mean_trophic_level}{ () [3.614351, 3.773371]}
+\item{Seup}{Confidence Interval, Upper () [3.623129, 3.786633]}
+\item{Selo}{Confidence Interval, Lower () [3.605017, 3.760109]}
 }
 }
 \source{

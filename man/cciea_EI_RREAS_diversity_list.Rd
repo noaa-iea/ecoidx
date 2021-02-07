@@ -7,13 +7,13 @@
 \format{
 A data frame with 348 rows and 7 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{6.31152E8, 1.5147648E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.31152E8, 1.5147648E9]}
 \item{metric}{ () []}
 \item{timeseries}{ () []}
-\item{data}{ () \link{0.03166048, 21.98214}}
-\item{error}{ () \link{0.05746754, 13.34593}}
-\item{SEup}{ () \link{0.08912803, 27.93191}}
-\item{SElo}{ () \link{-1.839871, 16.03238}}
+\item{data}{ () [0.03166048, 21.98214]}
+\item{error}{ () [0.05746754, 13.34593]}
+\item{SEup}{ () [0.08912803, 27.93191]}
+\item{SElo}{ () [-1.839871, 16.03238]}
 }
 }
 \source{

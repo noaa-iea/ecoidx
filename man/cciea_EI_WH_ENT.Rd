@@ -7,9 +7,9 @@
 \format{
 A data frame with 200 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{9.466848E8, 1.5463008E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [9.466848E8, 1.5463008E9]}
 \item{species}{Species () []}
-\item{number_of_entanglements}{Number of Entanglements () \link{0.0, 55.0}}
+\item{number_of_entanglements}{Number of Entanglements () [0.0, 55.0]}
 }
 }
 \source{

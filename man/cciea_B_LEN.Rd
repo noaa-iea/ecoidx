@@ -7,8 +7,8 @@
 \format{
 A data frame with 27 rows and 2 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{7.258464E8, 1.5463008E9}}
-\item{fork_length}{Fork Length (mm) \link{86.0, 152.0}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [7.258464E8, 1.5463008E9]}
+\item{fork_length}{Fork Length (mm) [86.0, 152.0]}
 }
 }
 \source{

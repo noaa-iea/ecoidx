@@ -7,8 +7,8 @@
 \format{
 A data frame with 455 rows and 4 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{1.1045376E9, 1.4832288E9}}
-\item{fishing_engagement}{Commercial fishing engagement index (Index) \link{-0.19823, 16.83776}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.1045376E9, 1.4832288E9]}
+\item{fishing_engagement}{Commercial fishing engagement index (Index) [-0.19823, 16.83776]}
 \item{location}{Location () []}
 \item{region}{Region () []}
 }

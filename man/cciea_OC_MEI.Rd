@@ -7,8 +7,8 @@
 \format{
 A data frame with 827 rows and 2 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{-6.31152E8, 1.5410304E9}}
-\item{MEI}{MEI Index () \link{-2.247, 3.008}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-6.31152E8, 1.5410304E9]}
+\item{MEI}{MEI Index () [-2.247, 3.008]}
 }
 }
 \source{

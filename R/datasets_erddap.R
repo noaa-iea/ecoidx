@@ -5,101 +5,101 @@
 #'
 #' @format A data frame with 75 rows and 95 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-7.889184E8, 1.5463008E9]}
-#'   \item{shipping_distance_traveled}{Commercial shipping - distance (Millions of km) [17.68676, 31.40238]}
-#'   \item{finfish_production}{Finfish Aquaculture (1000s mt) [0.01149992, 10.43139]}
-#'   \item{fertilizer_applications}{Nutrient Input (Normalized index) [-1.867494, 1.818944]}
-#'   \item{oil_gas_production}{Oil And Gas Activity (Normalized index) [-2.330674, 1.640257]}
-#'   \item{consumption_fish}{Seafood consumption (total) (Millions of metric tons) [4.482482, 10.0965]}
-#'   \item{consumption_per_cap}{Seafood consumption (per capita) (kg) [20.95595, 39.28107]}
-#'   \item{shellfish_production}{Shellfish Aquaculture (metric tons) [5.537665, 11.91462]}
-#'   \item{habitat_modification}{Bottom trawl contact with seafloor habitat (weighted) (Weighted 1000s km) [76.4527, 373.32]}
-#'   \item{groundfish_landings_wa}{Groundfish landings (w/o hake) WA (1000s metric tons) [3.268318, 30.97578]}
-#'   \item{cps_landings_coastwide}{Coastal pelagic species (w/o squid) landings coastwide (1000s metric tons) [10.70933, 146.6982]}
-#'   \item{cps_landings_ca}{Coastal pelagic species (w/o squid) landings CA (1000s metric tons) [9.179026, 116.2179]}
-#'   \item{cps_landings_or}{Coastal pelagic species (w/o squid) landings OR (1000s metric tons) [0.1021285, 45.57781]}
-#'   \item{cps_landings_wa}{Coastal pelagic species (w/o squid) landings WA (1000s metric tons) [0.4017799, 36.98861]}
-#'   \item{crab_landings_coastwide}{Crab landings coastwide (1000s metric tons) [4.784686, 41.72063]}
-#'   \item{crab_landings_ca}{Crab landings CA (1000s metric tons) [1.777526, 15.26942]}
-#'   \item{crab_landings_or}{Crab landings OR (1000s metric tons) [1.720652, 15.29602]}
-#'   \item{crab_landings_wa}{Crab landings WA (1000s metric tons) [1.286507, 14.47761]}
-#'   \item{groundfish_landings_coastwide}{Groundfish landings (w/o hake) coastwide (1000s metric tons) [23.25325, 124.748]}
-#'   \item{groundfish_landings_ca}{Groundfish landings (w/o hake) CA (1000s metric tons) [5.847436, 52.65097]}
-#'   \item{groundfish_landings_or}{Groundfish landings (w/o hake) OR (1000s metric tons) [9.699529, 41.12125]}
-#'   \item{hms_landings_coastwide}{Highly migratory species landings coastwide (1000s metric tons) [7.694124, 54.95815]}
-#'   \item{hms_landings_ca}{Highly migratory species landings CA (1000s metric tons) [0.6113654, 52.93386]}
-#'   \item{hms_landings_or}{Highly migratory species landings OR (1000s metric tons) [0.4897378, 4.879423]}
-#'   \item{hms_landings_wa}{Highly migratory species landings WA (1000s metric tons) [0.06658192, 10.78039]}
-#'   \item{squid_landings_coastwide}{Market squid landings coastwide (1000s metric tons) [0.9934503, 130.8523]}
-#'   \item{squid_landings_ca}{Market squid landings CA (1000s metric tons) [0.5640231, 130.8447]}
-#'   \item{squid_landings_or}{Market squid landings OR (1000s metric tons) [0.0, 3.196166]}
-#'   \item{other_species_landings_coastwide}{Other species landings coastwide (1000s metric tons) [6.098473, 37.44385]}
-#'   \item{other_species_landings_ca}{Other species landings CA (1000s metric tons) [2.922818, 26.98719]}
-#'   \item{other_species_landings_or}{Other species landings OR (1000s metric tons) [0.4558114, 4.70202]}
-#'   \item{other_species_landings_wa}{Other species landings WA (1000s metric tons) [1.004735, 7.22235]}
-#'   \item{total_fisheries_landings_wa}{Total Fisheries landings WA (1000s metric tons) [72.43497, 177.1616]}
-#'   \item{pacific_hake_landings_coastwide}{Pacific hake landings coastwide (1000s metric tons) [69.49753, 354.2313]}
-#'   \item{pacific_hake_landings_ca}{Pacific hake landings CA (1000s metric tons) [0.003771167, 135.1784]}
-#'   \item{pacific_hake_landings_or}{Pacific hake landings OR (1000s metric tons) [14.8115, 241.9501]}
-#'   \item{pacific_hake_landings_wa}{Pacific hake landings WA (1000s metric tons) [6.960765, 142.5702]}
-#'   \item{recreational_landings_coastwide}{Recreational landings coastwide (1000s metric tons) [5.09321, 8.838449]}
-#'   \item{recreational_landings_ca}{Recreational landings CA (1000s metric tons) [3.214205, 6.593854]}
-#'   \item{recreational_landings_or}{Recreational landings OR (1000s metric tons) [0.555653, 1.268657]}
-#'   \item{recreational_landings_wa}{Recreational landings WA (1000s metric tons) [0.4506299, 1.24569]}
-#'   \item{salmon_com_landings_coastwide}{Salmon commercial landings coastwide (1000s metric tons) [5.131682, 37.98297]}
-#'   \item{salmon_com_landings_ca}{Salmon commercial landings CA (1000s metric tons) [6.09329E-4, 7.70475]}
-#'   \item{salmon_com_landings_or}{Salmon commercial landings OR (1000s metric tons) [0.4526994, 8.078773]}
-#'   \item{salmon_com_landings_wa}{Salmon commercial landings WA (1000s metric tons) [3.318938, 29.93654]}
-#'   \item{salmon_rec_landings_coastwide}{Salmon recreational landings coastwide (1000s fish) [47.0, 774.0]}
-#'   \item{salmon_rec_landings_ca}{Salmon recreational landings CA (1000s fish) [0.0, 398.0]}
-#'   \item{salmon_rec_landings_or}{Salmon recreational landings OR (1000s fish) [6.0, 305.0]}
-#'   \item{salmon_rec_landings_wa}{Salmon recreational landings WA (1000s fish) [23.0, 323.0]}
-#'   \item{shrimp_landings_coastwide}{Shrimp landings coastwide (1000s metric tons) [5.660932, 47.73951]}
-#'   \item{shrimp_landings_ca}{Shrimp landings CA (1000s metric tons) [0.5452471, 9.112365]}
-#'   \item{shrimp_landings_or}{Shrimp landings OR (1000s metric tons) [2.249487, 24.30083]}
-#'   \item{shrimp_landings_wa}{Shrimp landings WA (1000s metric tons) [1.424119, 19.11796]}
-#'   \item{total_fisheries_landings_coastwide}{Total Fisheries landings coastwide (1000s metric tons) [337.4346, 569.5687]}
-#'   \item{total_fisheries_landings_ca}{Total Fisheries landings CA (1000s metric tons) [51.71044, 302.277]}
-#'   \item{total_fisheries_landings_or}{Total Fisheries landings OR (1000s metric tons) [68.72131, 290.9759]}
-#'   \item{groundfish_revenue_coastwide}{Groundfish revenue (w/o hake) coastwide (Millions $ (year 2015)) [52.97257, 163.5798]}
-#'   \item{cps_revenue_coastwide}{Coastal pelagic species (w/o squid) revenue coastwide (Millions $ (year 2015)) [2.481962, 67.00124]}
-#'   \item{shrimp_revenue_coastwide}{Shrimp revenue coastwide (Millions $ (year 2015)) [15.77684, 109.9221]}
-#'   \item{salmon_revenue_coastwide}{Salmon revenue coastwide (Millions $ (year 2015)) [22.38714, 335.2793]}
-#'   \item{other_species_revenue_coastwide}{Other species revenue coastwide (Millions $ (year 2015)) [28.03679, 105.3409]}
-#'   \item{pacific_hake_revenue_coastwide}{Pacific hake revenue coastwide (Millions $ (year 2015)) [0.9633493, 74.55263]}
-#'   \item{squid_revenue_coastwide}{Market squid revenue coastwide (Millions $ (year 2015)) [1.237159, 83.42967]}
-#'   \item{crab_revenue_coastwide}{Crab revenue coastwide (Millions $ (year 2015)) [28.39146, 247.6923]}
-#'   \item{hms_revenue_coastwide}{Highly migratory species revenue coastwide (Millions $ (year 2015)) [24.45324, 151.4093]}
-#'   \item{total_fisheries_revenue_coastwide}{Commercial fisheries revenue coastwide (Millions $ (year 2015)) [361.1931, 858.0573]}
-#'   \item{groundfish_revenue_ca}{Groundfish revenue (w/o hake) CA (Millions $ (year 2015)) [17.22728, 73.89497]}
-#'   \item{cps_revenue_ca}{Coastal pelagic species (w/o squid) revenue CA (Millions $ (year 2015)) [2.157374, 64.81139]}
-#'   \item{shrimp_revenue_ca}{Shrimp revenue CA (Millions $ (year 2015)) [4.883509, 19.83477]}
-#'   \item{salmon_revenue_ca}{Salmon revenue CA (Millions $ (year 2015)) [0.0, 90.68086]}
-#'   \item{other_species_revenue_ca}{Other species revenue CA (Millions $ (year 2015)) [22.35475, 81.14681]}
-#'   \item{pacific_hake_revenue_ca}{Pacific hake revenue CA (Millions $ (year 2015)) [1.7603E-4, 2.298333]}
-#'   \item{squid_revenue_ca}{Market squid revenue CA (Millions $ (year 2015)) [0.7450277, 83.42967]}
-#'   \item{crab_revenue_ca}{Crab revenue CA (Millions $ (year 2015)) [10.57268, 109.2162]}
-#'   \item{hms_revenue_ca}{Highly migratory species revenue CA (Millions $ (year 2015)) [2.774751, 145.0685]}
-#'   \item{total_fisheries_revenue_ca}{Commercial fisheries revenue CA (Millions $ (year 2015)) [134.3722, 363.4424]}
-#'   \item{groundfish_revenue_or}{Groundfish revenue (w/o hake) OR (Millions $ (year 2015)) [19.44821, 54.411]}
-#'   \item{cps_revenue_or}{Coastal pelagic species (w/o squid) revenue OR (Millions $ (year 2015)) [0.006917352, 10.19605]}
-#'   \item{shrimp_revenue_or}{Shrimp revenue OR (Millions $ (year 2015)) [5.57979, 68.78595]}
-#'   \item{salmon_revenue_or}{Salmon revenue OR (Millions $ (year 2015)) [2.516938, 84.31818]}
-#'   \item{other_species_revenue_or}{Other species revenue OR (Millions $ (year 2015)) [1.256084, 10.05517]}
-#'   \item{pacific_hake_revenue_or}{Pacific hake revenue OR (Millions $ (year 2015)) [1.79066E-4, 58.99173]}
-#'   \item{squid_revenue_or}{Market squid revenue OR (Millions $ (year 2015)) [0.0, 3.12914]}
-#'   \item{crab_revenue_or}{Crab revenue OR (Millions $ (year 2015)) [10.856, 75.87123]}
-#'   \item{hms_revenue_or}{Highly migratory species revenue OR (Millions $ (year 2015)) [1.828291, 21.32934]}
-#'   \item{total_fisheries_revenue_or}{Commercial fisheries revenue OR (Millions $ (year 2015)) [82.86972, 211.2898]}
-#'   \item{groundfish_revenue_wa}{Groundfish revenue (w/o hake) WA (Millions $ (year 2015)) [8.452095, 41.17684]}
-#'   \item{cps_revenue_wa}{Coastal pelagic species (w/o squid) revenue WA (Millions $ (year 2015)) [0.2302786, 9.370674]}
-#'   \item{shrimp_revenue_wa}{Shrimp revenue WA (Millions $ (year 2015)) [4.136456, 35.50843]}
-#'   \item{salmon_revenue_wa}{Salmon revenue WA (Millions $ (year 2015)) [7.821066, 182.577]}
-#'   \item{other_species_revenue_wa}{Other species revenue WA (Millions $ (year 2015)) [2.017696, 17.0246]}
-#'   \item{pacific_hake_revenue_wa}{Pacific hake revenue WA (Millions $ (year 2015)) [0.02971284, 38.29011]}
-#'   \item{crab_revenue_wa}{Crab revenue WA (Millions $ (year 2015)) [6.962783, 104.1098]}
-#'   \item{hms_revenue_wa}{Highly migratory species revenue WA (Millions $ (year 2015)) [0.2235326, 31.69628]}
-#'   \item{total_fisheries_revenue_wa}{Commercial Fisheries revenue WA (Millions $ (year 2015)) [127.8284, 306.4503]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-7.889184E8, 1.5463008E9\]}
+#'   \item{shipping_distance_traveled}{Commercial shipping - distance (Millions of km) \[17.68676, 31.40238\]}
+#'   \item{finfish_production}{Finfish Aquaculture (1000s mt) \[0.01149992, 10.43139\]}
+#'   \item{fertilizer_applications}{Nutrient Input (Normalized index) \[-1.867494, 1.818944\]}
+#'   \item{oil_gas_production}{Oil And Gas Activity (Normalized index) \[-2.330674, 1.640257\]}
+#'   \item{consumption_fish}{Seafood consumption (total) (Millions of metric tons) \[4.482482, 10.0965\]}
+#'   \item{consumption_per_cap}{Seafood consumption (per capita) (kg) \[20.95595, 39.28107\]}
+#'   \item{shellfish_production}{Shellfish Aquaculture (metric tons) \[5.537665, 11.91462\]}
+#'   \item{habitat_modification}{Bottom trawl contact with seafloor habitat (weighted) (Weighted 1000s km) \[76.4527, 373.32\]}
+#'   \item{groundfish_landings_wa}{Groundfish landings (w/o hake) WA (1000s metric tons) \[3.268318, 30.97578\]}
+#'   \item{cps_landings_coastwide}{Coastal pelagic species (w/o squid) landings coastwide (1000s metric tons) \[10.70933, 146.6982\]}
+#'   \item{cps_landings_ca}{Coastal pelagic species (w/o squid) landings CA (1000s metric tons) \[9.179026, 116.2179\]}
+#'   \item{cps_landings_or}{Coastal pelagic species (w/o squid) landings OR (1000s metric tons) \[0.1021285, 45.57781\]}
+#'   \item{cps_landings_wa}{Coastal pelagic species (w/o squid) landings WA (1000s metric tons) \[0.4017799, 36.98861\]}
+#'   \item{crab_landings_coastwide}{Crab landings coastwide (1000s metric tons) \[4.784686, 41.72063\]}
+#'   \item{crab_landings_ca}{Crab landings CA (1000s metric tons) \[1.777526, 15.26942\]}
+#'   \item{crab_landings_or}{Crab landings OR (1000s metric tons) \[1.720652, 15.29602\]}
+#'   \item{crab_landings_wa}{Crab landings WA (1000s metric tons) \[1.286507, 14.47761\]}
+#'   \item{groundfish_landings_coastwide}{Groundfish landings (w/o hake) coastwide (1000s metric tons) \[23.25325, 124.748\]}
+#'   \item{groundfish_landings_ca}{Groundfish landings (w/o hake) CA (1000s metric tons) \[5.847436, 52.65097\]}
+#'   \item{groundfish_landings_or}{Groundfish landings (w/o hake) OR (1000s metric tons) \[9.699529, 41.12125\]}
+#'   \item{hms_landings_coastwide}{Highly migratory species landings coastwide (1000s metric tons) \[7.694124, 54.95815\]}
+#'   \item{hms_landings_ca}{Highly migratory species landings CA (1000s metric tons) \[0.6113654, 52.93386\]}
+#'   \item{hms_landings_or}{Highly migratory species landings OR (1000s metric tons) \[0.4897378, 4.879423\]}
+#'   \item{hms_landings_wa}{Highly migratory species landings WA (1000s metric tons) \[0.06658192, 10.78039\]}
+#'   \item{squid_landings_coastwide}{Market squid landings coastwide (1000s metric tons) \[0.9934503, 130.8523\]}
+#'   \item{squid_landings_ca}{Market squid landings CA (1000s metric tons) \[0.5640231, 130.8447\]}
+#'   \item{squid_landings_or}{Market squid landings OR (1000s metric tons) \[0.0, 3.196166\]}
+#'   \item{other_species_landings_coastwide}{Other species landings coastwide (1000s metric tons) \[6.098473, 37.44385\]}
+#'   \item{other_species_landings_ca}{Other species landings CA (1000s metric tons) \[2.922818, 26.98719\]}
+#'   \item{other_species_landings_or}{Other species landings OR (1000s metric tons) \[0.4558114, 4.70202\]}
+#'   \item{other_species_landings_wa}{Other species landings WA (1000s metric tons) \[1.004735, 7.22235\]}
+#'   \item{total_fisheries_landings_wa}{Total Fisheries landings WA (1000s metric tons) \[72.43497, 177.1616\]}
+#'   \item{pacific_hake_landings_coastwide}{Pacific hake landings coastwide (1000s metric tons) \[69.49753, 354.2313\]}
+#'   \item{pacific_hake_landings_ca}{Pacific hake landings CA (1000s metric tons) \[0.003771167, 135.1784\]}
+#'   \item{pacific_hake_landings_or}{Pacific hake landings OR (1000s metric tons) \[14.8115, 241.9501\]}
+#'   \item{pacific_hake_landings_wa}{Pacific hake landings WA (1000s metric tons) \[6.960765, 142.5702\]}
+#'   \item{recreational_landings_coastwide}{Recreational landings coastwide (1000s metric tons) \[5.09321, 8.838449\]}
+#'   \item{recreational_landings_ca}{Recreational landings CA (1000s metric tons) \[3.214205, 6.593854\]}
+#'   \item{recreational_landings_or}{Recreational landings OR (1000s metric tons) \[0.555653, 1.268657\]}
+#'   \item{recreational_landings_wa}{Recreational landings WA (1000s metric tons) \[0.4506299, 1.24569\]}
+#'   \item{salmon_com_landings_coastwide}{Salmon commercial landings coastwide (1000s metric tons) \[5.131682, 37.98297\]}
+#'   \item{salmon_com_landings_ca}{Salmon commercial landings CA (1000s metric tons) \[6.09329E-4, 7.70475\]}
+#'   \item{salmon_com_landings_or}{Salmon commercial landings OR (1000s metric tons) \[0.4526994, 8.078773\]}
+#'   \item{salmon_com_landings_wa}{Salmon commercial landings WA (1000s metric tons) \[3.318938, 29.93654\]}
+#'   \item{salmon_rec_landings_coastwide}{Salmon recreational landings coastwide (1000s fish) \[47.0, 774.0\]}
+#'   \item{salmon_rec_landings_ca}{Salmon recreational landings CA (1000s fish) \[0.0, 398.0\]}
+#'   \item{salmon_rec_landings_or}{Salmon recreational landings OR (1000s fish) \[6.0, 305.0\]}
+#'   \item{salmon_rec_landings_wa}{Salmon recreational landings WA (1000s fish) \[23.0, 323.0\]}
+#'   \item{shrimp_landings_coastwide}{Shrimp landings coastwide (1000s metric tons) \[5.660932, 47.73951\]}
+#'   \item{shrimp_landings_ca}{Shrimp landings CA (1000s metric tons) \[0.5452471, 9.112365\]}
+#'   \item{shrimp_landings_or}{Shrimp landings OR (1000s metric tons) \[2.249487, 24.30083\]}
+#'   \item{shrimp_landings_wa}{Shrimp landings WA (1000s metric tons) \[1.424119, 19.11796\]}
+#'   \item{total_fisheries_landings_coastwide}{Total Fisheries landings coastwide (1000s metric tons) \[337.4346, 569.5687\]}
+#'   \item{total_fisheries_landings_ca}{Total Fisheries landings CA (1000s metric tons) \[51.71044, 302.277\]}
+#'   \item{total_fisheries_landings_or}{Total Fisheries landings OR (1000s metric tons) \[68.72131, 290.9759\]}
+#'   \item{groundfish_revenue_coastwide}{Groundfish revenue (w/o hake) coastwide (Millions $ (year 2015)) \[52.97257, 163.5798\]}
+#'   \item{cps_revenue_coastwide}{Coastal pelagic species (w/o squid) revenue coastwide (Millions $ (year 2015)) \[2.481962, 67.00124\]}
+#'   \item{shrimp_revenue_coastwide}{Shrimp revenue coastwide (Millions $ (year 2015)) \[15.77684, 109.9221\]}
+#'   \item{salmon_revenue_coastwide}{Salmon revenue coastwide (Millions $ (year 2015)) \[22.38714, 335.2793\]}
+#'   \item{other_species_revenue_coastwide}{Other species revenue coastwide (Millions $ (year 2015)) \[28.03679, 105.3409\]}
+#'   \item{pacific_hake_revenue_coastwide}{Pacific hake revenue coastwide (Millions $ (year 2015)) \[0.9633493, 74.55263\]}
+#'   \item{squid_revenue_coastwide}{Market squid revenue coastwide (Millions $ (year 2015)) \[1.237159, 83.42967\]}
+#'   \item{crab_revenue_coastwide}{Crab revenue coastwide (Millions $ (year 2015)) \[28.39146, 247.6923\]}
+#'   \item{hms_revenue_coastwide}{Highly migratory species revenue coastwide (Millions $ (year 2015)) \[24.45324, 151.4093\]}
+#'   \item{total_fisheries_revenue_coastwide}{Commercial fisheries revenue coastwide (Millions $ (year 2015)) \[361.1931, 858.0573\]}
+#'   \item{groundfish_revenue_ca}{Groundfish revenue (w/o hake) CA (Millions $ (year 2015)) \[17.22728, 73.89497\]}
+#'   \item{cps_revenue_ca}{Coastal pelagic species (w/o squid) revenue CA (Millions $ (year 2015)) \[2.157374, 64.81139\]}
+#'   \item{shrimp_revenue_ca}{Shrimp revenue CA (Millions $ (year 2015)) \[4.883509, 19.83477\]}
+#'   \item{salmon_revenue_ca}{Salmon revenue CA (Millions $ (year 2015)) \[0.0, 90.68086\]}
+#'   \item{other_species_revenue_ca}{Other species revenue CA (Millions $ (year 2015)) \[22.35475, 81.14681\]}
+#'   \item{pacific_hake_revenue_ca}{Pacific hake revenue CA (Millions $ (year 2015)) \[1.7603E-4, 2.298333\]}
+#'   \item{squid_revenue_ca}{Market squid revenue CA (Millions $ (year 2015)) \[0.7450277, 83.42967\]}
+#'   \item{crab_revenue_ca}{Crab revenue CA (Millions $ (year 2015)) \[10.57268, 109.2162\]}
+#'   \item{hms_revenue_ca}{Highly migratory species revenue CA (Millions $ (year 2015)) \[2.774751, 145.0685\]}
+#'   \item{total_fisheries_revenue_ca}{Commercial fisheries revenue CA (Millions $ (year 2015)) \[134.3722, 363.4424\]}
+#'   \item{groundfish_revenue_or}{Groundfish revenue (w/o hake) OR (Millions $ (year 2015)) \[19.44821, 54.411\]}
+#'   \item{cps_revenue_or}{Coastal pelagic species (w/o squid) revenue OR (Millions $ (year 2015)) \[0.006917352, 10.19605\]}
+#'   \item{shrimp_revenue_or}{Shrimp revenue OR (Millions $ (year 2015)) \[5.57979, 68.78595\]}
+#'   \item{salmon_revenue_or}{Salmon revenue OR (Millions $ (year 2015)) \[2.516938, 84.31818\]}
+#'   \item{other_species_revenue_or}{Other species revenue OR (Millions $ (year 2015)) \[1.256084, 10.05517\]}
+#'   \item{pacific_hake_revenue_or}{Pacific hake revenue OR (Millions $ (year 2015)) \[1.79066E-4, 58.99173\]}
+#'   \item{squid_revenue_or}{Market squid revenue OR (Millions $ (year 2015)) \[0.0, 3.12914\]}
+#'   \item{crab_revenue_or}{Crab revenue OR (Millions $ (year 2015)) \[10.856, 75.87123\]}
+#'   \item{hms_revenue_or}{Highly migratory species revenue OR (Millions $ (year 2015)) \[1.828291, 21.32934\]}
+#'   \item{total_fisheries_revenue_or}{Commercial fisheries revenue OR (Millions $ (year 2015)) \[82.86972, 211.2898\]}
+#'   \item{groundfish_revenue_wa}{Groundfish revenue (w/o hake) WA (Millions $ (year 2015)) \[8.452095, 41.17684\]}
+#'   \item{cps_revenue_wa}{Coastal pelagic species (w/o squid) revenue WA (Millions $ (year 2015)) \[0.2302786, 9.370674\]}
+#'   \item{shrimp_revenue_wa}{Shrimp revenue WA (Millions $ (year 2015)) \[4.136456, 35.50843\]}
+#'   \item{salmon_revenue_wa}{Salmon revenue WA (Millions $ (year 2015)) \[7.821066, 182.577\]}
+#'   \item{other_species_revenue_wa}{Other species revenue WA (Millions $ (year 2015)) \[2.017696, 17.0246\]}
+#'   \item{pacific_hake_revenue_wa}{Pacific hake revenue WA (Millions $ (year 2015)) \[0.02971284, 38.29011\]}
+#'   \item{crab_revenue_wa}{Crab revenue WA (Millions $ (year 2015)) \[6.962783, 104.1098\]}
+#'   \item{hms_revenue_wa}{Highly migratory species revenue WA (Millions $ (year 2015)) \[0.2235326, 31.69628\]}
+#'   \item{total_fisheries_revenue_wa}{Commercial Fisheries revenue WA (Millions $ (year 2015)) \[127.8284, 306.4503\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_AC/index.html}
 #' @concept dataset_erddap
@@ -112,9 +112,9 @@
 #'
 #' @format A data frame with 4260 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-6.31152E8, 1.6067808E9]}
-#'   \item{location}{Location () []}
-#'   \item{dissolved_oxygen}{ (ml/L) [0.62, 6.66876]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-6.31152E8, 1.6067808E9\]}
+#'   \item{location}{Location () \[\]}
+#'   \item{dissolved_oxygen}{ (ml/L) \[0.62, 6.66876\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_DO/index.html}
 #' @concept dataset_erddap
@@ -127,8 +127,8 @@
 #'
 #' @format A data frame with 851 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-6.31152E8, 1.6041888E9]}
-#'   \item{ONI}{Oceanic Nino Index () [-2.03, 2.64]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-6.31152E8, 1.6041888E9\]}
+#'   \item{ONI}{Oceanic Nino Index () \[-2.03, 2.64\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_ONI/index.html}
 #' @concept dataset_erddap
@@ -141,8 +141,8 @@
 #'
 #' @format A data frame with 27 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [7.258464E8, 1.5463008E9]}
-#'   \item{fork_length}{Fork Length (mm) [86.0, 152.0]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[7.258464E8, 1.5463008E9\]}
+#'   \item{fork_length}{Fork Length (mm) \[86.0, 152.0\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_B_LEN/index.html}
 #' @concept dataset_erddap
@@ -155,9 +155,9 @@
 #'
 #' @format A data frame with 669 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.1536E7, 1.5463008E9]}
-#'   \item{percent_diet}{Percent Observed Diet () [0.0, 81.9]}
-#'   \item{diet_species_cohort}{Diet (Bird species cohort) () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.1536E7, 1.5463008E9\]}
+#'   \item{percent_diet}{Percent Observed Diet () \[0.0, 81.9\]}
+#'   \item{diet_species_cohort}{Diet (Bird species cohort) () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_B_AS_DIET/index.html}
 #' @concept dataset_erddap
@@ -170,9 +170,9 @@
 #'
 #' @format A data frame with 552 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.836128E8, 1.6067808E9]}
-#'   \item{location}{Location () []}
-#'   \item{aragonite_saturation}{ (relative to 1) [0.4761976, 2.132431]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[8.836128E8, 1.6067808E9\]}
+#'   \item{location}{Location () \[\]}
+#'   \item{aragonite_saturation}{ (relative to 1) \[0.4761976, 2.132431\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_ARG/index.html}
 #' @concept dataset_erddap
@@ -185,9 +185,9 @@
 #'
 #' @format A data frame with 206 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [0.0, 1.5147648E9]}
-#'   \item{population}{Population () []}
-#'   \item{abundance_anomaly}{Abundance anomaly (Abundance anomaly) [-1.428284, 3.748215]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[0.0, 1.5147648E9\]}
+#'   \item{population}{Population () \[\]}
+#'   \item{abundance_anomaly}{Abundance anomaly (Abundance anomaly) \[-1.428284, 3.748215\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_SM_ORWA_CH_ABND/index.html}
 #' @concept dataset_erddap
@@ -200,8 +200,8 @@
 #'
 #' @format A data frame with 15 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.836128E8, 1.325376E9]}
-#'   \item{simpson_diversity}{Simpson Diversity (1-lambda) [0.3012306, 0.4404312]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[8.836128E8, 1.325376E9\]}
+#'   \item{simpson_diversity}{Simpson Diversity (1-lambda) \[0.3012306, 0.4404312\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_CP_SIMP/index.html}
 #' @concept dataset_erddap
@@ -214,8 +214,8 @@
 #'
 #' @format A data frame with 15 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.836128E8, 1.325376E9]}
-#'   \item{species_number}{Species Number (No. of species) [2.530864, 4.763441]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[8.836128E8, 1.325376E9\]}
+#'   \item{species_number}{Species Number (No. of species) \[2.530864, 4.763441\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_CP_SPNO/index.html}
 #' @concept dataset_erddap
@@ -228,9 +228,9 @@
 #'
 #' @format A data frame with 52 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [5.364576E8, 1.4516064E9]}
-#'   \item{population}{Population () []}
-#'   \item{abundance_anomaly}{Abundance anomaly (Abundance anomaly) [-1.571502, 3.820772]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[5.364576E8, 1.4516064E9\]}
+#'   \item{population}{Population () \[\]}
+#'   \item{abundance_anomaly}{Abundance anomaly (Abundance anomaly) \[-1.571502, 3.820772\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_SM_CA_CO_ABND/index.html}
 #' @concept dataset_erddap
@@ -243,9 +243,9 @@
 #'
 #' @format A data frame with 130 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0413792E9, 1.4200704E9]}
-#'   \item{species_group}{Species Group () []}
-#'   \item{abundance_index}{ (abundance index) [297.1226, 138590.0]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[1.0413792E9, 1.4200704E9\]}
+#'   \item{species_group}{Species Group () \[\]}
+#'   \item{abundance_index}{ (abundance index) \[297.1226, 138590.0\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_GF_ABND/index.html}
 #' @concept dataset_erddap
@@ -258,11 +258,11 @@
 #'
 #' @format A data frame with 48 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0413792E9, 1.5147648E9]}
-#'   \item{population}{Population () []}
-#'   \item{simpson_diversity}{ () [0.6001309, 0.7265539]}
-#'   \item{Seup}{Confidence Interval, Upper () [0.6113339, 0.7355888]}
-#'   \item{Selo}{Confidence Interval, Lower () [0.588928, 0.7175189]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[1.0413792E9, 1.5147648E9\]}
+#'   \item{population}{Population () \[\]}
+#'   \item{simpson_diversity}{ () \[0.6001309, 0.7265539\]}
+#'   \item{Seup}{Confidence Interval, Upper () \[0.6113339, 0.7355888\]}
+#'   \item{Selo}{Confidence Interval, Lower () \[0.588928, 0.7175189\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_SIMP/index.html}
 #' @concept dataset_erddap
@@ -275,9 +275,9 @@
 #'
 #' @format A data frame with 3857 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-2.9663712E9, 1.4200704E9]}
-#'   \item{species_group}{Species Group () []}
-#'   \item{relative_stock_status}{ (relative biomass) [0.0498108, 1.25279]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-2.9663712E9, 1.4200704E9\]}
+#'   \item{species_group}{Species Group () \[\]}
+#'   \item{relative_stock_status}{ (relative biomass) \[0.0498108, 1.25279\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_GF_STAT/index.html}
 #' @concept dataset_erddap
@@ -290,11 +290,11 @@
 #'
 #' @format A data frame with 48 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0413792E9, 1.5147648E9]}
-#'   \item{population}{Population () []}
-#'   \item{species_richness}{ () [28.58534, 40.22564]}
-#'   \item{Seup}{Confidence Interval, Upper () [31.00103, 43.00691]}
-#'   \item{Selo}{Confidence Interval, Lower () [26.16965, 37.62311]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[1.0413792E9, 1.5147648E9\]}
+#'   \item{population}{Population () \[\]}
+#'   \item{species_richness}{ () \[28.58534, 40.22564\]}
+#'   \item{Seup}{Confidence Interval, Upper () \[31.00103, 43.00691\]}
+#'   \item{Selo}{Confidence Interval, Lower () \[26.16965, 37.62311\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_SP_RICH/index.html}
 #' @concept dataset_erddap
@@ -307,11 +307,11 @@
 #'
 #' @format A data frame with 492 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.155328E8, 1.6067808E9]}
-#'   \item{hci_regn1}{Habitat Compression Index, 43.5-48N (fraction below monthly threshold) [0.0, 1.0]}
-#'   \item{hci_regn2}{Habitat Compression Index, 40-43.5N (fraction below monthly threshold) [0.0, 1.0]}
-#'   \item{hci_regn3}{Habitat Compression Index, 35.5-40N (fraction below monthly threshold) [0.0, 1.0]}
-#'   \item{hci_regn4}{Habitat Compression Index, 30-35.5N (fraction below monthly threshold) [0.0, 0.9744409]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.155328E8, 1.6067808E9\]}
+#'   \item{hci_regn1}{Habitat Compression Index, 43.5-48N (fraction below monthly threshold) \[0.0, 1.0\]}
+#'   \item{hci_regn2}{Habitat Compression Index, 40-43.5N (fraction below monthly threshold) \[0.0, 1.0\]}
+#'   \item{hci_regn3}{Habitat Compression Index, 35.5-40N (fraction below monthly threshold) \[0.0, 1.0\]}
+#'   \item{hci_regn4}{Habitat Compression Index, 30-35.5N (fraction below monthly threshold) \[0.0, 0.9744409\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_HCI/index.html}
 #' @concept dataset_erddap
@@ -324,35 +324,35 @@
 #'
 #' @format A data frame with 66 rows and 29 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-5.99616E8, 1.4516064E9]}
-#'   \item{albacore_tuna_recruitment}{Albacore tuna recruitment () [126232.0, 307587.0]}
-#'   \item{albacore_tuna_spawning_stock_biomass}{Albacore tuna spawning stock biomass () [69427.6, 139481.0]}
-#'   \item{bigeye_tuna_recruitment}{Bigeye tuna recruitment () [9697.0, 39444.0]}
-#'   \item{bigeye_tuna_spawning_stock_biomass}{Bigeye tuna spawning stock biomass () [72327.0, 271970.0]}
-#'   \item{bluefin_tuna_recruitment}{Bluefin tuna recruitment () [3465.0, 34011.0]}
-#'   \item{bluefin_tuna_spawning_stock_biomass}{Bluefin tuna spawning stock biomass () [11445.0, 160005.0]}
-#'   \item{blue_marlin_recruitment}{Blue marlin recruitment () [589.3, 1181.18]}
-#'   \item{blue_marlin_spawning_stock_biomass}{Blue marlin spawning stock biomass () [20972.0, 71806.5]}
-#'   \item{skipjack_tuna_recruitment_relative_index}{Skipjack tuna recruitment index () [0.4760525, 2.503387]}
-#'   \item{skipjack_tuna_relative_biomass_index}{Skipjack tuna relative biomass index () [0.4711875, 2.244901]}
-#'   \item{swordfish_eastern_pacific_exploitable_total_biomass}{Eastern Pacific exploitable swordfish total biomass () [31510.0, 67070.0]}
-#'   \item{swordfish_western_central_pacific_exploitable_total_biomass}{Western Central Pacific exploitable swordfish total biomass () [60200.0, 121300.0]}
-#'   \item{yellowfin_tuna_recruitment}{Yellowfin tuna recruitment () [286403.0, 1319180.0]}
-#'   \item{yellowfin_tuna_spawning_stock_biomass_index}{Yellowfin tuna spawning stock biomass index () [2403.63, 9929.03]}
-#'   \item{albacore_tuna_recruitment_se}{Albacore tuna recruitment standard deviation () [38513.9, 120441.0]}
-#'   \item{albacore_tuna_spawning_stock_biomass_se}{Albacore tuna spawning stock biomass standard deviation () [27236.0, 55372.7]}
-#'   \item{bigeye_tuna_recruitment_se}{Bigeye tuna recruitment standard deviation () [2058.0, 8498.0]}
-#'   \item{bigeye_tuna_spawning_stock_biomass_se}{Bigeye tuna spawning stock biomass standard deviation () [23433.0, 76812.0]}
-#'   \item{bluefin_tuna_recruitment_se}{Bluefin tuna recruitment standard deviation () [620.0, 5302.0]}
-#'   \item{bluefin_tuna_spawning_stock_biomass_se}{Bluefin tuna spawning stock biomass standard deviation () [2337.0, 58187.0]}
-#'   \item{blue_marlin_recruitment_se}{Blue marlin recruitment standard deviation () [37.27, 221.6]}
-#'   \item{blue_marlin_spawning_stock_biomass_se}{Blue marlin spawning stock biomass standard deviation () [2576.58, 19780.7]}
-#'   \item{skipjack_tuna_recruitment_relative_index_se}{Skipjack tuna recruitment index standard deviation () [0.0, 0.0]}
-#'   \item{skipjack_tuna_relative_biomass_index_se}{Skipjack tuna relative biomass index standard deviation () [0.0, 0.0]}
-#'   \item{swordfish_eastern_pacific_exploitable_total_biomass_se}{Eastern Pacific exploitable swordfish total biomass standard deviation () [11050.0, 22520.0]}
-#'   \item{swordfish_western_central_pacific_exploitable_total_biomass_se}{Western Central Pacific exploitable swordfish total biomass standard deviation () [14810.0, 30900.0]}
-#'   \item{yellowfin_tuna_recruitment_se}{Yellowfin tuna recruitment standard deviation () [21845.0, 257967.0]}
-#'   \item{yellowfin_tuna_spawning_stock_biomass_index_se}{Yellowfin tuna spawning stock biomass index standard deviation () [128.5, 461.61]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-5.99616E8, 1.4516064E9\]}
+#'   \item{albacore_tuna_recruitment}{Albacore tuna recruitment () \[126232.0, 307587.0\]}
+#'   \item{albacore_tuna_spawning_stock_biomass}{Albacore tuna spawning stock biomass () \[69427.6, 139481.0\]}
+#'   \item{bigeye_tuna_recruitment}{Bigeye tuna recruitment () \[9697.0, 39444.0\]}
+#'   \item{bigeye_tuna_spawning_stock_biomass}{Bigeye tuna spawning stock biomass () \[72327.0, 271970.0\]}
+#'   \item{bluefin_tuna_recruitment}{Bluefin tuna recruitment () \[3465.0, 34011.0\]}
+#'   \item{bluefin_tuna_spawning_stock_biomass}{Bluefin tuna spawning stock biomass () \[11445.0, 160005.0\]}
+#'   \item{blue_marlin_recruitment}{Blue marlin recruitment () \[589.3, 1181.18\]}
+#'   \item{blue_marlin_spawning_stock_biomass}{Blue marlin spawning stock biomass () \[20972.0, 71806.5\]}
+#'   \item{skipjack_tuna_recruitment_relative_index}{Skipjack tuna recruitment index () \[0.4760525, 2.503387\]}
+#'   \item{skipjack_tuna_relative_biomass_index}{Skipjack tuna relative biomass index () \[0.4711875, 2.244901\]}
+#'   \item{swordfish_eastern_pacific_exploitable_total_biomass}{Eastern Pacific exploitable swordfish total biomass () \[31510.0, 67070.0\]}
+#'   \item{swordfish_western_central_pacific_exploitable_total_biomass}{Western Central Pacific exploitable swordfish total biomass () \[60200.0, 121300.0\]}
+#'   \item{yellowfin_tuna_recruitment}{Yellowfin tuna recruitment () \[286403.0, 1319180.0\]}
+#'   \item{yellowfin_tuna_spawning_stock_biomass_index}{Yellowfin tuna spawning stock biomass index () \[2403.63, 9929.03\]}
+#'   \item{albacore_tuna_recruitment_se}{Albacore tuna recruitment standard deviation () \[38513.9, 120441.0\]}
+#'   \item{albacore_tuna_spawning_stock_biomass_se}{Albacore tuna spawning stock biomass standard deviation () \[27236.0, 55372.7\]}
+#'   \item{bigeye_tuna_recruitment_se}{Bigeye tuna recruitment standard deviation () \[2058.0, 8498.0\]}
+#'   \item{bigeye_tuna_spawning_stock_biomass_se}{Bigeye tuna spawning stock biomass standard deviation () \[23433.0, 76812.0\]}
+#'   \item{bluefin_tuna_recruitment_se}{Bluefin tuna recruitment standard deviation () \[620.0, 5302.0\]}
+#'   \item{bluefin_tuna_spawning_stock_biomass_se}{Bluefin tuna spawning stock biomass standard deviation () \[2337.0, 58187.0\]}
+#'   \item{blue_marlin_recruitment_se}{Blue marlin recruitment standard deviation () \[37.27, 221.6\]}
+#'   \item{blue_marlin_spawning_stock_biomass_se}{Blue marlin spawning stock biomass standard deviation () \[2576.58, 19780.7\]}
+#'   \item{skipjack_tuna_recruitment_relative_index_se}{Skipjack tuna recruitment index standard deviation () \[0.0, 0.0\]}
+#'   \item{skipjack_tuna_relative_biomass_index_se}{Skipjack tuna relative biomass index standard deviation () \[0.0, 0.0\]}
+#'   \item{swordfish_eastern_pacific_exploitable_total_biomass_se}{Eastern Pacific exploitable swordfish total biomass standard deviation () \[11050.0, 22520.0\]}
+#'   \item{swordfish_western_central_pacific_exploitable_total_biomass_se}{Western Central Pacific exploitable swordfish total biomass standard deviation () \[14810.0, 30900.0\]}
+#'   \item{yellowfin_tuna_recruitment_se}{Yellowfin tuna recruitment standard deviation () \[21845.0, 257967.0\]}
+#'   \item{yellowfin_tuna_spawning_stock_biomass_index_se}{Yellowfin tuna spawning stock biomass index standard deviation () \[128.5, 461.61\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HMS/index.html}
 #' @concept dataset_erddap
@@ -365,8 +365,8 @@
 #'
 #' @format A data frame with 827 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-6.31152E8, 1.5410304E9]}
-#'   \item{MEI}{MEI Index () [-2.247, 3.008]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-6.31152E8, 1.5410304E9\]}
+#'   \item{MEI}{MEI Index () \[-2.247, 3.008\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_MEI/index.html}
 #' @concept dataset_erddap
@@ -379,8 +379,8 @@
 #'
 #' @format A data frame with 644 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.59624E9]}
-#'   \item{nph_area}{Monthly North Pacific High Area (10^6 km^2) [0.0, 7.810526]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-9.46944E7, 1.59624E9\]}
+#'   \item{nph_area}{Monthly North Pacific High Area (10^6 km^2) \[0.0, 7.810526\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_NPH/index.html}
 #' @concept dataset_erddap
@@ -393,11 +393,11 @@
 #'
 #' @format A data frame with 39 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0413792E9, 1.4200704E9]}
-#'   \item{population}{Population () []}
-#'   \item{biomass_ratio}{ () [0.1095965, 0.3513092]}
-#'   \item{Seup}{Confidence Interval, Upper () [0.1182098, 0.3672911]}
-#'   \item{Selo}{Confidence Interval, Lower () [0.1009832, 0.3353272]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[1.0413792E9, 1.4200704E9\]}
+#'   \item{population}{Population () \[\]}
+#'   \item{biomass_ratio}{ () \[0.1095965, 0.3513092\]}
+#'   \item{Seup}{Confidence Interval, Upper () \[0.1182098, 0.3672911\]}
+#'   \item{Selo}{Confidence Interval, Lower () \[0.1009832, 0.3353272\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_SCAV_RAT/index.html}
 #' @concept dataset_erddap
@@ -410,9 +410,9 @@
 #'
 #' @format A data frame with 229 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.1536E7, 1.5463008E9]}
-#'   \item{productivity_anomaly}{Productivity Anomaly () [-1.405, 1.425]}
-#'   \item{species_cohort}{Species cohort () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.1536E7, 1.5463008E9\]}
+#'   \item{productivity_anomaly}{Productivity Anomaly () \[-1.405, 1.425\]}
+#'   \item{species_cohort}{Species cohort () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_B_PR_ANOM/index.html}
 #' @concept dataset_erddap
@@ -425,9 +425,9 @@
 #'
 #' @format A data frame with 527 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [7.573824E8, 1.5463008E9]}
-#'   \item{encounter_rate}{Encounter Rate () [0.0, 31.652]}
-#'   \item{species_cohort}{Species (region, season) () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[7.573824E8, 1.5463008E9\]}
+#'   \item{encounter_rate}{Encounter Rate () \[0.0, 31.652\]}
+#'   \item{species_cohort}{Species (region, season) () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_B_B_MORT/index.html}
 #' @concept dataset_erddap
@@ -440,11 +440,11 @@
 #'
 #' @format A data frame with 323 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-1.6094592E9, 1.5147648E9]}
-#'   \item{SWE_anomaly}{1 Apr SWE Anomaly (Annual Anomaly) [-2.155171, 2.480667]}
-#'   \item{Seup}{95% credible interval upper bound (Annual Anomaly) [-1.735758, 3.430374]}
-#'   \item{Selo}{95% credible interval lower bound (Annual Anomaly) [-2.791162, 2.117344]}
-#'   \item{location}{Location () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-1.6094592E9, 1.5147648E9\]}
+#'   \item{SWE_anomaly}{1 Apr SWE Anomaly (Annual Anomaly) \[-2.155171, 2.480667\]}
+#'   \item{Seup}{95% credible interval upper bound (Annual Anomaly) \[-1.735758, 3.430374\]}
+#'   \item{Selo}{95% credible interval lower bound (Annual Anomaly) \[-2.791162, 2.117344\]}
+#'   \item{location}{Location () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HB_SWE/index.html}
 #' @concept dataset_erddap
@@ -457,9 +457,9 @@
 #'
 #' @format A data frame with 200 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [9.466848E8, 1.5463008E9]}
-#'   \item{species}{Species () []}
-#'   \item{number_of_entanglements}{Number of Entanglements () [0.0, 55.0]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[9.466848E8, 1.5463008E9\]}
+#'   \item{species}{Species () \[\]}
+#'   \item{number_of_entanglements}{Number of Entanglements () \[0.0, 55.0\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_WH_ENT/index.html}
 #' @concept dataset_erddap
@@ -472,13 +472,13 @@
 #'
 #' @format A data frame with 102 rows and 7 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.4832288E9]}
-#'   \item{abundance}{Abundance () [71.0, 1427576.0]}
-#'   \item{Seup}{95% credible interval upper bound () [390.0, 39210.0]}
-#'   \item{Selo}{95% credible interval lower bound () [230.0, 24420.0]}
-#'   \item{CV}{Coefficient of Variation () [0.044, 0.82]}
-#'   \item{common_name}{Common name () []}
-#'   \item{scientific_name}{Scientific name () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-9.46944E7, 1.4832288E9\]}
+#'   \item{abundance}{Abundance () \[71.0, 1427576.0\]}
+#'   \item{Seup}{95% credible interval upper bound () \[390.0, 39210.0\]}
+#'   \item{Selo}{95% credible interval lower bound () \[230.0, 24420.0\]}
+#'   \item{CV}{Coefficient of Variation () \[0.044, 0.82\]}
+#'   \item{common_name}{Common name () \[\]}
+#'   \item{scientific_name}{Scientific name () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_MM_cetacean/index.html}
 #' @concept dataset_erddap
@@ -491,9 +491,9 @@
 #'
 #' @format A data frame with 240 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.1536E7, 1.5147648E9]}
-#'   \item{population}{Population () []}
-#'   \item{abundance_anomaly}{Abundance anomaly (Abundance anomaly) [-1.671656, 3.423461]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.1536E7, 1.5147648E9\]}
+#'   \item{population}{Population () \[\]}
+#'   \item{abundance_anomaly}{Abundance anomaly (Abundance anomaly) \[-1.671656, 3.423461\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_SM_CA_CH_ABND/index.html}
 #' @concept dataset_erddap
@@ -506,9 +506,9 @@
 #'
 #' @format A data frame with 253 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [0.0, 1.4516064E9]}
-#'   \item{population}{Population () []}
-#'   \item{condition}{ (Population growth rate) [-1.41059, 4.28817]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[0.0, 1.4516064E9\]}
+#'   \item{population}{Population () \[\]}
+#'   \item{condition}{ (Population growth rate) \[-1.41059, 4.28817\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_SM_CA_CH_CND/index.html}
 #' @concept dataset_erddap
@@ -521,11 +521,11 @@
 #'
 #' @format A data frame with 220 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [0.0, 1.3885344E9]}
-#'   \item{population}{Population/Season () []}
-#'   \item{cond_pct_nat}{Proportion of natural fish to total fish returning () [0.0, 100.0]}
-#'   \item{cond_pop_gr}{Proportional change in abundance between cohorts () [0.4510503, 2.383912]}
-#'   \item{cond_age_div}{Age Diversity Shannon-Weaver () [0.1894317, 1.450296]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[0.0, 1.3885344E9\]}
+#'   \item{population}{Population/Season () \[\]}
+#'   \item{cond_pct_nat}{Proportion of natural fish to total fish returning () \[0.0, 100.0\]}
+#'   \item{cond_pop_gr}{Proportional change in abundance between cohorts () \[0.4510503, 2.383912\]}
+#'   \item{cond_age_div}{Age Diversity Shannon-Weaver () \[0.1894317, 1.450296\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_SM_ORWA_CH_CND/index.html}
 #' @concept dataset_erddap
@@ -538,9 +538,9 @@
 #'
 #' @format A data frame with 69 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [0.0, 1.3885344E9]}
-#'   \item{population}{Population/Season () []}
-#'   \item{abundance_anomaly}{Abundance anomaly (observed mean/standard deviation) () [-1.214305, 1.844207]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[0.0, 1.3885344E9\]}
+#'   \item{population}{Population/Season () \[\]}
+#'   \item{abundance_anomaly}{Abundance anomaly (observed mean/standard deviation) () \[-1.214305, 1.844207\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_SM_ORWA_CO_ABND/index.html}
 #' @concept dataset_erddap
@@ -553,10 +553,10 @@
 #'
 #' @format A data frame with 65 rows and 4 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.262304E8, 1.3885344E9]}
-#'   \item{population}{Population/Season () []}
-#'   \item{cond_pct_nat}{Proportion of natural fish to total fish returning () [0.9189854, 99.35072]}
-#'   \item{cond_pop_gr}{Proportional change in abundance between cohorts () [0.4980789, 2.20522]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[1.262304E8, 1.3885344E9\]}
+#'   \item{population}{Population/Season () \[\]}
+#'   \item{cond_pct_nat}{Proportion of natural fish to total fish returning () \[0.9189854, 99.35072\]}
+#'   \item{cond_pop_gr}{Proportional change in abundance between cohorts () \[0.4980789, 2.20522\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_SM_ORWA_CO_CND/index.html}
 #' @concept dataset_erddap
@@ -569,10 +569,10 @@
 #'
 #' @format A data frame with 455 rows and 4 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.1045376E9, 1.4832288E9]}
-#'   \item{fishing_engagement}{Commercial fishing engagement index (Index) [-0.19823, 16.83776]}
-#'   \item{location}{Location () []}
-#'   \item{region}{Region () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[1.1045376E9, 1.4832288E9\]}
+#'   \item{fishing_engagement}{Commercial fishing engagement index (Index) \[-0.19823, 16.83776\]}
+#'   \item{location}{Location () \[\]}
+#'   \item{region}{Region () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HD_Fish_Eng/index.html}
 #' @concept dataset_erddap
@@ -585,10 +585,10 @@
 #'
 #' @format A data frame with 598 rows and 4 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.1045376E9, 1.4832288E9]}
-#'   \item{fishing_reliance}{Commercial fishing reliance index (Index) [-0.941, 29.54986]}
-#'   \item{location}{Location () []}
-#'   \item{region}{Region () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[1.1045376E9, 1.4832288E9\]}
+#'   \item{fishing_reliance}{Commercial fishing reliance index (Index) \[-0.941, 29.54986\]}
+#'   \item{location}{Location () \[\]}
+#'   \item{region}{Region () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HD_Fish_Rel/index.html}
 #' @concept dataset_erddap
@@ -601,11 +601,11 @@
 #'
 #' @format A data frame with 126 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.19448E9, 1.5661728E9]}
-#'   \item{mean_length}{Carapace Length (mm) [7.457964, 17.27011]}
-#'   \item{std_dev}{Standard Deviation (mm) [0.0, 3.874455]}
-#'   \item{Seup}{Confidence Interval, Upper () [8.44838, 19.4095]}
-#'   \item{Selo}{Confidence Interval, Lower () [6.331795, 15.25163]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[1.19448E9, 1.5661728E9\]}
+#'   \item{mean_length}{Carapace Length (mm) \[7.457964, 17.27011\]}
+#'   \item{std_dev}{Standard Deviation (mm) \[0.0, 3.874455\]}
+#'   \item{Seup}{Confidence Interval, Upper () \[8.44838, 19.4095\]}
+#'   \item{Selo}{Confidence Interval, Lower () \[6.331795, 15.25163\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_KRILLEN/index.html}
 #' @concept dataset_erddap
@@ -618,11 +618,11 @@
 #'
 #' @format A data frame with 48 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0413792E9, 1.5147648E9]}
-#'   \item{population}{Population () []}
-#'   \item{biomass_ratio}{ () [0.03598382, 0.3129661]}
-#'   \item{Seup}{Confidence Interval, Upper () [0.04058898, 0.4040344]}
-#'   \item{Selo}{Confidence Interval, Lower () [0.02916655, 0.2584166]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[1.0413792E9, 1.5147648E9\]}
+#'   \item{population}{Population () \[\]}
+#'   \item{biomass_ratio}{ () \[0.03598382, 0.3129661\]}
+#'   \item{Seup}{Confidence Interval, Upper () \[0.04058898, 0.4040344\]}
+#'   \item{Selo}{Confidence Interval, Lower () \[0.02916655, 0.2584166\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_CRAB_FINF/index.html}
 #' @concept dataset_erddap
@@ -635,11 +635,11 @@
 #'
 #' @format A data frame with 48 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0413792E9, 1.5147648E9]}
-#'   \item{population}{Population () []}
-#'   \item{mean_trophic_level}{ () [3.614351, 3.773371]}
-#'   \item{Seup}{Confidence Interval, Upper () [3.623129, 3.786633]}
-#'   \item{Selo}{Confidence Interval, Lower () [3.605017, 3.760109]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[1.0413792E9, 1.5147648E9\]}
+#'   \item{population}{Population () \[\]}
+#'   \item{mean_trophic_level}{ () \[3.614351, 3.773371\]}
+#'   \item{Seup}{Confidence Interval, Upper () \[3.623129, 3.786633\]}
+#'   \item{Selo}{Confidence Interval, Lower () \[3.605017, 3.760109\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_MTL/index.html}
 #' @concept dataset_erddap
@@ -652,9 +652,9 @@
 #'
 #' @format A data frame with 52 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.31152E8, 1.4200704E9]}
-#'   \item{species_group}{Species Group () []}
-#'   \item{abundance}{Mean CPUE (ln(catch+1)) [0.0, 1.382158]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[6.31152E8, 1.4200704E9\]}
+#'   \item{species_group}{Species Group () \[\]}
+#'   \item{abundance}{Mean CPUE (ln(catch+1)) \[0.0, 1.382158\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_JELLY_CC/index.html}
 #' @concept dataset_erddap
@@ -667,10 +667,10 @@
 #'
 #' @format A data frame with 12 rows and 4 variables:
 #' \describe{
-#'   \item{month}{ () []}
-#'   \item{month_number}{ () [1, 12]}
-#'   \item{landings}{Landings (monthly mean) 1990-2015 (tons) [0.1127933, 356.5503]}
-#'   \item{fish_tickets}{Fish Tickets (monthly mean0 1990-2015 (counts) [1.222222, 326.8811]}
+#'   \item{month}{ () \[\]}
+#'   \item{month_number}{ () \[1, 12\]}
+#'   \item{landings}{Landings (monthly mean) 1990-2015 (tons) \[0.1127933, 356.5503\]}
+#'   \item{fish_tickets}{Fish Tickets (monthly mean0 1990-2015 (counts) \[1.222222, 326.8811\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_AC_mn/index.html}
 #' @concept dataset_erddap
@@ -683,8 +683,8 @@
 #'
 #' @format A data frame with 847 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-6.31152E8, 1.5935616E9]}
-#'   \item{NPGO}{NPGO Index () [-3.646516, 2.956047]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-6.31152E8, 1.5935616E9\]}
+#'   \item{NPGO}{NPGO Index () \[-3.646516, 2.956047\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_NPGO/index.html}
 #' @concept dataset_erddap
@@ -697,8 +697,8 @@
 #'
 #' @format A data frame with 213 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.309088E8, 1.4148E9]}
-#'   \item{biomass_anomaly}{Biomass Anomaly () [-1.541188, 1.013472]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[8.309088E8, 1.4148E9\]}
+#'   \item{biomass_anomaly}{Biomass Anomaly () \[-1.541188, 1.013472\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_CBAN/index.html}
 #' @concept dataset_erddap
@@ -711,8 +711,8 @@
 #'
 #' @format A data frame with 1452 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-2.2089888E9, 1.6067808E9]}
-#'   \item{PDO}{PDO Index () [-3.6, 3.51]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-2.2089888E9, 1.6067808E9\]}
+#'   \item{PDO}{PDO Index () \[-3.6, 3.51\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_PDO/index.html}
 #' @concept dataset_erddap
@@ -725,9 +725,9 @@
 #'
 #' @format A data frame with 26 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.204544E8, 1.5463008E9]}
-#'   \item{humpback_rate}{Relative humpback abundance (index) [0.0, 17.2]}
-#'   \item{humpback_anomaly}{Relative humpback abundance anomaly (index) [-6.3381, 10.8619]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[8.204544E8, 1.5463008E9\]}
+#'   \item{humpback_rate}{Relative humpback abundance (index) \[0.0, 17.2\]}
+#'   \item{humpback_anomaly}{Relative humpback abundance anomaly (index) \[-6.3381, 10.8619\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_MM_HB_REL/index.html}
 #' @concept dataset_erddap
@@ -740,8 +740,8 @@
 #'
 #' @format A data frame with 412 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.549312E8, 1.5989184E9]}
-#'   \item{SST}{Sea Surface Temperature (degree_C) [9.142, 16.114]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.549312E8, 1.5989184E9\]}
+#'   \item{SST}{Sea Surface Temperature (degree_C) \[9.142, 16.114\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_SST2/index.html}
 #' @concept dataset_erddap
@@ -754,8 +754,8 @@
 #'
 #' @format A data frame with 445 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.864672E8, 1.6121376E9]}
-#'   \item{SST}{Sea Surface Temperature (degree_C) [12.83, 22.44]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.864672E8, 1.6121376E9\]}
+#'   \item{SST}{Sea Surface Temperature (degree_C) \[12.83, 22.44\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_SST3/index.html}
 #' @concept dataset_erddap
@@ -768,8 +768,8 @@
 #'
 #' @format A data frame with 297 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.889536E8, 1.6121376E9]}
-#'   \item{SST}{Sea Surface Temperature (degree_C) [8.744, 17.749]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[6.889536E8, 1.6121376E9\]}
+#'   \item{SST}{Sea Surface Temperature (degree_C) \[8.744, 17.749\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_SST1/index.html}
 #' @concept dataset_erddap
@@ -782,9 +782,9 @@
 #'
 #' @format A data frame with 222 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [5.364576E8, 1.5463008E9]}
-#'   \item{density_anomaly}{Density Anomaly () [-2.107251, 1.742638]}
-#'   \item{species_cohort}{Species (season) () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[5.364576E8, 1.5463008E9\]}
+#'   \item{density_anomaly}{Density Anomaly () \[-2.107251, 1.742638\]}
+#'   \item{species_cohort}{Species (season) () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_B_AS_DENS/index.html}
 #' @concept dataset_erddap
@@ -797,8 +797,8 @@
 #'
 #' @format A data frame with 213 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.309088E8, 1.4148E9]}
-#'   \item{biomass_anomaly}{Biomass Anomaly () [-0.606, 0.714]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[8.309088E8, 1.4148E9\]}
+#'   \item{biomass_anomaly}{Biomass Anomaly () \[-0.606, 0.714\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_CBAS/index.html}
 #' @concept dataset_erddap
@@ -811,9 +811,9 @@
 #'
 #' @format A data frame with 324 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.5778368E9]}
-#'   \item{sti}{Spring Transition Index (yearday) [1.0, 174.0]}
-#'   \item{latitude}{Latitude (degrees_north) [33, 48]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-9.46944E7, 1.5778368E9\]}
+#'   \item{sti}{Spring Transition Index (yearday) \[1.0, 174.0\]}
+#'   \item{latitude}{Latitude (degrees_north) \[33, 48\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_STI/index.html}
 #' @concept dataset_erddap
@@ -826,9 +826,9 @@
 #'
 #' @format A data frame with 324 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.5778368E9]}
-#'   \item{tumi}{Total Upwelling Magnitude Index (m^3/s/100m coastline) [564.6994, 55104.24]}
-#'   \item{latitude}{Latitude (degrees_north) [33, 48]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-9.46944E7, 1.5778368E9\]}
+#'   \item{tumi}{Total Upwelling Magnitude Index (m^3/s/100m coastline) \[564.6994, 55104.24\]}
+#'   \item{latitude}{Latitude (degrees_north) \[33, 48\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_TUMI/index.html}
 #' @concept dataset_erddap
@@ -841,10 +841,10 @@
 #'
 #' @format A data frame with 649 rows and 4 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.6094592E9]}
-#'   \item{upwelling_index}{Upwelling Index, 33N 119W, monthly (m^3/s/100m coastline) [-39.515, 292.556]}
-#'   \item{nobs}{Number of oberservations in month () [87, 124]}
-#'   \item{stdev}{Standard deviation (m^3/s/100m coastline) [23.955, 337.93]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-9.46944E7, 1.6094592E9\]}
+#'   \item{upwelling_index}{Upwelling Index, 33N 119W, monthly (m^3/s/100m coastline) \[-39.515, 292.556\]}
+#'   \item{nobs}{Number of oberservations in month () \[87, 124\]}
+#'   \item{stdev}{Standard deviation (m^3/s/100m coastline) \[23.955, 337.93\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_UI3/index.html}
 #' @concept dataset_erddap
@@ -857,10 +857,10 @@
 #'
 #' @format A data frame with 649 rows and 4 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.6094592E9]}
-#'   \item{upwelling_index}{Upwelling Index, 39N 125W, monthly (m^3/s/100m coastline) [-282.4014, 448.8212]}
-#'   \item{nobs}{Number of oberservations in month () [87, 124]}
-#'   \item{stdev}{Standard deviation (m^3/s/100m coastline) [39.227, 670.585]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-9.46944E7, 1.6094592E9\]}
+#'   \item{upwelling_index}{Upwelling Index, 39N 125W, monthly (m^3/s/100m coastline) \[-282.4014, 448.8212\]}
+#'   \item{nobs}{Number of oberservations in month () \[87, 124\]}
+#'   \item{stdev}{Standard deviation (m^3/s/100m coastline) \[39.227, 670.585\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_UI2/index.html}
 #' @concept dataset_erddap
@@ -873,10 +873,10 @@
 #'
 #' @format A data frame with 649 rows and 4 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.6094592E9]}
-#'   \item{upwelling_index}{Upwelling Index, 45N 125W, monthly (m^3/s/100m coastline) [-395.7448, 93.0324]}
-#'   \item{nobs}{Number of oberservations in month () [87, 124]}
-#'   \item{stdev}{Standard deviation (m^3/s/100m coastline) [23.007, 659.207]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-9.46944E7, 1.6094592E9\]}
+#'   \item{upwelling_index}{Upwelling Index, 45N 125W, monthly (m^3/s/100m coastline) \[-395.7448, 93.0324\]}
+#'   \item{nobs}{Number of oberservations in month () \[87, 124\]}
+#'   \item{stdev}{Standard deviation (m^3/s/100m coastline) \[23.007, 659.207\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_UI1/index.html}
 #' @concept dataset_erddap
@@ -889,14 +889,14 @@
 #'
 #' @format A data frame with 413 rows and 8 variables:
 #' \describe{
-#'   \item{time}{Start time (seconds since 1970-01-01T00:00:00Z) [3.874176E8, 1.6003872E9]}
-#'   \item{blob_id}{Blob Id () []}
-#'   \item{max_area}{Maximum Area (km^2) [402937.0, 9759080.0]}
-#'   \item{duration}{Duration (days) [0, 757]}
-#'   \item{max_intensity}{Maximum Intensity (STDEVs from normal) [1.43471, 2.56513]}
-#'   \item{mean_intensity}{Mean Intensity (STDEVs from normal) [1.43471, 2.41716]}
-#'   \item{min_dist_to_coast}{Minimum distance to coast (km) [5.95226, 2772.68]}
-#'   \item{max_index}{Maximum MHW index () [0.0, 0.771722]}
+#'   \item{time}{Start time (seconds since 1970-01-01T00:00:00Z) \[3.874176E8, 1.6003872E9\]}
+#'   \item{blob_id}{Blob Id () \[\]}
+#'   \item{max_area}{Maximum Area (km^2) \[402937.0, 9759080.0\]}
+#'   \item{duration}{Duration (days) \[0, 757\]}
+#'   \item{max_intensity}{Maximum Intensity (STDEVs from normal) \[1.43471, 2.56513\]}
+#'   \item{mean_intensity}{Mean Intensity (STDEVs from normal) \[1.43471, 2.41716\]}
+#'   \item{min_dist_to_coast}{Minimum distance to coast (km) \[5.95226, 2772.68\]}
+#'   \item{max_index}{Maximum MHW index () \[0.0, 0.771722\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_MHW_EV/index.html}
 #' @concept dataset_erddap
@@ -909,15 +909,15 @@
 #'
 #' @format A data frame with 14166 rows and 9 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.786912E8, 1.6025904E9]}
-#'   \item{area_1}{Area of MHW Feature 1 (km^2) [-999.0, 9759084.0]}
-#'   \item{intensity_1}{Intensity of MHW Feature 1 (STDEVs from normal) [0.5671552, 3.806598]}
-#'   \item{area_2}{Area of MHW Feature 2 (km^2) [-999.0, 3410075.0]}
-#'   \item{intensity_2}{Intensity of MHW Feature 2 (STDEVs from normal) [0.0, 3.764146]}
-#'   \item{area_3}{Area of MHW Feature 3 (km^2) [-999.0, 1570442.0]}
-#'   \item{intensity_3}{Intensity of MHW Feature 3 (STDEVs from normal) [-0.1109982, 3.856909]}
-#'   \item{area_4}{Area of MHW Feature 4 (km^2) [-999.0, 798923.1]}
-#'   \item{intensity_4}{Intensity of MHW Feature 4 (STDEVs from normal) [-0.1767007, 3.873491]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.786912E8, 1.6025904E9\]}
+#'   \item{area_1}{Area of MHW Feature 1 (km^2) \[-999.0, 9759084.0\]}
+#'   \item{intensity_1}{Intensity of MHW Feature 1 (STDEVs from normal) \[0.5671552, 3.806598\]}
+#'   \item{area_2}{Area of MHW Feature 2 (km^2) \[-999.0, 3410075.0\]}
+#'   \item{intensity_2}{Intensity of MHW Feature 2 (STDEVs from normal) \[0.0, 3.764146\]}
+#'   \item{area_3}{Area of MHW Feature 3 (km^2) \[-999.0, 1570442.0\]}
+#'   \item{intensity_3}{Intensity of MHW Feature 3 (STDEVs from normal) \[-0.1109982, 3.856909\]}
+#'   \item{area_4}{Area of MHW Feature 4 (km^2) \[-999.0, 798923.1\]}
+#'   \item{intensity_4}{Intensity of MHW Feature 4 (STDEVs from normal) \[-0.1767007, 3.873491\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_MHW/index.html}
 #' @concept dataset_erddap
@@ -930,9 +930,9 @@
 #'
 #' @format A data frame with 100 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [9.466848E8, 1.3885344E9]}
-#'   \item{fishing_dependence}{Fishery Dependence Index () [-0.279896, 32.81]}
-#'   \item{location}{Location () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[9.466848E8, 1.3885344E9\]}
+#'   \item{fishing_dependence}{Fishery Dependence Index () \[-0.279896, 32.81\]}
+#'   \item{location}{Location () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HD_Fish_Dep/index.html}
 #' @concept dataset_erddap
@@ -945,9 +945,9 @@
 #'
 #' @format A data frame with 100 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [9.466848E8, 1.4200704E9]}
-#'   \item{social_vulnerability}{Social Vulnerability Index () [-6.23433, 13.66654]}
-#'   \item{location}{Location () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[9.466848E8, 1.4200704E9\]}
+#'   \item{social_vulnerability}{Social Vulnerability Index () \[-6.23433, 13.66654\]}
+#'   \item{location}{Location () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HD_Soc_Vuln/index.html}
 #' @concept dataset_erddap
@@ -960,10 +960,10 @@
 #'
 #' @format A data frame with 269 rows and 4 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.335872E8, 1.567296E9]}
-#'   \item{copepod_species_richness_anomaly}{Copepod species richness anomaly (anomaly) [-7.194445, 11.20833]}
-#'   \item{northern_copepod_biomass_anomaly}{Northern copepod biomass anomaly 44.6N (mg C -m3) [-1.578972, 1.050465]}
-#'   \item{southern_copepod_biomass_anomaly}{Southern copepod biomass anomaly 44.6N (mg C -m3) [-0.6561004, 0.8060746]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[8.335872E8, 1.567296E9\]}
+#'   \item{copepod_species_richness_anomaly}{Copepod species richness anomaly (anomaly) \[-7.194445, 11.20833\]}
+#'   \item{northern_copepod_biomass_anomaly}{Northern copepod biomass anomaly 44.6N (mg C -m3) \[-1.578972, 1.050465\]}
+#'   \item{southern_copepod_biomass_anomaly}{Southern copepod biomass anomaly 44.6N (mg C -m3) \[-0.6561004, 0.8060746\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_COP/index.html}
 #' @concept dataset_erddap
@@ -976,10 +976,10 @@
 #'
 #' @format A data frame with 877 rows and 4 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-6.929712E8, 1.6107984E9]}
-#'   \item{NOI}{Extratropical-based Northern Oscillation Index (Index) [-12.164, 8.678]}
-#'   \item{SOIX}{Extratropical-bassed Southern Oscillation Index (Index) [-8.9, 8.661]}
-#'   \item{SOI}{Southern Oscillation Inde (Index) [-6.898, 5.355]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-6.929712E8, 1.6107984E9\]}
+#'   \item{NOI}{Extratropical-based Northern Oscillation Index (Index) \[-12.164, 8.678\]}
+#'   \item{SOIX}{Extratropical-bassed Southern Oscillation Index (Index) \[-8.9, 8.661\]}
+#'   \item{SOI}{Southern Oscillation Inde (Index) \[-6.898, 5.355\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_NOI/index.html}
 #' @concept dataset_erddap
@@ -992,11 +992,11 @@
 #'
 #' @format A data frame with 390 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.31152E8, 1.5463008E9]}
-#'   \item{species_group}{Species Group () []}
-#'   \item{mean_cpue}{Mean CPUE (ln(catch+1)) [0.0, 10.85264]}
-#'   \item{Seup}{Confidence Interval, Upper () [0.0, 11.18415]}
-#'   \item{Selo}{Confidence Interval, Lower () [-4.05304E-10, 10.52114]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[6.31152E8, 1.5463008E9\]}
+#'   \item{species_group}{Species Group () \[\]}
+#'   \item{mean_cpue}{Mean CPUE (ln(catch+1)) \[0.0, 10.85264\]}
+#'   \item{Seup}{Confidence Interval, Upper () \[0.0, 11.18415\]}
+#'   \item{Selo}{Confidence Interval, Lower () \[-4.05304E-10, 10.52114\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_FBC/index.html}
 #' @concept dataset_erddap
@@ -1009,11 +1009,11 @@
 #'
 #' @format A data frame with 238 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.836128E8, 1.5463008E9]}
-#'   \item{species_group}{Species Group () []}
-#'   \item{mean_density}{Mean Density (Linear density (Log10(no. km-1+ 1)).) [0.0, 1.9612]}
-#'   \item{Seup}{Confidence Interval, Upper () [0.0, 2.099]}
-#'   \item{Selo}{Confidence Interval, Lower () [-4.1E-4, 1.824]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[8.836128E8, 1.5463008E9\]}
+#'   \item{species_group}{Species Group () \[\]}
+#'   \item{mean_density}{Mean Density (Linear density (Log10(no. km-1+ 1)).) \[0.0, 1.9612\]}
+#'   \item{Seup}{Confidence Interval, Upper () \[0.0, 2.099\]}
+#'   \item{Selo}{Confidence Interval, Lower () \[-4.1E-4, 1.824\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_FBN/index.html}
 #' @concept dataset_erddap
@@ -1026,9 +1026,9 @@
 #'
 #' @format A data frame with 350 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [2.524608E8, 1.5463008E9]}
-#'   \item{species_group}{Species Group () []}
-#'   \item{relative_abundance}{Relative abundance (ln(abundance+1)) [0.0, 4.627175]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[2.524608E8, 1.5463008E9\]}
+#'   \item{species_group}{Species Group () \[\]}
+#'   \item{relative_abundance}{Relative abundance (ln(abundance+1)) \[0.0, 4.627175\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_FBS/index.html}
 #' @concept dataset_erddap
@@ -1041,9 +1041,9 @@
 #'
 #' @format A data frame with 36 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [9.151488E8, 1.4516064E9]}
-#'   \item{species_group}{Species Group () []}
-#'   \item{mean_cpue}{Mean CPUE (ln(catch+1)) [0.48, 10919.47]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[9.151488E8, 1.4516064E9\]}
+#'   \item{species_group}{Species Group () \[\]}
+#'   \item{mean_cpue}{Mean CPUE (ln(catch+1)) \[0.48, 10919.47\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_JELLY_OW/index.html}
 #' @concept dataset_erddap
@@ -1056,9 +1056,9 @@
 #'
 #' @format A data frame with 324 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.5778368E9]}
-#'   \item{lusi}{Length of Upwelling Season Index (days) [58.0, 365.0]}
-#'   \item{latitude}{Latitude (degrees_north) [33, 48]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-9.46944E7, 1.5778368E9\]}
+#'   \item{lusi}{Length of Upwelling Season Index (days) \[58.0, 365.0\]}
+#'   \item{latitude}{Latitude (degrees_north) \[33, 48\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_LUSI/index.html}
 #' @concept dataset_erddap
@@ -1071,8 +1071,8 @@
 #'
 #' @format A data frame with 439 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.549312E8, 1.6121376E9]}
-#'   \item{vwnd}{Wind Speed, Meridional (m s-1) [-7.22959, 6.46426]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.549312E8, 1.6121376E9\]}
+#'   \item{vwnd}{Wind Speed, Meridional (m s-1) \[-7.22959, 6.46426\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_VWND2/index.html}
 #' @concept dataset_erddap
@@ -1085,8 +1085,8 @@
 #'
 #' @format A data frame with 446 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.864672E8, 1.6121376E9]}
-#'   \item{vwnd}{Wind Speed, Meridional (m s-1) [-2.906052, 0.8122222]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.864672E8, 1.6121376E9\]}
+#'   \item{vwnd}{Wind Speed, Meridional (m s-1) \[-2.906052, 0.8122222\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_VWND3/index.html}
 #' @concept dataset_erddap
@@ -1099,8 +1099,8 @@
 #'
 #' @format A data frame with 301 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.889536E8, 1.6121376E9]}
-#'   \item{vwnd}{Wind Speed, Meridional (m s-1) [-6.163844, 8.036128]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[6.889536E8, 1.6121376E9\]}
+#'   \item{vwnd}{Wind Speed, Meridional (m s-1) \[-6.163844, 8.036128\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_VWND1/index.html}
 #' @concept dataset_erddap
@@ -1113,9 +1113,9 @@
 #'
 #' @format A data frame with 1191 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [5.679936E8, 1.6094592E9]}
-#'   \item{cuti}{Coastal Upwelling Transport Index (m^2 s^(-1)) [-1.252, 2.751]}
-#'   \item{latitude}{Latitude (degrees_north) [33, 45]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[5.679936E8, 1.6094592E9\]}
+#'   \item{cuti}{Coastal Upwelling Transport Index (m^2 s^(-1)) \[-1.252, 2.751\]}
+#'   \item{latitude}{Latitude (degrees_north) \[33, 45\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_CUTI/index.html}
 #' @concept dataset_erddap
@@ -1128,13 +1128,13 @@
 #'
 #' @format A data frame with 1320 rows and 7 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-2.0184768E9, 1.4501376E9]}
-#'   \item{sea_level}{Sea Level (mm) [1766.71, 2282.7]}
-#'   \item{std_error}{Standard Error (mm) [0.0, 0.0]}
-#'   \item{station}{ () []}
-#'   \item{latitude}{Latitude (degrees_north) [32.7, 32.7]}
-#'   \item{longitude}{Longitude (degrees_east) [117.2, 117.2]}
-#'   \item{depth}{Depth (m) []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-2.0184768E9, 1.4501376E9\]}
+#'   \item{sea_level}{Sea Level (mm) \[1766.71, 2282.7\]}
+#'   \item{std_error}{Standard Error (mm) \[0.0, 0.0\]}
+#'   \item{station}{ () \[\]}
+#'   \item{latitude}{Latitude (degrees_north) \[32.7, 32.7\]}
+#'   \item{longitude}{Longitude (degrees_east) \[117.2, 117.2\]}
+#'   \item{depth}{Depth (m) \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_SL3/index.html}
 #' @concept dataset_erddap
@@ -1147,13 +1147,13 @@
 #'
 #' @format A data frame with 588 rows and 7 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.34848E7, 1.4501376E9]}
-#'   \item{sea_level}{Sea Level (mm) [2522.033, 3236.0]}
-#'   \item{std_error}{Standard Error (mm) [0.0, 0.0]}
-#'   \item{station}{ () []}
-#'   \item{latitude}{Latitude (degrees_north) [44.6, 44.6]}
-#'   \item{longitude}{Longitude (degrees_east) [124.0, 124.0]}
-#'   \item{depth}{Depth (m) []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-9.34848E7, 1.4501376E9\]}
+#'   \item{sea_level}{Sea Level (mm) \[2522.033, 3236.0\]}
+#'   \item{std_error}{Standard Error (mm) \[0.0, 0.0\]}
+#'   \item{station}{ () \[\]}
+#'   \item{latitude}{Latitude (degrees_north) \[44.6, 44.6\]}
+#'   \item{longitude}{Longitude (degrees_east) \[124.0, 124.0\]}
+#'   \item{depth}{Depth (m) \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_SL1/index.html}
 #' @concept dataset_erddap
@@ -1166,8 +1166,8 @@
 #'
 #' @format A data frame with 54 rows and 2 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.5778368E9]}
-#'   \item{nph_area}{North Pacific High Area, Jan-Feb Mean (10^6 km^2) [0.00561367, 5.806523]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-9.46944E7, 1.5778368E9\]}
+#'   \item{nph_area}{North Pacific High Area, Jan-Feb Mean (10^6 km^2) \[0.00561367, 5.806523\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_NPH_JF/index.html}
 #' @concept dataset_erddap
@@ -1180,11 +1180,11 @@
 #'
 #' @format A data frame with 228 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
-#'   \item{flow_anomaly_1_day_max}{Annual 1-day maximum flow anomaly (Annual Anomaly) [-1.45212, 2.247431]}
-#'   \item{Seup}{95% credible interval upper bound (Annual Anomaly) [-1.052108, 2.60782]}
-#'   \item{Selo}{95% credible interval lower bound (Annual Anomaly) [-1.852468, 1.889717]}
-#'   \item{location}{Location () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.471552E8, 1.5147648E9\]}
+#'   \item{flow_anomaly_1_day_max}{Annual 1-day maximum flow anomaly (Annual Anomaly) \[-1.45212, 2.247431\]}
+#'   \item{Seup}{95% credible interval upper bound (Annual Anomaly) \[-1.052108, 2.60782\]}
+#'   \item{Selo}{95% credible interval lower bound (Annual Anomaly) \[-1.852468, 1.889717\]}
+#'   \item{location}{Location () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HB_FLO1/index.html}
 #' @concept dataset_erddap
@@ -1197,11 +1197,11 @@
 #'
 #' @format A data frame with 228 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
-#'   \item{flow_anomaly_7_day_min}{Annual 7-day minimum flow anomaly (Annual Anomaly) [-1.13376, 1.862751]}
-#'   \item{Seup}{95% credible interval upper bound (Annual Anomaly) [-0.7767891, 2.20623]}
-#'   \item{Selo}{95% credible interval lower bound (Annual Anomaly) [-1.495523, 1.521317]}
-#'   \item{location}{Location () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.471552E8, 1.5147648E9\]}
+#'   \item{flow_anomaly_7_day_min}{Annual 7-day minimum flow anomaly (Annual Anomaly) \[-1.13376, 1.862751\]}
+#'   \item{Seup}{95% credible interval upper bound (Annual Anomaly) \[-0.7767891, 2.20623\]}
+#'   \item{Selo}{95% credible interval lower bound (Annual Anomaly) \[-1.495523, 1.521317\]}
+#'   \item{location}{Location () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HB_FLO7/index.html}
 #' @concept dataset_erddap
@@ -1214,9 +1214,9 @@
 #'
 #' @format A data frame with 170 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.230768E9, 1.4832288E9]}
-#'   \item{social_vulnerability_index}{Social Vulnerability Index () [-6.8948, 13.67]}
-#'   \item{location}{Location () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[1.230768E9, 1.4832288E9\]}
+#'   \item{social_vulnerability_index}{Social Vulnerability Index () \[-6.8948, 13.67\]}
+#'   \item{location}{Location () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HD_Soc_Vuln_Indx/index.html}
 #' @concept dataset_erddap
@@ -1229,13 +1229,13 @@
 #'
 #' @format A data frame with 1392 rows and 7 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-2.2077792E9, 1.4501376E9]}
-#'   \item{sea_level}{Sea Level (mm) [2466.067, 3081.964]}
-#'   \item{std_error}{Standard Error (mm) [0.0, 0.0]}
-#'   \item{station}{ () []}
-#'   \item{latitude}{Latitude (degrees_north) [37.8, 37.8]}
-#'   \item{longitude}{Longitude (degrees_east) [122.5, 122.5]}
-#'   \item{depth}{Depth (m) []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-2.2077792E9, 1.4501376E9\]}
+#'   \item{sea_level}{Sea Level (mm) \[2466.067, 3081.964\]}
+#'   \item{std_error}{Standard Error (mm) \[0.0, 0.0\]}
+#'   \item{station}{ () \[\]}
+#'   \item{latitude}{Latitude (degrees_north) \[37.8, 37.8\]}
+#'   \item{longitude}{Longitude (degrees_east) \[122.5, 122.5\]}
+#'   \item{depth}{Depth (m) \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_SL2/index.html}
 #' @concept dataset_erddap
@@ -1248,9 +1248,9 @@
 #'
 #' @format A data frame with 50 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.31152E8, 1.3885344E9]}
-#'   \item{personal_catch}{Personal Catch (tons) [22.825, 3579.716]}
-#'   \item{use_type}{Use Type () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[6.31152E8, 1.3885344E9\]}
+#'   \item{personal_catch}{Personal Catch (tons) \[22.825, 3579.716\]}
+#'   \item{use_type}{Use Type () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HD_PU/index.html}
 #' @concept dataset_erddap
@@ -1263,13 +1263,13 @@
 #'
 #' @format A data frame with 348 rows and 7 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.31152E8, 1.5147648E9]}
-#'   \item{metric}{ () []}
-#'   \item{timeseries}{ () []}
-#'   \item{data}{ () [0.03166048, 21.98214]}
-#'   \item{error}{ () [0.05746754, 13.34593]}
-#'   \item{SEup}{ () [0.08912803, 27.93191]}
-#'   \item{SElo}{ () [-1.839871, 16.03238]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[6.31152E8, 1.5147648E9\]}
+#'   \item{metric}{ () \[\]}
+#'   \item{timeseries}{ () \[\]}
+#'   \item{data}{ () \[0.03166048, 21.98214\]}
+#'   \item{error}{ () \[0.05746754, 13.34593\]}
+#'   \item{SEup}{ () \[0.08912803, 27.93191\]}
+#'   \item{SElo}{ () \[-1.839871, 16.03238\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_RREAS_diversity_list/index.html}
 #' @concept dataset_erddap
@@ -1282,11 +1282,11 @@
 #'
 #' @format A data frame with 160 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
-#'   \item{aug_mean_max}{August Mean Maximum stream temperature - SW Ecoregion (Annual Anomaly) [14.58439, 23.83713]}
-#'   \item{Seup}{95% credible interval upper bound (Annual Anomaly) [15.41781, 25.0773]}
-#'   \item{Selo}{95% credible interval lower bound (Annual Anomaly) [13.74289, 22.58993]}
-#'   \item{location}{Location () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.471552E8, 1.5147648E9\]}
+#'   \item{aug_mean_max}{August Mean Maximum stream temperature - SW Ecoregion (Annual Anomaly) \[14.58439, 23.83713\]}
+#'   \item{Seup}{95% credible interval upper bound (Annual Anomaly) \[15.41781, 25.0773\]}
+#'   \item{Selo}{95% credible interval lower bound (Annual Anomaly) \[13.74289, 22.58993\]}
+#'   \item{location}{Location () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HB_AUGMX/index.html}
 #' @concept dataset_erddap
@@ -1299,13 +1299,13 @@
 #'
 #' @format A data frame with 23 rows and 7 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.520768E8, 1.5463008E9]}
-#'   \item{live_pup_count}{Sea lion pup count, San Miguel Isl. (count) [9428.0, 27148.0]}
-#'   \item{live_pup_count_se}{Sea lion pup count standard error, San Miguel Isl. (count) [51.99038, 719.5551]}
-#'   \item{mean_weight}{Female sea lion pup weight index (kg) [11.95362, 20.63407]}
-#'   \item{mean_weight_se}{Female sea lion pup weight index standard error (kg) [0.1044493, 0.1937013]}
-#'   \item{mean_growth_rate}{Female sea lion pup growth rate (kg/day) [0.01268848, 0.09503055]}
-#'   \item{mean_growth_rate_se}{Female sea lion pup growth rate standard error (kg/day) [0.001847422, 0.01116279]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[8.520768E8, 1.5463008E9\]}
+#'   \item{live_pup_count}{Sea lion pup count, San Miguel Isl. (count) \[9428.0, 27148.0\]}
+#'   \item{live_pup_count_se}{Sea lion pup count standard error, San Miguel Isl. (count) \[51.99038, 719.5551\]}
+#'   \item{mean_weight}{Female sea lion pup weight index (kg) \[11.95362, 20.63407\]}
+#'   \item{mean_weight_se}{Female sea lion pup weight index standard error (kg) \[0.1044493, 0.1937013\]}
+#'   \item{mean_growth_rate}{Female sea lion pup growth rate (kg/day) \[0.01268848, 0.09503055\]}
+#'   \item{mean_growth_rate_se}{Female sea lion pup growth rate standard error (kg/day) \[0.001847422, 0.01116279\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_MM_pup_count/index.html}
 #' @concept dataset_erddap
@@ -1318,12 +1318,12 @@
 #'
 #' @format A data frame with 19178 rows and 6 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-3.643488E8, 1.5740352E9]}
-#'   \item{site}{Site Name () []}
-#'   \item{domoic_acid_concentration}{Domoic Acid Concentration (ppm) [0.0, 730.0]}
-#'   \item{water_body}{Water Body () []}
-#'   \item{region}{Region () []}
-#'   \item{species}{Species () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[-3.643488E8, 1.5740352E9\]}
+#'   \item{site}{Site Name () \[\]}
+#'   \item{domoic_acid_concentration}{Domoic Acid Concentration (ppm) \[0.0, 730.0\]}
+#'   \item{water_body}{Water Body () \[\]}
+#'   \item{region}{Region () \[\]}
+#'   \item{species}{Species () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_DOMACID/index.html}
 #' @concept dataset_erddap
@@ -1336,9 +1336,9 @@
 #'
 #' @format A data frame with 1191 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [5.679936E8, 1.6094592E9]}
-#'   \item{beuti}{Biologically Effective Upwelling Transport Index (mmol s^-1 m^-1) [-22.082, 50.279]}
-#'   \item{latitude}{Latitude (degrees_north) [33, 45]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[5.679936E8, 1.6094592E9\]}
+#'   \item{beuti}{Biologically Effective Upwelling Transport Index (mmol s^-1 m^-1) \[-22.082, 50.279\]}
+#'   \item{latitude}{Latitude (degrees_north) \[33, 45\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_OC_BEUTI/index.html}
 #' @concept dataset_erddap
@@ -1351,9 +1351,9 @@
 #'
 #' @format A data frame with 197 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.323616E8, 1.573776E9]}
-#'   \item{region}{Region () []}
-#'   \item{domoic_acid_concentration}{Maximum Domoic Acid Concentration (ppm) [0.0, 270.0]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[6.323616E8, 1.573776E9\]}
+#'   \item{region}{Region () \[\]}
+#'   \item{domoic_acid_concentration}{Maximum Domoic Acid Concentration (ppm) \[0.0, 270.0\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_DOMACID_MON_crab/index.html}
 #' @concept dataset_erddap
@@ -1366,9 +1366,9 @@
 #'
 #' @format A data frame with 729 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.270912E8, 1.573776E9]}
-#'   \item{region}{Region () []}
-#'   \item{domoic_acid_concentration}{Maximum Domoic Acid Concentration (ppm) [0.0, 450.0]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[6.270912E8, 1.573776E9\]}
+#'   \item{region}{Region () \[\]}
+#'   \item{domoic_acid_concentration}{Maximum Domoic Acid Concentration (ppm) \[0.0, 450.0\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_DOMACID_MON_clam/index.html}
 #' @concept dataset_erddap
@@ -1381,11 +1381,11 @@
 #'
 #' @format A data frame with 608 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
-#'   \item{flow_anomaly_1_day_max}{Annual 1-day maximum flow anomaly (Annual Anomaly) [-1.926416, 3.357548]}
-#'   \item{Seup}{Confidence Interval, Upper (Annual Anomaly) [-1.701417, 3.63615]}
-#'   \item{Selo}{Confidence Interval, Lower (Annual Anomaly) [-2.157472, 3.077887]}
-#'   \item{location}{Location () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.471552E8, 1.5147648E9\]}
+#'   \item{flow_anomaly_1_day_max}{Annual 1-day maximum flow anomaly (Annual Anomaly) \[-1.926416, 3.357548\]}
+#'   \item{Seup}{Confidence Interval, Upper (Annual Anomaly) \[-1.701417, 3.63615\]}
+#'   \item{Selo}{Confidence Interval, Lower (Annual Anomaly) \[-2.157472, 3.077887\]}
+#'   \item{location}{Location () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HB_FLO1_CH/index.html}
 #' @concept dataset_erddap
@@ -1398,11 +1398,11 @@
 #'
 #' @format A data frame with 608 rows and 5 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
-#'   \item{flow_anomaly_7_day_min}{Annual 7-day minimum flow anomaly (Annual Anomaly) [-1.380479, 2.903009]}
-#'   \item{Seup}{Confidence Interval, Upper (Annual Anomaly) [-0.973741, 3.253027]}
-#'   \item{Selo}{Confidence Interval, Lower (Annual Anomaly) [-1.796982, 2.552675]}
-#'   \item{location}{Location () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.471552E8, 1.5147648E9\]}
+#'   \item{flow_anomaly_7_day_min}{Annual 7-day minimum flow anomaly (Annual Anomaly) \[-1.380479, 2.903009\]}
+#'   \item{Seup}{Confidence Interval, Upper (Annual Anomaly) \[-0.973741, 3.253027\]}
+#'   \item{Selo}{Confidence Interval, Lower (Annual Anomaly) \[-1.796982, 2.552675\]}
+#'   \item{location}{Location () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HB_FLO7_CH/index.html}
 #' @concept dataset_erddap
@@ -1415,9 +1415,9 @@
 #'
 #' @format A data frame with 1330 rows and 3 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
-#'   \item{average_ESI}{Average ESI (Average ESI) [1.23, 9.44]}
-#'   \item{vessel_category}{Vessel category () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[3.471552E8, 1.5147648E9\]}
+#'   \item{average_ESI}{Average ESI (Average ESI) \[1.23, 9.44\]}
+#'   \item{vessel_category}{Vessel category () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_HD_ESI_VESS/index.html}
 #' @concept dataset_erddap
@@ -1430,16 +1430,16 @@
 #'
 #' @format A data frame with 87 rows and 10 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.31152E8, 1.5147648E9]}
-#'   \item{taxa}{Taxa () []}
-#'   \item{abundance}{Total Abundance (ln(CPUE + 1)) [1.390595, 12.2398]}
-#'   \item{abundance_error}{Abundance Error (ln(CPUE + 1)) [1.744331, 13.34593]}
-#'   \item{richness}{Species Richness (number of species) [1.5, 21.98214]}
-#'   \item{richness_error}{Species Richness Error (number of species) [1.453661, 7.003501]}
-#'   \item{diversity}{Shannon-Weaver Diversity () [0.0696443, 1.690858]}
-#'   \item{diversity_error}{Shannon-Weaver Diversity Error () [0.1325587, 0.8078451]}
-#'   \item{evenness}{Pielou's Evenness () [0.03166048, 0.7764255]}
-#'   \item{evenness_error}{Pielou's Evenness Error () [0.05746754, 0.4711267]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[6.31152E8, 1.5147648E9\]}
+#'   \item{taxa}{Taxa () \[\]}
+#'   \item{abundance}{Total Abundance (ln(CPUE + 1)) \[1.390595, 12.2398\]}
+#'   \item{abundance_error}{Abundance Error (ln(CPUE + 1)) \[1.744331, 13.34593\]}
+#'   \item{richness}{Species Richness (number of species) \[1.5, 21.98214\]}
+#'   \item{richness_error}{Species Richness Error (number of species) \[1.453661, 7.003501\]}
+#'   \item{diversity}{Shannon-Weaver Diversity () \[0.0696443, 1.690858\]}
+#'   \item{diversity_error}{Shannon-Weaver Diversity Error () \[0.1325587, 0.8078451\]}
+#'   \item{evenness}{Pielou's Evenness () \[0.03166048, 0.7764255\]}
+#'   \item{evenness_error}{Pielou's Evenness Error () \[0.05746754, 0.4711267\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/cciea_EI_RREAS_diversity_grid/index.html}
 #' @concept dataset_erddap
@@ -1452,10 +1452,10 @@
 #'
 #' @format A data frame with 166 rows and 4 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0997856E9, 1.4998176E9]}
-#'   \item{station}{Station () []}
-#'   \item{depth}{Depth (m) [150, 150]}
-#'   \item{nitrate}{Nitrate (no3+no2) () [4.5802, 36.2214]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[1.0997856E9, 1.4998176E9\]}
+#'   \item{station}{Station () \[\]}
+#'   \item{depth}{Depth (m) \[150, 150\]}
+#'   \item{nitrate}{Nitrate (no3+no2) () \[4.5802, 36.2214\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/newportNitrate/index.html}
 #' @concept dataset_erddap
@@ -1468,15 +1468,15 @@
 #'
 #' @format A data frame with 332 rows and 9 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [9.019296E8, 1.5094944E9]}
-#'   \item{station}{Station () []}
-#'   \item{depth}{Depth (m) [40, 150]}
-#'   \item{temperature}{Water Temperature (degrees C) [6.832, 14.66645]}
-#'   \item{salinity}{Salinity (PSU) [31.8645, 33.9962]}
-#'   \item{density}{Density () [24.2092, 26.648]}
-#'   \item{oxygen}{Oxygen () [0.54, 6.9]}
-#'   \item{dissolved_oxygen}{Dissolved Oxygen (umol/kg) [23.4929, 300.5841]}
-#'   \item{aragonite_saturation}{Aragonite Saturation () [0.4761976, 2.132431]}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[9.019296E8, 1.5094944E9\]}
+#'   \item{station}{Station () \[\]}
+#'   \item{depth}{Depth (m) \[40, 150\]}
+#'   \item{temperature}{Water Temperature (degrees C) \[6.832, 14.66645\]}
+#'   \item{salinity}{Salinity (PSU) \[31.8645, 33.9962\]}
+#'   \item{density}{Density () \[24.2092, 26.648\]}
+#'   \item{oxygen}{Oxygen () \[0.54, 6.9\]}
+#'   \item{dissolved_oxygen}{Dissolved Oxygen (umol/kg) \[23.4929, 300.5841\]}
+#'   \item{aragonite_saturation}{Aragonite Saturation () \[0.4761976, 2.132431\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/newportDOArag/index.html}
 #' @concept dataset_erddap
@@ -1489,16 +1489,16 @@
 #'
 #' @format A data frame with 114299 rows and 10 variables:
 #' \describe{
-#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.589024E8, 1.5099264E9]}
-#'   \item{station}{Station () []}
-#'   \item{depth}{Depth (m) [0, 743]}
-#'   \item{temperature}{Water Temperature (degrees C) [5.7691, 18.2575]}
-#'   \item{salinity}{Salinity (PSU) [23.8151, 34.7945]}
-#'   \item{density}{Density () [17.1925, 27.1704]}
-#'   \item{oxygen}{Oxygen () [0.2496, 12.01967]}
-#'   \item{latitude}{Latitude (degrees_north) [44.391, 44.70633]}
-#'   \item{longitude}{Longitude (degrees_east) [-124.6712, -124.106]}
-#'   \item{project}{Project () []}
+#'   \item{time}{Time (seconds since 1970-01-01T00:00:00Z) \[8.589024E8, 1.5099264E9\]}
+#'   \item{station}{Station () \[\]}
+#'   \item{depth}{Depth (m) \[0, 743\]}
+#'   \item{temperature}{Water Temperature (degrees C) \[5.7691, 18.2575\]}
+#'   \item{salinity}{Salinity (PSU) \[23.8151, 34.7945\]}
+#'   \item{density}{Density () \[17.1925, 27.1704\]}
+#'   \item{oxygen}{Oxygen () \[0.2496, 12.01967\]}
+#'   \item{latitude}{Latitude (degrees_north) \[44.391, 44.70633\]}
+#'   \item{longitude}{Longitude (degrees_east) \[-124.6712, -124.106\]}
+#'   \item{project}{Project () \[\]}
 #' }
 #' @source \url{https://oceanview.pfeg.noaa.gov/erddap/info/newportCTD/index.html}
 #' @concept dataset_erddap

@@ -7,11 +7,11 @@
 \format{
 A data frame with 102 rows and 7 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{-9.46944E7, 1.4832288E9}}
-\item{abundance}{Abundance () \link{71.0, 1427576.0}}
-\item{Seup}{95\% credible interval upper bound () \link{390.0, 39210.0}}
-\item{Selo}{95\% credible interval lower bound () \link{230.0, 24420.0}}
-\item{CV}{Coefficient of Variation () \link{0.044, 0.82}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.4832288E9]}
+\item{abundance}{Abundance () [71.0, 1427576.0]}
+\item{Seup}{95\% credible interval upper bound () [390.0, 39210.0]}
+\item{Selo}{95\% credible interval lower bound () [230.0, 24420.0]}
+\item{CV}{Coefficient of Variation () [0.044, 0.82]}
 \item{common_name}{Common name () []}
 \item{scientific_name}{Scientific name () []}
 }

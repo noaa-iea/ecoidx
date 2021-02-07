@@ -7,9 +7,9 @@
 \format{
 A data frame with 3857 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{-2.9663712E9, 1.4200704E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-2.9663712E9, 1.4200704E9]}
 \item{species_group}{Species Group () []}
-\item{relative_stock_status}{ (relative biomass) \link{0.0498108, 1.25279}}
+\item{relative_stock_status}{ (relative biomass) [0.0498108, 1.25279]}
 }
 }
 \source{

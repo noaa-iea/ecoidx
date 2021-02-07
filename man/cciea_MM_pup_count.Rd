@@ -7,13 +7,13 @@
 \format{
 A data frame with 23 rows and 7 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{8.520768E8, 1.5463008E9}}
-\item{live_pup_count}{Sea lion pup count, San Miguel Isl. (count) \link{9428.0, 27148.0}}
-\item{live_pup_count_se}{Sea lion pup count standard error, San Miguel Isl. (count) \link{51.99038, 719.5551}}
-\item{mean_weight}{Female sea lion pup weight index (kg) \link{11.95362, 20.63407}}
-\item{mean_weight_se}{Female sea lion pup weight index standard error (kg) \link{0.1044493, 0.1937013}}
-\item{mean_growth_rate}{Female sea lion pup growth rate (kg/day) \link{0.01268848, 0.09503055}}
-\item{mean_growth_rate_se}{Female sea lion pup growth rate standard error (kg/day) \link{0.001847422, 0.01116279}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.520768E8, 1.5463008E9]}
+\item{live_pup_count}{Sea lion pup count, San Miguel Isl. (count) [9428.0, 27148.0]}
+\item{live_pup_count_se}{Sea lion pup count standard error, San Miguel Isl. (count) [51.99038, 719.5551]}
+\item{mean_weight}{Female sea lion pup weight index (kg) [11.95362, 20.63407]}
+\item{mean_weight_se}{Female sea lion pup weight index standard error (kg) [0.1044493, 0.1937013]}
+\item{mean_growth_rate}{Female sea lion pup growth rate (kg/day) [0.01268848, 0.09503055]}
+\item{mean_growth_rate_se}{Female sea lion pup growth rate standard error (kg/day) [0.001847422, 0.01116279]}
 }
 }
 \source{

@@ -7,8 +7,8 @@
 \format{
 A data frame with 847 rows and 2 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{-6.31152E8, 1.5935616E9}}
-\item{NPGO}{NPGO Index () \link{-3.646516, 2.956047}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-6.31152E8, 1.5935616E9]}
+\item{NPGO}{NPGO Index () [-3.646516, 2.956047]}
 }
 }
 \source{

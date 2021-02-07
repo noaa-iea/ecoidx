@@ -7,10 +7,10 @@
 \format{
 A data frame with 228 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{3.471552E8, 1.5147648E9}}
-\item{flow_anomaly_7_day_min}{Annual 7-day minimum flow anomaly (Annual Anomaly) \link{-1.13376, 1.862751}}
-\item{Seup}{95\% credible interval upper bound (Annual Anomaly) \link{-0.7767891, 2.20623}}
-\item{Selo}{95\% credible interval lower bound (Annual Anomaly) \link{-1.495523, 1.521317}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
+\item{flow_anomaly_7_day_min}{Annual 7-day minimum flow anomaly (Annual Anomaly) [-1.13376, 1.862751]}
+\item{Seup}{95\% credible interval upper bound (Annual Anomaly) [-0.7767891, 2.20623]}
+\item{Selo}{95\% credible interval lower bound (Annual Anomaly) [-1.495523, 1.521317]}
 \item{location}{Location () []}
 }
 }

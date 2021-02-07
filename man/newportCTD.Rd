@@ -7,15 +7,15 @@
 \format{
 A data frame with 114299 rows and 10 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{8.589024E8, 1.5099264E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.589024E8, 1.5099264E9]}
 \item{station}{Station () []}
-\item{depth}{Depth (m) \link{0, 743}}
-\item{temperature}{Water Temperature (degrees C) \link{5.7691, 18.2575}}
-\item{salinity}{Salinity (PSU) \link{23.8151, 34.7945}}
-\item{density}{Density () \link{17.1925, 27.1704}}
-\item{oxygen}{Oxygen () \link{0.2496, 12.01967}}
-\item{latitude}{Latitude (degrees_north) \link{44.391, 44.70633}}
-\item{longitude}{Longitude (degrees_east) \link{-124.6712, -124.106}}
+\item{depth}{Depth (m) [0, 743]}
+\item{temperature}{Water Temperature (degrees C) [5.7691, 18.2575]}
+\item{salinity}{Salinity (PSU) [23.8151, 34.7945]}
+\item{density}{Density () [17.1925, 27.1704]}
+\item{oxygen}{Oxygen () [0.2496, 12.01967]}
+\item{latitude}{Latitude (degrees_north) [44.391, 44.70633]}
+\item{longitude}{Longitude (degrees_east) [-124.6712, -124.106]}
 \item{project}{Project () []}
 }
 }

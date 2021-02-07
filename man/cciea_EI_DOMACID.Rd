@@ -7,9 +7,9 @@
 \format{
 A data frame with 19178 rows and 6 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{-3.643488E8, 1.5740352E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-3.643488E8, 1.5740352E9]}
 \item{site}{Site Name () []}
-\item{domoic_acid_concentration}{Domoic Acid Concentration (ppm) \link{0.0, 730.0}}
+\item{domoic_acid_concentration}{Domoic Acid Concentration (ppm) [0.0, 730.0]}
 \item{water_body}{Water Body () []}
 \item{region}{Region () []}
 \item{species}{Species () []}

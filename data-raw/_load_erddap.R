@@ -35,7 +35,7 @@ document_erddap_dataset <- function(dataset_id, title, data, ...){
     units        <- i_var_attr(i, v ,'units')
     actual_range <- i_var_attr(i, v ,'actual_range')
 
-    glue("#'   \\item{<v>}{<long_name> (<units>) [<actual_range>]}", .open="<", .close=">") %>%
+    glue("#'   \\item{<v>}{<long_name> (<units>) \\[<actual_range>\\]}", .open="<", .close=">") %>%
       as.character()
   }
 

@@ -7,8 +7,8 @@
 \format{
 A data frame with 445 rows and 2 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{3.864672E8, 1.6121376E9}}
-\item{SST}{Sea Surface Temperature (degree_C) \link{12.83, 22.44}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.864672E8, 1.6121376E9]}
+\item{SST}{Sea Surface Temperature (degree_C) [12.83, 22.44]}
 }
 }
 \source{

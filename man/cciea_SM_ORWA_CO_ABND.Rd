@@ -7,9 +7,9 @@
 \format{
 A data frame with 69 rows and 3 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{0.0, 1.3885344E9}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [0.0, 1.3885344E9]}
 \item{population}{Population/Season () []}
-\item{abundance_anomaly}{Abundance anomaly (observed mean/standard deviation) () \link{-1.214305, 1.844207}}
+\item{abundance_anomaly}{Abundance anomaly (observed mean/standard deviation) () [-1.214305, 1.844207]}
 }
 }
 \source{

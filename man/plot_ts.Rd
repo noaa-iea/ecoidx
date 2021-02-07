@@ -58,6 +58,11 @@ Defaults to \code{TRUE}.}
 
 \item{icon_size}{size of icon font. Defaults to half the \code{font_size}, 12.}
 
+\item{color_pts}{color for points, as named color (see
+\code{\link[grDevices]{colors}()}) or hexadecimal value as provided by red
+green blue \code{\link[grDevices]{rgb}()} specification. Defaults to dusty
+orange.}
+
 \item{color_avg}{color for standard deviation lines around long-term average
 and rectangle between since \code{x_recent}.}
 
@@ -72,11 +77,6 @@ average: standard deviation and recent rectangle.}
 
 \item{theme_plot}{theme function to apply to the ggplot. Defaults to
 \code{\link{theme_iea}}.}
-
-\item{color_pt}{color for points, as named color (see
-\code{\link[grDevices]{colors}()}) or hexadecimal value as provided by red
-green blue \code{\link[grDevices]{rgb}()} specification. Defaults to dusty
-orange.}
 }
 \value{
 This function returns a ggplot object with a caption attribute.

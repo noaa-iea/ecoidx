@@ -7,10 +7,10 @@
 \format{
 A data frame with 608 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) \link{3.471552E8, 1.5147648E9}}
-\item{flow_anomaly_1_day_max}{Annual 1-day maximum flow anomaly (Annual Anomaly) \link{-1.926416, 3.357548}}
-\item{Seup}{Confidence Interval, Upper (Annual Anomaly) \link{-1.701417, 3.63615}}
-\item{Selo}{Confidence Interval, Lower (Annual Anomaly) \link{-2.157472, 3.077887}}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
+\item{flow_anomaly_1_day_max}{Annual 1-day maximum flow anomaly (Annual Anomaly) [-1.926416, 3.357548]}
+\item{Seup}{Confidence Interval, Upper (Annual Anomaly) [-1.701417, 3.63615]}
+\item{Selo}{Confidence Interval, Lower (Annual Anomaly) [-2.157472, 3.077887]}
 \item{location}{Location () []}
 }
 }
