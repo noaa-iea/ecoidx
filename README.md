@@ -106,6 +106,15 @@ cat(attr(g, "caption")) # empty caption without x_recent
 
 ## Developer
 
+### One time
+
+Setup Github Actions to update documentation upon `git push` into
+`gh-pages` branch:
+
+``` r
+usethis::use_github_action("pkgdown")
+```
+
 ### Load dataset
 
 1.  Place into CSV into `data-raw/` folder
