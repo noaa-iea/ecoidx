@@ -12,11 +12,11 @@ plot_ts(
   y_hi = SEup,
   x_recent = 5,
   units_recent = "years",
-  add_avg = T,
-  add_icons = T,
+  add_avg = TRUE,
+  add_icons = TRUE,
   font_size = 24,
   icon_size = font_size/2,
-  color_pt = rgb(225, 118, 44, max = 255),
+  color_pts = rgb(225, 118, 44, max = 255),
   color_avg = rgb(63, 173, 213, max = 255),
   color_hilo = "lightgrey",
   alpha_avg = 0.8,
@@ -58,11 +58,6 @@ Defaults to \code{TRUE}.}
 
 \item{icon_size}{size of icon font. Defaults to half the \code{font_size}, 12.}
 
-\item{color_pt}{color for points, as named color (see
-\code{\link[grDevices]{colors}()}) or hexadecimal value as provided by red
-green blue \code{\link[grDevices]{rgb}()} specification. Defaults to dusty
-orange.}
-
 \item{color_avg}{color for standard deviation lines around long-term average
 and rectangle between since \code{x_recent}.}
 
@@ -77,20 +72,26 @@ average: standard deviation and recent rectangle.}
 
 \item{theme_plot}{theme function to apply to the ggplot. Defaults to
 \code{\link{theme_iea}}.}
+
+\item{color_pt}{color for points, as named color (see
+\code{\link[grDevices]{colors}()}) or hexadecimal value as provided by red
+green blue \code{\link[grDevices]{rgb}()} specification. Defaults to dusty
+orange.}
 }
 \value{
 This function returns a ggplot object with a caption attribute.
 }
 \description{
-Plot time series in the style of the California Current IEA. Include a
-\strong{ribbon} around y if low (\code{y_lo}) and high (\code{y_hi}) are provided. Include
-\strong{long-term average} if \code{add_avg = TRUE} with average as a black dashed line
-and solid lines indicating the \strong{standard deviation} in the color of
-\code{color_avg}. Include \strong{rectangle} in the color of \code{color_avg} between the
-standard deviation of the long-term average since \code{x_recent} if provided.
-Include \strong{icons} in the right-hand margin for recent trend (→, ↗, ↘) and
-recent average (o, +, -) if stable, increasing, or decreasing (respectively)
-relative to the long-term standard deviation.
+Plot time series in the style of the California Current IEA. Dashed lines are
+used in between \strong{missing data} and points colored by \code{color_pts}. Include a
+\strong{ribbon} around \code{y} if low (\code{y_lo}) and high (\code{y_hi}) values are provided.
+Include \strong{long-term average} if \code{add_avg = TRUE} with average as a black
+dashed line and solid lines indicating the \strong{standard deviation} in the
+color of \code{color_avg}. Include \strong{rectangle} in the color of \code{color_avg}
+between the standard deviation of the long-term average since \code{x_recent} if
+provided. Include \strong{icons} in the right-hand margin for recent trend (→, ↗,
+↘) and recent average (o, +, -) if stable, increasing, or decreasing
+(respectively) relative to the long-term standard deviation.
 }
 \details{
 The attribute \code{caption} includes a textual summary.

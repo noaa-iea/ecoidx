@@ -40,15 +40,16 @@
 
 
 <meta property="og:title" content="Plot time series — plot_ts" />
-<meta property="og:description" content="Plot time series in the style of the California Current IEA. Include a
-ribbon around y if low (y_lo) and high (y_hi) are provided. Include
-long-term average if add_avg = TRUE with average as a black dashed line
-and solid lines indicating the standard deviation in the color of
-color_avg. Include rectangle in the color of color_avg between the
-standard deviation of the long-term average since x_recent if provided.
-Include icons in the right-hand margin for recent trend (→, ↗, ↘) and
-recent average (o, +, -) if stable, increasing, or decreasing (respectively)
-relative to the long-term standard deviation." />
+<meta property="og:description" content="Plot time series in the style of the California Current IEA. Dashed lines are
+used in between missing data and points colored by color_pts. Include a
+ribbon around y if low (y_lo) and high (y_hi) values are provided.
+Include long-term average if add_avg = TRUE with average as a black
+dashed line and solid lines indicating the standard deviation in the
+color of color_avg. Include rectangle in the color of color_avg
+between the standard deviation of the long-term average since x_recent if
+provided. Include icons in the right-hand margin for recent trend (→, ↗,
+↘) and recent average (o, +, -) if stable, increasing, or decreasing
+(respectively) relative to the long-term standard deviation." />
 
 
 
@@ -80,7 +81,7 @@ relative to the long-term standard deviation." />
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">ecoidx</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
       </span>
     </div>
 
@@ -95,9 +96,17 @@ relative to the long-term standard deviation." />
 <li>
   <a href="../reference/index.html">Reference</a>
 </li>
+<li>
+  <a href="../news/index.html">Changelog</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/marinebon/ecoidx/">
+    <span class="fab fa-github fa-lg"></span>
+     
+  </a>
+</li>
       </ul>
       
     </div><!--/.nav-collapse -->
@@ -112,20 +121,21 @@ relative to the long-term standard deviation." />
   <div class="col-md-9 contents">
     <div class="page-header">
     <h1>Plot time series</h1>
-    
+    <small class="dont-index">Source: <a href='https://github.com/marinebon/ecoidx/blob/master/R/plotting.R'><code>R/plotting.R</code></a></small>
     <div class="hidden name"><code>plot_ts.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Plot time series in the style of the California Current IEA. Include a
-<strong>ribbon</strong> around y if low (<code>y_lo</code>) and high (<code>y_hi</code>) are provided. Include
-<strong>long-term average</strong> if <code>add_avg = TRUE</code> with average as a black dashed line
-and solid lines indicating the <strong>standard deviation</strong> in the color of
-<code>color_avg</code>. Include <strong>rectangle</strong> in the color of <code>color_avg</code> between the
-standard deviation of the long-term average since <code>x_recent</code> if provided.
-Include <strong>icons</strong> in the right-hand margin for recent trend (→, ↗, ↘) and
-recent average (o, +, -) if stable, increasing, or decreasing (respectively)
-relative to the long-term standard deviation.</p>
+    <p>Plot time series in the style of the California Current IEA. Dashed lines are
+used in between <strong>missing data</strong> and points colored by <code>color_pts</code>. Include a
+<strong>ribbon</strong> around <code>y</code> if low (<code>y_lo</code>) and high (<code>y_hi</code>) values are provided.
+Include <strong>long-term average</strong> if <code>add_avg = TRUE</code> with average as a black
+dashed line and solid lines indicating the <strong>standard deviation</strong> in the
+color of <code>color_avg</code>. Include <strong>rectangle</strong> in the color of <code>color_avg</code>
+between the standard deviation of the long-term average since <code>x_recent</code> if
+provided. Include <strong>icons</strong> in the right-hand margin for recent trend (→, ↗,
+↘) and recent average (o, +, -) if stable, increasing, or decreasing
+(respectively) relative to the long-term standard deviation.</p>
     </div>
 
     <pre class="usage"><span class='fu'>plot_ts</span>(
@@ -136,11 +146,11 @@ relative to the long-term standard deviation.</p>
   <span class='kw'>y_hi</span> <span class='kw'>=</span> <span class='no'>SEup</span>,
   <span class='kw'>x_recent</span> <span class='kw'>=</span> <span class='fl'>5</span>,
   <span class='kw'>units_recent</span> <span class='kw'>=</span> <span class='st'>"years"</span>,
-  <span class='kw'>add_avg</span> <span class='kw'>=</span> <span class='no'>T</span>,
-  <span class='kw'>add_icons</span> <span class='kw'>=</span> <span class='no'>T</span>,
+  <span class='kw'>add_avg</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>,
+  <span class='kw'>add_icons</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>,
   <span class='kw'>font_size</span> <span class='kw'>=</span> <span class='fl'>24</span>,
   <span class='kw'>icon_size</span> <span class='kw'>=</span> <span class='no'>font_size</span>/<span class='fl'>2</span>,
-  <span class='kw'>color_pt</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/grDevices/rgb.html'>rgb</a></span>(<span class='fl'>225</span>, <span class='fl'>118</span>, <span class='fl'>44</span>, <span class='kw'>max</span> <span class='kw'>=</span> <span class='fl'>255</span>),
+  <span class='kw'>color_pts</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/grDevices/rgb.html'>rgb</a></span>(<span class='fl'>225</span>, <span class='fl'>118</span>, <span class='fl'>44</span>, <span class='kw'>max</span> <span class='kw'>=</span> <span class='fl'>255</span>),
   <span class='kw'>color_avg</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/grDevices/rgb.html'>rgb</a></span>(<span class='fl'>63</span>, <span class='fl'>173</span>, <span class='fl'>213</span>, <span class='kw'>max</span> <span class='kw'>=</span> <span class='fl'>255</span>),
   <span class='kw'>color_hilo</span> <span class='kw'>=</span> <span class='st'>"lightgrey"</span>,
   <span class='kw'>alpha_avg</span> <span class='kw'>=</span> <span class='fl'>0.8</span>,
@@ -207,13 +217,6 @@ Defaults to <code>TRUE</code>.</p></td>
       <td><p>size of icon font. Defaults to half the <code>font_size</code>, 12.</p></td>
     </tr>
     <tr>
-      <th>color_pt</th>
-      <td><p>color for points, as named color (see
-<code><a href='https://rdrr.io/r/grDevices/colors.html'>colors</a>()</code>) or hexadecimal value as provided by red
-green blue <code><a href='https://rdrr.io/r/grDevices/rgb.html'>rgb</a>()</code> specification. Defaults to dusty
-orange.</p></td>
-    </tr>
-    <tr>
       <th>color_avg</th>
       <td><p>color for standard deviation lines around long-term average
 and rectangle between since <code>x_recent</code>.</p></td>
@@ -237,6 +240,13 @@ average: standard deviation and recent rectangle.</p></td>
       <th>theme_plot</th>
       <td><p>theme function to apply to the ggplot. Defaults to
 <code><a href='theme_iea.html'>theme_iea</a></code>.</p></td>
+    </tr>
+    <tr>
+      <th>color_pt</th>
+      <td><p>color for points, as named color (see
+<code><a href='https://rdrr.io/r/grDevices/colors.html'>colors</a>()</code>) or hexadecimal value as provided by red
+green blue <code><a href='https://rdrr.io/r/grDevices/rgb.html'>rgb</a>()</code> specification. Defaults to dusty
+orange.</p></td>
     </tr>
     </table>
 
