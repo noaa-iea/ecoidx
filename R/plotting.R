@@ -92,13 +92,13 @@ plot_ts <- function(
   alpha_hilo = 0.8,
   theme_plot = theme_iea) {
 
-  library(emojifont)
-
   # TODO:
   # - add other captions besides recent_*
   # - account for diff't avg time period, eg OC_* like PDO
-  # - remove outliers for avg
+  # - remove outliers for avg, eg seabirds
   # - deal with Y2 for fitted data
+
+  library(emojifont)
 
   captions <- list(
     recent_trend = list(
@@ -146,6 +146,7 @@ plot_ts <- function(
       filter({{x}} %in% c(min({{x}}), max({{x}}))) %>%
       pull(pred) %>%
       diff()
+
     recent_trend <- ifelse(
       abs(y_recent_pred_dif) - y_sd < 0,
       "→",
@@ -153,6 +154,7 @@ plot_ts <- function(
         y_recent_pred_dif > y_sd,
         "↗",
         "↘"))
+
     recent_avg <- ifelse(
       abs(y_recent_avg) - y_sd < 0,
       "o",
@@ -160,6 +162,7 @@ plot_ts <- function(
         y_recent_avg > y_sd,
         "+",
         "-"))
+
     caption <- paste(
       caption,
       captions[["recent_trend"]][[recent_trend]], " ",
