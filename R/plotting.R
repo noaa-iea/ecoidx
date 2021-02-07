@@ -35,7 +35,7 @@
 #'   Defaults to `TRUE`.
 #' @param font_size font size. Defaults to 24.
 #' @param icon_size size of icon font. Defaults to half the `font_size`, 12.
-#' @param color_pt color for points, as named color (see
+#' @param color_pts color for points, as named color (see
 #'   \code{\link[grDevices]{colors}()}) or hexadecimal value as provided by red
 #'   green blue \code{\link[grDevices]{rgb}()} specification. Defaults to dusty
 #'   orange.

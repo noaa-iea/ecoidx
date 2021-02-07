@@ -75,6 +75,8 @@ Setup Github Actions to update documentation upon `git push` into `gh-pages` bra
 usethis::use_github_action("pkgdown")
 ```
 
+Modified the [.github/workflows/pkgdown.yaml](https://github.com/marinebon/ecoidx/blame/8095d4a294e41987b039ab80e2791757dd37eb8c/.github/workflows/pkgdown.yaml#L38-L49) to run `devtools::document()` before `pkgdown::build_site()` with 2 lines highlighted.
+
 ### Load dataset
 
 1. Place into CSV into `data-raw/` folder
