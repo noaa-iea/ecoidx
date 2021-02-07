@@ -2,3 +2,11 @@
 
 export(GetNorm)
 export(PlotTimeSeries)
+export(QuadPlot_means)
+export(plot_ts)
+export(theme_iea)
+import(dplyr)
+import(emojifont)
+import(ggplot2)
+importFrom(glue,glue)
+importFrom(modelr,add_predictions)

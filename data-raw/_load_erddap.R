@@ -10,7 +10,7 @@ ed_url    <- "https://oceanview.pfeg.noaa.gov/erddap"
 ed_q      <- "cciea"
 dir_raw   <- here("data-raw")
 ed_ds_csv <- file.path(dir_raw, "_cciea_datasets.csv")
-man_R     <- here("R/cciea.R")
+man_R     <- here("R/datasets_erddap.R")
 
 # helper functions ----
 
@@ -84,6 +84,7 @@ ed_datasets <- ed_s$info %>%
         tabledap(info(dataset_id))}))
 
 # write data-raw/*.csv, data/*.rda dataset, R/*.R documentation ----
+writeLines("", man_R)
 ed_datasets %>%
   pwalk(
     function(dataset_id, title, data, csv, ...){
@@ -93,9 +94,11 @@ ed_datasets %>%
       # cmd <- glue("{dataset_id} <- data; use_data({dataset_id}, overwrite = T)")
       # eval(parse(text = cmd))
 
-      doc = document_erddap_dataset(dataset_id, title, data)
-      writeLines(doc, here(glue("R/{dataset_id}.R")))
-      })
+      doc = document_erddap_dataset(dataset_id, title, data) %>%
+        paste0("\n\n")
+      #writeLines(doc, here(glue("R/{dataset_id}.R")))
+      write(doc, man_R, append=T)
+    })
 
 # Run in Console after:
 #   devtools::document()

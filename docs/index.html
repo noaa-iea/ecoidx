@@ -12,7 +12,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/v4-shims.min.css" integrity="sha256-wZjR52fzng1pJHwx4aV2AO3yyTOXrcDW7jBpJtTwVxw=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><!-- headroom.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/headroom.min.js" integrity="sha256-AsUX4SJE1+yuDu5+mAVzJbuYNPHj/WroHuZ8Ir/CkE0=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.11.0/jQuery.headroom.min.js" integrity="sha256-ZX/yNShbjqsohH1k95liqY9Gd8uOiE1S4vZc+9KQ1K4=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
 <script src="pkgdown.js"></script><meta property="og:title" content="What the Package Does (One Line, Title Case)">
-<meta property="og:description" content="What the package does (one paragraph).">
+<meta property="og:description" content="Helper datasets and plotting functions for marine ecological indicators, 
+    particularly for NOAA's Integrated Ecological Assessment program in the California Current.">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -39,7 +40,7 @@
       <ul class="nav navbar-nav">
 <li>
   <a href="index.html">
-    <span class="fas fa fas fa-home fa-lg"></span>
+    <span class="fas fa-home fa-lg"></span>
      
   </a>
 </li>
@@ -62,7 +63,86 @@
 <div id="ecoidx" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#ecoidx" class="anchor"></a>ecoidx</h1></div>
-<p>marine ecological indicator workflows and visualization, particularly for NOAA’s Integrated Ecological Assessment program</p>
+<p>This R package consists of a set of helper datasets and plotting functions for developing and communicating marine ecological indicators, particularly for NOAA’s Integrated Ecological Assessment program in the California Current.</p>
+<div id="load-the-r-package" class="section level2">
+<h2 class="hasAnchor">
+<a href="#load-the-r-package" class="anchor"></a>Load the R package</h2>
+<p>This package lives on Github, not yet CRAN, so you’ll need to run the following once:</p>
+<div class="sourceCode" id="cb1"><pre class="r"><span class="kw pkg">remotes</span><span class="kw ns">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span>(<span class="st">"marinebon/ecoidx"</span>)</pre></div>
+<p>Then to load the package when using:</p>
+<div class="sourceCode" id="cb2"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/library.html">library</a></span>(<span class="no">ecoidx</span>)</pre></div>
+</div>
+<div id="datasets" class="section level2">
+<h2 class="hasAnchor">
+<a href="#datasets" class="anchor"></a>Datasets</h2>
+<p>Most datasets were loaded from <a href="https://oceanview.pfeg.noaa.gov/erddap/search/index.html?page=1&amp;itemsPerPage=1000&amp;searchFor=cciea">ERDDAP searching “cciea”</a>.</p>
+<p>You can see the available datasets for this package from the R Console with:</p>
+<div class="sourceCode" id="cb3"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span>(<span class="kw">package</span> <span class="kw">=</span> <span class="st">"ecoidx"</span>)</pre></div>
+<p>Or look at the <a href="./reference/index.html#section-datasets-erddap">Reference</a>.</p>
+<p>The ERDDAP datasets are “evergreen” and preferred. These are loaded for convenience, especially for quickly trying out the data wrangling and plotting functions.</p>
+</div>
+<div id="plotting" class="section level2">
+<h2 class="hasAnchor">
+<a href="#plotting" class="anchor"></a>Plotting</h2>
+<p>You can also embed plots, for example:</p>
+<div class="sourceCode" id="cb4"><pre class="r"><span class="co"># example time series dataset</span>
+<span class="no">ts1</span></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1"></a><span class="co">## # A tibble: 30 x 8</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="co">##     year index    Y2    SElo   SEup timeseries                metric type       </span></span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="co">##    &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt;                     &lt;lgl&gt;  &lt;chr&gt;      </span></span>
+<span id="cb5-4"><a href="#cb5-4"></a><span class="co">##  1  1986  1.95  1.95 -0.0482  3.95  (a) Trend and recent mean NA     current.da…</span></span>
+<span id="cb5-5"><a href="#cb5-5"></a><span class="co">##  2  1987  1.63  1.63 -0.368   3.63  (a) Trend and recent mean NA     current.da…</span></span>
+<span id="cb5-6"><a href="#cb5-6"></a><span class="co">##  3  1988  3.46  3.46  1.46    5.46  (a) Trend and recent mean NA     current.da…</span></span>
+<span id="cb5-7"><a href="#cb5-7"></a><span class="co">##  4  1989 NA    NA    NA      NA     (a) Trend and recent mean NA     current.da…</span></span>
+<span id="cb5-8"><a href="#cb5-8"></a><span class="co">##  5  1990 NA    NA    NA      NA     (a) Trend and recent mean NA     current.da…</span></span>
+<span id="cb5-9"><a href="#cb5-9"></a><span class="co">##  6  1991 NA    NA    NA      NA     (a) Trend and recent mean NA     current.da…</span></span>
+<span id="cb5-10"><a href="#cb5-10"></a><span class="co">##  7  1992 -1.02 -1.02 -3.02    0.983 (a) Trend and recent mean NA     current.da…</span></span>
+<span id="cb5-11"><a href="#cb5-11"></a><span class="co">##  8  1993  1.53  1.53 -0.473   3.53  (a) Trend and recent mean NA     current.da…</span></span>
+<span id="cb5-12"><a href="#cb5-12"></a><span class="co">##  9  1994  3.91  3.91  1.91    5.91  (a) Trend and recent mean NA     current.da…</span></span>
+<span id="cb5-13"><a href="#cb5-13"></a><span class="co">## 10  1995  4.35  4.35  2.35    6.35  (a) Trend and recent mean NA     current.da…</span></span>
+<span id="cb5-14"><a href="#cb5-14"></a><span class="co">## # … with 20 more rows</span></span></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="r"><span class="co"># defaults to include all options</span>
+<span class="no">g</span> <span class="kw">&lt;-</span> <span class="fu"><a href="reference/plot_ts.html">plot_ts</a></span>(<span class="no">ts1</span>)
+<span class="no">g</span></pre></div>
+<p><img src="reference/figures/unnamed-chunk-4-1.png"><!-- --></p>
+<div class="sourceCode" id="cb7"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span>(<span class="fu"><a href="https://rdrr.io/r/base/attr.html">attr</a></span>(<span class="no">g</span>, <span class="st">"caption"</span>))</pre></div>
+<div class="sourceCode" id="cb8"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1"></a><span class="co">##  The index changed by less than one standard deviation of the full time series over the last 5 years.   The mean of the last 5 years was more than one standard deviation below the mean of the full time series.</span></span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="r"><span class="co"># without SElo or SEhi</span>
+<span class="no">g</span> <span class="kw">&lt;-</span> <span class="fu"><a href="reference/plot_ts.html">plot_ts</a></span>(<span class="no">ts1</span>[,<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span>(<span class="st">"year"</span>,<span class="st">"index"</span>)])
+<span class="no">g</span></pre></div>
+<p><img src="reference/figures/unnamed-chunk-4-2.png"><!-- --></p>
+<div class="sourceCode" id="cb10"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span>(<span class="fu"><a href="https://rdrr.io/r/base/attr.html">attr</a></span>(<span class="no">g</span>, <span class="st">"caption"</span>))</pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1"></a><span class="co">##  The index changed by less than one standard deviation of the full time series over the last 5 years.   The mean of the last 5 years was more than one standard deviation below the mean of the full time series.</span></span></code></pre></div>
+<div class="sourceCode" id="cb12"><pre class="r"><span class="co"># without x_recent, add_avg, add_icons</span>
+<span class="no">g</span> <span class="kw">&lt;-</span> <span class="fu"><a href="reference/plot_ts.html">plot_ts</a></span>(<span class="no">ts1</span>, <span class="kw">x_recent</span><span class="kw">=</span><span class="fl">NA</span>, <span class="kw">add_icons</span><span class="kw">=</span><span class="no">F</span>, <span class="kw">add_avg</span><span class="kw">=</span><span class="no">F</span>)
+<span class="no">g</span></pre></div>
+<p><img src="reference/figures/unnamed-chunk-4-3.png"><!-- --></p>
+<div class="sourceCode" id="cb13"><pre class="r"><span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span>(<span class="fu"><a href="https://rdrr.io/r/base/attr.html">attr</a></span>(<span class="no">g</span>, <span class="st">"caption"</span>)) <span class="co"># empty caption without x_recent</span></pre></div>
+</div>
+<div id="developer" class="section level2">
+<h2 class="hasAnchor">
+<a href="#developer" class="anchor"></a>Developer</h2>
+<div id="load-dataset" class="section level3">
+<h3 class="hasAnchor">
+<a href="#load-dataset" class="anchor"></a>Load dataset</h3>
+<ol>
+<li>Place into CSV into <code>data-raw/</code> folder</li>
+<li>Create dataset. Create <code>get_[dataset].R</code> script to read, potentially wrangle and then load into R package as a dataset using <code><a href="https://usethis.r-lib.org/reference/use_data.html">usethis::use_data()</a></code>. Run <code>get_[dataset].R</code> to generate <code>data/[dataset].rda</code>.</li>
+<li>Document dataset. Create <code>R/[dataset].R</code>. Run <code><a href="https://devtools.r-lib.org//reference/document.html">devtools::document()</a></code> to create <code>man/[dataset].Rd</code>.</li>
+<li>Document package. Run <code><a href="https://pkgdown.r-lib.org/reference/build_reference.html">pkgdown::build_reference()</a></code> to update <code>docs/reference/index.html</code>.</li>
+</ol>
+</div>
+<div id="develop-functions" class="section level3">
+<h3 class="hasAnchor">
+<a href="#develop-functions" class="anchor"></a>Develop functions</h3>
+<p>To import a library:</p>
+<div class="sourceCode" id="cb14"><pre class="r"><span class="kw pkg">usethis</span><span class="kw ns">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_package.html">use_package</a></span>(<span class="st">"dplyr"</span>)
+<span class="kw pkg">usethis</span><span class="kw ns">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_package.html">use_package</a></span>(<span class="st">"ggplot2"</span>)</pre></div>
+<p>After updating documentation:</p>
+<div class="sourceCode" id="cb15"><pre class="r"><span class="kw pkg">devtools</span><span class="kw ns">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/document.html">document</a></span>()
+<span class="kw pkg">pkgdown</span><span class="kw ns">::</span><span class="fu"><a href="https://pkgdown.r-lib.org/reference/build_reference.html">build_reference</a></span>()</pre></div>
+</div>
+</div>
 </div>
   </div>
 
@@ -70,14 +150,15 @@
     <div class="license">
 <h2>License</h2>
 <ul class="list-unstyled">
-<li>`use_mit_license()`, `use_gpl3_license()` or friends to
-    pick a license</li>
+<li><a href="LICENSE.html">Full license</a></li>
+<li><small><a href="https://opensource.org/licenses/mit-license.php">MIT</a> + file <a href="LICENSE-text.html">LICENSE</a></small></li>
 </ul>
 </div>
 <div class="developers">
 <h2>Developers</h2>
 <ul class="list-unstyled">
-<li>First Last <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/YOUR-ORCID-ID" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Ben Best <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-2686-0784" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Nick Tolimieri <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-0581-9915" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 </ul>
 </div>
 
@@ -86,7 +167,7 @@
 
 
       <footer><div class="copyright">
-  <p>Developed by First Last.</p>
+  <p>Developed by Ben Best, Nick Tolimieri.</p>
 </div>
 
 <div class="pkgdown">
