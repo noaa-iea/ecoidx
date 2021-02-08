@@ -278,8 +278,10 @@ plot_ts <- function(
     insert_icons()
 
   attr(g, "caption") <- glue(caption)
-  attr(g, "recent_trend") <- recent_trend
-  attr(g, "recent_avg")   <- recent_avg
+  if (has_recent){
+    attr(g, "recent_trend") <- recent_trend
+    attr(g, "recent_avg")   <- recent_avg
+  }
 
   g
 }
