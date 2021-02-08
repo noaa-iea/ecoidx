@@ -45,7 +45,7 @@ The ERDDAP datasets are "evergreen" and preferred. These are loaded for convenie
 
 ## Plot
 
-Here's an example of using the `plot_ts()` function, starting the an example timeseries dataset `ts1`.
+Here's an example of using the `plot_ts()` function, starting with an example timeseries dataset `ts1`.
 
 ```{r}
 # example time series dataset with some NAs to show dashed line between non-NA values

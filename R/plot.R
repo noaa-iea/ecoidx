@@ -1,62 +1,63 @@
-#' Plot time series
+#'Plot time series
 #'
-#' Plot time series in the style of the California Current IEA. Dashed lines are
-#' used in between **missing data** and points colored by `color_pts`. Include a
-#' **ribbon** around `y` if low (`y_lo`) and high (`y_hi`) values are provided.
-#' Include **long-term average** if `add_avg = TRUE` with average as a black
-#' dashed line and solid lines indicating the **standard deviation** in the
-#' color of `color_avg`. Include **rectangle** in the color of `color_avg`
-#' between the standard deviation of the long-term average since `x_recent` if
-#' provided. Include **icons** in the right-hand margin for recent trend (→, ↗,
-#' ↘) and recent average (o, +, -) if stable, increasing, or decreasing
-#' (respectively) relative to the long-term standard deviation.
+#'Plot time series in the style of the California Current IEA. Dashed lines are
+#'used in between **missing data** and points colored by `color_pts`. Include a
+#'**ribbon** around `y` if low (`y_lo`) and high (`y_hi`) values are provided.
+#'Include **long-term average** if `add_avg = TRUE` with average as a black
+#'dashed line and solid lines indicating the **standard deviation** in the color
+#'of `color_avg`. Include **rectangle** in the color of `color_avg` between the
+#'standard deviation of the long-term average since `x_recent` if provided.
+#'Include **icons** in the right-hand margin for recent trend (→, ↗, ↘) and
+#'recent average (o, +, -) if stable, increasing, or decreasing (respectively)
+#'relative to the long-term standard deviation.
 #'
-#' The attribute `caption` includes a textual summary.
+#'The attribute `caption` includes a textual summary.
 #'
-#' @param d Default dataset to use for plotting with
-#'   \code{ggplot2::\link[ggplot2]{ggplot}()}. Typically includes columns:
-#'   `year`, `index`, `SElo` and `SEup`.
-#' @param x column for x axis from `d`, unquoted. Defaults to `year`.
-#' @param y column for y axis from `d`, unquoted. Defaults to `index`.
-#' @param y_lo unquoted column for low value to apply to gray ribbon, typically
-#'   `y - sd(y)`. Defaults to `SElo` if present.
-#' @param y_hi unquoted column for highy value to apply to gray ribbon,
-#'   typically `y + sd(y)`. Defaults to `SEhi` if present.
-#' @param x_recent duration of `x`, typically an integer, for which to consider
-#'   as recent period to derive **rectangle** and **icons**. Defaults to `5`, as
-#'   in years.
-#' @param units_recent units to describe `x`, used in caption.
-#' @param add_avg whether to add average as a black dashed line and solid lines
-#'   indicating the **standard deviation** in the color of `color_avg`. Defaults
-#'   to `TRUE`.
-#' @param add_icons whether to include icons in the right-hand margin for recent
-#'   trend (→, ↗, ↘) and recent average (o, +, -) if stable, increasing, or
-#'   decreasing (respectively) relative to the long-term standard deviation.
-#'   Defaults to `TRUE`.
-#' @param font_size font size. Defaults to 24.
-#' @param icon_size size of icon font. Defaults to half the `font_size`, 12.
-#' @param color_pts color for points, as named color (see
-#'   \code{\link[grDevices]{colors}()}) or hexadecimal value as provided by red
-#'   green blue \code{\link[grDevices]{rgb}()} specification. Defaults to dusty
-#'   orange.
-#' @param color_avg color for standard deviation lines around long-term average
-#'   and rectangle between since `x_recent`.
-#' @param color_hilo color for ribbon around `y` between values `y_lo` and
-#'   `y_hi`.
-#' @param alpha_avg transparency (0 to 1) for colored elements of long-term
-#'   average: standard deviation and recent rectangle.
-#' @param alpha_hilo transparency (0 to 1) for ribbon around `y` between values
-#'   `y_lo` and `y_hi`.
-#' @param theme_plot theme function to apply to the ggplot. Defaults to
-#'   \code{\link{theme_iea}}.
+#'@param d Default dataset to use for plotting with
+#'  \code{ggplot2::\link[ggplot2]{ggplot}()}. Typically includes columns:
+#'  `year`, `index`, `SElo` and `SEup`.
+#'@param x column for x axis from `d`, unquoted. Defaults to `year`.
+#'@param y column for y axis from `d`, unquoted. Defaults to `index`.
+#'@param y_lo unquoted column for low value to apply to gray ribbon, typically
+#'  `y - sd(y)`. Defaults to `SElo` if present.
+#'@param y_hi unquoted column for highy value to apply to gray ribbon, typically
+#'  `y + sd(y)`. Defaults to `SEhi` if present.
+#'@param x_recent duration of `x`, typically an integer, for which to consider
+#'  as recent period to derive **rectangle** and **icons**. Defaults to `5`, as
+#'  in years.
+#'@param units_recent units to describe `x`, used in caption.
+#'@param add_avg whether to add average as a black dashed line and solid lines
+#'  indicating the **standard deviation** in the color of `color_avg`. Defaults
+#'  to `TRUE`.
+#'@param add_icons whether to include icons in the right-hand margin for recent
+#'  trend (→, ↗, ↘) and recent average (o, +, -) if stable, increasing, or
+#'  decreasing (respectively) relative to the long-term standard deviation.
+#'  Defaults to `TRUE`.
+#'@param font_size font size. Defaults to 24.
+#'@param icon_size size of icon font. Defaults to half the `font_size`, 12.
+#'@param color_pts color for points, as named color (see
+#'  \code{\link[grDevices]{colors}()}) or hexadecimal value as provided by red
+#'  green blue \code{\link[grDevices]{rgb}()} specification. Defaults to dusty
+#'  orange.
+#'@param color_avg color for standard deviation lines around long-term average
+#'  and rectangle between since `x_recent`.
+#'@param color_hilo color for ribbon around `y` between values `y_lo` and
+#'  `y_hi`.
+#'@param alpha_avg transparency (0 to 1) for colored elements of long-term
+#'  average: standard deviation and recent rectangle.
+#'@param alpha_hilo transparency (0 to 1) for ribbon around `y` between values
+#'  `y_lo` and `y_hi`.
+#'@param theme_plot theme function to apply to the ggplot. Defaults to
+#'  \code{\link{theme_iea}}.
 #'
-#' @return This function returns a ggplot object with a caption attribute.
+#'@return This function returns a ggplot object with attributes for: `caption`,
+#'  `recent_trend` and `recent_avg`.
 #'
-#' @import dplyr emojifont ggplot2
-#' @importFrom modelr add_predictions
-#' @importFrom glue glue
-#' @export
-#' @concept plot
+#'@import dplyr emojifont ggplot2
+#'@importFrom modelr add_predictions
+#'@importFrom glue glue
+#'@export
+#'@concept plot
 #'
 #' @examples
 #' # example time series dataset with some NAs to show dashed line between non-NA values
@@ -277,6 +278,9 @@ plot_ts <- function(
     insert_icons()
 
   attr(g, "caption") <- glue(caption)
+  attr(g, "recent_trend") <- recent_trend
+  attr(g, "recent_avg")   <- recent_avg
+
   g
 }
 

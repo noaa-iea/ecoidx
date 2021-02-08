@@ -36,8 +36,8 @@ plot_ts(
 \item{y_lo}{unquoted column for low value to apply to gray ribbon, typically
 \code{y - sd(y)}. Defaults to \code{SElo} if present.}
 
-\item{y_hi}{unquoted column for highy value to apply to gray ribbon,
-typically \code{y + sd(y)}. Defaults to \code{SEhi} if present.}
+\item{y_hi}{unquoted column for highy value to apply to gray ribbon, typically
+\code{y + sd(y)}. Defaults to \code{SEhi} if present.}
 
 \item{x_recent}{duration of \code{x}, typically an integer, for which to consider
 as recent period to derive \strong{rectangle} and \strong{icons}. Defaults to \code{5}, as
@@ -79,19 +79,20 @@ average: standard deviation and recent rectangle.}
 \code{\link{theme_iea}}.}
 }
 \value{
-This function returns a ggplot object with a caption attribute.
+This function returns a ggplot object with attributes for: \code{caption},
+\code{recent_trend} and \code{recent_avg}.
 }
 \description{
 Plot time series in the style of the California Current IEA. Dashed lines are
 used in between \strong{missing data} and points colored by \code{color_pts}. Include a
 \strong{ribbon} around \code{y} if low (\code{y_lo}) and high (\code{y_hi}) values are provided.
 Include \strong{long-term average} if \code{add_avg = TRUE} with average as a black
-dashed line and solid lines indicating the \strong{standard deviation} in the
-color of \code{color_avg}. Include \strong{rectangle} in the color of \code{color_avg}
-between the standard deviation of the long-term average since \code{x_recent} if
-provided. Include \strong{icons} in the right-hand margin for recent trend (→, ↗,
-↘) and recent average (o, +, -) if stable, increasing, or decreasing
-(respectively) relative to the long-term standard deviation.
+dashed line and solid lines indicating the \strong{standard deviation} in the color
+of \code{color_avg}. Include \strong{rectangle} in the color of \code{color_avg} between the
+standard deviation of the long-term average since \code{x_recent} if provided.
+Include \strong{icons} in the right-hand margin for recent trend (→, ↗, ↘) and
+recent average (o, +, -) if stable, increasing, or decreasing (respectively)
+relative to the long-term standard deviation.
 }
 \details{
 The attribute \code{caption} includes a textual summary.
