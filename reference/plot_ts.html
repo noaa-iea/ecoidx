@@ -44,12 +44,12 @@
 used in between missing data and points colored by color_pts. Include a
 ribbon around y if low (y_lo) and high (y_hi) values are provided.
 Include long-term average if add_avg = TRUE with average as a black
-dashed line and solid lines indicating the standard deviation in the
-color of color_avg. Include rectangle in the color of color_avg
-between the standard deviation of the long-term average since x_recent if
-provided. Include icons in the right-hand margin for recent trend (→, ↗,
-↘) and recent average (o, +, -) if stable, increasing, or decreasing
-(respectively) relative to the long-term standard deviation." />
+dashed line and solid lines indicating the standard deviation in the color
+of color_avg. Include rectangle in the color of color_avg between the
+standard deviation of the long-term average since x_recent if provided.
+Include icons in the right-hand margin for recent trend (→, ↗, ↘) and
+recent average (o, +, -) if stable, increasing, or decreasing (respectively)
+relative to the long-term standard deviation." />
 
 
 
@@ -130,12 +130,12 @@ provided. Include icons in the right-hand margin for recent trend (→, ↗,
 used in between <strong>missing data</strong> and points colored by <code>color_pts</code>. Include a
 <strong>ribbon</strong> around <code>y</code> if low (<code>y_lo</code>) and high (<code>y_hi</code>) values are provided.
 Include <strong>long-term average</strong> if <code>add_avg = TRUE</code> with average as a black
-dashed line and solid lines indicating the <strong>standard deviation</strong> in the
-color of <code>color_avg</code>. Include <strong>rectangle</strong> in the color of <code>color_avg</code>
-between the standard deviation of the long-term average since <code>x_recent</code> if
-provided. Include <strong>icons</strong> in the right-hand margin for recent trend (→, ↗,
-↘) and recent average (o, +, -) if stable, increasing, or decreasing
-(respectively) relative to the long-term standard deviation.</p>
+dashed line and solid lines indicating the <strong>standard deviation</strong> in the color
+of <code>color_avg</code>. Include <strong>rectangle</strong> in the color of <code>color_avg</code> between the
+standard deviation of the long-term average since <code>x_recent</code> if provided.
+Include <strong>icons</strong> in the right-hand margin for recent trend (→, ↗, ↘) and
+recent average (o, +, -) if stable, increasing, or decreasing (respectively)
+relative to the long-term standard deviation.</p>
     </div>
 
     <pre class="usage"><span class='fu'>plot_ts</span><span class='op'>(</span>
@@ -182,8 +182,8 @@ provided. Include <strong>icons</strong> in the right-hand margin for recent tre
     </tr>
     <tr>
       <th>y_hi</th>
-      <td><p>unquoted column for highy value to apply to gray ribbon,
-typically <code>y + sd(y)</code>. Defaults to <code>SEhi</code> if present.</p></td>
+      <td><p>unquoted column for highy value to apply to gray ribbon, typically
+<code>y + sd(y)</code>. Defaults to <code>SEhi</code> if present.</p></td>
     </tr>
     <tr>
       <th>x_recent</th>
@@ -252,7 +252,8 @@ average: standard deviation and recent rectangle.</p></td>
 
     <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>This function returns a ggplot object with a caption attribute.</p>
+    <p>This function returns a ggplot object with attributes for: <code>caption</code>,
+<code>recent_trend</code> and <code>recent_avg</code>.</p>
     <h2 class="hasAnchor" id="details"><a class="anchor" href="#details"></a>Details</h2>
 
     <p>The attribute <code>caption</code> includes a textual summary.</p>
