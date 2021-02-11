@@ -239,7 +239,7 @@ plot_ts <- function(
   }
 
   insert_icons <- function(){
-    if (!add_icons)
+    if (!add_icons | !has_recent)
       return(list())
 
     icons <- list(

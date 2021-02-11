@@ -1,16 +1,21 @@
 ---
 title: "ecoidx"
-output: 
-  github_document:
-    df_print: kable
+output: github_document
+#  github_document:
+#    df_print: kable
 ---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
   echo = T,
   fig.path = "man/figures/")
-
-devtools::load_all()
+# devtools::install_local(force = T)
+# devtools::load_all()
+# head(ts1, 8) # ts1
 ```
 
 This R package consists of a set of helper datasets and plotting functions for developing and communicating marine ecological indicators, particularly for NOAA's Integrated Ecological Assessment program in the California Current.
@@ -35,7 +40,7 @@ Most datasets were loaded from [ERDDAP searching "cciea"](https://oceanview.pfeg
 
 You can see the available datasets for this package from the R Console with:
 
-```{r}
+```{r, eval = F}
 data(package = "ecoidx")
 ```
 
@@ -49,7 +54,7 @@ Here's an example of using the `plot_ts()` function, starting with an example ti
 
 ```{r}
 # example time series dataset with some NAs to show dashed line between non-NA values
-head(ts1, 8)
+ts1
 
 # defaults to include all options
 g <- plot_ts(ts1)
