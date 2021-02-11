@@ -49,21 +49,25 @@ example timeseries dataset `ts1`.
 
 ``` r
 # example time series dataset with some NAs to show dashed line between non-NA values
-ts1
-#> # A tibble: 30 x 8
-#>     year index    Y2    SElo   SEup timeseries                metric type       
-#>    <dbl> <dbl> <dbl>   <dbl>  <dbl> <chr>                     <lgl>  <chr>      
-#>  1  1986  1.95  1.95 -0.0482  3.95  (a) Trend and recent mean NA     current.da…
-#>  2  1987  1.63  1.63 -0.368   3.63  (a) Trend and recent mean NA     current.da…
-#>  3  1988  3.46  3.46  1.46    5.46  (a) Trend and recent mean NA     current.da…
-#>  4  1989 NA    NA    NA      NA     (a) Trend and recent mean NA     current.da…
-#>  5  1990 NA    NA    NA      NA     (a) Trend and recent mean NA     current.da…
-#>  6  1991 NA    NA    NA      NA     (a) Trend and recent mean NA     current.da…
-#>  7  1992 -1.02 -1.02 -3.02    0.983 (a) Trend and recent mean NA     current.da…
-#>  8  1993  1.53  1.53 -0.473   3.53  (a) Trend and recent mean NA     current.da…
-#>  9  1994  3.91  3.91  1.91    5.91  (a) Trend and recent mean NA     current.da…
-#> 10  1995  4.35  4.35  2.35    6.35  (a) Trend and recent mean NA     current.da…
-#> # … with 20 more rows
+head(ts1, 8)
+```
+
+<div class="kable-table">
+
+| year |      index |         Y2 |       SElo |     SEup | timeseries                | metric | type         |
+| ---: | ---------: | ---------: | ---------: | -------: | :------------------------ | :----- | :----------- |
+| 1986 |   1.951787 |   1.951787 | \-0.048213 | 3.951787 | (a) Trend and recent mean | NA     | current.data |
+| 1987 |   1.631605 |   1.631605 | \-0.368395 | 3.631605 | (a) Trend and recent mean | NA     | current.data |
+| 1988 |   3.457652 |   3.457652 |   1.457652 | 5.457652 | (a) Trend and recent mean | NA     | current.data |
+| 1989 |         NA |         NA |         NA |       NA | (a) Trend and recent mean | NA     | current.data |
+| 1990 |         NA |         NA |         NA |       NA | (a) Trend and recent mean | NA     | current.data |
+| 1991 |         NA |         NA |         NA |       NA | (a) Trend and recent mean | NA     | current.data |
+| 1992 | \-1.016788 | \-1.016788 | \-3.016788 | 0.983212 | (a) Trend and recent mean | NA     | current.data |
+| 1993 |   1.526880 |   1.526880 | \-0.473120 | 3.526880 | (a) Trend and recent mean | NA     | current.data |
+
+</div>
+
+``` r
 
 # defaults to include all options
 g <- plot_ts(ts1)
