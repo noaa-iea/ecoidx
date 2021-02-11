@@ -73,6 +73,7 @@
 <div id="ecoidx" class="section level1">
 <div class="page-header"><h1 class="hasAnchor">
 <a href="#ecoidx" class="anchor"></a>ecoidx</h1></div>
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 <p>This R package consists of a set of helper datasets and plotting functions for developing and communicating marine ecological indicators, particularly for NOAA’s Integrated Ecological Assessment program in the California Current.</p>
 <div id="load-the-r-package" class="section level2">
 <h2 class="hasAnchor">
@@ -100,138 +101,49 @@
 <p>Here’s an example of using the <code><a href="reference/plot_ts.html">plot_ts()</a></code> function, starting with an example timeseries dataset <code>ts1</code>.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># example time series dataset with some NAs to show dashed line between non-NA values</span>
-<span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">ts1</span>, <span class="fl">8</span><span class="op">)</span></code></pre></div>
-<div class="kable-table">
-<table class="table">
-<colgroup>
-<col width="4%">
-<col width="11%">
-<col width="11%">
-<col width="11%">
-<col width="9%">
-<col width="29%">
-<col width="7%">
-<col width="14%">
-</colgroup>
-<thead><tr class="header">
-<th align="right">year</th>
-<th align="right">index</th>
-<th align="right">Y2</th>
-<th align="right">SElo</th>
-<th align="right">SEup</th>
-<th align="left">timeseries</th>
-<th align="left">metric</th>
-<th align="left">type</th>
-</tr></thead>
-<tbody>
-<tr class="odd">
-<td align="right">1986</td>
-<td align="right">1.951787</td>
-<td align="right">1.951787</td>
-<td align="right">-0.048213</td>
-<td align="right">3.951787</td>
-<td align="left">(a) Trend and recent mean</td>
-<td align="left">NA</td>
-<td align="left">current.data</td>
-</tr>
-<tr class="even">
-<td align="right">1987</td>
-<td align="right">1.631605</td>
-<td align="right">1.631605</td>
-<td align="right">-0.368395</td>
-<td align="right">3.631605</td>
-<td align="left">(a) Trend and recent mean</td>
-<td align="left">NA</td>
-<td align="left">current.data</td>
-</tr>
-<tr class="odd">
-<td align="right">1988</td>
-<td align="right">3.457652</td>
-<td align="right">3.457652</td>
-<td align="right">1.457652</td>
-<td align="right">5.457652</td>
-<td align="left">(a) Trend and recent mean</td>
-<td align="left">NA</td>
-<td align="left">current.data</td>
-</tr>
-<tr class="even">
-<td align="right">1989</td>
-<td align="right">NA</td>
-<td align="right">NA</td>
-<td align="right">NA</td>
-<td align="right">NA</td>
-<td align="left">(a) Trend and recent mean</td>
-<td align="left">NA</td>
-<td align="left">current.data</td>
-</tr>
-<tr class="odd">
-<td align="right">1990</td>
-<td align="right">NA</td>
-<td align="right">NA</td>
-<td align="right">NA</td>
-<td align="right">NA</td>
-<td align="left">(a) Trend and recent mean</td>
-<td align="left">NA</td>
-<td align="left">current.data</td>
-</tr>
-<tr class="even">
-<td align="right">1991</td>
-<td align="right">NA</td>
-<td align="right">NA</td>
-<td align="right">NA</td>
-<td align="right">NA</td>
-<td align="left">(a) Trend and recent mean</td>
-<td align="left">NA</td>
-<td align="left">current.data</td>
-</tr>
-<tr class="odd">
-<td align="right">1992</td>
-<td align="right">-1.016788</td>
-<td align="right">-1.016788</td>
-<td align="right">-3.016788</td>
-<td align="right">0.983212</td>
-<td align="left">(a) Trend and recent mean</td>
-<td align="left">NA</td>
-<td align="left">current.data</td>
-</tr>
-<tr class="even">
-<td align="right">1993</td>
-<td align="right">1.526880</td>
-<td align="right">1.526880</td>
-<td align="right">-0.473120</td>
-<td align="right">3.526880</td>
-<td align="left">(a) Trend and recent mean</td>
-<td align="left">NA</td>
-<td align="left">current.data</td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># defaults to include all options</span>
+<span class="va">ts1</span>
+<span class="co">#&gt; [90m# A tibble: 30 x 8[39m</span>
+<span class="co">#&gt;     year index    Y2    SElo   SEup timeseries                metric type       </span>
+<span class="co">#&gt;    [3m[90m&lt;dbl&gt;[39m[23m [3m[90m&lt;dbl&gt;[39m[23m [3m[90m&lt;dbl&gt;[39m[23m   [3m[90m&lt;dbl&gt;[39m[23m  [3m[90m&lt;dbl&gt;[39m[23m [3m[90m&lt;chr&gt;[39m[23m                     [3m[90m&lt;lgl&gt;[39m[23m  [3m[90m&lt;chr&gt;[39m[23m      </span>
+<span class="co">#&gt; [90m 1[39m  [4m1[24m986  1.95  1.95 -[31m0[39m[31m.[39m[31m0[39m[31m48[4m2[24m[39m  3.95  (a) Trend and recent mean [31mNA[39m     current.da…</span>
+<span class="co">#&gt; [90m 2[39m  [4m1[24m987  1.63  1.63 -[31m0[39m[31m.[39m[31m368[39m   3.63  (a) Trend and recent mean [31mNA[39m     current.da…</span>
+<span class="co">#&gt; [90m 3[39m  [4m1[24m988  3.46  3.46  1.46    5.46  (a) Trend and recent mean [31mNA[39m     current.da…</span>
+<span class="co">#&gt; [90m 4[39m  [4m1[24m989 [31mNA[39m    [31mNA[39m    [31mNA[39m      [31mNA[39m     (a) Trend and recent mean [31mNA[39m     current.da…</span>
+<span class="co">#&gt; [90m 5[39m  [4m1[24m990 [31mNA[39m    [31mNA[39m    [31mNA[39m      [31mNA[39m     (a) Trend and recent mean [31mNA[39m     current.da…</span>
+<span class="co">#&gt; [90m 6[39m  [4m1[24m991 [31mNA[39m    [31mNA[39m    [31mNA[39m      [31mNA[39m     (a) Trend and recent mean [31mNA[39m     current.da…</span>
+<span class="co">#&gt; [90m 7[39m  [4m1[24m992 -[31m1[39m[31m.[39m[31m0[39m[31m2[39m -[31m1[39m[31m.[39m[31m0[39m[31m2[39m -[31m3[39m[31m.[39m[31m0[39m[31m2[39m    0.983 (a) Trend and recent mean [31mNA[39m     current.da…</span>
+<span class="co">#&gt; [90m 8[39m  [4m1[24m993  1.53  1.53 -[31m0[39m[31m.[39m[31m473[39m   3.53  (a) Trend and recent mean [31mNA[39m     current.da…</span>
+<span class="co">#&gt; [90m 9[39m  [4m1[24m994  3.91  3.91  1.91    5.91  (a) Trend and recent mean [31mNA[39m     current.da…</span>
+<span class="co">#&gt; [90m10[39m  [4m1[24m995  4.35  4.35  2.35    6.35  (a) Trend and recent mean [31mNA[39m     current.da…</span>
+<span class="co">#&gt; [90m# … with 20 more rows[39m</span>
+
+<span class="co"># defaults to include all options</span>
 <span class="va">g</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/plot_ts.html">plot_ts</a></span><span class="op">(</span><span class="va">ts1</span><span class="op">)</span>
 <span class="va">g</span></code></pre></div>
 <p><img src="reference/figures/unnamed-chunk-4-1.png"><!-- --></p>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># show the caption attributed to the returned ggplot object</span>
-<span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/attr.html">attr</a></span><span class="op">(</span><span class="va">g</span>, <span class="st">"caption"</span><span class="op">)</span><span class="op">)</span></code></pre></div>
-<div class="sourceCode" id="cb7"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1"></a><span class="co">##  The index changed by less than one standard deviation of the full time series over the last 5 years (indicated by icon: →).   The mean of the last 5 years was more than one standard deviation below the mean of the full time series (indicated by icon: +).</span></span></code></pre></div>
-<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># without SElo or SEhi columns, just year and index</span>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R">
+<span class="co"># show the caption attributed to the returned ggplot object</span>
+<span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/attr.html">attr</a></span><span class="op">(</span><span class="va">g</span>, <span class="st">"caption"</span><span class="op">)</span><span class="op">)</span>
+<span class="co">#&gt;  The index changed by less than one standard deviation of the full time series over the last 5 years (indicated by icon: →).   The mean of the last 5 years was more than one standard deviation below the mean of the full time series (indicated by icon: +).</span>
+
+<span class="co"># without SElo or SEhi columns, just year and index</span>
 <span class="va">g</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/plot_ts.html">plot_ts</a></span><span class="op">(</span><span class="va">ts1</span><span class="op">[</span>,<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"year"</span>,<span class="st">"index"</span><span class="op">)</span><span class="op">]</span><span class="op">)</span>
 <span class="va">g</span></code></pre></div>
 <p><img src="reference/figures/unnamed-chunk-4-2.png"><!-- --></p>
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># same caption as previously, since defaults to x_recent=5 and add_avg=T</span>
-<span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/attr.html">attr</a></span><span class="op">(</span><span class="va">g</span>, <span class="st">"caption"</span><span class="op">)</span><span class="op">)</span></code></pre></div>
-<div class="sourceCode" id="cb10"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a><span class="co">##  The index changed by less than one standard deviation of the full time series over the last 5 years (indicated by icon: →).   The mean of the last 5 years was more than one standard deviation below the mean of the full time series (indicated by icon: +).</span></span></code></pre></div>
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># without default x_recent, add_avg, or add_icons</span>
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<code class="sourceCode R">
+<span class="co"># same caption as previously, since defaults to x_recent=5 and add_avg=T</span>
+<span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/attr.html">attr</a></span><span class="op">(</span><span class="va">g</span>, <span class="st">"caption"</span><span class="op">)</span><span class="op">)</span>
+<span class="co">#&gt;  The index changed by less than one standard deviation of the full time series over the last 5 years (indicated by icon: →).   The mean of the last 5 years was more than one standard deviation below the mean of the full time series (indicated by icon: +).</span>
+
+<span class="co"># without default x_recent, add_avg, or add_icons</span>
 <span class="va">g</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/plot_ts.html">plot_ts</a></span><span class="op">(</span><span class="va">ts1</span>, x_recent<span class="op">=</span><span class="cn">NA</span>, add_icons<span class="op">=</span><span class="cn">F</span>, add_avg<span class="op">=</span><span class="cn">F</span><span class="op">)</span>
 <span class="va">g</span></code></pre></div>
 <p><img src="reference/figures/unnamed-chunk-4-3.png"><!-- --></p>
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="co"># no caption, since missing x_recent and add_avg</span>
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<code class="sourceCode R">
+<span class="co"># no caption, since missing x_recent and add_avg</span>
 <span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/attr.html">attr</a></span><span class="op">(</span><span class="va">g</span>, <span class="st">"caption"</span><span class="op">)</span><span class="op">)</span> <span class="co"># empty caption without x_recent</span></code></pre></div>
 </div>
 <div id="developer" class="section level2">
@@ -242,16 +154,16 @@
 <h3 class="hasAnchor">
 <a href="#one-time" class="anchor"></a>One time</h3>
 <p>Setup Github Actions to update documentation upon <code>git push</code> into <code>gh-pages</code> branch:</p>
-<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_github_action.html">use_github_action</a></span><span class="op">(</span><span class="st">"pkgdown"</span><span class="op">)</span></code></pre></div>
 <p>Modified the <a href="https://github.com/marinebon/ecoidx/blame/5b1b44104029fbc167146b9037b0030db390f774/.github/workflows/pkgdown.yaml#L38-L50">.github/workflows/pkgdown.yaml</a> with 3 extra lines to fully document the package from source:</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb14-1"><a href="#cb14-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Install dependencies</span></span>
-<span id="cb14-2"><a href="#cb14-2"></a><span class="at">      ...</span></span>
-<span id="cb14-3"><a href="#cb14-3"></a><span class="at">          install.packages("devtools", type = "binary")</span></span>
-<span id="cb14-4"><a href="#cb14-4"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Deploy package</span></span>
-<span id="cb14-5"><a href="#cb14-5"></a><span class="at">      ...</span></span>
-<span id="cb14-6"><a href="#cb14-6"></a><span class="at">          Rscript -e 'devtools::document()'</span></span>
-<span id="cb14-7"><a href="#cb14-7"></a><span class="at">          Rscript -e 'rmarkdown::render("README.Rmd")'</span></span></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb9-1"><a href="#cb9-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Install dependencies</span></span>
+<span id="cb9-2"><a href="#cb9-2"></a><span class="at">      ...</span></span>
+<span id="cb9-3"><a href="#cb9-3"></a><span class="at">          install.packages("devtools", type = "binary")</span></span>
+<span id="cb9-4"><a href="#cb9-4"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Deploy package</span></span>
+<span id="cb9-5"><a href="#cb9-5"></a><span class="at">      ...</span></span>
+<span id="cb9-6"><a href="#cb9-6"></a><span class="at">          Rscript -e 'devtools::document()'</span></span>
+<span id="cb9-7"><a href="#cb9-7"></a><span class="at">          Rscript -e 'rmarkdown::render("README.Rmd")'</span></span></code></pre></div>
 </div>
 <div id="load-dataset" class="section level3">
 <h3 class="hasAnchor">
@@ -267,11 +179,11 @@
 <h3 class="hasAnchor">
 <a href="#develop-functions" class="anchor"></a>Develop functions</h3>
 <p>To import a library:</p>
-<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_package.html">use_package</a></span><span class="op">(</span><span class="st">"dplyr"</span><span class="op">)</span>
 <span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_package.html">use_package</a></span><span class="op">(</span><span class="st">"ggplot2"</span><span class="op">)</span></code></pre></div>
 <p>After updating documentation:</p>
-<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/document.html">document</a></span><span class="op">(</span><span class="op">)</span>
 <span class="fu">pkgdown</span><span class="fu">::</span><span class="fu"><a href="https://pkgdown.r-lib.org/reference/build_reference.html">build_reference</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
 </div>
