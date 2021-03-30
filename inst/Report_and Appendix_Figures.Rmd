@@ -38,12 +38,15 @@ library(rtf) # to output captions
 #####################################################
 # load time series plotting code #
 # source(paste0(main.folder,"/load.data.r")) # MISSING
+main.folder_0 <- main.folder
+main.folder <- file.path(main.folder_0, "../R")
 source(paste0(main.folder,'/PlotTimeSeries.R'))  
 source(paste0(main.folder,'/PlotDomoicAcid.R'))  
 source(paste0(main.folder,"/Quadplot_means.r",sep=""))
 source(paste0(main.folder,'/NormalizeTimeSeries.r'))
 source(paste0(main.folder,"/GetAreaWtdMeans.R" ))
 source(paste0(main.folder,"/QuadPlot.R" ))
+main.folder <- main.folder_0
 
 bg.polys = FALSE
 note.update.status = FALSE # plots "old data" on plot if it hasn't been updated from previous year
