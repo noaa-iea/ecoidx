@@ -73,6 +73,7 @@ ed_s <- ed_search(ed_q, which = "tabledap")
 
 write_csv(ed_s$info, ed_ds_csv)
 
+# get tibble of all datasets with data
 ed_datasets <- ed_s$info %>%
   tibble() %>%
   mutate(
@@ -89,14 +90,14 @@ ed_datasets %>%
   pwalk(
     function(dataset_id, title, data, csv, ...){
 
-      # write_csv(data, csv)
-      #
-      # cmd <- glue("{dataset_id} <- data; use_data({dataset_id}, overwrite = T)")
-      # eval(parse(text = cmd))
+      # load dataset into R package
+      write_csv(data, csv)
+      cmd <- glue("{dataset_id} <- data; use_data({dataset_id}, overwrite = T)")
+      eval(parse(text = cmd))
 
+      # write documentation into R package
       doc = document_erddap_dataset(dataset_id, title, data) %>%
         paste0("\n\n")
-      #writeLines(doc, here(glue("R/{dataset_id}.R")))
       write(doc, man_R, append=T)
     })
 
