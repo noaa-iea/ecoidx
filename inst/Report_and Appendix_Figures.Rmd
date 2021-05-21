@@ -2,6 +2,8 @@
 title: "CCIEA.Figures"
 output:
   word_document: default
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- MAIN REPORT : BEGIN REPORT -->

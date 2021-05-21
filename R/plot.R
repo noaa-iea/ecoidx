@@ -144,6 +144,8 @@ plot_ts <- function(
     # run linear model (lm) regression on recent years
     m_formula <- glue("{enexpr(y)} ~ {enexpr(x)}") %>% as.formula()
     m   <- lm(m_formula, d_r)
+
+    #browser()
     d_r <- modelr::add_predictions(d_r, m, var = "pred")
 
     # get recent trend as difference between first and last recent years of lm prediction
@@ -224,18 +226,17 @@ plot_ts <- function(
   }
 
   insert_x_ticks <- function(){
-    if (x_rng > 40)
-      stop("Whoah! The insert_x_ticks() subfunction of plot_ts() hasn't yet considered a range beyond 40 for x, which is presumably in years.")
 
-    # add minor ticks for all years, keep labels every 5 years and double tick size
+    x_ilbl <- ifelse(x_rng > 40, 10, 5)
+    # add minor ticks for all years, keep labels every 5 (or 10) years and double tick size
     list(
       scale_x_continuous(
         breaks = seq(x_min, x_max),
-        labels = ifelse(x_v %% 5 == 0, x_v, ""),
+        labels = ifelse(x_v %% x_ilbl == 0, x_v, ""),
         limits = c(x_min, x_max)),
       theme(
         axis.ticks.x = element_line(
-          size = ifelse(x_v %% 5 == 0, 1, 0.5))))
+          size = ifelse(x_v %% x_ilbl == 0, 1, 0.5))))
   }
 
   insert_icons <- function(){

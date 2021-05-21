@@ -49,10 +49,13 @@ Total Upwelling Magnitude Index (TUMI),cciea_OC_TUMI
 "Upwelling Index, 33N 119W, monthly",cciea_OC_UI3
 "Upwelling Index, 39N 125W, monthly",cciea_OC_UI2
 "Upwelling Index, 45N 125W, monthly",cciea_OC_UI1
+"2020 Forage Biomass, California Current Central",cciea_EI_FBC_2020
+"2020 Forage Biomass, California Current North",cciea_EI_FBN_2020
+"2020 Forage Biomass, California Current South",cciea_EI_FBS_2020
 California Current Marine Heatwave Event List,cciea_OC_MHW_EV
 "California Current Marine Heatwave, Daily",cciea_OC_MHW
 Coastal community fishery dependence index,cciea_HD_Fish_Dep
-Coastal community social vulnerability index,cciea_HD_Soc_Vuln
+Coastal community social vulnerability index,cciea_HD_Soc_Vuln_Indx
 "Copepod Indices, Northern California Current",cciea_EI_COP
 Extratropical-based Northern Oscillation Index,cciea_OC_NOI
 "Forage Biomass, California Current Central",cciea_EI_FBC
@@ -69,7 +72,6 @@ Monthly Sea Level: South Beach OR (44.6N 124.0W),cciea_OC_SL1
 "North Pacific High Area, January - February Mean",cciea_OC_NPH_JF
 Streamflow - Annual 1-day maximum flow anomaly,cciea_HB_FLO1
 Streamflow - Annual 7-day minimum flow anomaly,cciea_HB_FLO7
-Coastal community social vulnerability index score,cciea_HD_Soc_Vuln_Indx
 Monthly Sea Level: San Francisco CA (37.8N 122.5W),cciea_OC_SL2
 "Personal use landings data, Washington and California",cciea_HD_PU
 "Rockfish Recruitment and Ecosystem Assessement Survey, Biodiversity: CCIEA format",cciea_EI_RREAS_diversity_list
