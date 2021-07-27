@@ -1,0 +1,497 @@
+time,variable,value_character,value_type,value_numeric
+1990-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+1991-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+1992-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+1993-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+1994-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+1995-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+1996-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+1997-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+1998-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+1999-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2000-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2001-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2002-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2003-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2004-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2005-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2006-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2007-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2008-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2009-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2010-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2011-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2012-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2013-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2014-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2015-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2016-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2017-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2018-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2019-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+2020-01-01T00:00:00Z,species_group,Adult anchovy,character,NA
+1990-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+1991-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+1992-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+1993-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+1994-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+1995-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+1996-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+1997-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+1998-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+1999-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2000-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2001-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2002-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2003-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2004-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2005-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2006-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2007-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2008-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2009-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2010-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2011-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2012-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2013-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2014-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2015-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2016-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2017-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2018-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2019-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+2020-01-01T00:00:00Z,species_group,YOY rockfish,character,NA
+1990-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+1991-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+1992-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+1993-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+1994-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+1995-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+1996-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+1997-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+1998-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+1999-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2000-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2001-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2002-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2003-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2004-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2005-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2006-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2007-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2008-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2009-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2010-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2011-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2012-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2013-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2014-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2015-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2016-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2017-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2018-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2019-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+2020-01-01T00:00:00Z,species_group,YOY sanddabs,character,NA
+1990-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+1991-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+1992-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+1993-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+1994-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+1995-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+1996-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+1997-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+1998-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+1999-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2000-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2001-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2002-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2003-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2004-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2005-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2006-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2007-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2008-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2009-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2010-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2011-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2012-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2013-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2014-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2015-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2016-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2017-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2018-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2019-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+2020-01-01T00:00:00Z,species_group,YOY Pacific hake,character,NA
+1990-01-01T00:00:00Z,species_group,Myctophids,character,NA
+1991-01-01T00:00:00Z,species_group,Myctophids,character,NA
+1992-01-01T00:00:00Z,species_group,Myctophids,character,NA
+1993-01-01T00:00:00Z,species_group,Myctophids,character,NA
+1994-01-01T00:00:00Z,species_group,Myctophids,character,NA
+1995-01-01T00:00:00Z,species_group,Myctophids,character,NA
+1996-01-01T00:00:00Z,species_group,Myctophids,character,NA
+1997-01-01T00:00:00Z,species_group,Myctophids,character,NA
+1998-01-01T00:00:00Z,species_group,Myctophids,character,NA
+1999-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2000-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2001-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2002-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2003-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2004-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2005-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2006-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2007-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2008-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2009-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2010-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2011-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2012-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2013-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2014-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2015-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2016-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2017-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2018-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2019-01-01T00:00:00Z,species_group,Myctophids,character,NA
+2020-01-01T00:00:00Z,species_group,Myctophids,character,NA
+1990-01-01T00:00:00Z,species_group,Market squid,character,NA
+1991-01-01T00:00:00Z,species_group,Market squid,character,NA
+1992-01-01T00:00:00Z,species_group,Market squid,character,NA
+1993-01-01T00:00:00Z,species_group,Market squid,character,NA
+1994-01-01T00:00:00Z,species_group,Market squid,character,NA
+1995-01-01T00:00:00Z,species_group,Market squid,character,NA
+1996-01-01T00:00:00Z,species_group,Market squid,character,NA
+1997-01-01T00:00:00Z,species_group,Market squid,character,NA
+1998-01-01T00:00:00Z,species_group,Market squid,character,NA
+1999-01-01T00:00:00Z,species_group,Market squid,character,NA
+2000-01-01T00:00:00Z,species_group,Market squid,character,NA
+2001-01-01T00:00:00Z,species_group,Market squid,character,NA
+2002-01-01T00:00:00Z,species_group,Market squid,character,NA
+2003-01-01T00:00:00Z,species_group,Market squid,character,NA
+2004-01-01T00:00:00Z,species_group,Market squid,character,NA
+2005-01-01T00:00:00Z,species_group,Market squid,character,NA
+2006-01-01T00:00:00Z,species_group,Market squid,character,NA
+2007-01-01T00:00:00Z,species_group,Market squid,character,NA
+2008-01-01T00:00:00Z,species_group,Market squid,character,NA
+2009-01-01T00:00:00Z,species_group,Market squid,character,NA
+2010-01-01T00:00:00Z,species_group,Market squid,character,NA
+2011-01-01T00:00:00Z,species_group,Market squid,character,NA
+2012-01-01T00:00:00Z,species_group,Market squid,character,NA
+2013-01-01T00:00:00Z,species_group,Market squid,character,NA
+2014-01-01T00:00:00Z,species_group,Market squid,character,NA
+2015-01-01T00:00:00Z,species_group,Market squid,character,NA
+2016-01-01T00:00:00Z,species_group,Market squid,character,NA
+2017-01-01T00:00:00Z,species_group,Market squid,character,NA
+2018-01-01T00:00:00Z,species_group,Market squid,character,NA
+2019-01-01T00:00:00Z,species_group,Market squid,character,NA
+2020-01-01T00:00:00Z,species_group,Market squid,character,NA
+1990-01-01T00:00:00Z,species_group,Krill,character,NA
+1991-01-01T00:00:00Z,species_group,Krill,character,NA
+1992-01-01T00:00:00Z,species_group,Krill,character,NA
+1993-01-01T00:00:00Z,species_group,Krill,character,NA
+1994-01-01T00:00:00Z,species_group,Krill,character,NA
+1995-01-01T00:00:00Z,species_group,Krill,character,NA
+1996-01-01T00:00:00Z,species_group,Krill,character,NA
+1997-01-01T00:00:00Z,species_group,Krill,character,NA
+1998-01-01T00:00:00Z,species_group,Krill,character,NA
+1999-01-01T00:00:00Z,species_group,Krill,character,NA
+2000-01-01T00:00:00Z,species_group,Krill,character,NA
+2001-01-01T00:00:00Z,species_group,Krill,character,NA
+2002-01-01T00:00:00Z,species_group,Krill,character,NA
+2003-01-01T00:00:00Z,species_group,Krill,character,NA
+2004-01-01T00:00:00Z,species_group,Krill,character,NA
+2005-01-01T00:00:00Z,species_group,Krill,character,NA
+2006-01-01T00:00:00Z,species_group,Krill,character,NA
+2007-01-01T00:00:00Z,species_group,Krill,character,NA
+2008-01-01T00:00:00Z,species_group,Krill,character,NA
+2009-01-01T00:00:00Z,species_group,Krill,character,NA
+2010-01-01T00:00:00Z,species_group,Krill,character,NA
+2011-01-01T00:00:00Z,species_group,Krill,character,NA
+2012-01-01T00:00:00Z,species_group,Krill,character,NA
+2013-01-01T00:00:00Z,species_group,Krill,character,NA
+2014-01-01T00:00:00Z,species_group,Krill,character,NA
+2015-01-01T00:00:00Z,species_group,Krill,character,NA
+2016-01-01T00:00:00Z,species_group,Krill,character,NA
+2017-01-01T00:00:00Z,species_group,Krill,character,NA
+2018-01-01T00:00:00Z,species_group,Krill,character,NA
+2019-01-01T00:00:00Z,species_group,Krill,character,NA
+2020-01-01T00:00:00Z,species_group,Krill,character,NA
+1990-01-01T00:00:00Z,species_group,Octopus,character,NA
+1991-01-01T00:00:00Z,species_group,Octopus,character,NA
+1992-01-01T00:00:00Z,species_group,Octopus,character,NA
+1993-01-01T00:00:00Z,species_group,Octopus,character,NA
+1994-01-01T00:00:00Z,species_group,Octopus,character,NA
+1995-01-01T00:00:00Z,species_group,Octopus,character,NA
+1996-01-01T00:00:00Z,species_group,Octopus,character,NA
+1997-01-01T00:00:00Z,species_group,Octopus,character,NA
+1998-01-01T00:00:00Z,species_group,Octopus,character,NA
+1999-01-01T00:00:00Z,species_group,Octopus,character,NA
+2000-01-01T00:00:00Z,species_group,Octopus,character,NA
+2001-01-01T00:00:00Z,species_group,Octopus,character,NA
+2002-01-01T00:00:00Z,species_group,Octopus,character,NA
+2003-01-01T00:00:00Z,species_group,Octopus,character,NA
+2004-01-01T00:00:00Z,species_group,Octopus,character,NA
+2005-01-01T00:00:00Z,species_group,Octopus,character,NA
+2006-01-01T00:00:00Z,species_group,Octopus,character,NA
+2007-01-01T00:00:00Z,species_group,Octopus,character,NA
+2008-01-01T00:00:00Z,species_group,Octopus,character,NA
+2009-01-01T00:00:00Z,species_group,Octopus,character,NA
+2010-01-01T00:00:00Z,species_group,Octopus,character,NA
+2011-01-01T00:00:00Z,species_group,Octopus,character,NA
+2012-01-01T00:00:00Z,species_group,Octopus,character,NA
+2013-01-01T00:00:00Z,species_group,Octopus,character,NA
+2014-01-01T00:00:00Z,species_group,Octopus,character,NA
+2015-01-01T00:00:00Z,species_group,Octopus,character,NA
+2016-01-01T00:00:00Z,species_group,Octopus,character,NA
+2017-01-01T00:00:00Z,species_group,Octopus,character,NA
+2018-01-01T00:00:00Z,species_group,Octopus,character,NA
+2019-01-01T00:00:00Z,species_group,Octopus,character,NA
+2020-01-01T00:00:00Z,species_group,Octopus,character,NA
+1990-01-01T00:00:00Z,mean_cpue,NA,numeric,0.30724862
+1991-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.9799422
+1992-01-01T00:00:00Z,mean_cpue,NA,numeric,0.58430820000000006
+1993-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.28057227
+1994-01-01T00:00:00Z,mean_cpue,NA,numeric,0.21238482
+1995-01-01T00:00:00Z,mean_cpue,NA,numeric,1.390373
+1996-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.43345535
+1997-01-01T00:00:00Z,mean_cpue,NA,numeric,0.12787472
+1998-01-01T00:00:00Z,mean_cpue,NA,numeric,0.51348495
+1999-01-01T00:00:00Z,mean_cpue,NA,numeric,0.7298137
+2000-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.3581867
+2001-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.623975
+2002-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.80718243
+2003-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.7864933
+2004-01-01T00:00:00Z,mean_cpue,NA,numeric,0.65533227
+2005-01-01T00:00:00Z,mean_cpue,NA,numeric,0.8330564
+2006-01-01T00:00:00Z,mean_cpue,NA,numeric,0.7965926
+2007-01-01T00:00:00Z,mean_cpue,NA,numeric,0.3343798
+2008-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.75301725
+2009-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.76718366
+2010-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.94446105
+2011-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.8950718
+2012-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.9799422
+2013-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.77868146
+2014-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.83628964
+2015-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.94730526
+2016-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.9799422
+2017-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.8174458
+2018-01-01T00:00:00Z,mean_cpue,NA,numeric,1.7982928
+2019-01-01T00:00:00Z,mean_cpue,NA,numeric,2.4752495
+2020-01-01T00:00:00Z,mean_cpue,NA,numeric,2.210756
+1990-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.5291645
+1991-01-01T00:00:00Z,mean_cpue,NA,numeric,0.36210144
+1992-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.2292335
+1993-01-01T00:00:00Z,mean_cpue,NA,numeric,0.9288628
+1994-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.60744965
+1995-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.8402661
+1996-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.11815885
+1997-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.17265624
+1998-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.2843093
+1999-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.8167594
+2000-01-01T00:00:00Z,mean_cpue,NA,numeric,0.14672866
+2001-01-01T00:00:00Z,mean_cpue,NA,numeric,0.63226235
+2002-01-01T00:00:00Z,mean_cpue,NA,numeric,0.6945945
+2003-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.20993423
+2004-01-01T00:00:00Z,mean_cpue,NA,numeric,0.3389734
+2005-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.4789891
+2006-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.2922757
+2007-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.85454196
+2008-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.51498985
+2009-01-01T00:00:00Z,mean_cpue,NA,numeric,0.098275855
+2010-01-01T00:00:00Z,mean_cpue,NA,numeric,0.07172423
+2011-01-01T00:00:00Z,mean_cpue,NA,numeric,0.30071917
+2012-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.6228367
+2013-01-01T00:00:00Z,mean_cpue,NA,numeric,2.2326176
+2014-01-01T00:00:00Z,mean_cpue,NA,numeric,1.2922084
+2015-01-01T00:00:00Z,mean_cpue,NA,numeric,2.1834536
+2016-01-01T00:00:00Z,mean_cpue,NA,numeric,1.860968
+2017-01-01T00:00:00Z,mean_cpue,NA,numeric,0.92269856
+2018-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.007913212
+2019-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.2667474
+2020-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.2199631
+1990-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.23216814
+1991-01-01T00:00:00Z,mean_cpue,NA,numeric,0.60142887
+1992-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.5550952
+1993-01-01T00:00:00Z,mean_cpue,NA,numeric,0.5663395
+1994-01-01T00:00:00Z,mean_cpue,NA,numeric,0.77818584
+1995-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.35192516
+1996-01-01T00:00:00Z,mean_cpue,NA,numeric,0.45825848
+1997-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.49330276
+1998-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.8058665
+1999-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.19643292
+2000-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.4087944
+2001-01-01T00:00:00Z,mean_cpue,NA,numeric,0.68686134
+2002-01-01T00:00:00Z,mean_cpue,NA,numeric,1.0471499
+2003-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.41037762
+2004-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.15948467
+2005-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.0621014
+2006-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.354162
+2007-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.1523647
+2008-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.0077847
+2009-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.8822418
+2010-01-01T00:00:00Z,mean_cpue,NA,numeric,0.40985638
+2011-01-01T00:00:00Z,mean_cpue,NA,numeric,0.73756564
+2012-01-01T00:00:00Z,mean_cpue,NA,numeric,0.5194674
+2013-01-01T00:00:00Z,mean_cpue,NA,numeric,1.9263636
+2014-01-01T00:00:00Z,mean_cpue,NA,numeric,1.8061516
+2015-01-01T00:00:00Z,mean_cpue,NA,numeric,2.0860329
+2016-01-01T00:00:00Z,mean_cpue,NA,numeric,0.64734346
+2017-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.07799369
+2018-01-01T00:00:00Z,mean_cpue,NA,numeric,0.5109766
+2019-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.3602602
+2020-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.2716258
+1990-01-01T00:00:00Z,mean_cpue,NA,numeric,0.09377186
+1991-01-01T00:00:00Z,mean_cpue,NA,numeric,0.08811497
+1992-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.7667482
+1993-01-01T00:00:00Z,mean_cpue,NA,numeric,1.7505752
+1994-01-01T00:00:00Z,mean_cpue,NA,numeric,0.56173533
+1995-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.0772408
+1996-01-01T00:00:00Z,mean_cpue,NA,numeric,0.48271635
+1997-01-01T00:00:00Z,mean_cpue,NA,numeric,0.018018765
+1998-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.0472636
+1999-01-01T00:00:00Z,mean_cpue,NA,numeric,0.5355823
+2000-01-01T00:00:00Z,mean_cpue,NA,numeric,0.71526533
+2001-01-01T00:00:00Z,mean_cpue,NA,numeric,0.6038048
+2002-01-01T00:00:00Z,mean_cpue,NA,numeric,0.25674418
+2003-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.6439923
+2004-01-01T00:00:00Z,mean_cpue,NA,numeric,1.4124464
+2005-01-01T00:00:00Z,mean_cpue,NA,numeric,-2.1042626
+2006-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.9788449
+2007-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.0630587
+2008-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.37095222
+2009-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.27318364
+2010-01-01T00:00:00Z,mean_cpue,NA,numeric,0.104213774
+2011-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.3476532
+2012-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.22974995
+2013-01-01T00:00:00Z,mean_cpue,NA,numeric,0.9462123
+2014-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.48024797
+2015-01-01T00:00:00Z,mean_cpue,NA,numeric,1.0020616
+2016-01-01T00:00:00Z,mean_cpue,NA,numeric,2.0665019
+2017-01-01T00:00:00Z,mean_cpue,NA,numeric,0.74147195
+2018-01-01T00:00:00Z,mean_cpue,NA,numeric,0.87224
+2019-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.40530425
+2020-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.4629751
+1990-01-01T00:00:00Z,mean_cpue,NA,numeric,0.60788006000000006
+1991-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.88081753
+1992-01-01T00:00:00Z,mean_cpue,NA,numeric,1.3756711
+1993-01-01T00:00:00Z,mean_cpue,NA,numeric,1.1616881
+1994-01-01T00:00:00Z,mean_cpue,NA,numeric,0.7627584
+1995-01-01T00:00:00Z,mean_cpue,NA,numeric,0.028588807
+1996-01-01T00:00:00Z,mean_cpue,NA,numeric,1.039774
+1997-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.77927715
+1998-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.3759803
+1999-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.3875761
+2000-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.3469588
+2001-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.1291031
+2002-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.30587325
+2003-01-01T00:00:00Z,mean_cpue,NA,numeric,1.2018532
+2004-01-01T00:00:00Z,mean_cpue,NA,numeric,0.9676498
+2005-01-01T00:00:00Z,mean_cpue,NA,numeric,0.33951288
+2006-01-01T00:00:00Z,mean_cpue,NA,numeric,0.04580057
+2007-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.30685684
+2008-01-01T00:00:00Z,mean_cpue,NA,numeric,0.085583515
+2009-01-01T00:00:00Z,mean_cpue,NA,numeric,1.6885041
+2010-01-01T00:00:00Z,mean_cpue,NA,numeric,1.993332
+2011-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.8291432
+2012-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.1154977
+2013-01-01T00:00:00Z,mean_cpue,NA,numeric,0.7558387
+2014-01-01T00:00:00Z,mean_cpue,NA,numeric,0.76509655
+2015-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.201161
+2016-01-01T00:00:00Z,mean_cpue,NA,numeric,0.07131552
+2017-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.6897997
+2018-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.14968213
+2019-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.6473426
+2020-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.7457777
+1990-01-01T00:00:00Z,mean_cpue,NA,numeric,0.15313637
+1991-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.50178766
+1992-01-01T00:00:00Z,mean_cpue,NA,numeric,1.1960473
+1993-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.07504476
+1994-01-01T00:00:00Z,mean_cpue,NA,numeric,8.76092e-4
+1995-01-01T00:00:00Z,mean_cpue,NA,numeric,0.3747517
+1996-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.599224
+1997-01-01T00:00:00Z,mean_cpue,NA,numeric,0.6000784
+1998-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.4799706
+1999-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.2562084
+2000-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.23412998
+2001-01-01T00:00:00Z,mean_cpue,NA,numeric,0.75104445
+2002-01-01T00:00:00Z,mean_cpue,NA,numeric,0.5498626
+2003-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.8251496
+2004-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.44561765
+2005-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.1381943
+2006-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.5729007
+2007-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.3543491
+2008-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.2671709
+2009-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.57956785
+2010-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.5226356
+2011-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.19965217
+2012-01-01T00:00:00Z,mean_cpue,NA,numeric,1.065645
+2013-01-01T00:00:00Z,mean_cpue,NA,numeric,1.2295678
+2014-01-01T00:00:00Z,mean_cpue,NA,numeric,1.9966831
+2015-01-01T00:00:00Z,mean_cpue,NA,numeric,1.6439914
+2016-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.18499048
+2017-01-01T00:00:00Z,mean_cpue,NA,numeric,1.3787152
+2018-01-01T00:00:00Z,mean_cpue,NA,numeric,1.1079202
+2019-01-01T00:00:00Z,mean_cpue,NA,numeric,0.95563954
+2020-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.76736504
+1990-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.0999042
+1991-01-01T00:00:00Z,mean_cpue,NA,numeric,0.4407589
+1992-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.44844082
+1993-01-01T00:00:00Z,mean_cpue,NA,numeric,0.48417586
+1994-01-01T00:00:00Z,mean_cpue,NA,numeric,0.42140853
+1995-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.1219803
+1996-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.90048224
+1997-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.4702816
+1998-01-01T00:00:00Z,mean_cpue,NA,numeric,-2.2045734
+1999-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.5012357
+2000-01-01T00:00:00Z,mean_cpue,NA,numeric,0.5522882
+2001-01-01T00:00:00Z,mean_cpue,NA,numeric,0.7848137
+2002-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.2460929
+2003-01-01T00:00:00Z,mean_cpue,NA,numeric,0.010441084
+2004-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.49088925
+2005-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.6873595
+2006-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.32160434
+2007-01-01T00:00:00Z,mean_cpue,NA,numeric,0.1965338
+2008-01-01T00:00:00Z,mean_cpue,NA,numeric,1.5826567
+2009-01-01T00:00:00Z,mean_cpue,NA,numeric,0.80328816
+2010-01-01T00:00:00Z,mean_cpue,NA,numeric,0.57911044
+2011-01-01T00:00:00Z,mean_cpue,NA,numeric,0.9407357
+2012-01-01T00:00:00Z,mean_cpue,NA,numeric,1.1082417
+2013-01-01T00:00:00Z,mean_cpue,NA,numeric,1.3596123
+2014-01-01T00:00:00Z,mean_cpue,NA,numeric,1.1852223
+2015-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.89180773
+2016-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.4626864
+2017-01-01T00:00:00Z,mean_cpue,NA,numeric,1.0745075
+2018-01-01T00:00:00Z,mean_cpue,NA,numeric,1.0599614
+2019-01-01T00:00:00Z,mean_cpue,NA,numeric,-2.4045055
+2020-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.3319125
+1990-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.098314196
+1991-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.32796165
+1992-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.7052046
+1993-01-01T00:00:00Z,mean_cpue,NA,numeric,0.05136163
+1994-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.11037027
+1995-01-01T00:00:00Z,mean_cpue,NA,numeric,0.13349079
+1996-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.94057006
+1997-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.29318616
+1998-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.9527621
+1999-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.442303
+2000-01-01T00:00:00Z,mean_cpue,NA,numeric,0.59842205
+2001-01-01T00:00:00Z,mean_cpue,NA,numeric,0.5334856
+2002-01-01T00:00:00Z,mean_cpue,NA,numeric,0.009230407
+2003-01-01T00:00:00Z,mean_cpue,NA,numeric,1.0895882
+2004-01-01T00:00:00Z,mean_cpue,NA,numeric,0.0323739
+2005-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.8265059
+2006-01-01T00:00:00Z,mean_cpue,NA,numeric,-1.0682925
+2007-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.97545224
+2008-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.09172707
+2009-01-01T00:00:00Z,mean_cpue,NA,numeric,0.22318095
+2010-01-01T00:00:00Z,mean_cpue,NA,numeric,1.2784243
+2011-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.2741971
+2012-01-01T00:00:00Z,mean_cpue,NA,numeric,0.018743247
+2013-01-01T00:00:00Z,mean_cpue,NA,numeric,1.4503257
+2014-01-01T00:00:00Z,mean_cpue,NA,numeric,1.6695616
+2015-01-01T00:00:00Z,mean_cpue,NA,numeric,1.0539591
+2016-01-01T00:00:00Z,mean_cpue,NA,numeric,1.8112803
+2017-01-01T00:00:00Z,mean_cpue,NA,numeric,0.90614086
+2018-01-01T00:00:00Z,mean_cpue,NA,numeric,0.82247895
+2019-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.0587242
+2020-01-01T00:00:00Z,mean_cpue,NA,numeric,-0.51647663

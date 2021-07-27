@@ -1,0 +1,89 @@
+time,variable,value_character,value_type,value_numeric
+2002-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2003-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2004-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2005-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2006-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2007-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2008-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2009-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2010-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2011-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2012-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2013-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2014-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2015-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2016-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2017-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2018-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+2019-01-01T00:00:00Z,population,Lower Columbia Coho,character,NA
+1994-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+1995-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+1996-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+1997-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+1998-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+1999-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2000-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2001-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2002-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2003-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2004-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2005-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2006-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2007-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2008-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2009-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2010-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2011-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2012-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2013-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2014-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2015-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2016-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2017-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2018-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2019-01-01T00:00:00Z,population,Oregon coast Coho,character,NA
+2002-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.75384724
+2003-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.35148844
+2004-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.32341057
+2005-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.8110934
+2006-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.2031936
+2007-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.27461502
+2008-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.56030065
+2009-01-01T00:00:00Z,abundance_anomaly,NA,numeric,1.3637158
+2010-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.06062339
+2011-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.16754349
+2012-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.62817824
+2013-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.12359417
+2014-01-01T00:00:00Z,abundance_anomaly,NA,numeric,3.1298964
+2015-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.7920113
+2016-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.69932705
+2017-01-01T00:00:00Z,abundance_anomaly,NA,numeric,1.3220079
+2018-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.39156076
+2019-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.00991964
+1994-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.9094304
+1995-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.7673341
+1996-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.5580091
+1997-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-1.1509227
+1998-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-1.0598165
+1999-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.9092443
+2000-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.6337862
+2001-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.277141
+2002-01-01T00:00:00Z,abundance_anomaly,NA,numeric,1.2206179
+2003-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.95665395
+2004-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.2990544
+2005-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.17810673
+2006-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.090715356
+2007-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.7200238
+2008-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.4148132
+2009-01-01T00:00:00Z,abundance_anomaly,NA,numeric,1.2804767
+2010-01-01T00:00:00Z,abundance_anomaly,NA,numeric,1.4873623
+2011-01-01T00:00:00Z,abundance_anomaly,NA,numeric,2.2255454
+2012-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.3785153
+2013-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.13259897
+2014-01-01T00:00:00Z,abundance_anomaly,NA,numeric,2.2529683
+2015-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.81847924
+2016-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.62302583
+2017-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.78113335
+2018-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.6379208
+2019-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.42178398

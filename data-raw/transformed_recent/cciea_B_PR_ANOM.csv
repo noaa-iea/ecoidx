@@ -1,0 +1,81 @@
+time,variable,value_character,value_type,value_numeric
+2008-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2009-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2010-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2011-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2012-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2013-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2014-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2015-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2016-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2017-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2018-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2019-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2020-01-01T00:00:00Z,species_cohort,Brandts cormorant productivity anomaly (No CC),character,NA
+2007-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2008-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2009-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2010-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2011-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2012-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2013-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2014-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2015-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2016-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2017-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2018-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2019-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2020-01-01T00:00:00Z,species_cohort,Common murre productivity anomaly (No CC),character,NA
+2008-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2009-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2010-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2011-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2012-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2013-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2014-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2015-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2016-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2017-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2018-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2019-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2020-01-01T00:00:00Z,species_cohort,Pelagic cormorant productivity anomaly (No CC),character,NA
+2008-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.354
+2009-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.096
+2010-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.654
+2011-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.484
+2012-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.724
+2013-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.334
+2014-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.184
+2015-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.796
+2016-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.034
+2017-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.114
+2018-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.786
+2019-01-01T00:00:00Z,productivity_anomaly,NA,numeric,1.206
+2020-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.216
+2007-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.135
+2008-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.365
+2009-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.365
+2010-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.275
+2011-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.185
+2012-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.135
+2013-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.165
+2014-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.235
+2015-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.405
+2016-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.385
+2017-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.405
+2018-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.385
+2019-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.385
+2020-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.376
+2008-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.129
+2009-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.829
+2010-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.619
+2011-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.969
+2012-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.091
+2013-01-01T00:00:00Z,productivity_anomaly,NA,numeric,1.161
+2014-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.241
+2015-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.969
+2016-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.401
+2017-01-01T00:00:00Z,productivity_anomaly,NA,numeric,0.681
+2018-01-01T00:00:00Z,productivity_anomaly,NA,numeric,1.301
+2019-01-01T00:00:00Z,productivity_anomaly,NA,numeric,-0.359
+2020-01-01T00:00:00Z,productivity_anomaly,NA,numeric,1.511

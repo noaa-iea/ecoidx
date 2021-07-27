@@ -1,0 +1,424 @@
+time,variable,value_character,value_type,value_numeric
+1996-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+1997-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+1998-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+1999-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2000-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2001-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2002-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2003-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2004-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2005-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2006-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2007-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2008-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2009-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2010-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2011-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2012-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2013-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2014-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2015-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2016-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2017-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2018-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+2019-01-01T00:00:00Z,species_cohort,"Cassins auklet (Ce CC, Summer)",character,NA
+1996-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+1997-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+1998-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+1999-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2000-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2001-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2002-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2003-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2004-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2005-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2006-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2007-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2008-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2009-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2010-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2011-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2012-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2013-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2014-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2015-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2016-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2017-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2018-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+2019-01-01T00:00:00Z,species_cohort,"Common murre (Ce CC, Summer)",character,NA
+1996-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+1997-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+1998-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+1999-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2000-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2001-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2002-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2003-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2004-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2005-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2006-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2007-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2008-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2009-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2010-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2011-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2012-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2013-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2014-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2015-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2016-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2017-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2018-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2019-01-01T00:00:00Z,species_cohort,"Sooty shearwater (Ce CC, Summer)",character,NA
+2003-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2004-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2005-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2006-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2007-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2008-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2009-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2010-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2011-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2012-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2013-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2014-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2015-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2016-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2017-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2018-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2019-01-01T00:00:00Z,species_cohort,"Cassins auklet (No CC, Summer)",character,NA
+2003-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2004-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2005-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2006-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2007-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2008-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2009-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2010-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2011-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2012-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2013-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2014-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2015-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2016-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2017-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2018-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2019-01-01T00:00:00Z,species_cohort,"Common murre (No CC, Summer)",character,NA
+2003-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2004-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2005-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2006-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2007-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2008-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2009-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2010-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2011-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2012-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2013-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2014-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2015-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2016-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2017-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2018-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+2019-01-01T00:00:00Z,species_cohort,"Sooty shearwater (No CC, Summer)",character,NA
+1987-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1988-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1989-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1990-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1991-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1992-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1993-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1994-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1995-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1996-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1997-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1998-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1999-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2000-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2001-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2002-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2003-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2004-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2005-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2006-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2007-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2008-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2009-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2010-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2011-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2012-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2013-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2014-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2015-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2016-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2017-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2018-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+2019-01-01T00:00:00Z,species_cohort,"Cassins auklet (So CC, Spring)",character,NA
+1987-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1988-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1989-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1990-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1991-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1992-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1993-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1994-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1995-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1996-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1997-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1998-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1999-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2000-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2001-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2002-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2003-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2004-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2005-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2006-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2007-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2008-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2009-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2010-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2011-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2012-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2013-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2014-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2015-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2016-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2017-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2018-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+2019-01-01T00:00:00Z,species_cohort,"Common murre (So CC, Spring)",character,NA
+1987-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1988-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1989-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1990-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1991-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1992-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1993-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1994-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1995-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1996-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1997-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1998-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1999-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2000-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2001-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2002-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2003-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2004-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2005-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2006-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2007-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2008-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2009-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2010-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2011-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2012-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2013-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2014-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2015-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2016-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2017-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2018-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+2019-01-01T00:00:00Z,species_cohort,"Sooty shearwater (So CC, Spring)",character,NA
+1996-01-01T00:00:00Z,density_anomaly,NA,numeric,0.006164267
+1997-01-01T00:00:00Z,density_anomaly,NA,numeric,1.5665302
+2000-01-01T00:00:00Z,density_anomaly,NA,numeric,0.7016561
+2001-01-01T00:00:00Z,density_anomaly,NA,numeric,0.35529912
+2002-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.2862237
+2003-01-01T00:00:00Z,density_anomaly,NA,numeric,0.39744475
+2004-01-01T00:00:00Z,density_anomaly,NA,numeric,0.19783169
+2005-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.37152126
+2006-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.44247302
+2007-01-01T00:00:00Z,density_anomaly,NA,numeric,0.5309761
+2008-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.47993058
+2009-01-01T00:00:00Z,density_anomaly,NA,numeric,0.010848117
+2010-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.52681416
+2012-01-01T00:00:00Z,density_anomaly,NA,numeric,0.024769455
+2013-01-01T00:00:00Z,density_anomaly,NA,numeric,0.68035350000000006
+2014-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.18464391
+2015-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.6729967
+2016-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.25526148
+2017-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.4953155
+2018-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.2613777
+2019-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.4953155
+1996-01-01T00:00:00Z,density_anomaly,NA,numeric,0.5458987
+1997-01-01T00:00:00Z,density_anomaly,NA,numeric,0.46509466
+2000-01-01T00:00:00Z,density_anomaly,NA,numeric,1.1773647
+2001-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.38418537
+2002-01-01T00:00:00Z,density_anomaly,NA,numeric,-1.0365106
+2003-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.43889582
+2004-01-01T00:00:00Z,density_anomaly,NA,numeric,0.070951335
+2005-01-01T00:00:00Z,density_anomaly,NA,numeric,0.46904722
+2006-01-01T00:00:00Z,density_anomaly,NA,numeric,0.04416402
+2007-01-01T00:00:00Z,density_anomaly,NA,numeric,0.6104372
+2008-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.128252
+2009-01-01T00:00:00Z,density_anomaly,NA,numeric,0.010418489
+2010-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.92715806
+2012-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15734497
+2013-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.22409996
+2014-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.31488392
+2015-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.9887792
+2016-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.07929118
+2017-01-01T00:00:00Z,density_anomaly,NA,numeric,0.6231979
+2018-01-01T00:00:00Z,density_anomaly,NA,numeric,0.039628867
+2019-01-01T00:00:00Z,density_anomaly,NA,numeric,0.6231979
+1996-01-01T00:00:00Z,density_anomaly,NA,numeric,-2.107251
+1997-01-01T00:00:00Z,density_anomaly,NA,numeric,1.1420659
+2000-01-01T00:00:00Z,density_anomaly,NA,numeric,-1.1729417
+2001-01-01T00:00:00Z,density_anomaly,NA,numeric,0.16690347
+2002-01-01T00:00:00Z,density_anomaly,NA,numeric,0.2851194
+2003-01-01T00:00:00Z,density_anomaly,NA,numeric,1.160992
+2004-01-01T00:00:00Z,density_anomaly,NA,numeric,0.27537683
+2005-01-01T00:00:00Z,density_anomaly,NA,numeric,0.07811911
+2006-01-01T00:00:00Z,density_anomaly,NA,numeric,0.5126853
+2007-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.62530214
+2008-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.82884556
+2009-01-01T00:00:00Z,density_anomaly,NA,numeric,0.56375796
+2010-01-01T00:00:00Z,density_anomaly,NA,numeric,-1.5347317
+2012-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.3205548
+2013-01-01T00:00:00Z,density_anomaly,NA,numeric,0.13603438
+2014-01-01T00:00:00Z,density_anomaly,NA,numeric,1.0520035
+2015-01-01T00:00:00Z,density_anomaly,NA,numeric,0.55375
+2016-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.33590037
+2017-01-01T00:00:00Z,density_anomaly,NA,numeric,-1.0061166
+2018-01-01T00:00:00Z,density_anomaly,NA,numeric,0.52583617
+2019-01-01T00:00:00Z,density_anomaly,NA,numeric,1.479
+2003-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.40537313
+2004-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.4404631
+2005-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.32793507
+2006-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.41920844
+2007-01-01T00:00:00Z,density_anomaly,NA,numeric,0.1671018
+2008-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.36527646
+2009-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.005081959
+2010-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.42758855
+2011-01-01T00:00:00Z,density_anomaly,NA,numeric,0.5848904
+2012-01-01T00:00:00Z,density_anomaly,NA,numeric,0.44073805
+2015-01-01T00:00:00Z,density_anomaly,NA,numeric,0.74944824
+2016-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.26800755
+2017-01-01T00:00:00Z,density_anomaly,NA,numeric,0.30833036
+2018-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.08099886
+2019-01-01T00:00:00Z,density_anomaly,NA,numeric,0.48942426
+2003-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.07177876
+2004-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.41616175
+2005-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.042768348
+2006-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.28687108
+2007-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.3741823
+2008-01-01T00:00:00Z,density_anomaly,NA,numeric,1.1588796
+2009-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.6944594
+2010-01-01T00:00:00Z,density_anomaly,NA,numeric,0.8821185
+2011-01-01T00:00:00Z,density_anomaly,NA,numeric,0.076053225
+2012-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.14442037
+2015-01-01T00:00:00Z,density_anomaly,NA,numeric,0.28220844
+2016-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.10579461
+2017-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.40649936
+2018-01-01T00:00:00Z,density_anomaly,NA,numeric,0.18117176
+2019-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.037495732
+2003-01-01T00:00:00Z,density_anomaly,NA,numeric,0.64880264
+2004-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.06522199
+2005-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.17854922
+2006-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.03542717
+2007-01-01T00:00:00Z,density_anomaly,NA,numeric,0.39189747
+2008-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.3809583
+2009-01-01T00:00:00Z,density_anomaly,NA,numeric,0.20871484
+2010-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.09068461
+2011-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.789346
+2012-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.5849185
+2015-01-01T00:00:00Z,density_anomaly,NA,numeric,0.8291891
+2016-01-01T00:00:00Z,density_anomaly,NA,numeric,0.28166062
+2017-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.79341006
+2018-01-01T00:00:00Z,density_anomaly,NA,numeric,0.49708572
+2019-01-01T00:00:00Z,density_anomaly,NA,numeric,0.06116542
+1987-01-01T00:00:00Z,density_anomaly,NA,numeric,0.017515711
+1988-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.041743904
+1989-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.019773457
+1990-01-01T00:00:00Z,density_anomaly,NA,numeric,1.0585766
+1991-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.06173716
+1992-01-01T00:00:00Z,density_anomaly,NA,numeric,0.08491275
+1993-01-01T00:00:00Z,density_anomaly,NA,numeric,0.05777532
+1994-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.050093926
+1995-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.10133712
+1996-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.011060621
+1998-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.01800131
+1999-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.095546395
+2000-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.09763877
+2001-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.106154576
+2002-01-01T00:00:00Z,density_anomaly,NA,numeric,0.06284217
+2003-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.119472966
+2004-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.09846694
+2005-01-01T00:00:00Z,density_anomaly,NA,numeric,0.49179155
+2006-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.044646878
+2008-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.08764904
+2009-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.012833624
+2010-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.083654486
+2011-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.10464386
+2012-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.08025225
+2013-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.08991416
+2014-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.10952263
+2015-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.051814314
+2016-01-01T00:00:00Z,density_anomaly,NA,numeric,0.0115553
+2017-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.099670336
+2018-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.099670336
+2019-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.099670336
+1987-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15640345
+1988-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15640345
+1989-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15434991
+1990-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15640345
+1991-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15357721
+1992-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.13136621
+1993-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.12491638
+1994-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15640345
+1995-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15640345
+1996-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15640345
+1998-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15431155
+1999-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15640345
+2000-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15439871
+2001-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15640345
+2002-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.12949702
+2003-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.13235877
+2004-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15640345
+2005-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.10741618
+2006-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15463918
+2008-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.12110526
+2009-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.1401256
+2010-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15640345
+2011-01-01T00:00:00Z,density_anomaly,NA,numeric,0.04940608
+2012-01-01T00:00:00Z,density_anomaly,NA,numeric,0.20127098
+2013-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15640345
+2014-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.15640345
+2015-01-01T00:00:00Z,density_anomaly,NA,numeric,1.1759626
+2016-01-01T00:00:00Z,density_anomaly,NA,numeric,0.70225817
+2017-01-01T00:00:00Z,density_anomaly,NA,numeric,0.11362368
+2018-01-01T00:00:00Z,density_anomaly,NA,numeric,1.3718244
+2019-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.07944241
+1987-01-01T00:00:00Z,density_anomaly,NA,numeric,1.0521419
+1988-01-01T00:00:00Z,density_anomaly,NA,numeric,0.41792807
+1989-01-01T00:00:00Z,density_anomaly,NA,numeric,0.7184035
+1990-01-01T00:00:00Z,density_anomaly,NA,numeric,1.1343237
+1991-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.5492885
+1992-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.44705746
+1993-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.25128204
+1994-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.47062486
+1995-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.3703708
+1996-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.001132289
+1998-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.29893646
+1999-01-01T00:00:00Z,density_anomaly,NA,numeric,0.18438727
+2000-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.00669995
+2001-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.054522276
+2002-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.55088866
+2003-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.4984403
+2004-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.5689065
+2005-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.5458636
+2006-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.50561637
+2008-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.5653201
+2009-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.5689065
+2010-01-01T00:00:00Z,density_anomaly,NA,numeric,0.17951785
+2011-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.435905
+2012-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.5393477
+2013-01-01T00:00:00Z,density_anomaly,NA,numeric,0.65486896000000006
+2014-01-01T00:00:00Z,density_anomaly,NA,numeric,0.34738424
+2015-01-01T00:00:00Z,density_anomaly,NA,numeric,1.7426383
+2016-01-01T00:00:00Z,density_anomaly,NA,numeric,0.40187243
+2017-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.06813119
+2018-01-01T00:00:00Z,density_anomaly,NA,numeric,0.74750173
+2019-01-01T00:00:00Z,density_anomaly,NA,numeric,-0.28372753

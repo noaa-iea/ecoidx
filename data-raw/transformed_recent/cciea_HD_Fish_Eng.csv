@@ -1,0 +1,1458 @@
+time,variable,value_character,value_type,value_numeric
+2005-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2005-01-01T00:00:00Z,region,WA,character,NA
+2006-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2006-01-01T00:00:00Z,region,WA,character,NA
+2007-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2007-01-01T00:00:00Z,region,WA,character,NA
+2008-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2008-01-01T00:00:00Z,region,WA,character,NA
+2009-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2009-01-01T00:00:00Z,region,WA,character,NA
+2010-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2010-01-01T00:00:00Z,region,WA,character,NA
+2011-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2011-01-01T00:00:00Z,region,WA,character,NA
+2012-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2012-01-01T00:00:00Z,region,WA,character,NA
+2013-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2013-01-01T00:00:00Z,region,WA,character,NA
+2014-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2014-01-01T00:00:00Z,region,WA,character,NA
+2015-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2015-01-01T00:00:00Z,region,WA,character,NA
+2016-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2016-01-01T00:00:00Z,region,WA,character,NA
+2017-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2017-01-01T00:00:00Z,region,WA,character,NA
+2018-01-01T00:00:00Z,location,"Anacortes, WA",character,NA
+2018-01-01T00:00:00Z,region,WA,character,NA
+2005-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2005-01-01T00:00:00Z,region,OR,character,NA
+2006-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2006-01-01T00:00:00Z,region,OR,character,NA
+2007-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2007-01-01T00:00:00Z,region,OR,character,NA
+2008-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2008-01-01T00:00:00Z,region,OR,character,NA
+2009-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2009-01-01T00:00:00Z,region,OR,character,NA
+2010-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2010-01-01T00:00:00Z,region,OR,character,NA
+2011-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2011-01-01T00:00:00Z,region,OR,character,NA
+2012-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2012-01-01T00:00:00Z,region,OR,character,NA
+2013-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2013-01-01T00:00:00Z,region,OR,character,NA
+2014-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2014-01-01T00:00:00Z,region,OR,character,NA
+2015-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2015-01-01T00:00:00Z,region,OR,character,NA
+2016-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2016-01-01T00:00:00Z,region,OR,character,NA
+2017-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2017-01-01T00:00:00Z,region,OR,character,NA
+2018-01-01T00:00:00Z,location,"Astoria, OR",character,NA
+2018-01-01T00:00:00Z,region,OR,character,NA
+2005-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2005-01-01T00:00:00Z,region,WA,character,NA
+2006-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2006-01-01T00:00:00Z,region,WA,character,NA
+2007-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2007-01-01T00:00:00Z,region,WA,character,NA
+2008-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2008-01-01T00:00:00Z,region,WA,character,NA
+2009-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2009-01-01T00:00:00Z,region,WA,character,NA
+2010-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2010-01-01T00:00:00Z,region,WA,character,NA
+2011-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2011-01-01T00:00:00Z,region,WA,character,NA
+2012-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2012-01-01T00:00:00Z,region,WA,character,NA
+2013-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2013-01-01T00:00:00Z,region,WA,character,NA
+2014-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2014-01-01T00:00:00Z,region,WA,character,NA
+2015-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2015-01-01T00:00:00Z,region,WA,character,NA
+2016-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2016-01-01T00:00:00Z,region,WA,character,NA
+2017-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2017-01-01T00:00:00Z,region,WA,character,NA
+2018-01-01T00:00:00Z,location,"Bellingham, WA",character,NA
+2018-01-01T00:00:00Z,region,WA,character,NA
+2005-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2005-01-01T00:00:00Z,region,CCA,character,NA
+2006-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2006-01-01T00:00:00Z,region,CCA,character,NA
+2007-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2007-01-01T00:00:00Z,region,CCA,character,NA
+2008-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2008-01-01T00:00:00Z,region,CCA,character,NA
+2009-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2009-01-01T00:00:00Z,region,CCA,character,NA
+2010-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2010-01-01T00:00:00Z,region,CCA,character,NA
+2011-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2011-01-01T00:00:00Z,region,CCA,character,NA
+2012-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2012-01-01T00:00:00Z,region,CCA,character,NA
+2013-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2013-01-01T00:00:00Z,region,CCA,character,NA
+2014-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2014-01-01T00:00:00Z,region,CCA,character,NA
+2015-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2015-01-01T00:00:00Z,region,CCA,character,NA
+2016-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2016-01-01T00:00:00Z,region,CCA,character,NA
+2017-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2017-01-01T00:00:00Z,region,CCA,character,NA
+2018-01-01T00:00:00Z,location,"Bodega Bay, CA",character,NA
+2018-01-01T00:00:00Z,region,CCA,character,NA
+2005-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2005-01-01T00:00:00Z,region,OR,character,NA
+2006-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2006-01-01T00:00:00Z,region,OR,character,NA
+2007-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2007-01-01T00:00:00Z,region,OR,character,NA
+2008-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2008-01-01T00:00:00Z,region,OR,character,NA
+2009-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2009-01-01T00:00:00Z,region,OR,character,NA
+2010-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2010-01-01T00:00:00Z,region,OR,character,NA
+2011-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2011-01-01T00:00:00Z,region,OR,character,NA
+2012-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2012-01-01T00:00:00Z,region,OR,character,NA
+2013-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2013-01-01T00:00:00Z,region,OR,character,NA
+2014-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2014-01-01T00:00:00Z,region,OR,character,NA
+2015-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2015-01-01T00:00:00Z,region,OR,character,NA
+2016-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2016-01-01T00:00:00Z,region,OR,character,NA
+2017-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2017-01-01T00:00:00Z,region,OR,character,NA
+2018-01-01T00:00:00Z,location,"Brookings, OR",character,NA
+2018-01-01T00:00:00Z,region,OR,character,NA
+2005-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2005-01-01T00:00:00Z,region,OR,character,NA
+2006-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2006-01-01T00:00:00Z,region,OR,character,NA
+2007-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2007-01-01T00:00:00Z,region,OR,character,NA
+2008-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2008-01-01T00:00:00Z,region,OR,character,NA
+2009-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2009-01-01T00:00:00Z,region,OR,character,NA
+2010-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2010-01-01T00:00:00Z,region,OR,character,NA
+2011-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2011-01-01T00:00:00Z,region,OR,character,NA
+2012-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2012-01-01T00:00:00Z,region,OR,character,NA
+2013-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2013-01-01T00:00:00Z,region,OR,character,NA
+2014-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2014-01-01T00:00:00Z,region,OR,character,NA
+2015-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2015-01-01T00:00:00Z,region,OR,character,NA
+2016-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2016-01-01T00:00:00Z,region,OR,character,NA
+2017-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2017-01-01T00:00:00Z,region,OR,character,NA
+2018-01-01T00:00:00Z,location,"Coos Bay, OR",character,NA
+2018-01-01T00:00:00Z,region,OR,character,NA
+2005-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2005-01-01T00:00:00Z,region,NCA,character,NA
+2006-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2006-01-01T00:00:00Z,region,NCA,character,NA
+2007-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2007-01-01T00:00:00Z,region,NCA,character,NA
+2008-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2008-01-01T00:00:00Z,region,NCA,character,NA
+2009-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2009-01-01T00:00:00Z,region,NCA,character,NA
+2010-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2010-01-01T00:00:00Z,region,NCA,character,NA
+2011-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2011-01-01T00:00:00Z,region,NCA,character,NA
+2012-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2012-01-01T00:00:00Z,region,NCA,character,NA
+2013-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2013-01-01T00:00:00Z,region,NCA,character,NA
+2014-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2014-01-01T00:00:00Z,region,NCA,character,NA
+2015-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2015-01-01T00:00:00Z,region,NCA,character,NA
+2016-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2016-01-01T00:00:00Z,region,NCA,character,NA
+2017-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2017-01-01T00:00:00Z,region,NCA,character,NA
+2018-01-01T00:00:00Z,location,"Crescent City, CA",character,NA
+2018-01-01T00:00:00Z,region,NCA,character,NA
+2005-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2005-01-01T00:00:00Z,region,CCA,character,NA
+2006-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2006-01-01T00:00:00Z,region,CCA,character,NA
+2007-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2007-01-01T00:00:00Z,region,CCA,character,NA
+2008-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2008-01-01T00:00:00Z,region,CCA,character,NA
+2009-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2009-01-01T00:00:00Z,region,CCA,character,NA
+2010-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2010-01-01T00:00:00Z,region,CCA,character,NA
+2011-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2011-01-01T00:00:00Z,region,CCA,character,NA
+2012-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2012-01-01T00:00:00Z,region,CCA,character,NA
+2013-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2013-01-01T00:00:00Z,region,CCA,character,NA
+2014-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2014-01-01T00:00:00Z,region,CCA,character,NA
+2015-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2015-01-01T00:00:00Z,region,CCA,character,NA
+2016-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2016-01-01T00:00:00Z,region,CCA,character,NA
+2017-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2017-01-01T00:00:00Z,region,CCA,character,NA
+2018-01-01T00:00:00Z,location,"El Granada, CA",character,NA
+2018-01-01T00:00:00Z,region,CCA,character,NA
+2005-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2005-01-01T00:00:00Z,region,NCA,character,NA
+2006-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2006-01-01T00:00:00Z,region,NCA,character,NA
+2007-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2007-01-01T00:00:00Z,region,NCA,character,NA
+2008-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2008-01-01T00:00:00Z,region,NCA,character,NA
+2009-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2009-01-01T00:00:00Z,region,NCA,character,NA
+2010-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2010-01-01T00:00:00Z,region,NCA,character,NA
+2011-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2011-01-01T00:00:00Z,region,NCA,character,NA
+2012-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2012-01-01T00:00:00Z,region,NCA,character,NA
+2013-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2013-01-01T00:00:00Z,region,NCA,character,NA
+2014-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2014-01-01T00:00:00Z,region,NCA,character,NA
+2015-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2015-01-01T00:00:00Z,region,NCA,character,NA
+2016-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2016-01-01T00:00:00Z,region,NCA,character,NA
+2017-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2017-01-01T00:00:00Z,region,NCA,character,NA
+2018-01-01T00:00:00Z,location,"Eureka, CA",character,NA
+2018-01-01T00:00:00Z,region,NCA,character,NA
+2005-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2005-01-01T00:00:00Z,region,OR,character,NA
+2006-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2006-01-01T00:00:00Z,region,OR,character,NA
+2007-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2007-01-01T00:00:00Z,region,OR,character,NA
+2008-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2008-01-01T00:00:00Z,region,OR,character,NA
+2009-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2009-01-01T00:00:00Z,region,OR,character,NA
+2010-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2010-01-01T00:00:00Z,region,OR,character,NA
+2011-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2011-01-01T00:00:00Z,region,OR,character,NA
+2012-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2012-01-01T00:00:00Z,region,OR,character,NA
+2013-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2013-01-01T00:00:00Z,region,OR,character,NA
+2014-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2014-01-01T00:00:00Z,region,OR,character,NA
+2015-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2015-01-01T00:00:00Z,region,OR,character,NA
+2016-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2016-01-01T00:00:00Z,region,OR,character,NA
+2017-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2017-01-01T00:00:00Z,region,OR,character,NA
+2018-01-01T00:00:00Z,location,"Florence, OR",character,NA
+2018-01-01T00:00:00Z,region,OR,character,NA
+2005-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2005-01-01T00:00:00Z,region,NCA,character,NA
+2006-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2006-01-01T00:00:00Z,region,NCA,character,NA
+2007-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2007-01-01T00:00:00Z,region,NCA,character,NA
+2008-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2008-01-01T00:00:00Z,region,NCA,character,NA
+2009-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2009-01-01T00:00:00Z,region,NCA,character,NA
+2010-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2010-01-01T00:00:00Z,region,NCA,character,NA
+2011-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2011-01-01T00:00:00Z,region,NCA,character,NA
+2012-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2012-01-01T00:00:00Z,region,NCA,character,NA
+2013-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2013-01-01T00:00:00Z,region,NCA,character,NA
+2014-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2014-01-01T00:00:00Z,region,NCA,character,NA
+2015-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2015-01-01T00:00:00Z,region,NCA,character,NA
+2016-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2016-01-01T00:00:00Z,region,NCA,character,NA
+2017-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2017-01-01T00:00:00Z,region,NCA,character,NA
+2018-01-01T00:00:00Z,location,"Fort Bragg, CA",character,NA
+2018-01-01T00:00:00Z,region,NCA,character,NA
+2005-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2005-01-01T00:00:00Z,region,OR,character,NA
+2006-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2006-01-01T00:00:00Z,region,OR,character,NA
+2007-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2007-01-01T00:00:00Z,region,OR,character,NA
+2008-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2008-01-01T00:00:00Z,region,OR,character,NA
+2009-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2009-01-01T00:00:00Z,region,OR,character,NA
+2010-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2010-01-01T00:00:00Z,region,OR,character,NA
+2011-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2011-01-01T00:00:00Z,region,OR,character,NA
+2012-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2012-01-01T00:00:00Z,region,OR,character,NA
+2013-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2013-01-01T00:00:00Z,region,OR,character,NA
+2014-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2014-01-01T00:00:00Z,region,OR,character,NA
+2015-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2015-01-01T00:00:00Z,region,OR,character,NA
+2016-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2016-01-01T00:00:00Z,region,OR,character,NA
+2017-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2017-01-01T00:00:00Z,region,OR,character,NA
+2018-01-01T00:00:00Z,location,"Garibaldi, OR",character,NA
+2018-01-01T00:00:00Z,region,OR,character,NA
+2005-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2005-01-01T00:00:00Z,region,CCA,character,NA
+2006-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2006-01-01T00:00:00Z,region,CCA,character,NA
+2007-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2007-01-01T00:00:00Z,region,CCA,character,NA
+2008-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2008-01-01T00:00:00Z,region,CCA,character,NA
+2009-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2009-01-01T00:00:00Z,region,CCA,character,NA
+2010-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2010-01-01T00:00:00Z,region,CCA,character,NA
+2011-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2011-01-01T00:00:00Z,region,CCA,character,NA
+2012-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2012-01-01T00:00:00Z,region,CCA,character,NA
+2013-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2013-01-01T00:00:00Z,region,CCA,character,NA
+2014-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2014-01-01T00:00:00Z,region,CCA,character,NA
+2015-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2015-01-01T00:00:00Z,region,CCA,character,NA
+2016-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2016-01-01T00:00:00Z,region,CCA,character,NA
+2017-01-01T00:00:00Z,location,"Half Moon Bay, CA",character,NA
+2017-01-01T00:00:00Z,region,CCA,character,NA
+2005-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2005-01-01T00:00:00Z,region,WA,character,NA
+2006-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2006-01-01T00:00:00Z,region,WA,character,NA
+2007-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2007-01-01T00:00:00Z,region,WA,character,NA
+2008-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2008-01-01T00:00:00Z,region,WA,character,NA
+2009-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2009-01-01T00:00:00Z,region,WA,character,NA
+2010-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2010-01-01T00:00:00Z,region,WA,character,NA
+2011-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2011-01-01T00:00:00Z,region,WA,character,NA
+2012-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2012-01-01T00:00:00Z,region,WA,character,NA
+2013-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2013-01-01T00:00:00Z,region,WA,character,NA
+2014-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2014-01-01T00:00:00Z,region,WA,character,NA
+2015-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2015-01-01T00:00:00Z,region,WA,character,NA
+2016-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2016-01-01T00:00:00Z,region,WA,character,NA
+2017-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2017-01-01T00:00:00Z,region,WA,character,NA
+2018-01-01T00:00:00Z,location,"Ilwaco, WA",character,NA
+2018-01-01T00:00:00Z,region,WA,character,NA
+2005-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2005-01-01T00:00:00Z,region,WA,character,NA
+2006-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2006-01-01T00:00:00Z,region,WA,character,NA
+2007-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2007-01-01T00:00:00Z,region,WA,character,NA
+2008-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2008-01-01T00:00:00Z,region,WA,character,NA
+2009-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2009-01-01T00:00:00Z,region,WA,character,NA
+2010-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2010-01-01T00:00:00Z,region,WA,character,NA
+2011-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2011-01-01T00:00:00Z,region,WA,character,NA
+2012-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2012-01-01T00:00:00Z,region,WA,character,NA
+2013-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2013-01-01T00:00:00Z,region,WA,character,NA
+2014-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2014-01-01T00:00:00Z,region,WA,character,NA
+2015-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2015-01-01T00:00:00Z,region,WA,character,NA
+2016-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2016-01-01T00:00:00Z,region,WA,character,NA
+2017-01-01T00:00:00Z,location,"La Push, WA",character,NA
+2017-01-01T00:00:00Z,region,WA,character,NA
+2005-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2005-01-01T00:00:00Z,region,SCA,character,NA
+2006-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2006-01-01T00:00:00Z,region,SCA,character,NA
+2007-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2007-01-01T00:00:00Z,region,SCA,character,NA
+2008-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2008-01-01T00:00:00Z,region,SCA,character,NA
+2009-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2009-01-01T00:00:00Z,region,SCA,character,NA
+2010-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2010-01-01T00:00:00Z,region,SCA,character,NA
+2011-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2011-01-01T00:00:00Z,region,SCA,character,NA
+2012-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2012-01-01T00:00:00Z,region,SCA,character,NA
+2013-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2013-01-01T00:00:00Z,region,SCA,character,NA
+2014-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2014-01-01T00:00:00Z,region,SCA,character,NA
+2015-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2015-01-01T00:00:00Z,region,SCA,character,NA
+2016-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2016-01-01T00:00:00Z,region,SCA,character,NA
+2017-01-01T00:00:00Z,location,"Lake Forest, CA",character,NA
+2017-01-01T00:00:00Z,region,SCA,character,NA
+2005-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2005-01-01T00:00:00Z,region,SCA,character,NA
+2006-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2006-01-01T00:00:00Z,region,SCA,character,NA
+2007-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2007-01-01T00:00:00Z,region,SCA,character,NA
+2008-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2008-01-01T00:00:00Z,region,SCA,character,NA
+2009-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2009-01-01T00:00:00Z,region,SCA,character,NA
+2010-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2010-01-01T00:00:00Z,region,SCA,character,NA
+2011-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2011-01-01T00:00:00Z,region,SCA,character,NA
+2012-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2012-01-01T00:00:00Z,region,SCA,character,NA
+2013-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2013-01-01T00:00:00Z,region,SCA,character,NA
+2014-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2014-01-01T00:00:00Z,region,SCA,character,NA
+2015-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2015-01-01T00:00:00Z,region,SCA,character,NA
+2016-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2016-01-01T00:00:00Z,region,SCA,character,NA
+2017-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2017-01-01T00:00:00Z,region,CCA,character,NA
+2018-01-01T00:00:00Z,location,"Los Angeles, CA",character,NA
+2018-01-01T00:00:00Z,region,CCA,character,NA
+2005-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2005-01-01T00:00:00Z,region,CCA,character,NA
+2006-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2006-01-01T00:00:00Z,region,CCA,character,NA
+2007-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2007-01-01T00:00:00Z,region,CCA,character,NA
+2008-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2008-01-01T00:00:00Z,region,CCA,character,NA
+2009-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2009-01-01T00:00:00Z,region,CCA,character,NA
+2010-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2010-01-01T00:00:00Z,region,CCA,character,NA
+2011-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2011-01-01T00:00:00Z,region,CCA,character,NA
+2012-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2012-01-01T00:00:00Z,region,CCA,character,NA
+2013-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2013-01-01T00:00:00Z,region,CCA,character,NA
+2014-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2014-01-01T00:00:00Z,region,CCA,character,NA
+2015-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2015-01-01T00:00:00Z,region,CCA,character,NA
+2016-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2016-01-01T00:00:00Z,region,CCA,character,NA
+2017-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2017-01-01T00:00:00Z,region,CCA,character,NA
+2018-01-01T00:00:00Z,location,"Monterey, CA",character,NA
+2018-01-01T00:00:00Z,region,CCA,character,NA
+2005-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2005-01-01T00:00:00Z,region,CCA,character,NA
+2006-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2006-01-01T00:00:00Z,region,CCA,character,NA
+2007-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2007-01-01T00:00:00Z,region,CCA,character,NA
+2008-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2008-01-01T00:00:00Z,region,CCA,character,NA
+2009-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2009-01-01T00:00:00Z,region,CCA,character,NA
+2010-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2010-01-01T00:00:00Z,region,CCA,character,NA
+2011-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2011-01-01T00:00:00Z,region,CCA,character,NA
+2012-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2012-01-01T00:00:00Z,region,CCA,character,NA
+2013-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2013-01-01T00:00:00Z,region,CCA,character,NA
+2014-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2014-01-01T00:00:00Z,region,CCA,character,NA
+2015-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2015-01-01T00:00:00Z,region,CCA,character,NA
+2016-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2016-01-01T00:00:00Z,region,CCA,character,NA
+2017-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2017-01-01T00:00:00Z,region,CCA,character,NA
+2018-01-01T00:00:00Z,location,"Morro Bay, CA",character,NA
+2018-01-01T00:00:00Z,region,CCA,character,NA
+2005-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2005-01-01T00:00:00Z,region,CCA,character,NA
+2006-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2006-01-01T00:00:00Z,region,CCA,character,NA
+2007-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2007-01-01T00:00:00Z,region,CCA,character,NA
+2008-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2008-01-01T00:00:00Z,region,CCA,character,NA
+2009-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2009-01-01T00:00:00Z,region,CCA,character,NA
+2010-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2010-01-01T00:00:00Z,region,CCA,character,NA
+2011-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2011-01-01T00:00:00Z,region,CCA,character,NA
+2012-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2012-01-01T00:00:00Z,region,CCA,character,NA
+2013-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2013-01-01T00:00:00Z,region,CCA,character,NA
+2014-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2014-01-01T00:00:00Z,region,CCA,character,NA
+2015-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2015-01-01T00:00:00Z,region,CCA,character,NA
+2016-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2016-01-01T00:00:00Z,region,CCA,character,NA
+2017-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2017-01-01T00:00:00Z,region,CCA,character,NA
+2018-01-01T00:00:00Z,location,"Moss Landing, CA",character,NA
+2018-01-01T00:00:00Z,region,CCA,character,NA
+2005-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2005-01-01T00:00:00Z,region,OR,character,NA
+2006-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2006-01-01T00:00:00Z,region,OR,character,NA
+2007-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2007-01-01T00:00:00Z,region,OR,character,NA
+2008-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2008-01-01T00:00:00Z,region,OR,character,NA
+2009-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2009-01-01T00:00:00Z,region,OR,character,NA
+2010-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2010-01-01T00:00:00Z,region,OR,character,NA
+2011-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2011-01-01T00:00:00Z,region,OR,character,NA
+2012-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2012-01-01T00:00:00Z,region,OR,character,NA
+2013-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2013-01-01T00:00:00Z,region,OR,character,NA
+2014-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2014-01-01T00:00:00Z,region,OR,character,NA
+2015-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2015-01-01T00:00:00Z,region,OR,character,NA
+2016-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2016-01-01T00:00:00Z,region,OR,character,NA
+2017-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2017-01-01T00:00:00Z,region,OR,character,NA
+2018-01-01T00:00:00Z,location,"Newport, OR",character,NA
+2018-01-01T00:00:00Z,region,OR,character,NA
+2005-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2005-01-01T00:00:00Z,region,WA,character,NA
+2006-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2006-01-01T00:00:00Z,region,WA,character,NA
+2007-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2007-01-01T00:00:00Z,region,WA,character,NA
+2008-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2008-01-01T00:00:00Z,region,WA,character,NA
+2009-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2009-01-01T00:00:00Z,region,WA,character,NA
+2010-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2010-01-01T00:00:00Z,region,WA,character,NA
+2011-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2011-01-01T00:00:00Z,region,WA,character,NA
+2012-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2012-01-01T00:00:00Z,region,WA,character,NA
+2013-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2013-01-01T00:00:00Z,region,WA,character,NA
+2014-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2014-01-01T00:00:00Z,region,WA,character,NA
+2015-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2015-01-01T00:00:00Z,region,WA,character,NA
+2016-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2016-01-01T00:00:00Z,region,WA,character,NA
+2017-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2017-01-01T00:00:00Z,region,WA,character,NA
+2018-01-01T00:00:00Z,location,"Olympia, WA",character,NA
+2018-01-01T00:00:00Z,region,WA,character,NA
+2005-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2005-01-01T00:00:00Z,region,SCA,character,NA
+2006-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2006-01-01T00:00:00Z,region,SCA,character,NA
+2007-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2007-01-01T00:00:00Z,region,SCA,character,NA
+2008-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2008-01-01T00:00:00Z,region,SCA,character,NA
+2009-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2009-01-01T00:00:00Z,region,SCA,character,NA
+2010-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2010-01-01T00:00:00Z,region,SCA,character,NA
+2011-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2011-01-01T00:00:00Z,region,SCA,character,NA
+2012-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2012-01-01T00:00:00Z,region,SCA,character,NA
+2013-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2013-01-01T00:00:00Z,region,SCA,character,NA
+2014-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2014-01-01T00:00:00Z,region,SCA,character,NA
+2015-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2015-01-01T00:00:00Z,region,SCA,character,NA
+2016-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2016-01-01T00:00:00Z,region,SCA,character,NA
+2017-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2017-01-01T00:00:00Z,region,SCA,character,NA
+2018-01-01T00:00:00Z,location,"Oxnard, CA",character,NA
+2018-01-01T00:00:00Z,region,SCA,character,NA
+2005-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2005-01-01T00:00:00Z,region,SCA,character,NA
+2006-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2006-01-01T00:00:00Z,region,SCA,character,NA
+2007-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2007-01-01T00:00:00Z,region,SCA,character,NA
+2008-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2008-01-01T00:00:00Z,region,SCA,character,NA
+2009-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2009-01-01T00:00:00Z,region,SCA,character,NA
+2010-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2010-01-01T00:00:00Z,region,SCA,character,NA
+2011-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2011-01-01T00:00:00Z,region,SCA,character,NA
+2012-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2012-01-01T00:00:00Z,region,SCA,character,NA
+2013-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2013-01-01T00:00:00Z,region,SCA,character,NA
+2014-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2014-01-01T00:00:00Z,region,SCA,character,NA
+2015-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2015-01-01T00:00:00Z,region,SCA,character,NA
+2016-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2016-01-01T00:00:00Z,region,SCA,character,NA
+2017-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2017-01-01T00:00:00Z,region,SCA,character,NA
+2018-01-01T00:00:00Z,location,"Port Hueneme, CA",character,NA
+2018-01-01T00:00:00Z,region,SCA,character,NA
+2005-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2005-01-01T00:00:00Z,region,OR,character,NA
+2006-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2006-01-01T00:00:00Z,region,OR,character,NA
+2007-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2007-01-01T00:00:00Z,region,OR,character,NA
+2008-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2008-01-01T00:00:00Z,region,OR,character,NA
+2009-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2009-01-01T00:00:00Z,region,OR,character,NA
+2010-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2010-01-01T00:00:00Z,region,OR,character,NA
+2011-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2011-01-01T00:00:00Z,region,OR,character,NA
+2012-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2012-01-01T00:00:00Z,region,OR,character,NA
+2013-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2013-01-01T00:00:00Z,region,OR,character,NA
+2014-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2014-01-01T00:00:00Z,region,OR,character,NA
+2015-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2015-01-01T00:00:00Z,region,OR,character,NA
+2016-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2016-01-01T00:00:00Z,region,OR,character,NA
+2017-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2017-01-01T00:00:00Z,region,OR,character,NA
+2018-01-01T00:00:00Z,location,"Port Orford, OR",character,NA
+2018-01-01T00:00:00Z,region,OR,character,NA
+2005-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2005-01-01T00:00:00Z,region,SCA,character,NA
+2006-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2006-01-01T00:00:00Z,region,SCA,character,NA
+2007-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2007-01-01T00:00:00Z,region,SCA,character,NA
+2008-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2008-01-01T00:00:00Z,region,SCA,character,NA
+2009-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2009-01-01T00:00:00Z,region,SCA,character,NA
+2010-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2010-01-01T00:00:00Z,region,SCA,character,NA
+2011-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2011-01-01T00:00:00Z,region,SCA,character,NA
+2012-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2012-01-01T00:00:00Z,region,SCA,character,NA
+2013-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2013-01-01T00:00:00Z,region,SCA,character,NA
+2014-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2014-01-01T00:00:00Z,region,SCA,character,NA
+2015-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2015-01-01T00:00:00Z,region,SCA,character,NA
+2016-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2016-01-01T00:00:00Z,region,SCA,character,NA
+2017-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2017-01-01T00:00:00Z,region,SCA,character,NA
+2018-01-01T00:00:00Z,location,"San Diego, CA",character,NA
+2018-01-01T00:00:00Z,region,SCA,character,NA
+2005-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2005-01-01T00:00:00Z,region,CCA,character,NA
+2006-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2006-01-01T00:00:00Z,region,CCA,character,NA
+2007-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2007-01-01T00:00:00Z,region,CCA,character,NA
+2008-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2008-01-01T00:00:00Z,region,CCA,character,NA
+2009-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2009-01-01T00:00:00Z,region,CCA,character,NA
+2010-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2010-01-01T00:00:00Z,region,CCA,character,NA
+2011-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2011-01-01T00:00:00Z,region,CCA,character,NA
+2012-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2012-01-01T00:00:00Z,region,CCA,character,NA
+2013-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2013-01-01T00:00:00Z,region,CCA,character,NA
+2014-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2014-01-01T00:00:00Z,region,CCA,character,NA
+2015-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2015-01-01T00:00:00Z,region,CCA,character,NA
+2016-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2016-01-01T00:00:00Z,region,CCA,character,NA
+2017-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2017-01-01T00:00:00Z,region,CCA,character,NA
+2018-01-01T00:00:00Z,location,"San Francisco, CA",character,NA
+2018-01-01T00:00:00Z,region,CCA,character,NA
+2005-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2005-01-01T00:00:00Z,region,SCA,character,NA
+2006-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2006-01-01T00:00:00Z,region,SCA,character,NA
+2007-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2007-01-01T00:00:00Z,region,SCA,character,NA
+2008-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2008-01-01T00:00:00Z,region,SCA,character,NA
+2009-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2009-01-01T00:00:00Z,region,SCA,character,NA
+2010-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2010-01-01T00:00:00Z,region,SCA,character,NA
+2011-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2011-01-01T00:00:00Z,region,SCA,character,NA
+2012-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2012-01-01T00:00:00Z,region,SCA,character,NA
+2013-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2013-01-01T00:00:00Z,region,SCA,character,NA
+2014-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2014-01-01T00:00:00Z,region,SCA,character,NA
+2015-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2015-01-01T00:00:00Z,region,SCA,character,NA
+2016-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2016-01-01T00:00:00Z,region,SCA,character,NA
+2017-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2017-01-01T00:00:00Z,region,SCA,character,NA
+2018-01-01T00:00:00Z,location,"Santa Barbara, CA",character,NA
+2018-01-01T00:00:00Z,region,SCA,character,NA
+2005-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2005-01-01T00:00:00Z,region,WA,character,NA
+2006-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2006-01-01T00:00:00Z,region,WA,character,NA
+2007-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2007-01-01T00:00:00Z,region,WA,character,NA
+2008-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2008-01-01T00:00:00Z,region,WA,character,NA
+2009-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2009-01-01T00:00:00Z,region,WA,character,NA
+2010-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2010-01-01T00:00:00Z,region,WA,character,NA
+2011-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2011-01-01T00:00:00Z,region,WA,character,NA
+2012-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2012-01-01T00:00:00Z,region,WA,character,NA
+2013-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2013-01-01T00:00:00Z,region,WA,character,NA
+2014-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2014-01-01T00:00:00Z,region,WA,character,NA
+2015-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2015-01-01T00:00:00Z,region,WA,character,NA
+2016-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2016-01-01T00:00:00Z,region,WA,character,NA
+2017-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2017-01-01T00:00:00Z,region,WA,character,NA
+2018-01-01T00:00:00Z,location,"Seattle, WA",character,NA
+2018-01-01T00:00:00Z,region,WA,character,NA
+2005-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2005-01-01T00:00:00Z,region,NCA,character,NA
+2006-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2006-01-01T00:00:00Z,region,NCA,character,NA
+2007-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2007-01-01T00:00:00Z,region,NCA,character,NA
+2008-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2008-01-01T00:00:00Z,region,NCA,character,NA
+2009-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2009-01-01T00:00:00Z,region,NCA,character,NA
+2010-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2010-01-01T00:00:00Z,region,NCA,character,NA
+2011-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2011-01-01T00:00:00Z,region,NCA,character,NA
+2012-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2012-01-01T00:00:00Z,region,NCA,character,NA
+2013-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2013-01-01T00:00:00Z,region,NCA,character,NA
+2014-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2014-01-01T00:00:00Z,region,NCA,character,NA
+2015-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2015-01-01T00:00:00Z,region,NCA,character,NA
+2016-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2016-01-01T00:00:00Z,region,NCA,character,NA
+2017-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2017-01-01T00:00:00Z,region,NCA,character,NA
+2018-01-01T00:00:00Z,location,"Shelter Cove, CA",character,NA
+2018-01-01T00:00:00Z,region,NCA,character,NA
+2005-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2005-01-01T00:00:00Z,region,WA,character,NA
+2006-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2006-01-01T00:00:00Z,region,WA,character,NA
+2007-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2007-01-01T00:00:00Z,region,WA,character,NA
+2008-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2008-01-01T00:00:00Z,region,WA,character,NA
+2009-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2009-01-01T00:00:00Z,region,WA,character,NA
+2010-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2010-01-01T00:00:00Z,region,WA,character,NA
+2011-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2011-01-01T00:00:00Z,region,WA,character,NA
+2012-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2012-01-01T00:00:00Z,region,WA,character,NA
+2013-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2013-01-01T00:00:00Z,region,WA,character,NA
+2014-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2014-01-01T00:00:00Z,region,WA,character,NA
+2015-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2015-01-01T00:00:00Z,region,WA,character,NA
+2016-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2016-01-01T00:00:00Z,region,WA,character,NA
+2017-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2017-01-01T00:00:00Z,region,WA,character,NA
+2018-01-01T00:00:00Z,location,"Shelton, WA",character,NA
+2018-01-01T00:00:00Z,region,WA,character,NA
+2005-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2005-01-01T00:00:00Z,region,NCA,character,NA
+2006-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2006-01-01T00:00:00Z,region,NCA,character,NA
+2007-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2007-01-01T00:00:00Z,region,NCA,character,NA
+2008-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2008-01-01T00:00:00Z,region,NCA,character,NA
+2009-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2009-01-01T00:00:00Z,region,NCA,character,NA
+2010-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2010-01-01T00:00:00Z,region,NCA,character,NA
+2011-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2011-01-01T00:00:00Z,region,NCA,character,NA
+2012-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2012-01-01T00:00:00Z,region,NCA,character,NA
+2013-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2013-01-01T00:00:00Z,region,NCA,character,NA
+2014-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2014-01-01T00:00:00Z,region,NCA,character,NA
+2015-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2015-01-01T00:00:00Z,region,NCA,character,NA
+2016-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2016-01-01T00:00:00Z,region,NCA,character,NA
+2017-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2017-01-01T00:00:00Z,region,NCA,character,NA
+2018-01-01T00:00:00Z,location,"Trinidad, CA",character,NA
+2018-01-01T00:00:00Z,region,NCA,character,NA
+2005-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2005-01-01T00:00:00Z,region,SCA,character,NA
+2006-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2006-01-01T00:00:00Z,region,SCA,character,NA
+2007-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2007-01-01T00:00:00Z,region,SCA,character,NA
+2008-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2008-01-01T00:00:00Z,region,SCA,character,NA
+2009-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2009-01-01T00:00:00Z,region,SCA,character,NA
+2010-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2010-01-01T00:00:00Z,region,SCA,character,NA
+2011-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2011-01-01T00:00:00Z,region,SCA,character,NA
+2012-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2012-01-01T00:00:00Z,region,SCA,character,NA
+2013-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2013-01-01T00:00:00Z,region,SCA,character,NA
+2014-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2014-01-01T00:00:00Z,region,SCA,character,NA
+2015-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2015-01-01T00:00:00Z,region,SCA,character,NA
+2016-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2016-01-01T00:00:00Z,region,SCA,character,NA
+2017-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2017-01-01T00:00:00Z,region,SCA,character,NA
+2018-01-01T00:00:00Z,location,"Ventura, CA",character,NA
+2018-01-01T00:00:00Z,region,SCA,character,NA
+2005-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2005-01-01T00:00:00Z,region,WA,character,NA
+2006-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2006-01-01T00:00:00Z,region,WA,character,NA
+2007-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2007-01-01T00:00:00Z,region,WA,character,NA
+2008-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2008-01-01T00:00:00Z,region,WA,character,NA
+2009-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2009-01-01T00:00:00Z,region,WA,character,NA
+2010-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2010-01-01T00:00:00Z,region,WA,character,NA
+2011-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2011-01-01T00:00:00Z,region,WA,character,NA
+2012-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2012-01-01T00:00:00Z,region,WA,character,NA
+2013-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2013-01-01T00:00:00Z,region,WA,character,NA
+2014-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2014-01-01T00:00:00Z,region,WA,character,NA
+2015-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2015-01-01T00:00:00Z,region,WA,character,NA
+2016-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2016-01-01T00:00:00Z,region,WA,character,NA
+2017-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2017-01-01T00:00:00Z,region,WA,character,NA
+2018-01-01T00:00:00Z,location,"Westport, WA",character,NA
+2018-01-01T00:00:00Z,region,WA,character,NA
+2005-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2005-01-01T00:00:00Z,region,OR,character,NA
+2006-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2006-01-01T00:00:00Z,region,OR,character,NA
+2007-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2007-01-01T00:00:00Z,region,OR,character,NA
+2008-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2008-01-01T00:00:00Z,region,OR,character,NA
+2009-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2009-01-01T00:00:00Z,region,OR,character,NA
+2010-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2010-01-01T00:00:00Z,region,OR,character,NA
+2011-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2011-01-01T00:00:00Z,region,OR,character,NA
+2012-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2012-01-01T00:00:00Z,region,OR,character,NA
+2013-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2013-01-01T00:00:00Z,region,OR,character,NA
+2014-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2014-01-01T00:00:00Z,region,OR,character,NA
+2015-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2015-01-01T00:00:00Z,region,OR,character,NA
+2016-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2016-01-01T00:00:00Z,region,OR,character,NA
+2017-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2017-01-01T00:00:00Z,region,OR,character,NA
+2018-01-01T00:00:00Z,location,"Winchester Bay, OR",character,NA
+2018-01-01T00:00:00Z,region,OR,character,NA
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.98395
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.6371
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.7427
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.19774
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.65827
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.71581
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.47139
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.58264
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.13091
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.59773
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.83358
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.87221
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.35464
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.903314
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,12.32803
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.8797
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.30533
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,10.74521
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,10.15464
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,10.01152
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,8.94767
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.84015
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,13.26924
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.16307
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,12.78803
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,12.58675
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.10444
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,14.998841
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.64405
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.97232
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.36566
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.27201
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.86451
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.75636
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.94916
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.01464
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.70889
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.47757
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.47268
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.75634
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.553
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.082527
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.85253
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.76311
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.1151
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.13525
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.05445
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.50327
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.77657
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.20712
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.06356
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.37971
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.09972
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.2494
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.53029
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.0746865
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.2182
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.28452
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.62546
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.46899
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.81596
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.08608
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.10242
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.85698
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.63425
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.84042
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.34947
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.31161
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.73131
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.602232
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,7.64852
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.22888
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,8.2371
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,8.09546
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,9.12732
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,9.9004
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,9.88978
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,7.22366
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,8.24361
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,9.09313
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,9.84009
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,7.8714
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,8.15094
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,7.5650506
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.46326
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.483
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.88023
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.24837
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.95242
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.09471
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.76507
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.07498
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.34274
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.3074
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.60909
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.64894
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.34857
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.0527735
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.36018
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.41976
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.85221
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.94716
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.29408
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.34703
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.84034
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.46695
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.98648
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.94944
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.34095
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.20033
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.0055
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,-0.114371546
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.76886
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.84251
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.02261
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.09306
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.50823
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.11714
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.94229
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.876
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.10613
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.12413
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.35305
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.37721
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.82628
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.3901005
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.87676
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.89884
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.93993
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.60166
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.6714
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.8177
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.68859
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.48775
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.36183
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.56195
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.26447
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.76976
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.21055
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.336168
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.89033
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.81293
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.96095
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.90213
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.06088
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.98987
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.31369
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.53038
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.21732
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.59559
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.86111
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.32527
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.10384
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.7581513
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.52881
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.96623
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,0
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.86328
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.39662
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.48119
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.81973
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.59556
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.65692
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.26255
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.96546
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.66881
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.96645
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.5950844
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.24902
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.41976
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.85221
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.94716
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.44788
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.477
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.84034
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.46695
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.98648
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.94944
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.34095
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.20033
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.59858
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.6241
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.5839
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.85483
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.7864
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.24304
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.28199
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.90634
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.1165
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.52222
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.0399
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.30204
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.03426
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.69471
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.5487155
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.72844
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.36107
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.74533
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.20472
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.16081
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.47465
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.90475
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.63075
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.02935
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.19726
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.19437
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.19437
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.50355
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.44327
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,-0.19823
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.27984
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.48471
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.41141
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.22467
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.51507
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.31009
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.23952
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,9.77187
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.77855
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.5895
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.78553
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.34621
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,14.0205
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,10.57433
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,12.92911
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,7.61697
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.61203
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.66777
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.39458
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,7.21382
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.9177113
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.87576
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.95789
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.66972
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.26552
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.37259
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.87493
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.25802
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.89158
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.76616
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.72939
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.7863
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.69885
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.5844
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.0105972
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.83476
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.98868
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.59292
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.17568
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.34972
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.66042
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.87942
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.6273
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.46314
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.56986
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.6931
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.84183
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.16946
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.4466623
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.65976
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.51665
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.76173
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.83127
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.65226
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.92393
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.21239
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.60265
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.04247
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.06491
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.81148
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.81448
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.04161
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.3011694
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,10.08129
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,10.97002
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,12.28133
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.76899
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,12.63262
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.62944
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.84718
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,12.04744
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,13.98275
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,16.31814
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,14.33237
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,15.96512
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,15.86023
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,18.591837
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.41166
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.77459
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.13272
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.79562
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.02324
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.52339
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.18172
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.32806
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.701
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.16984
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.74671
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.1061
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.59061
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.5973926
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.53132
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.04435
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.42781
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.08166
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.56048
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.9977
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.05763
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.9202
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.08795
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.67155
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.1649
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.99984
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.10673
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.6350968
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.70161
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.74412
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.29308
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.10071
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.98649
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.93418
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.91454
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.66022
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.27103
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.56567
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.25343
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.28223
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.1928
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.6967872
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.72961
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.59444
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.74852
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.17556
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.44833
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.58493
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.73269
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.18452
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.64805
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.83738
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.1574
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.51957
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.50516
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.224332
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.06117
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.19951
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.85326
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.63913
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.18847
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.39181
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,7.5446
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.02245
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,9.77887
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.95075
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.07183
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.07567
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.1105
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.325692
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.31843
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.17796
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.67718
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.0495
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.65051
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.27059
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.14829
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.13646
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.22621
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.90517
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.04226
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.00898
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.298
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.897365
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.95598
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.57265
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.41555
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.49298
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.94606
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.25411
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.15452
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.88283
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.53323
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.08978
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.36705
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.7608
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.34369
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.703216
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.16613
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.97362
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.36392
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.81081
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.02592
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.80117
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.33439
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.65653
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.62976
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.11065
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.85341
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,8.32915
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.49206
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.3943088
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.03647
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.01217
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.67429
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.26605
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,0
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.33286
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.67944
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.55661
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.33881
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.25996
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.31894
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.39906
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.235
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.17526093
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,7.0906
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,7.10306
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,9.88637
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,7.11543
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,5.77911
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.27655
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.25979
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.11415
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.23294
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.20223
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.00357
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.9384
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.74599
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.7048583
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.23562
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.68561
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.74262
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.89197
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.92207
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.78828
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.06927
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.57266
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.73163
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.71756
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.2872
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.55438
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.67242
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.61668897
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.62701
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.45081
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.89683
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.50094
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,7.06575
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.23417
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.9425
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.79747
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.36105
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.97881
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.75566
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,4.07231
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,6.4002
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,3.464702
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,13.56289
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.49393
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.0226
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,12.95387
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,10.04097
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,11.97686
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,9.07139
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,12.47202
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,12.70149
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,12.76652
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,15.68207
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,13.72644
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,16.83776
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,12.207733
+2005-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.75388
+2006-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.75231
+2007-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.85776
+2008-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.74292
+2009-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.49832
+2010-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.24314
+2011-01-01T00:00:00Z,fishing_engagement,NA,numeric,2.18515
+2012-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.1216
+2013-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.63178
+2014-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.19737
+2015-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.50954
+2016-01-01T00:00:00Z,fishing_engagement,NA,numeric,0.89667
+2017-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.62631
+2018-01-01T00:00:00Z,fishing_engagement,NA,numeric,1.1844753

@@ -1,0 +1,439 @@
+time,encounter_rate,species_cohort
+1994-01-01T00:00:00Z,0.007,Cassins auklet encounter rate (Ce CC)
+1995-01-01T00:00:00Z,0.003,Cassins auklet encounter rate (Ce CC)
+1996-01-01T00:00:00Z,0.002,Cassins auklet encounter rate (Ce CC)
+1997-01-01T00:00:00Z,0.01,Cassins auklet encounter rate (Ce CC)
+1998-01-01T00:00:00Z,0.01,Cassins auklet encounter rate (Ce CC)
+1999-01-01T00:00:00Z,0.005,Cassins auklet encounter rate (Ce CC)
+2000-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce CC)
+2001-01-01T00:00:00Z,0.017,Cassins auklet encounter rate (Ce CC)
+2002-01-01T00:00:00Z,0.004,Cassins auklet encounter rate (Ce CC)
+2003-01-01T00:00:00Z,0.007,Cassins auklet encounter rate (Ce CC)
+2004-01-01T00:00:00Z,0.177,Cassins auklet encounter rate (Ce CC)
+2005-01-01T00:00:00Z,0.026,Cassins auklet encounter rate (Ce CC)
+2006-01-01T00:00:00Z,0.011,Cassins auklet encounter rate (Ce CC)
+2007-01-01T00:00:00Z,0.004,Cassins auklet encounter rate (Ce CC)
+2008-01-01T00:00:00Z,0.004,Cassins auklet encounter rate (Ce CC)
+2009-01-01T00:00:00Z,0.003,Cassins auklet encounter rate (Ce CC)
+2010-01-01T00:00:00Z,0.008,Cassins auklet encounter rate (Ce CC)
+2011-01-01T00:00:00Z,0.007,Cassins auklet encounter rate (Ce CC)
+2012-01-01T00:00:00Z,0.001,Cassins auklet encounter rate (Ce CC)
+2013-01-01T00:00:00Z,0.007,Cassins auklet encounter rate (Ce CC)
+2014-01-01T00:00:00Z,0.989,Cassins auklet encounter rate (Ce CC)
+2015-01-01T00:00:00Z,0.016,Cassins auklet encounter rate (Ce CC)
+2016-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce CC)
+2017-01-01T00:00:00Z,0.008,Cassins auklet encounter rate (Ce CC)
+2018-01-01T00:00:00Z,0.02,Cassins auklet encounter rate (Ce CC)
+2019-01-01T00:00:00Z,0.002,Cassins auklet encounter rate (Ce CC)
+1994-01-01T00:00:00Z,0.13,Common murre encounter rate(Ce CC)
+1995-01-01T00:00:00Z,0.598,Common murre encounter rate(Ce CC)
+1996-01-01T00:00:00Z,0.174,Common murre encounter rate(Ce CC)
+1997-01-01T00:00:00Z,0.532,Common murre encounter rate(Ce CC)
+1998-01-01T00:00:00Z,0.417,Common murre encounter rate(Ce CC)
+1999-01-01T00:00:00Z,0.177,Common murre encounter rate(Ce CC)
+2000-01-01T00:00:00Z,0.204,Common murre encounter rate(Ce CC)
+2001-01-01T00:00:00Z,0.273,Common murre encounter rate(Ce CC)
+2002-01-01T00:00:00Z,0.3,Common murre encounter rate(Ce CC)
+2003-01-01T00:00:00Z,0.301,Common murre encounter rate(Ce CC)
+2004-01-01T00:00:00Z,0.24,Common murre encounter rate(Ce CC)
+2005-01-01T00:00:00Z,0.427,Common murre encounter rate(Ce CC)
+2006-01-01T00:00:00Z,0.645,Common murre encounter rate(Ce CC)
+2007-01-01T00:00:00Z,0.86,Common murre encounter rate(Ce CC)
+2008-01-01T00:00:00Z,1.025,Common murre encounter rate(Ce CC)
+2009-01-01T00:00:00Z,0.355,Common murre encounter rate(Ce CC)
+2010-01-01T00:00:00Z,0.13,Common murre encounter rate(Ce CC)
+2011-01-01T00:00:00Z,0.353,Common murre encounter rate(Ce CC)
+2012-01-01T00:00:00Z,0.253,Common murre encounter rate(Ce CC)
+2013-01-01T00:00:00Z,0.172,Common murre encounter rate(Ce CC)
+2014-01-01T00:00:00Z,0.284,Common murre encounter rate(Ce CC)
+2015-01-01T00:00:00Z,2.844,Common murre encounter rate(Ce CC)
+2016-01-01T00:00:00Z,0.231,Common murre encounter rate(Ce CC)
+2017-01-01T00:00:00Z,0.479,Common murre encounter rate(Ce CC)
+2018-01-01T00:00:00Z,0.426,Common murre encounter rate(Ce CC)
+2019-01-01T00:00:00Z,0.667,Common murre encounter rate(Ce CC)
+1994-01-01T00:00:00Z,0.006,Sooty shearwater encounter rate (Ce CC)
+1995-01-01T00:00:00Z,0.016,Sooty shearwater encounter rate (Ce CC)
+1996-01-01T00:00:00Z,0.026,Sooty shearwater encounter rate (Ce CC)
+1997-01-01T00:00:00Z,0.034,Sooty shearwater encounter rate (Ce CC)
+1998-01-01T00:00:00Z,0.082,Sooty shearwater encounter rate (Ce CC)
+1999-01-01T00:00:00Z,0.033,Sooty shearwater encounter rate (Ce CC)
+2000-01-01T00:00:00Z,0.051,Sooty shearwater encounter rate (Ce CC)
+2001-01-01T00:00:00Z,0.01,Sooty shearwater encounter rate (Ce CC)
+2002-01-01T00:00:00Z,0.008,Sooty shearwater encounter rate (Ce CC)
+2003-01-01T00:00:00Z,0.009,Sooty shearwater encounter rate (Ce CC)
+2004-01-01T00:00:00Z,0.005,Sooty shearwater encounter rate (Ce CC)
+2005-01-01T00:00:00Z,0.025,Sooty shearwater encounter rate (Ce CC)
+2006-01-01T00:00:00Z,0.021,Sooty shearwater encounter rate (Ce CC)
+2007-01-01T00:00:00Z,0.009,Sooty shearwater encounter rate (Ce CC)
+2008-01-01T00:00:00Z,0.021,Sooty shearwater encounter rate (Ce CC)
+2009-01-01T00:00:00Z,0.019,Sooty shearwater encounter rate (Ce CC)
+2010-01-01T00:00:00Z,0.005,Sooty shearwater encounter rate (Ce CC)
+2011-01-01T00:00:00Z,0.005,Sooty shearwater encounter rate (Ce CC)
+2012-01-01T00:00:00Z,0.041,Sooty shearwater encounter rate (Ce CC)
+2013-01-01T00:00:00Z,0.038,Sooty shearwater encounter rate (Ce CC)
+2014-01-01T00:00:00Z,0.015,Sooty shearwater encounter rate (Ce CC)
+2015-01-01T00:00:00Z,0.069,Sooty shearwater encounter rate (Ce CC)
+2016-01-01T00:00:00Z,0.01,Sooty shearwater encounter rate (Ce CC)
+2017-01-01T00:00:00Z,0.031,Sooty shearwater encounter rate (Ce CC)
+2018-01-01T00:00:00Z,0.022,Sooty shearwater encounter rate (Ce CC)
+2019-01-01T00:00:00Z,0.038,Sooty shearwater encounter rate (Ce CC)
+2020-01-01T00:00:00Z,0.067,Sooty shearwater encounter rate (Ce CC)
+1994-01-01T00:00:00Z,0.022,Northern fulmar encounter rate (Ce CC)
+1995-01-01T00:00:00Z,0.152,Northern fulmar encounter rate (Ce CC)
+1996-01-01T00:00:00Z,0.027,Northern fulmar encounter rate (Ce CC)
+1997-01-01T00:00:00Z,0.409,Northern fulmar encounter rate (Ce CC)
+1998-01-01T00:00:00Z,0.032,Northern fulmar encounter rate (Ce CC)
+1999-01-01T00:00:00Z,0.13,Northern fulmar encounter rate (Ce CC)
+2000-01-01T00:00:00Z,0.603,Northern fulmar encounter rate (Ce CC)
+2001-01-01T00:00:00Z,0.035,Northern fulmar encounter rate (Ce CC)
+2002-01-01T00:00:00Z,0.43,Northern fulmar encounter rate (Ce CC)
+2003-01-01T00:00:00Z,2.095,Northern fulmar encounter rate (Ce CC)
+2004-01-01T00:00:00Z,0.113,Northern fulmar encounter rate (Ce CC)
+2005-01-01T00:00:00Z,0.375,Northern fulmar encounter rate (Ce CC)
+2006-01-01T00:00:00Z,0.044,Northern fulmar encounter rate (Ce CC)
+2007-01-01T00:00:00Z,0.435,Northern fulmar encounter rate (Ce CC)
+2008-01-01T00:00:00Z,0.033,Northern fulmar encounter rate (Ce CC)
+2009-01-01T00:00:00Z,0.233,Northern fulmar encounter rate (Ce CC)
+2010-01-01T00:00:00Z,1.128,Northern fulmar encounter rate (Ce CC)
+2011-01-01T00:00:00Z,0.041,Northern fulmar encounter rate (Ce CC)
+2012-01-01T00:00:00Z,0.277,Northern fulmar encounter rate (Ce CC)
+2013-01-01T00:00:00Z,0.231,Northern fulmar encounter rate (Ce CC)
+2014-01-01T00:00:00Z,0.15,Northern fulmar encounter rate (Ce CC)
+2015-01-01T00:00:00Z,0.045,Northern fulmar encounter rate (Ce CC)
+2016-01-01T00:00:00Z,0.092,Northern fulmar encounter rate (Ce CC)
+2017-01-01T00:00:00Z,0.046,Northern fulmar encounter rate (Ce CC)
+2018-01-01T00:00:00Z,0.034,Northern fulmar encounter rate (Ce CC)
+2019-01-01T00:00:00Z,0.221,Northern fulmar encounter rate (Ce CC)
+1994-01-01T00:00:00Z,0.04,Brandts cormorant encounter rate (Ce CC)
+1995-01-01T00:00:00Z,0.12,Brandts cormorant encounter rate (Ce CC)
+1996-01-01T00:00:00Z,0.064,Brandts cormorant encounter rate (Ce CC)
+1997-01-01T00:00:00Z,0.054,Brandts cormorant encounter rate (Ce CC)
+1998-01-01T00:00:00Z,0.046,Brandts cormorant encounter rate (Ce CC)
+1999-01-01T00:00:00Z,0.03,Brandts cormorant encounter rate (Ce CC)
+2000-01-01T00:00:00Z,0.04,Brandts cormorant encounter rate (Ce CC)
+2001-01-01T00:00:00Z,0.056,Brandts cormorant encounter rate (Ce CC)
+2002-01-01T00:00:00Z,0.07,Brandts cormorant encounter rate (Ce CC)
+2003-01-01T00:00:00Z,0.063,Brandts cormorant encounter rate (Ce CC)
+2004-01-01T00:00:00Z,0.049,Brandts cormorant encounter rate (Ce CC)
+2005-01-01T00:00:00Z,0.159,Brandts cormorant encounter rate (Ce CC)
+2006-01-01T00:00:00Z,0.067,Brandts cormorant encounter rate (Ce CC)
+2007-01-01T00:00:00Z,0.204,Brandts cormorant encounter rate (Ce CC)
+2008-01-01T00:00:00Z,0.172,Brandts cormorant encounter rate (Ce CC)
+2009-01-01T00:00:00Z,0.471,Brandts cormorant encounter rate (Ce CC)
+2010-01-01T00:00:00Z,0.045,Brandts cormorant encounter rate (Ce CC)
+2011-01-01T00:00:00Z,0.168,Brandts cormorant encounter rate (Ce CC)
+2012-01-01T00:00:00Z,0.09,Brandts cormorant encounter rate (Ce CC)
+2013-01-01T00:00:00Z,0.034,Brandts cormorant encounter rate (Ce CC)
+2014-01-01T00:00:00Z,0.098,Brandts cormorant encounter rate (Ce CC)
+2015-01-01T00:00:00Z,0.217,Brandts cormorant encounter rate (Ce CC)
+2016-01-01T00:00:00Z,0.051,Brandts cormorant encounter rate (Ce CC)
+2017-01-01T00:00:00Z,0.074,Brandts cormorant encounter rate (Ce CC)
+2018-01-01T00:00:00Z,0.062,Brandts cormorant encounter rate (Ce CC)
+2019-01-01T00:00:00Z,0.065,Brandts cormorant encounter rate (Ce CC)
+2020-01-01T00:00:00Z,0.244,Brandts cormorant encounter rate (Ce CC)
+1997-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+1998-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+1999-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2000-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2001-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2002-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2003-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2004-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2005-01-01T00:00:00Z,0.079,Cassins auklet encounter rate (Ce/So CC) Central
+2006-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2007-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2008-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2009-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2010-01-01T00:00:00Z,0.1,Cassins auklet encounter rate (Ce/So CC) Central
+2011-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2012-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2013-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2014-01-01T00:00:00Z,0.433,Cassins auklet encounter rate (Ce/So CC) Central
+2015-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2016-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) Central
+2017-01-01T00:00:00Z,0.128,Cassins auklet encounter rate (Ce/So CC) Central
+2018-01-01T00:00:00Z,0.078,Cassins auklet encounter rate (Ce/So CC) Central
+1997-01-01T00:00:00Z,0,Common murre encounter rate(Ce/So CC) Central
+1998-01-01T00:00:00Z,0,Common murre encounter rate(Ce/So CC) Central
+1999-01-01T00:00:00Z,0,Common murre encounter rate(Ce/So CC) Central
+2000-01-01T00:00:00Z,0,Common murre encounter rate(Ce/So CC) Central
+2001-01-01T00:00:00Z,0.331,Common murre encounter rate(Ce/So CC) Central
+2002-01-01T00:00:00Z,0.276,Common murre encounter rate(Ce/So CC) Central
+2003-01-01T00:00:00Z,0.122,Common murre encounter rate(Ce/So CC) Central
+2004-01-01T00:00:00Z,0,Common murre encounter rate(Ce/So CC) Central
+2005-01-01T00:00:00Z,0.686,Common murre encounter rate(Ce/So CC) Central
+2006-01-01T00:00:00Z,0.415,Common murre encounter rate(Ce/So CC) Central
+2007-01-01T00:00:00Z,0.373,Common murre encounter rate(Ce/So CC) Central
+2008-01-01T00:00:00Z,0.706,Common murre encounter rate(Ce/So CC) Central
+2009-01-01T00:00:00Z,0.814,Common murre encounter rate(Ce/So CC) Central
+2010-01-01T00:00:00Z,0.189,Common murre encounter rate(Ce/So CC) Central
+2011-01-01T00:00:00Z,1.873,Common murre encounter rate(Ce/So CC) Central
+2012-01-01T00:00:00Z,0.779,Common murre encounter rate(Ce/So CC) Central
+2013-01-01T00:00:00Z,0.158,Common murre encounter rate(Ce/So CC) Central
+2014-01-01T00:00:00Z,0.39,Common murre encounter rate(Ce/So CC) Central
+2015-01-01T00:00:00Z,8.726,Common murre encounter rate(Ce/So CC) Central
+2016-01-01T00:00:00Z,0.461,Common murre encounter rate(Ce/So CC) Central
+2017-01-01T00:00:00Z,1.249,Common murre encounter rate(Ce/So CC) Central
+2018-01-01T00:00:00Z,1.707,Common murre encounter rate(Ce/So CC) Central
+2019-01-01T00:00:00Z,2.6787622,Common murre encounter rate(Ce/So CC) Central
+1997-01-01T00:00:00Z,0,Sooty shearwater encounter rate (Ce/So CC) Central
+1998-01-01T00:00:00Z,0,Sooty shearwater encounter rate (Ce/So CC) Central
+1999-01-01T00:00:00Z,0,Sooty shearwater encounter rate (Ce/So CC) Central
+2000-01-01T00:00:00Z,0,Sooty shearwater encounter rate (Ce/So CC) Central
+2001-01-01T00:00:00Z,0,Sooty shearwater encounter rate (Ce/So CC) Central
+2002-01-01T00:00:00Z,0,Sooty shearwater encounter rate (Ce/So CC) Central
+2003-01-01T00:00:00Z,0.111,Sooty shearwater encounter rate (Ce/So CC) Central
+2004-01-01T00:00:00Z,0,Sooty shearwater encounter rate (Ce/So CC) Central
+2005-01-01T00:00:00Z,0.093,Sooty shearwater encounter rate (Ce/So CC) Central
+2006-01-01T00:00:00Z,0,Sooty shearwater encounter rate (Ce/So CC) Central
+2007-01-01T00:00:00Z,0,Sooty shearwater encounter rate (Ce/So CC) Central
+2008-01-01T00:00:00Z,0,Sooty shearwater encounter rate (Ce/So CC) Central
+2009-01-01T00:00:00Z,0,Sooty shearwater encounter rate (Ce/So CC) Central
+2010-01-01T00:00:00Z,0,Sooty shearwater encounter rate (Ce/So CC) Central
+2011-01-01T00:00:00Z,0.556,Sooty shearwater encounter rate (Ce/So CC) Central
+2012-01-01T00:00:00Z,0.31707114,Sooty shearwater encounter rate (Ce/So CC) Central
+2013-01-01T00:00:00Z,0.172,Sooty shearwater encounter rate (Ce/So CC) Central
+2014-01-01T00:00:00Z,0.11798396,Sooty shearwater encounter rate (Ce/So CC) Central
+2015-01-01T00:00:00Z,0.37976268,Sooty shearwater encounter rate (Ce/So CC) Central
+2016-01-01T00:00:00Z,0.059417706,Sooty shearwater encounter rate (Ce/So CC) Central
+2017-01-01T00:00:00Z,0.12582095,Sooty shearwater encounter rate (Ce/So CC) Central
+2018-01-01T00:00:00Z,0.38509303,Sooty shearwater encounter rate (Ce/So CC) Central
+2019-01-01T00:00:00Z,0.08165487,Sooty shearwater encounter rate (Ce/So CC) Central
+1997-01-01T00:00:00Z,0,Northern fulmar encounter rate (Ce/So CC) Central
+1998-01-01T00:00:00Z,0,Northern fulmar encounter rate (Ce/So CC) Central
+1999-01-01T00:00:00Z,0,Northern fulmar encounter rate (Ce/So CC) Central
+2000-01-01T00:00:00Z,0,Northern fulmar encounter rate (Ce/So CC) Central
+2001-01-01T00:00:00Z,0,Northern fulmar encounter rate (Ce/So CC) Central
+2002-01-01T00:00:00Z,0.244,Northern fulmar encounter rate (Ce/So CC) Central
+2003-01-01T00:00:00Z,1.165,Northern fulmar encounter rate (Ce/So CC) Central
+2004-01-01T00:00:00Z,0,Northern fulmar encounter rate (Ce/So CC) Central
+2005-01-01T00:00:00Z,0.079,Northern fulmar encounter rate (Ce/So CC) Central
+2006-01-01T00:00:00Z,0,Northern fulmar encounter rate (Ce/So CC) Central
+2007-01-01T00:00:00Z,0,Northern fulmar encounter rate (Ce/So CC) Central
+2008-01-01T00:00:00Z,0,Northern fulmar encounter rate (Ce/So CC) Central
+2009-01-01T00:00:00Z,0.437,Northern fulmar encounter rate (Ce/So CC) Central
+2010-01-01T00:00:00Z,2.469,Northern fulmar encounter rate (Ce/So CC) Central
+2011-01-01T00:00:00Z,0.133,Northern fulmar encounter rate (Ce/So CC) Central
+2012-01-01T00:00:00Z,0.27,Northern fulmar encounter rate (Ce/So CC) Central
+2013-01-01T00:00:00Z,0.42414793,Northern fulmar encounter rate (Ce/So CC) Central
+2014-01-01T00:00:00Z,0.28465697,Northern fulmar encounter rate (Ce/So CC) Central
+2015-01-01T00:00:00Z,0.25741744,Northern fulmar encounter rate (Ce/So CC) Central
+2016-01-01T00:00:00Z,0,Northern fulmar encounter rate (Ce/So CC) Central
+2017-01-01T00:00:00Z,0.11385429,Northern fulmar encounter rate (Ce/So CC) Central
+2018-01-01T00:00:00Z,0.20600764,Northern fulmar encounter rate (Ce/So CC) Central
+1997-01-01T00:00:00Z,0,Brandts cormorant encounter rate (Ce/So CC) Central
+1998-01-01T00:00:00Z,0,Brandts cormorant encounter rate (Ce/So CC) Central
+1999-01-01T00:00:00Z,0,Brandts cormorant encounter rate (Ce/So CC) Central
+2000-01-01T00:00:00Z,0,Brandts cormorant encounter rate (Ce/So CC) Central
+2001-01-01T00:00:00Z,0.484,Brandts cormorant encounter rate (Ce/So CC) Central
+2002-01-01T00:00:00Z,0.344,Brandts cormorant encounter rate (Ce/So CC) Central
+2003-01-01T00:00:00Z,0.244,Brandts cormorant encounter rate (Ce/So CC) Central
+2004-01-01T00:00:00Z,0.365,Brandts cormorant encounter rate (Ce/So CC) Central
+2005-01-01T00:00:00Z,0.795,Brandts cormorant encounter rate (Ce/So CC) Central
+2006-01-01T00:00:00Z,0.469,Brandts cormorant encounter rate (Ce/So CC) Central
+2007-01-01T00:00:00Z,0.559,Brandts cormorant encounter rate (Ce/So CC) Central
+2008-01-01T00:00:00Z,0.971,Brandts cormorant encounter rate (Ce/So CC) Central
+2009-01-01T00:00:00Z,0.849,Brandts cormorant encounter rate (Ce/So CC) Central
+2010-01-01T00:00:00Z,0.369,Brandts cormorant encounter rate (Ce/So CC) Central
+2011-01-01T00:00:00Z,1.11,Brandts cormorant encounter rate (Ce/So CC) Central
+2012-01-01T00:00:00Z,0.731,Brandts cormorant encounter rate (Ce/So CC) Central
+2013-01-01T00:00:00Z,0.278,Brandts cormorant encounter rate (Ce/So CC) Central
+2014-01-01T00:00:00Z,2.371,Brandts cormorant encounter rate (Ce/So CC) Central
+2015-01-01T00:00:00Z,1.629,Brandts cormorant encounter rate (Ce/So CC) Central
+2016-01-01T00:00:00Z,0.253,Brandts cormorant encounter rate (Ce/So CC) Central
+2017-01-01T00:00:00Z,0.344,Brandts cormorant encounter rate (Ce/So CC) Central
+2018-01-01T00:00:00Z,0.596,Brandts cormorant encounter rate (Ce/So CC) Central
+2019-01-01T00:00:00Z,0.5550037,Brandts cormorant encounter rate (Ce/So CC) Central
+1997-01-01T00:00:00Z,0.015,Cassins auklet encounter rate (Ce/So CC) North
+1998-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) North
+1999-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) North
+2000-01-01T00:00:00Z,0.008,Cassins auklet encounter rate (Ce/So CC) North
+2001-01-01T00:00:00Z,0.016,Cassins auklet encounter rate (Ce/So CC) North
+2002-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) North
+2003-01-01T00:00:00Z,0.012,Cassins auklet encounter rate (Ce/So CC) North
+2004-01-01T00:00:00Z,0.505,Cassins auklet encounter rate (Ce/So CC) North
+2005-01-01T00:00:00Z,0.038,Cassins auklet encounter rate (Ce/So CC) North
+2006-01-01T00:00:00Z,0.014,Cassins auklet encounter rate (Ce/So CC) North
+2007-01-01T00:00:00Z,0.006,Cassins auklet encounter rate (Ce/So CC) North
+2008-01-01T00:00:00Z,0.024,Cassins auklet encounter rate (Ce/So CC) North
+2009-01-01T00:00:00Z,0.038,Cassins auklet encounter rate (Ce/So CC) North
+2010-01-01T00:00:00Z,0.014,Cassins auklet encounter rate (Ce/So CC) North
+2011-01-01T00:00:00Z,0.03,Cassins auklet encounter rate (Ce/So CC) North
+2012-01-01T00:00:00Z,0.025,Cassins auklet encounter rate (Ce/So CC) North
+2013-01-01T00:00:00Z,0.006,Cassins auklet encounter rate (Ce/So CC) North
+2014-01-01T00:00:00Z,4.021,Cassins auklet encounter rate (Ce/So CC) North
+2015-01-01T00:00:00Z,0.082,Cassins auklet encounter rate (Ce/So CC) North
+2016-01-01T00:00:00Z,0,Cassins auklet encounter rate (Ce/So CC) North
+2017-01-01T00:00:00Z,0.013,Cassins auklet encounter rate (Ce/So CC) North
+2018-01-01T00:00:00Z,0.304,Cassins auklet encounter rate (Ce/So CC) North
+1997-01-01T00:00:00Z,1.454,Common murre encounter rate(Ce/So CC) North
+1998-01-01T00:00:00Z,9.095,Common murre encounter rate(Ce/So CC) North
+1999-01-01T00:00:00Z,1.612,Common murre encounter rate(Ce/So CC) North
+2000-01-01T00:00:00Z,3.002,Common murre encounter rate(Ce/So CC) North
+2001-01-01T00:00:00Z,1.705,Common murre encounter rate(Ce/So CC) North
+2002-01-01T00:00:00Z,2.856,Common murre encounter rate(Ce/So CC) North
+2003-01-01T00:00:00Z,3.045,Common murre encounter rate(Ce/So CC) North
+2004-01-01T00:00:00Z,2.439,Common murre encounter rate(Ce/So CC) North
+2005-01-01T00:00:00Z,2.945,Common murre encounter rate(Ce/So CC) North
+2006-01-01T00:00:00Z,7.257,Common murre encounter rate(Ce/So CC) North
+2007-01-01T00:00:00Z,10.42,Common murre encounter rate(Ce/So CC) North
+2008-01-01T00:00:00Z,11.211,Common murre encounter rate(Ce/So CC) North
+2009-01-01T00:00:00Z,3.995,Common murre encounter rate(Ce/So CC) North
+2010-01-01T00:00:00Z,0.981,Common murre encounter rate(Ce/So CC) North
+2011-01-01T00:00:00Z,4.644,Common murre encounter rate(Ce/So CC) North
+2012-01-01T00:00:00Z,3.048,Common murre encounter rate(Ce/So CC) North
+2013-01-01T00:00:00Z,1.271,Common murre encounter rate(Ce/So CC) North
+2014-01-01T00:00:00Z,3.143,Common murre encounter rate(Ce/So CC) North
+2015-01-01T00:00:00Z,31.652,Common murre encounter rate(Ce/So CC) North
+2016-01-01T00:00:00Z,1.445,Common murre encounter rate(Ce/So CC) North
+2017-01-01T00:00:00Z,3.964,Common murre encounter rate(Ce/So CC) North
+2018-01-01T00:00:00Z,4.158,Common murre encounter rate(Ce/So CC) North
+2019-01-01T00:00:00Z,5.403,Common murre encounter rate(Ce/So CC) North
+1997-01-01T00:00:00Z,1.829,Sooty shearwater encounter rate (Ce/So CC) North
+1998-01-01T00:00:00Z,6.362,Sooty shearwater encounter rate (Ce/So CC) North
+1999-01-01T00:00:00Z,0.904,Sooty shearwater encounter rate (Ce/So CC) North
+2000-01-01T00:00:00Z,3.186,Sooty shearwater encounter rate (Ce/So CC) North
+2001-01-01T00:00:00Z,1.283,Sooty shearwater encounter rate (Ce/So CC) North
+2002-01-01T00:00:00Z,0.963,Sooty shearwater encounter rate (Ce/So CC) North
+2003-01-01T00:00:00Z,0.515,Sooty shearwater encounter rate (Ce/So CC) North
+2004-01-01T00:00:00Z,0.619,Sooty shearwater encounter rate (Ce/So CC) North
+2005-01-01T00:00:00Z,0.691,Sooty shearwater encounter rate (Ce/So CC) North
+2006-01-01T00:00:00Z,0.87,Sooty shearwater encounter rate (Ce/So CC) North
+2007-01-01T00:00:00Z,0.652,Sooty shearwater encounter rate (Ce/So CC) North
+2008-01-01T00:00:00Z,0.553,Sooty shearwater encounter rate (Ce/So CC) North
+2009-01-01T00:00:00Z,1.528,Sooty shearwater encounter rate (Ce/So CC) North
+2010-01-01T00:00:00Z,0.569,Sooty shearwater encounter rate (Ce/So CC) North
+2011-01-01T00:00:00Z,3.478,Sooty shearwater encounter rate (Ce/So CC) North
+2012-01-01T00:00:00Z,1.899,Sooty shearwater encounter rate (Ce/So CC) North
+2013-01-01T00:00:00Z,1.501,Sooty shearwater encounter rate (Ce/So CC) North
+2014-01-01T00:00:00Z,1.4768916,Sooty shearwater encounter rate (Ce/So CC) North
+2015-01-01T00:00:00Z,1.6289796,Sooty shearwater encounter rate (Ce/So CC) North
+2016-01-01T00:00:00Z,0.22524565,Sooty shearwater encounter rate (Ce/So CC) North
+2017-01-01T00:00:00Z,1.3009067,Sooty shearwater encounter rate (Ce/So CC) North
+2018-01-01T00:00:00Z,0.9520235,Sooty shearwater encounter rate (Ce/So CC) North
+2019-01-01T00:00:00Z,0.7604612,Sooty shearwater encounter rate (Ce/So CC) North
+1997-01-01T00:00:00Z,1.237,Northern fulmar encounter rate (Ce/So CC) North
+1998-01-01T00:00:00Z,0.332,Northern fulmar encounter rate (Ce/So CC) North
+1999-01-01T00:00:00Z,0.501,Northern fulmar encounter rate (Ce/So CC) North
+2000-01-01T00:00:00Z,1.574,Northern fulmar encounter rate (Ce/So CC) North
+2001-01-01T00:00:00Z,0.3,Northern fulmar encounter rate (Ce/So CC) North
+2002-01-01T00:00:00Z,0.609,Northern fulmar encounter rate (Ce/So CC) North
+2003-01-01T00:00:00Z,11.695,Northern fulmar encounter rate (Ce/So CC) North
+2004-01-01T00:00:00Z,0.98,Northern fulmar encounter rate (Ce/So CC) North
+2005-01-01T00:00:00Z,1.633,Northern fulmar encounter rate (Ce/So CC) North
+2006-01-01T00:00:00Z,0.343,Northern fulmar encounter rate (Ce/So CC) North
+2007-01-01T00:00:00Z,3.785,Northern fulmar encounter rate (Ce/So CC) North
+2008-01-01T00:00:00Z,0.285,Northern fulmar encounter rate (Ce/So CC) North
+2009-01-01T00:00:00Z,2.772,Northern fulmar encounter rate (Ce/So CC) North
+2010-01-01T00:00:00Z,12.892,Northern fulmar encounter rate (Ce/So CC) North
+2011-01-01T00:00:00Z,1.163,Northern fulmar encounter rate (Ce/So CC) North
+2012-01-01T00:00:00Z,2.102,Northern fulmar encounter rate (Ce/So CC) North
+2013-01-01T00:00:00Z,7.175,Northern fulmar encounter rate (Ce/So CC) North
+2014-01-01T00:00:00Z,0.745,Northern fulmar encounter rate (Ce/So CC) North
+2015-01-01T00:00:00Z,2.006,Northern fulmar encounter rate (Ce/So CC) North
+2016-01-01T00:00:00Z,0.332,Northern fulmar encounter rate (Ce/So CC) North
+2017-01-01T00:00:00Z,0.187,Northern fulmar encounter rate (Ce/So CC) North
+2018-01-01T00:00:00Z,1.732,Northern fulmar encounter rate (Ce/So CC) North
+1997-01-01T00:00:00Z,0.81,Brandts cormorant encounter rate (Ce/So CC) North
+1998-01-01T00:00:00Z,0.825,Brandts cormorant encounter rate (Ce/So CC) North
+1999-01-01T00:00:00Z,0.249,Brandts cormorant encounter rate (Ce/So CC) North
+2000-01-01T00:00:00Z,0.806,Brandts cormorant encounter rate (Ce/So CC) North
+2001-01-01T00:00:00Z,1.125,Brandts cormorant encounter rate (Ce/So CC) North
+2002-01-01T00:00:00Z,1.317,Brandts cormorant encounter rate (Ce/So CC) North
+2003-01-01T00:00:00Z,0.793,Brandts cormorant encounter rate (Ce/So CC) North
+2004-01-01T00:00:00Z,1.248,Brandts cormorant encounter rate (Ce/So CC) North
+2005-01-01T00:00:00Z,5.346,Brandts cormorant encounter rate (Ce/So CC) North
+2006-01-01T00:00:00Z,1.651,Brandts cormorant encounter rate (Ce/So CC) North
+2007-01-01T00:00:00Z,7.482,Brandts cormorant encounter rate (Ce/So CC) North
+2008-01-01T00:00:00Z,2.823,Brandts cormorant encounter rate (Ce/So CC) North
+2009-01-01T00:00:00Z,11.297,Brandts cormorant encounter rate (Ce/So CC) North
+2010-01-01T00:00:00Z,1.273,Brandts cormorant encounter rate (Ce/So CC) North
+2011-01-01T00:00:00Z,4.558,Brandts cormorant encounter rate (Ce/So CC) North
+2012-01-01T00:00:00Z,1.631,Brandts cormorant encounter rate (Ce/So CC) North
+2013-01-01T00:00:00Z,0.561,Brandts cormorant encounter rate (Ce/So CC) North
+2014-01-01T00:00:00Z,3.462,Brandts cormorant encounter rate (Ce/So CC) North
+2015-01-01T00:00:00Z,5.252,Brandts cormorant encounter rate (Ce/So CC) North
+2016-01-01T00:00:00Z,3.487,Brandts cormorant encounter rate (Ce/So CC) North
+2017-01-01T00:00:00Z,1.236,Brandts cormorant encounter rate (Ce/So CC) North
+2018-01-01T00:00:00Z,1.359,Brandts cormorant encounter rate (Ce/So CC) North
+2019-01-01T00:00:00Z,2.302,Brandts cormorant encounter rate (Ce/So CC) North
+2001-01-01T00:00:00Z,0.009,Cassins auklet (No CC Oct - Feb)
+2002-01-01T00:00:00Z,0.055,Cassins auklet (No CC Oct - Feb)
+2003-01-01T00:00:00Z,0.087,Cassins auklet (No CC Oct - Feb)
+2004-01-01T00:00:00Z,0.06,Cassins auklet (No CC Oct - Feb)
+2005-01-01T00:00:00Z,0.318,Cassins auklet (No CC Oct - Feb)
+2006-01-01T00:00:00Z,0.134,Cassins auklet (No CC Oct - Feb)
+2007-01-01T00:00:00Z,0.007,Cassins auklet (No CC Oct - Feb)
+2008-01-01T00:00:00Z,0.017,Cassins auklet (No CC Oct - Feb)
+2009-01-01T00:00:00Z,0.003,Cassins auklet (No CC Oct - Feb)
+2010-01-01T00:00:00Z,0.035,Cassins auklet (No CC Oct - Feb)
+2011-01-01T00:00:00Z,0.04,Cassins auklet (No CC Oct - Feb)
+2012-01-01T00:00:00Z,0.054,Cassins auklet (No CC Oct - Feb)
+2013-01-01T00:00:00Z,0.026,Cassins auklet (No CC Oct - Feb)
+2014-01-01T00:00:00Z,6.243,Cassins auklet (No CC Oct - Feb)
+2015-01-01T00:00:00Z,0.303,Cassins auklet (No CC Oct - Feb)
+2016-01-01T00:00:00Z,0.027,Cassins auklet (No CC Oct - Feb)
+2017-01-01T00:00:00Z,0.112,Cassins auklet (No CC Oct - Feb)
+2018-01-01T00:00:00Z,0.157,Cassins auklet (No CC Oct - Feb)
+2019-01-01T00:00:00Z,0.138,Cassins auklet (No CC Oct - Feb)
+2020-01-01T00:00:00Z,0.039,Cassins auklet (No CC Oct - Feb)
+2001-01-01T00:00:00Z,0.327,Common murre (No CC Jun - Dec)
+2002-01-01T00:00:00Z,0.663,Common murre (No CC Jun - Dec)
+2003-01-01T00:00:00Z,1.03,Common murre (No CC Jun - Dec)
+2004-01-01T00:00:00Z,1.745,Common murre (No CC Jun - Dec)
+2005-01-01T00:00:00Z,1.114,Common murre (No CC Jun - Dec)
+2006-01-01T00:00:00Z,0.574,Common murre (No CC Jun - Dec)
+2007-01-01T00:00:00Z,1.473,Common murre (No CC Jun - Dec)
+2008-01-01T00:00:00Z,0.829,Common murre (No CC Jun - Dec)
+2009-01-01T00:00:00Z,1.587,Common murre (No CC Jun - Dec)
+2010-01-01T00:00:00Z,0.468,Common murre (No CC Jun - Dec)
+2011-01-01T00:00:00Z,1.317,Common murre (No CC Jun - Dec)
+2012-01-01T00:00:00Z,1.749,Common murre (No CC Jun - Dec)
+2013-01-01T00:00:00Z,1.211,Common murre (No CC Jun - Dec)
+2014-01-01T00:00:00Z,1.114,Common murre (No CC Jun - Dec)
+2015-01-01T00:00:00Z,2.778,Common murre (No CC Jun - Dec)
+2016-01-01T00:00:00Z,0.692,Common murre (No CC Jun - Dec)
+2017-01-01T00:00:00Z,1.182,Common murre (No CC Jun - Dec)
+2018-01-01T00:00:00Z,0.755,Common murre (No CC Jun - Dec)
+2019-01-01T00:00:00Z,0.906,Common murre (No CC Jun - Dec)
+2019-01-01T00:00:00Z,0.791,Common murre (No CC Jun - Dec)
+2001-01-01T00:00:00Z,0.16,Sooty shearwater (No CC May - Oct)
+2002-01-01T00:00:00Z,0.088,Sooty shearwater (No CC May - Oct)
+2003-01-01T00:00:00Z,0.05,Sooty shearwater (No CC May - Oct)
+2004-01-01T00:00:00Z,0.071,Sooty shearwater (No CC May - Oct)
+2005-01-01T00:00:00Z,0.06,Sooty shearwater (No CC May - Oct)
+2006-01-01T00:00:00Z,0.063,Sooty shearwater (No CC May - Oct)
+2007-01-01T00:00:00Z,0.039,Sooty shearwater (No CC May - Oct)
+2008-01-01T00:00:00Z,0.03,Sooty shearwater (No CC May - Oct)
+2009-01-01T00:00:00Z,0.084,Sooty shearwater (No CC May - Oct)
+2010-01-01T00:00:00Z,0.054,Sooty shearwater (No CC May - Oct)
+2011-01-01T00:00:00Z,0.311,Sooty shearwater (No CC May - Oct)
+2012-01-01T00:00:00Z,0.337,Sooty shearwater (No CC May - Oct)
+2013-01-01T00:00:00Z,0.199,Sooty shearwater (No CC May - Oct)
+2014-01-01T00:00:00Z,0.059,Sooty shearwater (No CC May - Oct)
+2015-01-01T00:00:00Z,0.094,Sooty shearwater (No CC May - Oct)
+2016-01-01T00:00:00Z,0.035,Sooty shearwater (No CC May - Oct)
+2017-01-01T00:00:00Z,0.049,Sooty shearwater (No CC May - Oct)
+2018-01-01T00:00:00Z,0.026,Sooty shearwater (No CC May - Oct)
+2019-01-01T00:00:00Z,0.038,Sooty shearwater (No CC May - Oct)
+2020-01-01T00:00:00Z,0.049,Sooty shearwater (No CC May - Oct)
+2001-01-01T00:00:00Z,0.119,Northern fulmar (No CC Oct - Feb)
+2002-01-01T00:00:00Z,1.056,Northern fulmar (No CC Oct - Feb)
+2003-01-01T00:00:00Z,5.542,Northern fulmar (No CC Oct - Feb)
+2004-01-01T00:00:00Z,0.345,Northern fulmar (No CC Oct - Feb)
+2005-01-01T00:00:00Z,0.651,Northern fulmar (No CC Oct - Feb)
+2006-01-01T00:00:00Z,0.179,Northern fulmar (No CC Oct - Feb)
+2007-01-01T00:00:00Z,1.267,Northern fulmar (No CC Oct - Feb)
+2008-01-01T00:00:00Z,0.123,Northern fulmar (No CC Oct - Feb)
+2009-01-01T00:00:00Z,1.405,Northern fulmar (No CC Oct - Feb)
+2010-01-01T00:00:00Z,1.794,Northern fulmar (No CC Oct - Feb)
+2011-01-01T00:00:00Z,0.198,Northern fulmar (No CC Oct - Feb)
+2012-01-01T00:00:00Z,0.462,Northern fulmar (No CC Oct - Feb)
+2013-01-01T00:00:00Z,0.371,Northern fulmar (No CC Oct - Feb)
+2014-01-01T00:00:00Z,0.729,Northern fulmar (No CC Oct - Feb)
+2015-01-01T00:00:00Z,0.229,Northern fulmar (No CC Oct - Feb)
+2016-01-01T00:00:00Z,0.602,Northern fulmar (No CC Oct - Feb)
+2017-01-01T00:00:00Z,0.226,Northern fulmar (No CC Oct - Feb)
+2018-01-01T00:00:00Z,0.013,Northern fulmar (No CC Oct - Feb)
+2019-01-01T00:00:00Z,0.313,Northern fulmar (No CC Oct - Feb)
+2020-01-01T00:00:00Z,0.105,Northern fulmar (No CC Oct - Feb)

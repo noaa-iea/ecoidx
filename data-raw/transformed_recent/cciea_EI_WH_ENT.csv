@@ -1,0 +1,421 @@
+time,variable,value_character,value_type,value_numeric
+2000-01-01T00:00:00Z,species,Blue Whale,character,NA
+2001-01-01T00:00:00Z,species,Blue Whale,character,NA
+2002-01-01T00:00:00Z,species,Blue Whale,character,NA
+2003-01-01T00:00:00Z,species,Blue Whale,character,NA
+2004-01-01T00:00:00Z,species,Blue Whale,character,NA
+2005-01-01T00:00:00Z,species,Blue Whale,character,NA
+2006-01-01T00:00:00Z,species,Blue Whale,character,NA
+2007-01-01T00:00:00Z,species,Blue Whale,character,NA
+2008-01-01T00:00:00Z,species,Blue Whale,character,NA
+2009-01-01T00:00:00Z,species,Blue Whale,character,NA
+2010-01-01T00:00:00Z,species,Blue Whale,character,NA
+2011-01-01T00:00:00Z,species,Blue Whale,character,NA
+2012-01-01T00:00:00Z,species,Blue Whale,character,NA
+2013-01-01T00:00:00Z,species,Blue Whale,character,NA
+2014-01-01T00:00:00Z,species,Blue Whale,character,NA
+2015-01-01T00:00:00Z,species,Blue Whale,character,NA
+2016-01-01T00:00:00Z,species,Blue Whale,character,NA
+2017-01-01T00:00:00Z,species,Blue Whale,character,NA
+2018-01-01T00:00:00Z,species,Blue Whale,character,NA
+2019-01-01T00:00:00Z,species,Blue Whale,character,NA
+2020-01-01T00:00:00Z,species,Blue Whale,character,NA
+2000-01-01T00:00:00Z,species,Gray Whale,character,NA
+2001-01-01T00:00:00Z,species,Gray Whale,character,NA
+2002-01-01T00:00:00Z,species,Gray Whale,character,NA
+2003-01-01T00:00:00Z,species,Gray Whale,character,NA
+2004-01-01T00:00:00Z,species,Gray Whale,character,NA
+2005-01-01T00:00:00Z,species,Gray Whale,character,NA
+2006-01-01T00:00:00Z,species,Gray Whale,character,NA
+2007-01-01T00:00:00Z,species,Gray Whale,character,NA
+2008-01-01T00:00:00Z,species,Gray Whale,character,NA
+2009-01-01T00:00:00Z,species,Gray Whale,character,NA
+2010-01-01T00:00:00Z,species,Gray Whale,character,NA
+2011-01-01T00:00:00Z,species,Gray Whale,character,NA
+2012-01-01T00:00:00Z,species,Gray Whale,character,NA
+2013-01-01T00:00:00Z,species,Gray Whale,character,NA
+2014-01-01T00:00:00Z,species,Gray Whale,character,NA
+2015-01-01T00:00:00Z,species,Gray Whale,character,NA
+2016-01-01T00:00:00Z,species,Gray Whale,character,NA
+2017-01-01T00:00:00Z,species,Gray Whale,character,NA
+2018-01-01T00:00:00Z,species,Gray Whale,character,NA
+2019-01-01T00:00:00Z,species,Gray Whale,character,NA
+2020-01-01T00:00:00Z,species,Gray Whale,character,NA
+2000-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2001-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2002-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2003-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2004-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2005-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2006-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2007-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2008-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2009-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2010-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2011-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2012-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2013-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2014-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2015-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2016-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2017-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2018-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2019-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2020-01-01T00:00:00Z,species,Humpback Whale,character,NA
+2000-01-01T00:00:00Z,species,Fin Whale,character,NA
+2001-01-01T00:00:00Z,species,Fin Whale,character,NA
+2002-01-01T00:00:00Z,species,Fin Whale,character,NA
+2003-01-01T00:00:00Z,species,Fin Whale,character,NA
+2004-01-01T00:00:00Z,species,Fin Whale,character,NA
+2005-01-01T00:00:00Z,species,Fin Whale,character,NA
+2006-01-01T00:00:00Z,species,Fin Whale,character,NA
+2007-01-01T00:00:00Z,species,Fin Whale,character,NA
+2008-01-01T00:00:00Z,species,Fin Whale,character,NA
+2009-01-01T00:00:00Z,species,Fin Whale,character,NA
+2010-01-01T00:00:00Z,species,Fin Whale,character,NA
+2011-01-01T00:00:00Z,species,Fin Whale,character,NA
+2012-01-01T00:00:00Z,species,Fin Whale,character,NA
+2013-01-01T00:00:00Z,species,Fin Whale,character,NA
+2014-01-01T00:00:00Z,species,Fin Whale,character,NA
+2015-01-01T00:00:00Z,species,Fin Whale,character,NA
+2016-01-01T00:00:00Z,species,Fin Whale,character,NA
+2017-01-01T00:00:00Z,species,Fin Whale,character,NA
+2018-01-01T00:00:00Z,species,Fin Whale,character,NA
+2019-01-01T00:00:00Z,species,Fin Whale,character,NA
+2020-01-01T00:00:00Z,species,Fin Whale,character,NA
+2000-01-01T00:00:00Z,species,Killer Whale,character,NA
+2001-01-01T00:00:00Z,species,Killer Whale,character,NA
+2002-01-01T00:00:00Z,species,Killer Whale,character,NA
+2003-01-01T00:00:00Z,species,Killer Whale,character,NA
+2004-01-01T00:00:00Z,species,Killer Whale,character,NA
+2005-01-01T00:00:00Z,species,Killer Whale,character,NA
+2006-01-01T00:00:00Z,species,Killer Whale,character,NA
+2007-01-01T00:00:00Z,species,Killer Whale,character,NA
+2008-01-01T00:00:00Z,species,Killer Whale,character,NA
+2009-01-01T00:00:00Z,species,Killer Whale,character,NA
+2010-01-01T00:00:00Z,species,Killer Whale,character,NA
+2011-01-01T00:00:00Z,species,Killer Whale,character,NA
+2012-01-01T00:00:00Z,species,Killer Whale,character,NA
+2013-01-01T00:00:00Z,species,Killer Whale,character,NA
+2014-01-01T00:00:00Z,species,Killer Whale,character,NA
+2015-01-01T00:00:00Z,species,Killer Whale,character,NA
+2016-01-01T00:00:00Z,species,Killer Whale,character,NA
+2017-01-01T00:00:00Z,species,Killer Whale,character,NA
+2018-01-01T00:00:00Z,species,Killer Whale,character,NA
+2019-01-01T00:00:00Z,species,Killer Whale,character,NA
+2020-01-01T00:00:00Z,species,Killer Whale,character,NA
+2000-01-01T00:00:00Z,species,Minke Whale,character,NA
+2001-01-01T00:00:00Z,species,Minke Whale,character,NA
+2002-01-01T00:00:00Z,species,Minke Whale,character,NA
+2003-01-01T00:00:00Z,species,Minke Whale,character,NA
+2004-01-01T00:00:00Z,species,Minke Whale,character,NA
+2005-01-01T00:00:00Z,species,Minke Whale,character,NA
+2006-01-01T00:00:00Z,species,Minke Whale,character,NA
+2007-01-01T00:00:00Z,species,Minke Whale,character,NA
+2008-01-01T00:00:00Z,species,Minke Whale,character,NA
+2009-01-01T00:00:00Z,species,Minke Whale,character,NA
+2010-01-01T00:00:00Z,species,Minke Whale,character,NA
+2011-01-01T00:00:00Z,species,Minke Whale,character,NA
+2012-01-01T00:00:00Z,species,Minke Whale,character,NA
+2013-01-01T00:00:00Z,species,Minke Whale,character,NA
+2014-01-01T00:00:00Z,species,Minke Whale,character,NA
+2015-01-01T00:00:00Z,species,Minke Whale,character,NA
+2016-01-01T00:00:00Z,species,Minke Whale,character,NA
+2017-01-01T00:00:00Z,species,Minke Whale,character,NA
+2018-01-01T00:00:00Z,species,Minke Whale,character,NA
+2019-01-01T00:00:00Z,species,Minke Whale,character,NA
+2020-01-01T00:00:00Z,species,Minke Whale,character,NA
+2000-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2001-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2002-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2003-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2004-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2005-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2006-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2007-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2008-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2009-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2010-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2011-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2012-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2013-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2014-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2015-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2016-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2017-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2018-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2019-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2020-01-01T00:00:00Z,species,Sperm Whale,character,NA
+2000-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2001-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2002-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2003-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2004-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2005-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2006-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2007-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2008-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2009-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2010-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2011-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2012-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2013-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2014-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2015-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2016-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2017-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2018-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2019-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2020-01-01T00:00:00Z,species,Unidentified Whale,character,NA
+2000-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2001-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2002-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2003-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2004-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2005-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2006-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2007-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2008-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2009-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2010-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2011-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2012-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2013-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2014-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2015-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2016-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2017-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2018-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2019-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2020-01-01T00:00:00Z,species,Unidentified Other,character,NA
+2000-01-01T00:00:00Z,species,Grand Total,character,NA
+2001-01-01T00:00:00Z,species,Grand Total,character,NA
+2002-01-01T00:00:00Z,species,Grand Total,character,NA
+2003-01-01T00:00:00Z,species,Grand Total,character,NA
+2004-01-01T00:00:00Z,species,Grand Total,character,NA
+2005-01-01T00:00:00Z,species,Grand Total,character,NA
+2006-01-01T00:00:00Z,species,Grand Total,character,NA
+2007-01-01T00:00:00Z,species,Grand Total,character,NA
+2008-01-01T00:00:00Z,species,Grand Total,character,NA
+2009-01-01T00:00:00Z,species,Grand Total,character,NA
+2010-01-01T00:00:00Z,species,Grand Total,character,NA
+2011-01-01T00:00:00Z,species,Grand Total,character,NA
+2012-01-01T00:00:00Z,species,Grand Total,character,NA
+2013-01-01T00:00:00Z,species,Grand Total,character,NA
+2014-01-01T00:00:00Z,species,Grand Total,character,NA
+2015-01-01T00:00:00Z,species,Grand Total,character,NA
+2016-01-01T00:00:00Z,species,Grand Total,character,NA
+2017-01-01T00:00:00Z,species,Grand Total,character,NA
+2018-01-01T00:00:00Z,species,Grand Total,character,NA
+2019-01-01T00:00:00Z,species,Grand Total,character,NA
+2020-01-01T00:00:00Z,species,Grand Total,character,NA
+2000-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2001-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2002-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2003-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2004-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2005-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2006-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2007-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2008-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2009-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2010-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2011-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2012-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2013-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2014-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2015-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2016-01-01T00:00:00Z,number_of_entanglements,NA,numeric,3
+2017-01-01T00:00:00Z,number_of_entanglements,NA,numeric,3
+2018-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2019-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2020-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2000-01-01T00:00:00Z,number_of_entanglements,NA,numeric,6
+2001-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2002-01-01T00:00:00Z,number_of_entanglements,NA,numeric,3
+2003-01-01T00:00:00Z,number_of_entanglements,NA,numeric,5
+2004-01-01T00:00:00Z,number_of_entanglements,NA,numeric,7
+2005-01-01T00:00:00Z,number_of_entanglements,NA,numeric,6
+2006-01-01T00:00:00Z,number_of_entanglements,NA,numeric,3
+2007-01-01T00:00:00Z,number_of_entanglements,NA,numeric,5
+2008-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2009-01-01T00:00:00Z,number_of_entanglements,NA,numeric,4
+2010-01-01T00:00:00Z,number_of_entanglements,NA,numeric,6
+2011-01-01T00:00:00Z,number_of_entanglements,NA,numeric,2
+2012-01-01T00:00:00Z,number_of_entanglements,NA,numeric,11
+2013-01-01T00:00:00Z,number_of_entanglements,NA,numeric,10
+2014-01-01T00:00:00Z,number_of_entanglements,NA,numeric,6
+2015-01-01T00:00:00Z,number_of_entanglements,NA,numeric,10
+2016-01-01T00:00:00Z,number_of_entanglements,NA,numeric,3
+2017-01-01T00:00:00Z,number_of_entanglements,NA,numeric,12
+2018-01-01T00:00:00Z,number_of_entanglements,NA,numeric,11
+2019-01-01T00:00:00Z,number_of_entanglements,NA,numeric,8
+2020-01-01T00:00:00Z,number_of_entanglements,NA,numeric,6
+2000-01-01T00:00:00Z,number_of_entanglements,NA,numeric,3
+2001-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2002-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2003-01-01T00:00:00Z,number_of_entanglements,NA,numeric,5
+2004-01-01T00:00:00Z,number_of_entanglements,NA,numeric,3
+2005-01-01T00:00:00Z,number_of_entanglements,NA,numeric,3
+2006-01-01T00:00:00Z,number_of_entanglements,NA,numeric,5
+2007-01-01T00:00:00Z,number_of_entanglements,NA,numeric,4
+2008-01-01T00:00:00Z,number_of_entanglements,NA,numeric,4
+2009-01-01T00:00:00Z,number_of_entanglements,NA,numeric,2
+2010-01-01T00:00:00Z,number_of_entanglements,NA,numeric,7
+2011-01-01T00:00:00Z,number_of_entanglements,NA,numeric,5
+2012-01-01T00:00:00Z,number_of_entanglements,NA,numeric,3
+2013-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2014-01-01T00:00:00Z,number_of_entanglements,NA,numeric,16
+2015-01-01T00:00:00Z,number_of_entanglements,NA,numeric,31
+2016-01-01T00:00:00Z,number_of_entanglements,NA,numeric,48
+2017-01-01T00:00:00Z,number_of_entanglements,NA,numeric,17
+2018-01-01T00:00:00Z,number_of_entanglements,NA,numeric,34
+2019-01-01T00:00:00Z,number_of_entanglements,NA,numeric,17
+2020-01-01T00:00:00Z,number_of_entanglements,NA,numeric,10
+2000-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2001-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2002-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2003-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2004-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2005-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2006-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2007-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2008-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2009-01-01T00:00:00Z,number_of_entanglements,NA,numeric,2
+2010-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2011-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2012-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2013-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2014-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2015-01-01T00:00:00Z,number_of_entanglements,NA,numeric,2
+2016-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2017-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2018-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2019-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2020-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2000-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2001-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2002-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2003-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2004-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2005-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2006-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2007-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2008-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2009-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2010-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2011-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2012-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2013-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2014-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2015-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2016-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2017-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2018-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2019-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2020-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2000-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2001-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2002-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2003-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2004-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2005-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2006-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2007-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2008-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2009-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2010-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2011-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2012-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2013-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2014-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2015-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2016-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2017-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2018-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2019-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2020-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2000-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2001-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2002-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2003-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2004-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2005-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2006-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2007-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2008-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2009-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2010-01-01T00:00:00Z,number_of_entanglements,NA,numeric,2
+2011-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2012-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2013-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2014-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2015-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2016-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2017-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2018-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2019-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2020-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2000-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2001-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2002-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2003-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2004-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2005-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2006-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2007-01-01T00:00:00Z,number_of_entanglements,NA,numeric,2
+2008-01-01T00:00:00Z,number_of_entanglements,NA,numeric,2
+2009-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2010-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2011-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2012-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2013-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2014-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2015-01-01T00:00:00Z,number_of_entanglements,NA,numeric,8
+2016-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2017-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2018-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2019-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2020-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2000-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2001-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2002-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2003-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2004-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2005-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2006-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2007-01-01T00:00:00Z,number_of_entanglements,NA,numeric,2
+2008-01-01T00:00:00Z,number_of_entanglements,NA,numeric,2
+2009-01-01T00:00:00Z,number_of_entanglements,NA,numeric,2
+2010-01-01T00:00:00Z,number_of_entanglements,NA,numeric,3
+2011-01-01T00:00:00Z,number_of_entanglements,NA,numeric,2
+2012-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2013-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2014-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2015-01-01T00:00:00Z,number_of_entanglements,NA,numeric,11
+2016-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2017-01-01T00:00:00Z,number_of_entanglements,NA,numeric,0
+2018-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2019-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2020-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2000-01-01T00:00:00Z,number_of_entanglements,NA,numeric,9
+2001-01-01T00:00:00Z,number_of_entanglements,NA,numeric,1
+2002-01-01T00:00:00Z,number_of_entanglements,NA,numeric,3
+2003-01-01T00:00:00Z,number_of_entanglements,NA,numeric,10
+2004-01-01T00:00:00Z,number_of_entanglements,NA,numeric,10
+2005-01-01T00:00:00Z,number_of_entanglements,NA,numeric,10
+2006-01-01T00:00:00Z,number_of_entanglements,NA,numeric,9
+2007-01-01T00:00:00Z,number_of_entanglements,NA,numeric,11
+2008-01-01T00:00:00Z,number_of_entanglements,NA,numeric,6
+2009-01-01T00:00:00Z,number_of_entanglements,NA,numeric,8
+2010-01-01T00:00:00Z,number_of_entanglements,NA,numeric,16
+2011-01-01T00:00:00Z,number_of_entanglements,NA,numeric,9
+2012-01-01T00:00:00Z,number_of_entanglements,NA,numeric,14
+2013-01-01T00:00:00Z,number_of_entanglements,NA,numeric,11
+2014-01-01T00:00:00Z,number_of_entanglements,NA,numeric,23
+2015-01-01T00:00:00Z,number_of_entanglements,NA,numeric,53
+2016-01-01T00:00:00Z,number_of_entanglements,NA,numeric,55
+2017-01-01T00:00:00Z,number_of_entanglements,NA,numeric,32
+2018-01-01T00:00:00Z,number_of_entanglements,NA,numeric,46
+2019-01-01T00:00:00Z,number_of_entanglements,NA,numeric,26
+2020-01-01T00:00:00Z,number_of_entanglements,NA,numeric,17

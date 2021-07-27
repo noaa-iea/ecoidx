@@ -1,0 +1,101 @@
+time,variable,value_character,value_type,value_numeric
+1990-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+1991-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+1992-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+1993-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+1994-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+1995-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+1996-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+1997-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+1998-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+1999-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2000-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2001-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2002-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2003-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2004-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2005-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2006-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2007-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2008-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2009-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2010-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2011-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2012-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2013-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+2014-01-01T00:00:00Z,use_type,Non-tribal personal catch,character,NA
+1990-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+1991-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+1992-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+1993-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+1994-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+1995-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+1996-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+1997-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+1998-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+1999-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2000-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2001-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2002-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2003-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2004-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2005-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2006-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2007-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2008-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2009-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2010-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2011-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2012-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2013-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+2014-01-01T00:00:00Z,use_type,Tribal personal catch,character,NA
+1990-01-01T00:00:00Z,personal_catch,NA,numeric,23.7385
+1991-01-01T00:00:00Z,personal_catch,NA,numeric,22.825
+1992-01-01T00:00:00Z,personal_catch,NA,numeric,35.8355
+1993-01-01T00:00:00Z,personal_catch,NA,numeric,36.852
+1994-01-01T00:00:00Z,personal_catch,NA,numeric,50.5705
+1995-01-01T00:00:00Z,personal_catch,NA,numeric,47.914
+1996-01-01T00:00:00Z,personal_catch,NA,numeric,45.1755
+1997-01-01T00:00:00Z,personal_catch,NA,numeric,49.4095
+1998-01-01T00:00:00Z,personal_catch,NA,numeric,64.8385
+1999-01-01T00:00:00Z,personal_catch,NA,numeric,39.13
+2000-01-01T00:00:00Z,personal_catch,NA,numeric,345.284
+2001-01-01T00:00:00Z,personal_catch,NA,numeric,353.1575
+2002-01-01T00:00:00Z,personal_catch,NA,numeric,162.561
+2003-01-01T00:00:00Z,personal_catch,NA,numeric,323.516
+2004-01-01T00:00:00Z,personal_catch,NA,numeric,386.8275
+2005-01-01T00:00:00Z,personal_catch,NA,numeric,198.8285
+2006-01-01T00:00:00Z,personal_catch,NA,numeric,138.7935
+2007-01-01T00:00:00Z,personal_catch,NA,numeric,176.918
+2008-01-01T00:00:00Z,personal_catch,NA,numeric,110.0775
+2009-01-01T00:00:00Z,personal_catch,NA,numeric,112.604
+2010-01-01T00:00:00Z,personal_catch,NA,numeric,131.1155
+2011-01-01T00:00:00Z,personal_catch,NA,numeric,153.24261
+2012-01-01T00:00:00Z,personal_catch,NA,numeric,468.6419
+2013-01-01T00:00:00Z,personal_catch,NA,numeric,346.43982
+2014-01-01T00:00:00Z,personal_catch,NA,numeric,246.71782
+1990-01-01T00:00:00Z,personal_catch,NA,numeric,129.3775
+1991-01-01T00:00:00Z,personal_catch,NA,numeric,116.4245
+1992-01-01T00:00:00Z,personal_catch,NA,numeric,129.068
+1993-01-01T00:00:00Z,personal_catch,NA,numeric,59.922
+1994-01-01T00:00:00Z,personal_catch,NA,numeric,382.9435
+1995-01-01T00:00:00Z,personal_catch,NA,numeric,311.992
+1996-01-01T00:00:00Z,personal_catch,NA,numeric,649.792
+1997-01-01T00:00:00Z,personal_catch,NA,numeric,453.316
+1998-01-01T00:00:00Z,personal_catch,NA,numeric,759.3435
+1999-01-01T00:00:00Z,personal_catch,NA,numeric,211.2775
+2000-01-01T00:00:00Z,personal_catch,NA,numeric,510.833
+2001-01-01T00:00:00Z,personal_catch,NA,numeric,3312.107
+2002-01-01T00:00:00Z,personal_catch,NA,numeric,3579.7156
+2003-01-01T00:00:00Z,personal_catch,NA,numeric,3089.197
+2004-01-01T00:00:00Z,personal_catch,NA,numeric,1240.252
+2005-01-01T00:00:00Z,personal_catch,NA,numeric,180.127
+2006-01-01T00:00:00Z,personal_catch,NA,numeric,171.1475
+2007-01-01T00:00:00Z,personal_catch,NA,numeric,147.323
+2008-01-01T00:00:00Z,personal_catch,NA,numeric,170.817
+2009-01-01T00:00:00Z,personal_catch,NA,numeric,194.8915
+2010-01-01T00:00:00Z,personal_catch,NA,numeric,108.4095
+2011-01-01T00:00:00Z,personal_catch,NA,numeric,196.36908
+2012-01-01T00:00:00Z,personal_catch,NA,numeric,165.98993
+2013-01-01T00:00:00Z,personal_catch,NA,numeric,401.6573
+2014-01-01T00:00:00Z,personal_catch,NA,numeric,150.6004

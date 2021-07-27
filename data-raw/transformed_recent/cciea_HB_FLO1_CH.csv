@@ -1,0 +1,2561 @@
+time,variable,value_character,value_type,value_numeric
+1981-01-01T00:00:00Z,location,Washington coast,character,NA
+1982-01-01T00:00:00Z,location,Washington coast,character,NA
+1983-01-01T00:00:00Z,location,Washington coast,character,NA
+1984-01-01T00:00:00Z,location,Washington coast,character,NA
+1985-01-01T00:00:00Z,location,Washington coast,character,NA
+1986-01-01T00:00:00Z,location,Washington coast,character,NA
+1987-01-01T00:00:00Z,location,Washington coast,character,NA
+1988-01-01T00:00:00Z,location,Washington coast,character,NA
+1989-01-01T00:00:00Z,location,Washington coast,character,NA
+1990-01-01T00:00:00Z,location,Washington coast,character,NA
+1991-01-01T00:00:00Z,location,Washington coast,character,NA
+1992-01-01T00:00:00Z,location,Washington coast,character,NA
+1993-01-01T00:00:00Z,location,Washington coast,character,NA
+1994-01-01T00:00:00Z,location,Washington coast,character,NA
+1995-01-01T00:00:00Z,location,Washington coast,character,NA
+1996-01-01T00:00:00Z,location,Washington coast,character,NA
+1997-01-01T00:00:00Z,location,Washington coast,character,NA
+1998-01-01T00:00:00Z,location,Washington coast,character,NA
+1999-01-01T00:00:00Z,location,Washington coast,character,NA
+2000-01-01T00:00:00Z,location,Washington coast,character,NA
+2001-01-01T00:00:00Z,location,Washington coast,character,NA
+2002-01-01T00:00:00Z,location,Washington coast,character,NA
+2003-01-01T00:00:00Z,location,Washington coast,character,NA
+2004-01-01T00:00:00Z,location,Washington coast,character,NA
+2005-01-01T00:00:00Z,location,Washington coast,character,NA
+2006-01-01T00:00:00Z,location,Washington coast,character,NA
+2007-01-01T00:00:00Z,location,Washington coast,character,NA
+2008-01-01T00:00:00Z,location,Washington coast,character,NA
+2009-01-01T00:00:00Z,location,Washington coast,character,NA
+2010-01-01T00:00:00Z,location,Washington coast,character,NA
+2011-01-01T00:00:00Z,location,Washington coast,character,NA
+2012-01-01T00:00:00Z,location,Washington coast,character,NA
+2013-01-01T00:00:00Z,location,Washington coast,character,NA
+2014-01-01T00:00:00Z,location,Washington coast,character,NA
+2015-01-01T00:00:00Z,location,Washington coast,character,NA
+2016-01-01T00:00:00Z,location,Washington coast,character,NA
+2017-01-01T00:00:00Z,location,Washington coast,character,NA
+2018-01-01T00:00:00Z,location,Washington coast,character,NA
+2019-01-01T00:00:00Z,location,Washington coast,character,NA
+2020-01-01T00:00:00Z,location,Washington coast,character,NA
+1981-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1982-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1983-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1984-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1985-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1986-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1987-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1988-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1989-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1990-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1991-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1992-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1993-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1994-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1995-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1996-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1997-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1998-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1999-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2000-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2001-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2002-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2003-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2004-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2005-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2006-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2007-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2008-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2009-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2010-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2011-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2012-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2013-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2014-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2015-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2016-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2017-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2018-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2019-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+2020-01-01T00:00:00Z,location,Upper Willamette River,character,NA
+1981-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1982-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1983-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1984-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1985-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1986-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1987-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1988-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1989-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1990-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1991-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1992-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1993-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1994-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1995-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1996-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1997-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1998-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1999-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2000-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2001-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2002-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2003-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2004-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2005-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2006-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2007-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2008-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2009-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2010-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2011-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2012-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2013-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2014-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2015-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2016-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2017-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2018-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2019-01-01T00:00:00Z,location,Oregon Coast,character,NA
+2020-01-01T00:00:00Z,location,Oregon Coast,character,NA
+1981-01-01T00:00:00Z,location,Puget Sound,character,NA
+1982-01-01T00:00:00Z,location,Puget Sound,character,NA
+1983-01-01T00:00:00Z,location,Puget Sound,character,NA
+1984-01-01T00:00:00Z,location,Puget Sound,character,NA
+1985-01-01T00:00:00Z,location,Puget Sound,character,NA
+1986-01-01T00:00:00Z,location,Puget Sound,character,NA
+1987-01-01T00:00:00Z,location,Puget Sound,character,NA
+1988-01-01T00:00:00Z,location,Puget Sound,character,NA
+1989-01-01T00:00:00Z,location,Puget Sound,character,NA
+1990-01-01T00:00:00Z,location,Puget Sound,character,NA
+1991-01-01T00:00:00Z,location,Puget Sound,character,NA
+1992-01-01T00:00:00Z,location,Puget Sound,character,NA
+1993-01-01T00:00:00Z,location,Puget Sound,character,NA
+1994-01-01T00:00:00Z,location,Puget Sound,character,NA
+1995-01-01T00:00:00Z,location,Puget Sound,character,NA
+1996-01-01T00:00:00Z,location,Puget Sound,character,NA
+1997-01-01T00:00:00Z,location,Puget Sound,character,NA
+1998-01-01T00:00:00Z,location,Puget Sound,character,NA
+1999-01-01T00:00:00Z,location,Puget Sound,character,NA
+2000-01-01T00:00:00Z,location,Puget Sound,character,NA
+2001-01-01T00:00:00Z,location,Puget Sound,character,NA
+2002-01-01T00:00:00Z,location,Puget Sound,character,NA
+2003-01-01T00:00:00Z,location,Puget Sound,character,NA
+2004-01-01T00:00:00Z,location,Puget Sound,character,NA
+2005-01-01T00:00:00Z,location,Puget Sound,character,NA
+2006-01-01T00:00:00Z,location,Puget Sound,character,NA
+2007-01-01T00:00:00Z,location,Puget Sound,character,NA
+2008-01-01T00:00:00Z,location,Puget Sound,character,NA
+2009-01-01T00:00:00Z,location,Puget Sound,character,NA
+2010-01-01T00:00:00Z,location,Puget Sound,character,NA
+2011-01-01T00:00:00Z,location,Puget Sound,character,NA
+2012-01-01T00:00:00Z,location,Puget Sound,character,NA
+2013-01-01T00:00:00Z,location,Puget Sound,character,NA
+2014-01-01T00:00:00Z,location,Puget Sound,character,NA
+2015-01-01T00:00:00Z,location,Puget Sound,character,NA
+2016-01-01T00:00:00Z,location,Puget Sound,character,NA
+2017-01-01T00:00:00Z,location,Puget Sound,character,NA
+2018-01-01T00:00:00Z,location,Puget Sound,character,NA
+2019-01-01T00:00:00Z,location,Puget Sound,character,NA
+2020-01-01T00:00:00Z,location,Puget Sound,character,NA
+1981-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1982-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1983-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1984-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1985-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1986-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1987-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1988-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1989-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1990-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1991-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1992-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1993-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1994-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1995-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1996-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1997-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1998-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1999-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2000-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2001-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2002-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2003-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2004-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2005-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2006-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2007-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2008-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2009-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2010-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2011-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2012-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2013-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2014-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2015-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2016-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2017-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2018-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2019-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+2020-01-01T00:00:00Z,location,Sacramento Winter,character,NA
+1981-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1982-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1983-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1984-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1985-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1986-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1987-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1988-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1989-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1990-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1991-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1992-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1993-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1994-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1995-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1996-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1997-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1998-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1999-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2000-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2001-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2002-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2003-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2004-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2005-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2006-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2007-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2008-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2009-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2010-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2011-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2012-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2013-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2014-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2015-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2016-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2017-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2018-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2019-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+2020-01-01T00:00:00Z,location,Mid-Columbia Spring,character,NA
+1981-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1982-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1983-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1984-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1985-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1986-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1987-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1988-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1989-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1990-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1991-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1992-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1993-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1994-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1995-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1996-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1997-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1998-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1999-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2000-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2001-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2002-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2003-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2004-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2005-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2006-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2007-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2008-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2009-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2010-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2011-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2012-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2013-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2014-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2015-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2016-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2017-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2018-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2019-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+2020-01-01T00:00:00Z,location,Upper Klamath Trinity River,character,NA
+1981-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1982-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1983-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1984-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1985-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1986-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1987-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1988-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1989-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1990-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1991-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1992-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1993-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1994-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1995-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1996-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1997-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1998-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1999-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2000-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2001-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2002-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2003-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2004-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2005-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2006-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2007-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2008-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2009-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2010-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2011-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2012-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2013-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2014-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2015-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2016-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2017-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2018-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2019-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+2020-01-01T00:00:00Z,location,Lower Columbia River,character,NA
+1981-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1982-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1983-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1984-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1985-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1986-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1987-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1988-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1989-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1990-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1991-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1992-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1993-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1994-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1995-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1996-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1997-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1998-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1999-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2000-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2001-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2002-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2003-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2004-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2005-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2006-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2007-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2008-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2009-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2010-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2011-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2012-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2013-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2014-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2015-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2016-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2017-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2018-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2019-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+2020-01-01T00:00:00Z,location,Upper Columbia Spring,character,NA
+1981-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1982-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1983-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1984-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1985-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1986-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1987-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1988-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1989-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1990-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1991-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1992-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1993-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1994-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1995-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1996-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1997-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1998-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1999-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2000-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2001-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2002-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2003-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2004-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2005-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2006-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2007-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2008-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2009-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2010-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2011-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2012-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2013-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2014-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2015-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2016-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2017-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2018-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2019-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+2020-01-01T00:00:00Z,location,Upper Columbia Summer Fall,character,NA
+1981-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1982-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1983-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1984-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1985-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1986-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1987-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1988-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1989-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1990-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1991-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1992-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1993-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1994-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1995-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1996-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1997-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1998-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1999-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2000-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2001-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2002-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2003-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2004-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2005-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2006-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2007-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2008-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2009-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2010-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2011-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2012-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2013-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2014-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2015-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2016-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2017-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2018-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2019-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+2020-01-01T00:00:00Z,location,Central Valley Spring,character,NA
+1981-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1982-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1983-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1984-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1985-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1986-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1987-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1988-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1989-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1990-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1991-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1992-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1993-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1994-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1995-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1996-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1997-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1998-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1999-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2000-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2001-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2002-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2003-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2004-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2005-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2006-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2007-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2008-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2009-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2010-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2011-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2012-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2013-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2014-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2015-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2016-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2017-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2018-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2019-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+2020-01-01T00:00:00Z,location,Snake River Spring Summer,character,NA
+1981-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1982-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1983-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1984-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1985-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1986-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1987-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1988-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1989-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1990-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1991-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1992-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1993-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1994-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1995-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1996-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1997-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1998-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1999-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2000-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2001-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2002-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2003-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2004-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2005-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2006-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2007-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2008-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2009-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2010-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2011-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2012-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2013-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2014-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2015-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2016-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2017-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2018-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2019-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+2020-01-01T00:00:00Z,location,Central Valley Fall late Fall,character,NA
+1981-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1982-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1983-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1984-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1985-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1986-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1987-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1988-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1989-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1990-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1991-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1992-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1993-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1994-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1995-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1996-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1997-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1998-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1999-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2000-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2001-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2002-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2003-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2004-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2005-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2006-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2007-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2008-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2009-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2010-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2011-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2012-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2013-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2014-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2015-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2016-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2017-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2018-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2019-01-01T00:00:00Z,location,Snake River Fall,character,NA
+2020-01-01T00:00:00Z,location,Snake River Fall,character,NA
+1981-01-01T00:00:00Z,location,California Coast,character,NA
+1982-01-01T00:00:00Z,location,California Coast,character,NA
+1983-01-01T00:00:00Z,location,California Coast,character,NA
+1984-01-01T00:00:00Z,location,California Coast,character,NA
+1985-01-01T00:00:00Z,location,California Coast,character,NA
+1986-01-01T00:00:00Z,location,California Coast,character,NA
+1987-01-01T00:00:00Z,location,California Coast,character,NA
+1988-01-01T00:00:00Z,location,California Coast,character,NA
+1989-01-01T00:00:00Z,location,California Coast,character,NA
+1990-01-01T00:00:00Z,location,California Coast,character,NA
+1991-01-01T00:00:00Z,location,California Coast,character,NA
+1992-01-01T00:00:00Z,location,California Coast,character,NA
+1993-01-01T00:00:00Z,location,California Coast,character,NA
+1994-01-01T00:00:00Z,location,California Coast,character,NA
+1995-01-01T00:00:00Z,location,California Coast,character,NA
+1996-01-01T00:00:00Z,location,California Coast,character,NA
+1997-01-01T00:00:00Z,location,California Coast,character,NA
+1998-01-01T00:00:00Z,location,California Coast,character,NA
+1999-01-01T00:00:00Z,location,California Coast,character,NA
+2000-01-01T00:00:00Z,location,California Coast,character,NA
+2001-01-01T00:00:00Z,location,California Coast,character,NA
+2002-01-01T00:00:00Z,location,California Coast,character,NA
+2003-01-01T00:00:00Z,location,California Coast,character,NA
+2004-01-01T00:00:00Z,location,California Coast,character,NA
+2005-01-01T00:00:00Z,location,California Coast,character,NA
+2006-01-01T00:00:00Z,location,California Coast,character,NA
+2007-01-01T00:00:00Z,location,California Coast,character,NA
+2008-01-01T00:00:00Z,location,California Coast,character,NA
+2009-01-01T00:00:00Z,location,California Coast,character,NA
+2010-01-01T00:00:00Z,location,California Coast,character,NA
+2011-01-01T00:00:00Z,location,California Coast,character,NA
+2012-01-01T00:00:00Z,location,California Coast,character,NA
+2013-01-01T00:00:00Z,location,California Coast,character,NA
+2014-01-01T00:00:00Z,location,California Coast,character,NA
+2015-01-01T00:00:00Z,location,California Coast,character,NA
+2016-01-01T00:00:00Z,location,California Coast,character,NA
+2017-01-01T00:00:00Z,location,California Coast,character,NA
+2018-01-01T00:00:00Z,location,California Coast,character,NA
+2019-01-01T00:00:00Z,location,California Coast,character,NA
+2020-01-01T00:00:00Z,location,California Coast,character,NA
+1981-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1982-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1983-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1984-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1985-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1986-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1987-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1988-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1989-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1990-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1991-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1992-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1993-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1994-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1995-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1996-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1997-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1998-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1999-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2000-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2001-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2002-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2003-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2004-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2005-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2006-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2007-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2008-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2009-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2010-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2011-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2012-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2013-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2014-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2015-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2016-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2017-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2018-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2019-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+2020-01-01T00:00:00Z,location,S. Oregon N. California coast,character,NA
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3166862
+1981-01-01T00:00:00Z,Seup,NA,numeric,0.6417948
+1981-01-01T00:00:00Z,Selo,NA,numeric,-0.009461782
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.09504353
+1982-01-01T00:00:00Z,Seup,NA,numeric,0.23030627
+1982-01-01T00:00:00Z,Selo,NA,numeric,-0.42079937
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.14597668
+1983-01-01T00:00:00Z,Seup,NA,numeric,0.17956993
+1983-01-01T00:00:00Z,Selo,NA,numeric,-0.4715539
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.17311677
+1984-01-01T00:00:00Z,Seup,NA,numeric,0.49849534
+1984-01-01T00:00:00Z,Selo,NA,numeric,-0.15269351
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.1172974
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.79171866
+1985-01-01T00:00:00Z,Selo,NA,numeric,-1.4428188
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.04105663
+1986-01-01T00:00:00Z,Seup,NA,numeric,0.28429264
+1986-01-01T00:00:00Z,Selo,NA,numeric,-0.36683065
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5723537
+1987-01-01T00:00:00Z,Seup,NA,numeric,0.8977606
+1987-01-01T00:00:00Z,Selo,NA,numeric,0.24667086
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9851037
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.65949816000000006
+1988-01-01T00:00:00Z,Selo,NA,numeric,-1.310636
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.0305476
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.7047956
+1989-01-01T00:00:00Z,Selo,NA,numeric,-1.3560023
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.90369827
+1990-01-01T00:00:00Z,Seup,NA,numeric,1.2294061
+1990-01-01T00:00:00Z,Selo,NA,numeric,0.57824075
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.4073908
+1991-01-01T00:00:00Z,Seup,NA,numeric,1.7336212
+1991-01-01T00:00:00Z,Selo,NA,numeric,1.0819265
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.33919775
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.013940963
+1992-01-01T00:00:00Z,Selo,NA,numeric,-0.6650798
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.2782856
+1993-01-01T00:00:00Z,Seup,NA,numeric,-0.9527699
+1993-01-01T00:00:00Z,Selo,NA,numeric,-1.6038672
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.32896635
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.003772817
+1994-01-01T00:00:00Z,Selo,NA,numeric,-0.6549889
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6202584
+1995-01-01T00:00:00Z,Seup,NA,numeric,0.94541353
+1995-01-01T00:00:00Z,Selo,NA,numeric,0.29311743
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.6635847
+1996-01-01T00:00:00Z,Seup,NA,numeric,1.9890189
+1996-01-01T00:00:00Z,Selo,NA,numeric,1.3379018
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.4058309
+1997-01-01T00:00:00Z,Seup,NA,numeric,1.730841
+1997-01-01T00:00:00Z,Selo,NA,numeric,1.0793972
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7651202
+1998-01-01T00:00:00Z,Seup,NA,numeric,-0.4396374
+1998-01-01T00:00:00Z,Selo,NA,numeric,-1.0907245
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.45561463
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.78079295
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.12944204
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3106204
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.63593686
+2000-01-01T00:00:00Z,Selo,NA,numeric,-0.015230587
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.8273937
+2001-01-01T00:00:00Z,Seup,NA,numeric,-1.5016427
+2001-01-01T00:00:00Z,Selo,NA,numeric,-2.1528063
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.32245332
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.6477901
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.003308576
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.027039297
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.3529636
+2003-01-01T00:00:00Z,Selo,NA,numeric,-0.2984562
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.07141146
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.39679003
+2004-01-01T00:00:00Z,Selo,NA,numeric,-0.25434843
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.34232718
+2005-01-01T00:00:00Z,Seup,NA,numeric,-0.01660118
+2005-01-01T00:00:00Z,Selo,NA,numeric,-0.6677612
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.028058471
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.3534357
+2006-01-01T00:00:00Z,Selo,NA,numeric,-0.29796863
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5669964
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.89304477
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.2414881
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.3198252
+2008-01-01T00:00:00Z,Seup,NA,numeric,1.64591
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.9931107
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.4289207
+2009-01-01T00:00:00Z,Seup,NA,numeric,1.7565589
+2009-01-01T00:00:00Z,Selo,NA,numeric,1.1030967
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.33219245
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.007128491
+2010-01-01T00:00:00Z,Selo,NA,numeric,-0.65863293
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.05391261
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.37945282
+2011-01-01T00:00:00Z,Selo,NA,numeric,-0.27170327
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7994352
+2012-01-01T00:00:00Z,Seup,NA,numeric,-0.47387066
+2012-01-01T00:00:00Z,Selo,NA,numeric,-1.1249708
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5029303
+2013-01-01T00:00:00Z,Seup,NA,numeric,-0.17727529
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.82840145
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.50609267
+2014-01-01T00:00:00Z,Seup,NA,numeric,-0.18086123
+2014-01-01T00:00:00Z,Selo,NA,numeric,-0.8324111
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.14039461
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.1853182
+2015-01-01T00:00:00Z,Selo,NA,numeric,-0.46596304
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.360781
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.68587070000000006
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.034481503
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.54443586
+2017-01-01T00:00:00Z,Seup,NA,numeric,-0.21903436
+2017-01-01T00:00:00Z,Selo,NA,numeric,-0.8702614
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.047427315
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.2776611
+2018-01-01T00:00:00Z,Selo,NA,numeric,-0.37377313
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.8408503
+2019-01-01T00:00:00Z,Seup,NA,numeric,-0.5153501
+2019-01-01T00:00:00Z,Selo,NA,numeric,-1.1664565
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.02642629
+2020-01-01T00:00:00Z,Seup,NA,numeric,0.3711306
+2020-01-01T00:00:00Z,Selo,NA,numeric,-0.3189715
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.39205644
+1981-01-01T00:00:00Z,Seup,NA,numeric,0.6123693
+1981-01-01T00:00:00Z,Selo,NA,numeric,0.17229384
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.9695297
+1982-01-01T00:00:00Z,Seup,NA,numeric,1.1903081
+1982-01-01T00:00:00Z,Selo,NA,numeric,0.7496436
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.13424136
+1983-01-01T00:00:00Z,Seup,NA,numeric,0.35410833
+1983-01-01T00:00:00Z,Selo,NA,numeric,-0.0854788
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.18192872
+1984-01-01T00:00:00Z,Seup,NA,numeric,0.03771562
+1984-01-01T00:00:00Z,Selo,NA,numeric,-0.4018056
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.21085936
+1985-01-01T00:00:00Z,Seup,NA,numeric,0.009342022
+1985-01-01T00:00:00Z,Selo,NA,numeric,-0.43055907
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.1257848
+1986-01-01T00:00:00Z,Seup,NA,numeric,1.3453841
+1986-01-01T00:00:00Z,Selo,NA,numeric,0.9058936
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3084002
+1987-01-01T00:00:00Z,Seup,NA,numeric,-0.08880735
+1987-01-01T00:00:00Z,Selo,NA,numeric,-0.5283225
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2815578
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.061096422
+1988-01-01T00:00:00Z,Selo,NA,numeric,-0.50131696
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.45699906
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.23707038
+1989-01-01T00:00:00Z,Selo,NA,numeric,-0.67836684
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.21362416
+1990-01-01T00:00:00Z,Seup,NA,numeric,0.0074508
+1990-01-01T00:00:00Z,Selo,NA,numeric,-0.4369558
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.71915275
+1991-01-01T00:00:00Z,Seup,NA,numeric,-0.49935058
+1991-01-01T00:00:00Z,Selo,NA,numeric,-0.93887264
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5928509
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.373295
+1992-01-01T00:00:00Z,Selo,NA,numeric,-0.8128182
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.35076335
+1993-01-01T00:00:00Z,Seup,NA,numeric,-0.13078423
+1993-01-01T00:00:00Z,Selo,NA,numeric,-0.5704556
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.4172678
+1994-01-01T00:00:00Z,Seup,NA,numeric,-1.1973387
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.6369835
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.21576557
+1995-01-01T00:00:00Z,Seup,NA,numeric,0.43676218
+1995-01-01T00:00:00Z,Selo,NA,numeric,-0.004205165
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,2.664284
+1996-01-01T00:00:00Z,Seup,NA,numeric,2.8844829
+1996-01-01T00:00:00Z,Selo,NA,numeric,2.4423172
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.5398295
+1997-01-01T00:00:00Z,Seup,NA,numeric,1.7600585
+1997-01-01T00:00:00Z,Selo,NA,numeric,1.3201251
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5372841
+1998-01-01T00:00:00Z,Seup,NA,numeric,-0.31764063
+1998-01-01T00:00:00Z,Selo,NA,numeric,-0.75711536
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.96732104
+1999-01-01T00:00:00Z,Seup,NA,numeric,1.1872343
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.74762356
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.37474442
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.59477216
+2000-01-01T00:00:00Z,Selo,NA,numeric,0.15311503
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.9020594
+2001-01-01T00:00:00Z,Seup,NA,numeric,-1.6818334
+2001-01-01T00:00:00Z,Selo,NA,numeric,-2.1217933
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.24620527
+2002-01-01T00:00:00Z,Seup,NA,numeric,-0.026581516
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.4660535
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.53341204
+2003-01-01T00:00:00Z,Seup,NA,numeric,-0.31347752
+2003-01-01T00:00:00Z,Selo,NA,numeric,-0.7531143
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.43164864
+2004-01-01T00:00:00Z,Seup,NA,numeric,-0.21202928
+2004-01-01T00:00:00Z,Selo,NA,numeric,-0.65151185
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.0721353
+2005-01-01T00:00:00Z,Seup,NA,numeric,-0.8518226
+2005-01-01T00:00:00Z,Selo,NA,numeric,-1.2926178
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.82499933
+2006-01-01T00:00:00Z,Seup,NA,numeric,1.0460215
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.60457754
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.052127372
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.1676558
+2007-01-01T00:00:00Z,Selo,NA,numeric,-0.2718682
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.34573135
+2008-01-01T00:00:00Z,Seup,NA,numeric,-0.12492776
+2008-01-01T00:00:00Z,Selo,NA,numeric,-0.5656575
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.08729141
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.30781776
+2009-01-01T00:00:00Z,Selo,NA,numeric,-0.13524766
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.32705623
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.107167855
+2010-01-01T00:00:00Z,Selo,NA,numeric,-0.54830587
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.42872372
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.64845896
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.20767576
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.76878864
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.9890248
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.54908067
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.06513249
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.15494983
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.284825
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.13127863
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.35082236
+2014-01-01T00:00:00Z,Selo,NA,numeric,-0.088819526
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.33243746
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.5519662
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.11230537
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.024323685
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.24390945
+2016-01-01T00:00:00Z,Selo,NA,numeric,-0.19558758
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.43323007
+2017-01-01T00:00:00Z,Seup,NA,numeric,-0.21337898
+2017-01-01T00:00:00Z,Selo,NA,numeric,-0.652938
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7805546
+2018-01-01T00:00:00Z,Seup,NA,numeric,-0.5609939
+2018-01-01T00:00:00Z,Selo,NA,numeric,-1.0010542
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.2075295
+2019-01-01T00:00:00Z,Seup,NA,numeric,1.4272132
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.9875136
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7580331
+2020-01-01T00:00:00Z,Seup,NA,numeric,-0.5335708
+2020-01-01T00:00:00Z,Selo,NA,numeric,-0.9821179
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3114124
+1981-01-01T00:00:00Z,Seup,NA,numeric,0.6350539
+1981-01-01T00:00:00Z,Selo,NA,numeric,-0.010680632
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.1519904
+1982-01-01T00:00:00Z,Seup,NA,numeric,1.4745811
+1982-01-01T00:00:00Z,Selo,NA,numeric,0.8295522
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7385498
+1983-01-01T00:00:00Z,Seup,NA,numeric,1.0614095
+1983-01-01T00:00:00Z,Selo,NA,numeric,0.4137345
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.10486694
+1984-01-01T00:00:00Z,Seup,NA,numeric,0.4271462
+1984-01-01T00:00:00Z,Selo,NA,numeric,-0.21798375
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5305245
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.20829011
+1985-01-01T00:00:00Z,Selo,NA,numeric,-0.8532126
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.402874
+1986-01-01T00:00:00Z,Seup,NA,numeric,0.7246506
+1986-01-01T00:00:00Z,Selo,NA,numeric,0.079736724
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2899891
+1987-01-01T00:00:00Z,Seup,NA,numeric,0.031824194
+1987-01-01T00:00:00Z,Selo,NA,numeric,-0.61294955
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2582488
+1988-01-01T00:00:00Z,Seup,NA,numeric,0.06464302
+1988-01-01T00:00:00Z,Selo,NA,numeric,-0.5803751
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4922138
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.17037058
+1989-01-01T00:00:00Z,Selo,NA,numeric,-0.8158427
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.007301831
+1990-01-01T00:00:00Z,Seup,NA,numeric,0.329707
+1990-01-01T00:00:00Z,Selo,NA,numeric,-0.31513295
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4423176
+1991-01-01T00:00:00Z,Seup,NA,numeric,-0.12050658
+1991-01-01T00:00:00Z,Selo,NA,numeric,-0.76531357
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9149948
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.5931897
+1992-01-01T00:00:00Z,Selo,NA,numeric,-1.2379735
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.74012846
+1993-01-01T00:00:00Z,Seup,NA,numeric,-0.41693854
+1993-01-01T00:00:00Z,Selo,NA,numeric,-1.0621185
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.1961497
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.87343067
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.5181983
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.18563747
+1995-01-01T00:00:00Z,Seup,NA,numeric,0.508146
+1995-01-01T00:00:00Z,Selo,NA,numeric,-0.13645975
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.5004084
+1996-01-01T00:00:00Z,Seup,NA,numeric,1.8236098
+1996-01-01T00:00:00Z,Selo,NA,numeric,1.1777931
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.2170485
+1997-01-01T00:00:00Z,Seup,NA,numeric,1.5402486
+1997-01-01T00:00:00Z,Selo,NA,numeric,0.8950679
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6467984
+1998-01-01T00:00:00Z,Seup,NA,numeric,-0.32461205
+1998-01-01T00:00:00Z,Selo,NA,numeric,-0.96909535
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.96420425
+1999-01-01T00:00:00Z,Seup,NA,numeric,1.2875068
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.64172375
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.29128367
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.6131238
+2000-01-01T00:00:00Z,Selo,NA,numeric,-0.032792598
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.7077216
+2001-01-01T00:00:00Z,Seup,NA,numeric,-1.3854586
+2001-01-01T00:00:00Z,Selo,NA,numeric,-2.029957
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.57569265
+2002-01-01T00:00:00Z,Seup,NA,numeric,-0.2537638
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.8983156
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.25530553
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.066887565
+2003-01-01T00:00:00Z,Selo,NA,numeric,-0.5776789
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3574783
+2004-01-01T00:00:00Z,Seup,NA,numeric,-0.03540834
+2004-01-01T00:00:00Z,Selo,NA,numeric,-0.67990357
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.49244165
+2005-01-01T00:00:00Z,Seup,NA,numeric,-0.17034388
+2005-01-01T00:00:00Z,Selo,NA,numeric,-0.8148312
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.9489847
+2006-01-01T00:00:00Z,Seup,NA,numeric,1.2709522
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.6264314
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6362586
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.9582876
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.31377897
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.25595137
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.5779988
+2008-01-01T00:00:00Z,Selo,NA,numeric,-0.06682824
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.38916364
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.71094865
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.065738745
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.86398214
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.54156494
+2010-01-01T00:00:00Z,Selo,NA,numeric,-1.1861244
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2111677
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.5330553
+2011-01-01T00:00:00Z,Selo,NA,numeric,-0.11154405
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.86829895
+2012-01-01T00:00:00Z,Seup,NA,numeric,1.1921809
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.54604024
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.022867732
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.2994889
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.34503713
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.39320862
+2014-01-01T00:00:00Z,Seup,NA,numeric,-0.0713003
+2014-01-01T00:00:00Z,Selo,NA,numeric,-0.71587235
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.67416894
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.9960128
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.35079554
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.50003284
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.82180315
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.17664906
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3037175
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.6256146
+2017-01-01T00:00:00Z,Selo,NA,numeric,-0.019607166
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7859783
+2018-01-01T00:00:00Z,Seup,NA,numeric,-0.4625719
+2018-01-01T00:00:00Z,Selo,NA,numeric,-1.1080954
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2004357
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.5234612
+2019-01-01T00:00:00Z,Selo,NA,numeric,-0.12156401
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.89771664
+2020-01-01T00:00:00Z,Seup,NA,numeric,-0.57579905
+2020-01-01T00:00:00Z,Selo,NA,numeric,-1.2203771
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7355661
+1981-01-01T00:00:00Z,Seup,NA,numeric,0.9897373
+1981-01-01T00:00:00Z,Selo,NA,numeric,0.4827946
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.050809894
+1982-01-01T00:00:00Z,Seup,NA,numeric,0.20169713
+1982-01-01T00:00:00Z,Selo,NA,numeric,-0.30379477
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.02508471
+1983-01-01T00:00:00Z,Seup,NA,numeric,0.28018558
+1983-01-01T00:00:00Z,Selo,NA,numeric,-0.2305959
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5410762
+1984-01-01T00:00:00Z,Seup,NA,numeric,0.796255
+1984-01-01T00:00:00Z,Selo,NA,numeric,0.28526667
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9942177
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.7383721
+1985-01-01T00:00:00Z,Selo,NA,numeric,-1.2495219
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.26946685
+1986-01-01T00:00:00Z,Seup,NA,numeric,0.5246674
+1986-01-01T00:00:00Z,Selo,NA,numeric,0.013876734
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.041538503
+1987-01-01T00:00:00Z,Seup,NA,numeric,0.2139223
+1987-01-01T00:00:00Z,Selo,NA,numeric,-0.29855654
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.8076614
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.55536556
+1988-01-01T00:00:00Z,Selo,NA,numeric,-1.0598395
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.8175004
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.5653134
+1989-01-01T00:00:00Z,Selo,NA,numeric,-1.0697863
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6630122
+1990-01-01T00:00:00Z,Seup,NA,numeric,0.9153169
+1990-01-01T00:00:00Z,Selo,NA,numeric,0.41085562
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.7816595
+1991-01-01T00:00:00Z,Seup,NA,numeric,2.0337803
+1991-01-01T00:00:00Z,Selo,NA,numeric,1.5293937
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4244485
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.17204824
+1992-01-01T00:00:00Z,Selo,NA,numeric,-0.6766774
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.0529027
+1993-01-01T00:00:00Z,Seup,NA,numeric,-0.8008443
+1993-01-01T00:00:00Z,Selo,NA,numeric,-1.3052840000000001
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.86509585
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.6153027
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.1147866
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.039874557
+1995-01-01T00:00:00Z,Seup,NA,numeric,0.20954348
+1995-01-01T00:00:00Z,Selo,NA,numeric,-0.2898049
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.6599809
+1996-01-01T00:00:00Z,Seup,NA,numeric,1.9095249
+1996-01-01T00:00:00Z,Selo,NA,numeric,1.410165
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7320315
+1997-01-01T00:00:00Z,Seup,NA,numeric,0.98158497
+1997-01-01T00:00:00Z,Selo,NA,numeric,0.4822472
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.670791
+1998-01-01T00:00:00Z,Seup,NA,numeric,-0.42110768
+1998-01-01T00:00:00Z,Selo,NA,numeric,-0.92040265
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.07647038
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.32927507
+1999-01-01T00:00:00Z,Selo,NA,numeric,-0.1763374
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.07662707
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.3260387
+2000-01-01T00:00:00Z,Selo,NA,numeric,-0.17339967
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.3025919
+2001-01-01T00:00:00Z,Seup,NA,numeric,-1.0528939
+2001-01-01T00:00:00Z,Selo,NA,numeric,-1.5522066
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.46308032
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.7127165
+2002-01-01T00:00:00Z,Selo,NA,numeric,0.21314576
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2095994
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.04045411
+2003-01-01T00:00:00Z,Selo,NA,numeric,-0.45920646
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.8191983
+2004-01-01T00:00:00Z,Seup,NA,numeric,1.0690728
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.5692306
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.07275571
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.17667688
+2005-01-01T00:00:00Z,Selo,NA,numeric,-0.3225926
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.14833894
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.10119736
+2006-01-01T00:00:00Z,Selo,NA,numeric,-0.39826354
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.9131481
+2007-01-01T00:00:00Z,Seup,NA,numeric,1.1628792
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.66347796
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.39706343
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.6468542
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.14740658
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.47300392
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.7227324
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.22270475
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.36774078
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.11794527
+2010-01-01T00:00:00Z,Selo,NA,numeric,-0.6175272
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.42285842
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.67252547
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.17318082
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.51331055
+2012-01-01T00:00:00Z,Seup,NA,numeric,-0.26371518
+2012-01-01T00:00:00Z,Selo,NA,numeric,-0.7630277
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.698112
+2013-01-01T00:00:00Z,Seup,NA,numeric,-0.44853997
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.9477719
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.48390937
+2014-01-01T00:00:00Z,Seup,NA,numeric,-0.23431781
+2014-01-01T00:00:00Z,Selo,NA,numeric,-0.73363715
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.11799193
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.37183818
+2015-01-01T00:00:00Z,Selo,NA,numeric,-0.13589405
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.36151177
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.6110485
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.111669615
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.36006188
+2017-01-01T00:00:00Z,Seup,NA,numeric,-0.110293396
+2017-01-01T00:00:00Z,Selo,NA,numeric,-0.6096541
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.21162026
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.46142152
+2018-01-01T00:00:00Z,Selo,NA,numeric,-0.038091157
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7137471
+2019-01-01T00:00:00Z,Seup,NA,numeric,-0.46401656
+2019-01-01T00:00:00Z,Selo,NA,numeric,-0.96341026
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.41941428
+2020-01-01T00:00:00Z,Seup,NA,numeric,0.6696791
+2020-01-01T00:00:00Z,Selo,NA,numeric,0.16944224
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.288522
+1981-01-01T00:00:00Z,Seup,NA,numeric,0.04325049
+1981-01-01T00:00:00Z,Selo,NA,numeric,-0.6201714
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.9021146
+1982-01-01T00:00:00Z,Seup,NA,numeric,1.2340869
+1982-01-01T00:00:00Z,Selo,NA,numeric,0.5669653
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.5229672
+1983-01-01T00:00:00Z,Seup,NA,numeric,1.8545401
+1983-01-01T00:00:00Z,Selo,NA,numeric,1.1885247
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.73367697
+1984-01-01T00:00:00Z,Seup,NA,numeric,1.0648047
+1984-01-01T00:00:00Z,Selo,NA,numeric,0.40120554
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.85678583
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.5251228
+1985-01-01T00:00:00Z,Selo,NA,numeric,-1.1883448
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.8331859
+1986-01-01T00:00:00Z,Seup,NA,numeric,2.1646836
+1986-01-01T00:00:00Z,Selo,NA,numeric,1.5014769
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.68168825
+1987-01-01T00:00:00Z,Seup,NA,numeric,-0.35050026
+1987-01-01T00:00:00Z,Selo,NA,numeric,-1.0142223
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7167593
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.38516432
+1988-01-01T00:00:00Z,Selo,NA,numeric,-1.0483718
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.34234476
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.010973242
+1989-01-01T00:00:00Z,Selo,NA,numeric,-0.6742704
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.1776901
+1990-01-01T00:00:00Z,Seup,NA,numeric,-0.846363
+1990-01-01T00:00:00Z,Selo,NA,numeric,-1.510315
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.0532236
+1991-01-01T00:00:00Z,Seup,NA,numeric,-0.721373
+1991-01-01T00:00:00Z,Selo,NA,numeric,-1.3846784
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.57391125
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.24123546
+1992-01-01T00:00:00Z,Selo,NA,numeric,-0.9052827
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.4642142
+1993-01-01T00:00:00Z,Seup,NA,numeric,0.79591006
+1993-01-01T00:00:00Z,Selo,NA,numeric,0.13267098
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.4406048
+1994-01-01T00:00:00Z,Seup,NA,numeric,-1.1086754
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.7720766
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.2582028
+1995-01-01T00:00:00Z,Seup,NA,numeric,1.5896133
+1995-01-01T00:00:00Z,Selo,NA,numeric,0.9254196
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.07788723
+1996-01-01T00:00:00Z,Seup,NA,numeric,0.4096514
+1996-01-01T00:00:00Z,Selo,NA,numeric,-0.25364968
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.7122962
+1997-01-01T00:00:00Z,Seup,NA,numeric,2.0566714
+1997-01-01T00:00:00Z,Selo,NA,numeric,1.3697348
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.98828244
+1998-01-01T00:00:00Z,Seup,NA,numeric,1.3200727
+1998-01-01T00:00:00Z,Selo,NA,numeric,0.65317255
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.0382179
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.29297003
+1999-01-01T00:00:00Z,Selo,NA,numeric,-0.37049663
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.23336338
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.5651551
+2000-01-01T00:00:00Z,Selo,NA,numeric,-0.09810837
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.43317226
+2001-01-01T00:00:00Z,Seup,NA,numeric,-0.099106304
+2001-01-01T00:00:00Z,Selo,NA,numeric,-0.76487
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.019863212
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.35142422
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.3119842
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.25922975
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.5906652
+2003-01-01T00:00:00Z,Selo,NA,numeric,-0.072610304
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.61249226
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.9441123
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.2808799
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.19401316
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.52668506
+2005-01-01T00:00:00Z,Selo,NA,numeric,-0.13744883
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.2442791
+2006-01-01T00:00:00Z,Seup,NA,numeric,1.5753974
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.91174006
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7014172
+2007-01-01T00:00:00Z,Seup,NA,numeric,-0.37013057
+2007-01-01T00:00:00Z,Selo,NA,numeric,-1.0334806
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.65632176
+2008-01-01T00:00:00Z,Seup,NA,numeric,-0.324208
+2008-01-01T00:00:00Z,Selo,NA,numeric,-0.98774755
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6303889
+2009-01-01T00:00:00Z,Seup,NA,numeric,-0.29800186
+2009-01-01T00:00:00Z,Selo,NA,numeric,-0.96182996
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.34957623
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.017069284
+2010-01-01T00:00:00Z,Selo,NA,numeric,-0.68112755
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.23289506
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.5651419
+2011-01-01T00:00:00Z,Selo,NA,numeric,-0.09846551
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.89806974
+2012-01-01T00:00:00Z,Seup,NA,numeric,-0.5661593
+2012-01-01T00:00:00Z,Selo,NA,numeric,-1.2294958
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.13581924
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.19601074
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.4674088
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.2501868
+2014-01-01T00:00:00Z,Seup,NA,numeric,-0.91869
+2014-01-01T00:00:00Z,Selo,NA,numeric,-1.582407
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.40779036
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.7391131
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.07400275
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.014559646
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.3468576
+2016-01-01T00:00:00Z,Selo,NA,numeric,-0.31698483
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.9162081
+2017-01-01T00:00:00Z,Seup,NA,numeric,1.2500443
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.5848566
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.44834447
+2018-01-01T00:00:00Z,Seup,NA,numeric,-0.117206335
+2018-01-01T00:00:00Z,Selo,NA,numeric,-0.7808619
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7399263
+2019-01-01T00:00:00Z,Seup,NA,numeric,1.0712218
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.4074081
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.4277583
+2020-01-01T00:00:00Z,Seup,NA,numeric,-1.0961047
+2020-01-01T00:00:00Z,Selo,NA,numeric,-1.760241
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.62149763
+1981-01-01T00:00:00Z,Seup,NA,numeric,0.8689605
+1981-01-01T00:00:00Z,Selo,NA,numeric,0.37400407
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7370829
+1982-01-01T00:00:00Z,Seup,NA,numeric,0.98408616
+1982-01-01T00:00:00Z,Selo,NA,numeric,0.48973322
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.35847968
+1983-01-01T00:00:00Z,Seup,NA,numeric,0.60542923
+1983-01-01T00:00:00Z,Selo,NA,numeric,0.11127068
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.016030304
+1984-01-01T00:00:00Z,Seup,NA,numeric,0.26299062
+1984-01-01T00:00:00Z,Selo,NA,numeric,-0.23114893
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4205935
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.17348482
+1985-01-01T00:00:00Z,Selo,NA,numeric,-0.6678157
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7908242
+1986-01-01T00:00:00Z,Seup,NA,numeric,1.0378926
+1986-01-01T00:00:00Z,Selo,NA,numeric,0.54338694
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6505028
+1987-01-01T00:00:00Z,Seup,NA,numeric,-0.4035317
+1987-01-01T00:00:00Z,Selo,NA,numeric,-0.89767766
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.86448383
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.61754036
+1988-01-01T00:00:00Z,Selo,NA,numeric,-1.111709
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.38659048
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.13960977
+1989-01-01T00:00:00Z,Selo,NA,numeric,-0.63375324
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.74989164
+1990-01-01T00:00:00Z,Seup,NA,numeric,-0.50294465
+1990-01-01T00:00:00Z,Selo,NA,numeric,-0.99712515
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.19654563
+1991-01-01T00:00:00Z,Seup,NA,numeric,0.44393885
+1991-01-01T00:00:00Z,Selo,NA,numeric,-0.05079305
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.93208563
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.68513227
+1992-01-01T00:00:00Z,Selo,NA,numeric,-1.1792865
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.10897604
+1993-01-01T00:00:00Z,Seup,NA,numeric,0.13802066
+1993-01-01T00:00:00Z,Selo,NA,numeric,-0.35623094
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9601063
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.71314687
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.2072908
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.002593749
+1995-01-01T00:00:00Z,Seup,NA,numeric,0.2498513
+1995-01-01T00:00:00Z,Selo,NA,numeric,-0.24511269
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,2.796996
+1996-01-01T00:00:00Z,Seup,NA,numeric,3.044369
+1996-01-01T00:00:00Z,Selo,NA,numeric,2.5491238
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.4354643
+1997-01-01T00:00:00Z,Seup,NA,numeric,1.6824461
+1997-01-01T00:00:00Z,Selo,NA,numeric,1.1882894
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.19074231
+1998-01-01T00:00:00Z,Seup,NA,numeric,0.05621205
+1998-01-01T00:00:00Z,Selo,NA,numeric,-0.4379424
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.01577107
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.26285994
+1999-01-01T00:00:00Z,Selo,NA,numeric,-0.23146065
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.24225134
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.004861983
+2000-01-01T00:00:00Z,Selo,NA,numeric,-0.4895225
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.1159132
+2001-01-01T00:00:00Z,Seup,NA,numeric,-0.86894584
+2001-01-01T00:00:00Z,Selo,NA,numeric,-1.3630842
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.26021838
+2002-01-01T00:00:00Z,Seup,NA,numeric,-0.013206108
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.5073767
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.13582604
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.11115612
+2003-01-01T00:00:00Z,Selo,NA,numeric,-0.3831364
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5005692
+2004-01-01T00:00:00Z,Seup,NA,numeric,-0.2535712
+2004-01-01T00:00:00Z,Selo,NA,numeric,-0.7478431
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7643138
+2005-01-01T00:00:00Z,Seup,NA,numeric,-0.51728284
+2005-01-01T00:00:00Z,Selo,NA,numeric,-1.0114738
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.015344819
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.26230982
+2006-01-01T00:00:00Z,Selo,NA,numeric,-0.23193917
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1859223
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.06149429
+2007-01-01T00:00:00Z,Selo,NA,numeric,-0.43337265
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.07415221
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.17292689
+2008-01-01T00:00:00Z,Selo,NA,numeric,-0.32136062
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.20141916
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.4484093
+2009-01-01T00:00:00Z,Selo,NA,numeric,-0.04573693
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.34801084
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.10103475
+2010-01-01T00:00:00Z,Selo,NA,numeric,-0.5952407
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.0451528
+2011-01-01T00:00:00Z,Seup,NA,numeric,1.2921209
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.7979707
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.02420653
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.22273642
+2012-01-01T00:00:00Z,Selo,NA,numeric,-0.27143687
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.37526062
+2013-01-01T00:00:00Z,Seup,NA,numeric,-0.12828822
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.62243515
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.02171256
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.2686694
+2014-01-01T00:00:00Z,Selo,NA,numeric,-0.22548752
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2181579
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.029072693
+2015-01-01T00:00:00Z,Selo,NA,numeric,-0.46547738
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.029635383
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.21774448
+2016-01-01T00:00:00Z,Selo,NA,numeric,-0.2770368
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.24805048
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.49504805
+2017-01-01T00:00:00Z,Selo,NA,numeric,7.45351e-4
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.06210121
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.1849145
+2018-01-01T00:00:00Z,Selo,NA,numeric,-0.3092919
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.503265
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.7504219
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.25580135
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7869271
+2020-01-01T00:00:00Z,Seup,NA,numeric,1.0399222
+2020-01-01T00:00:00Z,Selo,NA,numeric,0.5338021
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6498894
+1981-01-01T00:00:00Z,Seup,NA,numeric,-0.22426045
+1981-01-01T00:00:00Z,Selo,NA,numeric,-1.0764732
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.5542635
+1982-01-01T00:00:00Z,Seup,NA,numeric,1.9830481
+1982-01-01T00:00:00Z,Selo,NA,numeric,1.1238787
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.9356774
+1983-01-01T00:00:00Z,Seup,NA,numeric,1.3691268
+1983-01-01T00:00:00Z,Selo,NA,numeric,0.5088599
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.16077697
+1984-01-01T00:00:00Z,Seup,NA,numeric,0.5896893
+1984-01-01T00:00:00Z,Selo,NA,numeric,-0.2649317
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.32243392
+1985-01-01T00:00:00Z,Seup,NA,numeric,0.10682741
+1985-01-01T00:00:00Z,Selo,NA,numeric,-0.7500191
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.3193382
+1986-01-01T00:00:00Z,Seup,NA,numeric,1.7463549
+1986-01-01T00:00:00Z,Selo,NA,numeric,0.89201623
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6917329
+1987-01-01T00:00:00Z,Seup,NA,numeric,-0.26573443
+1987-01-01T00:00:00Z,Selo,NA,numeric,-1.1179136
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6387716
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.21381539
+1988-01-01T00:00:00Z,Selo,NA,numeric,-1.0668997
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.09034075
+1989-01-01T00:00:00Z,Seup,NA,numeric,0.3397889
+1989-01-01T00:00:00Z,Selo,NA,numeric,-0.5174728
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.61895835
+1990-01-01T00:00:00Z,Seup,NA,numeric,-0.19364995
+1990-01-01T00:00:00Z,Selo,NA,numeric,-1.0476135
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.79802656
+1991-01-01T00:00:00Z,Seup,NA,numeric,-0.37238798
+1991-01-01T00:00:00Z,Selo,NA,numeric,-1.2245207
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7989576
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.3729833
+1992-01-01T00:00:00Z,Selo,NA,numeric,-1.227092
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.17276077
+1993-01-01T00:00:00Z,Seup,NA,numeric,0.60279155
+1993-01-01T00:00:00Z,Selo,NA,numeric,-0.25293055
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.0120901
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.58666337
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.4392157
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.63534975
+1995-01-01T00:00:00Z,Seup,NA,numeric,1.0629529
+1995-01-01T00:00:00Z,Selo,NA,numeric,0.20756899
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2743839
+1996-01-01T00:00:00Z,Seup,NA,numeric,0.7062974
+1996-01-01T00:00:00Z,Selo,NA,numeric,-0.1528598
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,3.060121
+1997-01-01T00:00:00Z,Seup,NA,numeric,3.4911249
+1997-01-01T00:00:00Z,Selo,NA,numeric,2.6199992
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6699078
+1998-01-01T00:00:00Z,Seup,NA,numeric,1.0948399
+1998-01-01T00:00:00Z,Selo,NA,numeric,0.24162455
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1521268
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.27943304
+1999-01-01T00:00:00Z,Selo,NA,numeric,-0.5808773
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.34029788
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.08731637
+2000-01-01T00:00:00Z,Selo,NA,numeric,-0.76562667
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.0223876
+2001-01-01T00:00:00Z,Seup,NA,numeric,-0.5971256
+2001-01-01T00:00:00Z,Selo,NA,numeric,-1.4499946
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3758892
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.05183066
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.8026405
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.19611779
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.22890674
+2003-01-01T00:00:00Z,Selo,NA,numeric,-0.62444013
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.022790395
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.40631214
+2004-01-01T00:00:00Z,Selo,NA,numeric,-0.45134744
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.31268063
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.11423455
+2005-01-01T00:00:00Z,Selo,NA,numeric,-0.7381903
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.9881554
+2006-01-01T00:00:00Z,Seup,NA,numeric,2.4154685
+2006-01-01T00:00:00Z,Selo,NA,numeric,1.5504944
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.46796474
+2007-01-01T00:00:00Z,Seup,NA,numeric,-0.042319667
+2007-01-01T00:00:00Z,Selo,NA,numeric,-0.8947871
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.56209403
+2008-01-01T00:00:00Z,Seup,NA,numeric,-0.13607417
+2008-01-01T00:00:00Z,Selo,NA,numeric,-0.9886875
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7212066
+2009-01-01T00:00:00Z,Seup,NA,numeric,-0.28451392
+2009-01-01T00:00:00Z,Selo,NA,numeric,-1.1600626
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.562721
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.13644771
+2010-01-01T00:00:00Z,Selo,NA,numeric,-0.9913027
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.08843448
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.34069374
+2011-01-01T00:00:00Z,Selo,NA,numeric,-0.51539063
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.26544008
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.16060925
+2012-01-01T00:00:00Z,Selo,NA,numeric,-0.69217795
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.46058032
+2013-01-01T00:00:00Z,Seup,NA,numeric,-0.035503443
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.8893442
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7377323
+2014-01-01T00:00:00Z,Seup,NA,numeric,-0.3128742
+2014-01-01T00:00:00Z,Selo,NA,numeric,-1.1674993
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.38382274
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.80940783
+2015-01-01T00:00:00Z,Selo,NA,numeric,-0.048497465
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.30483702
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.7362411
+2016-01-01T00:00:00Z,Selo,NA,numeric,-0.120671645
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.9802982
+2017-01-01T00:00:00Z,Seup,NA,numeric,1.4079875
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.5536768
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.50045246
+2018-01-01T00:00:00Z,Seup,NA,numeric,-0.07425941
+2018-01-01T00:00:00Z,Selo,NA,numeric,-0.9272071
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5593119
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.9938594
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.13219886
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5590016
+2020-01-01T00:00:00Z,Seup,NA,numeric,-0.13201815
+2020-01-01T00:00:00Z,Selo,NA,numeric,-0.9852017
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7937521
+1981-01-01T00:00:00Z,Seup,NA,numeric,1.0739356
+1981-01-01T00:00:00Z,Selo,NA,numeric,0.5134293
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7274044
+1982-01-01T00:00:00Z,Seup,NA,numeric,1.0073136
+1982-01-01T00:00:00Z,Selo,NA,numeric,0.4469883
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.24242091
+1983-01-01T00:00:00Z,Seup,NA,numeric,0.52239317
+1983-01-01T00:00:00Z,Selo,NA,numeric,-0.037981626
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.30878213
+1984-01-01T00:00:00Z,Seup,NA,numeric,-0.0289138
+1984-01-01T00:00:00Z,Selo,NA,numeric,-0.5891667
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.54330784
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.26321787
+1985-01-01T00:00:00Z,Selo,NA,numeric,-0.82348704
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.53595006
+1986-01-01T00:00:00Z,Seup,NA,numeric,0.83837306
+1986-01-01T00:00:00Z,Selo,NA,numeric,0.23302473
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.17856121
+1987-01-01T00:00:00Z,Seup,NA,numeric,0.12329231
+1987-01-01T00:00:00Z,Selo,NA,numeric,-0.4807608
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5221165
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.22042806
+1988-01-01T00:00:00Z,Selo,NA,numeric,-0.82411283
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7867056
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.4849348
+1989-01-01T00:00:00Z,Selo,NA,numeric,-1.0890988
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.13700394
+1990-01-01T00:00:00Z,Seup,NA,numeric,0.4389171
+1990-01-01T00:00:00Z,Selo,NA,numeric,-0.16507317
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.36730734
+1991-01-01T00:00:00Z,Seup,NA,numeric,0.66939974
+1991-01-01T00:00:00Z,Selo,NA,numeric,0.06519265
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6736984
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.37207785
+1992-01-01T00:00:00Z,Selo,NA,numeric,-0.97588927
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.8069104
+1993-01-01T00:00:00Z,Seup,NA,numeric,-0.50519115
+1993-01-01T00:00:00Z,Selo,NA,numeric,-1.1088954
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9506444
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.6490343
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.2530446
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.18559623
+1995-01-01T00:00:00Z,Seup,NA,numeric,0.48738235
+1995-01-01T00:00:00Z,Selo,NA,numeric,-0.11641939
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,3.4289756
+1996-01-01T00:00:00Z,Seup,NA,numeric,3.7317405
+1996-01-01T00:00:00Z,Selo,NA,numeric,3.1263413
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.716037
+1997-01-01T00:00:00Z,Seup,NA,numeric,1.0185585
+1997-01-01T00:00:00Z,Selo,NA,numeric,0.41355434
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6105244
+1998-01-01T00:00:00Z,Seup,NA,numeric,-0.30862316
+1998-01-01T00:00:00Z,Selo,NA,numeric,-0.9124911
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.48731798
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.7892588
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.1851356
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6527448
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.95960873
+2000-01-01T00:00:00Z,Selo,NA,numeric,0.34470445
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.3934585
+2001-01-01T00:00:00Z,Seup,NA,numeric,-1.1135789
+2001-01-01T00:00:00Z,Selo,NA,numeric,-1.6738623
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.33144936
+2002-01-01T00:00:00Z,Seup,NA,numeric,-0.051240858
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.6116381
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.27306426
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.5530791
+2003-01-01T00:00:00Z,Selo,NA,numeric,-0.007076789
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.41363573
+2004-01-01T00:00:00Z,Seup,NA,numeric,-0.13315107
+2004-01-01T00:00:00Z,Selo,NA,numeric,-0.6944484
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.65857995
+2005-01-01T00:00:00Z,Seup,NA,numeric,-0.378406
+2005-01-01T00:00:00Z,Selo,NA,numeric,-0.9387621
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.118959785
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.3990627
+2006-01-01T00:00:00Z,Selo,NA,numeric,-0.16121395
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.2122135
+2007-01-01T00:00:00Z,Seup,NA,numeric,1.4923915
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.9321039
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.20847169
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.071716666
+2008-01-01T00:00:00Z,Selo,NA,numeric,-0.48864573
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.9155876
+2009-01-01T00:00:00Z,Seup,NA,numeric,1.195571
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.6353441
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9610154
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.68112683
+2010-01-01T00:00:00Z,Selo,NA,numeric,-1.2413174
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7540835
+2011-01-01T00:00:00Z,Seup,NA,numeric,1.0343912
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.47328162
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.14503603
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.13484667
+2012-01-01T00:00:00Z,Selo,NA,numeric,-0.42537126
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.49833205
+2013-01-01T00:00:00Z,Seup,NA,numeric,-0.21815267
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.778481
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1872291
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.09269478
+2014-01-01T00:00:00Z,Selo,NA,numeric,-0.46751273
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.31610298
+2015-01-01T00:00:00Z,Seup,NA,numeric,-0.035974957
+2015-01-01T00:00:00Z,Selo,NA,numeric,-0.59635746
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.62465996
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.90501606
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.34453368
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.36049324
+2017-01-01T00:00:00Z,Seup,NA,numeric,-0.08044161
+2017-01-01T00:00:00Z,Selo,NA,numeric,-0.6406347
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.24742065
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.03256971
+2018-01-01T00:00:00Z,Selo,NA,numeric,-0.5275968
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5974245
+2019-01-01T00:00:00Z,Seup,NA,numeric,-0.3174427
+2019-01-01T00:00:00Z,Selo,NA,numeric,-0.8776018
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.33624658
+2020-01-01T00:00:00Z,Seup,NA,numeric,-0.054198038
+2020-01-01T00:00:00Z,Selo,NA,numeric,-0.61859345
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3598641
+1981-01-01T00:00:00Z,Seup,NA,numeric,0.7282909
+1981-01-01T00:00:00Z,Selo,NA,numeric,-0.009399015
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.34784484
+1982-01-01T00:00:00Z,Seup,NA,numeric,0.71623456
+1982-01-01T00:00:00Z,Selo,NA,numeric,-0.02114311
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.98535764
+1983-01-01T00:00:00Z,Seup,NA,numeric,1.3540127
+1983-01-01T00:00:00Z,Selo,NA,numeric,0.6166291
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.17707054
+1984-01-01T00:00:00Z,Seup,NA,numeric,0.19150865
+1984-01-01T00:00:00Z,Selo,NA,numeric,-0.5458068
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6404348
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.27192885
+1985-01-01T00:00:00Z,Selo,NA,numeric,-1.0092127
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7699272
+1986-01-01T00:00:00Z,Seup,NA,numeric,1.13833
+1986-01-01T00:00:00Z,Selo,NA,numeric,0.4010004
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.24837342
+1987-01-01T00:00:00Z,Seup,NA,numeric,0.120062985
+1987-01-01T00:00:00Z,Selo,NA,numeric,-0.6172265
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.8272386
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.45873946
+1988-01-01T00:00:00Z,Selo,NA,numeric,-1.1960195
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7424991
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.37391508
+1989-01-01T00:00:00Z,Selo,NA,numeric,-1.111235
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.37982327
+1990-01-01T00:00:00Z,Seup,NA,numeric,-0.011033589
+1990-01-01T00:00:00Z,Selo,NA,numeric,-0.7485252
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.1348761
+1991-01-01T00:00:00Z,Seup,NA,numeric,1.5047128
+1991-01-01T00:00:00Z,Selo,NA,numeric,0.76583225
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.1182338
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.74984205
+1992-01-01T00:00:00Z,Selo,NA,numeric,-1.4872282
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.14724338
+1993-01-01T00:00:00Z,Seup,NA,numeric,0.22124048
+1993-01-01T00:00:00Z,Selo,NA,numeric,-0.51603776
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.79017717
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.4217801
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.1591718
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.17529947
+1995-01-01T00:00:00Z,Seup,NA,numeric,0.54368556
+1995-01-01T00:00:00Z,Selo,NA,numeric,-0.19384909
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.1722405
+1996-01-01T00:00:00Z,Seup,NA,numeric,1.5407389
+1996-01-01T00:00:00Z,Selo,NA,numeric,0.8034393
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.1078361
+1997-01-01T00:00:00Z,Seup,NA,numeric,1.4771401
+1997-01-01T00:00:00Z,Selo,NA,numeric,0.73900235
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.18180206
+1998-01-01T00:00:00Z,Seup,NA,numeric,0.5502492
+1998-01-01T00:00:00Z,Selo,NA,numeric,-0.18703508
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.0304989
+1999-01-01T00:00:00Z,Seup,NA,numeric,1.3988987
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.66122776
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.8614587
+2000-01-01T00:00:00Z,Seup,NA,numeric,-0.49285996
+2000-01-01T00:00:00Z,Selo,NA,numeric,-1.2301837
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.3271143
+2001-01-01T00:00:00Z,Seup,NA,numeric,-0.9586092
+2001-01-01T00:00:00Z,Selo,NA,numeric,-1.6958896
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.071742974
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.4402979
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.2970065
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.64575326
+2003-01-01T00:00:00Z,Seup,NA,numeric,-0.27735326
+2003-01-01T00:00:00Z,Selo,NA,numeric,-1.0150033
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.0774094
+2004-01-01T00:00:00Z,Seup,NA,numeric,-0.7089817
+2004-01-01T00:00:00Z,Selo,NA,numeric,-1.4462833
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.0818132
+2005-01-01T00:00:00Z,Seup,NA,numeric,-0.71341544
+2005-01-01T00:00:00Z,Selo,NA,numeric,-1.4509494
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.21931
+2006-01-01T00:00:00Z,Seup,NA,numeric,1.588308
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.8486445
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.0479727
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.41636476
+2007-01-01T00:00:00Z,Selo,NA,numeric,-0.3210411
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7132595
+2008-01-01T00:00:00Z,Seup,NA,numeric,1.0816523
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.34428588
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.82013047
+2009-01-01T00:00:00Z,Seup,NA,numeric,-0.4517109
+2009-01-01T00:00:00Z,Selo,NA,numeric,-1.1890167
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.41532087
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.04690561
+2010-01-01T00:00:00Z,Selo,NA,numeric,-0.78421825
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.4095248
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.77871203
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.040730234
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.13578531
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.23273654
+2012-01-01T00:00:00Z,Selo,NA,numeric,-0.5045492
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5344961
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.9031988
+2013-01-01T00:00:00Z,Selo,NA,numeric,0.16578284
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1313498
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.23749933
+2014-01-01T00:00:00Z,Selo,NA,numeric,-0.5000643
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9208987
+2015-01-01T00:00:00Z,Seup,NA,numeric,-0.55245775
+2015-01-01T00:00:00Z,Selo,NA,numeric,-1.289759
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5149583
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.88335496
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.14600635
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.4131392
+2017-01-01T00:00:00Z,Seup,NA,numeric,1.781747
+2017-01-01T00:00:00Z,Selo,NA,numeric,1.043239
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.3987538
+2018-01-01T00:00:00Z,Seup,NA,numeric,1.7684753
+2018-01-01T00:00:00Z,Selo,NA,numeric,1.0297432
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.0359113
+2019-01-01T00:00:00Z,Seup,NA,numeric,-0.66745114
+2019-01-01T00:00:00Z,Selo,NA,numeric,-1.404731
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.003570532
+2020-01-01T00:00:00Z,Seup,NA,numeric,0.376807
+2020-01-01T00:00:00Z,Selo,NA,numeric,-0.3838643
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.8181482
+1981-01-01T00:00:00Z,Seup,NA,numeric,1.158916
+1981-01-01T00:00:00Z,Selo,NA,numeric,0.4775924
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3706237
+1982-01-01T00:00:00Z,Seup,NA,numeric,0.7106188
+1982-01-01T00:00:00Z,Selo,NA,numeric,0.02980841
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7154594
+1983-01-01T00:00:00Z,Seup,NA,numeric,1.055506
+1983-01-01T00:00:00Z,Selo,NA,numeric,0.3748724
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1591194
+1984-01-01T00:00:00Z,Seup,NA,numeric,0.1808819
+1984-01-01T00:00:00Z,Selo,NA,numeric,-0.4998903
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6687465
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.328551
+1985-01-01T00:00:00Z,Selo,NA,numeric,-1.009112
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3926008
+1986-01-01T00:00:00Z,Seup,NA,numeric,0.7326298
+1986-01-01T00:00:00Z,Selo,NA,numeric,0.05183336
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.423984
+1987-01-01T00:00:00Z,Seup,NA,numeric,-0.08383504
+1987-01-01T00:00:00Z,Selo,NA,numeric,-0.7643906
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.8685442
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.5284183
+1988-01-01T00:00:00Z,Selo,NA,numeric,-1.20901
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7179805
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.3779388
+1989-01-01T00:00:00Z,Selo,NA,numeric,-1.058638
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3786612
+1990-01-01T00:00:00Z,Seup,NA,numeric,-0.03832825
+1990-01-01T00:00:00Z,Selo,NA,numeric,-0.7189991
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.9041153
+1991-01-01T00:00:00Z,Seup,NA,numeric,1.244669
+1991-01-01T00:00:00Z,Selo,NA,numeric,0.5621128
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.078989
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.7387228
+1992-01-01T00:00:00Z,Selo,NA,numeric,-1.419312
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3921136
+1993-01-01T00:00:00Z,Seup,NA,numeric,-0.05182947
+1993-01-01T00:00:00Z,Selo,NA,numeric,-0.7324321
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9356945
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.5954747
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.27604
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.09745732
+1995-01-01T00:00:00Z,Seup,NA,numeric,0.4374672
+1995-01-01T00:00:00Z,Selo,NA,numeric,-0.2432969
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.921073
+1996-01-01T00:00:00Z,Seup,NA,numeric,2.262559
+1996-01-01T00:00:00Z,Selo,NA,numeric,1.577044
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.172165
+1997-01-01T00:00:00Z,Seup,NA,numeric,1.512986
+1997-01-01T00:00:00Z,Selo,NA,numeric,0.8318256
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.1434568
+1998-01-01T00:00:00Z,Seup,NA,numeric,0.4836461
+1998-01-01T00:00:00Z,Selo,NA,numeric,-0.1969093
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5741826
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.9146448
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.2339059
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6383465
+2000-01-01T00:00:00Z,Seup,NA,numeric,-0.2983221
+2000-01-01T00:00:00Z,Selo,NA,numeric,-0.978984
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.337396
+2001-01-01T00:00:00Z,Seup,NA,numeric,-0.9973482
+2001-01-01T00:00:00Z,Selo,NA,numeric,-1.677992
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.06744296
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.4076999
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.2729107
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3958121
+2003-01-01T00:00:00Z,Seup,NA,numeric,-0.05580691
+2003-01-01T00:00:00Z,Selo,NA,numeric,-0.7367726
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.07055
+2004-01-01T00:00:00Z,Seup,NA,numeric,-0.7304155
+2004-01-01T00:00:00Z,Selo,NA,numeric,-1.410965
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9803339
+2005-01-01T00:00:00Z,Seup,NA,numeric,-0.6401666
+2005-01-01T00:00:00Z,Selo,NA,numeric,-1.320777
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7467183
+2006-01-01T00:00:00Z,Seup,NA,numeric,1.088988
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.4058091
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2481081
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.5882704
+2007-01-01T00:00:00Z,Selo,NA,numeric,-0.09230775
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5737614
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.9145793
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.2334649
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2739157
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.066295
+2009-01-01T00:00:00Z,Selo,NA,numeric,-0.6152942
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4717938
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.1312673
+2010-01-01T00:00:00Z,Selo,NA,numeric,-0.8120605
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7911599
+2011-01-01T00:00:00Z,Seup,NA,numeric,1.131229
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.4506361
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2081355
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.5487117
+2012-01-01T00:00:00Z,Selo,NA,numeric,-0.132193
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.178312
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.5183718
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.1622168
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2391088
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.1009073
+2014-01-01T00:00:00Z,Selo,NA,numeric,-0.5797426
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6800627
+2015-01-01T00:00:00Z,Seup,NA,numeric,-0.3399956
+2015-01-01T00:00:00Z,Selo,NA,numeric,-1.020614
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6628188
+2016-01-01T00:00:00Z,Seup,NA,numeric,1.003156
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.3223812
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.9136962
+2017-01-01T00:00:00Z,Seup,NA,numeric,1.254186
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.5734214
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.140754
+2018-01-01T00:00:00Z,Seup,NA,numeric,1.482302
+2018-01-01T00:00:00Z,Selo,NA,numeric,0.8002004
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9503572
+2019-01-01T00:00:00Z,Seup,NA,numeric,-0.6102721
+2019-01-01T00:00:00Z,Selo,NA,numeric,-1.290836
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.05249465
+2020-01-01T00:00:00Z,Seup,NA,numeric,0.4025553
+2020-01-01T00:00:00Z,Selo,NA,numeric,-0.2980417
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4367063
+1981-01-01T00:00:00Z,Seup,NA,numeric,-0.145339
+1981-01-01T00:00:00Z,Selo,NA,numeric,-0.7286727
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.8957039
+1982-01-01T00:00:00Z,Seup,NA,numeric,1.187013
+1982-01-01T00:00:00Z,Selo,NA,numeric,0.6025385
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.324682
+1983-01-01T00:00:00Z,Seup,NA,numeric,1.616021
+1983-01-01T00:00:00Z,Selo,NA,numeric,1.031669
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5464404
+1984-01-01T00:00:00Z,Seup,NA,numeric,0.8379231
+1984-01-01T00:00:00Z,Selo,NA,numeric,0.2546367
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7380687
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.4464895
+1985-01-01T00:00:00Z,Selo,NA,numeric,-1.0298
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,2.105326
+1986-01-01T00:00:00Z,Seup,NA,numeric,2.396802
+1986-01-01T00:00:00Z,Selo,NA,numeric,1.813212
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6397139
+1987-01-01T00:00:00Z,Seup,NA,numeric,-0.3480073
+1987-01-01T00:00:00Z,Selo,NA,numeric,-0.9313118
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7537543
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.4622589
+1988-01-01T00:00:00Z,Selo,NA,numeric,-1.045531
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.222479
+1989-01-01T00:00:00Z,Seup,NA,numeric,0.06930475
+1989-01-01T00:00:00Z,Selo,NA,numeric,-0.5140461
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.002997
+1990-01-01T00:00:00Z,Seup,NA,numeric,-0.7115959
+1990-01-01T00:00:00Z,Selo,NA,numeric,-1.294913
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.8599406
+1991-01-01T00:00:00Z,Seup,NA,numeric,-0.5682457
+1991-01-01T00:00:00Z,Selo,NA,numeric,-1.151581
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5973796
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.3057744
+1992-01-01T00:00:00Z,Selo,NA,numeric,-0.8890733
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2352508
+1993-01-01T00:00:00Z,Seup,NA,numeric,0.526885
+1993-01-01T00:00:00Z,Selo,NA,numeric,-0.05639674
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.185981
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.8944062
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.477727
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.020059
+1995-01-01T00:00:00Z,Seup,NA,numeric,1.311429
+1995-01-01T00:00:00Z,Selo,NA,numeric,0.728074
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.05409885
+1996-01-01T00:00:00Z,Seup,NA,numeric,0.3455345
+1996-01-01T00:00:00Z,Selo,NA,numeric,-0.2377816
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,2.325617
+1997-01-01T00:00:00Z,Seup,NA,numeric,2.62059
+1997-01-01T00:00:00Z,Selo,NA,numeric,2.031066
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.8201968
+1998-01-01T00:00:00Z,Seup,NA,numeric,1.111575
+1998-01-01T00:00:00Z,Selo,NA,numeric,0.5280068
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.00993878
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.2816656
+1999-01-01T00:00:00Z,Selo,NA,numeric,-0.3016273
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.1546095
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.4462427
+2000-01-01T00:00:00Z,Selo,NA,numeric,-0.1370407
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5755405
+2001-01-01T00:00:00Z,Seup,NA,numeric,-0.2840029
+2001-01-01T00:00:00Z,Selo,NA,numeric,-0.8673851
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2265113
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.06485698
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.5184786
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.06874526
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.3602958
+2003-01-01T00:00:00Z,Selo,NA,numeric,-0.2229776
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2941623
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.586214
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.002703122
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.07161218
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.2196668
+2005-01-01T00:00:00Z,Selo,NA,numeric,-0.3641551
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.196763
+2006-01-01T00:00:00Z,Seup,NA,numeric,1.488152
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.9042976
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6665639
+2007-01-01T00:00:00Z,Seup,NA,numeric,-0.3749678
+2007-01-01T00:00:00Z,Selo,NA,numeric,-0.9582439
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6920586
+2008-01-01T00:00:00Z,Seup,NA,numeric,-0.400631
+2008-01-01T00:00:00Z,Selo,NA,numeric,-0.9839323
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5174517
+2009-01-01T00:00:00Z,Seup,NA,numeric,-0.2253491
+2009-01-01T00:00:00Z,Selo,NA,numeric,-0.8089128
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4423291
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.1507339
+2010-01-01T00:00:00Z,Selo,NA,numeric,-0.7340082
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.0856495
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.3769481
+2011-01-01T00:00:00Z,Selo,NA,numeric,-0.2065338
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6286581
+2012-01-01T00:00:00Z,Seup,NA,numeric,-0.3373116
+2012-01-01T00:00:00Z,Selo,NA,numeric,-0.9206648
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.0502104
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.2423797
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.3416535
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.032165
+2014-01-01T00:00:00Z,Seup,NA,numeric,-0.7407457
+2014-01-01T00:00:00Z,Selo,NA,numeric,-1.324042
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.0940985
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.3857385
+2015-01-01T00:00:00Z,Selo,NA,numeric,-0.197547
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.03567577
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.3272028
+2016-01-01T00:00:00Z,Selo,NA,numeric,-0.2561016
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.113966
+2017-01-01T00:00:00Z,Seup,NA,numeric,1.406332
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.8224678
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3198113
+2018-01-01T00:00:00Z,Seup,NA,numeric,-0.02835068
+2018-01-01T00:00:00Z,Selo,NA,numeric,-0.6116734
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5845554
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.8762785
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.292954
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.128452
+2020-01-01T00:00:00Z,Seup,NA,numeric,-0.8370351
+2020-01-01T00:00:00Z,Selo,NA,numeric,-1.420364
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.01317763
+1981-01-01T00:00:00Z,Seup,NA,numeric,0.3079957
+1981-01-01T00:00:00Z,Selo,NA,numeric,-0.2818904
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.085222
+1982-01-01T00:00:00Z,Seup,NA,numeric,1.380068
+1982-01-01T00:00:00Z,Selo,NA,numeric,0.7901334
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.853324
+1983-01-01T00:00:00Z,Seup,NA,numeric,1.148657
+1983-01-01T00:00:00Z,Selo,NA,numeric,0.5576661
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7707716
+1984-01-01T00:00:00Z,Seup,NA,numeric,1.066655
+1984-01-01T00:00:00Z,Selo,NA,numeric,0.4747087
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6229387
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.3281429
+1985-01-01T00:00:00Z,Selo,NA,numeric,-0.9179889
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.35704
+1986-01-01T00:00:00Z,Seup,NA,numeric,1.65188
+1986-01-01T00:00:00Z,Selo,NA,numeric,1.061952
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.217036
+1987-01-01T00:00:00Z,Seup,NA,numeric,-0.9219987
+1987-01-01T00:00:00Z,Selo,NA,numeric,-1.51229
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.171124
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.8762021
+1988-01-01T00:00:00Z,Selo,NA,numeric,-1.466281
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7384731
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.4436799
+1989-01-01T00:00:00Z,Selo,NA,numeric,-1.033519
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.125104
+1990-01-01T00:00:00Z,Seup,NA,numeric,-0.8303134
+1990-01-01T00:00:00Z,Selo,NA,numeric,-1.420148
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6895684
+1991-01-01T00:00:00Z,Seup,NA,numeric,-0.3935857
+1991-01-01T00:00:00Z,Selo,NA,numeric,-0.9857199
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.427879
+1992-01-01T00:00:00Z,Seup,NA,numeric,-1.133094
+1992-01-01T00:00:00Z,Selo,NA,numeric,-1.72292
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.07044153
+1993-01-01T00:00:00Z,Seup,NA,numeric,0.3652309
+1993-01-01T00:00:00Z,Selo,NA,numeric,-0.2246191
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.278756
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.9838511
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.573889
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2407265
+1995-01-01T00:00:00Z,Seup,NA,numeric,0.5358267
+1995-01-01T00:00:00Z,Selo,NA,numeric,-0.05459514
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.420353
+1996-01-01T00:00:00Z,Seup,NA,numeric,1.715133
+1996-01-01T00:00:00Z,Selo,NA,numeric,1.125296
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.698716
+1997-01-01T00:00:00Z,Seup,NA,numeric,1.993498
+1997-01-01T00:00:00Z,Selo,NA,numeric,1.403664
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1446656
+1998-01-01T00:00:00Z,Seup,NA,numeric,0.1525848
+1998-01-01T00:00:00Z,Selo,NA,numeric,-0.4420692
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6412444
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.9362758
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.3459097
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.8121439
+2000-01-01T00:00:00Z,Seup,NA,numeric,-0.5173607
+2000-01-01T00:00:00Z,Selo,NA,numeric,-1.107188
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.235954
+2001-01-01T00:00:00Z,Seup,NA,numeric,-0.941103
+2001-01-01T00:00:00Z,Selo,NA,numeric,-1.531045
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3304448
+2002-01-01T00:00:00Z,Seup,NA,numeric,-0.03552745
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.6255887
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7534745
+2003-01-01T00:00:00Z,Seup,NA,numeric,1.049658
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.4569481
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9340113
+2004-01-01T00:00:00Z,Seup,NA,numeric,-0.6392111
+2004-01-01T00:00:00Z,Selo,NA,numeric,-1.229061
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4412842
+2005-01-01T00:00:00Z,Seup,NA,numeric,-0.1459238
+2005-01-01T00:00:00Z,Selo,NA,numeric,-0.7369607
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.128821
+2006-01-01T00:00:00Z,Seup,NA,numeric,1.424362
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.8329375
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9708544
+2007-01-01T00:00:00Z,Seup,NA,numeric,-0.6759478
+2007-01-01T00:00:00Z,Selo,NA,numeric,-1.266001
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.7588161
+2008-01-01T00:00:00Z,Seup,NA,numeric,1.056908
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.4603779
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5357762
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.8305632
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.2407285
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.089031
+2010-01-01T00:00:00Z,Seup,NA,numeric,1.38416
+2010-01-01T00:00:00Z,Selo,NA,numeric,0.7936076
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6116427
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.9072506
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.3158392
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.485451
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.7807095
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.1898615
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3802049
+2013-01-01T00:00:00Z,Seup,NA,numeric,-0.08367414
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.6770911
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.1177255
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.4125155
+2014-01-01T00:00:00Z,Selo,NA,numeric,-0.1773328
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.184194
+2015-01-01T00:00:00Z,Seup,NA,numeric,-0.8887943
+2015-01-01T00:00:00Z,Selo,NA,numeric,-1.479798
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3608705
+2016-01-01T00:00:00Z,Seup,NA,numeric,-0.06579858
+2016-01-01T00:00:00Z,Selo,NA,numeric,-0.6562507
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.415391
+2017-01-01T00:00:00Z,Seup,NA,numeric,1.710178
+2017-01-01T00:00:00Z,Selo,NA,numeric,1.12033
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.03354153
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.3283275
+2018-01-01T00:00:00Z,Selo,NA,numeric,-0.2614991
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.07906098
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.3738456
+2019-01-01T00:00:00Z,Selo,NA,numeric,-0.2159904
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.09424165
+2020-01-01T00:00:00Z,Seup,NA,numeric,0.2009865
+2020-01-01T00:00:00Z,Selo,NA,numeric,-0.3896733
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4673867
+1981-01-01T00:00:00Z,Seup,NA,numeric,-0.1950369
+1981-01-01T00:00:00Z,Selo,NA,numeric,-0.7408667
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.8623816
+1982-01-01T00:00:00Z,Seup,NA,numeric,1.135338
+1982-01-01T00:00:00Z,Selo,NA,numeric,0.5896757
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.530013
+1983-01-01T00:00:00Z,Seup,NA,numeric,1.803294
+1983-01-01T00:00:00Z,Selo,NA,numeric,1.25742
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.4595872
+1984-01-01T00:00:00Z,Seup,NA,numeric,0.7320228
+1984-01-01T00:00:00Z,Selo,NA,numeric,0.1851419
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5816695
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.3086274
+1985-01-01T00:00:00Z,Selo,NA,numeric,-0.8542941
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.587944
+1986-01-01T00:00:00Z,Seup,NA,numeric,1.861852
+1986-01-01T00:00:00Z,Selo,NA,numeric,1.315092
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5184574
+1987-01-01T00:00:00Z,Seup,NA,numeric,-0.2459325
+1987-01-01T00:00:00Z,Selo,NA,numeric,-0.7915103
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5780427
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.3055473
+1988-01-01T00:00:00Z,Selo,NA,numeric,-0.8514013
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5211602
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.2484608
+1989-01-01T00:00:00Z,Selo,NA,numeric,-0.7940615
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.782209
+1990-01-01T00:00:00Z,Seup,NA,numeric,-0.5093954
+1990-01-01T00:00:00Z,Selo,NA,numeric,-1.055062
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5787432
+1991-01-01T00:00:00Z,Seup,NA,numeric,-0.3059395
+1991-01-01T00:00:00Z,Selo,NA,numeric,-0.8517063
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5193628
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.2465609
+1992-01-01T00:00:00Z,Selo,NA,numeric,-0.7921229
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3562523
+1993-01-01T00:00:00Z,Seup,NA,numeric,0.6294493
+1993-01-01T00:00:00Z,Selo,NA,numeric,0.08348635
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.8151637
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.5424277
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.088246
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.365714
+1995-01-01T00:00:00Z,Seup,NA,numeric,1.638861
+1995-01-01T00:00:00Z,Selo,NA,numeric,1.091428
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.06959474
+1996-01-01T00:00:00Z,Seup,NA,numeric,0.3419165
+1996-01-01T00:00:00Z,Selo,NA,numeric,-0.2040143
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,2.248928
+1997-01-01T00:00:00Z,Seup,NA,numeric,2.523215
+1997-01-01T00:00:00Z,Selo,NA,numeric,1.974727
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.055771
+1998-01-01T00:00:00Z,Seup,NA,numeric,1.328848
+1998-01-01T00:00:00Z,Selo,NA,numeric,0.7830354
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.06640938
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.2060231
+1999-01-01T00:00:00Z,Selo,NA,numeric,-0.3397052
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.04280522
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.3153048
+2000-01-01T00:00:00Z,Selo,NA,numeric,-0.230336
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3328406
+2001-01-01T00:00:00Z,Seup,NA,numeric,-0.0600255
+2001-01-01T00:00:00Z,Selo,NA,numeric,-0.6060147
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3680591
+2002-01-01T00:00:00Z,Seup,NA,numeric,-0.09565899
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.6413236
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1472666
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.1258965
+2003-01-01T00:00:00Z,Selo,NA,numeric,-0.4198338
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.05355726
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.2196824
+2004-01-01T00:00:00Z,Selo,NA,numeric,-0.3261906
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.06681537
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.3393795
+2005-01-01T00:00:00Z,Selo,NA,numeric,-0.2065298
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.8796778
+2006-01-01T00:00:00Z,Seup,NA,numeric,1.152808
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.6066605
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6145606
+2007-01-01T00:00:00Z,Seup,NA,numeric,-0.3419707
+2007-01-01T00:00:00Z,Selo,NA,numeric,-0.8874866
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.555262
+2008-01-01T00:00:00Z,Seup,NA,numeric,-0.2824338
+2008-01-01T00:00:00Z,Selo,NA,numeric,-0.8280007
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5733532
+2009-01-01T00:00:00Z,Seup,NA,numeric,-0.3005145
+2009-01-01T00:00:00Z,Selo,NA,numeric,-0.8460444
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3718754
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.09940156
+2010-01-01T00:00:00Z,Selo,NA,numeric,-0.6449939
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.1493466
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.4216562
+2011-01-01T00:00:00Z,Selo,NA,numeric,-0.1245439
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5922816
+2012-01-01T00:00:00Z,Seup,NA,numeric,-0.3196697
+2012-01-01T00:00:00Z,Selo,NA,numeric,-0.8651783
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2991671
+2013-01-01T00:00:00Z,Seup,NA,numeric,-0.02595167
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.5718838
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7966416
+2014-01-01T00:00:00Z,Seup,NA,numeric,-0.5238238
+2014-01-01T00:00:00Z,Selo,NA,numeric,-1.069419
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3051711
+2015-01-01T00:00:00Z,Seup,NA,numeric,-0.03201854
+2015-01-01T00:00:00Z,Selo,NA,numeric,-0.5778195
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2435061
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.02908183
+2016-01-01T00:00:00Z,Selo,NA,numeric,-0.5166352
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.9934292
+2017-01-01T00:00:00Z,Seup,NA,numeric,1.266162
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.7201021
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4065115
+2018-01-01T00:00:00Z,Seup,NA,numeric,-0.1340746
+2018-01-01T00:00:00Z,Selo,NA,numeric,-0.6797287
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3177396
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.5906259
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.0448685
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.8057056
+2020-01-01T00:00:00Z,Seup,NA,numeric,-0.5330216
+2020-01-01T00:00:00Z,Selo,NA,numeric,-1.07862
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.1301259
+1981-01-01T00:00:00Z,Seup,NA,numeric,0.5049491
+1981-01-01T00:00:00Z,Selo,NA,numeric,-0.2449904
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6458933
+1982-01-01T00:00:00Z,Seup,NA,numeric,1.020718
+1982-01-01T00:00:00Z,Selo,NA,numeric,0.2707652
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.0292955
+1983-01-01T00:00:00Z,Seup,NA,numeric,0.3455694
+1983-01-01T00:00:00Z,Selo,NA,numeric,-0.4044833
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.862133
+1984-01-01T00:00:00Z,Seup,NA,numeric,1.236963
+1984-01-01T00:00:00Z,Selo,NA,numeric,0.4870154
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4571379
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.08231274
+1985-01-01T00:00:00Z,Selo,NA,numeric,-0.8322507
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6680171
+1986-01-01T00:00:00Z,Seup,NA,numeric,1.042871
+1986-01-01T00:00:00Z,Selo,NA,numeric,0.2928422
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.029324
+1987-01-01T00:00:00Z,Seup,NA,numeric,-0.654486
+1987-01-01T00:00:00Z,Selo,NA,numeric,-1.404438
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.144744
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.7699075
+1988-01-01T00:00:00Z,Selo,NA,numeric,-1.519858
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4969542
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.1221186
+1989-01-01T00:00:00Z,Selo,NA,numeric,-0.8720675
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5862163
+1990-01-01T00:00:00Z,Seup,NA,numeric,-0.2113457
+1990-01-01T00:00:00Z,Selo,NA,numeric,-0.9613478
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5746177
+1991-01-01T00:00:00Z,Seup,NA,numeric,-0.1997852
+1991-01-01T00:00:00Z,Selo,NA,numeric,-0.9497302
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.547068
+1992-01-01T00:00:00Z,Seup,NA,numeric,-1.172239
+1992-01-01T00:00:00Z,Selo,NA,numeric,-1.92218
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2277898
+1993-01-01T00:00:00Z,Seup,NA,numeric,0.6026172
+1993-01-01T00:00:00Z,Selo,NA,numeric,-0.1473222
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.238404
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.8635758
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.613515
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1014048
+1995-01-01T00:00:00Z,Seup,NA,numeric,0.2734248
+1995-01-01T00:00:00Z,Selo,NA,numeric,-0.4765417
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.743164
+1996-01-01T00:00:00Z,Seup,NA,numeric,2.117992
+1996-01-01T00:00:00Z,Selo,NA,numeric,1.368037
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.676275
+1997-01-01T00:00:00Z,Seup,NA,numeric,2.0511
+1997-01-01T00:00:00Z,Selo,NA,numeric,1.301147
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1138909
+1998-01-01T00:00:00Z,Seup,NA,numeric,0.2609465
+1998-01-01T00:00:00Z,Selo,NA,numeric,-0.4890387
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2140998
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.5889237
+1999-01-01T00:00:00Z,Selo,NA,numeric,-0.1610183
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9343221
+2000-01-01T00:00:00Z,Seup,NA,numeric,-0.5594987
+2000-01-01T00:00:00Z,Selo,NA,numeric,-1.309438
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.108442
+2001-01-01T00:00:00Z,Seup,NA,numeric,-0.7336071
+2001-01-01T00:00:00Z,Selo,NA,numeric,-1.483555
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.02714574
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.3476916
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.4022599
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.703433
+2003-01-01T00:00:00Z,Seup,NA,numeric,1.078266
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.3283188
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2244581
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.150398
+2004-01-01T00:00:00Z,Selo,NA,numeric,-0.5995807
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6733776
+2005-01-01T00:00:00Z,Seup,NA,numeric,-0.2985487
+2005-01-01T00:00:00Z,Selo,NA,numeric,-1.0485120000000001
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3521223
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.7269589
+2006-01-01T00:00:00Z,Selo,NA,numeric,-0.02302471
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.150233
+2007-01-01T00:00:00Z,Seup,NA,numeric,-0.7754073
+2007-01-01T00:00:00Z,Selo,NA,numeric,-1.525345
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.8107484
+2008-01-01T00:00:00Z,Seup,NA,numeric,1.18558
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.435636
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2689212
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.6437466
+2009-01-01T00:00:00Z,Selo,NA,numeric,-0.1061916
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6939661
+2010-01-01T00:00:00Z,Seup,NA,numeric,1.068826
+2010-01-01T00:00:00Z,Selo,NA,numeric,0.3187834
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.120385
+2011-01-01T00:00:00Z,Seup,NA,numeric,1.495278
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.7452373
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.4426961
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.8175204
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.06757821
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2953364
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.07948973
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.670449
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2443806
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.6192216
+2014-01-01T00:00:00Z,Selo,NA,numeric,-0.1307385
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.341068
+2015-01-01T00:00:00Z,Seup,NA,numeric,-0.9662446
+2015-01-01T00:00:00Z,Selo,NA,numeric,-1.716185
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5292662
+2016-01-01T00:00:00Z,Seup,NA,numeric,-0.1544429
+2016-01-01T00:00:00Z,Selo,NA,numeric,-0.904383
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.140637
+2017-01-01T00:00:00Z,Seup,NA,numeric,1.515474
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.7655233
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2401908
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.6150771
+2018-01-01T00:00:00Z,Selo,NA,numeric,-0.1349517
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.222115
+2019-01-01T00:00:00Z,Seup,NA,numeric,1.597011
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.8469622
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.1956146
+2020-01-01T00:00:00Z,Seup,NA,numeric,0.5704417
+2020-01-01T00:00:00Z,Selo,NA,numeric,-0.1795154
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5680745
+1981-01-01T00:00:00Z,Seup,NA,numeric,-0.3473112
+1981-01-01T00:00:00Z,Selo,NA,numeric,-0.7887728
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.027173
+1982-01-01T00:00:00Z,Seup,NA,numeric,1.247821
+1982-01-01T00:00:00Z,Selo,NA,numeric,0.8063638
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.153036
+1983-01-01T00:00:00Z,Seup,NA,numeric,1.373832
+1983-01-01T00:00:00Z,Selo,NA,numeric,0.9323013
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.03226458
+1984-01-01T00:00:00Z,Seup,NA,numeric,0.2536489
+1984-01-01T00:00:00Z,Selo,NA,numeric,-0.1884453
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.425181
+1985-01-01T00:00:00Z,Seup,NA,numeric,-0.204703
+1985-01-01T00:00:00Z,Selo,NA,numeric,-0.6462102
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.947885
+1986-01-01T00:00:00Z,Seup,NA,numeric,2.16866
+1986-01-01T00:00:00Z,Selo,NA,numeric,1.726603
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.9025002
+1987-01-01T00:00:00Z,Seup,NA,numeric,-0.6817789
+1987-01-01T00:00:00Z,Selo,NA,numeric,-1.123241
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3126475
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.09212546
+1988-01-01T00:00:00Z,Selo,NA,numeric,-0.5335811
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4224193
+1989-01-01T00:00:00Z,Seup,NA,numeric,-0.20169
+1989-01-01T00:00:00Z,Selo,NA,numeric,-0.6431973
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7018754
+1990-01-01T00:00:00Z,Seup,NA,numeric,-0.4811899
+1990-01-01T00:00:00Z,Selo,NA,numeric,-0.9226933
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7849245
+1991-01-01T00:00:00Z,Seup,NA,numeric,-0.5642697
+1991-01-01T00:00:00Z,Selo,NA,numeric,-1.005734
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.019948
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.7992157
+1992-01-01T00:00:00Z,Selo,NA,numeric,-1.240687
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.743917
+1993-01-01T00:00:00Z,Seup,NA,numeric,0.9646384
+1993-01-01T00:00:00Z,Selo,NA,numeric,0.5226983
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.94756
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.7266855
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.168205
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.716591
+1995-01-01T00:00:00Z,Seup,NA,numeric,1.937729
+1995-01-01T00:00:00Z,Selo,NA,numeric,1.495888
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2079035
+1996-01-01T00:00:00Z,Seup,NA,numeric,0.4288834
+1996-01-01T00:00:00Z,Selo,NA,numeric,-0.01335391
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,2.120648
+1997-01-01T00:00:00Z,Seup,NA,numeric,2.341392
+1997-01-01T00:00:00Z,Selo,NA,numeric,1.89995
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3724883
+1998-01-01T00:00:00Z,Seup,NA,numeric,0.5933458
+1998-01-01T00:00:00Z,Selo,NA,numeric,0.1518301
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.1090884
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.3302421
+1999-01-01T00:00:00Z,Selo,NA,numeric,-0.1120053
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.04695959
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.1735484
+2000-01-01T00:00:00Z,Selo,NA,numeric,-0.2679287
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.040814
+2001-01-01T00:00:00Z,Seup,NA,numeric,-0.8201012
+2001-01-01T00:00:00Z,Selo,NA,numeric,-1.261619
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1931055
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.02762784
+2002-01-01T00:00:00Z,Selo,NA,numeric,-0.4138168
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6296505
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.8502501
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.4086242
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5213688
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.7418721
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.300237
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5562339
+2005-01-01T00:00:00Z,Seup,NA,numeric,-0.335716
+2005-01-01T00:00:00Z,Selo,NA,numeric,-0.7771743
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.672249
+2006-01-01T00:00:00Z,Seup,NA,numeric,1.893196
+2006-01-01T00:00:00Z,Selo,NA,numeric,1.451439
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.704035
+2007-01-01T00:00:00Z,Seup,NA,numeric,-0.4833087
+2007-01-01T00:00:00Z,Selo,NA,numeric,-0.9247546
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2801139
+2008-01-01T00:00:00Z,Seup,NA,numeric,-0.05961759
+2008-01-01T00:00:00Z,Selo,NA,numeric,-0.5012373
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6181378
+2009-01-01T00:00:00Z,Seup,NA,numeric,-0.397503
+2009-01-01T00:00:00Z,Selo,NA,numeric,-0.8390809
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4794055
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.2588531
+2010-01-01T00:00:00Z,Selo,NA,numeric,-0.7004178
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2166936
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.003987617
+2011-01-01T00:00:00Z,Selo,NA,numeric,-0.4374584
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3651132
+2012-01-01T00:00:00Z,Seup,NA,numeric,-0.1443333
+2012-01-01T00:00:00Z,Selo,NA,numeric,-0.5858796
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2098145
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.4302441
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.01163575
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.929525
+2014-01-01T00:00:00Z,Seup,NA,numeric,-0.708887
+2014-01-01T00:00:00Z,Selo,NA,numeric,-1.150307
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.02106227
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.1993455
+2015-01-01T00:00:00Z,Selo,NA,numeric,-0.2425707
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1731358
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.04726283
+2016-01-01T00:00:00Z,Selo,NA,numeric,-0.3946863
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.4518185
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.6723492
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.2307142
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.8711917
+2018-01-01T00:00:00Z,Seup,NA,numeric,-0.6505804
+2018-01-01T00:00:00Z,Selo,NA,numeric,-1.092191
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.9470454
+2019-01-01T00:00:00Z,Seup,NA,numeric,1.170968
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.7227443
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.16474
+2020-01-01T00:00:00Z,Seup,NA,numeric,-0.9408328
+2020-01-01T00:00:00Z,Selo,NA,numeric,-1.389035
+1981-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3598434
+1981-01-01T00:00:00Z,Seup,NA,numeric,-0.0770144
+1981-01-01T00:00:00Z,Selo,NA,numeric,-0.6430808
+1982-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.129089
+1982-01-01T00:00:00Z,Seup,NA,numeric,1.412086
+1982-01-01T00:00:00Z,Selo,NA,numeric,0.8453398
+1983-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.185691
+1983-01-01T00:00:00Z,Seup,NA,numeric,1.468722
+1983-01-01T00:00:00Z,Selo,NA,numeric,0.9026536
+1984-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3318571
+1984-01-01T00:00:00Z,Seup,NA,numeric,0.6146693
+1984-01-01T00:00:00Z,Selo,NA,numeric,0.04848932
+1985-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.2202947
+1985-01-01T00:00:00Z,Seup,NA,numeric,0.06267629
+1985-01-01T00:00:00Z,Selo,NA,numeric,-0.5033704
+1986-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6706432
+1986-01-01T00:00:00Z,Seup,NA,numeric,0.9536604
+1986-01-01T00:00:00Z,Selo,NA,numeric,0.3873218
+1987-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5797371
+1987-01-01T00:00:00Z,Seup,NA,numeric,-0.2966569
+1987-01-01T00:00:00Z,Selo,NA,numeric,-0.8627488
+1988-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5048773
+1988-01-01T00:00:00Z,Seup,NA,numeric,-0.2220555
+1988-01-01T00:00:00Z,Selo,NA,numeric,-0.7881498
+1989-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.04872836
+1989-01-01T00:00:00Z,Seup,NA,numeric,0.3316944
+1989-01-01T00:00:00Z,Selo,NA,numeric,-0.2346745
+1990-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4414108
+1990-01-01T00:00:00Z,Seup,NA,numeric,-0.1584881
+1990-01-01T00:00:00Z,Selo,NA,numeric,-0.7246205
+1991-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7561024
+1991-01-01T00:00:00Z,Seup,NA,numeric,-0.4731467
+1991-01-01T00:00:00Z,Selo,NA,numeric,-1.039184
+1992-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.252847
+1992-01-01T00:00:00Z,Seup,NA,numeric,-0.9700578
+1992-01-01T00:00:00Z,Selo,NA,numeric,-1.536208
+1993-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1238902
+1993-01-01T00:00:00Z,Seup,NA,numeric,0.1591729
+1993-01-01T00:00:00Z,Selo,NA,numeric,-0.4069254
+1994-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.20316
+1994-01-01T00:00:00Z,Seup,NA,numeric,-0.9203839
+1994-01-01T00:00:00Z,Selo,NA,numeric,-1.486479
+1995-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.06271768
+1995-01-01T00:00:00Z,Seup,NA,numeric,0.3456558
+1995-01-01T00:00:00Z,Selo,NA,numeric,-0.2204844
+1996-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2177015
+1996-01-01T00:00:00Z,Seup,NA,numeric,0.5006562
+1996-01-01T00:00:00Z,Selo,NA,numeric,-0.06542193
+1997-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,3.36586
+1997-01-01T00:00:00Z,Seup,NA,numeric,3.648631
+1997-01-01T00:00:00Z,Selo,NA,numeric,3.082119
+1998-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.222167
+1998-01-01T00:00:00Z,Seup,NA,numeric,0.5049294
+1998-01-01T00:00:00Z,Selo,NA,numeric,-0.06119492
+1999-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.6555245
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.9385102
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.372085
+2000-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.1182866
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.401292
+2000-01-01T00:00:00Z,Selo,NA,numeric,-0.1648632
+2001-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.622179
+2001-01-01T00:00:00Z,Seup,NA,numeric,-1.339441
+2001-01-01T00:00:00Z,Selo,NA,numeric,-1.90563
+2002-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.7333995
+2002-01-01T00:00:00Z,Seup,NA,numeric,-0.450427
+2002-01-01T00:00:00Z,Selo,NA,numeric,-1.01647
+2003-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.02705131
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.3100442
+2003-01-01T00:00:00Z,Selo,NA,numeric,-0.2565282
+2004-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.1092883
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.1736669
+2004-01-01T00:00:00Z,Selo,NA,numeric,-0.3925204
+2005-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.02952468
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.3124918
+2005-01-01T00:00:00Z,Selo,NA,numeric,-0.2535532
+2006-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,1.400586
+2006-01-01T00:00:00Z,Seup,NA,numeric,1.690721
+2006-01-01T00:00:00Z,Selo,NA,numeric,1.110038
+2007-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.1850415
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.4682649
+2007-01-01T00:00:00Z,Selo,NA,numeric,-0.09794775
+2008-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.6808381
+2008-01-01T00:00:00Z,Seup,NA,numeric,-0.3979847
+2008-01-01T00:00:00Z,Selo,NA,numeric,-0.9640588
+2009-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.07985216
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.3631884
+2009-01-01T00:00:00Z,Selo,NA,numeric,-0.2031858
+2010-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.5575345
+2010-01-01T00:00:00Z,Seup,NA,numeric,-0.2747457
+2010-01-01T00:00:00Z,Selo,NA,numeric,-0.8408285
+2011-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.4903889
+2011-01-01T00:00:00Z,Seup,NA,numeric,-0.2075669
+2011-01-01T00:00:00Z,Selo,NA,numeric,-0.7736803
+2012-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.221208
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.503976
+2012-01-01T00:00:00Z,Selo,NA,numeric,-0.06217623
+2013-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2460244
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.5290473
+2013-01-01T00:00:00Z,Selo,NA,numeric,-0.03767889
+2014-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.3768861
+2014-01-01T00:00:00Z,Seup,NA,numeric,-0.09394397
+2014-01-01T00:00:00Z,Selo,NA,numeric,-0.6599999
+2015-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.3178064
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.6025414
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.03448426
+2016-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.2939417
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.5768322
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.01060617
+2017-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.5231626
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.8062654
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.2400705
+2018-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-1.277232
+2018-01-01T00:00:00Z,Seup,NA,numeric,-0.9944902
+2018-01-01T00:00:00Z,Selo,NA,numeric,-1.560646
+2019-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,0.8786881
+2019-01-01T00:00:00Z,Seup,NA,numeric,1.161874
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.5957087
+2020-01-01T00:00:00Z,flow_anomaly_1_day_max,NA,numeric,-0.941607
+2020-01-01T00:00:00Z,Seup,NA,numeric,-0.6585388
+2020-01-01T00:00:00Z,Selo,NA,numeric,-1.22465

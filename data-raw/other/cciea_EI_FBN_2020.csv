@@ -1,0 +1,953 @@
+time,variable,value_character,value_type,value_numeric
+1998-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+1999-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2000-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2001-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2002-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2003-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2004-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2005-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2006-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2007-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2008-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2009-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2010-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2011-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2012-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2013-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2014-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2015-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2016-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2017-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2018-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+2019-01-01T00:00:00Z,species_group,CA Market squid,character,NA
+1998-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+1999-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2000-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2001-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2002-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2003-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2004-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2005-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2006-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2007-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2008-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2009-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2010-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2011-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2012-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2013-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2014-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2015-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2016-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2017-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2018-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+2019-01-01T00:00:00Z,species_group,Subyearling Chinook,character,NA
+1998-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+1999-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2000-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2001-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2002-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2003-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2004-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2005-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2006-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2007-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2008-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2009-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2010-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2011-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2012-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2013-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2014-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2015-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2016-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2017-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2018-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+2019-01-01T00:00:00Z,species_group,Yearling Chinook,character,NA
+1998-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+1999-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2000-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2001-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2002-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2003-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2004-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2005-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2006-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2007-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2008-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2009-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2010-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2011-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2012-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2013-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2014-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2015-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2016-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2017-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2018-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+2019-01-01T00:00:00Z,species_group,Yearling Coho,character,NA
+1999-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2000-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2001-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2002-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2003-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2004-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2005-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2006-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2007-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2008-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2009-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2010-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2011-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2012-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2013-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2014-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2015-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2016-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2017-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2018-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+2019-01-01T00:00:00Z,species_group,Chrysaora,character,NA
+1999-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2000-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2001-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2002-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2003-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2004-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2005-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2006-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2007-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2008-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2009-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2010-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2011-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2012-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2013-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2014-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2015-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2016-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2017-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2018-01-01T00:00:00Z,species_group,Aequorea,character,NA
+2019-01-01T00:00:00Z,species_group,Aequorea,character,NA
+1998-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+1999-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2000-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2001-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2002-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2003-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2004-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2005-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2006-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2007-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2008-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2009-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2010-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2011-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2012-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2013-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2014-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2015-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2016-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2017-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2018-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+2019-01-01T00:00:00Z,species_group,Juvenile chum,character,NA
+1998-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+1999-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2000-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2001-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2002-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2003-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2004-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2005-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2006-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2007-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2008-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2009-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2010-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2011-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2012-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2013-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2014-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2015-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2016-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2017-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2018-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+2019-01-01T00:00:00Z,species_group,Juvenile sockeye,character,NA
+1998-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+1999-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2000-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2001-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2002-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2003-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2004-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2005-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2006-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2007-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2008-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2009-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2010-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2011-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2012-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2013-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2014-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2015-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2016-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2017-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2018-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+2019-01-01T00:00:00Z,species_group,Pacific Pompano,character,NA
+1999-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2000-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2001-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2002-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2003-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2004-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2005-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2006-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2007-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2008-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2009-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2010-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2011-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2012-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2013-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2014-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2015-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2016-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2017-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2018-01-01T00:00:00Z,species_group,Aurelia,character,NA
+2019-01-01T00:00:00Z,species_group,Aurelia,character,NA
+1999-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2000-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2001-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2002-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2003-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2004-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2005-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2006-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2007-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2008-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2009-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2010-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2011-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2012-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2013-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2014-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2015-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2016-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2017-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2018-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+2019-01-01T00:00:00Z,species_group,Phacellophora,character,NA
+1998-01-01T00:00:00Z,mean_density,NA,numeric,0.3234
+1998-01-01T00:00:00Z,Seup,NA,numeric,0.435
+1998-01-01T00:00:00Z,Selo,NA,numeric,0.211
+1999-01-01T00:00:00Z,mean_density,NA,numeric,0.3805
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.484
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.277
+2000-01-01T00:00:00Z,mean_density,NA,numeric,0.0634
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.101
+2000-01-01T00:00:00Z,Selo,NA,numeric,0.026
+2001-01-01T00:00:00Z,mean_density,NA,numeric,0.2301
+2001-01-01T00:00:00Z,Seup,NA,numeric,0.325
+2001-01-01T00:00:00Z,Selo,NA,numeric,0.135
+2002-01-01T00:00:00Z,mean_density,NA,numeric,0.3762
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.477
+2002-01-01T00:00:00Z,Selo,NA,numeric,0.276
+2003-01-01T00:00:00Z,mean_density,NA,numeric,0.555
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.675
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.435
+2004-01-01T00:00:00Z,mean_density,NA,numeric,0.3068
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.376
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.238
+2005-01-01T00:00:00Z,mean_density,NA,numeric,0.1242
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.188
+2005-01-01T00:00:00Z,Selo,NA,numeric,0.06
+2006-01-01T00:00:00Z,mean_density,NA,numeric,0.3093
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.398
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.22
+2007-01-01T00:00:00Z,mean_density,NA,numeric,0.072
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.099
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.045
+2008-01-01T00:00:00Z,mean_density,NA,numeric,0.042
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.055
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.029
+2009-01-01T00:00:00Z,mean_density,NA,numeric,0.0094
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.014
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.005
+2010-01-01T00:00:00Z,mean_density,NA,numeric,0.1335
+2010-01-01T00:00:00Z,Seup,NA,numeric,0.201
+2010-01-01T00:00:00Z,Selo,NA,numeric,0.066
+2011-01-01T00:00:00Z,mean_density,NA,numeric,0.2349
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.308
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.162
+2012-01-01T00:00:00Z,mean_density,NA,numeric,0.2633
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.347
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.18
+2013-01-01T00:00:00Z,mean_density,NA,numeric,0.1681
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.214
+2013-01-01T00:00:00Z,Selo,NA,numeric,0.122
+2014-01-01T00:00:00Z,mean_density,NA,numeric,0.6082
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.739
+2014-01-01T00:00:00Z,Selo,NA,numeric,0.477
+2015-01-01T00:00:00Z,mean_density,NA,numeric,0.545
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.631
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.459
+2016-01-01T00:00:00Z,mean_density,NA,numeric,0.4503
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.547
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.354
+2017-01-01T00:00:00Z,mean_density,NA,numeric,0.3576
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.439
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.276
+2018-01-01T00:00:00Z,mean_density,NA,numeric,0.856
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.981
+2018-01-01T00:00:00Z,Selo,NA,numeric,0.731
+2019-01-01T00:00:00Z,mean_density,NA,numeric,1.15347
+2019-01-01T00:00:00Z,Seup,NA,numeric,1.29039
+2019-01-01T00:00:00Z,Selo,NA,numeric,1.01655
+1998-01-01T00:00:00Z,mean_density,NA,numeric,0.1791
+1998-01-01T00:00:00Z,Seup,NA,numeric,0.263
+1998-01-01T00:00:00Z,Selo,NA,numeric,0.095
+1999-01-01T00:00:00Z,mean_density,NA,numeric,0.023
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.037
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.009
+2000-01-01T00:00:00Z,mean_density,NA,numeric,0.0974
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.132
+2000-01-01T00:00:00Z,Selo,NA,numeric,0.063
+2001-01-01T00:00:00Z,mean_density,NA,numeric,0.0523
+2001-01-01T00:00:00Z,Seup,NA,numeric,0.075
+2001-01-01T00:00:00Z,Selo,NA,numeric,0.03
+2002-01-01T00:00:00Z,mean_density,NA,numeric,0.1559
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.194
+2002-01-01T00:00:00Z,Selo,NA,numeric,0.118
+2003-01-01T00:00:00Z,mean_density,NA,numeric,0.312
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.374
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.25
+2004-01-01T00:00:00Z,mean_density,NA,numeric,0.1678
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.205
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.131
+2005-01-01T00:00:00Z,mean_density,NA,numeric,0.0639
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.092
+2005-01-01T00:00:00Z,Selo,NA,numeric,0.036
+2006-01-01T00:00:00Z,mean_density,NA,numeric,0.1844
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.231
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.138
+2007-01-01T00:00:00Z,mean_density,NA,numeric,0.114
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.156
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.072
+2008-01-01T00:00:00Z,mean_density,NA,numeric,0.1564
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.19
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.123
+2009-01-01T00:00:00Z,mean_density,NA,numeric,0.2528
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.312
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.194
+2010-01-01T00:00:00Z,mean_density,NA,numeric,0.298
+2010-01-01T00:00:00Z,Seup,NA,numeric,0.357
+2010-01-01T00:00:00Z,Selo,NA,numeric,0.239
+2011-01-01T00:00:00Z,mean_density,NA,numeric,0.1574
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.191
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.123
+2012-01-01T00:00:00Z,mean_density,NA,numeric,0.0793
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.108
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.051
+2013-01-01T00:00:00Z,mean_density,NA,numeric,0.1503
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.199
+2013-01-01T00:00:00Z,Selo,NA,numeric,0.101
+2014-01-01T00:00:00Z,mean_density,NA,numeric,0.1219
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.156
+2014-01-01T00:00:00Z,Selo,NA,numeric,0.088
+2015-01-01T00:00:00Z,mean_density,NA,numeric,0.0766
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.106
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.047
+2016-01-01T00:00:00Z,mean_density,NA,numeric,0.2896
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.361
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.218
+2017-01-01T00:00:00Z,mean_density,NA,numeric,0.0568
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.079
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.035
+2018-01-01T00:00:00Z,mean_density,NA,numeric,0.1695
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.214
+2018-01-01T00:00:00Z,Selo,NA,numeric,0.125
+2019-01-01T00:00:00Z,mean_density,NA,numeric,0.16397
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.21339
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.11454
+1998-01-01T00:00:00Z,mean_density,NA,numeric,0.1007
+1998-01-01T00:00:00Z,Seup,NA,numeric,0.14
+1998-01-01T00:00:00Z,Selo,NA,numeric,0.062
+1999-01-01T00:00:00Z,mean_density,NA,numeric,0.2844
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.346
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.223
+2000-01-01T00:00:00Z,mean_density,NA,numeric,0.2223
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.276
+2000-01-01T00:00:00Z,Selo,NA,numeric,0.169
+2001-01-01T00:00:00Z,mean_density,NA,numeric,0.1123
+2001-01-01T00:00:00Z,Seup,NA,numeric,0.148
+2001-01-01T00:00:00Z,Selo,NA,numeric,0.077
+2002-01-01T00:00:00Z,mean_density,NA,numeric,0.2365
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.28
+2002-01-01T00:00:00Z,Selo,NA,numeric,0.193
+2003-01-01T00:00:00Z,mean_density,NA,numeric,0.1951
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.232
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.158
+2004-01-01T00:00:00Z,mean_density,NA,numeric,0.147
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.173
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.121
+2005-01-01T00:00:00Z,mean_density,NA,numeric,0.0444
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.061
+2005-01-01T00:00:00Z,Selo,NA,numeric,0.027
+2006-01-01T00:00:00Z,mean_density,NA,numeric,0.1644
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.206
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.123
+2007-01-01T00:00:00Z,mean_density,NA,numeric,0.1987
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.234
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.163
+2008-01-01T00:00:00Z,mean_density,NA,numeric,0.4301
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.48
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.38
+2009-01-01T00:00:00Z,mean_density,NA,numeric,0.2201
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.259
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.181
+2010-01-01T00:00:00Z,mean_density,NA,numeric,0.2435
+2010-01-01T00:00:00Z,Seup,NA,numeric,0.277
+2010-01-01T00:00:00Z,Selo,NA,numeric,0.21
+2011-01-01T00:00:00Z,mean_density,NA,numeric,0.1535
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.18
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.127
+2012-01-01T00:00:00Z,mean_density,NA,numeric,0.2845
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.327
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.242
+2013-01-01T00:00:00Z,mean_density,NA,numeric,0.2553
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.299
+2013-01-01T00:00:00Z,Selo,NA,numeric,0.212
+2014-01-01T00:00:00Z,mean_density,NA,numeric,0.2134
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.25
+2014-01-01T00:00:00Z,Selo,NA,numeric,0.177
+2015-01-01T00:00:00Z,mean_density,NA,numeric,0.1518
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.182
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.122
+2016-01-01T00:00:00Z,mean_density,NA,numeric,0.102
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.128
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.076
+2017-01-01T00:00:00Z,mean_density,NA,numeric,0.0244
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.034
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.015
+2018-01-01T00:00:00Z,mean_density,NA,numeric,0.1356
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.163
+2018-01-01T00:00:00Z,Selo,NA,numeric,0.108
+2019-01-01T00:00:00Z,mean_density,NA,numeric,0.18421
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.22291
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.14551
+1998-01-01T00:00:00Z,mean_density,NA,numeric,0.0879
+1998-01-01T00:00:00Z,Seup,NA,numeric,0.131
+1998-01-01T00:00:00Z,Selo,NA,numeric,0.044
+1999-01-01T00:00:00Z,mean_density,NA,numeric,0.2838
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.362
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.206
+2000-01-01T00:00:00Z,mean_density,NA,numeric,0.237
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.306
+2000-01-01T00:00:00Z,Selo,NA,numeric,0.168
+2001-01-01T00:00:00Z,mean_density,NA,numeric,0.4359
+2001-01-01T00:00:00Z,Seup,NA,numeric,0.504
+2001-01-01T00:00:00Z,Selo,NA,numeric,0.368
+2002-01-01T00:00:00Z,mean_density,NA,numeric,0.4168
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.486
+2002-01-01T00:00:00Z,Selo,NA,numeric,0.348
+2003-01-01T00:00:00Z,mean_density,NA,numeric,0.4276
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.501
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.355
+2004-01-01T00:00:00Z,mean_density,NA,numeric,0.2157
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.264
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.168
+2005-01-01T00:00:00Z,mean_density,NA,numeric,0.0743
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.097
+2005-01-01T00:00:00Z,Selo,NA,numeric,0.051
+2006-01-01T00:00:00Z,mean_density,NA,numeric,0.2552
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.301
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.21
+2007-01-01T00:00:00Z,mean_density,NA,numeric,0.4679
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.529
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.407
+2008-01-01T00:00:00Z,mean_density,NA,numeric,0.4498
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.513
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.387
+2009-01-01T00:00:00Z,mean_density,NA,numeric,0.3295
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.377
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.282
+2010-01-01T00:00:00Z,mean_density,NA,numeric,0.3129
+2010-01-01T00:00:00Z,Seup,NA,numeric,0.369
+2010-01-01T00:00:00Z,Selo,NA,numeric,0.257
+2011-01-01T00:00:00Z,mean_density,NA,numeric,0.2506
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.295
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.206
+2012-01-01T00:00:00Z,mean_density,NA,numeric,0.2593
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.298
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.221
+2013-01-01T00:00:00Z,mean_density,NA,numeric,0.4783
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.553
+2013-01-01T00:00:00Z,Selo,NA,numeric,0.404
+2014-01-01T00:00:00Z,mean_density,NA,numeric,0.3027
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.351
+2014-01-01T00:00:00Z,Selo,NA,numeric,0.255
+2015-01-01T00:00:00Z,mean_density,NA,numeric,0.2624
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.321
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.204
+2016-01-01T00:00:00Z,mean_density,NA,numeric,0.2584
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.306
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.211
+2017-01-01T00:00:00Z,mean_density,NA,numeric,0.0687
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.087
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.05
+2018-01-01T00:00:00Z,mean_density,NA,numeric,0.4575
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.525
+2018-01-01T00:00:00Z,Selo,NA,numeric,0.39
+2019-01-01T00:00:00Z,mean_density,NA,numeric,0.25735
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.30892
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.20578
+1999-01-01T00:00:00Z,mean_density,NA,numeric,0.0779
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.104
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.051
+2000-01-01T00:00:00Z,mean_density,NA,numeric,0.3317
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.407
+2000-01-01T00:00:00Z,Selo,NA,numeric,0.257
+2001-01-01T00:00:00Z,mean_density,NA,numeric,0.5955
+2001-01-01T00:00:00Z,Seup,NA,numeric,0.748
+2001-01-01T00:00:00Z,Selo,NA,numeric,0.443
+2002-01-01T00:00:00Z,mean_density,NA,numeric,0.9999
+2002-01-01T00:00:00Z,Seup,NA,numeric,1.163
+2002-01-01T00:00:00Z,Selo,NA,numeric,0.836
+2003-01-01T00:00:00Z,mean_density,NA,numeric,0.6785
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.826
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.531
+2004-01-01T00:00:00Z,mean_density,NA,numeric,1.0514
+2004-01-01T00:00:00Z,Seup,NA,numeric,1.232
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.87
+2005-01-01T00:00:00Z,mean_density,NA,numeric,0.4967
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.635
+2005-01-01T00:00:00Z,Selo,NA,numeric,0.358
+2006-01-01T00:00:00Z,mean_density,NA,numeric,0.6724
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.819
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.526
+2007-01-01T00:00:00Z,mean_density,NA,numeric,0.4146
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.547
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.282
+2008-01-01T00:00:00Z,mean_density,NA,numeric,0.706
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.853
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.559
+2009-01-01T00:00:00Z,mean_density,NA,numeric,0.5242
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.652
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.396
+2010-01-01T00:00:00Z,mean_density,NA,numeric,0.4279
+2010-01-01T00:00:00Z,Seup,NA,numeric,0.514
+2010-01-01T00:00:00Z,Selo,NA,numeric,0.342
+2011-01-01T00:00:00Z,mean_density,NA,numeric,0.422
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.521
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.323
+2012-01-01T00:00:00Z,mean_density,NA,numeric,0.2742
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.366
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.182
+2013-01-01T00:00:00Z,mean_density,NA,numeric,0.6057
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.729
+2013-01-01T00:00:00Z,Selo,NA,numeric,0.482
+2014-01-01T00:00:00Z,mean_density,NA,numeric,0.5705
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.685
+2014-01-01T00:00:00Z,Selo,NA,numeric,0.456
+2015-01-01T00:00:00Z,mean_density,NA,numeric,0.0681
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.096
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.04
+2016-01-01T00:00:00Z,mean_density,NA,numeric,0.1456
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.209
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.082
+2017-01-01T00:00:00Z,mean_density,NA,numeric,0.3838
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.479
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.288
+2018-01-01T00:00:00Z,mean_density,NA,numeric,0.6396
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.758
+2018-01-01T00:00:00Z,Selo,NA,numeric,0.521
+2019-01-01T00:00:00Z,mean_density,NA,numeric,0.50373
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.60991
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.39755
+1999-01-01T00:00:00Z,mean_density,NA,numeric,0.6407
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.806
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.475
+2000-01-01T00:00:00Z,mean_density,NA,numeric,0.6663
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.81
+2000-01-01T00:00:00Z,Selo,NA,numeric,0.523
+2001-01-01T00:00:00Z,mean_density,NA,numeric,0.2325
+2001-01-01T00:00:00Z,Seup,NA,numeric,0.307
+2001-01-01T00:00:00Z,Selo,NA,numeric,0.158
+2002-01-01T00:00:00Z,mean_density,NA,numeric,0.6842
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.794
+2002-01-01T00:00:00Z,Selo,NA,numeric,0.575
+2003-01-01T00:00:00Z,mean_density,NA,numeric,0.343
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.441
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.245
+2004-01-01T00:00:00Z,mean_density,NA,numeric,0.5777
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.666
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.489
+2005-01-01T00:00:00Z,mean_density,NA,numeric,0.107
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.145
+2005-01-01T00:00:00Z,Selo,NA,numeric,0.069
+2006-01-01T00:00:00Z,mean_density,NA,numeric,0.7785
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.909
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.648
+2007-01-01T00:00:00Z,mean_density,NA,numeric,0.0549
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.09
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.02
+2008-01-01T00:00:00Z,mean_density,NA,numeric,0.3749
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.458
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.292
+2009-01-01T00:00:00Z,mean_density,NA,numeric,0.2444
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.334
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.155
+2010-01-01T00:00:00Z,mean_density,NA,numeric,0.2699
+2010-01-01T00:00:00Z,Seup,NA,numeric,0.322
+2010-01-01T00:00:00Z,Selo,NA,numeric,0.217
+2011-01-01T00:00:00Z,mean_density,NA,numeric,0.1576
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.218
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.097
+2012-01-01T00:00:00Z,mean_density,NA,numeric,0.6112
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.746
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.477
+2013-01-01T00:00:00Z,mean_density,NA,numeric,0.1879
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.236
+2013-01-01T00:00:00Z,Selo,NA,numeric,0.14
+2014-01-01T00:00:00Z,mean_density,NA,numeric,0.8414
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.945
+2014-01-01T00:00:00Z,Selo,NA,numeric,0.737
+2015-01-01T00:00:00Z,mean_density,NA,numeric,1.9612
+2015-01-01T00:00:00Z,Seup,NA,numeric,2.099
+2015-01-01T00:00:00Z,Selo,NA,numeric,1.824
+2016-01-01T00:00:00Z,mean_density,NA,numeric,1.7234
+2016-01-01T00:00:00Z,Seup,NA,numeric,1.864
+2016-01-01T00:00:00Z,Selo,NA,numeric,1.582
+2017-01-01T00:00:00Z,mean_density,NA,numeric,0.294
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.374
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.214
+2018-01-01T00:00:00Z,mean_density,NA,numeric,1.2122
+2018-01-01T00:00:00Z,Seup,NA,numeric,1.325
+2018-01-01T00:00:00Z,Selo,NA,numeric,1.1
+2019-01-01T00:00:00Z,mean_density,NA,numeric,0.75097
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.84698
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.65496
+1998-01-01T00:00:00Z,mean_density,NA,numeric,0
+1998-01-01T00:00:00Z,Seup,NA,numeric,0
+1998-01-01T00:00:00Z,Selo,NA,numeric,0
+1999-01-01T00:00:00Z,mean_density,NA,numeric,0.0221
+1999-01-01T00:00:00Z,Seup,NA,numeric,0.038
+1999-01-01T00:00:00Z,Selo,NA,numeric,0.006
+2000-01-01T00:00:00Z,mean_density,NA,numeric,0.0137
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.027
+2000-01-01T00:00:00Z,Selo,NA,numeric,0
+2001-01-01T00:00:00Z,mean_density,NA,numeric,0.2383
+2001-01-01T00:00:00Z,Seup,NA,numeric,0.299
+2001-01-01T00:00:00Z,Selo,NA,numeric,0.177
+2002-01-01T00:00:00Z,mean_density,NA,numeric,0.137
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.18
+2002-01-01T00:00:00Z,Selo,NA,numeric,0.094
+2003-01-01T00:00:00Z,mean_density,NA,numeric,0.2149
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.279
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.151
+2004-01-01T00:00:00Z,mean_density,NA,numeric,0.0666
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.097
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.036
+2005-01-01T00:00:00Z,mean_density,NA,numeric,0.0085
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.017
+2005-01-01T00:00:00Z,Selo,NA,numeric,0
+2006-01-01T00:00:00Z,mean_density,NA,numeric,0.1893
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.242
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.136
+2007-01-01T00:00:00Z,mean_density,NA,numeric,0.2534
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.303
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.204
+2008-01-01T00:00:00Z,mean_density,NA,numeric,0.2531
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.306
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.2
+2009-01-01T00:00:00Z,mean_density,NA,numeric,0.1298
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.174
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.086
+2010-01-01T00:00:00Z,mean_density,NA,numeric,0.1188
+2010-01-01T00:00:00Z,Seup,NA,numeric,0.148
+2010-01-01T00:00:00Z,Selo,NA,numeric,0.09
+2011-01-01T00:00:00Z,mean_density,NA,numeric,0.0655
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.087
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.044
+2012-01-01T00:00:00Z,mean_density,NA,numeric,0.0884
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.124
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.053
+2013-01-01T00:00:00Z,mean_density,NA,numeric,0.3383
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.416
+2013-01-01T00:00:00Z,Selo,NA,numeric,0.26
+2014-01-01T00:00:00Z,mean_density,NA,numeric,0.119
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.149
+2014-01-01T00:00:00Z,Selo,NA,numeric,0.089
+2015-01-01T00:00:00Z,mean_density,NA,numeric,0.1649
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.209
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.121
+2016-01-01T00:00:00Z,mean_density,NA,numeric,0.0594
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.08
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.039
+2017-01-01T00:00:00Z,mean_density,NA,numeric,0.0457
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.063
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.029
+2018-01-01T00:00:00Z,mean_density,NA,numeric,0.2128
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.261
+2018-01-01T00:00:00Z,Selo,NA,numeric,0.165
+2019-01-01T00:00:00Z,mean_density,NA,numeric,0.25195
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.31613
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.18777
+1998-01-01T00:00:00Z,mean_density,NA,numeric,0
+1998-01-01T00:00:00Z,Seup,NA,numeric,0
+1998-01-01T00:00:00Z,Selo,NA,numeric,0
+1999-01-01T00:00:00Z,mean_density,NA,numeric,0
+1999-01-01T00:00:00Z,Seup,NA,numeric,0
+1999-01-01T00:00:00Z,Selo,NA,numeric,0
+2000-01-01T00:00:00Z,mean_density,NA,numeric,0.0076
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.015
+2000-01-01T00:00:00Z,Selo,NA,numeric,0
+2001-01-01T00:00:00Z,mean_density,NA,numeric,0.0446
+2001-01-01T00:00:00Z,Seup,NA,numeric,0.06
+2001-01-01T00:00:00Z,Selo,NA,numeric,0.029
+2002-01-01T00:00:00Z,mean_density,NA,numeric,0.0272
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.042
+2002-01-01T00:00:00Z,Selo,NA,numeric,0.013
+2003-01-01T00:00:00Z,mean_density,NA,numeric,0.0485
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.072
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.025
+2004-01-01T00:00:00Z,mean_density,NA,numeric,0.0399
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.056
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.024
+2005-01-01T00:00:00Z,mean_density,NA,numeric,0.0137
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.024
+2005-01-01T00:00:00Z,Selo,NA,numeric,0.004
+2006-01-01T00:00:00Z,mean_density,NA,numeric,0.0136
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.02
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.007
+2007-01-01T00:00:00Z,mean_density,NA,numeric,0.0799
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.101
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.059
+2008-01-01T00:00:00Z,mean_density,NA,numeric,0.0532
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.068
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.038
+2009-01-01T00:00:00Z,mean_density,NA,numeric,0.0084
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.015
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.002
+2010-01-01T00:00:00Z,mean_density,NA,numeric,0.1279
+2010-01-01T00:00:00Z,Seup,NA,numeric,0.16
+2010-01-01T00:00:00Z,Selo,NA,numeric,0.096
+2011-01-01T00:00:00Z,mean_density,NA,numeric,0.0194
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.029
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.01
+2012-01-01T00:00:00Z,mean_density,NA,numeric,0.0047
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.009
+2012-01-01T00:00:00Z,Selo,NA,numeric,0
+2013-01-01T00:00:00Z,mean_density,NA,numeric,0.0694
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.098
+2013-01-01T00:00:00Z,Selo,NA,numeric,0.04
+2014-01-01T00:00:00Z,mean_density,NA,numeric,0.0458
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.061
+2014-01-01T00:00:00Z,Selo,NA,numeric,0.031
+2015-01-01T00:00:00Z,mean_density,NA,numeric,0.0546
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.077
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.032
+2016-01-01T00:00:00Z,mean_density,NA,numeric,0.0077
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.012
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.003
+2017-01-01T00:00:00Z,mean_density,NA,numeric,0
+2017-01-01T00:00:00Z,Seup,NA,numeric,0
+2017-01-01T00:00:00Z,Selo,NA,numeric,0
+2018-01-01T00:00:00Z,mean_density,NA,numeric,0.0225
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.033
+2018-01-01T00:00:00Z,Selo,NA,numeric,0.011
+2019-01-01T00:00:00Z,mean_density,NA,numeric,0.01572
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.02175
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.0097
+1998-01-01T00:00:00Z,mean_density,NA,numeric,0
+1998-01-01T00:00:00Z,Seup,NA,numeric,0
+1998-01-01T00:00:00Z,Selo,NA,numeric,0
+1999-01-01T00:00:00Z,mean_density,NA,numeric,0
+1999-01-01T00:00:00Z,Seup,NA,numeric,0
+1999-01-01T00:00:00Z,Selo,NA,numeric,0
+2000-01-01T00:00:00Z,mean_density,NA,numeric,0
+2000-01-01T00:00:00Z,Seup,NA,numeric,0
+2000-01-01T00:00:00Z,Selo,NA,numeric,0
+2001-01-01T00:00:00Z,mean_density,NA,numeric,0
+2001-01-01T00:00:00Z,Seup,NA,numeric,0
+2001-01-01T00:00:00Z,Selo,NA,numeric,0
+2002-01-01T00:00:00Z,mean_density,NA,numeric,0
+2002-01-01T00:00:00Z,Seup,NA,numeric,0
+2002-01-01T00:00:00Z,Selo,NA,numeric,0
+2003-01-01T00:00:00Z,mean_density,NA,numeric,0.038
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.06467
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.01133
+2004-01-01T00:00:00Z,mean_density,NA,numeric,0.019
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.0323
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.0057
+2005-01-01T00:00:00Z,mean_density,NA,numeric,0
+2005-01-01T00:00:00Z,Seup,NA,numeric,0
+2005-01-01T00:00:00Z,Selo,NA,numeric,0
+2006-01-01T00:00:00Z,mean_density,NA,numeric,0.016
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.03233
+2006-01-01T00:00:00Z,Selo,NA,numeric,-3.3e-4
+2007-01-01T00:00:00Z,mean_density,NA,numeric,0
+2007-01-01T00:00:00Z,Seup,NA,numeric,0
+2007-01-01T00:00:00Z,Selo,NA,numeric,0
+2008-01-01T00:00:00Z,mean_density,NA,numeric,0
+2008-01-01T00:00:00Z,Seup,NA,numeric,0
+2008-01-01T00:00:00Z,Selo,NA,numeric,0
+2009-01-01T00:00:00Z,mean_density,NA,numeric,0
+2009-01-01T00:00:00Z,Seup,NA,numeric,0
+2009-01-01T00:00:00Z,Selo,NA,numeric,0
+2010-01-01T00:00:00Z,mean_density,NA,numeric,0
+2010-01-01T00:00:00Z,Seup,NA,numeric,0
+2010-01-01T00:00:00Z,Selo,NA,numeric,0
+2011-01-01T00:00:00Z,mean_density,NA,numeric,0.002
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.00429
+2011-01-01T00:00:00Z,Selo,NA,numeric,-2.9e-4
+2012-01-01T00:00:00Z,mean_density,NA,numeric,0
+2012-01-01T00:00:00Z,Seup,NA,numeric,0
+2012-01-01T00:00:00Z,Selo,NA,numeric,0
+2013-01-01T00:00:00Z,mean_density,NA,numeric,0
+2013-01-01T00:00:00Z,Seup,NA,numeric,0
+2013-01-01T00:00:00Z,Selo,NA,numeric,0
+2014-01-01T00:00:00Z,mean_density,NA,numeric,0.018
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.03082
+2014-01-01T00:00:00Z,Selo,NA,numeric,0.00518
+2015-01-01T00:00:00Z,mean_density,NA,numeric,0.057
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.1015
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.0125
+2016-01-01T00:00:00Z,mean_density,NA,numeric,0.14
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.20327
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.07673
+2017-01-01T00:00:00Z,mean_density,NA,numeric,0.104
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.15335
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.05465
+2018-01-01T00:00:00Z,mean_density,NA,numeric,0.055
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.091
+2018-01-01T00:00:00Z,Selo,NA,numeric,0.019
+2019-01-01T00:00:00Z,mean_density,NA,numeric,0.028
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.04813
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.00787
+1999-01-01T00:00:00Z,mean_density,NA,numeric,0
+1999-01-01T00:00:00Z,Seup,NA,numeric,0
+1999-01-01T00:00:00Z,Selo,NA,numeric,0
+2000-01-01T00:00:00Z,mean_density,NA,numeric,0.133
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.1845
+2000-01-01T00:00:00Z,Selo,NA,numeric,0.0815
+2001-01-01T00:00:00Z,mean_density,NA,numeric,0.015
+2001-01-01T00:00:00Z,Seup,NA,numeric,0.02131
+2001-01-01T00:00:00Z,Selo,NA,numeric,0.00869
+2002-01-01T00:00:00Z,mean_density,NA,numeric,0.025
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.03908
+2002-01-01T00:00:00Z,Selo,NA,numeric,0.01092
+2003-01-01T00:00:00Z,mean_density,NA,numeric,0.006
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.01038
+2003-01-01T00:00:00Z,Selo,NA,numeric,0.00162
+2004-01-01T00:00:00Z,mean_density,NA,numeric,0.046
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.0628
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.0292
+2005-01-01T00:00:00Z,mean_density,NA,numeric,0.028
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.04069
+2005-01-01T00:00:00Z,Selo,NA,numeric,0.01531
+2006-01-01T00:00:00Z,mean_density,NA,numeric,0.02
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.03046
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.00954
+2007-01-01T00:00:00Z,mean_density,NA,numeric,0.022
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.03368
+2007-01-01T00:00:00Z,Selo,NA,numeric,0.01032
+2008-01-01T00:00:00Z,mean_density,NA,numeric,0.013
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.02303
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.00297
+2009-01-01T00:00:00Z,mean_density,NA,numeric,0.069
+2009-01-01T00:00:00Z,Seup,NA,numeric,0.0997
+2009-01-01T00:00:00Z,Selo,NA,numeric,0.0383
+2010-01-01T00:00:00Z,mean_density,NA,numeric,0.057
+2010-01-01T00:00:00Z,Seup,NA,numeric,0.07123
+2010-01-01T00:00:00Z,Selo,NA,numeric,0.04277
+2011-01-01T00:00:00Z,mean_density,NA,numeric,0.011
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.01795
+2011-01-01T00:00:00Z,Selo,NA,numeric,0.00405
+2012-01-01T00:00:00Z,mean_density,NA,numeric,0.005
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.00856
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.00144
+2013-01-01T00:00:00Z,mean_density,NA,numeric,0.009
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.01427
+2013-01-01T00:00:00Z,Selo,NA,numeric,0.00373
+2014-01-01T00:00:00Z,mean_density,NA,numeric,0.021
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.02989
+2014-01-01T00:00:00Z,Selo,NA,numeric,0.01211
+2015-01-01T00:00:00Z,mean_density,NA,numeric,0.032
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.04442
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.01958
+2016-01-01T00:00:00Z,mean_density,NA,numeric,0.063
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.07731
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.04869
+2017-01-01T00:00:00Z,mean_density,NA,numeric,0
+2017-01-01T00:00:00Z,Seup,NA,numeric,0
+2017-01-01T00:00:00Z,Selo,NA,numeric,0
+2018-01-01T00:00:00Z,mean_density,NA,numeric,0.088
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.1254
+2018-01-01T00:00:00Z,Selo,NA,numeric,0.0506
+2019-01-01T00:00:00Z,mean_density,NA,numeric,0.046
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.0607
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.0313
+1999-01-01T00:00:00Z,mean_density,NA,numeric,0
+1999-01-01T00:00:00Z,Seup,NA,numeric,0
+1999-01-01T00:00:00Z,Selo,NA,numeric,0
+2000-01-01T00:00:00Z,mean_density,NA,numeric,0.02
+2000-01-01T00:00:00Z,Seup,NA,numeric,0.02822
+2000-01-01T00:00:00Z,Selo,NA,numeric,0.01178
+2001-01-01T00:00:00Z,mean_density,NA,numeric,0.006
+2001-01-01T00:00:00Z,Seup,NA,numeric,0.0101
+2001-01-01T00:00:00Z,Selo,NA,numeric,0.0019
+2002-01-01T00:00:00Z,mean_density,NA,numeric,0.006
+2002-01-01T00:00:00Z,Seup,NA,numeric,0.0103
+2002-01-01T00:00:00Z,Selo,NA,numeric,0.0017
+2003-01-01T00:00:00Z,mean_density,NA,numeric,0.003
+2003-01-01T00:00:00Z,Seup,NA,numeric,0.00561
+2003-01-01T00:00:00Z,Selo,NA,numeric,3.9e-4
+2004-01-01T00:00:00Z,mean_density,NA,numeric,0.005
+2004-01-01T00:00:00Z,Seup,NA,numeric,0.00855
+2004-01-01T00:00:00Z,Selo,NA,numeric,0.00145
+2005-01-01T00:00:00Z,mean_density,NA,numeric,0.009
+2005-01-01T00:00:00Z,Seup,NA,numeric,0.01527
+2005-01-01T00:00:00Z,Selo,NA,numeric,0.00273
+2006-01-01T00:00:00Z,mean_density,NA,numeric,0.024
+2006-01-01T00:00:00Z,Seup,NA,numeric,0.03368
+2006-01-01T00:00:00Z,Selo,NA,numeric,0.01432
+2007-01-01T00:00:00Z,mean_density,NA,numeric,0.003
+2007-01-01T00:00:00Z,Seup,NA,numeric,0.00581
+2007-01-01T00:00:00Z,Selo,NA,numeric,1.9e-4
+2008-01-01T00:00:00Z,mean_density,NA,numeric,0.007
+2008-01-01T00:00:00Z,Seup,NA,numeric,0.01098
+2008-01-01T00:00:00Z,Selo,NA,numeric,0.00302
+2009-01-01T00:00:00Z,mean_density,NA,numeric,0
+2009-01-01T00:00:00Z,Seup,NA,numeric,0
+2009-01-01T00:00:00Z,Selo,NA,numeric,0
+2010-01-01T00:00:00Z,mean_density,NA,numeric,0.015
+2010-01-01T00:00:00Z,Seup,NA,numeric,0.02174
+2010-01-01T00:00:00Z,Selo,NA,numeric,0.00826
+2011-01-01T00:00:00Z,mean_density,NA,numeric,0.002
+2011-01-01T00:00:00Z,Seup,NA,numeric,0.00402
+2011-01-01T00:00:00Z,Selo,NA,numeric,-2e-5
+2012-01-01T00:00:00Z,mean_density,NA,numeric,0.035
+2012-01-01T00:00:00Z,Seup,NA,numeric,0.04767
+2012-01-01T00:00:00Z,Selo,NA,numeric,0.02233
+2013-01-01T00:00:00Z,mean_density,NA,numeric,0.002
+2013-01-01T00:00:00Z,Seup,NA,numeric,0.00441
+2013-01-01T00:00:00Z,Selo,NA,numeric,-4.1e-4
+2014-01-01T00:00:00Z,mean_density,NA,numeric,0.005
+2014-01-01T00:00:00Z,Seup,NA,numeric,0.00853
+2014-01-01T00:00:00Z,Selo,NA,numeric,0.00147
+2015-01-01T00:00:00Z,mean_density,NA,numeric,0.038
+2015-01-01T00:00:00Z,Seup,NA,numeric,0.04884
+2015-01-01T00:00:00Z,Selo,NA,numeric,0.02716
+2016-01-01T00:00:00Z,mean_density,NA,numeric,0.086
+2016-01-01T00:00:00Z,Seup,NA,numeric,0.10666
+2016-01-01T00:00:00Z,Selo,NA,numeric,0.06534
+2017-01-01T00:00:00Z,mean_density,NA,numeric,0.009
+2017-01-01T00:00:00Z,Seup,NA,numeric,0.01433
+2017-01-01T00:00:00Z,Selo,NA,numeric,0.00367
+2018-01-01T00:00:00Z,mean_density,NA,numeric,0.02
+2018-01-01T00:00:00Z,Seup,NA,numeric,0.0264
+2018-01-01T00:00:00Z,Selo,NA,numeric,0.0136
+2019-01-01T00:00:00Z,mean_density,NA,numeric,0.019
+2019-01-01T00:00:00Z,Seup,NA,numeric,0.02712
+2019-01-01T00:00:00Z,Selo,NA,numeric,0.01088

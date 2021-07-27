@@ -1,0 +1,2089 @@
+time,variable,value_character,value_type,value_numeric
+1990-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1990-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1991-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1991-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1992-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1992-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1993-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1993-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1994-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1994-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1995-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1995-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1996-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1996-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1997-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1997-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1998-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1998-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1999-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1999-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2000-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2000-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2001-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2001-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2002-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2002-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2003-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2003-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2004-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2004-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2005-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2005-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2006-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2006-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2007-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2007-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2008-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2008-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2009-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2009-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2010-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2010-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2011-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2011-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2012-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2012-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2013-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2013-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2014-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2014-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2015-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2015-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2016-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2016-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2017-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2017-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2018-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2018-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1990-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1990-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1991-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1991-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1992-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1992-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1993-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1993-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1994-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1994-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1995-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1995-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1996-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1996-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1997-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1997-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1998-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1998-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1999-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1999-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2000-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2000-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2001-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2001-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2002-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2002-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2003-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2003-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2004-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2004-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2005-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2005-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2006-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2006-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2007-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2007-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2008-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2008-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2009-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2009-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2010-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2010-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2011-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2011-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2012-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2012-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2013-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2013-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2014-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2014-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2015-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2015-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2016-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2016-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2017-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2017-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2018-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2018-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1990-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1990-01-01T00:00:00Z,timeseries,Forage,character,NA
+1991-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1991-01-01T00:00:00Z,timeseries,Forage,character,NA
+1992-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1992-01-01T00:00:00Z,timeseries,Forage,character,NA
+1993-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1993-01-01T00:00:00Z,timeseries,Forage,character,NA
+1994-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1994-01-01T00:00:00Z,timeseries,Forage,character,NA
+1995-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1995-01-01T00:00:00Z,timeseries,Forage,character,NA
+1996-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1996-01-01T00:00:00Z,timeseries,Forage,character,NA
+1997-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1997-01-01T00:00:00Z,timeseries,Forage,character,NA
+1998-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1998-01-01T00:00:00Z,timeseries,Forage,character,NA
+1999-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+1999-01-01T00:00:00Z,timeseries,Forage,character,NA
+2000-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2000-01-01T00:00:00Z,timeseries,Forage,character,NA
+2001-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2001-01-01T00:00:00Z,timeseries,Forage,character,NA
+2002-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2002-01-01T00:00:00Z,timeseries,Forage,character,NA
+2003-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2003-01-01T00:00:00Z,timeseries,Forage,character,NA
+2004-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2004-01-01T00:00:00Z,timeseries,Forage,character,NA
+2005-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2005-01-01T00:00:00Z,timeseries,Forage,character,NA
+2006-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2006-01-01T00:00:00Z,timeseries,Forage,character,NA
+2007-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2007-01-01T00:00:00Z,timeseries,Forage,character,NA
+2008-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2008-01-01T00:00:00Z,timeseries,Forage,character,NA
+2009-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2009-01-01T00:00:00Z,timeseries,Forage,character,NA
+2010-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2010-01-01T00:00:00Z,timeseries,Forage,character,NA
+2011-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2011-01-01T00:00:00Z,timeseries,Forage,character,NA
+2012-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2012-01-01T00:00:00Z,timeseries,Forage,character,NA
+2013-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2013-01-01T00:00:00Z,timeseries,Forage,character,NA
+2014-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2014-01-01T00:00:00Z,timeseries,Forage,character,NA
+2015-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2015-01-01T00:00:00Z,timeseries,Forage,character,NA
+2016-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2016-01-01T00:00:00Z,timeseries,Forage,character,NA
+2017-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2017-01-01T00:00:00Z,timeseries,Forage,character,NA
+2018-01-01T00:00:00Z,metric,Abundance (log(CPUE+1)),character,NA
+2018-01-01T00:00:00Z,timeseries,Forage,character,NA
+1990-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1990-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1991-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1991-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1992-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1992-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1993-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1993-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1994-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1994-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1995-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1995-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1996-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1996-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1997-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1997-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1998-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1998-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1999-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1999-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2000-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2000-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2001-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2001-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2002-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2002-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2003-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2003-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2004-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2004-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2005-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2005-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2006-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2006-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2007-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2007-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2008-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2008-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2009-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2009-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2010-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2010-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2011-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2011-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2012-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2012-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2013-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2013-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2014-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2014-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2015-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2015-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2016-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2016-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2017-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2017-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2018-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2018-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1990-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1990-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1991-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1991-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1992-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1992-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1993-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1993-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1994-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1994-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1995-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1995-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1996-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1996-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1997-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1997-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1998-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1998-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1999-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1999-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2000-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2000-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2001-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2001-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2002-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2002-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2003-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2003-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2004-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2004-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2005-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2005-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2006-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2006-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2007-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2007-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2008-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2008-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2009-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2009-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2010-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2010-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2011-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2011-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2012-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2012-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2013-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2013-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2014-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2014-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2015-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2015-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2016-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2016-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2017-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2017-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2018-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2018-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1990-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1990-01-01T00:00:00Z,timeseries,Forage,character,NA
+1991-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1991-01-01T00:00:00Z,timeseries,Forage,character,NA
+1992-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1992-01-01T00:00:00Z,timeseries,Forage,character,NA
+1993-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1993-01-01T00:00:00Z,timeseries,Forage,character,NA
+1994-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1994-01-01T00:00:00Z,timeseries,Forage,character,NA
+1995-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1995-01-01T00:00:00Z,timeseries,Forage,character,NA
+1996-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1996-01-01T00:00:00Z,timeseries,Forage,character,NA
+1997-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1997-01-01T00:00:00Z,timeseries,Forage,character,NA
+1998-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1998-01-01T00:00:00Z,timeseries,Forage,character,NA
+1999-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+1999-01-01T00:00:00Z,timeseries,Forage,character,NA
+2000-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2000-01-01T00:00:00Z,timeseries,Forage,character,NA
+2001-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2001-01-01T00:00:00Z,timeseries,Forage,character,NA
+2002-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2002-01-01T00:00:00Z,timeseries,Forage,character,NA
+2003-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2003-01-01T00:00:00Z,timeseries,Forage,character,NA
+2004-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2004-01-01T00:00:00Z,timeseries,Forage,character,NA
+2005-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2005-01-01T00:00:00Z,timeseries,Forage,character,NA
+2006-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2006-01-01T00:00:00Z,timeseries,Forage,character,NA
+2007-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2007-01-01T00:00:00Z,timeseries,Forage,character,NA
+2008-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2008-01-01T00:00:00Z,timeseries,Forage,character,NA
+2009-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2009-01-01T00:00:00Z,timeseries,Forage,character,NA
+2010-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2010-01-01T00:00:00Z,timeseries,Forage,character,NA
+2011-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2011-01-01T00:00:00Z,timeseries,Forage,character,NA
+2012-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2012-01-01T00:00:00Z,timeseries,Forage,character,NA
+2013-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2013-01-01T00:00:00Z,timeseries,Forage,character,NA
+2014-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2014-01-01T00:00:00Z,timeseries,Forage,character,NA
+2015-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2015-01-01T00:00:00Z,timeseries,Forage,character,NA
+2016-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2016-01-01T00:00:00Z,timeseries,Forage,character,NA
+2017-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2017-01-01T00:00:00Z,timeseries,Forage,character,NA
+2018-01-01T00:00:00Z,metric,Species Richness (number of species),character,NA
+2018-01-01T00:00:00Z,timeseries,Forage,character,NA
+1990-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1990-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1991-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1991-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1992-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1992-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1993-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1993-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1994-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1994-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1995-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1995-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1996-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1996-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1997-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1997-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1998-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1998-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1999-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1999-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2000-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2000-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2001-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2001-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2002-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2002-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2003-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2003-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2004-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2004-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2005-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2005-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2006-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2006-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2007-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2007-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2008-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2008-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2009-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2009-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2010-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2010-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2011-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2011-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2012-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2012-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2013-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2013-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2014-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2014-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2015-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2015-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2016-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2016-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2017-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2017-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2018-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2018-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1990-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1990-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1991-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1991-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1992-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1992-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1993-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1993-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1994-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1994-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1995-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1995-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1996-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1996-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1997-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1997-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1998-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1998-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1999-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1999-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2000-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2000-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2001-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2001-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2002-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2002-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2003-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2003-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2004-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2004-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2005-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2005-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2006-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2006-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2007-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2007-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2008-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2008-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2009-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2009-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2010-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2010-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2011-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2011-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2012-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2012-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2013-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2013-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2014-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2014-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2015-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2015-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2016-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2016-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2017-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2017-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2018-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2018-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1990-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1990-01-01T00:00:00Z,timeseries,Forage,character,NA
+1991-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1991-01-01T00:00:00Z,timeseries,Forage,character,NA
+1992-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1992-01-01T00:00:00Z,timeseries,Forage,character,NA
+1993-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1993-01-01T00:00:00Z,timeseries,Forage,character,NA
+1994-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1994-01-01T00:00:00Z,timeseries,Forage,character,NA
+1995-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1995-01-01T00:00:00Z,timeseries,Forage,character,NA
+1996-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1996-01-01T00:00:00Z,timeseries,Forage,character,NA
+1997-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1997-01-01T00:00:00Z,timeseries,Forage,character,NA
+1998-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1998-01-01T00:00:00Z,timeseries,Forage,character,NA
+1999-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+1999-01-01T00:00:00Z,timeseries,Forage,character,NA
+2000-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2000-01-01T00:00:00Z,timeseries,Forage,character,NA
+2001-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2001-01-01T00:00:00Z,timeseries,Forage,character,NA
+2002-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2002-01-01T00:00:00Z,timeseries,Forage,character,NA
+2003-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2003-01-01T00:00:00Z,timeseries,Forage,character,NA
+2004-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2004-01-01T00:00:00Z,timeseries,Forage,character,NA
+2005-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2005-01-01T00:00:00Z,timeseries,Forage,character,NA
+2006-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2006-01-01T00:00:00Z,timeseries,Forage,character,NA
+2007-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2007-01-01T00:00:00Z,timeseries,Forage,character,NA
+2008-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2008-01-01T00:00:00Z,timeseries,Forage,character,NA
+2009-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2009-01-01T00:00:00Z,timeseries,Forage,character,NA
+2010-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2010-01-01T00:00:00Z,timeseries,Forage,character,NA
+2011-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2011-01-01T00:00:00Z,timeseries,Forage,character,NA
+2012-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2012-01-01T00:00:00Z,timeseries,Forage,character,NA
+2013-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2013-01-01T00:00:00Z,timeseries,Forage,character,NA
+2014-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2014-01-01T00:00:00Z,timeseries,Forage,character,NA
+2015-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2015-01-01T00:00:00Z,timeseries,Forage,character,NA
+2016-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2016-01-01T00:00:00Z,timeseries,Forage,character,NA
+2017-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2017-01-01T00:00:00Z,timeseries,Forage,character,NA
+2018-01-01T00:00:00Z,metric,Shannon-Weaver diversity,character,NA
+2018-01-01T00:00:00Z,timeseries,Forage,character,NA
+1990-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1990-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1991-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1991-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1992-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1992-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1993-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1993-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1994-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1994-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1995-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1995-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1996-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1996-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1997-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1997-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1998-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1998-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1999-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1999-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2000-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2000-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2001-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2001-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2002-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2002-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2003-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2003-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2004-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2004-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2005-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2005-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2006-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2006-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2007-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2007-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2008-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2008-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2009-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2009-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2010-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2010-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2011-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2011-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2012-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2012-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2013-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2013-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2014-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2014-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2015-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2015-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2016-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2016-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2017-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2017-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+2018-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2018-01-01T00:00:00Z,timeseries,All Taxa,character,NA
+1990-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1990-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1991-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1991-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1992-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1992-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1993-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1993-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1994-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1994-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1995-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1995-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1996-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1996-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1997-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1997-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1998-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1998-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1999-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1999-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2000-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2000-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2001-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2001-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2002-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2002-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2003-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2003-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2004-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2004-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2005-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2005-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2006-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2006-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2007-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2007-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2008-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2008-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2009-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2009-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2010-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2010-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2011-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2011-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2012-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2012-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2013-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2013-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2014-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2014-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2015-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2015-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2016-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2016-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2017-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2017-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+2018-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2018-01-01T00:00:00Z,timeseries,Young of the Year Rockfish/Groundfish,character,NA
+1990-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1990-01-01T00:00:00Z,timeseries,Forage,character,NA
+1991-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1991-01-01T00:00:00Z,timeseries,Forage,character,NA
+1992-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1992-01-01T00:00:00Z,timeseries,Forage,character,NA
+1993-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1993-01-01T00:00:00Z,timeseries,Forage,character,NA
+1994-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1994-01-01T00:00:00Z,timeseries,Forage,character,NA
+1995-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1995-01-01T00:00:00Z,timeseries,Forage,character,NA
+1996-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1996-01-01T00:00:00Z,timeseries,Forage,character,NA
+1997-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1997-01-01T00:00:00Z,timeseries,Forage,character,NA
+1998-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1998-01-01T00:00:00Z,timeseries,Forage,character,NA
+1999-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+1999-01-01T00:00:00Z,timeseries,Forage,character,NA
+2000-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2000-01-01T00:00:00Z,timeseries,Forage,character,NA
+2001-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2001-01-01T00:00:00Z,timeseries,Forage,character,NA
+2002-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2002-01-01T00:00:00Z,timeseries,Forage,character,NA
+2003-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2003-01-01T00:00:00Z,timeseries,Forage,character,NA
+2004-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2004-01-01T00:00:00Z,timeseries,Forage,character,NA
+2005-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2005-01-01T00:00:00Z,timeseries,Forage,character,NA
+2006-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2006-01-01T00:00:00Z,timeseries,Forage,character,NA
+2007-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2007-01-01T00:00:00Z,timeseries,Forage,character,NA
+2008-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2008-01-01T00:00:00Z,timeseries,Forage,character,NA
+2009-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2009-01-01T00:00:00Z,timeseries,Forage,character,NA
+2010-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2010-01-01T00:00:00Z,timeseries,Forage,character,NA
+2011-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2011-01-01T00:00:00Z,timeseries,Forage,character,NA
+2012-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2012-01-01T00:00:00Z,timeseries,Forage,character,NA
+2013-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2013-01-01T00:00:00Z,timeseries,Forage,character,NA
+2014-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2014-01-01T00:00:00Z,timeseries,Forage,character,NA
+2015-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2015-01-01T00:00:00Z,timeseries,Forage,character,NA
+2016-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2016-01-01T00:00:00Z,timeseries,Forage,character,NA
+2017-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2017-01-01T00:00:00Z,timeseries,Forage,character,NA
+2018-01-01T00:00:00Z,metric,Pielous evenness,character,NA
+2018-01-01T00:00:00Z,timeseries,Forage,character,NA
+1990-01-01T00:00:00Z,data,NA,numeric,9.95097
+1990-01-01T00:00:00Z,error,NA,numeric,10.420666
+1990-01-01T00:00:00Z,SEup,NA,numeric,20.371635
+1990-01-01T00:00:00Z,SElo,NA,numeric,-0.4696958
+1991-01-01T00:00:00Z,data,NA,numeric,11.115632
+1991-01-01T00:00:00Z,error,NA,numeric,11.923528
+1991-01-01T00:00:00Z,SEup,NA,numeric,23.03916
+1991-01-01T00:00:00Z,SElo,NA,numeric,-0.8078954
+1992-01-01T00:00:00Z,data,NA,numeric,10.298515
+1992-01-01T00:00:00Z,error,NA,numeric,11.252072
+1992-01-01T00:00:00Z,SEup,NA,numeric,21.550589
+1992-01-01T00:00:00Z,SElo,NA,numeric,-0.9535569
+1993-01-01T00:00:00Z,data,NA,numeric,11.012492
+1993-01-01T00:00:00Z,error,NA,numeric,11.645685
+1993-01-01T00:00:00Z,SEup,NA,numeric,22.658178
+1993-01-01T00:00:00Z,SElo,NA,numeric,-0.63319284
+1994-01-01T00:00:00Z,data,NA,numeric,11.238591
+1994-01-01T00:00:00Z,error,NA,numeric,12.045231
+1994-01-01T00:00:00Z,SEup,NA,numeric,23.283821
+1994-01-01T00:00:00Z,SElo,NA,numeric,-0.80664015
+1995-01-01T00:00:00Z,data,NA,numeric,10.431716
+1995-01-01T00:00:00Z,error,NA,numeric,10.862231
+1995-01-01T00:00:00Z,SEup,NA,numeric,21.293947
+1995-01-01T00:00:00Z,SElo,NA,numeric,-0.4305146
+1996-01-01T00:00:00Z,data,NA,numeric,9.672373
+1996-01-01T00:00:00Z,error,NA,numeric,10.539008
+1996-01-01T00:00:00Z,SEup,NA,numeric,20.211382
+1996-01-01T00:00:00Z,SElo,NA,numeric,-0.8666349
+1997-01-01T00:00:00Z,data,NA,numeric,10.271098
+1997-01-01T00:00:00Z,error,NA,numeric,11.006706
+1997-01-01T00:00:00Z,SEup,NA,numeric,21.277805
+1997-01-01T00:00:00Z,SElo,NA,numeric,-0.73560834
+1998-01-01T00:00:00Z,data,NA,numeric,8.113382
+1998-01-01T00:00:00Z,error,NA,numeric,9.048629
+1998-01-01T00:00:00Z,SEup,NA,numeric,17.162012
+1998-01-01T00:00:00Z,SElo,NA,numeric,-0.9352463
+1999-01-01T00:00:00Z,data,NA,numeric,9.516168
+1999-01-01T00:00:00Z,error,NA,numeric,10.105868
+1999-01-01T00:00:00Z,SEup,NA,numeric,19.622036
+1999-01-01T00:00:00Z,SElo,NA,numeric,-0.5897009
+2000-01-01T00:00:00Z,data,NA,numeric,11.037669
+2000-01-01T00:00:00Z,error,NA,numeric,11.8316345
+2000-01-01T00:00:00Z,SEup,NA,numeric,22.869303
+2000-01-01T00:00:00Z,SElo,NA,numeric,-0.79396546
+2001-01-01T00:00:00Z,data,NA,numeric,11.428197
+2001-01-01T00:00:00Z,error,NA,numeric,12.088026
+2001-01-01T00:00:00Z,SEup,NA,numeric,23.516224
+2001-01-01T00:00:00Z,SElo,NA,numeric,-0.6598293
+2002-01-01T00:00:00Z,data,NA,numeric,9.278656
+2002-01-01T00:00:00Z,error,NA,numeric,10.216031
+2002-01-01T00:00:00Z,SEup,NA,numeric,19.494688
+2002-01-01T00:00:00Z,SElo,NA,numeric,-0.937375
+2003-01-01T00:00:00Z,data,NA,numeric,10.2483225
+2003-01-01T00:00:00Z,error,NA,numeric,10.788956
+2003-01-01T00:00:00Z,SEup,NA,numeric,21.037277
+2003-01-01T00:00:00Z,SElo,NA,numeric,-0.5406326
+2004-01-01T00:00:00Z,data,NA,numeric,9.924107
+2004-01-01T00:00:00Z,error,NA,numeric,10.434349
+2004-01-01T00:00:00Z,SEup,NA,numeric,20.358456
+2004-01-01T00:00:00Z,SElo,NA,numeric,-0.51024234
+2005-01-01T00:00:00Z,data,NA,numeric,9.806819
+2005-01-01T00:00:00Z,error,NA,numeric,10.487857
+2005-01-01T00:00:00Z,SEup,NA,numeric,20.294676
+2005-01-01T00:00:00Z,SElo,NA,numeric,-0.6810376
+2006-01-01T00:00:00Z,data,NA,numeric,10.446532
+2006-01-01T00:00:00Z,error,NA,numeric,11.27138
+2006-01-01T00:00:00Z,SEup,NA,numeric,21.717913
+2006-01-01T00:00:00Z,SElo,NA,numeric,-0.8248485
+2007-01-01T00:00:00Z,data,NA,numeric,11.470984
+2007-01-01T00:00:00Z,error,NA,numeric,12.283273
+2007-01-01T00:00:00Z,SEup,NA,numeric,23.754257
+2007-01-01T00:00:00Z,SElo,NA,numeric,-0.8122886
+2008-01-01T00:00:00Z,data,NA,numeric,12.041131
+2008-01-01T00:00:00Z,error,NA,numeric,12.902772
+2008-01-01T00:00:00Z,SEup,NA,numeric,24.943903
+2008-01-01T00:00:00Z,SElo,NA,numeric,-0.8616404
+2009-01-01T00:00:00Z,data,NA,numeric,11.309411
+2009-01-01T00:00:00Z,error,NA,numeric,11.883308
+2009-01-01T00:00:00Z,SEup,NA,numeric,23.19272
+2009-01-01T00:00:00Z,SElo,NA,numeric,-0.5738974
+2010-01-01T00:00:00Z,data,NA,numeric,10.552831
+2010-01-01T00:00:00Z,error,NA,numeric,10.875768
+2010-01-01T00:00:00Z,SEup,NA,numeric,21.428598
+2010-01-01T00:00:00Z,SElo,NA,numeric,-0.32293725
+2011-01-01T00:00:00Z,data,NA,numeric,10.962481
+2011-01-01T00:00:00Z,error,NA,numeric,11.940124
+2011-01-01T00:00:00Z,SEup,NA,numeric,22.902605
+2011-01-01T00:00:00Z,SElo,NA,numeric,-0.97764295
+2012-01-01T00:00:00Z,data,NA,numeric,11.722364
+2012-01-01T00:00:00Z,error,NA,numeric,12.386473
+2012-01-01T00:00:00Z,SEup,NA,numeric,24.108837
+2012-01-01T00:00:00Z,SElo,NA,numeric,-0.6641081
+2013-01-01T00:00:00Z,data,NA,numeric,11.954878
+2013-01-01T00:00:00Z,error,NA,numeric,12.703238
+2013-01-01T00:00:00Z,SEup,NA,numeric,24.658115
+2013-01-01T00:00:00Z,SElo,NA,numeric,-0.7483598
+2014-01-01T00:00:00Z,data,NA,numeric,11.859883
+2014-01-01T00:00:00Z,error,NA,numeric,12.429475
+2014-01-01T00:00:00Z,SEup,NA,numeric,24.289358
+2014-01-01T00:00:00Z,SElo,NA,numeric,-0.56959176
+2015-01-01T00:00:00Z,data,NA,numeric,10.817299
+2015-01-01T00:00:00Z,error,NA,numeric,11.654201
+2015-01-01T00:00:00Z,SEup,NA,numeric,22.4715
+2015-01-01T00:00:00Z,SElo,NA,numeric,-0.8369016
+2016-01-01T00:00:00Z,data,NA,numeric,10.539058
+2016-01-01T00:00:00Z,error,NA,numeric,10.832159
+2016-01-01T00:00:00Z,SEup,NA,numeric,21.371218
+2016-01-01T00:00:00Z,SElo,NA,numeric,-0.29310182
+2017-01-01T00:00:00Z,data,NA,numeric,12.239802
+2017-01-01T00:00:00Z,error,NA,numeric,13.345929
+2017-01-01T00:00:00Z,SEup,NA,numeric,25.585732
+2017-01-01T00:00:00Z,SElo,NA,numeric,-1.1061276
+2018-01-01T00:00:00Z,data,NA,numeric,11.467086
+2018-01-01T00:00:00Z,error,NA,numeric,11.71961
+2018-01-01T00:00:00Z,SEup,NA,numeric,23.186695
+2018-01-01T00:00:00Z,SElo,NA,numeric,-0.25252458
+1990-01-01T00:00:00Z,data,NA,numeric,5.504645
+1990-01-01T00:00:00Z,error,NA,numeric,7.3445163
+1990-01-01T00:00:00Z,SEup,NA,numeric,12.849161
+1990-01-01T00:00:00Z,SElo,NA,numeric,-1.8398712
+1991-01-01T00:00:00Z,data,NA,numeric,5.06379
+1991-01-01T00:00:00Z,error,NA,numeric,5.7245193
+1991-01-01T00:00:00Z,SEup,NA,numeric,10.788309
+1991-01-01T00:00:00Z,SElo,NA,numeric,-0.6607294
+1992-01-01T00:00:00Z,data,NA,numeric,4.7166624
+1992-01-01T00:00:00Z,error,NA,numeric,6.1090946
+1992-01-01T00:00:00Z,SEup,NA,numeric,10.825757
+1992-01-01T00:00:00Z,SElo,NA,numeric,-1.3924322
+1993-01-01T00:00:00Z,data,NA,numeric,7.6146297
+1993-01-01T00:00:00Z,error,NA,numeric,8.719755
+1993-01-01T00:00:00Z,SEup,NA,numeric,16.334385
+1993-01-01T00:00:00Z,SElo,NA,numeric,-1.1051257
+1994-01-01T00:00:00Z,data,NA,numeric,5.122822
+1994-01-01T00:00:00Z,error,NA,numeric,6.1327686
+1994-01-01T00:00:00Z,SEup,NA,numeric,11.25559
+1994-01-01T00:00:00Z,SElo,NA,numeric,-1.0099468
+1995-01-01T00:00:00Z,data,NA,numeric,3.2462747
+1995-01-01T00:00:00Z,error,NA,numeric,3.4632897
+1995-01-01T00:00:00Z,SEup,NA,numeric,6.7095647
+1995-01-01T00:00:00Z,SElo,NA,numeric,-0.21701494
+1996-01-01T00:00:00Z,data,NA,numeric,5.0157366
+1996-01-01T00:00:00Z,error,NA,numeric,5.389019
+1996-01-01T00:00:00Z,SEup,NA,numeric,10.404756
+1996-01-01T00:00:00Z,SElo,NA,numeric,-0.37328252
+1997-01-01T00:00:00Z,data,NA,numeric,4.8135576
+1997-01-01T00:00:00Z,error,NA,numeric,6.028674
+1997-01-01T00:00:00Z,SEup,NA,numeric,10.842232
+1997-01-01T00:00:00Z,SElo,NA,numeric,-1.2151164
+1998-01-01T00:00:00Z,data,NA,numeric,2.6256342
+1998-01-01T00:00:00Z,error,NA,numeric,3.6491718
+1998-01-01T00:00:00Z,SEup,NA,numeric,6.274806
+1998-01-01T00:00:00Z,SElo,NA,numeric,-1.0235376
+1999-01-01T00:00:00Z,data,NA,numeric,4.8196273
+1999-01-01T00:00:00Z,error,NA,numeric,5.575268
+1999-01-01T00:00:00Z,SEup,NA,numeric,10.394896
+1999-01-01T00:00:00Z,SElo,NA,numeric,-0.75564057
+2000-01-01T00:00:00Z,data,NA,numeric,4.8131633
+2000-01-01T00:00:00Z,error,NA,numeric,5.426406
+2000-01-01T00:00:00Z,SEup,NA,numeric,10.23957
+2000-01-01T00:00:00Z,SElo,NA,numeric,-0.6132427
+2001-01-01T00:00:00Z,data,NA,numeric,5.36423
+2001-01-01T00:00:00Z,error,NA,numeric,6.082885
+2001-01-01T00:00:00Z,SEup,NA,numeric,11.447115
+2001-01-01T00:00:00Z,SElo,NA,numeric,-0.71865475
+2002-01-01T00:00:00Z,data,NA,numeric,5.402382
+2002-01-01T00:00:00Z,error,NA,numeric,5.782301
+2002-01-01T00:00:00Z,SEup,NA,numeric,11.184683
+2002-01-01T00:00:00Z,SElo,NA,numeric,-0.37991887
+2003-01-01T00:00:00Z,data,NA,numeric,4.2365503
+2003-01-01T00:00:00Z,error,NA,numeric,5.3841414
+2003-01-01T00:00:00Z,SEup,NA,numeric,9.620691
+2003-01-01T00:00:00Z,SElo,NA,numeric,-1.1475909
+2004-01-01T00:00:00Z,data,NA,numeric,6.197404
+2004-01-01T00:00:00Z,error,NA,numeric,7.1921387
+2004-01-01T00:00:00Z,SEup,NA,numeric,13.389543
+2004-01-01T00:00:00Z,SElo,NA,numeric,-0.9947347
+2005-01-01T00:00:00Z,data,NA,numeric,1.8933817
+2005-01-01T00:00:00Z,error,NA,numeric,2.4575915
+2005-01-01T00:00:00Z,SEup,NA,numeric,4.350973
+2005-01-01T00:00:00Z,SElo,NA,numeric,-0.5642099
+2006-01-01T00:00:00Z,data,NA,numeric,1.3905954
+2006-01-01T00:00:00Z,error,NA,numeric,1.7443306
+2006-01-01T00:00:00Z,SEup,NA,numeric,3.134926
+2006-01-01T00:00:00Z,SElo,NA,numeric,-0.35373515
+2007-01-01T00:00:00Z,data,NA,numeric,2.7429883
+2007-01-01T00:00:00Z,error,NA,numeric,3.085167
+2007-01-01T00:00:00Z,SEup,NA,numeric,5.828155
+2007-01-01T00:00:00Z,SElo,NA,numeric,-0.34217873
+2008-01-01T00:00:00Z,data,NA,numeric,3.3115852
+2008-01-01T00:00:00Z,error,NA,numeric,3.664571
+2008-01-01T00:00:00Z,SEup,NA,numeric,6.976156
+2008-01-01T00:00:00Z,SElo,NA,numeric,-0.35298574
+2009-01-01T00:00:00Z,data,NA,numeric,4.2026553
+2009-01-01T00:00:00Z,error,NA,numeric,4.500609
+2009-01-01T00:00:00Z,SEup,NA,numeric,8.703264
+2009-01-01T00:00:00Z,SElo,NA,numeric,-0.29795352
+2010-01-01T00:00:00Z,data,NA,numeric,4.552281
+2010-01-01T00:00:00Z,error,NA,numeric,4.5704503
+2010-01-01T00:00:00Z,SEup,NA,numeric,9.122731
+2010-01-01T00:00:00Z,SElo,NA,numeric,-0.018169798
+2011-01-01T00:00:00Z,data,NA,numeric,5.084721
+2011-01-01T00:00:00Z,error,NA,numeric,5.4987125
+2011-01-01T00:00:00Z,SEup,NA,numeric,10.583433
+2011-01-01T00:00:00Z,SElo,NA,numeric,-0.41399127
+2012-01-01T00:00:00Z,data,NA,numeric,4.5036407
+2012-01-01T00:00:00Z,error,NA,numeric,5.0014553
+2012-01-01T00:00:00Z,SEup,NA,numeric,9.505096
+2012-01-01T00:00:00Z,SElo,NA,numeric,-0.49781471
+2013-01-01T00:00:00Z,data,NA,numeric,7.2377505
+2013-01-01T00:00:00Z,error,NA,numeric,7.720412
+2013-01-01T00:00:00Z,SEup,NA,numeric,14.958162
+2013-01-01T00:00:00Z,SElo,NA,numeric,-0.48266125
+2014-01-01T00:00:00Z,data,NA,numeric,5.788027
+2014-01-01T00:00:00Z,error,NA,numeric,5.9062357
+2014-01-01T00:00:00Z,SEup,NA,numeric,11.6942625
+2014-01-01T00:00:00Z,SElo,NA,numeric,-0.11820866
+2015-01-01T00:00:00Z,data,NA,numeric,7.4485836
+2015-01-01T00:00:00Z,error,NA,numeric,8.718604
+2015-01-01T00:00:00Z,SEup,NA,numeric,16.167187
+2015-01-01T00:00:00Z,SElo,NA,numeric,-1.2700202
+2016-01-01T00:00:00Z,data,NA,numeric,7.600538
+2016-01-01T00:00:00Z,error,NA,numeric,8.333887
+2016-01-01T00:00:00Z,SEup,NA,numeric,15.934425
+2016-01-01T00:00:00Z,SElo,NA,numeric,-0.7333495
+2017-01-01T00:00:00Z,data,NA,numeric,6.0507736
+2017-01-01T00:00:00Z,error,NA,numeric,7.1902256
+2017-01-01T00:00:00Z,SEup,NA,numeric,13.240999
+2017-01-01T00:00:00Z,SElo,NA,numeric,-1.1394521
+2018-01-01T00:00:00Z,data,NA,numeric,5.7337265
+2018-01-01T00:00:00Z,error,NA,numeric,6.5810313
+2018-01-01T00:00:00Z,SEup,NA,numeric,12.314758
+2018-01-01T00:00:00Z,SElo,NA,numeric,-0.847305
+1990-01-01T00:00:00Z,data,NA,numeric,5.7036524
+1990-01-01T00:00:00Z,error,NA,numeric,6.3989267
+1990-01-01T00:00:00Z,SEup,NA,numeric,12.102579
+1990-01-01T00:00:00Z,SElo,NA,numeric,-0.6952742
+1991-01-01T00:00:00Z,data,NA,numeric,6.148278
+1991-01-01T00:00:00Z,error,NA,numeric,7.73088
+1991-01-01T00:00:00Z,SEup,NA,numeric,13.879158
+1991-01-01T00:00:00Z,SElo,NA,numeric,-1.5826015
+1992-01-01T00:00:00Z,data,NA,numeric,6.1739287
+1992-01-01T00:00:00Z,error,NA,numeric,6.2428713
+1992-01-01T00:00:00Z,SEup,NA,numeric,12.4168005
+1992-01-01T00:00:00Z,SElo,NA,numeric,-0.06894253
+1993-01-01T00:00:00Z,data,NA,numeric,6.1554976
+1993-01-01T00:00:00Z,error,NA,numeric,6.898735
+1993-01-01T00:00:00Z,SEup,NA,numeric,13.054233
+1993-01-01T00:00:00Z,SElo,NA,numeric,-0.74323726
+1994-01-01T00:00:00Z,data,NA,numeric,5.7971396
+1994-01-01T00:00:00Z,error,NA,numeric,6.776842
+1994-01-01T00:00:00Z,SEup,NA,numeric,12.573982
+1994-01-01T00:00:00Z,SElo,NA,numeric,-0.97970235
+1995-01-01T00:00:00Z,data,NA,numeric,6.278756
+1995-01-01T00:00:00Z,error,NA,numeric,7.379303
+1995-01-01T00:00:00Z,SEup,NA,numeric,13.658059
+1995-01-01T00:00:00Z,SElo,NA,numeric,-1.1005472
+1996-01-01T00:00:00Z,data,NA,numeric,5.6891556
+1996-01-01T00:00:00Z,error,NA,numeric,6.192815
+1996-01-01T00:00:00Z,SEup,NA,numeric,11.88197
+1996-01-01T00:00:00Z,SElo,NA,numeric,-0.50365937
+1997-01-01T00:00:00Z,data,NA,numeric,5.2562475
+1997-01-01T00:00:00Z,error,NA,numeric,5.6782894
+1997-01-01T00:00:00Z,SEup,NA,numeric,10.934537
+1997-01-01T00:00:00Z,SElo,NA,numeric,-0.4220418
+1998-01-01T00:00:00Z,data,NA,numeric,5.2194185
+1998-01-01T00:00:00Z,error,NA,numeric,6.052227
+1998-01-01T00:00:00Z,SEup,NA,numeric,11.271646
+1998-01-01T00:00:00Z,SElo,NA,numeric,-0.8328088
+1999-01-01T00:00:00Z,data,NA,numeric,4.4516726
+1999-01-01T00:00:00Z,error,NA,numeric,5.436841
+1999-01-01T00:00:00Z,SEup,NA,numeric,9.888514
+1999-01-01T00:00:00Z,SElo,NA,numeric,-0.9851684
+2000-01-01T00:00:00Z,data,NA,numeric,4.647052
+2000-01-01T00:00:00Z,error,NA,numeric,5.201933
+2000-01-01T00:00:00Z,SEup,NA,numeric,9.848985
+2000-01-01T00:00:00Z,SElo,NA,numeric,-0.5548812
+2001-01-01T00:00:00Z,data,NA,numeric,5.5493875
+2001-01-01T00:00:00Z,error,NA,numeric,6.3237715
+2001-01-01T00:00:00Z,SEup,NA,numeric,11.873159
+2001-01-01T00:00:00Z,SElo,NA,numeric,-0.7743843
+2002-01-01T00:00:00Z,data,NA,numeric,5.13734
+2002-01-01T00:00:00Z,error,NA,numeric,6.0271707
+2002-01-01T00:00:00Z,SEup,NA,numeric,11.164511
+2002-01-01T00:00:00Z,SElo,NA,numeric,-0.88983035
+2003-01-01T00:00:00Z,data,NA,numeric,5.231664
+2003-01-01T00:00:00Z,error,NA,numeric,5.775452
+2003-01-01T00:00:00Z,SEup,NA,numeric,11.007116
+2003-01-01T00:00:00Z,SElo,NA,numeric,-0.5437879
+2004-01-01T00:00:00Z,data,NA,numeric,5.5364904
+2004-01-01T00:00:00Z,error,NA,numeric,5.9919353
+2004-01-01T00:00:00Z,SEup,NA,numeric,11.528425
+2004-01-01T00:00:00Z,SElo,NA,numeric,-0.4554451
+2005-01-01T00:00:00Z,data,NA,numeric,5.346112
+2005-01-01T00:00:00Z,error,NA,numeric,5.847773
+2005-01-01T00:00:00Z,SEup,NA,numeric,11.193885
+2005-01-01T00:00:00Z,SElo,NA,numeric,-0.501661
+2006-01-01T00:00:00Z,data,NA,numeric,4.7322583
+2006-01-01T00:00:00Z,error,NA,numeric,4.98604
+2006-01-01T00:00:00Z,SEup,NA,numeric,9.718299
+2006-01-01T00:00:00Z,SElo,NA,numeric,-0.25378168
+2007-01-01T00:00:00Z,data,NA,numeric,4.928123
+2007-01-01T00:00:00Z,error,NA,numeric,5.7771697
+2007-01-01T00:00:00Z,SEup,NA,numeric,10.705293
+2007-01-01T00:00:00Z,SElo,NA,numeric,-0.8490469
+2008-01-01T00:00:00Z,data,NA,numeric,4.8436246
+2008-01-01T00:00:00Z,error,NA,numeric,5.4044886
+2008-01-01T00:00:00Z,SEup,NA,numeric,10.248113
+2008-01-01T00:00:00Z,SElo,NA,numeric,-0.560864
+2009-01-01T00:00:00Z,data,NA,numeric,5.842006
+2009-01-01T00:00:00Z,error,NA,numeric,6.374781
+2009-01-01T00:00:00Z,SEup,NA,numeric,12.216787
+2009-01-01T00:00:00Z,SElo,NA,numeric,-0.53277504
+2010-01-01T00:00:00Z,data,NA,numeric,6.012789
+2010-01-01T00:00:00Z,error,NA,numeric,6.9473577
+2010-01-01T00:00:00Z,SEup,NA,numeric,12.960146
+2010-01-01T00:00:00Z,SElo,NA,numeric,-0.934569
+2011-01-01T00:00:00Z,data,NA,numeric,4.1574287
+2011-01-01T00:00:00Z,error,NA,numeric,4.680174
+2011-01-01T00:00:00Z,SEup,NA,numeric,8.837603
+2011-01-01T00:00:00Z,SElo,NA,numeric,-0.52274525
+2012-01-01T00:00:00Z,data,NA,numeric,5.7844405
+2012-01-01T00:00:00Z,error,NA,numeric,6.5276294
+2012-01-01T00:00:00Z,SEup,NA,numeric,12.31207
+2012-01-01T00:00:00Z,SElo,NA,numeric,-0.743189
+2013-01-01T00:00:00Z,data,NA,numeric,5.860238
+2013-01-01T00:00:00Z,error,NA,numeric,6.5051055
+2013-01-01T00:00:00Z,SEup,NA,numeric,12.365344
+2013-01-01T00:00:00Z,SElo,NA,numeric,-0.6448673
+2014-01-01T00:00:00Z,data,NA,numeric,6.9611297
+2014-01-01T00:00:00Z,error,NA,numeric,7.760122
+2014-01-01T00:00:00Z,SEup,NA,numeric,14.7212515
+2014-01-01T00:00:00Z,SElo,NA,numeric,-0.7989921
+2015-01-01T00:00:00Z,data,NA,numeric,6.093852
+2015-01-01T00:00:00Z,error,NA,numeric,6.5359726
+2015-01-01T00:00:00Z,SEup,NA,numeric,12.629825
+2015-01-01T00:00:00Z,SElo,NA,numeric,-0.44212067
+2016-01-01T00:00:00Z,data,NA,numeric,5.7428026
+2016-01-01T00:00:00Z,error,NA,numeric,6.5237926999999996
+2016-01-01T00:00:00Z,SEup,NA,numeric,12.266596
+2016-01-01T00:00:00Z,SElo,NA,numeric,-0.78099
+2017-01-01T00:00:00Z,data,NA,numeric,6.694708
+2017-01-01T00:00:00Z,error,NA,numeric,7.847187
+2017-01-01T00:00:00Z,SEup,NA,numeric,14.541895
+2017-01-01T00:00:00Z,SElo,NA,numeric,-1.1524796
+2018-01-01T00:00:00Z,data,NA,numeric,6.6234326
+2018-01-01T00:00:00Z,error,NA,numeric,7.235832
+2018-01-01T00:00:00Z,SEup,NA,numeric,13.859264
+2018-01-01T00:00:00Z,SElo,NA,numeric,-0.6123995
+1990-01-01T00:00:00Z,data,NA,numeric,8.844156
+1990-01-01T00:00:00Z,error,NA,numeric,4.8587008
+1990-01-01T00:00:00Z,SEup,NA,numeric,13.702856
+1990-01-01T00:00:00Z,SElo,NA,numeric,3.9854553
+1991-01-01T00:00:00Z,data,NA,numeric,12.5
+1991-01-01T00:00:00Z,error,NA,numeric,4.5301733
+1991-01-01T00:00:00Z,SEup,NA,numeric,17.030174
+1991-01-01T00:00:00Z,SElo,NA,numeric,7.9698267
+1992-01-01T00:00:00Z,data,NA,numeric,8.219178
+1992-01-01T00:00:00Z,error,NA,numeric,4.472902
+1992-01-01T00:00:00Z,SEup,NA,numeric,12.69208
+1992-01-01T00:00:00Z,SElo,NA,numeric,3.7462764
+1993-01-01T00:00:00Z,data,NA,numeric,13.90411
+1993-01-01T00:00:00Z,error,NA,numeric,5.2603455
+1993-01-01T00:00:00Z,SEup,NA,numeric,19.164455
+1993-01-01T00:00:00Z,SElo,NA,numeric,8.6437645
+1994-01-01T00:00:00Z,data,NA,numeric,10.534246
+1994-01-01T00:00:00Z,error,NA,numeric,3.8154736
+1994-01-01T00:00:00Z,SEup,NA,numeric,14.34972
+1994-01-01T00:00:00Z,SElo,NA,numeric,6.718773
+1995-01-01T00:00:00Z,data,NA,numeric,8.541667
+1995-01-01T00:00:00Z,error,NA,numeric,3.9750543
+1995-01-01T00:00:00Z,SEup,NA,numeric,12.516721
+1995-01-01T00:00:00Z,SElo,NA,numeric,4.5666122
+1996-01-01T00:00:00Z,data,NA,numeric,11.178082
+1996-01-01T00:00:00Z,error,NA,numeric,4.4201007
+1996-01-01T00:00:00Z,SEup,NA,numeric,15.598183
+1996-01-01T00:00:00Z,SElo,NA,numeric,6.7579813
+1997-01-01T00:00:00Z,data,NA,numeric,9.971831
+1997-01-01T00:00:00Z,error,NA,numeric,4.753861
+1997-01-01T00:00:00Z,SEup,NA,numeric,14.725692
+1997-01-01T00:00:00Z,SElo,NA,numeric,5.21797
+1998-01-01T00:00:00Z,data,NA,numeric,5.9466667
+1998-01-01T00:00:00Z,error,NA,numeric,3.5293875
+1998-01-01T00:00:00Z,SEup,NA,numeric,9.476054
+1998-01-01T00:00:00Z,SElo,NA,numeric,2.417279
+1999-01-01T00:00:00Z,data,NA,numeric,8.351352
+1999-01-01T00:00:00Z,error,NA,numeric,3.501203
+1999-01-01T00:00:00Z,SEup,NA,numeric,11.852554
+1999-01-01T00:00:00Z,SElo,NA,numeric,4.850148
+2000-01-01T00:00:00Z,data,NA,numeric,9.554217
+2000-01-01T00:00:00Z,error,NA,numeric,4.025083
+2000-01-01T00:00:00Z,SEup,NA,numeric,13.5793
+2000-01-01T00:00:00Z,SElo,NA,numeric,5.529134
+2001-01-01T00:00:00Z,data,NA,numeric,12.72
+2001-01-01T00:00:00Z,error,NA,numeric,4.250787
+2001-01-01T00:00:00Z,SEup,NA,numeric,16.970787
+2001-01-01T00:00:00Z,SElo,NA,numeric,8.4692135
+2002-01-01T00:00:00Z,data,NA,numeric,14.655738
+2002-01-01T00:00:00Z,error,NA,numeric,4.5966845
+2002-01-01T00:00:00Z,SEup,NA,numeric,19.252422
+2002-01-01T00:00:00Z,SElo,NA,numeric,10.059053
+2003-01-01T00:00:00Z,data,NA,numeric,10.792208
+2003-01-01T00:00:00Z,error,NA,numeric,3.7252257
+2003-01-01T00:00:00Z,SEup,NA,numeric,14.517433
+2003-01-01T00:00:00Z,SElo,NA,numeric,7.0669823
+2004-01-01T00:00:00Z,data,NA,numeric,14.842857
+2004-01-01T00:00:00Z,error,NA,numeric,5.4417486
+2004-01-01T00:00:00Z,SEup,NA,numeric,20.284605
+2004-01-01T00:00:00Z,SElo,NA,numeric,9.401109
+2005-01-01T00:00:00Z,data,NA,numeric,8.074627
+2005-01-01T00:00:00Z,error,NA,numeric,4.138926
+2005-01-01T00:00:00Z,SEup,NA,numeric,12.213553
+2005-01-01T00:00:00Z,SElo,NA,numeric,3.9357007
+2006-01-01T00:00:00Z,data,NA,numeric,5.913793
+2006-01-01T00:00:00Z,error,NA,numeric,3.4401371
+2006-01-01T00:00:00Z,SEup,NA,numeric,9.35393
+2006-01-01T00:00:00Z,SElo,NA,numeric,2.473656
+2007-01-01T00:00:00Z,data,NA,numeric,7.24
+2007-01-01T00:00:00Z,error,NA,numeric,3.4399874
+2007-01-01T00:00:00Z,SEup,NA,numeric,10.679987
+2007-01-01T00:00:00Z,SElo,NA,numeric,3.8000126
+2008-01-01T00:00:00Z,data,NA,numeric,9.321428
+2008-01-01T00:00:00Z,error,NA,numeric,3.9539344
+2008-01-01T00:00:00Z,SEup,NA,numeric,13.275363
+2008-01-01T00:00:00Z,SElo,NA,numeric,5.367494
+2009-01-01T00:00:00Z,data,NA,numeric,11.636364
+2009-01-01T00:00:00Z,error,NA,numeric,4.75115
+2009-01-01T00:00:00Z,SEup,NA,numeric,16.387514
+2009-01-01T00:00:00Z,SElo,NA,numeric,6.8852134
+2010-01-01T00:00:00Z,data,NA,numeric,12.69697
+2010-01-01T00:00:00Z,error,NA,numeric,4.3816743
+2010-01-01T00:00:00Z,SEup,NA,numeric,17.078644
+2010-01-01T00:00:00Z,SElo,NA,numeric,8.315295
+2011-01-01T00:00:00Z,data,NA,numeric,11.44186
+2011-01-01T00:00:00Z,error,NA,numeric,4.119075
+2011-01-01T00:00:00Z,SEup,NA,numeric,15.560935
+2011-01-01T00:00:00Z,SElo,NA,numeric,7.322786
+2012-01-01T00:00:00Z,data,NA,numeric,6.5636363
+2012-01-01T00:00:00Z,error,NA,numeric,3.0897899
+2012-01-01T00:00:00Z,SEup,NA,numeric,9.653426
+2012-01-01T00:00:00Z,SElo,NA,numeric,3.4738464
+2013-01-01T00:00:00Z,data,NA,numeric,13.769231
+2013-01-01T00:00:00Z,error,NA,numeric,5.170108
+2013-01-01T00:00:00Z,SEup,NA,numeric,18.939339
+2013-01-01T00:00:00Z,SElo,NA,numeric,8.599123
+2014-01-01T00:00:00Z,data,NA,numeric,14.403509
+2014-01-01T00:00:00Z,error,NA,numeric,3.6295397
+2014-01-01T00:00:00Z,SEup,NA,numeric,18.033049
+2014-01-01T00:00:00Z,SElo,NA,numeric,10.773969
+2015-01-01T00:00:00Z,data,NA,numeric,21.982143
+2015-01-01T00:00:00Z,error,NA,numeric,5.949763
+2015-01-01T00:00:00Z,SEup,NA,numeric,27.931906
+2015-01-01T00:00:00Z,SElo,NA,numeric,16.032381
+2016-01-01T00:00:00Z,data,NA,numeric,15.5625
+2016-01-01T00:00:00Z,error,NA,numeric,5.6902537
+2016-01-01T00:00:00Z,SEup,NA,numeric,21.252754
+2016-01-01T00:00:00Z,SElo,NA,numeric,9.872246
+2017-01-01T00:00:00Z,data,NA,numeric,12.264706
+2017-01-01T00:00:00Z,error,NA,numeric,7.0035005
+2017-01-01T00:00:00Z,SEup,NA,numeric,19.268206
+2017-01-01T00:00:00Z,SElo,NA,numeric,5.261205
+2018-01-01T00:00:00Z,data,NA,numeric,12.404762
+2018-01-01T00:00:00Z,error,NA,numeric,4.542802
+2018-01-01T00:00:00Z,SEup,NA,numeric,16.947563
+2018-01-01T00:00:00Z,SElo,NA,numeric,7.86196
+1990-01-01T00:00:00Z,data,NA,numeric,4.857143
+1990-01-01T00:00:00Z,error,NA,numeric,3.4363165
+1990-01-01T00:00:00Z,SEup,NA,numeric,8.293459
+1990-01-01T00:00:00Z,SElo,NA,numeric,1.4208264
+1991-01-01T00:00:00Z,data,NA,numeric,9.4
+1991-01-01T00:00:00Z,error,NA,numeric,3.8006504
+1991-01-01T00:00:00Z,SEup,NA,numeric,13.20065
+1991-01-01T00:00:00Z,SElo,NA,numeric,5.5993495
+1992-01-01T00:00:00Z,data,NA,numeric,3.9315069
+1992-01-01T00:00:00Z,error,NA,numeric,3.3430223
+1992-01-01T00:00:00Z,SEup,NA,numeric,7.2745295
+1992-01-01T00:00:00Z,SElo,NA,numeric,0.5884844
+1993-01-01T00:00:00Z,data,NA,numeric,8.657535
+1993-01-01T00:00:00Z,error,NA,numeric,4.031884
+1993-01-01T00:00:00Z,SEup,NA,numeric,12.689418
+1993-01-01T00:00:00Z,SElo,NA,numeric,4.6256504
+1994-01-01T00:00:00Z,data,NA,numeric,5.808219
+1994-01-01T00:00:00Z,error,NA,numeric,2.2952702
+1994-01-01T00:00:00Z,SEup,NA,numeric,8.103489
+1994-01-01T00:00:00Z,SElo,NA,numeric,3.512949
+1995-01-01T00:00:00Z,data,NA,numeric,4.1527777
+1995-01-01T00:00:00Z,error,NA,numeric,2.5100346
+1995-01-01T00:00:00Z,SEup,NA,numeric,6.662812
+1995-01-01T00:00:00Z,SElo,NA,numeric,1.6427431
+1996-01-01T00:00:00Z,data,NA,numeric,6.3150687
+1996-01-01T00:00:00Z,error,NA,numeric,2.4145203
+1996-01-01T00:00:00Z,SEup,NA,numeric,8.7295885
+1996-01-01T00:00:00Z,SElo,NA,numeric,3.9005482
+1997-01-01T00:00:00Z,data,NA,numeric,4.830986
+1997-01-01T00:00:00Z,error,NA,numeric,3.1531658
+1997-01-01T00:00:00Z,SEup,NA,numeric,7.984152
+1997-01-01T00:00:00Z,SElo,NA,numeric,1.6778201
+1998-01-01T00:00:00Z,data,NA,numeric,1.7866666
+1998-01-01T00:00:00Z,error,NA,numeric,1.7028857
+1998-01-01T00:00:00Z,SEup,NA,numeric,3.4895525
+1998-01-01T00:00:00Z,SElo,NA,numeric,0.08378094
+1999-01-01T00:00:00Z,data,NA,numeric,5.2702703
+1999-01-01T00:00:00Z,error,NA,numeric,2.608192
+1999-01-01T00:00:00Z,SEup,NA,numeric,7.8784623
+1999-01-01T00:00:00Z,SElo,NA,numeric,2.6620781
+2000-01-01T00:00:00Z,data,NA,numeric,6.192771
+2000-01-01T00:00:00Z,error,NA,numeric,3.0859945
+2000-01-01T00:00:00Z,SEup,NA,numeric,9.278766
+2000-01-01T00:00:00Z,SElo,NA,numeric,3.1067767
+2001-01-01T00:00:00Z,data,NA,numeric,8.52
+2001-01-01T00:00:00Z,error,NA,numeric,3.0374243
+2001-01-01T00:00:00Z,SEup,NA,numeric,11.557425
+2001-01-01T00:00:00Z,SElo,NA,numeric,5.482576
+2002-01-01T00:00:00Z,data,NA,numeric,10.721312
+2002-01-01T00:00:00Z,error,NA,numeric,4.107437
+2002-01-01T00:00:00Z,SEup,NA,numeric,14.828749
+2002-01-01T00:00:00Z,SElo,NA,numeric,6.6138744
+2003-01-01T00:00:00Z,data,NA,numeric,5.857143
+2003-01-01T00:00:00Z,error,NA,numeric,2.5011275
+2003-01-01T00:00:00Z,SEup,NA,numeric,8.358271
+2003-01-01T00:00:00Z,SElo,NA,numeric,3.3560152
+2004-01-01T00:00:00Z,data,NA,numeric,9.285714
+2004-01-01T00:00:00Z,error,NA,numeric,4.0005174
+2004-01-01T00:00:00Z,SEup,NA,numeric,13.286232
+2004-01-01T00:00:00Z,SElo,NA,numeric,5.285197
+2005-01-01T00:00:00Z,data,NA,numeric,1.8507463
+2005-01-01T00:00:00Z,error,NA,numeric,1.6900218
+2005-01-01T00:00:00Z,SEup,NA,numeric,3.5407681
+2005-01-01T00:00:00Z,SElo,NA,numeric,0.16072448
+2006-01-01T00:00:00Z,data,NA,numeric,1.5
+2006-01-01T00:00:00Z,error,NA,numeric,1.5361149
+2006-01-01T00:00:00Z,SEup,NA,numeric,3.036115
+2006-01-01T00:00:00Z,SElo,NA,numeric,-0.036114946
+2007-01-01T00:00:00Z,data,NA,numeric,3.32
+2007-01-01T00:00:00Z,error,NA,numeric,2.3258827
+2007-01-01T00:00:00Z,SEup,NA,numeric,5.6458826
+2007-01-01T00:00:00Z,SElo,NA,numeric,0.99411744
+2008-01-01T00:00:00Z,data,NA,numeric,4.714286
+2008-01-01T00:00:00Z,error,NA,numeric,2.9168367
+2008-01-01T00:00:00Z,SEup,NA,numeric,7.6311226
+2008-01-01T00:00:00Z,SElo,NA,numeric,1.797449
+2009-01-01T00:00:00Z,data,NA,numeric,7.6060605
+2009-01-01T00:00:00Z,error,NA,numeric,3.9686418
+2009-01-01T00:00:00Z,SEup,NA,numeric,11.574702
+2009-01-01T00:00:00Z,SElo,NA,numeric,3.637419
+2010-01-01T00:00:00Z,data,NA,numeric,8.469697
+2010-01-01T00:00:00Z,error,NA,numeric,3.0393305
+2010-01-01T00:00:00Z,SEup,NA,numeric,11.5090275
+2010-01-01T00:00:00Z,SElo,NA,numeric,5.4303665
+2011-01-01T00:00:00Z,data,NA,numeric,8.604651
+2011-01-01T00:00:00Z,error,NA,numeric,3.478776
+2011-01-01T00:00:00Z,SEup,NA,numeric,12.083427
+2011-01-01T00:00:00Z,SElo,NA,numeric,5.125875
+2012-01-01T00:00:00Z,data,NA,numeric,3.7818182
+2012-01-01T00:00:00Z,error,NA,numeric,2.2500281
+2012-01-01T00:00:00Z,SEup,NA,numeric,6.031846
+2012-01-01T00:00:00Z,SElo,NA,numeric,1.5317901
+2013-01-01T00:00:00Z,data,NA,numeric,9.923077
+2013-01-01T00:00:00Z,error,NA,numeric,4.072125
+2013-01-01T00:00:00Z,SEup,NA,numeric,13.995202
+2013-01-01T00:00:00Z,SElo,NA,numeric,5.850952
+2014-01-01T00:00:00Z,data,NA,numeric,10.087719
+2014-01-01T00:00:00Z,error,NA,numeric,2.5091312
+2014-01-01T00:00:00Z,SEup,NA,numeric,12.59685
+2014-01-01T00:00:00Z,SElo,NA,numeric,7.578588
+2015-01-01T00:00:00Z,data,NA,numeric,14.464286
+2015-01-01T00:00:00Z,error,NA,numeric,4.3650026
+2015-01-01T00:00:00Z,SEup,NA,numeric,18.829288
+2015-01-01T00:00:00Z,SElo,NA,numeric,10.099283
+2016-01-01T00:00:00Z,data,NA,numeric,9.770833
+2016-01-01T00:00:00Z,error,NA,numeric,4.033053
+2016-01-01T00:00:00Z,SEup,NA,numeric,13.803886
+2016-01-01T00:00:00Z,SElo,NA,numeric,5.7377806
+2017-01-01T00:00:00Z,data,NA,numeric,8.088235
+2017-01-01T00:00:00Z,error,NA,numeric,4.8640156
+2017-01-01T00:00:00Z,SEup,NA,numeric,12.9522505
+2017-01-01T00:00:00Z,SElo,NA,numeric,3.22422
+2018-01-01T00:00:00Z,data,NA,numeric,7.047619
+2018-01-01T00:00:00Z,error,NA,numeric,3.491819
+2018-01-01T00:00:00Z,SEup,NA,numeric,10.539438
+2018-01-01T00:00:00Z,SElo,NA,numeric,3.5558002
+1990-01-01T00:00:00Z,data,NA,numeric,3.6233766
+1990-01-01T00:00:00Z,error,NA,numeric,2.3733108
+1990-01-01T00:00:00Z,SEup,NA,numeric,5.9966874
+1990-01-01T00:00:00Z,SElo,NA,numeric,1.2500658
+1991-01-01T00:00:00Z,data,NA,numeric,2.9
+1991-01-01T00:00:00Z,error,NA,numeric,1.9662889
+1991-01-01T00:00:00Z,SEup,NA,numeric,4.866289
+1991-01-01T00:00:00Z,SElo,NA,numeric,0.93371105
+1992-01-01T00:00:00Z,data,NA,numeric,4.0410957
+1992-01-01T00:00:00Z,error,NA,numeric,2.1044817
+1992-01-01T00:00:00Z,SEup,NA,numeric,6.1455774
+1992-01-01T00:00:00Z,SElo,NA,numeric,1.9366142
+1993-01-01T00:00:00Z,data,NA,numeric,4.9041095
+1993-01-01T00:00:00Z,error,NA,numeric,2.2121155
+1993-01-01T00:00:00Z,SEup,NA,numeric,7.1162252
+1993-01-01T00:00:00Z,SElo,NA,numeric,2.691994
+1994-01-01T00:00:00Z,data,NA,numeric,4.2465754
+1994-01-01T00:00:00Z,error,NA,numeric,2.3080826
+1994-01-01T00:00:00Z,SEup,NA,numeric,6.554658
+1994-01-01T00:00:00Z,SElo,NA,numeric,1.9384928
+1995-01-01T00:00:00Z,data,NA,numeric,3.8194444
+1995-01-01T00:00:00Z,error,NA,numeric,2.3456666
+1995-01-01T00:00:00Z,SEup,NA,numeric,6.165111
+1995-01-01T00:00:00Z,SElo,NA,numeric,1.4737779
+1996-01-01T00:00:00Z,data,NA,numeric,4.410959
+1996-01-01T00:00:00Z,error,NA,numeric,3.1350865
+1996-01-01T00:00:00Z,SEup,NA,numeric,7.5460453
+1996-01-01T00:00:00Z,SElo,NA,numeric,1.2758725
+1997-01-01T00:00:00Z,data,NA,numeric,4.830986
+1997-01-01T00:00:00Z,error,NA,numeric,2.5127442
+1997-01-01T00:00:00Z,SEup,NA,numeric,7.34373
+1997-01-01T00:00:00Z,SElo,NA,numeric,2.3182418
+1998-01-01T00:00:00Z,data,NA,numeric,3.5066667
+1998-01-01T00:00:00Z,error,NA,numeric,2.4625483
+1998-01-01T00:00:00Z,SEup,NA,numeric,5.969215
+1998-01-01T00:00:00Z,SElo,NA,numeric,1.0441184
+1999-01-01T00:00:00Z,data,NA,numeric,2.5675676
+1999-01-01T00:00:00Z,error,NA,numeric,1.937949
+1999-01-01T00:00:00Z,SEup,NA,numeric,4.5055165
+1999-01-01T00:00:00Z,SElo,NA,numeric,0.62961864
+2000-01-01T00:00:00Z,data,NA,numeric,3.313253
+2000-01-01T00:00:00Z,error,NA,numeric,1.9995592
+2000-01-01T00:00:00Z,SEup,NA,numeric,5.3128123
+2000-01-01T00:00:00Z,SElo,NA,numeric,1.3136939
+2001-01-01T00:00:00Z,data,NA,numeric,3.9466667
+2001-01-01T00:00:00Z,error,NA,numeric,2.1554039
+2001-01-01T00:00:00Z,SEup,NA,numeric,6.1020703
+2001-01-01T00:00:00Z,SElo,NA,numeric,1.7912629
+2002-01-01T00:00:00Z,data,NA,numeric,3.5737705
+2002-01-01T00:00:00Z,error,NA,numeric,2.0853379
+2002-01-01T00:00:00Z,SEup,NA,numeric,5.659108
+2002-01-01T00:00:00Z,SElo,NA,numeric,1.4884326
+2003-01-01T00:00:00Z,data,NA,numeric,4.233766
+2003-01-01T00:00:00Z,error,NA,numeric,2.6847332
+2003-01-01T00:00:00Z,SEup,NA,numeric,6.9184995
+2003-01-01T00:00:00Z,SElo,NA,numeric,1.549033
+2004-01-01T00:00:00Z,data,NA,numeric,5.1571426
+2004-01-01T00:00:00Z,error,NA,numeric,2.8924475
+2004-01-01T00:00:00Z,SEup,NA,numeric,8.04959
+2004-01-01T00:00:00Z,SElo,NA,numeric,2.2646954
+2005-01-01T00:00:00Z,data,NA,numeric,4.8656716
+2005-01-01T00:00:00Z,error,NA,numeric,2.9123328
+2005-01-01T00:00:00Z,SEup,NA,numeric,7.7780046
+2005-01-01T00:00:00Z,SElo,NA,numeric,1.9533389
+2006-01-01T00:00:00Z,data,NA,numeric,3.5172415
+2006-01-01T00:00:00Z,error,NA,numeric,2.6106489
+2006-01-01T00:00:00Z,SEup,NA,numeric,6.12789
+2006-01-01T00:00:00Z,SElo,NA,numeric,0.9065926
+2007-01-01T00:00:00Z,data,NA,numeric,3.2533333
+2007-01-01T00:00:00Z,error,NA,numeric,2.5367212
+2007-01-01T00:00:00Z,SEup,NA,numeric,5.790055
+2007-01-01T00:00:00Z,SElo,NA,numeric,0.71661204
+2008-01-01T00:00:00Z,data,NA,numeric,3.892857
+2008-01-01T00:00:00Z,error,NA,numeric,2.6435006
+2008-01-01T00:00:00Z,SEup,NA,numeric,6.536358
+2008-01-01T00:00:00Z,SElo,NA,numeric,1.2493566
+2009-01-01T00:00:00Z,data,NA,numeric,3.6515152
+2009-01-01T00:00:00Z,error,NA,numeric,2.2836707
+2009-01-01T00:00:00Z,SEup,NA,numeric,5.935186
+2009-01-01T00:00:00Z,SElo,NA,numeric,1.3678446
+2010-01-01T00:00:00Z,data,NA,numeric,3.6666667
+2010-01-01T00:00:00Z,error,NA,numeric,2.342473
+2010-01-01T00:00:00Z,SEup,NA,numeric,6.0091395
+2010-01-01T00:00:00Z,SElo,NA,numeric,1.3241937
+2011-01-01T00:00:00Z,data,NA,numeric,2.3488371
+2011-01-01T00:00:00Z,error,NA,numeric,1.5566099
+2011-01-01T00:00:00Z,SEup,NA,numeric,3.905447
+2011-01-01T00:00:00Z,SElo,NA,numeric,0.7922273
+2012-01-01T00:00:00Z,data,NA,numeric,2.1272728
+2012-01-01T00:00:00Z,error,NA,numeric,1.4536613
+2012-01-01T00:00:00Z,SEup,NA,numeric,3.580934
+2012-01-01T00:00:00Z,SElo,NA,numeric,0.6736114
+2013-01-01T00:00:00Z,data,NA,numeric,3.4615386
+2013-01-01T00:00:00Z,error,NA,numeric,2.164432
+2013-01-01T00:00:00Z,SEup,NA,numeric,5.6259704
+2013-01-01T00:00:00Z,SElo,NA,numeric,1.2971064
+2014-01-01T00:00:00Z,data,NA,numeric,4.0701756
+2014-01-01T00:00:00Z,error,NA,numeric,2.234947
+2014-01-01T00:00:00Z,SEup,NA,numeric,6.3051224
+2014-01-01T00:00:00Z,SElo,NA,numeric,1.8352286
+2015-01-01T00:00:00Z,data,NA,numeric,7
+2015-01-01T00:00:00Z,error,NA,numeric,2.4790027
+2015-01-01T00:00:00Z,SEup,NA,numeric,9.479003
+2015-01-01T00:00:00Z,SElo,NA,numeric,4.520997
+2016-01-01T00:00:00Z,data,NA,numeric,4.875
+2016-01-01T00:00:00Z,error,NA,numeric,2.6306298
+2016-01-01T00:00:00Z,SEup,NA,numeric,7.5056295
+2016-01-01T00:00:00Z,SElo,NA,numeric,2.2443702
+2017-01-01T00:00:00Z,data,NA,numeric,3.735294
+2017-01-01T00:00:00Z,error,NA,numeric,2.6205347
+2017-01-01T00:00:00Z,SEup,NA,numeric,6.355829
+2017-01-01T00:00:00Z,SElo,NA,numeric,1.1147596
+2018-01-01T00:00:00Z,data,NA,numeric,4.928571
+2018-01-01T00:00:00Z,error,NA,numeric,2.6813982
+2018-01-01T00:00:00Z,SEup,NA,numeric,7.6099696
+2018-01-01T00:00:00Z,SElo,NA,numeric,2.2471733
+1990-01-01T00:00:00Z,data,NA,numeric,0.41802415
+1990-01-01T00:00:00Z,error,NA,numeric,0.5182946
+1990-01-01T00:00:00Z,SEup,NA,numeric,0.9363187
+1990-01-01T00:00:00Z,SElo,NA,numeric,-0.10027042
+1991-01-01T00:00:00Z,data,NA,numeric,0.42511436
+1991-01-01T00:00:00Z,error,NA,numeric,0.67310965
+1991-01-01T00:00:00Z,SEup,NA,numeric,1.098224
+1991-01-01T00:00:00Z,SElo,NA,numeric,-0.2479953
+1992-01-01T00:00:00Z,data,NA,numeric,0.5244004
+1992-01-01T00:00:00Z,error,NA,numeric,0.5342272
+1992-01-01T00:00:00Z,SEup,NA,numeric,1.0586276
+1992-01-01T00:00:00Z,SElo,NA,numeric,-0.0098267235
+1993-01-01T00:00:00Z,data,NA,numeric,0.5279126
+1993-01-01T00:00:00Z,error,NA,numeric,0.58789176
+1993-01-01T00:00:00Z,SEup,NA,numeric,1.1158043
+1993-01-01T00:00:00Z,SElo,NA,numeric,-0.059979156
+1994-01-01T00:00:00Z,data,NA,numeric,0.33032617
+1994-01-01T00:00:00Z,error,NA,numeric,0.47297102
+1994-01-01T00:00:00Z,SEup,NA,numeric,0.80329716
+1994-01-01T00:00:00Z,SElo,NA,numeric,-0.14264487
+1995-01-01T00:00:00Z,data,NA,numeric,0.36794287
+1995-01-01T00:00:00Z,error,NA,numeric,0.46600544
+1995-01-01T00:00:00Z,SEup,NA,numeric,0.8339483
+1995-01-01T00:00:00Z,SElo,NA,numeric,-0.098062559999999993
+1996-01-01T00:00:00Z,data,NA,numeric,0.71927905
+1996-01-01T00:00:00Z,error,NA,numeric,0.5811954
+1996-01-01T00:00:00Z,SEup,NA,numeric,1.3004745
+1996-01-01T00:00:00Z,SElo,NA,numeric,0.13808365
+1997-01-01T00:00:00Z,data,NA,numeric,0.3438317
+1997-01-01T00:00:00Z,error,NA,numeric,0.45602044
+1997-01-01T00:00:00Z,SEup,NA,numeric,0.79985213
+1997-01-01T00:00:00Z,SElo,NA,numeric,-0.11218877
+1998-01-01T00:00:00Z,data,NA,numeric,0.60192055
+1998-01-01T00:00:00Z,error,NA,numeric,0.5700197
+1998-01-01T00:00:00Z,SEup,NA,numeric,1.1719403
+1998-01-01T00:00:00Z,SElo,NA,numeric,0.031900793
+1999-01-01T00:00:00Z,data,NA,numeric,0.33785185
+1999-01-01T00:00:00Z,error,NA,numeric,0.43996388
+1999-01-01T00:00:00Z,SEup,NA,numeric,0.77781576
+1999-01-01T00:00:00Z,SElo,NA,numeric,-0.102112
+2000-01-01T00:00:00Z,data,NA,numeric,0.24775253
+2000-01-01T00:00:00Z,error,NA,numeric,0.41586533
+2000-01-01T00:00:00Z,SEup,NA,numeric,0.66361785
+2000-01-01T00:00:00Z,SElo,NA,numeric,-0.16811278
+2001-01-01T00:00:00Z,data,NA,numeric,0.26166776
+2001-01-01T00:00:00Z,error,NA,numeric,0.34779748
+2001-01-01T00:00:00Z,SEup,NA,numeric,0.60946524
+2001-01-01T00:00:00Z,SElo,NA,numeric,-0.08612974
+2002-01-01T00:00:00Z,data,NA,numeric,0.75488436
+2002-01-01T00:00:00Z,error,NA,numeric,0.66556835
+2002-01-01T00:00:00Z,SEup,NA,numeric,1.4204527
+2002-01-01T00:00:00Z,SElo,NA,numeric,0.08931598
+2003-01-01T00:00:00Z,data,NA,numeric,0.40150437
+2003-01-01T00:00:00Z,error,NA,numeric,0.49365976
+2003-01-01T00:00:00Z,SEup,NA,numeric,0.89516413
+2003-01-01T00:00:00Z,SElo,NA,numeric,-0.0921554
+2004-01-01T00:00:00Z,data,NA,numeric,0.5815811
+2004-01-01T00:00:00Z,error,NA,numeric,0.5914823
+2004-01-01T00:00:00Z,SEup,NA,numeric,1.1730634
+2004-01-01T00:00:00Z,SElo,NA,numeric,-0.009901145
+2005-01-01T00:00:00Z,data,NA,numeric,0.38100046
+2005-01-01T00:00:00Z,error,NA,numeric,0.4653507
+2005-01-01T00:00:00Z,SEup,NA,numeric,0.84635115
+2005-01-01T00:00:00Z,SElo,NA,numeric,-0.084350236
+2006-01-01T00:00:00Z,data,NA,numeric,0.27650565
+2006-01-01T00:00:00Z,error,NA,numeric,0.4181313
+2006-01-01T00:00:00Z,SEup,NA,numeric,0.69463694
+2006-01-01T00:00:00Z,SElo,NA,numeric,-0.14162563
+2007-01-01T00:00:00Z,data,NA,numeric,0.26614568
+2007-01-01T00:00:00Z,error,NA,numeric,0.4583569
+2007-01-01T00:00:00Z,SEup,NA,numeric,0.72450256
+2007-01-01T00:00:00Z,SElo,NA,numeric,-0.19221124
+2008-01-01T00:00:00Z,data,NA,numeric,0.0696443
+2008-01-01T00:00:00Z,error,NA,numeric,0.13255867
+2008-01-01T00:00:00Z,SEup,NA,numeric,0.20220298
+2008-01-01T00:00:00Z,SElo,NA,numeric,-0.06291438
+2009-01-01T00:00:00Z,data,NA,numeric,0.31547102
+2009-01-01T00:00:00Z,error,NA,numeric,0.49756613
+2009-01-01T00:00:00Z,SEup,NA,numeric,0.81303716
+2009-01-01T00:00:00Z,SElo,NA,numeric,-0.18209511
+2010-01-01T00:00:00Z,data,NA,numeric,0.34200406
+2010-01-01T00:00:00Z,error,NA,numeric,0.45938075
+2010-01-01T00:00:00Z,SEup,NA,numeric,0.8013848
+2010-01-01T00:00:00Z,SElo,NA,numeric,-0.117376685
+2011-01-01T00:00:00Z,data,NA,numeric,0.140098
+2011-01-01T00:00:00Z,error,NA,numeric,0.28178298
+2011-01-01T00:00:00Z,SEup,NA,numeric,0.421881
+2011-01-01T00:00:00Z,SElo,NA,numeric,-0.14168498
+2012-01-01T00:00:00Z,data,NA,numeric,0.13862573
+2012-01-01T00:00:00Z,error,NA,numeric,0.2638758
+2012-01-01T00:00:00Z,SEup,NA,numeric,0.40250152
+2012-01-01T00:00:00Z,SElo,NA,numeric,-0.12525007
+2013-01-01T00:00:00Z,data,NA,numeric,0.30307403
+2013-01-01T00:00:00Z,error,NA,numeric,0.4585782
+2013-01-01T00:00:00Z,SEup,NA,numeric,0.76165223
+2013-01-01T00:00:00Z,SElo,NA,numeric,-0.15550417
+2014-01-01T00:00:00Z,data,NA,numeric,0.3031914
+2014-01-01T00:00:00Z,error,NA,numeric,0.44708955
+2014-01-01T00:00:00Z,SEup,NA,numeric,0.750281
+2014-01-01T00:00:00Z,SElo,NA,numeric,-0.14389817
+2015-01-01T00:00:00Z,data,NA,numeric,1.0175031
+2015-01-01T00:00:00Z,error,NA,numeric,0.80784506
+2015-01-01T00:00:00Z,SEup,NA,numeric,1.8253481
+2015-01-01T00:00:00Z,SElo,NA,numeric,0.20965801
+2016-01-01T00:00:00Z,data,NA,numeric,0.65094876
+2016-01-01T00:00:00Z,error,NA,numeric,0.61287475
+2016-01-01T00:00:00Z,SEup,NA,numeric,1.2638235
+2016-01-01T00:00:00Z,SElo,NA,numeric,0.038074005
+2017-01-01T00:00:00Z,data,NA,numeric,0.17757209
+2017-01-01T00:00:00Z,error,NA,numeric,0.24618216
+2017-01-01T00:00:00Z,SEup,NA,numeric,0.42375425
+2017-01-01T00:00:00Z,SElo,NA,numeric,-0.06861009
+2018-01-01T00:00:00Z,data,NA,numeric,0.23209786
+2018-01-01T00:00:00Z,error,NA,numeric,0.36064905
+2018-01-01T00:00:00Z,SEup,NA,numeric,0.5927469
+2018-01-01T00:00:00Z,SElo,NA,numeric,-0.1285512
+1990-01-01T00:00:00Z,data,NA,numeric,0.9623432
+1990-01-01T00:00:00Z,error,NA,numeric,0.52556276
+1990-01-01T00:00:00Z,SEup,NA,numeric,1.487906
+1990-01-01T00:00:00Z,SElo,NA,numeric,0.43678045
+1991-01-01T00:00:00Z,data,NA,numeric,1.4669633
+1991-01-01T00:00:00Z,error,NA,numeric,0.4816146
+1991-01-01T00:00:00Z,SEup,NA,numeric,1.9485779
+1991-01-01T00:00:00Z,SElo,NA,numeric,0.9853487
+1992-01-01T00:00:00Z,data,NA,numeric,0.8023491
+1992-01-01T00:00:00Z,error,NA,numeric,0.5787289
+1992-01-01T00:00:00Z,SEup,NA,numeric,1.381078
+1992-01-01T00:00:00Z,SElo,NA,numeric,0.22362016
+1993-01-01T00:00:00Z,data,NA,numeric,1.0699273
+1993-01-01T00:00:00Z,error,NA,numeric,0.60518044
+1993-01-01T00:00:00Z,SEup,NA,numeric,1.6751078
+1993-01-01T00:00:00Z,SElo,NA,numeric,0.46474695
+1994-01-01T00:00:00Z,data,NA,numeric,1.1100322
+1994-01-01T00:00:00Z,error,NA,numeric,0.44188526
+1994-01-01T00:00:00Z,SEup,NA,numeric,1.5519176
+1994-01-01T00:00:00Z,SElo,NA,numeric,0.66814697
+1995-01-01T00:00:00Z,data,NA,numeric,0.9824817
+1995-01-01T00:00:00Z,error,NA,numeric,0.5604171
+1995-01-01T00:00:00Z,SEup,NA,numeric,1.5428988
+1995-01-01T00:00:00Z,SElo,NA,numeric,0.42206463
+1996-01-01T00:00:00Z,data,NA,numeric,1.1929649
+1996-01-01T00:00:00Z,error,NA,numeric,0.4216891
+1996-01-01T00:00:00Z,SEup,NA,numeric,1.6146541
+1996-01-01T00:00:00Z,SElo,NA,numeric,0.7712758
+1997-01-01T00:00:00Z,data,NA,numeric,0.90550053
+1997-01-01T00:00:00Z,error,NA,numeric,0.59385824
+1997-01-01T00:00:00Z,SEup,NA,numeric,1.4993588
+1997-01-01T00:00:00Z,SElo,NA,numeric,0.3116423
+1998-01-01T00:00:00Z,data,NA,numeric,0.42200154
+1998-01-01T00:00:00Z,error,NA,numeric,0.51255226
+1998-01-01T00:00:00Z,SEup,NA,numeric,0.9345538
+1998-01-01T00:00:00Z,SElo,NA,numeric,-0.090550706
+1999-01-01T00:00:00Z,data,NA,numeric,0.848156
+1999-01-01T00:00:00Z,error,NA,numeric,0.51236993
+1999-01-01T00:00:00Z,SEup,NA,numeric,1.360526
+1999-01-01T00:00:00Z,SElo,NA,numeric,0.33578604
+2000-01-01T00:00:00Z,data,NA,numeric,1.149702
+2000-01-01T00:00:00Z,error,NA,numeric,0.5098329
+2000-01-01T00:00:00Z,SEup,NA,numeric,1.6595349
+2000-01-01T00:00:00Z,SElo,NA,numeric,0.63986903
+2001-01-01T00:00:00Z,data,NA,numeric,1.382886
+2001-01-01T00:00:00Z,error,NA,numeric,0.39382187
+2001-01-01T00:00:00Z,SEup,NA,numeric,1.7767079
+2001-01-01T00:00:00Z,SElo,NA,numeric,0.9890642
+2002-01-01T00:00:00Z,data,NA,numeric,1.5863273
+2002-01-01T00:00:00Z,error,NA,numeric,0.40202218
+2002-01-01T00:00:00Z,SEup,NA,numeric,1.9883494
+2002-01-01T00:00:00Z,SElo,NA,numeric,1.1843051
+2003-01-01T00:00:00Z,data,NA,numeric,1.2773215
+2003-01-01T00:00:00Z,error,NA,numeric,0.4468732
+2003-01-01T00:00:00Z,SEup,NA,numeric,1.7241946
+2003-01-01T00:00:00Z,SElo,NA,numeric,0.8304483
+2004-01-01T00:00:00Z,data,NA,numeric,1.235079
+2004-01-01T00:00:00Z,error,NA,numeric,0.6697051
+2004-01-01T00:00:00Z,SEup,NA,numeric,1.9047842
+2004-01-01T00:00:00Z,SElo,NA,numeric,0.565374
+2005-01-01T00:00:00Z,data,NA,numeric,0.477331
+2005-01-01T00:00:00Z,error,NA,numeric,0.5489426
+2005-01-01T00:00:00Z,SEup,NA,numeric,1.0262736
+2005-01-01T00:00:00Z,SElo,NA,numeric,-0.071611635
+2006-01-01T00:00:00Z,data,NA,numeric,0.41054064
+2006-01-01T00:00:00Z,error,NA,numeric,0.52419275
+2006-01-01T00:00:00Z,SEup,NA,numeric,0.9347334
+2006-01-01T00:00:00Z,SElo,NA,numeric,-0.11365213
+2007-01-01T00:00:00Z,data,NA,numeric,0.8133067
+2007-01-01T00:00:00Z,error,NA,numeric,0.60164005
+2007-01-01T00:00:00Z,SEup,NA,numeric,1.4149467
+2007-01-01T00:00:00Z,SElo,NA,numeric,0.21166664
+2008-01-01T00:00:00Z,data,NA,numeric,1.0611248
+2008-01-01T00:00:00Z,error,NA,numeric,0.62768537
+2008-01-01T00:00:00Z,SEup,NA,numeric,1.6888101
+2008-01-01T00:00:00Z,SElo,NA,numeric,0.43343946
+2009-01-01T00:00:00Z,data,NA,numeric,1.3916358
+2009-01-01T00:00:00Z,error,NA,numeric,0.4857286
+2009-01-01T00:00:00Z,SEup,NA,numeric,1.8773644
+2009-01-01T00:00:00Z,SElo,NA,numeric,0.90590715
+2010-01-01T00:00:00Z,data,NA,numeric,1.4142934
+2010-01-01T00:00:00Z,error,NA,numeric,0.4417224
+2010-01-01T00:00:00Z,SEup,NA,numeric,1.8560157
+2010-01-01T00:00:00Z,SElo,NA,numeric,0.97257096
+2011-01-01T00:00:00Z,data,NA,numeric,1.5700519
+2011-01-01T00:00:00Z,error,NA,numeric,0.2907927
+2011-01-01T00:00:00Z,SEup,NA,numeric,1.8608446
+2011-01-01T00:00:00Z,SElo,NA,numeric,1.2792592
+2012-01-01T00:00:00Z,data,NA,numeric,0.76025426
+2012-01-01T00:00:00Z,error,NA,numeric,0.4563667
+2012-01-01T00:00:00Z,SEup,NA,numeric,1.2166209
+2012-01-01T00:00:00Z,SElo,NA,numeric,0.3038876
+2013-01-01T00:00:00Z,data,NA,numeric,1.3727046
+2013-01-01T00:00:00Z,error,NA,numeric,0.43245912
+2013-01-01T00:00:00Z,SEup,NA,numeric,1.8051639
+2013-01-01T00:00:00Z,SElo,NA,numeric,0.94024557
+2014-01-01T00:00:00Z,data,NA,numeric,1.5158824
+2014-01-01T00:00:00Z,error,NA,numeric,0.37530804
+2014-01-01T00:00:00Z,SEup,NA,numeric,1.8911904
+2014-01-01T00:00:00Z,SElo,NA,numeric,1.1405743
+2015-01-01T00:00:00Z,data,NA,numeric,1.6908584
+2015-01-01T00:00:00Z,error,NA,numeric,0.3299391
+2015-01-01T00:00:00Z,SEup,NA,numeric,2.0207975
+2015-01-01T00:00:00Z,SElo,NA,numeric,1.3609192
+2016-01-01T00:00:00Z,data,NA,numeric,1.0904148
+2016-01-01T00:00:00Z,error,NA,numeric,0.47994632
+2016-01-01T00:00:00Z,SEup,NA,numeric,1.570361
+2016-01-01T00:00:00Z,SElo,NA,numeric,0.6104684
+2017-01-01T00:00:00Z,data,NA,numeric,1.2443007
+2017-01-01T00:00:00Z,error,NA,numeric,0.48021936
+2017-01-01T00:00:00Z,SEup,NA,numeric,1.7245201
+2017-01-01T00:00:00Z,SElo,NA,numeric,0.76408136
+2018-01-01T00:00:00Z,data,NA,numeric,1.1462511
+2018-01-01T00:00:00Z,error,NA,numeric,0.54318774
+2018-01-01T00:00:00Z,SEup,NA,numeric,1.6894388
+2018-01-01T00:00:00Z,SElo,NA,numeric,0.6030634
+1990-01-01T00:00:00Z,data,NA,numeric,0.56238174
+1990-01-01T00:00:00Z,error,NA,numeric,0.4507565
+1990-01-01T00:00:00Z,SEup,NA,numeric,1.0131383
+1990-01-01T00:00:00Z,SElo,NA,numeric,0.11162528
+1991-01-01T00:00:00Z,data,NA,numeric,0.51262754
+1991-01-01T00:00:00Z,error,NA,numeric,0.45729655
+1991-01-01T00:00:00Z,SEup,NA,numeric,0.9699241
+1991-01-01T00:00:00Z,SElo,NA,numeric,0.055331003
+1992-01-01T00:00:00Z,data,NA,numeric,0.5545777
+1992-01-01T00:00:00Z,error,NA,numeric,0.44303137
+1992-01-01T00:00:00Z,SEup,NA,numeric,0.9976091
+1992-01-01T00:00:00Z,SElo,NA,numeric,0.111546345
+1993-01-01T00:00:00Z,data,NA,numeric,0.8219306
+1993-01-01T00:00:00Z,error,NA,numeric,0.45725772
+1993-01-01T00:00:00Z,SEup,NA,numeric,1.2791883
+1993-01-01T00:00:00Z,SElo,NA,numeric,0.36467287
+1994-01-01T00:00:00Z,data,NA,numeric,0.6980417
+1994-01-01T00:00:00Z,error,NA,numeric,0.47742504
+1994-01-01T00:00:00Z,SEup,NA,numeric,1.1754667
+1994-01-01T00:00:00Z,SElo,NA,numeric,0.22061661
+1995-01-01T00:00:00Z,data,NA,numeric,0.5922639
+1995-01-01T00:00:00Z,error,NA,numeric,0.43829432
+1995-01-01T00:00:00Z,SEup,NA,numeric,1.0305582
+1995-01-01T00:00:00Z,SElo,NA,numeric,0.15396956
+1996-01-01T00:00:00Z,data,NA,numeric,0.6250707
+1996-01-01T00:00:00Z,error,NA,numeric,0.42264572
+1996-01-01T00:00:00Z,SEup,NA,numeric,1.0477164
+1996-01-01T00:00:00Z,SElo,NA,numeric,0.20242494
+1997-01-01T00:00:00Z,data,NA,numeric,0.8030682
+1997-01-01T00:00:00Z,error,NA,numeric,0.44566968
+1997-01-01T00:00:00Z,SEup,NA,numeric,1.2487379
+1997-01-01T00:00:00Z,SElo,NA,numeric,0.35739854
+1998-01-01T00:00:00Z,data,NA,numeric,0.60510665
+1998-01-01T00:00:00Z,error,NA,numeric,0.46465904
+1998-01-01T00:00:00Z,SEup,NA,numeric,1.0697657
+1998-01-01T00:00:00Z,SElo,NA,numeric,0.14044765
+1999-01-01T00:00:00Z,data,NA,numeric,0.50312406
+1999-01-01T00:00:00Z,error,NA,numeric,0.45608196
+1999-01-01T00:00:00Z,SEup,NA,numeric,0.95920604
+1999-01-01T00:00:00Z,SElo,NA,numeric,0.047042124
+2000-01-01T00:00:00Z,data,NA,numeric,0.67680854
+2000-01-01T00:00:00Z,error,NA,numeric,0.51465946
+2000-01-01T00:00:00Z,SEup,NA,numeric,1.191468
+2000-01-01T00:00:00Z,SElo,NA,numeric,0.16214906
+2001-01-01T00:00:00Z,data,NA,numeric,0.6423513
+2001-01-01T00:00:00Z,error,NA,numeric,0.5117928
+2001-01-01T00:00:00Z,SEup,NA,numeric,1.154144
+2001-01-01T00:00:00Z,SElo,NA,numeric,0.13055857
+2002-01-01T00:00:00Z,data,NA,numeric,0.5568945
+2002-01-01T00:00:00Z,error,NA,numeric,0.43414095
+2002-01-01T00:00:00Z,SEup,NA,numeric,0.9910354
+2002-01-01T00:00:00Z,SElo,NA,numeric,0.122753516
+2003-01-01T00:00:00Z,data,NA,numeric,0.7521975
+2003-01-01T00:00:00Z,error,NA,numeric,0.48099163
+2003-01-01T00:00:00Z,SEup,NA,numeric,1.2331891
+2003-01-01T00:00:00Z,SElo,NA,numeric,0.27120587
+2004-01-01T00:00:00Z,data,NA,numeric,0.811146
+2004-01-01T00:00:00Z,error,NA,numeric,0.49261776
+2004-01-01T00:00:00Z,SEup,NA,numeric,1.3037637
+2004-01-01T00:00:00Z,SElo,NA,numeric,0.31852826
+2005-01-01T00:00:00Z,data,NA,numeric,0.81659055
+2005-01-01T00:00:00Z,error,NA,numeric,0.479203
+2005-01-01T00:00:00Z,SEup,NA,numeric,1.2957935
+2005-01-01T00:00:00Z,SElo,NA,numeric,0.33738756
+2006-01-01T00:00:00Z,data,NA,numeric,0.6226217
+2006-01-01T00:00:00Z,error,NA,numeric,0.4932313
+2006-01-01T00:00:00Z,SEup,NA,numeric,1.115853
+2006-01-01T00:00:00Z,SElo,NA,numeric,0.12939042
+2007-01-01T00:00:00Z,data,NA,numeric,0.49469465
+2007-01-01T00:00:00Z,error,NA,numeric,0.48486412
+2007-01-01T00:00:00Z,SEup,NA,numeric,0.97955877
+2007-01-01T00:00:00Z,SElo,NA,numeric,0.00983051
+2008-01-01T00:00:00Z,data,NA,numeric,0.81600636
+2008-01-01T00:00:00Z,error,NA,numeric,0.51823074
+2008-01-01T00:00:00Z,SEup,NA,numeric,1.3342371
+2008-01-01T00:00:00Z,SElo,NA,numeric,0.29777563
+2009-01-01T00:00:00Z,data,NA,numeric,0.6275238
+2009-01-01T00:00:00Z,error,NA,numeric,0.48653862
+2009-01-01T00:00:00Z,SEup,NA,numeric,1.1140624
+2009-01-01T00:00:00Z,SElo,NA,numeric,0.14098518
+2010-01-01T00:00:00Z,data,NA,numeric,0.54249287
+2010-01-01T00:00:00Z,error,NA,numeric,0.42547736
+2010-01-01T00:00:00Z,SEup,NA,numeric,0.9679702
+2010-01-01T00:00:00Z,SElo,NA,numeric,0.117015496
+2011-01-01T00:00:00Z,data,NA,numeric,0.46031424
+2011-01-01T00:00:00Z,error,NA,numeric,0.4449128
+2011-01-01T00:00:00Z,SEup,NA,numeric,0.90522707
+2011-01-01T00:00:00Z,SElo,NA,numeric,0.015401467
+2012-01-01T00:00:00Z,data,NA,numeric,0.27380547
+2012-01-01T00:00:00Z,error,NA,numeric,0.3920748
+2012-01-01T00:00:00Z,SEup,NA,numeric,0.66588026
+2012-01-01T00:00:00Z,SElo,NA,numeric,-0.118269324
+2013-01-01T00:00:00Z,data,NA,numeric,0.6166683
+2013-01-01T00:00:00Z,error,NA,numeric,0.52093434
+2013-01-01T00:00:00Z,SEup,NA,numeric,1.1376027
+2013-01-01T00:00:00Z,SElo,NA,numeric,0.09573398
+2014-01-01T00:00:00Z,data,NA,numeric,0.5585294
+2014-01-01T00:00:00Z,error,NA,numeric,0.45601264
+2014-01-01T00:00:00Z,SEup,NA,numeric,1.014542
+2014-01-01T00:00:00Z,SElo,NA,numeric,0.10251672
+2015-01-01T00:00:00Z,data,NA,numeric,1.0479243
+2015-01-01T00:00:00Z,error,NA,numeric,0.45287773
+2015-01-01T00:00:00Z,SEup,NA,numeric,1.500802
+2015-01-01T00:00:00Z,SElo,NA,numeric,0.5950466
+2016-01-01T00:00:00Z,data,NA,numeric,0.9728768
+2016-01-01T00:00:00Z,error,NA,numeric,0.54343563
+2016-01-01T00:00:00Z,SEup,NA,numeric,1.5163125
+2016-01-01T00:00:00Z,SElo,NA,numeric,0.42944118
+2017-01-01T00:00:00Z,data,NA,numeric,0.54011935
+2017-01-01T00:00:00Z,error,NA,numeric,0.5625378
+2017-01-01T00:00:00Z,SEup,NA,numeric,1.1026571
+2017-01-01T00:00:00Z,SElo,NA,numeric,-0.022418441
+2018-01-01T00:00:00Z,data,NA,numeric,0.68326813
+2018-01-01T00:00:00Z,error,NA,numeric,0.46418637
+2018-01-01T00:00:00Z,SEup,NA,numeric,1.1474545
+2018-01-01T00:00:00Z,SElo,NA,numeric,0.21908177
+1990-01-01T00:00:00Z,data,NA,numeric,0.21307556
+1990-01-01T00:00:00Z,error,NA,numeric,0.26354685
+1990-01-01T00:00:00Z,SEup,NA,numeric,0.47662243
+1990-01-01T00:00:00Z,SElo,NA,numeric,-0.0504713
+1991-01-01T00:00:00Z,data,NA,numeric,0.1682028
+1991-01-01T00:00:00Z,error,NA,numeric,0.25916618
+1991-01-01T00:00:00Z,SEup,NA,numeric,0.427369
+1991-01-01T00:00:00Z,SElo,NA,numeric,-0.090963386
+1992-01-01T00:00:00Z,data,NA,numeric,0.26211926
+1992-01-01T00:00:00Z,error,NA,numeric,0.2632351
+1992-01-01T00:00:00Z,SEup,NA,numeric,0.5253543
+1992-01-01T00:00:00Z,SElo,NA,numeric,-0.001115836
+1993-01-01T00:00:00Z,data,NA,numeric,0.21262224
+1993-01-01T00:00:00Z,error,NA,numeric,0.24590266
+1993-01-01T00:00:00Z,SEup,NA,numeric,0.45852488
+1993-01-01T00:00:00Z,SElo,NA,numeric,-0.033280425
+1994-01-01T00:00:00Z,data,NA,numeric,0.14540325
+1994-01-01T00:00:00Z,error,NA,numeric,0.21058618
+1994-01-01T00:00:00Z,SEup,NA,numeric,0.35598943
+1994-01-01T00:00:00Z,SElo,NA,numeric,-0.06518292
+1995-01-01T00:00:00Z,data,NA,numeric,0.18596838
+1995-01-01T00:00:00Z,error,NA,numeric,0.22131154
+1995-01-01T00:00:00Z,SEup,NA,numeric,0.40727994
+1995-01-01T00:00:00Z,SElo,NA,numeric,-0.03534315
+1996-01-01T00:00:00Z,data,NA,numeric,0.30876148
+1996-01-01T00:00:00Z,error,NA,numeric,0.25900412
+1996-01-01T00:00:00Z,SEup,NA,numeric,0.5677656
+1996-01-01T00:00:00Z,SElo,NA,numeric,0.04975735
+1997-01-01T00:00:00Z,data,NA,numeric,0.16957302
+1997-01-01T00:00:00Z,error,NA,numeric,0.2366828
+1997-01-01T00:00:00Z,SEup,NA,numeric,0.4062558
+1997-01-01T00:00:00Z,SElo,NA,numeric,-0.06710977
+1998-01-01T00:00:00Z,data,NA,numeric,0.37061095
+1998-01-01T00:00:00Z,error,NA,numeric,0.32021633
+1998-01-01T00:00:00Z,SEup,NA,numeric,0.6908273
+1998-01-01T00:00:00Z,SElo,NA,numeric,0.05039462
+1999-01-01T00:00:00Z,data,NA,numeric,0.16504163
+1999-01-01T00:00:00Z,error,NA,numeric,0.21487412
+1999-01-01T00:00:00Z,SEup,NA,numeric,0.37991574
+1999-01-01T00:00:00Z,SElo,NA,numeric,-0.049832497
+2000-01-01T00:00:00Z,data,NA,numeric,0.12892318
+2000-01-01T00:00:00Z,error,NA,numeric,0.21640591
+2000-01-01T00:00:00Z,SEup,NA,numeric,0.34532908
+2000-01-01T00:00:00Z,SElo,NA,numeric,-0.087482736
+2001-01-01T00:00:00Z,data,NA,numeric,0.11424859
+2001-01-01T00:00:00Z,error,NA,numeric,0.1677259
+2001-01-01T00:00:00Z,SEup,NA,numeric,0.2819745
+2001-01-01T00:00:00Z,SElo,NA,numeric,-0.05347731
+2002-01-01T00:00:00Z,data,NA,numeric,0.28872368
+2002-01-01T00:00:00Z,error,NA,numeric,0.2552419
+2002-01-01T00:00:00Z,SEup,NA,numeric,0.5439656
+2002-01-01T00:00:00Z,SElo,NA,numeric,0.03348178
+2003-01-01T00:00:00Z,data,NA,numeric,0.17217721
+2003-01-01T00:00:00Z,error,NA,numeric,0.21802706
+2003-01-01T00:00:00Z,SEup,NA,numeric,0.39020425
+2003-01-01T00:00:00Z,SElo,NA,numeric,-0.045849834
+2004-01-01T00:00:00Z,data,NA,numeric,0.23396145
+2004-01-01T00:00:00Z,error,NA,numeric,0.25012562
+2004-01-01T00:00:00Z,SEup,NA,numeric,0.48408705
+2004-01-01T00:00:00Z,SElo,NA,numeric,-0.016164178
+2005-01-01T00:00:00Z,data,NA,numeric,0.20001434
+2005-01-01T00:00:00Z,error,NA,numeric,0.25211358
+2005-01-01T00:00:00Z,SEup,NA,numeric,0.4521279
+2005-01-01T00:00:00Z,SElo,NA,numeric,-0.052099235
+2006-01-01T00:00:00Z,data,NA,numeric,0.2185972
+2006-01-01T00:00:00Z,error,NA,numeric,0.33374316
+2006-01-01T00:00:00Z,SEup,NA,numeric,0.5523404
+2006-01-01T00:00:00Z,SElo,NA,numeric,-0.115145944
+2007-01-01T00:00:00Z,data,NA,numeric,0.1526062
+2007-01-01T00:00:00Z,error,NA,numeric,0.26052147
+2007-01-01T00:00:00Z,SEup,NA,numeric,0.4131277
+2007-01-01T00:00:00Z,SElo,NA,numeric,-0.10791528
+2008-01-01T00:00:00Z,data,NA,numeric,0.031660482
+2008-01-01T00:00:00Z,error,NA,numeric,0.05746754
+2008-01-01T00:00:00Z,SEup,NA,numeric,0.089128025
+2008-01-01T00:00:00Z,SElo,NA,numeric,-0.025807058
+2009-01-01T00:00:00Z,data,NA,numeric,0.15448952
+2009-01-01T00:00:00Z,error,NA,numeric,0.26917633
+2009-01-01T00:00:00Z,SEup,NA,numeric,0.42366588
+2009-01-01T00:00:00Z,SElo,NA,numeric,-0.11468683
+2010-01-01T00:00:00Z,data,NA,numeric,0.14178413
+2010-01-01T00:00:00Z,error,NA,numeric,0.19890279
+2010-01-01T00:00:00Z,SEup,NA,numeric,0.34068692
+2010-01-01T00:00:00Z,SElo,NA,numeric,-0.057118654
+2011-01-01T00:00:00Z,data,NA,numeric,0.0559525
+2011-01-01T00:00:00Z,error,NA,numeric,0.10404108
+2011-01-01T00:00:00Z,SEup,NA,numeric,0.15999357
+2011-01-01T00:00:00Z,SElo,NA,numeric,-0.048088577
+2012-01-01T00:00:00Z,data,NA,numeric,0.074366465
+2012-01-01T00:00:00Z,error,NA,numeric,0.13305202
+2012-01-01T00:00:00Z,SEup,NA,numeric,0.20741849
+2012-01-01T00:00:00Z,SElo,NA,numeric,-0.05868555
+2013-01-01T00:00:00Z,data,NA,numeric,0.12613353
+2013-01-01T00:00:00Z,error,NA,numeric,0.19362289
+2013-01-01T00:00:00Z,SEup,NA,numeric,0.31975642
+2013-01-01T00:00:00Z,SElo,NA,numeric,-0.06748936
+2014-01-01T00:00:00Z,data,NA,numeric,0.11489914
+2014-01-01T00:00:00Z,error,NA,numeric,0.16890606
+2014-01-01T00:00:00Z,SEup,NA,numeric,0.28380522
+2014-01-01T00:00:00Z,SElo,NA,numeric,-0.054006923
+2015-01-01T00:00:00Z,data,NA,numeric,0.338783
+2015-01-01T00:00:00Z,error,NA,numeric,0.27178714
+2015-01-01T00:00:00Z,SEup,NA,numeric,0.61057013
+2015-01-01T00:00:00Z,SElo,NA,numeric,0.06699585
+2016-01-01T00:00:00Z,data,NA,numeric,0.24793528
+2016-01-01T00:00:00Z,error,NA,numeric,0.23846349
+2016-01-01T00:00:00Z,SEup,NA,numeric,0.48639876
+2016-01-01T00:00:00Z,SElo,NA,numeric,0.009471782
+2017-01-01T00:00:00Z,data,NA,numeric,0.08566357
+2017-01-01T00:00:00Z,error,NA,numeric,0.1390634
+2017-01-01T00:00:00Z,SEup,NA,numeric,0.22472697
+2017-01-01T00:00:00Z,SElo,NA,numeric,-0.053399824
+2018-01-01T00:00:00Z,data,NA,numeric,0.09249015
+2018-01-01T00:00:00Z,error,NA,numeric,0.140447
+2018-01-01T00:00:00Z,SEup,NA,numeric,0.23293716
+2018-01-01T00:00:00Z,SElo,NA,numeric,-0.04795685
+1990-01-01T00:00:00Z,data,NA,numeric,0.6738081
+1990-01-01T00:00:00Z,error,NA,numeric,0.29750982
+1990-01-01T00:00:00Z,SEup,NA,numeric,0.97131795
+1990-01-01T00:00:00Z,SElo,NA,numeric,0.37629828
+1991-01-01T00:00:00Z,data,NA,numeric,0.6868501
+1991-01-01T00:00:00Z,error,NA,numeric,0.16977032
+1991-01-01T00:00:00Z,SEup,NA,numeric,0.85662043
+1991-01-01T00:00:00Z,SElo,NA,numeric,0.5170798
+1992-01-01T00:00:00Z,data,NA,numeric,0.6196808
+1992-01-01T00:00:00Z,error,NA,numeric,0.34450048
+1992-01-01T00:00:00Z,SEup,NA,numeric,0.9641813
+1992-01-01T00:00:00Z,SElo,NA,numeric,0.27518037
+1993-01-01T00:00:00Z,data,NA,numeric,0.5422114
+1993-01-01T00:00:00Z,error,NA,numeric,0.27117622
+1993-01-01T00:00:00Z,SEup,NA,numeric,0.81338763
+1993-01-01T00:00:00Z,SElo,NA,numeric,0.27103522
+1994-01-01T00:00:00Z,data,NA,numeric,0.6621262
+1994-01-01T00:00:00Z,error,NA,numeric,0.21724379
+1994-01-01T00:00:00Z,SEup,NA,numeric,0.87937
+1994-01-01T00:00:00Z,SElo,NA,numeric,0.4448824
+1995-01-01T00:00:00Z,data,NA,numeric,0.74079543
+1995-01-01T00:00:00Z,error,NA,numeric,0.25833204
+1995-01-01T00:00:00Z,SEup,NA,numeric,0.99912745
+1995-01-01T00:00:00Z,SElo,NA,numeric,0.4824634
+1996-01-01T00:00:00Z,data,NA,numeric,0.6919703
+1996-01-01T00:00:00Z,error,NA,numeric,0.2033927
+1996-01-01T00:00:00Z,SEup,NA,numeric,0.895363
+1996-01-01T00:00:00Z,SElo,NA,numeric,0.48857757
+1997-01-01T00:00:00Z,data,NA,numeric,0.6518913
+1997-01-01T00:00:00Z,error,NA,numeric,0.30435327
+1997-01-01T00:00:00Z,SEup,NA,numeric,0.9562446
+1997-01-01T00:00:00Z,SElo,NA,numeric,0.34753805
+1998-01-01T00:00:00Z,data,NA,numeric,0.51465994
+1998-01-01T00:00:00Z,error,NA,numeric,0.45800325
+1998-01-01T00:00:00Z,SEup,NA,numeric,0.9726632
+1998-01-01T00:00:00Z,SElo,NA,numeric,0.056656692
+1999-01-01T00:00:00Z,data,NA,numeric,0.56837034
+1999-01-01T00:00:00Z,error,NA,numeric,0.28895766
+1999-01-01T00:00:00Z,SEup,NA,numeric,0.85732794
+1999-01-01T00:00:00Z,SElo,NA,numeric,0.2794127
+2000-01-01T00:00:00Z,data,NA,numeric,0.69972247
+2000-01-01T00:00:00Z,error,NA,numeric,0.23249522
+2000-01-01T00:00:00Z,SEup,NA,numeric,0.9322177
+2000-01-01T00:00:00Z,SElo,NA,numeric,0.46722728
+2001-01-01T00:00:00Z,data,NA,numeric,0.6830834
+2001-01-01T00:00:00Z,error,NA,numeric,0.16920973
+2001-01-01T00:00:00Z,SEup,NA,numeric,0.85229313
+2001-01-01T00:00:00Z,SElo,NA,numeric,0.5138737
+2002-01-01T00:00:00Z,data,NA,numeric,0.69919115
+2002-01-01T00:00:00Z,error,NA,numeric,0.15613434
+2002-01-01T00:00:00Z,SEup,NA,numeric,0.85532546
+2002-01-01T00:00:00Z,SElo,NA,numeric,0.5430568
+2003-01-01T00:00:00Z,data,NA,numeric,0.7764255
+2003-01-01T00:00:00Z,error,NA,numeric,0.20569406
+2003-01-01T00:00:00Z,SEup,NA,numeric,0.9821195
+2003-01-01T00:00:00Z,SElo,NA,numeric,0.5707314
+2004-01-01T00:00:00Z,data,NA,numeric,0.5882802
+2004-01-01T00:00:00Z,error,NA,numeric,0.2857103
+2004-01-01T00:00:00Z,SEup,NA,numeric,0.8739905
+2004-01-01T00:00:00Z,SElo,NA,numeric,0.30256987
+2005-01-01T00:00:00Z,data,NA,numeric,0.562641
+2005-01-01T00:00:00Z,error,NA,numeric,0.43969253
+2005-01-01T00:00:00Z,SEup,NA,numeric,1.0023335
+2005-01-01T00:00:00Z,SElo,NA,numeric,0.12294848
+2006-01-01T00:00:00Z,data,NA,numeric,0.49383566
+2006-01-01T00:00:00Z,error,NA,numeric,0.47112668
+2006-01-01T00:00:00Z,SEup,NA,numeric,0.9649623
+2006-01-01T00:00:00Z,SElo,NA,numeric,0.022708982
+2007-01-01T00:00:00Z,data,NA,numeric,0.7249412
+2007-01-01T00:00:00Z,error,NA,numeric,0.32022098
+2007-01-01T00:00:00Z,SEup,NA,numeric,1.0451622
+2007-01-01T00:00:00Z,SElo,NA,numeric,0.40472022
+2008-01-01T00:00:00Z,data,NA,numeric,0.7173142
+2008-01-01T00:00:00Z,error,NA,numeric,0.2795535
+2008-01-01T00:00:00Z,SEup,NA,numeric,0.9968677
+2008-01-01T00:00:00Z,SElo,NA,numeric,0.43776068
+2009-01-01T00:00:00Z,data,NA,numeric,0.76794106
+2009-01-01T00:00:00Z,error,NA,numeric,0.18832533
+2009-01-01T00:00:00Z,SEup,NA,numeric,0.9562664
+2009-01-01T00:00:00Z,SElo,NA,numeric,0.5796158
+2010-01-01T00:00:00Z,data,NA,numeric,0.69078916
+2010-01-01T00:00:00Z,error,NA,numeric,0.18290345
+2010-01-01T00:00:00Z,SEup,NA,numeric,0.8736926
+2010-01-01T00:00:00Z,SElo,NA,numeric,0.5078857
+2011-01-01T00:00:00Z,data,NA,numeric,0.76717937
+2011-01-01T00:00:00Z,error,NA,numeric,0.12394211
+2011-01-01T00:00:00Z,SEup,NA,numeric,0.8911215
+2011-01-01T00:00:00Z,SElo,NA,numeric,0.6432373
+2012-01-01T00:00:00Z,data,NA,numeric,0.6553421
+2012-01-01T00:00:00Z,error,NA,numeric,0.27782345
+2012-01-01T00:00:00Z,SEup,NA,numeric,0.93316555
+2012-01-01T00:00:00Z,SElo,NA,numeric,0.37751862
+2013-01-01T00:00:00Z,data,NA,numeric,0.6235661
+2013-01-01T00:00:00Z,error,NA,numeric,0.15595248
+2013-01-01T00:00:00Z,SEup,NA,numeric,0.7795186
+2013-01-01T00:00:00Z,SElo,NA,numeric,0.4676136
+2014-01-01T00:00:00Z,data,NA,numeric,0.6677511
+2014-01-01T00:00:00Z,error,NA,numeric,0.1599629
+2014-01-01T00:00:00Z,SEup,NA,numeric,0.82771397
+2014-01-01T00:00:00Z,SElo,NA,numeric,0.5077881
+2015-01-01T00:00:00Z,data,NA,numeric,0.6491971
+2015-01-01T00:00:00Z,error,NA,numeric,0.14047748
+2015-01-01T00:00:00Z,SEup,NA,numeric,0.7896745
+2015-01-01T00:00:00Z,SElo,NA,numeric,0.5087196
+2016-01-01T00:00:00Z,data,NA,numeric,0.4996623
+2016-01-01T00:00:00Z,error,NA,numeric,0.23326844
+2016-01-01T00:00:00Z,SEup,NA,numeric,0.7329308
+2016-01-01T00:00:00Z,SElo,NA,numeric,0.26639387
+2017-01-01T00:00:00Z,data,NA,numeric,0.67312485
+2017-01-01T00:00:00Z,error,NA,numeric,0.24815948
+2017-01-01T00:00:00Z,SEup,NA,numeric,0.9212843
+2017-01-01T00:00:00Z,SElo,NA,numeric,0.42496535
+2018-01-01T00:00:00Z,data,NA,numeric,0.65598065
+2018-01-01T00:00:00Z,error,NA,numeric,0.25526187
+2018-01-01T00:00:00Z,SEup,NA,numeric,0.91124254
+2018-01-01T00:00:00Z,SElo,NA,numeric,0.40071878
+1990-01-01T00:00:00Z,data,NA,numeric,0.48021933
+1990-01-01T00:00:00Z,error,NA,numeric,0.2823442
+1990-01-01T00:00:00Z,SEup,NA,numeric,0.7625635
+1990-01-01T00:00:00Z,SElo,NA,numeric,0.19787513
+1991-01-01T00:00:00Z,data,NA,numeric,0.5489939
+1991-01-01T00:00:00Z,error,NA,numeric,0.3614245
+1991-01-01T00:00:00Z,SEup,NA,numeric,0.9104184
+1991-01-01T00:00:00Z,SElo,NA,numeric,0.18756938
+1992-01-01T00:00:00Z,data,NA,numeric,0.44095245
+1992-01-01T00:00:00Z,error,NA,numeric,0.29787177
+1992-01-01T00:00:00Z,SEup,NA,numeric,0.73882425
+1992-01-01T00:00:00Z,SElo,NA,numeric,0.1430807
+1993-01-01T00:00:00Z,data,NA,numeric,0.5647352
+1993-01-01T00:00:00Z,error,NA,numeric,0.24828461
+1993-01-01T00:00:00Z,SEup,NA,numeric,0.8130198
+1993-01-01T00:00:00Z,SElo,NA,numeric,0.31645057
+1994-01-01T00:00:00Z,data,NA,numeric,0.5347291
+1994-01-01T00:00:00Z,error,NA,numeric,0.3127181
+1994-01-01T00:00:00Z,SEup,NA,numeric,0.8474473
+1994-01-01T00:00:00Z,SElo,NA,numeric,0.22201104
+1995-01-01T00:00:00Z,data,NA,numeric,0.49111882
+1995-01-01T00:00:00Z,error,NA,numeric,0.30374625
+1995-01-01T00:00:00Z,SEup,NA,numeric,0.7948651
+1995-01-01T00:00:00Z,SElo,NA,numeric,0.18737255
+1996-01-01T00:00:00Z,data,NA,numeric,0.5124013
+1996-01-01T00:00:00Z,error,NA,numeric,0.28129575
+1996-01-01T00:00:00Z,SEup,NA,numeric,0.79369706
+1996-01-01T00:00:00Z,SElo,NA,numeric,0.23110555
+1997-01-01T00:00:00Z,data,NA,numeric,0.54788166
+1997-01-01T00:00:00Z,error,NA,numeric,0.27167276
+1997-01-01T00:00:00Z,SEup,NA,numeric,0.8195544
+1997-01-01T00:00:00Z,SElo,NA,numeric,0.27620888
+1998-01-01T00:00:00Z,data,NA,numeric,0.5766315
+1998-01-01T00:00:00Z,error,NA,numeric,0.29616365
+1998-01-01T00:00:00Z,SEup,NA,numeric,0.8727951
+1998-01-01T00:00:00Z,SElo,NA,numeric,0.2804678
+1999-01-01T00:00:00Z,data,NA,numeric,0.5328053
+1999-01-01T00:00:00Z,error,NA,numeric,0.3432341
+1999-01-01T00:00:00Z,SEup,NA,numeric,0.8760394
+1999-01-01T00:00:00Z,SElo,NA,numeric,0.18957125
+2000-01-01T00:00:00Z,data,NA,numeric,0.64024717
+2000-01-01T00:00:00Z,error,NA,numeric,0.32366502
+2000-01-01T00:00:00Z,SEup,NA,numeric,0.9639122
+2000-01-01T00:00:00Z,SElo,NA,numeric,0.31658217
+2001-01-01T00:00:00Z,data,NA,numeric,0.4915629
+2001-01-01T00:00:00Z,error,NA,numeric,0.31406486
+2001-01-01T00:00:00Z,SEup,NA,numeric,0.80562776
+2001-01-01T00:00:00Z,SElo,NA,numeric,0.17749804
+2002-01-01T00:00:00Z,data,NA,numeric,0.4985183
+2002-01-01T00:00:00Z,error,NA,numeric,0.2804207
+2002-01-01T00:00:00Z,SEup,NA,numeric,0.77893895
+2002-01-01T00:00:00Z,SElo,NA,numeric,0.21809758
+2003-01-01T00:00:00Z,data,NA,numeric,0.6431083
+2003-01-01T00:00:00Z,error,NA,numeric,0.24222758
+2003-01-01T00:00:00Z,SEup,NA,numeric,0.8853359
+2003-01-01T00:00:00Z,SElo,NA,numeric,0.40088075
+2004-01-01T00:00:00Z,data,NA,numeric,0.5667365
+2004-01-01T00:00:00Z,error,NA,numeric,0.27024782
+2004-01-01T00:00:00Z,SEup,NA,numeric,0.83698434
+2004-01-01T00:00:00Z,SElo,NA,numeric,0.2964887
+2005-01-01T00:00:00Z,data,NA,numeric,0.5891342
+2005-01-01T00:00:00Z,error,NA,numeric,0.2626404
+2005-01-01T00:00:00Z,SEup,NA,numeric,0.85177463
+2005-01-01T00:00:00Z,SElo,NA,numeric,0.32649383
+2006-01-01T00:00:00Z,data,NA,numeric,0.56835246
+2006-01-01T00:00:00Z,error,NA,numeric,0.32529032
+2006-01-01T00:00:00Z,SEup,NA,numeric,0.8936428
+2006-01-01T00:00:00Z,SElo,NA,numeric,0.24306212
+2007-01-01T00:00:00Z,data,NA,numeric,0.5302125
+2007-01-01T00:00:00Z,error,NA,numeric,0.30777055
+2007-01-01T00:00:00Z,SEup,NA,numeric,0.8379831
+2007-01-01T00:00:00Z,SElo,NA,numeric,0.22244196
+2008-01-01T00:00:00Z,data,NA,numeric,0.67452466
+2008-01-01T00:00:00Z,error,NA,numeric,0.29437637
+2008-01-01T00:00:00Z,SEup,NA,numeric,0.96890104
+2008-01-01T00:00:00Z,SElo,NA,numeric,0.38014826
+2009-01-01T00:00:00Z,data,NA,numeric,0.547509
+2009-01-01T00:00:00Z,error,NA,numeric,0.31448138
+2009-01-01T00:00:00Z,SEup,NA,numeric,0.86199045
+2009-01-01T00:00:00Z,SElo,NA,numeric,0.23302767
+2010-01-01T00:00:00Z,data,NA,numeric,0.4907354
+2010-01-01T00:00:00Z,error,NA,numeric,0.32628113
+2010-01-01T00:00:00Z,SEup,NA,numeric,0.81701654
+2010-01-01T00:00:00Z,SElo,NA,numeric,0.16445427
+2011-01-01T00:00:00Z,data,NA,numeric,0.6104417
+2011-01-01T00:00:00Z,error,NA,numeric,0.34657472
+2011-01-01T00:00:00Z,SEup,NA,numeric,0.9570164
+2011-01-01T00:00:00Z,SElo,NA,numeric,0.26386696
+2012-01-01T00:00:00Z,data,NA,numeric,0.3977394
+2012-01-01T00:00:00Z,error,NA,numeric,0.35092226
+2012-01-01T00:00:00Z,SEup,NA,numeric,0.74866164
+2012-01-01T00:00:00Z,SElo,NA,numeric,0.04681715
+2013-01-01T00:00:00Z,data,NA,numeric,0.51795256
+2013-01-01T00:00:00Z,error,NA,numeric,0.3249932
+2013-01-01T00:00:00Z,SEup,NA,numeric,0.84294575
+2013-01-01T00:00:00Z,SElo,NA,numeric,0.19295934
+2014-01-01T00:00:00Z,data,NA,numeric,0.4076765
+2014-01-01T00:00:00Z,error,NA,numeric,0.307278
+2014-01-01T00:00:00Z,SEup,NA,numeric,0.7149545
+2014-01-01T00:00:00Z,SElo,NA,numeric,0.100398466
+2015-01-01T00:00:00Z,data,NA,numeric,0.56331986
+2015-01-01T00:00:00Z,error,NA,numeric,0.23252879
+2015-01-01T00:00:00Z,SEup,NA,numeric,0.7958486
+2015-01-01T00:00:00Z,SElo,NA,numeric,0.33079106
+2016-01-01T00:00:00Z,data,NA,numeric,0.6936288
+2016-01-01T00:00:00Z,error,NA,numeric,0.22889341
+2016-01-01T00:00:00Z,SEup,NA,numeric,0.9225222
+2016-01-01T00:00:00Z,SElo,NA,numeric,0.46473536
+2017-01-01T00:00:00Z,data,NA,numeric,0.45681834
+2017-01-01T00:00:00Z,error,NA,numeric,0.32605383
+2017-01-01T00:00:00Z,SEup,NA,numeric,0.7828722
+2017-01-01T00:00:00Z,SElo,NA,numeric,0.13076451
+2018-01-01T00:00:00Z,data,NA,numeric,0.47680703
+2018-01-01T00:00:00Z,error,NA,numeric,0.27108726
+2018-01-01T00:00:00Z,SEup,NA,numeric,0.7478943
+2018-01-01T00:00:00Z,SElo,NA,numeric,0.20571975

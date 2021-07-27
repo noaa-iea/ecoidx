@@ -1,0 +1,116 @@
+time,variable,value_character,value_type,value_numeric
+1987-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1988-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1989-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1990-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1991-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1992-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1993-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1994-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1995-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1996-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1997-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1998-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1999-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2000-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2001-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2002-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2003-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2004-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2005-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2006-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2007-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2008-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2009-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2010-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2011-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2012-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2013-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2014-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2015-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2016-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2017-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2018-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+2019-01-01T00:00:00Z,population,s.OR-n.CA Coast Coho,character,NA
+1995-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+1996-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+1997-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+1998-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+1999-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2000-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2001-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2002-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2003-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2004-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2005-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2006-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2007-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2008-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2009-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2010-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2011-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2012-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2013-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2014-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2015-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2016-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2017-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2018-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+2019-01-01T00:00:00Z,population,CA Coastal Coho,character,NA
+1987-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.8261261
+1988-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.100332394
+1989-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.9849797
+1990-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.541422
+1991-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-1.0569607
+1992-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.71428317
+1993-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-1.074088
+1994-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.29598507
+1995-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.49239042
+1996-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.006649615
+1997-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.46336806
+1998-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.6802846
+1999-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.8620339
+2000-01-01T00:00:00Z,abundance_anomaly,NA,numeric,1.1481526
+2001-01-01T00:00:00Z,abundance_anomaly,NA,numeric,1.4326977
+2002-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.84211016
+2003-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.39692205
+2004-01-01T00:00:00Z,abundance_anomaly,NA,numeric,3.8859224
+2005-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.8942898
+2006-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.31659055
+2007-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.10611313
+2008-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-1.0580496
+2009-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.60191745
+2010-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.3117048
+2011-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.16532823
+2012-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.01699734
+2013-01-01T00:00:00Z,abundance_anomaly,NA,numeric,1.2654102
+2014-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.6283004
+2015-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.27203265
+2016-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.33008522
+2017-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.21613987
+2018-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.65645224
+1995-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.977393
+1996-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.5418707
+1997-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.5328275
+1998-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.09115582
+1999-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.08066567
+2000-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.0897089
+2001-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.8312543
+2002-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.32627997
+2003-01-01T00:00:00Z,abundance_anomaly,NA,numeric,1.7084482
+2004-01-01T00:00:00Z,abundance_anomaly,NA,numeric,2.730334
+2005-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.036896404
+2006-01-01T00:00:00Z,abundance_anomaly,NA,numeric,1.3015026
+2007-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.41671234
+2008-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-1.5199872
+2009-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-1.2939062
+2010-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-1.0316525
+2011-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.5794906
+2012-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.20727098
+2013-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.05498288
+2014-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.48905823
+2015-01-01T00:00:00Z,abundance_anomaly,NA,numeric,0.2886601
+2016-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.32627997
+2017-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-0.823658
+2018-01-01T00:00:00Z,abundance_anomaly,NA,numeric,1.012119
+2019-01-01T00:00:00Z,abundance_anomaly,NA,numeric,-1.357209

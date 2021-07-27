@@ -72,6 +72,7 @@ Monthly Sea Level: South Beach OR (44.6N 124.0W),cciea_OC_SL1
 "North Pacific High Area, January - February Mean",cciea_OC_NPH_JF
 Streamflow - Annual 1-day maximum flow anomaly,cciea_HB_FLO1
 Streamflow - Annual 7-day minimum flow anomaly,cciea_HB_FLO7
+"California Current Marine Heatwave, EEZ regions Daily",cciea_OC_MHW_regions
 Monthly Sea Level: San Francisco CA (37.8N 122.5W),cciea_OC_SL2
 "Personal use landings data, Washington and California",cciea_HD_PU
 "Rockfish Recruitment and Ecosystem Assessement Survey, Biodiversity: CCIEA format",cciea_EI_RREAS_diversity_list

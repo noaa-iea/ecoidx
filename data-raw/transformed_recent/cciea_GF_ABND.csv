@@ -1,0 +1,248 @@
+time,variable,value_character,value_type,value_numeric
+2003-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2004-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2005-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2006-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2007-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2008-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2009-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2010-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2011-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2012-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2013-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2014-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2015-01-01T00:00:00Z,species_group,Spotted ratfish,character,NA
+2003-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2004-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2005-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2006-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2007-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2008-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2009-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2010-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2011-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2012-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2013-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2014-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2015-01-01T00:00:00Z,species_group,Longnose skate,character,NA
+2003-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2004-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2005-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2006-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2007-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2008-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2009-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2010-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2011-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2012-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2013-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2014-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2015-01-01T00:00:00Z,species_group,Arrowtooth flounder,character,NA
+2003-01-01T00:00:00Z,species_group,English sole,character,NA
+2004-01-01T00:00:00Z,species_group,English sole,character,NA
+2005-01-01T00:00:00Z,species_group,English sole,character,NA
+2006-01-01T00:00:00Z,species_group,English sole,character,NA
+2007-01-01T00:00:00Z,species_group,English sole,character,NA
+2008-01-01T00:00:00Z,species_group,English sole,character,NA
+2009-01-01T00:00:00Z,species_group,English sole,character,NA
+2010-01-01T00:00:00Z,species_group,English sole,character,NA
+2011-01-01T00:00:00Z,species_group,English sole,character,NA
+2012-01-01T00:00:00Z,species_group,English sole,character,NA
+2013-01-01T00:00:00Z,species_group,English sole,character,NA
+2014-01-01T00:00:00Z,species_group,English sole,character,NA
+2015-01-01T00:00:00Z,species_group,English sole,character,NA
+2003-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2004-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2005-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2006-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2007-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2008-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2009-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2010-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2011-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2012-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2013-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2014-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2015-01-01T00:00:00Z,species_group,Flathead sole,character,NA
+2003-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2004-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2005-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2006-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2007-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2008-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2009-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2010-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2011-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2012-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2013-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2014-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2015-01-01T00:00:00Z,species_group,Pacific sanddab,character,NA
+2003-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2004-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2005-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2006-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2007-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2008-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2009-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2010-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2011-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2012-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2013-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2014-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2015-01-01T00:00:00Z,species_group,Chilipepper,character,NA
+2003-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2004-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2005-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2006-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2007-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2008-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2009-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2010-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2011-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2012-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2013-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2014-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2015-01-01T00:00:00Z,species_group,Shortbelly rockfish,character,NA
+2003-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2004-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2005-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2006-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2007-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2008-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2009-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2010-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2011-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2012-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2013-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2014-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2015-01-01T00:00:00Z,species_group,Redstripe rockfish,character,NA
+2003-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2004-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2005-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2006-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2007-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2008-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2009-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2010-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2011-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2012-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2013-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2014-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2015-01-01T00:00:00Z,species_group,Stripetail rockfish,character,NA
+2003-01-01T00:00:00Z,abundance_index,NA,numeric,29980.135
+2004-01-01T00:00:00Z,abundance_index,NA,numeric,22119.275
+2005-01-01T00:00:00Z,abundance_index,NA,numeric,39347.06
+2006-01-01T00:00:00Z,abundance_index,NA,numeric,20958.863
+2007-01-01T00:00:00Z,abundance_index,NA,numeric,26108.34
+2008-01-01T00:00:00Z,abundance_index,NA,numeric,24047.268
+2009-01-01T00:00:00Z,abundance_index,NA,numeric,18172.98
+2010-01-01T00:00:00Z,abundance_index,NA,numeric,17014.18
+2011-01-01T00:00:00Z,abundance_index,NA,numeric,24490.084
+2012-01-01T00:00:00Z,abundance_index,NA,numeric,72155.766
+2013-01-01T00:00:00Z,abundance_index,NA,numeric,25001.41
+2014-01-01T00:00:00Z,abundance_index,NA,numeric,40445.562
+2015-01-01T00:00:00Z,abundance_index,NA,numeric,32493.121
+2003-01-01T00:00:00Z,abundance_index,NA,numeric,47995.61
+2004-01-01T00:00:00Z,abundance_index,NA,numeric,54672.883
+2005-01-01T00:00:00Z,abundance_index,NA,numeric,48744.465
+2006-01-01T00:00:00Z,abundance_index,NA,numeric,53898.496
+2007-01-01T00:00:00Z,abundance_index,NA,numeric,51019.164
+2008-01-01T00:00:00Z,abundance_index,NA,numeric,54702.62
+2009-01-01T00:00:00Z,abundance_index,NA,numeric,48511.633
+2010-01-01T00:00:00Z,abundance_index,NA,numeric,55865.387
+2011-01-01T00:00:00Z,abundance_index,NA,numeric,52281.203
+2012-01-01T00:00:00Z,abundance_index,NA,numeric,55690.95
+2013-01-01T00:00:00Z,abundance_index,NA,numeric,60361.574
+2014-01-01T00:00:00Z,abundance_index,NA,numeric,54410.37
+2015-01-01T00:00:00Z,abundance_index,NA,numeric,54060.88
+2003-01-01T00:00:00Z,abundance_index,NA,numeric,44127.14
+2004-01-01T00:00:00Z,abundance_index,NA,numeric,35960.465
+2005-01-01T00:00:00Z,abundance_index,NA,numeric,42154.895
+2006-01-01T00:00:00Z,abundance_index,NA,numeric,44570.086
+2007-01-01T00:00:00Z,abundance_index,NA,numeric,34006.773
+2008-01-01T00:00:00Z,abundance_index,NA,numeric,37056.457
+2009-01-01T00:00:00Z,abundance_index,NA,numeric,51416.22
+2010-01-01T00:00:00Z,abundance_index,NA,numeric,52163.887
+2011-01-01T00:00:00Z,abundance_index,NA,numeric,56857.844
+2012-01-01T00:00:00Z,abundance_index,NA,numeric,55239.457
+2013-01-01T00:00:00Z,abundance_index,NA,numeric,60916.855
+2014-01-01T00:00:00Z,abundance_index,NA,numeric,69198.414
+2015-01-01T00:00:00Z,abundance_index,NA,numeric,39054.867
+2003-01-01T00:00:00Z,abundance_index,NA,numeric,17967.57
+2004-01-01T00:00:00Z,abundance_index,NA,numeric,23527.22
+2005-01-01T00:00:00Z,abundance_index,NA,numeric,15806.493
+2006-01-01T00:00:00Z,abundance_index,NA,numeric,10468.273
+2007-01-01T00:00:00Z,abundance_index,NA,numeric,8928.117
+2008-01-01T00:00:00Z,abundance_index,NA,numeric,7494.6743
+2009-01-01T00:00:00Z,abundance_index,NA,numeric,8018.6377
+2010-01-01T00:00:00Z,abundance_index,NA,numeric,9214.129
+2011-01-01T00:00:00Z,abundance_index,NA,numeric,9298.576
+2012-01-01T00:00:00Z,abundance_index,NA,numeric,10563.263
+2013-01-01T00:00:00Z,abundance_index,NA,numeric,13768.063
+2014-01-01T00:00:00Z,abundance_index,NA,numeric,17249.996
+2015-01-01T00:00:00Z,abundance_index,NA,numeric,16994.924
+2003-01-01T00:00:00Z,abundance_index,NA,numeric,4126.928
+2004-01-01T00:00:00Z,abundance_index,NA,numeric,1813.6117
+2005-01-01T00:00:00Z,abundance_index,NA,numeric,1830.7441
+2006-01-01T00:00:00Z,abundance_index,NA,numeric,1255.5251
+2007-01-01T00:00:00Z,abundance_index,NA,numeric,297.12262
+2008-01-01T00:00:00Z,abundance_index,NA,numeric,323.04074
+2009-01-01T00:00:00Z,abundance_index,NA,numeric,435.01053
+2010-01-01T00:00:00Z,abundance_index,NA,numeric,740.3053
+2011-01-01T00:00:00Z,abundance_index,NA,numeric,1334.8812
+2012-01-01T00:00:00Z,abundance_index,NA,numeric,611.51843
+2013-01-01T00:00:00Z,abundance_index,NA,numeric,1218.5681
+2014-01-01T00:00:00Z,abundance_index,NA,numeric,2046.587
+2015-01-01T00:00:00Z,abundance_index,NA,numeric,4469.3076
+2003-01-01T00:00:00Z,abundance_index,NA,numeric,138590.02
+2004-01-01T00:00:00Z,abundance_index,NA,numeric,63270.496
+2005-01-01T00:00:00Z,abundance_index,NA,numeric,45748.22
+2006-01-01T00:00:00Z,abundance_index,NA,numeric,48453.02
+2007-01-01T00:00:00Z,abundance_index,NA,numeric,31536.83
+2008-01-01T00:00:00Z,abundance_index,NA,numeric,50190.258
+2009-01-01T00:00:00Z,abundance_index,NA,numeric,75157.14
+2010-01-01T00:00:00Z,abundance_index,NA,numeric,77437.56
+2011-01-01T00:00:00Z,abundance_index,NA,numeric,69274.48
+2012-01-01T00:00:00Z,abundance_index,NA,numeric,85023.37
+2013-01-01T00:00:00Z,abundance_index,NA,numeric,118139.11
+2014-01-01T00:00:00Z,abundance_index,NA,numeric,108359.6
+2015-01-01T00:00:00Z,abundance_index,NA,numeric,67003.55
+2003-01-01T00:00:00Z,abundance_index,NA,numeric,107301.21
+2004-01-01T00:00:00Z,abundance_index,NA,numeric,80667.695
+2005-01-01T00:00:00Z,abundance_index,NA,numeric,117788.55
+2006-01-01T00:00:00Z,abundance_index,NA,numeric,70161.65
+2007-01-01T00:00:00Z,abundance_index,NA,numeric,61660.12
+2008-01-01T00:00:00Z,abundance_index,NA,numeric,29389.973
+2009-01-01T00:00:00Z,abundance_index,NA,numeric,19788.758
+2010-01-01T00:00:00Z,abundance_index,NA,numeric,10936.428
+2011-01-01T00:00:00Z,abundance_index,NA,numeric,42831.934
+2012-01-01T00:00:00Z,abundance_index,NA,numeric,36303.24
+2013-01-01T00:00:00Z,abundance_index,NA,numeric,41741.66
+2014-01-01T00:00:00Z,abundance_index,NA,numeric,74922.08
+2015-01-01T00:00:00Z,abundance_index,NA,numeric,31245.355
+2003-01-01T00:00:00Z,abundance_index,NA,numeric,54677.06
+2004-01-01T00:00:00Z,abundance_index,NA,numeric,45867.156
+2005-01-01T00:00:00Z,abundance_index,NA,numeric,65874.34
+2006-01-01T00:00:00Z,abundance_index,NA,numeric,11316.903
+2007-01-01T00:00:00Z,abundance_index,NA,numeric,3155.3022
+2008-01-01T00:00:00Z,abundance_index,NA,numeric,13973.144
+2009-01-01T00:00:00Z,abundance_index,NA,numeric,14460.601
+2010-01-01T00:00:00Z,abundance_index,NA,numeric,12402.499
+2011-01-01T00:00:00Z,abundance_index,NA,numeric,13107.255
+2012-01-01T00:00:00Z,abundance_index,NA,numeric,11151.517
+2013-01-01T00:00:00Z,abundance_index,NA,numeric,6398.223
+2014-01-01T00:00:00Z,abundance_index,NA,numeric,5961.806
+2015-01-01T00:00:00Z,abundance_index,NA,numeric,21546.31
+2003-01-01T00:00:00Z,abundance_index,NA,numeric,17289.105
+2004-01-01T00:00:00Z,abundance_index,NA,numeric,30334.924
+2005-01-01T00:00:00Z,abundance_index,NA,numeric,27696.305
+2006-01-01T00:00:00Z,abundance_index,NA,numeric,16106.54
+2007-01-01T00:00:00Z,abundance_index,NA,numeric,14415.954
+2008-01-01T00:00:00Z,abundance_index,NA,numeric,21845.834
+2009-01-01T00:00:00Z,abundance_index,NA,numeric,19531.207
+2010-01-01T00:00:00Z,abundance_index,NA,numeric,9602.286
+2011-01-01T00:00:00Z,abundance_index,NA,numeric,16141.341
+2012-01-01T00:00:00Z,abundance_index,NA,numeric,20330.865
+2013-01-01T00:00:00Z,abundance_index,NA,numeric,26787.346
+2014-01-01T00:00:00Z,abundance_index,NA,numeric,28493.225
+2015-01-01T00:00:00Z,abundance_index,NA,numeric,23623.863

@@ -1,0 +1,201 @@
+time,variable,value_character,value_type,value_numeric
+2000-01-01T00:00:00Z,location,"Astoria city, Oregon",character,NA
+2005-01-01T00:00:00Z,location,"Astoria city, Oregon",character,NA
+2010-01-01T00:00:00Z,location,"Astoria city, Oregon",character,NA
+2014-01-01T00:00:00Z,location,"Astoria city, Oregon",character,NA
+2000-01-01T00:00:00Z,location,"Bellingham city, Washington",character,NA
+2005-01-01T00:00:00Z,location,"Bellingham city, Washington",character,NA
+2010-01-01T00:00:00Z,location,"Bellingham city, Washington",character,NA
+2014-01-01T00:00:00Z,location,"Bellingham city, Washington",character,NA
+2000-01-01T00:00:00Z,location,"Bodega Bay CDP, California",character,NA
+2005-01-01T00:00:00Z,location,"Bodega Bay CDP, California",character,NA
+2010-01-01T00:00:00Z,location,"Bodega Bay CDP, California",character,NA
+2014-01-01T00:00:00Z,location,"Bodega Bay CDP, California",character,NA
+2000-01-01T00:00:00Z,location,"Coos Bay city, Oregon",character,NA
+2005-01-01T00:00:00Z,location,"Coos Bay city, Oregon",character,NA
+2010-01-01T00:00:00Z,location,"Coos Bay city, Oregon",character,NA
+2014-01-01T00:00:00Z,location,"Coos Bay city, Oregon",character,NA
+2000-01-01T00:00:00Z,location,"Crescent City city, California",character,NA
+2005-01-01T00:00:00Z,location,"Crescent City city, California",character,NA
+2010-01-01T00:00:00Z,location,"Crescent City city, California",character,NA
+2014-01-01T00:00:00Z,location,"Crescent City city, California",character,NA
+2000-01-01T00:00:00Z,location,"El Granada CDP, California",character,NA
+2005-01-01T00:00:00Z,location,"El Granada CDP, California",character,NA
+2010-01-01T00:00:00Z,location,"El Granada CDP, California",character,NA
+2014-01-01T00:00:00Z,location,"El Granada CDP, California",character,NA
+2000-01-01T00:00:00Z,location,"Eureka city, California",character,NA
+2005-01-01T00:00:00Z,location,"Eureka city, California",character,NA
+2010-01-01T00:00:00Z,location,"Eureka city, California",character,NA
+2014-01-01T00:00:00Z,location,"Eureka city, California",character,NA
+2000-01-01T00:00:00Z,location,"Fort Bragg city, California",character,NA
+2005-01-01T00:00:00Z,location,"Fort Bragg city, California",character,NA
+2010-01-01T00:00:00Z,location,"Fort Bragg city, California",character,NA
+2014-01-01T00:00:00Z,location,"Fort Bragg city, California",character,NA
+2000-01-01T00:00:00Z,location,"Garibaldi city, Oregon",character,NA
+2005-01-01T00:00:00Z,location,"Garibaldi city, Oregon",character,NA
+2010-01-01T00:00:00Z,location,"Garibaldi city, Oregon",character,NA
+2014-01-01T00:00:00Z,location,"Garibaldi city, Oregon",character,NA
+2000-01-01T00:00:00Z,location,"Half Moon Bay city, California",character,NA
+2005-01-01T00:00:00Z,location,"Half Moon Bay city, California",character,NA
+2010-01-01T00:00:00Z,location,"Half Moon Bay city, California",character,NA
+2014-01-01T00:00:00Z,location,"Half Moon Bay city, California",character,NA
+2000-01-01T00:00:00Z,location,"Ilwaco city, Washington",character,NA
+2005-01-01T00:00:00Z,location,"Ilwaco city, Washington",character,NA
+2010-01-01T00:00:00Z,location,"Ilwaco city, Washington",character,NA
+2014-01-01T00:00:00Z,location,"Ilwaco city, Washington",character,NA
+2000-01-01T00:00:00Z,location,"Los Angeles city, California",character,NA
+2005-01-01T00:00:00Z,location,"Los Angeles city, California",character,NA
+2010-01-01T00:00:00Z,location,"Los Angeles city, California",character,NA
+2014-01-01T00:00:00Z,location,"Los Angeles city, California",character,NA
+2000-01-01T00:00:00Z,location,"Moss Landing CDP, California",character,NA
+2005-01-01T00:00:00Z,location,"Moss Landing CDP, California",character,NA
+2010-01-01T00:00:00Z,location,"Moss Landing CDP, California",character,NA
+2014-01-01T00:00:00Z,location,"Moss Landing CDP, California",character,NA
+2000-01-01T00:00:00Z,location,"Neah Bay CDP, Washington",character,NA
+2005-01-01T00:00:00Z,location,"Neah Bay CDP, Washington",character,NA
+2010-01-01T00:00:00Z,location,"Neah Bay CDP, Washington",character,NA
+2014-01-01T00:00:00Z,location,"Neah Bay CDP, Washington",character,NA
+2000-01-01T00:00:00Z,location,"Newport city, Oregon",character,NA
+2005-01-01T00:00:00Z,location,"Newport city, Oregon",character,NA
+2010-01-01T00:00:00Z,location,"Newport city, Oregon",character,NA
+2014-01-01T00:00:00Z,location,"Newport city, Oregon",character,NA
+2000-01-01T00:00:00Z,location,"Port Hueneme city, California",character,NA
+2005-01-01T00:00:00Z,location,"Port Hueneme city, California",character,NA
+2010-01-01T00:00:00Z,location,"Port Hueneme city, California",character,NA
+2014-01-01T00:00:00Z,location,"Port Hueneme city, California",character,NA
+2000-01-01T00:00:00Z,location,"San Diego city, California",character,NA
+2005-01-01T00:00:00Z,location,"San Diego city, California",character,NA
+2010-01-01T00:00:00Z,location,"San Diego city, California",character,NA
+2014-01-01T00:00:00Z,location,"San Diego city, California",character,NA
+2000-01-01T00:00:00Z,location,"San Francisco city, California",character,NA
+2005-01-01T00:00:00Z,location,"San Francisco city, California",character,NA
+2010-01-01T00:00:00Z,location,"San Francisco city, California",character,NA
+2014-01-01T00:00:00Z,location,"San Francisco city, California",character,NA
+2000-01-01T00:00:00Z,location,"Santa Barbara city, California",character,NA
+2005-01-01T00:00:00Z,location,"Santa Barbara city, California",character,NA
+2010-01-01T00:00:00Z,location,"Santa Barbara city, California",character,NA
+2014-01-01T00:00:00Z,location,"Santa Barbara city, California",character,NA
+2000-01-01T00:00:00Z,location,"Tokeland CDP, Washington",character,NA
+2005-01-01T00:00:00Z,location,"Tokeland CDP, Washington",character,NA
+2010-01-01T00:00:00Z,location,"Tokeland CDP, Washington",character,NA
+2014-01-01T00:00:00Z,location,"Tokeland CDP, Washington",character,NA
+2000-01-01T00:00:00Z,location,"Trinidad city, California",character,NA
+2005-01-01T00:00:00Z,location,"Trinidad city, California",character,NA
+2010-01-01T00:00:00Z,location,"Trinidad city, California",character,NA
+2014-01-01T00:00:00Z,location,"Trinidad city, California",character,NA
+2000-01-01T00:00:00Z,location,"Westport city, Washington",character,NA
+2005-01-01T00:00:00Z,location,"Westport city, Washington",character,NA
+2010-01-01T00:00:00Z,location,"Westport city, Washington",character,NA
+2014-01-01T00:00:00Z,location,"Westport city, Washington",character,NA
+2000-01-01T00:00:00Z,location,"Winchester Bay CDP, Oregon",character,NA
+2005-01-01T00:00:00Z,location,"Winchester Bay CDP, Oregon",character,NA
+2010-01-01T00:00:00Z,location,"Winchester Bay CDP, Oregon",character,NA
+2014-01-01T00:00:00Z,location,"Winchester Bay CDP, Oregon",character,NA
+2000-01-01T00:00:00Z,location,"McKinleyville CDP, California",character,NA
+2005-01-01T00:00:00Z,location,"McKinleyville CDP, California",character,NA
+2010-01-01T00:00:00Z,location,"McKinleyville CDP, California",character,NA
+2014-01-01T00:00:00Z,location,"McKinleyville CDP, California",character,NA
+2000-01-01T00:00:00Z,location,"San Buenaventura (Ventura) city, California",character,NA
+2005-01-01T00:00:00Z,location,"San Buenaventura (Ventura) city, California",character,NA
+2010-01-01T00:00:00Z,location,"San Buenaventura (Ventura) city, California",character,NA
+2014-01-01T00:00:00Z,location,"San Buenaventura (Ventura) city, California",character,NA
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,11.816106
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,13.720919
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,10.412225
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,11.91
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.385364
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,5.652548
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,5.0360546
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,3.36
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,5.502359
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,10.860946
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,8.083568
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,14.33
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.078092
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,8.048333
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,9.595891
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,9.21
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.993417
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,3.8517587
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,5.3984885
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,5.18
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,2.252626
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,1.8812499
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,5.544773
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,7.18
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.131015
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,2.7754588
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,3.7057993
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.06
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.706862
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,2.2180324
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.2138853
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,6.84
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,1.606987
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.09543
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,7.11293
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,6.56
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,1.968924
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,1.6460549
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.8092675
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,7.18
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,5.659027
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,6.0057445
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,8.333273
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,8.79
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,16.920357
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,9.490441
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,12.362216
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,6.44
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,31.356358
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,23.609364
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,25.440779
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,32.81
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.907749
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,7.1955833
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,5.3106503
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,0.89
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,13.335528
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,11.211217
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,11.970025
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,18.24
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,6.178224
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,2.7321699
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,3.6445565
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,2.56
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.379263
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,2.9321938
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.5646944
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.78
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,5.132149
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,3.162876
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,3.5882392
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,5.73
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,3.857166
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,1.8592471
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,3.6188717
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,3.95
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,3.832371
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,9.603648
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,8.452684
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,6.33
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,2.950384
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,2.618771
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.6413665
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,5.37
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,9.820044
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,20.474655
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,19.18717
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,20.88
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.4586
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,6.1868052
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,6.637164
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,6.09
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,-0.279896
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,-0.13191319
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,-0.021524038
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,0.12
+2000-01-01T00:00:00Z,fishing_dependence,NA,numeric,3.834891
+2005-01-01T00:00:00Z,fishing_dependence,NA,numeric,1.5083696
+2010-01-01T00:00:00Z,fishing_dependence,NA,numeric,5.4503827
+2014-01-01T00:00:00Z,fishing_dependence,NA,numeric,4.85

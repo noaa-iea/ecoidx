@@ -1,0 +1,403 @@
+time,variable,value_character,value_type,value_numeric
+1974-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1974-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1975-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1975-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1976-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1976-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1977-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1977-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1978-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1978-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1979-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1979-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1980-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1980-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1981-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1981-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1982-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1982-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1983-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1983-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1984-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1984-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1985-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1985-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1986-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1986-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1987-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1987-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1988-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1988-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1989-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1989-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1990-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1990-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1991-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1991-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1992-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1992-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1993-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1993-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1994-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1994-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1995-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1995-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1996-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1996-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1997-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1997-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1998-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1998-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1999-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+1999-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2000-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2000-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2001-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2001-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2002-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2002-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2003-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2003-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2004-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2004-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2005-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2005-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2006-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2006-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2007-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2007-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2008-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2008-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2009-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2009-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2010-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2010-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2011-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2011-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2012-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2012-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2013-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2013-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2014-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2014-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2015-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2015-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2016-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2016-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+2017-01-01T00:00:00Z,common_name,Southern Resident Killer whale,character,NA
+2017-01-01T00:00:00Z,scientific_name,Orcinus orca,character,NA
+1967-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1967-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1968-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1968-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1969-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1969-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1970-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1970-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1971-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1971-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1972-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1972-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1973-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1973-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1974-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1974-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1975-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1975-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1976-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1976-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1977-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1977-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1978-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1978-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1979-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1979-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1984-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1984-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1985-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1985-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1987-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1987-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1992-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1992-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1993-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1993-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1995-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1995-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1997-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+1997-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+2000-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+2000-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+2001-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+2001-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+2006-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+2006-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+2007-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+2007-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+2009-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+2009-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+2010-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+2010-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+2014-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+2014-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+2015-01-01T00:00:00Z,common_name,Eastern North Pacific Gray whale,character,NA
+2015-01-01T00:00:00Z,scientific_name,Eschrichtius robustus,character,NA
+1986-01-01T00:00:00Z,common_name,Bottlenose dolphins - coastal CA stock,character,NA
+1986-01-01T00:00:00Z,scientific_name,Tursiops truncatus,character,NA
+1989-01-01T00:00:00Z,common_name,Bottlenose dolphins - coastal CA stock,character,NA
+1989-01-01T00:00:00Z,scientific_name,Tursiops truncatus,character,NA
+1998-01-01T00:00:00Z,common_name,Bottlenose dolphins - coastal CA stock,character,NA
+1998-01-01T00:00:00Z,scientific_name,Tursiops truncatus,character,NA
+2005-01-01T00:00:00Z,common_name,Bottlenose dolphins - coastal CA stock,character,NA
+2005-01-01T00:00:00Z,scientific_name,Tursiops truncatus,character,NA
+2011-01-01T00:00:00Z,common_name,Bottlenose dolphins - coastal CA stock,character,NA
+2011-01-01T00:00:00Z,scientific_name,Tursiops truncatus,character,NA
+1996-01-01T00:00:00Z,common_name,Short-beaked common dolphin,character,NA
+1996-01-01T00:00:00Z,scientific_name,Delphinus delphis delphis,character,NA
+2001-01-01T00:00:00Z,common_name,Short-beaked common dolphin,character,NA
+2001-01-01T00:00:00Z,scientific_name,Delphinus delphis delphis,character,NA
+2005-01-01T00:00:00Z,common_name,Short-beaked common dolphin,character,NA
+2005-01-01T00:00:00Z,scientific_name,Delphinus delphis delphis,character,NA
+2008-01-01T00:00:00Z,common_name,Short-beaked common dolphin,character,NA
+2008-01-01T00:00:00Z,scientific_name,Delphinus delphis delphis,character,NA
+2014-01-01T00:00:00Z,common_name,Short-beaked common dolphin,character,NA
+2014-01-01T00:00:00Z,scientific_name,Delphinus delphis delphis,character,NA
+1996-01-01T00:00:00Z,common_name,Dalls porpoise,character,NA
+1996-01-01T00:00:00Z,scientific_name,Phocoenoides dalli dalli,character,NA
+2001-01-01T00:00:00Z,common_name,Dalls porpoise,character,NA
+2001-01-01T00:00:00Z,scientific_name,Phocoenoides dalli dalli,character,NA
+2005-01-01T00:00:00Z,common_name,Dalls porpoise,character,NA
+2005-01-01T00:00:00Z,scientific_name,Phocoenoides dalli dalli,character,NA
+2008-01-01T00:00:00Z,common_name,Dalls porpoise,character,NA
+2008-01-01T00:00:00Z,scientific_name,Phocoenoides dalli dalli,character,NA
+2014-01-01T00:00:00Z,common_name,Dalls porpoise,character,NA
+2014-01-01T00:00:00Z,scientific_name,Phocoenoides dalli dalli,character,NA
+1996-01-01T00:00:00Z,common_name,Fin whale,character,NA
+1996-01-01T00:00:00Z,scientific_name,Balaenoptera physalus physalus,character,NA
+2001-01-01T00:00:00Z,common_name,Fin whale,character,NA
+2001-01-01T00:00:00Z,scientific_name,Balaenoptera physalus physalus,character,NA
+2005-01-01T00:00:00Z,common_name,Fin whale,character,NA
+2005-01-01T00:00:00Z,scientific_name,Balaenoptera physalus physalus,character,NA
+2008-01-01T00:00:00Z,common_name,Fin whale,character,NA
+2008-01-01T00:00:00Z,scientific_name,Balaenoptera physalus physalus,character,NA
+2014-01-01T00:00:00Z,common_name,Fin whale,character,NA
+2014-01-01T00:00:00Z,scientific_name,Balaenoptera physalus physalus,character,NA
+1996-01-01T00:00:00Z,common_name,blue whale,character,NA
+1996-01-01T00:00:00Z,scientific_name,Balaenoptera musculus musculus,character,NA
+2001-01-01T00:00:00Z,common_name,blue whale,character,NA
+2001-01-01T00:00:00Z,scientific_name,Balaenoptera musculus musculus,character,NA
+2005-01-01T00:00:00Z,common_name,blue whale,character,NA
+2005-01-01T00:00:00Z,scientific_name,Balaenoptera musculus musculus,character,NA
+2008-01-01T00:00:00Z,common_name,blue whale,character,NA
+2008-01-01T00:00:00Z,scientific_name,Balaenoptera musculus musculus,character,NA
+2014-01-01T00:00:00Z,common_name,blue whale,character,NA
+2014-01-01T00:00:00Z,scientific_name,Balaenoptera musculus musculus,character,NA
+1996-01-01T00:00:00Z,common_name,humpback whale,character,NA
+1996-01-01T00:00:00Z,scientific_name,Megaptera novaeangliea,character,NA
+2001-01-01T00:00:00Z,common_name,humpback whale,character,NA
+2001-01-01T00:00:00Z,scientific_name,Megaptera novaeangliea,character,NA
+2005-01-01T00:00:00Z,common_name,humpback whale,character,NA
+2005-01-01T00:00:00Z,scientific_name,Megaptera novaeangliea,character,NA
+2008-01-01T00:00:00Z,common_name,humpback whale,character,NA
+2008-01-01T00:00:00Z,scientific_name,Megaptera novaeangliea,character,NA
+2014-01-01T00:00:00Z,common_name,humpback whale,character,NA
+2014-01-01T00:00:00Z,scientific_name,Megaptera novaeangliea,character,NA
+1974-01-01T00:00:00Z,abundance,NA,numeric,71
+1975-01-01T00:00:00Z,abundance,NA,numeric,71
+1976-01-01T00:00:00Z,abundance,NA,numeric,71
+1977-01-01T00:00:00Z,abundance,NA,numeric,79
+1978-01-01T00:00:00Z,abundance,NA,numeric,79
+1979-01-01T00:00:00Z,abundance,NA,numeric,81
+1980-01-01T00:00:00Z,abundance,NA,numeric,83
+1981-01-01T00:00:00Z,abundance,NA,numeric,81
+1982-01-01T00:00:00Z,abundance,NA,numeric,78
+1983-01-01T00:00:00Z,abundance,NA,numeric,76
+1984-01-01T00:00:00Z,abundance,NA,numeric,74
+1985-01-01T00:00:00Z,abundance,NA,numeric,77
+1986-01-01T00:00:00Z,abundance,NA,numeric,81
+1987-01-01T00:00:00Z,abundance,NA,numeric,84
+1988-01-01T00:00:00Z,abundance,NA,numeric,85
+1989-01-01T00:00:00Z,abundance,NA,numeric,85
+1990-01-01T00:00:00Z,abundance,NA,numeric,89
+1991-01-01T00:00:00Z,abundance,NA,numeric,92
+1992-01-01T00:00:00Z,abundance,NA,numeric,91
+1993-01-01T00:00:00Z,abundance,NA,numeric,97
+1994-01-01T00:00:00Z,abundance,NA,numeric,96
+1995-01-01T00:00:00Z,abundance,NA,numeric,99
+1996-01-01T00:00:00Z,abundance,NA,numeric,97
+1997-01-01T00:00:00Z,abundance,NA,numeric,92
+1998-01-01T00:00:00Z,abundance,NA,numeric,89
+1999-01-01T00:00:00Z,abundance,NA,numeric,85
+2000-01-01T00:00:00Z,abundance,NA,numeric,82
+2001-01-01T00:00:00Z,abundance,NA,numeric,79
+2002-01-01T00:00:00Z,abundance,NA,numeric,80
+2003-01-01T00:00:00Z,abundance,NA,numeric,83
+2004-01-01T00:00:00Z,abundance,NA,numeric,84
+2005-01-01T00:00:00Z,abundance,NA,numeric,91
+2006-01-01T00:00:00Z,abundance,NA,numeric,89
+2007-01-01T00:00:00Z,abundance,NA,numeric,86
+2008-01-01T00:00:00Z,abundance,NA,numeric,85
+2009-01-01T00:00:00Z,abundance,NA,numeric,85
+2010-01-01T00:00:00Z,abundance,NA,numeric,86
+2011-01-01T00:00:00Z,abundance,NA,numeric,87
+2012-01-01T00:00:00Z,abundance,NA,numeric,85
+2013-01-01T00:00:00Z,abundance,NA,numeric,82
+2014-01-01T00:00:00Z,abundance,NA,numeric,78
+2015-01-01T00:00:00Z,abundance,NA,numeric,81
+2016-01-01T00:00:00Z,abundance,NA,numeric,83
+2017-01-01T00:00:00Z,abundance,NA,numeric,77
+1967-01-01T00:00:00Z,abundance,NA,numeric,13426
+1967-01-01T00:00:00Z,Seup,NA,numeric,15899.606
+1967-01-01T00:00:00Z,Selo,NA,numeric,10952.394
+1968-01-01T00:00:00Z,abundance,NA,numeric,14548
+1968-01-01T00:00:00Z,Seup,NA,numeric,16829.127
+1968-01-01T00:00:00Z,Selo,NA,numeric,12266.874
+1969-01-01T00:00:00Z,abundance,NA,numeric,14553
+1969-01-01T00:00:00Z,Seup,NA,numeric,16920.482
+1969-01-01T00:00:00Z,Selo,NA,numeric,12185.518
+1970-01-01T00:00:00Z,abundance,NA,numeric,12771
+1970-01-01T00:00:00Z,Seup,NA,numeric,14798.524
+1970-01-01T00:00:00Z,Selo,NA,numeric,10743.476
+1971-01-01T00:00:00Z,abundance,NA,numeric,11079
+1971-01-01T00:00:00Z,Seup,NA,numeric,13098.48
+1971-01-01T00:00:00Z,Selo,NA,numeric,9059.52
+1972-01-01T00:00:00Z,abundance,NA,numeric,17365
+1972-01-01T00:00:00Z,Seup,NA,numeric,20087.832
+1972-01-01T00:00:00Z,Selo,NA,numeric,14642.168
+1973-01-01T00:00:00Z,abundance,NA,numeric,17375
+1973-01-01T00:00:00Z,Seup,NA,numeric,20167.51
+1973-01-01T00:00:00Z,Selo,NA,numeric,14582.49
+1974-01-01T00:00:00Z,abundance,NA,numeric,15290
+1974-01-01T00:00:00Z,Seup,NA,numeric,17807.346
+1974-01-01T00:00:00Z,Selo,NA,numeric,12772.654
+1975-01-01T00:00:00Z,abundance,NA,numeric,17564
+1975-01-01T00:00:00Z,Seup,NA,numeric,20524.588
+1975-01-01T00:00:00Z,Selo,NA,numeric,14603.412
+1976-01-01T00:00:00Z,abundance,NA,numeric,18377
+1976-01-01T00:00:00Z,Seup,NA,numeric,21258.514
+1976-01-01T00:00:00Z,Selo,NA,numeric,15495.486
+1977-01-01T00:00:00Z,abundance,NA,numeric,19538
+1977-01-01T00:00:00Z,Seup,NA,numeric,22907.914
+1977-01-01T00:00:00Z,Selo,NA,numeric,16168.086
+1978-01-01T00:00:00Z,abundance,NA,numeric,15384
+1978-01-01T00:00:00Z,Seup,NA,numeric,17796.21
+1978-01-01T00:00:00Z,Selo,NA,numeric,12971.789
+1979-01-01T00:00:00Z,abundance,NA,numeric,19763
+1979-01-01T00:00:00Z,Seup,NA,numeric,22978.045
+1979-01-01T00:00:00Z,Selo,NA,numeric,16547.955
+1984-01-01T00:00:00Z,abundance,NA,numeric,23499
+1984-01-01T00:00:00Z,Seup,NA,numeric,27598.166
+1984-01-01T00:00:00Z,Selo,NA,numeric,19399.834
+1985-01-01T00:00:00Z,abundance,NA,numeric,22921
+1985-01-01T00:00:00Z,Seup,NA,numeric,26604.863
+1985-01-01T00:00:00Z,Selo,NA,numeric,19237.137
+1987-01-01T00:00:00Z,abundance,NA,numeric,26916
+1987-01-01T00:00:00Z,Seup,NA,numeric,29975.81
+1987-01-01T00:00:00Z,Selo,NA,numeric,23856.19
+1992-01-01T00:00:00Z,abundance,NA,numeric,15762
+1992-01-01T00:00:00Z,Seup,NA,numeric,17862.76
+1992-01-01T00:00:00Z,Selo,NA,numeric,13661.24
+1993-01-01T00:00:00Z,abundance,NA,numeric,20103
+1993-01-01T00:00:00Z,Seup,NA,numeric,22270.104
+1993-01-01T00:00:00Z,Selo,NA,numeric,17935.896
+1995-01-01T00:00:00Z,abundance,NA,numeric,20944
+1995-01-01T00:00:00Z,Seup,NA,numeric,23448.064
+1995-01-01T00:00:00Z,Selo,NA,numeric,18439.936
+1997-01-01T00:00:00Z,abundance,NA,numeric,21135
+1997-01-01T00:00:00Z,Seup,NA,numeric,23951.873
+1997-01-01T00:00:00Z,Selo,NA,numeric,18318.127
+2000-01-01T00:00:00Z,abundance,NA,numeric,16369
+2000-01-01T00:00:00Z,Seup,NA,numeric,18326.078
+2000-01-01T00:00:00Z,Selo,NA,numeric,14411.922
+2001-01-01T00:00:00Z,abundance,NA,numeric,16033
+2001-01-01T00:00:00Z,Seup,NA,numeric,18201.303
+2001-01-01T00:00:00Z,Selo,NA,numeric,13864.697
+2006-01-01T00:00:00Z,abundance,NA,numeric,19126
+2006-01-01T00:00:00Z,Seup,NA,numeric,21787.574
+2006-01-01T00:00:00Z,Selo,NA,numeric,16464.426
+2007-01-01T00:00:00Z,abundance,NA,numeric,17820
+2007-01-01T00:00:00Z,Seup,NA,numeric,19920
+2007-01-01T00:00:00Z,Selo,NA,numeric,16150
+2007-01-01T00:00:00Z,CV,NA,numeric,0.054
+2009-01-01T00:00:00Z,abundance,NA,numeric,21210
+2009-01-01T00:00:00Z,Seup,NA,numeric,23250
+2009-01-01T00:00:00Z,Selo,NA,numeric,19420
+2009-01-01T00:00:00Z,CV,NA,numeric,0.046
+2010-01-01T00:00:00Z,abundance,NA,numeric,20990
+2010-01-01T00:00:00Z,Seup,NA,numeric,22900
+2010-01-01T00:00:00Z,Selo,NA,numeric,19230
+2010-01-01T00:00:00Z,CV,NA,numeric,0.044
+2014-01-01T00:00:00Z,abundance,NA,numeric,28790
+2014-01-01T00:00:00Z,Seup,NA,numeric,39210
+2014-01-01T00:00:00Z,Selo,NA,numeric,23620
+2014-01-01T00:00:00Z,CV,NA,numeric,0.13
+2015-01-01T00:00:00Z,abundance,NA,numeric,26960
+2015-01-01T00:00:00Z,Seup,NA,numeric,29830
+2015-01-01T00:00:00Z,Selo,NA,numeric,24420
+2015-01-01T00:00:00Z,CV,NA,numeric,0.05
+1986-01-01T00:00:00Z,abundance,NA,numeric,289
+1986-01-01T00:00:00Z,Seup,NA,numeric,398
+1986-01-01T00:00:00Z,Selo,NA,numeric,230
+1989-01-01T00:00:00Z,abundance,NA,numeric,354
+1989-01-01T00:00:00Z,Seup,NA,numeric,390
+1989-01-01T00:00:00Z,Selo,NA,numeric,330
+1998-01-01T00:00:00Z,abundance,NA,numeric,356
+1998-01-01T00:00:00Z,Seup,NA,numeric,437
+1998-01-01T00:00:00Z,Selo,NA,numeric,306
+2005-01-01T00:00:00Z,abundance,NA,numeric,323
+2005-01-01T00:00:00Z,Seup,NA,numeric,430
+2005-01-01T00:00:00Z,Selo,NA,numeric,259
+2011-01-01T00:00:00Z,abundance,NA,numeric,453
+2011-01-01T00:00:00Z,Seup,NA,numeric,524
+2011-01-01T00:00:00Z,Selo,NA,numeric,411
+1996-01-01T00:00:00Z,abundance,NA,numeric,465341
+1996-01-01T00:00:00Z,CV,NA,numeric,0.24
+2001-01-01T00:00:00Z,abundance,NA,numeric,558002
+2001-01-01T00:00:00Z,CV,NA,numeric,0.36
+2005-01-01T00:00:00Z,abundance,NA,numeric,693117
+2005-01-01T00:00:00Z,CV,NA,numeric,0.25
+2008-01-01T00:00:00Z,abundance,NA,numeric,658901
+2008-01-01T00:00:00Z,CV,NA,numeric,0.24
+2014-01-01T00:00:00Z,abundance,NA,numeric,1427576
+2014-01-01T00:00:00Z,CV,NA,numeric,0.25
+1996-01-01T00:00:00Z,abundance,NA,numeric,57265
+1996-01-01T00:00:00Z,CV,NA,numeric,0.71
+2001-01-01T00:00:00Z,abundance,NA,numeric,27885
+2001-01-01T00:00:00Z,CV,NA,numeric,0.57
+2005-01-01T00:00:00Z,abundance,NA,numeric,45752
+2005-01-01T00:00:00Z,CV,NA,numeric,0.75
+2008-01-01T00:00:00Z,abundance,NA,numeric,30172
+2008-01-01T00:00:00Z,CV,NA,numeric,0.61
+2014-01-01T00:00:00Z,abundance,NA,numeric,21976
+2014-01-01T00:00:00Z,CV,NA,numeric,0.72
+1996-01-01T00:00:00Z,abundance,NA,numeric,4795
+1996-01-01T00:00:00Z,CV,NA,numeric,0.31
+2001-01-01T00:00:00Z,abundance,NA,numeric,5101
+2001-01-01T00:00:00Z,CV,NA,numeric,0.65
+2005-01-01T00:00:00Z,abundance,NA,numeric,8247
+2005-01-01T00:00:00Z,CV,NA,numeric,0.34
+2008-01-01T00:00:00Z,abundance,NA,numeric,7302
+2008-01-01T00:00:00Z,CV,NA,numeric,0.27
+2014-01-01T00:00:00Z,abundance,NA,numeric,9892
+2014-01-01T00:00:00Z,CV,NA,numeric,0.38
+1996-01-01T00:00:00Z,abundance,NA,numeric,2936
+1996-01-01T00:00:00Z,CV,NA,numeric,0.47
+2001-01-01T00:00:00Z,abundance,NA,numeric,972
+2001-01-01T00:00:00Z,CV,NA,numeric,0.45
+2005-01-01T00:00:00Z,abundance,NA,numeric,1466
+2005-01-01T00:00:00Z,CV,NA,numeric,0.45
+2008-01-01T00:00:00Z,abundance,NA,numeric,878
+2008-01-01T00:00:00Z,CV,NA,numeric,0.51
+2014-01-01T00:00:00Z,abundance,NA,numeric,1496
+2014-01-01T00:00:00Z,CV,NA,numeric,0.44
+1996-01-01T00:00:00Z,abundance,NA,numeric,1742
+1996-01-01T00:00:00Z,CV,NA,numeric,0.53
+2001-01-01T00:00:00Z,abundance,NA,numeric,1295
+2001-01-01T00:00:00Z,CV,NA,numeric,0.59
+2005-01-01T00:00:00Z,abundance,NA,numeric,1623
+2005-01-01T00:00:00Z,CV,NA,numeric,0.52
+2008-01-01T00:00:00Z,abundance,NA,numeric,1313
+2008-01-01T00:00:00Z,CV,NA,numeric,0.6
+2014-01-01T00:00:00Z,abundance,NA,numeric,3064
+2014-01-01T00:00:00Z,CV,NA,numeric,0.82

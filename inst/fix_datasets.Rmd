@@ -1,0 +1,48 @@
+---
+title: "fix datasets"
+author: "Ben Best"
+date: "6/3/2021"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+devtools::load_all()
+dataset_id = "cciea_AC"; var_id = "consumption_fish"
+
+# dataset_id = "cciea_B_AS_DENS"  # density_anomaly, species_cohort
+# dataset_id = "cciea_EI_FBC"  # time, species_group, mean_cpue, Seup, Selo
+# dataset_id = "cciea_AC_mn" # month, month_number
+
+cciea_B_AS_DENS
+
+get_var <- function(df, var){
+  d <- df %>% 
+    filter(
+      variable == var)
+  type <- unique(d$value_type)
+  stopifnot(length(type) == 1)
+  val_col <- glue("value_{type}")
+  d %>% 
+    select(time, all_of(val_col)) %>% 
+    rename(!!var_id := all_of(val_col))
+}
+```
+
+```{r}
+library(googlesheets4)
+
+
+
+googlesheets4::
+https://docs.google.com/spreadsheets/d/1F8H2UFcajLVqq_MIPS0YAUt3ZnSSJP7cZ1hxCsMLW4g/edit?ts=6067b512#gid=747268021
+
+read_csv("https://oceanview.pfeg.noaa.gov/erddap/tabledap/cciea_EI_WH_ENT.csv?time%2Cspecies%2Cnumber_of_entanglements&time%3E=2019-12-25T00%3A00%3A00Z&time%3C=2020-01-01T00%3A00%3A00Z&species=%22Grand%20Total%22", skip = 1)
+
+```
+
