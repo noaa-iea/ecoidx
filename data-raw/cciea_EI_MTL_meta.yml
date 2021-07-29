@@ -1,0 +1,7 @@
+columns:
+  time: time
+  index: population
+  values: mean_trophic_level
+  error:
+  - Seup
+  - Selo

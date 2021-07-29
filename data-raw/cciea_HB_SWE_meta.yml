@@ -1,0 +1,7 @@
+columns:
+  time: time
+  index: location
+  values: SWE_anomaly
+  error:
+  - Seup
+  - Selo

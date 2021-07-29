@@ -1,0 +1,7 @@
+columns:
+  time: time
+  index: []
+  values:
+  - upwelling_index
+  - nobs
+  error: stdev

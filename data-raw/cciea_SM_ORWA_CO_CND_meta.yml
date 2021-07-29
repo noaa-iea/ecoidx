@@ -1,0 +1,7 @@
+columns:
+  time: time
+  index: population
+  values:
+  - cond_pct_nat
+  - cond_pop_gr
+  error: []

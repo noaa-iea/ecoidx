@@ -1,0 +1,5 @@
+columns:
+  time: time
+  index: species_cohort
+  values: encounter_rate
+  error: []

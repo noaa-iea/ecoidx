@@ -1,0 +1,7 @@
+columns:
+  time: time
+  index: population
+  values: simpson_diversity
+  error:
+  - Seup
+  - Selo

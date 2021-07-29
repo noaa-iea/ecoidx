@@ -1,0 +1,11 @@
+columns:
+  time: time
+  index:
+  - metric
+  - timeseries
+  values:
+  - data
+  - error
+  - SEup
+  - SElo
+  error: []

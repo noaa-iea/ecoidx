@@ -1,0 +1,7 @@
+columns:
+  time: time
+  index:
+  - station
+  - depth
+  values: nitrate
+  error: []

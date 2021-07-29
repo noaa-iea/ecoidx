@@ -1,0 +1,5 @@
+columns:
+  time: time
+  index: location
+  values: fishing_dependence
+  error: []

@@ -1,0 +1,7 @@
+columns:
+  time: time
+  index: population
+  values: species_richness
+  error:
+  - Seup
+  - Selo

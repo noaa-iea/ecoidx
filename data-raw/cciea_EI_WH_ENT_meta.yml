@@ -1,0 +1,5 @@
+columns:
+  time: time
+  index: species
+  values: number_of_entanglements
+  error: []

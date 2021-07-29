@@ -1,0 +1,13 @@
+columns:
+  time: time
+  index:
+  - station
+  - depth
+  values:
+  - temperature
+  - salinity
+  - density
+  - oxygen
+  - dissolved_oxygen
+  - aragonite_saturation
+  error: []

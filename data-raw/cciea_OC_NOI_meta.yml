@@ -1,0 +1,8 @@
+columns:
+  time: time
+  index: []
+  values:
+  - NOI
+  - SOIX
+  - SOI
+  error: []

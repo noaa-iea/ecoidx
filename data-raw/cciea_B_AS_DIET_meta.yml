@@ -1,0 +1,5 @@
+columns:
+  time: time
+  index: diet_species_cohort
+  values: percent_diet
+  error: []

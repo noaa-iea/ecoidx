@@ -1,0 +1,5 @@
+columns:
+  time: time
+  index: []
+  values: simpson_diversity
+  error: []

@@ -1,0 +1,9 @@
+columns:
+  time: time
+  index:
+  - station
+  - latitude
+  - longitude
+  - depth
+  values: sea_level
+  error: std_error

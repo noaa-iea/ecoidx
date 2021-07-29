@@ -4,7 +4,7 @@ if (!require(librarian)){
   library(librarian)
 }
 shelf(
-  dplyr, glue, here, purrr, readr, rerddap, tibble, tidyr, usethis)
+  dplyr, glue, here, purrr, readr, rerddap, tibble, tidyr, usethis, yaml)
 
 ed_url     <- "https://oceanview.pfeg.noaa.gov/erddap"
 ed_q       <- "cciea"
@@ -230,30 +230,35 @@ write_csv(ed_s$info, ed_ds_csv)
 ed_ixs <- read_csv(ed_ixs_csv)
 
 # get tibble of all datasets with data
-ed_datasets <- ed_s$info %>%
-  tibble() %>%
+#ed_datasets <- ed_s$info %>%
+ed_datasets <- read_csv(ed_ds_csv) %>%
   arrange(dataset_id)
 
 options(readr.show_types = FALSE)
 ed_datasets <- ed_datasets %>%
   # slice(i_beg:nrow(ed_datasets)) %>%
   mutate(
-    # raw_csv  = map_chr(dataset_id, get_erddap_tbl),
-    raw_data = map(raw_csv, read_csv, na = c("", "NA", "NaN")))
+    #raw_csv   = map_chr(dataset_id, get_erddap_tbl),
+    raw_csv    = here(glue("data-raw/{dataset_id}_raw.csv")),
+    raw_csv_ok = file.exists(raw_csv),
+    raw_data   = map(raw_csv, read_csv, na = c("", "NA", "NaN")))
 
-d <- ed_datasets %>%
-  filter(dataset_id == "cciea_AC") %>%
-  pull(raw_data) %>% .[[1]]
-d
+# d <- ed_datasets %>%
+#   # filter(dataset_id == "cciea_AC") %>%
+#   filter(dataset_id == "cciea_B_AS_DENS") %>%
+#   pull(raw_data) %>% .[[1]]
+# d
 
 # ed_datasets_1 <- ed_datasets
 # ed_datasets <- ed_datasets_1
 
 ed_datasets <- ed_datasets %>%
   mutate(
+    col_time = map(raw_data, function(d){
+      intersect(names(d), "time")
+    }),
     cols_idx = map(raw_data, function(d){
       cols_idx_all = c(
-        "time",
         "metric",    # cciea_EI_RREAS_diversity_list
         "latitude",  # cciea_OC_BEUTI, cciea_OC_CUTI, cciea_OC_SL1
         "longitude", # cciea_OC_SL1
@@ -276,26 +281,16 @@ ed_datasets <- ed_datasets %>%
       # TODO: match with col_val (not `nobs`)
 
       intersect(names(d), cols_err_all)
-      #  columns with error suffixes
+      # TODO: match columns with error suffixes
       #  cols_err_sfx = c(
       #   "_SEup", "_SElo", "_SEtype" # cciea_HMS
       #   "_se") # cciea_MM_pup_count
-
-    }))
-
-ed_datasets <- ed_datasets %>%
-  mutate(
-    cols_vals = pmap(., function(raw_data, cols_idx, cols_err, ...){
+      #  So yml
+    }),
+    cols_vals = pmap(., function(raw_data, col_time, cols_idx, cols_err, ...){
       # cols_vals <-
-      setdiff(names(raw_data), c(cols_idx, cols_err)) }),
-    ncols_vals = map_int(cols_vals, length))
-
-# ed_datasets %>%
-#   select(dataset_id, contains("vals")) %>%
-#   View()
-
-ed_datasets <- ed_datasets %>%
-  mutate(
+      setdiff(names(raw_data), c(col_time, cols_idx, cols_err)) }),
+    ncols_vals = map_int(cols_vals, length),
     cols_dup = map2(raw_data, cols_vals, function(d, cols_vals){
       if (length(cols_vals) == 1){
         return(character(0))
@@ -305,10 +300,19 @@ ed_datasets <- ed_datasets %>%
         summarize(across(all_of(cols_vals), sum)) %>%
         pivot_longer(everything()) %>%
         filter(value > 0) %>%
-        pull(name) }))
-ed_datasets <- ed_datasets %>%
-  mutate(
+        pull(name) }),
     ncols_dup = map_int(cols_dup, length))
+
+pmap(ed_datasets, function(dataset_id, col_time, cols_idx, cols_err, cols_vals, ...){
+  meta_yml <- here(glue("data-raw/{dataset_id}_meta.yml"))
+  meta <- list(
+    columns = list(
+      time   = col_time,
+      index  = cols_idx,
+      values = cols_vals,
+      error  = cols_err))
+  write_yaml(meta, meta_yml)
+})
 
 # ed_datasets %>%
 #   select(dataset_id, title) %>%

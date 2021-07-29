@@ -1,0 +1,7 @@
+columns:
+  time: time
+  index: population
+  values: biomass_ratio
+  error:
+  - Seup
+  - Selo

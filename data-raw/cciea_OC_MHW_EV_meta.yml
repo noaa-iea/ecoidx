@@ -1,0 +1,11 @@
+columns:
+  time: time
+  index: blob_id
+  values:
+  - max_area
+  - duration
+  - max_intensity
+  - mean_intensity
+  - min_dist_to_coast
+  - max_index
+  error: []

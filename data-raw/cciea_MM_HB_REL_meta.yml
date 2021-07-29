@@ -1,0 +1,7 @@
+columns:
+  time: time
+  index: []
+  values:
+  - humpback_rate
+  - humpback_anomaly
+  error: []

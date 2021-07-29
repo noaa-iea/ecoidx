@@ -1,0 +1,8 @@
+columns:
+  time: time
+  index: []
+  values: mean_length
+  error:
+  - std_dev
+  - Seup
+  - Selo

@@ -1,0 +1,5 @@
+columns:
+  time: time
+  index: species_group
+  values: mean_cpue
+  error: []

@@ -1,0 +1,13 @@
+columns:
+  time: time
+  index: taxa
+  values:
+  - abundance
+  - abundance_error
+  - richness
+  - richness_error
+  - diversity
+  - diversity_error
+  - evenness
+  - evenness_error
+  error: []

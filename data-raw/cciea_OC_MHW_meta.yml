@@ -1,0 +1,13 @@
+columns:
+  time: time
+  index: []
+  values:
+  - area_1
+  - intensity_1
+  - area_2
+  - intensity_2
+  - area_3
+  - intensity_3
+  - area_4
+  - intensity_4
+  error: []

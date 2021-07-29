@@ -1,0 +1,9 @@
+columns:
+  time: time
+  index:
+  - site
+  - county
+  - region
+  - species
+  values: domoic_acid_concentration
+  error: []

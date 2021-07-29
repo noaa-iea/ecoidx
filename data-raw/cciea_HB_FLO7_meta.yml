@@ -1,0 +1,7 @@
+columns:
+  time: time
+  index: location
+  values: flow_anomaly_7_day_min
+  error:
+  - Seup
+  - Selo

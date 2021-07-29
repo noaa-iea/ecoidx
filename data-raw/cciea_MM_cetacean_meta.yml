@@ -1,0 +1,10 @@
+columns:
+  time: time
+  index:
+  - common_name
+  - scientific_name
+  values: abundance
+  error:
+  - Seup
+  - Selo
+  - CV
