@@ -1,0 +1,26 @@
+---
+title: "test"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+librarian::shelf(
+  dplyr, noaa-iea/ecoidx, here, readr)
+
+tst_csv <- here("./inst/test2021/Groundfish Diversity 2003- 2019 IEA FY2021.csv")
+
+d <- read_csv(tst_csv)
+
+table(d$timeseries)
+
+d %>% 
+  filter(
+    timeseries == unique(d$timeseries)[1]) %>% 
+  ecoidx::plot_ts(add_icons = F) %>% 
+  plotly::ggplotly()
+```
+
