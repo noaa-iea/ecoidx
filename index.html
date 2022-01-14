@@ -20,6 +20,8 @@
 <![endif]-->
 </head>
 <body data-spy="scroll" data-target="#toc">
+    
+
     <div class="container template-home">
       <header><div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -32,18 +34,12 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">ecoidx</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="">0.1.0</span>
       </span>
     </div>
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-<li>
-  <a href="index.html">
-    <span class="fas fa-home fa-lg"></span>
-     
-  </a>
-</li>
 <li>
   <a href="reference/index.html">Reference</a>
 </li>
@@ -53,7 +49,7 @@
       </ul>
 <ul class="nav navbar-nav navbar-right">
 <li>
-  <a href="https://github.com/marinebon/ecoidx/">
+  <a href="https://github.com/marinebon/ecoidx/" class="external-link">
     <span class="fab fa-github fa-lg"></span>
      
   </a>
@@ -70,38 +66,38 @@
 
       </header><div class="row">
   <div class="contents col-md-9">
-<div id="ecoidx" class="section level1">
-<div class="page-header"><h1 class="hasAnchor">
-<a href="#ecoidx" class="anchor"></a>ecoidx</h1></div>
+<div class="section level1">
+<div class="page-header"><h1 id="ecoidx">ecoidx<a class="anchor" aria-label="anchor" href="#ecoidx"></a>
+</h1></div>
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <p>This R package consists of a set of helper datasets and plotting functions for developing and communicating marine ecological indicators, particularly for NOAA’s Integrated Ecological Assessment program in the California Current.</p>
-<div id="load-the-r-package" class="section level2">
-<h2 class="hasAnchor">
-<a href="#load-the-r-package" class="anchor"></a>Load the R package</h2>
+<div class="section level2">
+<h2 id="load-the-r-package">Load the R package<a class="anchor" aria-label="anchor" href="#load-the-r-package"></a>
+</h2>
 <p>This package lives on Github, not yet CRAN, so you’ll need to run the following once:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html">install_github</a></span><span class="op">(</span><span class="st">"marinebon/ecoidx"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu">remotes</span><span class="fu">::</span><span class="fu"><a href="https://remotes.r-lib.org/reference/install_github.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"marinebon/ecoidx"</span><span class="op">)</span></code></pre></div>
 <p>Then to load the package when using:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://marinebon.org/ecoidx">ecoidx</a></span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://marinebon.org/ecoidx" class="external-link">ecoidx</a></span><span class="op">)</span></code></pre></div>
 </div>
-<div id="datasets" class="section level2">
-<h2 class="hasAnchor">
-<a href="#datasets" class="anchor"></a>Datasets</h2>
-<p>Most datasets were loaded from <a href="https://oceanview.pfeg.noaa.gov/erddap/search/index.html?page=1&amp;itemsPerPage=1000&amp;searchFor=cciea">ERDDAP searching “cciea”</a>.</p>
+<div class="section level2">
+<h2 id="datasets">Datasets<a class="anchor" aria-label="anchor" href="#datasets"></a>
+</h2>
+<p>Most datasets were loaded from <a href="https://oceanview.pfeg.noaa.gov/erddap/search/index.html?page=1&amp;itemsPerPage=1000&amp;searchFor=cciea" class="external-link">ERDDAP searching “cciea”</a>.</p>
 <p>You can see the available datasets for this package from the R Console with:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span>package <span class="op">=</span> <span class="st">"ecoidx"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span>package <span class="op">=</span> <span class="st">"ecoidx"</span><span class="op">)</span></code></pre></div>
 <p>Or look at the <a href="./reference/index.html#section-datasets-erddap">Reference</a>.</p>
 <p>The ERDDAP datasets are “evergreen” and preferred. These are loaded for convenience, especially for quickly trying out the data wrangling and plotting functions.</p>
 </div>
-<div id="plot" class="section level2">
-<h2 class="hasAnchor">
-<a href="#plot" class="anchor"></a>Plot</h2>
+<div class="section level2">
+<h2 id="plot">Plot<a class="anchor" aria-label="anchor" href="#plot"></a>
+</h2>
 <p>Here’s an example of using the <code><a href="reference/plot_ts.html">plot_ts()</a></code> function, starting with an example timeseries dataset <code>ts1</code>.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># example time series dataset with some NAs to show dashed line between non-NA values</span>
-<span class="fu"><a href="https://rdrr.io/r/utils/head.html">head</a></span><span class="op">(</span><span class="va">ts1</span>, <span class="fl">8</span><span class="op">)</span></code></pre></div>
+<span class="fu"><a href="https://rdrr.io/r/utils/head.html" class="external-link">head</a></span><span class="op">(</span><span class="va">ts1</span>, <span class="fl">8</span><span class="op">)</span></code></pre></div>
 <div class="kable-table">
 <table class="table">
 <colgroup>
@@ -217,17 +213,17 @@
 <div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R">
 <span class="co"># show the caption attributed to the returned ggplot object</span>
-<span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/attr.html">attr</a></span><span class="op">(</span><span class="va">g</span>, <span class="st">"caption"</span><span class="op">)</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/base/cat.html" class="external-link">cat</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/attr.html" class="external-link">attr</a></span><span class="op">(</span><span class="va">g</span>, <span class="st">"caption"</span><span class="op">)</span><span class="op">)</span>
 <span class="co">#&gt;  The index changed by less than one standard deviation of the full time series over the last 5 years (indicated by icon: →).   The mean of the last 5 years was more than one standard deviation below the mean of the full time series (indicated by icon: +).</span>
 
 <span class="co"># without SElo or SEhi columns, just year and index</span>
-<span class="va">g</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/plot_ts.html">plot_ts</a></span><span class="op">(</span><span class="va">ts1</span><span class="op">[</span>,<span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">"year"</span>,<span class="st">"index"</span><span class="op">)</span><span class="op">]</span><span class="op">)</span>
+<span class="va">g</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/plot_ts.html">plot_ts</a></span><span class="op">(</span><span class="va">ts1</span><span class="op">[</span>,<span class="fu"><a href="https://rdrr.io/r/base/c.html" class="external-link">c</a></span><span class="op">(</span><span class="st">"year"</span>,<span class="st">"index"</span><span class="op">)</span><span class="op">]</span><span class="op">)</span>
 <span class="va">g</span></code></pre></div>
 <p><img src="reference/figures/unnamed-chunk-4-2.png"><!-- --></p>
 <div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R">
 <span class="co"># same caption as previously, since defaults to x_recent=5 and add_avg=T</span>
-<span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/attr.html">attr</a></span><span class="op">(</span><span class="va">g</span>, <span class="st">"caption"</span><span class="op">)</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/base/cat.html" class="external-link">cat</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/attr.html" class="external-link">attr</a></span><span class="op">(</span><span class="va">g</span>, <span class="st">"caption"</span><span class="op">)</span><span class="op">)</span>
 <span class="co">#&gt;  The index changed by less than one standard deviation of the full time series over the last 5 years (indicated by icon: →).   The mean of the last 5 years was more than one standard deviation below the mean of the full time series (indicated by icon: +).</span>
 
 <span class="co"># without default x_recent, add_avg, or add_icons</span>
@@ -237,19 +233,19 @@
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R">
 <span class="co"># no caption, since missing x_recent and add_avg</span>
-<span class="fu"><a href="https://rdrr.io/r/base/cat.html">cat</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/attr.html">attr</a></span><span class="op">(</span><span class="va">g</span>, <span class="st">"caption"</span><span class="op">)</span><span class="op">)</span> <span class="co"># empty caption without x_recent</span></code></pre></div>
+<span class="fu"><a href="https://rdrr.io/r/base/cat.html" class="external-link">cat</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/attr.html" class="external-link">attr</a></span><span class="op">(</span><span class="va">g</span>, <span class="st">"caption"</span><span class="op">)</span><span class="op">)</span> <span class="co"># empty caption without x_recent</span></code></pre></div>
 </div>
-<div id="developer" class="section level2">
-<h2 class="hasAnchor">
-<a href="#developer" class="anchor"></a>Developer</h2>
+<div class="section level2">
+<h2 id="developer">Developer<a class="anchor" aria-label="anchor" href="#developer"></a>
+</h2>
 <p>This section is only meant for developers wishing to contribute or understand how this R package and website were built using <code>devtools</code>, <code>usethis</code> and <code>pkgdown</code> R packages.</p>
-<div id="one-time" class="section level3">
-<h3 class="hasAnchor">
-<a href="#one-time" class="anchor"></a>One time</h3>
+<div class="section level3">
+<h3 id="one-time">One time<a class="anchor" aria-label="anchor" href="#one-time"></a>
+</h3>
 <p>Setup Github Actions to update documentation upon <code>git push</code> into <code>gh-pages</code> branch:</p>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_github_action.html">use_github_action</a></span><span class="op">(</span><span class="st">"pkgdown"</span><span class="op">)</span></code></pre></div>
-<p>Modified the <a href="https://github.com/marinebon/ecoidx/blame/5b1b44104029fbc167146b9037b0030db390f774/.github/workflows/pkgdown.yaml#L38-L50">.github/workflows/pkgdown.yaml</a> with 3 extra lines to fully document the package from source:</p>
+<code class="sourceCode R"><span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/github_actions.html" class="external-link">use_github_action</a></span><span class="op">(</span><span class="st">"pkgdown"</span><span class="op">)</span></code></pre></div>
+<p>Modified the <a href="https://github.com/marinebon/ecoidx/blame/5b1b44104029fbc167146b9037b0030db390f774/.github/workflows/pkgdown.yaml#L38-L50" class="external-link">.github/workflows/pkgdown.yaml</a> with 3 extra lines to fully document the package from source:</p>
 <div class="sourceCode" id="cb10"><pre class="sourceCode yaml"><code class="sourceCode yaml"><span id="cb10-1"><a href="#cb10-1"></a><span class="at">    </span><span class="kw">-</span><span class="at"> </span><span class="fu">name</span><span class="kw">:</span><span class="at"> Install dependencies</span></span>
 <span id="cb10-2"><a href="#cb10-2"></a><span class="at">      ...</span></span>
 <span id="cb10-3"><a href="#cb10-3"></a><span class="at">          install.packages("devtools", type = "binary")</span></span>
@@ -258,27 +254,27 @@
 <span id="cb10-6"><a href="#cb10-6"></a><span class="at">          Rscript -e 'devtools::document()'</span></span>
 <span id="cb10-7"><a href="#cb10-7"></a><span class="at">          Rscript -e 'rmarkdown::render("README.Rmd")'</span></span></code></pre></div>
 </div>
-<div id="load-dataset" class="section level3">
-<h3 class="hasAnchor">
-<a href="#load-dataset" class="anchor"></a>Load dataset</h3>
-<ol>
+<div class="section level3">
+<h3 id="load-dataset">Load dataset<a class="anchor" aria-label="anchor" href="#load-dataset"></a>
+</h3>
+<ol style="list-style-type: decimal">
 <li>Place into CSV into <code>data-raw/</code> folder</li>
-<li>Create dataset. Create <code>get_[dataset].R</code> script to read, potentially wrangle and then load into R package as a dataset using <code><a href="https://usethis.r-lib.org/reference/use_data.html">usethis::use_data()</a></code>. Run <code>get_[dataset].R</code> to generate <code>data/[dataset].rda</code>.</li>
-<li>Document dataset. Create <code>R/[dataset].R</code>. Run <code><a href="https://devtools.r-lib.org//reference/document.html">devtools::document()</a></code> to create <code>man/[dataset].Rd</code>.</li>
-<li>Document package. Run <code><a href="https://pkgdown.r-lib.org/reference/build_reference.html">pkgdown::build_reference()</a></code> to update <code>docs/reference/index.html</code>.</li>
+<li>Create dataset. Create <code>get_[dataset].R</code> script to read, potentially wrangle and then load into R package as a dataset using <code><a href="https://usethis.r-lib.org/reference/use_data.html" class="external-link">usethis::use_data()</a></code>. Run <code>get_[dataset].R</code> to generate <code>data/[dataset].rda</code>.</li>
+<li>Document dataset. Create <code>R/[dataset].R</code>. Run <code><a href="https://devtools.r-lib.org/reference/document.html" class="external-link">devtools::document()</a></code> to create <code>man/[dataset].Rd</code>.</li>
+<li>Document package. Run <code><a href="https://pkgdown.r-lib.org/reference/build_reference.html" class="external-link">pkgdown::build_reference()</a></code> to update <code>docs/reference/index.html</code>.</li>
 </ol>
 </div>
-<div id="develop-functions" class="section level3">
-<h3 class="hasAnchor">
-<a href="#develop-functions" class="anchor"></a>Develop functions</h3>
+<div class="section level3">
+<h3 id="develop-functions">Develop functions<a class="anchor" aria-label="anchor" href="#develop-functions"></a>
+</h3>
 <p>To import a library:</p>
 <div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_package.html">use_package</a></span><span class="op">(</span><span class="st">"dplyr"</span><span class="op">)</span>
-<span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_package.html">use_package</a></span><span class="op">(</span><span class="st">"ggplot2"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_package.html" class="external-link">use_package</a></span><span class="op">(</span><span class="st">"dplyr"</span><span class="op">)</span>
+<span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_package.html" class="external-link">use_package</a></span><span class="op">(</span><span class="st">"ggplot2"</span><span class="op">)</span></code></pre></div>
 <p>After updating documentation:</p>
 <div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://devtools.r-lib.org//reference/document.html">document</a></span><span class="op">(</span><span class="op">)</span>
-<span class="fu">pkgdown</span><span class="fu">::</span><span class="fu"><a href="https://pkgdown.r-lib.org/reference/build_reference.html">build_reference</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://devtools.r-lib.org/reference/document.html" class="external-link">document</a></span><span class="op">(</span><span class="op">)</span>
+<span class="fu">pkgdown</span><span class="fu">::</span><span class="fu"><a href="https://pkgdown.r-lib.org/reference/build_reference.html" class="external-link">build_reference</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
 </div>
 </div>
 </div>
@@ -286,39 +282,51 @@
 
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <div class="links">
-<h2>Links</h2>
+<h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li>Browse source code at <br><a href="https://github.com/marinebon/ecoidx/">https://​github.com/​marinebon/​ecoidx/​</a>
-</li>
-<li>Report a bug at <br><a href="https://github.com/marinebon/ecoidx/issues">https://​github.com/​marinebon/​ecoidx/​issues</a>
-</li>
+<li><a href="https://github.com/marinebon/ecoidx/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/marinebon/ecoidx/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
+
 <div class="license">
-<h2>License</h2>
+<h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
 <li><a href="LICENSE.html">Full license</a></li>
-<li><small><a href="https://opensource.org/licenses/mit-license.php">MIT</a> + file <a href="LICENSE-text.html">LICENSE</a></small></li>
+<li><small><a href="https://opensource.org/licenses/mit-license.php" class="external-link">MIT</a> + file <a href="LICENSE-text.html">LICENSE</a></small></li>
 </ul>
 </div>
-<div class="developers">
-<h2>Developers</h2>
+
+
+<div class="citation">
+<h2 data-toc-skip>Citation</h2>
 <ul class="list-unstyled">
-<li>Ben Best <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-2686-0784" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
-<li>Nick Tolimieri <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-0581-9915" target="orcid.widget" aria-label="ORCID"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li><a href="authors.html#citation">Citing ecoidx</a></li>
 </ul>
 </div>
+
+<div class="developers">
+<h2 data-toc-skip>Developers</h2>
+<ul class="list-unstyled">
+<li>Ben Best <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-2686-0784" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>Nick Tolimieri <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-0581-9915" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+</ul>
+</div>
+
+
 
   </div>
 </div>
 
 
       <footer><div class="copyright">
-  <p>Developed by Ben Best, Nick Tolimieri.</p>
+  <p></p>
+<p>Developed by Ben Best, Nick Tolimieri.</p>
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.</p>
+  <p></p>
+<p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.1.</p>
 </div>
 
       </footer>
@@ -326,6 +334,8 @@
 
   
 
+
+  
 
   </body>
 </html>
