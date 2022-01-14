@@ -1,7 +1,7 @@
 columns:
   time: time
-  index: population
-  values: simpson_diversity
-  error:
+  indices: population
+  metrics: simpson_diversity
+  errors:
   - Seup
   - Selo

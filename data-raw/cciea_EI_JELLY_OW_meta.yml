@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: species_group
-  values: mean_cpue
-  error: []
+  indices: species_group
+  metrics: mean_cpue
+  errors: []

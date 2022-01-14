@@ -5,9 +5,9 @@
 \alias{cciea_B_AS_DIET}
 \title{Seabird diet}
 \format{
-A data frame with 669 rows and 3 variables:
+A data frame with 518 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.1536E7, 1.5463008E9]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [7.258464E8, 1.5778368E9]}
 \item{percent_diet}{Percent Observed Diet () [0.0, 81.9]}
 \item{diet_species_cohort}{Diet (Bird species cohort) () []}
 }

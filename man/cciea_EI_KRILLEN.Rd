@@ -5,9 +5,9 @@
 \alias{cciea_EI_KRILLEN}
 \title{Euphausia pacifica (krill) lengths}
 \format{
-A data frame with 126 rows and 5 variables:
+A data frame with 520 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.19448E9, 1.5661728E9]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.19448E9, 1.5978816E9]}
 \item{mean_length}{Carapace Length (mm) [7.457964, 17.27011]}
 \item{std_dev}{Standard Deviation (mm) [0.0, 3.874455]}
 \item{Seup}{Confidence Interval, Upper () [8.44838, 19.4095]}

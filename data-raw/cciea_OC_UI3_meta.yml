@@ -1,7 +1,7 @@
 columns:
   time: time
-  index: []
-  values:
+  indices: []
+  metrics:
   - upwelling_index
   - nobs
-  error: stdev
+  errors: stdev

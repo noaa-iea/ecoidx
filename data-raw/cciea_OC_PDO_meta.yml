@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: []
-  values: PDO
-  error: []
+  indices: []
+  metrics: PDO
+  errors: []

@@ -1,7 +1,7 @@
 columns:
   time: time
-  index:
+  indices:
   - station
   - depth
-  values: nitrate
-  error: []
+  metrics: nitrate
+  errors: []

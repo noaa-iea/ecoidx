@@ -5,7 +5,7 @@
 \alias{cciea_EI_JELLY_OW}
 \title{Jellyfish Biomass, Oregon and Washington}
 \format{
-A data frame with 36 rows and 3 variables:
+A data frame with 72 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [9.151488E8, 1.4516064E9]}
 \item{species_group}{Species Group () []}

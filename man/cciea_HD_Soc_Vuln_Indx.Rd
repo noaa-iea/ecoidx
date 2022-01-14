@@ -3,13 +3,14 @@
 \docType{data}
 \name{cciea_HD_Soc_Vuln_Indx}
 \alias{cciea_HD_Soc_Vuln_Indx}
-\title{Coastal community social vulnerability index score}
+\title{Coastal community social vulnerability index}
 \format{
-A data frame with 170 rows and 3 variables:
+A data frame with 1491 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.230768E9, 1.4832288E9]}
-\item{social_vulnerability_index}{Social Vulnerability Index () [-6.8948, 13.67]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.230768E9, 1.5147648E9]}
+\item{social_vulnerability_index}{Community Social Vulnerability Index () [-5.977, 9.320572]}
 \item{location}{Location () []}
+\item{region}{Region () []}
 }
 }
 \source{

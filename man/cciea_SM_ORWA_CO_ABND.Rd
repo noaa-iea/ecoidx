@@ -5,11 +5,11 @@
 \alias{cciea_SM_ORWA_CO_ABND}
 \title{Coho Abundance, Oregon/Washington}
 \format{
-A data frame with 69 rows and 3 variables:
+A data frame with 88 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [0.0, 1.3885344E9]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [7.573824E8, 1.5463008E9]}
 \item{population}{Population/Season () []}
-\item{abundance_anomaly}{Abundance anomaly (observed mean/standard deviation) () [-1.214305, 1.844207]}
+\item{abundance_anomaly}{Abundance anomaly (observed mean/standard deviation) () [-1.150923, 3.129896]}
 }
 }
 \source{

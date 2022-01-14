@@ -1,11 +1,11 @@
 columns:
   time: time
-  index:
+  indices:
   - metric
   - timeseries
-  values:
+  metrics:
   - data
   - error
   - SEup
   - SElo
-  error: []
+  errors: []

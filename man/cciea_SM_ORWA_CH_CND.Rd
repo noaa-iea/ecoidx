@@ -5,7 +5,7 @@
 \alias{cciea_SM_ORWA_CH_CND}
 \title{Chinook Condition, Oregon/Washington}
 \format{
-A data frame with 220 rows and 5 variables:
+A data frame with 853 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [0.0, 1.3885344E9]}
 \item{population}{Population/Season () []}

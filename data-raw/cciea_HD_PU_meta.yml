@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: use_type
-  values: personal_catch
-  error: []
+  indices: use_type
+  metrics: personal_catch
+  errors: []

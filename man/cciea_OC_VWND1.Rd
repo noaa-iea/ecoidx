@@ -5,9 +5,9 @@
 \alias{cciea_OC_VWND1}
 \title{Meridional Wind Buoy 46050 (44.6N 124.5W)}
 \format{
-A data frame with 301 rows and 2 variables:
+A data frame with 304 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.889536E8, 1.6121376E9]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.889536E8, 1.6198272E9]}
 \item{vwnd}{Wind Speed, Meridional (m s-1) [-6.163844, 8.036128]}
 }
 }

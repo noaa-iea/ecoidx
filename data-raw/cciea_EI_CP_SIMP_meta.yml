@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: []
-  values: simpson_diversity
-  error: []
+  indices: []
+  metrics: simpson_diversity
+  errors: []

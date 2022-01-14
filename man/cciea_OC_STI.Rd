@@ -5,7 +5,7 @@
 \alias{cciea_OC_STI}
 \title{Spring Transition Index (STI)}
 \format{
-A data frame with 324 rows and 3 variables:
+A data frame with 648 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.5778368E9]}
 \item{sti}{Spring Transition Index (yearday) [1.0, 174.0]}

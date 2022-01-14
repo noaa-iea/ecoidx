@@ -1,8 +1,8 @@
 columns:
   time: time
-  index: []
-  values:
+  indices: []
+  metrics:
   - NOI
   - SOIX
   - SOI
-  error: []
+  errors: []

@@ -5,10 +5,10 @@
 \alias{cciea_HD_Fish_Rel}
 \title{Commercial Fishing Reliance Index}
 \format{
-A data frame with 598 rows and 4 variables:
+A data frame with 1845 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.1045376E9, 1.4832288E9]}
-\item{fishing_reliance}{Commercial fishing reliance index (Index) [-0.941, 29.54986]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.1045376E9, 1.5147648E9]}
+\item{fishing_reliance}{Commercial fishing reliance index (Index) [-0.941, 33.18725]}
 \item{location}{Location () []}
 \item{region}{Region () []}
 }

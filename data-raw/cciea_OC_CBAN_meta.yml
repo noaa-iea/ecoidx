@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: []
-  values: biomass_anomaly
-  error: []
+  indices: []
+  metrics: biomass_anomaly
+  errors: []

@@ -5,7 +5,7 @@
 \alias{cciea_OC_MHW}
 \title{California Current Marine Heatwave, Daily}
 \format{
-A data frame with 14166 rows and 9 variables:
+A data frame with 106582 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.786912E8, 1.6025904E9]}
 \item{area_1}{Area of MHW Feature 1 (km^2) [-999.0, 9759084.0]}

@@ -5,10 +5,10 @@
 \alias{cciea_OC_BEUTI}
 \title{Monthly Biologically Effective Upwelling Transport Index (BEUTI)}
 \format{
-A data frame with 1191 rows and 3 variables:
+A data frame with 2406 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [5.679936E8, 1.6094592E9]}
-\item{beuti}{Biologically Effective Upwelling Transport Index (mmol s^-1 m^-1) [-22.082, 50.279]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [5.692032E8, 1.6210368E9]}
+\item{beuti}{Biologically Effective Upwelling Transport Index (mmol s^-1 m^-1) [-22.082, 57.187]}
 \item{latitude}{Latitude (degrees_north) [33, 45]}
 }
 }

@@ -5,7 +5,7 @@
 \alias{cciea_B_AS_DENS}
 \title{Seabird at-sea density anomaly}
 \format{
-A data frame with 222 rows and 3 variables:
+A data frame with 423 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [5.364576E8, 1.5463008E9]}
 \item{density_anomaly}{Density Anomaly () [-2.107251, 1.742638]}

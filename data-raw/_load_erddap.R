@@ -227,11 +227,11 @@ ed_s <- ed_search(ed_q, which = "tabledap")
 write_csv(ed_s$info, ed_ds_csv)
 
 # get extra indexes
-ed_ixs <- read_csv(ed_ixs_csv)
+ed_ixs <- read_csv(ed_ixs_csv, show_col_types = F)
 
 # get tibble of all datasets with data
 #ed_datasets <- ed_s$info %>%
-ed_datasets <- read_csv(ed_ds_csv) %>%
+ed_datasets <- read_csv(ed_ds_csv, show_col_types = F) %>%
   arrange(dataset_id)
 
 options(readr.show_types = FALSE)
@@ -241,7 +241,7 @@ ed_datasets <- ed_datasets %>%
     #raw_csv   = map_chr(dataset_id, get_erddap_tbl),
     raw_csv    = here(glue("data-raw/{dataset_id}_raw.csv")),
     raw_csv_ok = file.exists(raw_csv),
-    raw_data   = map(raw_csv, read_csv, na = c("", "NA", "NaN")))
+    raw_data   = map(raw_csv, read_csv, na = c("", "NA", "NaN"), show_col_types = F))
 
 # d <- ed_datasets %>%
 #   # filter(dataset_id == "cciea_AC") %>%
@@ -255,8 +255,7 @@ ed_datasets <- ed_datasets %>%
 ed_datasets <- ed_datasets %>%
   mutate(
     col_time = map(raw_data, function(d){
-      intersect(names(d), "time")
-    }),
+      intersect(names(d), "time") }),
     cols_idx = map(raw_data, function(d){
       cols_idx_all = c(
         "metric",    # cciea_EI_RREAS_diversity_list
@@ -269,8 +268,7 @@ ed_datasets <- ed_datasets %>%
         #   distinct(index) %>% pull(index) %>% sort() %>% paste(collapse = '", "') %>% cat()
         "common_name", "county", "diet_species_cohort", "location", "population", "region", "scientific_name", "site", "species", "species_cohort", "species_group", "taxa", "timeseries", "use_type", "vessel_category")
       # cols_idx = intersect(names(d), cols_idx_all)
-      intersect(names(d), cols_idx_all)
-    }),
+      intersect(names(d), cols_idx_all) }),
     cols_err = map(raw_data, function(d){
       cols_err_all = c(
         "Seup","Selo","std_dev","CV",
@@ -286,7 +284,14 @@ ed_datasets <- ed_datasets %>%
       #   "_SEup", "_SElo", "_SEtype" # cciea_HMS
       #   "_se") # cciea_MM_pup_count
       #  So yml
-    }),
+      }))
+
+# ed_datasets_2 <- ed_datasets
+# ed_datasets <- ed_datasets_2
+
+# ODDITY: need to define col_time first in separate mutate()
+ed_datasets <- ed_datasets %>%
+  mutate(
     cols_vals = pmap(., function(raw_data, col_time, cols_idx, cols_err, ...){
       # cols_vals <-
       setdiff(names(raw_data), c(col_time, cols_idx, cols_err)) }),
@@ -303,14 +308,14 @@ ed_datasets <- ed_datasets %>%
         pull(name) }),
     ncols_dup = map_int(cols_dup, length))
 
-pmap(ed_datasets, function(dataset_id, col_time, cols_idx, cols_err, cols_vals, ...){
+pwalk(ed_datasets, function(dataset_id, col_time, cols_idx, cols_err, cols_vals, ...){
   meta_yml <- here(glue("data-raw/{dataset_id}_meta.yml"))
   meta <- list(
     columns = list(
-      time   = col_time,
-      index  = cols_idx,
-      values = cols_vals,
-      error  = cols_err))
+      time    = col_time,
+      indices = cols_idx,
+      metrics = cols_vals,
+      errors  = cols_err))
   write_yaml(meta, meta_yml)
 })
 

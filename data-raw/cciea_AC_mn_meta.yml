@@ -1,9 +1,9 @@
 columns:
   time: []
-  index: []
-  values:
+  indices: []
+  metrics:
   - month
   - month_number
   - landings
   - fish_tickets
-  error: []
+  errors: []

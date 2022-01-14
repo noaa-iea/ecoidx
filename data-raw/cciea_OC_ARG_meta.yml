@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: location
-  values: aragonite_saturation
-  error: []
+  indices: location
+  metrics: aragonite_saturation
+  errors: []

@@ -1,9 +1,9 @@
 columns:
   time: time
-  index: []
-  values:
+  indices: []
+  metrics:
   - hci_regn1
   - hci_regn2
   - hci_regn3
   - hci_regn4
-  error: []
+  errors: []

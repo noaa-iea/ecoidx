@@ -1,10 +1,10 @@
 columns:
   time: time
-  index:
+  indices:
   - common_name
   - scientific_name
-  values: abundance
-  error:
+  metrics: abundance
+  errors:
   - Seup
   - Selo
   - CV

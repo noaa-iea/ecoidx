@@ -1,8 +1,8 @@
 columns:
   time: time
-  index: []
-  values:
+  indices: []
+  metrics:
   - copepod_species_richness_anomaly
   - northern_copepod_biomass_anomaly
   - southern_copepod_biomass_anomaly
-  error: []
+  errors: []

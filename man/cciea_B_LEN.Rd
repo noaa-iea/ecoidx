@@ -5,9 +5,9 @@
 \alias{cciea_B_LEN}
 \title{Seabird Prey Size}
 \format{
-A data frame with 27 rows and 2 variables:
+A data frame with 27 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [7.258464E8, 1.5463008E9]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [7.258464E8, 1.5778368E9]}
 \item{fork_length}{Fork Length (mm) [86.0, 152.0]}
 }
 }

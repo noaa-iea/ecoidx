@@ -5,7 +5,7 @@
 \alias{cciea_OC_SST2}
 \title{SST Buoy 46014 (39.2N 124.0W)}
 \format{
-A data frame with 412 rows and 2 variables:
+A data frame with 412 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.549312E8, 1.5989184E9]}
 \item{SST}{Sea Surface Temperature (degree_C) [9.142, 16.114]}

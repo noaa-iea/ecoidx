@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: species_group
-  values: abundance
-  error: []
+  indices: species_group
+  metrics: abundance
+  errors: []

@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: location
-  values: dissolved_oxygen
-  error: []
+  indices: location
+  metrics: dissolved_oxygen
+  errors: []

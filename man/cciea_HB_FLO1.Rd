@@ -5,12 +5,12 @@
 \alias{cciea_HB_FLO1}
 \title{Streamflow - Annual 1-day maximum flow anomaly}
 \format{
-A data frame with 228 rows and 5 variables:
+A data frame with 960 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
-\item{flow_anomaly_1_day_max}{Annual 1-day maximum flow anomaly (Annual Anomaly) [-1.45212, 2.247431]}
-\item{Seup}{95\% credible interval upper bound (Annual Anomaly) [-1.052108, 2.60782]}
-\item{Selo}{95\% credible interval lower bound (Annual Anomaly) [-1.852468, 1.889717]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5778368E9]}
+\item{flow_anomaly_1_day_max}{Annual 1-day maximum flow anomaly (Annual Anomaly) [-1.457172, 2.296121]}
+\item{Seup}{95\% credible interval upper bound (Annual Anomaly) [-1.059154, 2.656894]}
+\item{Selo}{95\% credible interval lower bound (Annual Anomaly) [-1.855576, 1.93781]}
 \item{location}{Location () []}
 }
 }

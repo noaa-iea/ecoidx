@@ -5,9 +5,9 @@
 \alias{cciea_EI_DOMACID_MON_crab}
 \title{Monthly Maximum Domoic acid levels in dungeness crab, West Coast}
 \format{
-A data frame with 197 rows and 3 variables:
+A data frame with 424 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.323616E8, 1.573776E9]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.323616E8, 1.6079904E9]}
 \item{region}{Region () []}
 \item{domoic_acid_concentration}{Maximum Domoic Acid Concentration (ppm) [0.0, 270.0]}
 }

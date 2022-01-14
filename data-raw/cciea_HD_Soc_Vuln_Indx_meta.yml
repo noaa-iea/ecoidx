@@ -1,7 +1,7 @@
 columns:
   time: time
-  index:
+  indices:
   - location
   - region
-  values: social_vulnerability_index
-  error: []
+  metrics: social_vulnerability_index
+  errors: []

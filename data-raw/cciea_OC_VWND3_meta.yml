@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: []
-  values: vwnd
-  error: []
+  indices: []
+  metrics: vwnd
+  errors: []

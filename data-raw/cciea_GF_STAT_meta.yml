@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: species_group
-  values: relative_stock_status
-  error: []
+  indices: species_group
+  metrics: relative_stock_status
+  errors: []

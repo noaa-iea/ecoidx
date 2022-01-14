@@ -1,14 +1,14 @@
 columns:
   time: time
-  index:
+  indices:
   - station
   - depth
   - latitude
   - longitude
   - project
-  values:
+  metrics:
   - temperature
   - salinity
   - density
   - oxygen
-  error: []
+  errors: []

@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: []
-  values: species_number
-  error: []
+  indices: []
+  metrics: species_number
+  errors: []

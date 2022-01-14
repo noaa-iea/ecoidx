@@ -5,7 +5,7 @@
 \alias{cciea_HD_Fish_Dep}
 \title{Coastal community fishery dependence index}
 \format{
-A data frame with 100 rows and 3 variables:
+A data frame with 200 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [9.466848E8, 1.3885344E9]}
 \item{fishing_dependence}{Fishery Dependence Index () [-0.279896, 32.81]}

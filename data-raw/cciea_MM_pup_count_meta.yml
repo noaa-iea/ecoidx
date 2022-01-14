@@ -1,11 +1,11 @@
 columns:
   time: time
-  index: []
-  values:
+  indices: []
+  metrics:
   - live_pup_count
   - live_pup_count_se
   - mean_weight
   - mean_weight_se
   - mean_growth_rate
   - mean_growth_rate_se
-  error: []
+  errors: []
