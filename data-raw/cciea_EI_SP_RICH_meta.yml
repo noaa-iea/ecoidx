@@ -1,7 +1,7 @@
 columns:
   time: time
-  index: population
-  values: species_richness
-  error:
+  indices: population
+  metrics: species_richness
+  errors:
   - Seup
   - Selo

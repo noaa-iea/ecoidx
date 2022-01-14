@@ -1,7 +1,7 @@
 columns:
   time: time
-  index: []
-  values:
+  indices: []
+  metrics:
   - area_1
   - intensity_1
   - area_2
@@ -10,4 +10,4 @@ columns:
   - intensity_3
   - area_4
   - intensity_4
-  error: []
+  errors: []

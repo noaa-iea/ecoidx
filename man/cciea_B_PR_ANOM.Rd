@@ -5,10 +5,10 @@
 \alias{cciea_B_PR_ANOM}
 \title{Seabird Productivity}
 \format{
-A data frame with 229 rows and 3 variables:
+A data frame with 80 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.1536E7, 1.5463008E9]}
-\item{productivity_anomaly}{Productivity Anomaly () [-1.405, 1.425]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.1676096E9, 1.5778368E9]}
+\item{productivity_anomaly}{Productivity Anomaly () [-0.969, 1.511]}
 \item{species_cohort}{Species cohort () []}
 }
 }
@@ -19,7 +19,7 @@ A data frame with 229 rows and 3 variables:
 cciea_B_PR_ANOM
 }
 \description{
-Data from Point Blue Conservation Science collected on Southeast Farallon Island in collaboration with the Farallon Islands National Wildlife Refuge (USFWS); contact Dr. Jaime Jahncke (jjahncke@pointblue.org) before citing or distributing these data. Productivity anomaly is the annual mean number of chicks fledged per breeding pair per species minus the long term mean, which is calculated by averaging all of the annual means prior to the most recent year (for data from 1986 to 2018, the long term mean is calculated including data from 1986-2017.
+Data from Hatfield Marine Science Center Seabird Oceanography Lab Yaquina Head Seabird Studies; contact Robert Suryan (rob.suryan@oregonstate.edu) before citing or distributing these data.
 }
 \concept{dataset_erddap}
 \keyword{datasets}

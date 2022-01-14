@@ -1,7 +1,7 @@
 columns:
   time: time
-  index: location
-  values: aug_mean_max
-  error:
+  indices: location
+  metrics: aug_mean_max
+  errors:
   - Seup
   - Selo

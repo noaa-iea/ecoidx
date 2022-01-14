@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: vessel_category
-  values: average_ESI
-  error: []
+  indices: vessel_category
+  metrics: average_ESI
+  errors: []

@@ -5,7 +5,7 @@
 \alias{cciea_SM_ORWA_CO_CND}
 \title{Coho Condition, Oregon/Washington}
 \format{
-A data frame with 65 rows and 4 variables:
+A data frame with 187 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.262304E8, 1.3885344E9]}
 \item{population}{Population/Season () []}

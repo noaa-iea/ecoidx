@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: population
-  values: abundance_anomaly
-  error: []
+  indices: population
+  metrics: abundance_anomaly
+  errors: []

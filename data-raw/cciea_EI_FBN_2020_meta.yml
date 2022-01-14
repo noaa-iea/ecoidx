@@ -1,7 +1,7 @@
 columns:
   time: time
-  index: species_group
-  values: mean_density
-  error:
+  indices: species_group
+  metrics: mean_density
+  errors:
   - Seup
   - Selo

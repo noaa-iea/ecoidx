@@ -5,9 +5,9 @@
 \alias{cciea_EI_CRAB_FINF}
 \title{Finfish scavengers:total biomass ratio}
 \format{
-A data frame with 48 rows and 5 variables:
+A data frame with 204 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0413792E9, 1.5147648E9]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.0413792E9, 1.5463008E9]}
 \item{population}{Population () []}
 \item{biomass_ratio}{ () [0.03598382, 0.3129661]}
 \item{Seup}{Confidence Interval, Upper () [0.04058898, 0.4040344]}

@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: []
-  values: nph_area
-  error: []
+  indices: []
+  metrics: nph_area
+  errors: []

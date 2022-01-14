@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: []
-  values: ONI
-  error: []
+  indices: []
+  metrics: ONI
+  errors: []

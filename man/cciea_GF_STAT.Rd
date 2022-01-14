@@ -5,7 +5,7 @@
 \alias{cciea_GF_STAT}
 \title{Groundfish Stock Status}
 \format{
-A data frame with 3857 rows and 3 variables:
+A data frame with 7714 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-2.9663712E9, 1.4200704E9]}
 \item{species_group}{Species Group () []}

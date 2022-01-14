@@ -5,7 +5,7 @@
 \alias{cciea_OC_SL3}
 \title{Monthly Sea Level: San Diego CA (32.7N 117.2W)}
 \format{
-A data frame with 1320 rows and 7 variables:
+A data frame with 6571 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-2.0184768E9, 1.4501376E9]}
 \item{sea_level}{Sea Level (mm) [1766.71, 2282.7]}

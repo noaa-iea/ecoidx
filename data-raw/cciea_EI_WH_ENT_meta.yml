@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: species
-  values: number_of_entanglements
-  error: []
+  indices: species
+  metrics: number_of_entanglements
+  errors: []

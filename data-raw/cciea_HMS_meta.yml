@@ -1,7 +1,7 @@
 columns:
   time: time
-  index: []
-  values:
+  indices: []
+  metrics:
   - albacore_tuna_recruitment
   - albacore_tuna_recruitment_SEup
   - albacore_tuna_recruitment_SElo
@@ -70,4 +70,4 @@ columns:
   - yellowfin_tuna_spawning_stock_biomass_index_SEup
   - yellowfin_tuna_spawning_stock_biomass_index_SElo
   - yellowfin_tuna_spawning_stock_biomass_index_SEtype
-  error: []
+  errors: []

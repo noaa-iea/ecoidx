@@ -5,7 +5,7 @@
 \alias{cciea_AC_mn}
 \title{Monthly Mean Crab Landings 1990-2015}
 \format{
-A data frame with 12 rows and 4 variables:
+A data frame with 24 rows and 6 variables:
 \describe{
 \item{month}{ () []}
 \item{month_number}{ () [1, 12]}

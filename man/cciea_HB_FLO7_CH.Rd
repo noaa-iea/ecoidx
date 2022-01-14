@@ -5,12 +5,12 @@
 \alias{cciea_HB_FLO7_CH}
 \title{Streamflow - Annual 7-day minimum flow anomaly, Chinook ESU's}
 \format{
-A data frame with 608 rows and 5 variables:
+A data frame with 2560 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5147648E9]}
-\item{flow_anomaly_7_day_min}{Annual 7-day minimum flow anomaly (Annual Anomaly) [-1.380479, 2.903009]}
-\item{Seup}{Confidence Interval, Upper (Annual Anomaly) [-0.973741, 3.253027]}
-\item{Selo}{Confidence Interval, Lower (Annual Anomaly) [-1.796982, 2.552675]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [3.471552E8, 1.5778368E9]}
+\item{flow_anomaly_7_day_min}{Annual 7-day minimum flow anomaly (Annual Anomaly) [-1.466948, 2.954578]}
+\item{Seup}{Confidence Interval, Upper (Annual Anomaly) [-0.9782854, 3.31243]}
+\item{Selo}{Confidence Interval, Lower (Annual Anomaly) [-1.982343, 2.596406]}
 \item{location}{Location () []}
 }
 }

@@ -1,10 +1,10 @@
 columns:
   time: time
-  index: region
-  values:
+  indices: region
+  metrics:
   - heatwave_cover
   - intensity
   - distance
   - avedegday
   - avedegdayclim
-  error: []
+  errors: []

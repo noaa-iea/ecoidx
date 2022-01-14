@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: []
-  values: SST
-  error: []
+  indices: []
+  metrics: SST
+  errors: []

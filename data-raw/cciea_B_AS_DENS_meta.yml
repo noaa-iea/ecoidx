@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: species_cohort
-  values: density_anomaly
-  error: []
+  indices: species_cohort
+  metrics: density_anomaly
+  errors: []

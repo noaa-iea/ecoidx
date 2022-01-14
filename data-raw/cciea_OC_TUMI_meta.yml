@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: latitude
-  values: tumi
-  error: []
+  indices: latitude
+  metrics: tumi
+  errors: []

@@ -5,13 +5,13 @@
 \alias{cciea_EI_FBN}
 \title{Forage Biomass, California Current North}
 \format{
-A data frame with 238 rows and 5 variables:
+A data frame with 1088 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.836128E8, 1.5463008E9]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.836128E8, 1.5778368E9]}
 \item{species_group}{Species Group () []}
-\item{mean_density}{Mean Density (Linear density (Log10(no. km-1+ 1)).) [0.0, 1.9612]}
-\item{Seup}{Confidence Interval, Upper () [0.0, 2.099]}
-\item{Selo}{Confidence Interval, Lower () [-4.1E-4, 1.824]}
+\item{mean_density}{Mean Density (Linear density (Log10(no. km-1+ 1)).) [0.0, 1.963]}
+\item{Seup}{Confidence Interval, Upper () [0.0, 2.096]}
+\item{Selo}{Confidence Interval, Lower () [0.0, 1.83]}
 }
 }
 \source{

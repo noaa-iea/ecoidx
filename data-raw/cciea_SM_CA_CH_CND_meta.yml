@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: population
-  values: condition
-  error: []
+  indices: population
+  metrics: condition
+  errors: []

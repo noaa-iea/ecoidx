@@ -1,7 +1,7 @@
 columns:
   time: time
-  index: taxa
-  values:
+  indices: taxa
+  metrics:
   - abundance
   - abundance_error
   - richness
@@ -10,4 +10,4 @@ columns:
   - diversity_error
   - evenness
   - evenness_error
-  error: []
+  errors: []

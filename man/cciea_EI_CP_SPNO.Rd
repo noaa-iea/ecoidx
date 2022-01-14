@@ -5,7 +5,7 @@
 \alias{cciea_EI_CP_SPNO}
 \title{Coastal pelagics-Spp No}
 \format{
-A data frame with 15 rows and 2 variables:
+A data frame with 15 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.836128E8, 1.325376E9]}
 \item{species_number}{Species Number (No. of species) [2.530864, 4.763441]}

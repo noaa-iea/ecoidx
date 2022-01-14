@@ -5,7 +5,7 @@
 \alias{cciea_SM_CA_CH_CND}
 \title{Chinook Condition, California}
 \format{
-A data frame with 253 rows and 3 variables:
+A data frame with 506 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [0.0, 1.4516064E9]}
 \item{population}{Population () []}

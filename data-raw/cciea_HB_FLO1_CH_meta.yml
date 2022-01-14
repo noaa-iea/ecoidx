@@ -1,7 +1,7 @@
 columns:
   time: time
-  index: location
-  values: flow_anomaly_1_day_max
-  error:
+  indices: location
+  metrics: flow_anomaly_1_day_max
+  errors:
   - Seup
   - Selo

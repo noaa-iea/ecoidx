@@ -1,7 +1,7 @@
 columns:
   time: time
-  index: location
-  values: SWE_anomaly
-  error:
+  indices: location
+  metrics: SWE_anomaly
+  errors:
   - Seup
   - Selo

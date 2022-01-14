@@ -1,7 +1,7 @@
 columns:
   time: time
-  index: []
-  values:
+  indices: []
+  metrics:
   - consumption_fish
   - consumption_per_cap
   - cps_landings_ca
@@ -96,4 +96,4 @@ columns:
   - total_fisheries_revenue_coastwide
   - total_fisheries_revenue_or
   - total_fisheries_revenue_wa
-  error: []
+  errors: []

@@ -5,7 +5,7 @@
 \alias{newportDOArag}
 \title{Newport Hydrographic Line Dissolved Oxygen and Aragonite Saturation, NH05 and NH25}
 \format{
-A data frame with 332 rows and 9 variables:
+A data frame with 2656 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [9.019296E8, 1.5094944E9]}
 \item{station}{Station () []}

@@ -5,7 +5,7 @@
 \alias{cciea_OC_MHW_EV}
 \title{California Current Marine Heatwave Event List}
 \format{
-A data frame with 413 rows and 8 variables:
+A data frame with 2891 rows and 5 variables:
 \describe{
 \item{time}{Start time (seconds since 1970-01-01T00:00:00Z) [3.874176E8, 1.6003872E9]}
 \item{blob_id}{Blob Id () []}

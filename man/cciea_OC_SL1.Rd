@@ -5,7 +5,7 @@
 \alias{cciea_OC_SL1}
 \title{Monthly Sea Level: South Beach OR (44.6N 124.0W)}
 \format{
-A data frame with 588 rows and 7 variables:
+A data frame with 2930 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.34848E7, 1.4501376E9]}
 \item{sea_level}{Sea Level (mm) [2522.033, 3236.0]}

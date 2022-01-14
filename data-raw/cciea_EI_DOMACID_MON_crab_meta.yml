@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: region
-  values: domoic_acid_concentration
-  error: []
+  indices: region
+  metrics: domoic_acid_concentration
+  errors: []

@@ -5,11 +5,11 @@
 \alias{cciea_EI_FBS}
 \title{Forage Biomass, California Current South}
 \format{
-A data frame with 350 rows and 3 variables:
+A data frame with 495 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [2.524608E8, 1.5463008E9]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.836128E8, 1.5778368E9]}
 \item{species_group}{Species Group () []}
-\item{relative_abundance}{Relative abundance (ln(abundance+1)) [0.0, 4.627175]}
+\item{relative_abundance}{Relative abundance (ln(abundance+1)) [0.0, 10.48216]}
 }
 }
 \source{

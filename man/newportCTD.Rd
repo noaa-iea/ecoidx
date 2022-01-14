@@ -5,7 +5,7 @@
 \alias{newportCTD}
 \title{Newport Hydrographic Line CTD Data, NH05 and NH25}
 \format{
-A data frame with 114299 rows and 10 variables:
+A data frame with 1002090 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.589024E8, 1.5099264E9]}
 \item{station}{Station () []}

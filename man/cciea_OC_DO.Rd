@@ -5,7 +5,7 @@
 \alias{cciea_OC_DO}
 \title{Dissolved Oxygen}
 \format{
-A data frame with 4260 rows and 3 variables:
+A data frame with 5401 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-6.31152E8, 1.6067808E9]}
 \item{location}{Location () []}

@@ -5,9 +5,9 @@
 \alias{cciea_OC_NPH}
 \title{North Pacific High Area}
 \format{
-A data frame with 644 rows and 2 variables:
+A data frame with 652 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.59624E9]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.6172352E9]}
 \item{nph_area}{Monthly North Pacific High Area (10^6 km^2) [0.0, 7.810526]}
 }
 }

@@ -1,9 +1,9 @@
 columns:
   time: time
-  index:
+  indices:
   - site
   - county
   - region
   - species
-  values: domoic_acid_concentration
-  error: []
+  metrics: domoic_acid_concentration
+  errors: []

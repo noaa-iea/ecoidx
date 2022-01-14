@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: []
-  values: MEI
-  error: []
+  indices: []
+  metrics: MEI
+  errors: []

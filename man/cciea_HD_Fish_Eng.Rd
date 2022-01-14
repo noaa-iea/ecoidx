@@ -5,10 +5,10 @@
 \alias{cciea_HD_Fish_Eng}
 \title{Commercial Fishing Engagement Index}
 \format{
-A data frame with 455 rows and 4 variables:
+A data frame with 1457 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.1045376E9, 1.4832288E9]}
-\item{fishing_engagement}{Commercial fishing engagement index (Index) [-0.19823, 16.83776]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [1.1045376E9, 1.5147648E9]}
+\item{fishing_engagement}{Commercial fishing engagement index (Index) [-0.19823, 18.59184]}
 \item{location}{Location () []}
 \item{region}{Region () []}
 }

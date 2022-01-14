@@ -5,7 +5,7 @@
 \alias{cciea_OC_SL2}
 \title{Monthly Sea Level: San Francisco CA (37.8N 122.5W)}
 \format{
-A data frame with 1392 rows and 7 variables:
+A data frame with 6950 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-2.2077792E9, 1.4501376E9]}
 \item{sea_level}{Sea Level (mm) [2466.067, 3081.964]}

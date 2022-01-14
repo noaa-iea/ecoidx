@@ -1,7 +1,7 @@
 columns:
   time: time
-  index:
+  indices:
   - location
   - region
-  values: fishing_engagement
-  error: []
+  metrics: fishing_engagement
+  errors: []

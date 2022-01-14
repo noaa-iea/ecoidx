@@ -1,5 +1,5 @@
 columns:
   time: time
-  index: []
-  values: fork_length
-  error: []
+  indices: []
+  metrics: fork_length
+  errors: []

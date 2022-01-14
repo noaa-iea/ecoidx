@@ -5,7 +5,7 @@
 \alias{cciea_OC_CBAN}
 \title{Northern copepod biomass anomaly 44.6N}
 \format{
-A data frame with 213 rows and 2 variables:
+A data frame with 213 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [8.309088E8, 1.4148E9]}
 \item{biomass_anomaly}{Biomass Anomaly () [-1.541188, 1.013472]}

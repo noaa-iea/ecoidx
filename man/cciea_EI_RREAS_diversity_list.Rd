@@ -5,7 +5,7 @@
 \alias{cciea_EI_RREAS_diversity_list}
 \title{Rockfish Recruitment and Ecosystem Assessement Survey, Biodiversity: CCIEA format}
 \format{
-A data frame with 348 rows and 7 variables:
+A data frame with 2088 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [6.31152E8, 1.5147648E9]}
 \item{metric}{ () []}

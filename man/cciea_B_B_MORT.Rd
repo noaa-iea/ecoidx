@@ -5,9 +5,9 @@
 \alias{cciea_B_B_MORT}
 \title{Seabird beached mortality}
 \format{
-A data frame with 527 rows and 3 variables:
+A data frame with 876 rows and 5 variables:
 \describe{
-\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [7.573824E8, 1.5463008E9]}
+\item{time}{Time (seconds since 1970-01-01T00:00:00Z) [7.573824E8, 1.5778368E9]}
 \item{encounter_rate}{Encounter Rate () [0.0, 31.652]}
 \item{species_cohort}{Species (region, season) () []}
 }

@@ -5,7 +5,7 @@
 \alias{cciea_MM_cetacean}
 \title{California Current Cetacean Abundance}
 \format{
-A data frame with 102 rows and 7 variables:
+A data frame with 402 rows and 5 variables:
 \describe{
 \item{time}{Time (seconds since 1970-01-01T00:00:00Z) [-9.46944E7, 1.4832288E9]}
 \item{abundance}{Abundance () [71.0, 1427576.0]}
